@@ -1,0 +1,156 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">24 February 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Security researchers just "shattered" SHA-1 hashing algorithm</mj-text>
+          <mj-image src="https://betanews.com/wp-content/uploads/2017/02/shattered-sha-1-collision.jpg"></mj-image>
+          <mj-text color="#fff">This industry cryptographic hash function standard is used for digital signatures and file integrity verification, and protects a wide spectrum of digital assets, including credit card transactions, electronic documents, Git commits, and software updates.</mj-text>
+          <mj-text color="#fff">For example, by crafting the two colliding PDF files as two rental agreements with different rent, it is possible to trick someone to create a valid signature for a high-rent contract by having him or her sign a low-rent contract.</mj-text>
+          <mj-text color="#fff"><strong>Researchers hope their practical attack on SHA-1 will increase awareness and convince the industry to quickly move to safer alteratives, such as SHA-256.</strong></mj-text>
+          <mj-button background-color="#fff" color="#00a8df" href="https://shattered.io/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">PHP Becomes First Programming Language to Add Modern Cryptography Library in Its Core</mj-text>
+          <mj-image src="https://camo.githubusercontent.com/ca6e4e672fc80a77d378b8ad26b9bf5ff2100499/68747470733a2f2f7261772e6769746875622e636f6d2f6a656469736374312f6c6962736f6469756d2f6d61737465722f6c6f676f2e706e67"></mj-image>
+          <mj-text>The PHP team has unanimously voted to integrate the Libsodium library in the PHP core, and by doing so, becoming the first programming language to support a modern cryptography library by default.</mj-text>
+          <mj-text>The proposal to embed Libsodium (also known as Sodium) into the PHP standard library came from Scott Arciszewski, Chief Development Officer at Paragon Initiative Enterprises, a man that has campaigned for stronger cryptography in PHP CMSes in the past.</mj-text>
+          <mj-button background-color="#E72B78" href="https://www.bleepingcomputer.com/news/security/php-becomes-first-programming-language-to-add-modern-cryptography-library-in-its-core/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Cloudflare server errors blamed for leaked customer data</mj-text>
+          <mj-image src="http://images.techhive.com/images/article/2013/03/cloudfare-logo-100027738-large.jpg"></mj-image>
+          <mj-text>While working on something completely unrelated, Google security researcher, Tavis Ormandy, recently discovered that Cloudflare was leaking a wide range of sensitive information, which could have included everything from cookies and tokens, to credentials.</mj-text>
+          <mj-text>Cloudflare moved quickly to fix things, but their postmortem downplays the risk to customers, Ormandy said. The problem on Cloudflare's side, which impacted big brands like Uber, Fitbit, 1Password, and OKCupid, was a memory leak. The flaw resulted in the exposure of "HTTP cookies, authentication tokens, HTTP POST bodies, and other sensitive data," Cloudflare said.</mj-text>
+          <mj-button background-color="#2ea836" href="http://www.csoonline.com/article/3173639/security/bleeding-clouds-cloudflare-server-errors-blamed-for-leaked-customer-data.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">s2n, Amazon's open-sourced TLS implementation, is now handling 100% of SSL traffic for Amazon S3</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2015/07/s2n-1200.png"></mj-image>
+          <mj-text>In June 2015, Amazon introduced s2n, an open-source implementation of the TLS encryption protocol, making the source code publicly available under the terms of the Apache Software License 2.0 from the s2n GitHub repository. One of the key benefits to s2n is far less code surface, with approximately 6,000 lines of code (compared to OpenSSL’s approximately 500,000 lines).</mj-text>
+          <mj-text>Today, we’ve achieved another important milestone for securing customer data: we have replaced OpenSSL with s2n for all internal and external SSL traffic in Amazon Simple Storage Service (Amazon S3) commercial regions.</mj-text>
+          <mj-button background-color="#F39000" href="https://aws.amazon.com/blogs/security/s2n-is-now-handling-100-percent-of-of-ssl-traffic-for-amazon-s3/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">The new "SameSite" cookie headers enables new way to fight against CSRF (Cross-Site Request Forgery)</mj-text>
+          <mj-image src="http://infocarnivore.com/wp-content/uploads/2010/08/cookies.jpg"></mj-image>
+          <mj-text>Cross-Site Request Forgery, also known as CSRF or XSRF, has been around basically forever. It stems from the simple capability that a site has to issue a request to another site. </mj-text>
+          <mj-text>Essentially, Same-Site Cookies completely and effectively neutralise CSRF attacks.Enabling this attribute on the cookie will instruct the browser to afford this cookie certain protections. There are two modes that you can enable this protection in, Strict or Lax. Strict forbids the browser to attach cookie for any cross-site request, while lax allows it for "safe" requests such as GET.</mj-text>
+          <mj-button background-color="#992785" href="https://scotthelme.co.uk/csrf-is-dead/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Data Selfie reveals how Facebook's AI tracks and studies your activity</mj-text>
+          <mj-image src="https://fossbytes.com/wp-content/uploads/2017/02/data-selfie-facebook-tracking-tool-640x360.jpg"></mj-image>
+          <mj-text>Have you ever wondered how Facebook collects all the data it has to feed you with the content it presumes you’ll like and keep you coming back for more? Well, now there’s an app that can answer these questions.</mj-text>
+          <mj-text>Available for free, Data Selfie is an open-source Chrome extension that helps you discover how machine learning algorithms track and process your Facebook activity, and gain insights about your personality and habits. To prevent ill-intended individuals from obtaining the information it collects about you, Data Selfie keeps your data locally – only on your own machine – and never stores anything on external servers.</mj-text>
+          <mj-button background-color="#00a5de" href="https://thenextweb.com/facebook/2017/02/17/facebook-chrome-track-data-selfie/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">How Cyber attacks work</mj-text>
+          <mj-image src="http://millennialsd.com/wp-content/uploads/sites/8/2016/09/internet-of-things-blog-image.png"></mj-image>
+          <mj-text>Cyber attacks are malicious Internet operations launched mostly by criminal organizations looking to steal money, financial data, intellectual property or simply disrupt the operations of a certain company.</mj-text>
+          <mj-text>In this article, the author explores the types of attacks used by cybercriminals to drive up such a huge figure, and also helps you understand how they work and affect you.</mj-text>
+          <mj-button background-color="#E72B78" href="https://heimdalsecurity.com/blog/cyber-attack/">
+            Read More
+          </mj-button>
+
+          <!-- end articles -->
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

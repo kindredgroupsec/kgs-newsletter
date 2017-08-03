@@ -1,0 +1,163 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">3 March 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Removing User Admin Rights Mitigates 94% of All Critical Microsoft Vulnerabilities!</mj-text>
+          <mj-image src="http://blog.coretech.dk/wp-content/uploads/2014-09-26-13_40_16-WIN-8.1-BUILD-GEN1-on-CTHRA-W530-Virtual-Machine-Connection.png"></mj-image>
+          <mj-text color="#fff">Just by preventing access to admin accounts, a system administrator could safeguard all the computers under his watch and prevent attackers from exploiting 94% of all the critical vulnerabilities Microsoft patched during the past year.</mj-text>
+          <mj-text color="#fff">Even more interesting is that the Avecto 2016 report highlights that if sysadmins had forced users to utilize a low-privileged account instead of an admin-level profile, they would have mitigated 100% of all critical Internet Explorer and Microsoft Edge browser vulnerabilities patched during the past year.</mj-text>
+          <mj-text color="#fff">What this growth from 86% to 94% means is that the security of Microsoft products is getting better, <strong>if users would only start following industry best practices and stop using admin accounts for daily work.</strong></mj-text>
+          <mj-button background-color="#fff" color="#00a8df" href="https://www.bleepingcomputer.com/news/microsoft/removing-user-admin-rights-mitigates-94-percent-of-all-critical-microsoft-vulnerabilities/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Phishing and HTTPS: Don't trust the "green lock"</mj-text>
+          <mj-image src="https://textplain.files.wordpress.com/2017/01/image46.png"></mj-image>
+          <mj-text>One unfortunate (albeit entirely predictable) consequence of making HTTPS certificates “fast, open, automated, and free” is that both good guys and bad guys alike will take advantage of the offer and obtain HTTPS certificates for their websites.</mj-text>
+          <mj-text>By December 8, 2016, LetsEncrypt had issued 409 certificates containing “Paypal” in the hostname; that number is up to 709 as of this morning. Other targets include BankOfAmerica (14 certificates), Apple, Amazon, American Express, Chase Bank, Microsoft, Google, and many other major brands. </mj-text>
+          <mj-text>We’ve had literally decades of sites and “experts” telling users to “Look for the lock!” when deciding whether a site is to be trusted. This has never been a reliable indicator, and this is now counter-productive. The "green lock" or the "secure" text on the left of the URL only means one thing: The connection between your browser and the server is encrypted. That's it.</mj-text>
+          <mj-button background-color="#E72B78" href="https://textslashplain.com/2017/01/16/certified-malice">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">WordPress Plugin with over 1 Million installs Vulnerable to SQL Injection Attack</mj-text>
+          <mj-image src="http://www.spin-interactive.com/wp-content/uploads/2016/03/Wordpress_Security_-_Prevent_your_WordPress_Website_from_Getting_Hacked.jpg"></mj-image>
+          <mj-text>A web security firm- Sucuri discovered that the NextGen gallery for WordPress (WP) is affected by a severe SQL injection vulnerability and attackers can access the targeted website’s database within minutes including all the sensitive data.</mj-text>
+          <mj-text>Although this is a vulnerability in WordPress plugin, the CMS itself is not much secure either. Last month security researchers at Sucuri discovered a severe content injection vulnerability in WordPress that would let attackers edit content on the WP based website.</mj-text>
+          <mj-text><strong>It must be noted that days after the vulnerability was exposed hackers defaced thousands of WP websites. So in case, your are running a website on WP make sure to update your CMS to the latest version and same goes for the plugins.</strong></mj-text>
+          <mj-button background-color="#2ea836" href="https://www.hackread.com/wordpress-nextgen-gallery-sql-injection-attack/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Slack bug paved the way for a hack that can steal user access</mj-text>
+          <mj-image src="http://images.techhive.com/images/article/2017/03/slack_bug-100711703-large.jpg"></mj-image>
+          <mj-text>One bug in Slack, the popular work chat application, was enough for a security researcher to design a hack that could trick users into handing over access to their accounts.Bug bounty hunter Frans Rosen noticed he could steal Slack access tokens to user accounts due to a flaw in the way the application communicates data in an internet browser.</mj-text>
+          <mj-text>He demonstrated the theoretical hack in a <a href="http://detectify-labs.s3.amazonaws.com/slack-postmessage/slack-token-stealing.mp4">video</a>. The malicious webpage will open a Slack window that then forces a victim’s account to handover its access token. Fortunately, Slack has now fixed the issue. </mj-text>
+          <mj-button background-color="#F39000" href="http://www.csoonline.com/article/3176599/security/slack-bug-paved-the-way-for-a-hack-that-can-steal-user-access.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Researcher Breaks reCAPTCHA Using Google's Speech Recognition API</mj-text>
+          <mj-image src="https://trtpost-wpengine.netdna-ssl.com/files/2017/03/Threatpost_-reCaptcha-V2_Audio_challenge.png"></mj-image>
+          <mj-text>The attack is simple, but that doesn't mean that it is not capable. In very short terms, it takes the audio Captcha challenge from Google, runs it through Google's voice recognition technology and throws it back as a response.</mj-text>
+
+          <mj-text>This vulnerability is a good example of attackers always looking for the weakest link and targeting it. While Google standard CAPTCHA test is considered robust, the accessibility feature for people with visual impairment is weaker and that's what the hacker exploited.</mj-text>
+
+          <mj-text>Will the new <a href="https://www.google.com/recaptcha/intro/comingsoon/invisible.html">Invisible ReCaptcha</a> also find a way to solve this issue? We'll see!</mj-text>
+          <mj-button background-color="#992785" href="http://news.softpedia.com/news/google-recaptcha-cracked-in-new-automated-attack-502677.shtml">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">AWS says a typo caused the massive 11-hours s3 failure this week</mj-text>
+          <mj-image src="http://cdn4.quintetsolutions.com/img/services/solutions/Amazon_web_services_S3.jpg"></mj-image>
+          <mj-text>Other Amazon services in the US-EAST-1 region that rely on S3, like Elastic Block Store, Lambda, and the new instance launch for the Elastic Compute Cloud infrastructure-as-a-service offering were all impacted by the outage. The outage affected the likes of Netflix, Reddit, Adobe, and Imgur. More than half of the top 100 online retail sites experienced slower load times during the outage, website monitoring service Apica said.</mj-text>
+          <mj-text>As it turns out, Amazon hasn't fully restarted those systems in its larger regions for several years, and S3 has experienced massive growth in the intervening time.In response to this incident, AWS is making several changes to its internal tools and processes.</mj-text>
+          <mj-text>This event stresses out the importance of having multi-regions redundancy on critical cloud services.</mj-text>
+          <mj-button background-color="#00a5de" href="http://www.csoonline.com/article/3176049/cloud-computing/aws-says-a-typo-caused-the-massive-s3-failure-this-week.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Researchers Find 26 Security Flaws in 9 Popular Android Password Managers</mj-text>
+          <mj-image src="https://www.howtogeek.com/wp-content/uploads/2016/01/img_56a975c611cd4.jpg"></mj-image>
+          <mj-text>While finding flaws in security tools is always worrying, please keep in mind that most of the high severity flaws require physical access to your smartphone to be exploited. Using this long, complex, unique passwords and storing them in this kind of encrypted vaults is still way better than relying on your memory alone, and hence falling back to short, simple, reused passwords to protect your accounts.</mj-text>
+          <mj-text>The list of tested apps includes MyPasswords,  Informaticore, LastPass, Keeper, F-Secure Key, Dashlane, Hide Pictures Keep Safe Vault, Avast Passwords, and 1Password. All tested apps were installed on at least 500,000 devices, with some apps having millions of users.</mj-text>
+          <mj-text>All found issues have now been fixed.</mj-text>
+          <mj-button background-color="#E72B78" href="https://www.bleepingcomputer.com/news/security/researchers-find-26-security-flaws-in-9-popular-android-password-managers/">
+            Read More
+          </mj-button>
+
+          <!-- end articles -->
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

@@ -1,0 +1,207 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">31 July 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Sweden Accidentally Leaks Personal Details of Nearly All Citizens</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/07/23/Sweden.jpg"></mj-image>
+          <mj-text color="#fff">Swedish media is reporting of a massive data breach in the Swedish Transport Agency (Transportstyrelsen) after the agency mishandled a deal with IBM, to outsource database and IT service management. IBM, which in turn outsourced the operations to countries in eastern Europe, with the result that “foreign staff had responsibility for Swedish classified information”.</mj-text>
+          <mj-text color="#fff">What’s do we know about what’s been exposed? The agency has information on all vehicles in Sweden, including some, but not all military vehicles. It also is the depository for the nation’s driver’s license data, including photos – which also happens to include individuals under protective order, and those of undercover law enforcement workers.  Additionally, the nation’s infrastructure data with respect to roads, ports, air, rail, etc., is under its sway</mj-text>
+          <mj-text color="#fff">Although the data breach happened in 2015, Swedish Secret Service discovered it in 2016 and started investigating the incident, which led to the fire of STA director-general Maria Ågren in January 2017. Ågren was also fined half a month's pay (70,000 Swedish krona which equals to $8,500) after finding her guilty of being "careless with secret information," according to the publication. What's the worrying part? The leaked database may not be secured until the fall, said the agency's new director-general Jonas Bjelfvenstam. The investigation into the scope of the leak is still ongoing.</mj-text>
+          <mj-text color="#fff">The Swedish prime minister has admitted that the leak of the confidential data of millions of Swedes as a result of the country’s transport agency outsourcing operations to third party contractors is “a disaster”. Speaking in Stockholm on Monday, Stefan Löfven also confirmed that he had known about the leak since January, with other ministers being aware of it as long as 18 months ago</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2017/07/25/swedish-pm-admits-that-huge-data-leak-is-a-disaster/amp/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/biggest-data-leak-in-swedens-history-punished-with-half-a-months-paycheck/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Passwords Evolved: Authentication Guidance for the Modern Era</mj-text>
+          <mj-image src="https://www.troyhunt.com/content/images/2017/07/Allow-users-to-securely-record-and-store-their-passwords.png"></mj-image>
+          <mj-text>In the beginning, things were simple: you had two strings (a username and a password) and if someone knew both of them, they could log in. Easy.</mj-text>
+          <mj-text>A couple of months ago, Troy Hunt wrote about Password reuse, credential stuffing and another billion records in Have I been pwned (HIBP). That presents a very interesting challenge: how do we defend against this? I mean you're trying to run your online system and someone has valid credentials for some of your users, how are you going to stop them from getting in? The simple string matching of the 60's just isn't going to cut it.</mj-text>
+          <mj-text>There's a lot more to how authentication has evolved than just the rise and rise of credential stuffing though, many other aspects of how we logon to systems has also changed. In some cases, this has led to once-held "truths" about how we create and manage accounts to be totally flipped on their head, yet we still see modern organisations applying the patterns of yesterday to the threats of today.</mj-text>
+          <mj-text>This post tries to address this gap and talk about how we should be designing this critical part of our systems today. Hope is that in times where a company says "we're doing this screwy thing because security", this post becomes a resource that well-wishers direct them to.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.troyhunt.com/passwords-evolved-authentication-guidance-for-the-modern-era/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">How To Protect Your Users With The Privacy By Design Framework</mj-text>
+          <mj-image src="https://www.smashingmagazine.com/wp-content/uploads/2017/07/privacy-by-design-800.png"></mj-image>
+          <mj-text>In these politically uncertain times, developers can help to defend their users’ personal privacy by adopting the Privacy by Design (PbD) framework. These common-sense steps will become a requirement under the EU’s imminent data protection overhaul, but the benefits of the framework go far beyond legal compliance.</mj-text>
+          <mj-text>PbD has existed as a best-practice framework since the 1990s, but few developers are aware of it, let alone use it. That’s about to change. The EU’s data protection overhaul, GDPR, which becomes legally enforceable in May 2018, requires privacy by design as well as data protection by default across all uses and applications.</mj-text>
+          <mj-text>As with the previous EU data protection regime, any developer serving European customers must adhere to these data protection standards even if they themselves are not located in Europe. So, if you do business in or sell to Europe, privacy by design is now your responsibility.</mj-text>
+          <mj-text>This presents a monumental opportunity for developers everywhere to rethink their approach to privacy. Let’s learn what PbD is and how it works.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.smashingmagazine.com/2017/07/privacy-by-design-framework/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Biometric Authentication Overview, Advantages & Disadvantages</mj-text>
+          <mj-image src="https://heimdalsecurity.com/blog/wp-content/uploads/optical-fingerprint-scanner-1024x681.jpg"></mj-image>
+          <mj-text>Biometric authentication works by comparing two sets of data: the first one is presented by the owner of the device, while the second one belongs to a device visitor. If the two data are nearly identical, the device knows that “visitor” and “owner” are one and the same, and gives access to the person.</mj-text>
+          <mj-text>Biometric seem to be everywhere these days. Consumer preference has turned the technology into a must-have for the modern smartphone or laptop. Fingerprint readers, face recognition or iris scanners are the most immediate examples, but researchers and engineers want to create even more clever solutions such as voice recognition. Some methods are pattern based and learn how you hold your phone or type at a keyboard.</mj-text>
+          <mj-text>Whichever way you look at it, the tech is here to stay. The real question however is, how effective is biometric authentication when it comes to keeping you safe?</mj-text>
+          <mj-button mj-class="bg-orange" href="https://heimdalsecurity.com/blog/biometric-authentication/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">32M Becomes First-Ever Company to Implant Micro-Chips in Employees</mj-text>
+          <mj-image src="http://www.toptechnews.com/images/super/larger-17-ThreeSquareMarket-32M-microchip1.jpg"></mj-image>
+          <mj-text>A Wisconsin company is offering its employees the opportunity to have a microchip implanted in them. The microchips utilize Radio-Frequency Identification (RFID) technology, which can identify nearby electronically stored information through electromagnetic fields — much like contactless credit cards and mobile payment systems.</mj-text>
+          <mj-text>More than 50 employees are expected to have the chip lodged into the area between the thumb and the index finger. Not only does 32M want the microchips to eventually be used for accessing secured rooms and activating printers, it also hopes it can be used for making purchases at their software powered kiosks.</mj-text>
+          <mj-text>While the Biometric information and technology are experiencing an increase in popularity, it also raises widespread concerns around the safety and privacy of people adopting it. Hackers could misuse the technology used to provide easiness to the public against the public itself, and one should not forget that with the advance in technology, the techniques used by cyber criminals also improves.</mj-text>
+          <mj-button mj-class="bg-purple" href="http://dailycaller.com/2017/07/24/american-tech-company-to-implant-employees-with-microchips/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="http://thehackernews.com/2017/07/biohacking-microchip-implant.html?m=1">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Kaspersky Lab releases free antivirus software in global push</mj-text>
+          <mj-image src="https://d1srlirzdlmpew.cloudfront.net/wp-content/uploads/sites/92/2017/07/25104528/kaspersky-free-goes-global-1.png"></mj-image>
+          <mj-text>Amid every increasing suspicion that Kaspersky is in bed with the Russian government, comes the launch of Kaspersky Free – a free version of the software that was made available across the globe immediately. The free version of its anti-virus software is now available in United States, Canada, and several Asia Pacific countries with it being launched in the remaining territories in the coming months.</mj-text>
+          <mj-text>Kaspersky has said that the free version of its security software is not meant to act as a full-fledged anti-virus solution since it only offers the bare essential features like email and web antivirus protection and automatic updates and lacks VPN, Parental Controls and Online Payment Protection.</mj-text>
+          <mj-text>Founded in 1997, the company has grown into becoming one of the top anti-virus software companies in the world. Through this rise though,the company has also faced questions regarding their relations with Russia’s Federal Security Service or FSB (the successor to the KGB). Maybe the launch of a free version is the company’s attempt to win back some of the lost faith.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.techworm.net/2017/07/kaspersky-lab-releases-free-antivirus-software.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://www.kaspersky.com/blog/kaspersky-free-goes-global/17811/">
+            Official announcement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">How Hackers Cash Out Thousands of Bitcoins Received in Ransomware Attacks</mj-text>
+          <mj-image src="https://2.bp.blogspot.com/-4kN8dOvtjt8/WXr6Dhssl8I/AAAAAAAAt08/TxaTNOp86786IAHrgJA3KhuT9HHZ33f0wCLcBGAs/s1600/trace-bitcoin-transactions.png"></mj-image>
+          <mj-text>Digital currencies have emerged as a favourite tool for hackers and cyber criminals, as digital currency transactions are nearly anonymous, allowing cyber criminals to use it in underground markets for illegal trading, and to receive thousands of dollars in ransomware attacks—WannaCry, Petya, LeakerLocker, Locky and Cerber to name a few.</mj-text>
+          <mj-text>It's obvious that after ripping off hundreds of thousands of cryptocurrencies from exchanges, wallets and ransomware victims, cyber criminals would not hold them in just digital form—the next step is to cash them out into real-world money. According to a recent research paper presented by three Google researchers, more than 95% of all Bitcoin payments collected from ransomware victims have been cashed out via a Russian cryptocurrency exchange, called BTC-e, since 2014.</mj-text>
+          <mj-text>Interestingly, just two days before Google presentation, one of the founders of BTC-e exchange, Alexander Vinnik, was arrested by Greek police on charges of laundering over $4 Billion in Bitcoin for culprits. The cryptocurrency exchange is believed to have been involved in cashing out Bitcoins stolen from the once-very popular Japanese bitcoin exchange Mt. Gox, which was shut down in 2014 following a massive series of mysterious robberies.</mj-text>
+          <mj-button mj-class="bg-pink" href="http://thehackernews.com/2017/07/cashout-bitcoin-ransomware.html">
+            Read More
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

@@ -1,0 +1,207 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">27 June 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Stack Clash: A Decade Old Unix/Linux/BSD Root Privilege-Escalation Bug Discovered</mj-text>
+          <mj-image src="https://4.bp.blogspot.com/-F4sGd9cKdFc/WUjOQRDFDXI/AAAAAAAAtOo/96hc9Yfokwgpf4jpj6mwp8vpJs6Rh5ByACLcBGAs/s1600/Stack-Clash-Privilege-Escalation-Vulnerability.png"></mj-image>
+          <mj-text color="#fff">Security researchers have discovered more than a decade-old vulnerability in several Unix-based operating systems — including Linux, OpenBSD, NetBSD, FreeBSD and Solaris — which can be exploited by attackers to escalate their privileges to root, potentially leading to a full system takeover.</mj-text>
+          <mj-text color="#fff">Each program uses a special memory region called the stack, which is used to store short-term data. It expands and contracts automatically during the execution of any program. A malicious program can attempt to use more memory space than available on the stack, which could overflow the memory, causing it to collide or clash with nearby memory regions and overwrite their content.</mj-text>
+          <mj-text color="#fff">Moreover, the Stack Clash exploit can also bypass the stack guard-page, a memory management protection introduced in 2010, after this issue was exploited in 2005 and 2010. The Stack Clash vulnerability requires local access to the vulnerable system for exploitation. Attackers can also combine the Stack Clash bug with other critical vulnerabilities, like the Sudo vulnerability recently patched, and then run arbitrary code with the highest privileges, said Qualys researchers.</mj-text>
+          <mj-text color="#fff">Many affected vendors have already issued security patches for the bug, so users and administrators are advised to install patches a soon as possible. It is also recommended to recompile all userland code (ld.so, libraries, binaries) with the –fstack-check feature. This would prevent the stack pointer from moving into another memory region without accessing the stack guard-page and would kill Stack Clash dead.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="http://thehackernews.com/2017/06/linux-root-privilege-escalation.html">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.qualys.com/2017/06/19/stack-clash/stack-clash.txt">
+            Technical Advisory
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Deep Root: what can we learn from the GOP’s data leak?</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/06/shutterstock_286180904.jpg"></mj-image>
+          <mj-text>The US Republicans political party's data analytic contractor, Deep Root Analytics, had stored 25 terabytes (TB) of data in the cloud, of which 1.1TB were available for harvesting by anyone who found the links.</mj-text>
+          <mj-text> secure data in the cloud is only secure if you secure it. Few take the time to ensure that the data they heave by the terabytes into the cloud are adequately protected. Deep Root used Amazon Web Services (AWS) for storage.</mj-text>
+          <mj-text>According to a survey by Threat Stack, 73% of companies (out of 200 companies surveyed) had security misconfigurations within AWS that would leave “SSH wide open to the internet”. The same survey found that 62% of companies were not using multifactor authentication for users accessing AWS data stores.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2017/06/22/deep-root-what-can-we-learn-from-the-gops-data-leak/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Euro MPs back end-to-end encryption for all citizens</mj-text>
+          <mj-image src="https://assets.euractiv.com/lazy-load/img/crop/16x9/666.65625/https://www.euractiv.com/wp-content/uploads/sites/2/2016/04/European_Parliament_Strasbourg_CREDITEuropean-Parliament.jpg"></mj-image>
+          <mj-text>A European Parliament committee is proposing that end-to-end encryption be enforced on all forms of digital communications to protect citizens. The draft legislation seeks to protect sensitive personal data from hacking and government surveillance. A ban on "backdoors" into encrypted messaging apps like WhatsApp and Telegram is also being considered.</mj-text>
+          <mj-text>During the UK's recent election campaign, the Conservative Party said that tech firms should provide the authorities "access to information as required" to help combat online radicalisation. However, cyber-security experts warn that criminals can still find a way to protect their communications, even if end-to-end encryption is banned.</mj-text>
+          <mj-text>End-to-end encryption means the company providing the service does not have access to the key, meaning it cannot "listen in" to what is being shared - giving the sender and recipient added confidence in the privacy of their conversation.</mj-text>
+          <mj-button mj-class="bg-green" href="http://www.bbc.com/news/technology-40326544">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Is Continuing to Patch Windows XP a Mistake?</mj-text>
+          <mj-image src="http://www.dosgamers.com/uploads/images/original/windowsxp.jpg"></mj-image>
+          <mj-text>Recently, Microsoft issued a security patch for Windows XP, a 16-year-old operating system that Microsoft officially no longer supports. Last month, Microsoft issued a Windows XP patch for the vulnerability used in WannaCry.</mj-text>
+          <mj-text>The company had three ways it could respond. It could have done nothing­ -- stuck to its guns, maintained that the end of support means the end of support, and encouraged people to move to a different platform. It could also have relented entirely, extended Windows XP's support life cycle for another few years and waited for attrition to shrink Windows XP's userbase to irrelevant levels. Or it could have claimed that this case is somehow "special," releasing a patch while still claiming that Windows XP isn't supported.</mj-text>
+          <mj-text>None of these options is perfect. A hard-line approach to the end-of-life means that there are people being exploited that Microsoft refuses to help. A complete about-turn means that Windows XP will take even longer to flush out of the market, making it a continued headache for developers and administrators alike.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.schneier.com/blog/archives/2017/06/is_continuing_t.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">New GhostHook Attack Bypasses Windows 10 PatchGuard Protections</mj-text>
+          <mj-image src="https://2.bp.blogspot.com/-pCc1tVq2YJk/WUyZJlVDuxI/AAAAAAAAtTk/uvsCBqRnPFkZ0SmclvT_QELkdGeJq0isACLcBGAs/s1600/ghosthook-windows-10-hacking.png"></mj-image>
+          <mj-text>PatchGuard, known under its official name of Kernel Patch Protection (KPP), is a security feature for Windows 64-bit editions that prevents third-party code from patching the Windows kernel with additional routines. Microsoft introduced PatchGuard in 2005, starting with Windows XP, and the feature has prevented most rootkits from working on 64-bit editions.</mj-text>
+          <mj-text>Security researchers from CyberArk published research on a new technique named GhostHook that successfully bypasses PatchGuard using a feature of Intel CPUs, which allows an attacker to plant rootkits on systems previously thought to be impregnable.</mj-text>
+          <mj-text>Microsoft declined to issue a security update. Microsoft said it might patch the issue during its regular bug fixing cycle, but would not treat GhostHook as a security flaw. Microsoft justified its decision by saying that an attacker needs to have kernel-level access on an infected machine to perform a GhostHook attack. An attacker with kernel-level rights could perform many other malicious actions, and users should focus on preventing an attacker from gaining this much level of access in the first place.</mj-text>
+          <mj-text>The real problem is that attackers have a technique at their disposal to implant rootkits on platforms they did not have access in past years. Currently, 64-bit malware makes up less than 1% of the entire malware landscape, and PatchGuard was one of the reasons that helped keep 64-bit versions secure and harder to infect.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://www.bleepingcomputer.com/news/security/new-ghosthook-attack-bypasses-windows-patchguard-protections/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="https://www.cyberark.com/threat-research-blog/ghosthook-bypassing-patchguard-processor-trace-based-hooking/">
+            Technical advisory
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Critical RCE Flaw Found in OpenVPN that Escaped Two Recent Security Audits</mj-text>
+          <mj-image src="https://labs.chiedo.com/blog/setting-openvpn-server-aws/openvpn.png"></mj-image>
+          <mj-text>OpenVPN is one of the most popular and widely used open source VPN software solutions mostly used for various connectivity needs, but it is especially popular for anonymous and private access to the Internet. A security researcher has found four vulnerabilities, including a critical remote code execution bug, in OpenVPN, those were not even caught in the two big security audits of the open source VPN software this year.</mj-text>
+          <mj-text>Researcher Guido Vranken of Netherlands exclusively used a fuzzer and recently discovered four security holes in OpenVPN that escaped both the security audits. Three of the four flaws the researcher discovered are server-side, two of which cause servers to crash, while the remaining is a client-side bug that could allow an attacker to steal a password to gain access to the proxy.</mj-text>
+          <mj-text>Vranken responsibly disclosed all the vulnerabilities he discovered to the OpenVPN team in May and June and the team has already patched the issues in its latest version of the VPN software. While there is no proof of any of the vulnerabilities had been publicly exploited, users are strongly advised to update their installations to OpenVPN versions 2.4.3 or 2.3.17 as soon as possible in order to be on the safer side.</mj-text>
+          <mj-button mj-class="bg-blue" href="http://thehackernews.com/2017/06/openvpn-security-flaw_21.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://guidovranken.wordpress.com/2017/06/21/the-openvpn-post-audit-bug-bonanza/">
+            Technical advisory
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">WebSites Found Collecting Data from Online Forms Even Before You Click Submit</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-G1Kf0aGWRNM/WUo3SiVGrjI/AAAAAAAAtQ4/oAVIJHz6-cQB6NBblJi6Pbd86QtWbKwWQCLcBGAs/s1600/online-form-data-collection.png"></mj-image>
+          <mj-text>'Do I really need to give this website so much about me?' That's exactly what we usually think after filling but before submitting a web form online asking for my personal details to continue. I am sure most of you would either close the whole tab or would edit already typed details (or filled up by browser's auto-fill feature) before clicking 'Submit' — Isn't it?</mj-text>
+          <mj-text>But closing the tab or editing your information hardly makes any difference because as soon as you have typed or auto-filled anything into the online form, the website captures it automatically in the background using JavaScript, even if you haven't clicked the Submit button. During an investigation, Gizmodo has discovered that code from NaviStone used by hundreds of websites, invisibly grabs each piece of information as you fill it out in a web form before you could hit 'Send' or 'Submit.'</mj-text>
+          <mj-text>In order to protect yourself from such websites collecting your data without your consent, you should consider disabling auto-fill form feature, which is turned on by default, in your browser, password manager or extension settings.</mj-text>
+          <mj-button mj-class="bg-pink" href="http://thehackernews.com/2017/06/online-form-privacy.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

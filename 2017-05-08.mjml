@@ -1,0 +1,187 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">8 May 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Password reuse: Another company got breached, YOU should worry!</mj-text>
+          <mj-image src="https://blog.zoho.com/wp-content/uploads/2013/06/password-reuse.png"></mj-image>
+          <mj-text color="#fff">There's a lot of stuff getting hacked and a lot of credentials floating around the place, but then what? I mean what do evil-minded people do with all those email addresses and passwords? Among other things, they attempt to break into accounts on totally unrelated websites.</mj-text>
+          <mj-text color="#fff">As fallible humans, we reuse passwords. We've all done it at one time or another and most people are just out there YOLO'ing away with the same password or three across all their things. Hackers know that too. As such, they're going to try and break into as many other accounts as they can using the credentials from a data breach. Which brings us to credential stuffing.</mj-text>
+          <mj-text color="#fff">Credential stuffing is the automated injection of breached username/password pairs in order to fraudulently gain access to user accounts. Large numbers of spilled credentials are automatically entered into websites until they are potentially matched to an existing account, which the attacker can then hijack for their own purposes.</mj-text>
+          <mj-text color="#fff">Over 1 billion breached accounts have been loaded into the breach notification service HaveIBeenPwned (HIBP). These are from 2 different "combo lists", collections of email addresses and passwords from all sorts of different locations. Troy Hunt has verified their accuracy (including his own record in one of them) and many hundreds of millions of the email addresses are not already in HIBP. Because of the nature of the data coming from different places, if you're in there then treat it as a reminder that your data is out there circulating around and that you need to go and get yourself a password manager and create strong, unique passwords.</mj-text>
+          <mj-text color="#fff">If one of your clients credentials got leaked from another website, chances are they used the same password on your service! <a class="lnk-white" href="http://www.businessinsider.com/spotify-users-password-reset-not-hacked-other-companies-data-breaches-reuse-account-logins-2016-9?r=UK&IR=T&IR=T" target="_blank">Companies like Spotify</a> started programs to actively look for new data breaches and make sure they're client are not impacted. What are you doing to protect them?</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.troyhunt.com/password-reuse-credential-stuffing-and-another-1-billion-records-in-have-i-been-pwned/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Gmail Oauth-based phishing. Traditional advice don't cut it!</mj-text>
+          <mj-image src="http://imgur.com/5rrr2h5.gif"></mj-image>
+          <mj-text>Google customers have been targeted with a phishing attack that gave hackers access to the contents of emails, contact lists and online documents of victims. The attack tricked victims into clicking a link that gave attackers access through OAuth authentication connections commonly used by third-party applications. The attackers did so by sending victims lure messages, coming from previously infected contacts you know, claiming to contain links to a shared Google Doc.</mj-text>
+          <mj-text>On opening the link, Google's login and permissions page asked users to grant the fake Docs app the ability to "read, send, delete and manage your email", as well as "manage your contacts", <a class="lnk-pink" href="https://kindred-newsletter.infosecgur.us/2017-05-02.html" target="_blank">using the OAuth protocol we described in the featured article last week</a>. Once the malicious service got access to the user's mailbox, it would send the scam to his/her whole contact list, using the user's email account.</mj-text>
+          <mj-text>Google has now shut down the attack, but it could return in a different form. A sign of the scam is the extensive permissions it asks for. Most applications, especially Google-run ones, will not ask for the ability to delete and send email addresses on a users' behalf. Users should make sure they always read what is being requested before granting permission. If you have already given the scammers access to your account, you can still revoke the privilege in the "permissions" section of your Google account.</mj-text>
+          <mj-text>This new phishing techniques, using OAuth permissions instead of credentials, is concerning as classic advice don't cut it. The URL you get asked for permission is a legit address from Google, and changing your password once you detect you've been victim won't revoke access. Time to update your awareness campaign!</mj-text>
+          <mj-button mj-class="bg-pink" href="http://www.darkreading.com/attacks-breaches/google-docs-phishing-scam-a-game-changer/d/d-id/1328808">Read More</mj-button>
+          <mj-button mj-class="bg-pink" href="https://myaccount.google.com/secureaccount">Google Security Checkup</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">WordPress Zero-Day Could Expose Password Reset Emails</mj-text>
+          <mj-image src="https://3.bp.blogspot.com/-blAjltgqjN4/WJqvIozAnEI/AAAAAAAABxo/Wev0NCId23M93f5B_kab8dNXDj_KXbEDwCLcB/s1600/wordpress-hacking.png"></mj-image>
+          <mj-text>WordPress is a free and open-source content management system (CMS) based on PHP and MySQL. Wordpress has a password reset feature that contains a vulnerability which might in some cases allow attackers to get hold of the password reset link without previous authentication.  Such attack could lead to an attacker gaining unauthorised access to a  victim's WordPress account. </mj-text>
+          <mj-text>The vulnerability stems from WordPress using untrusted data by default when creating a password reset e-mail that is supposed to be delivered only to the e-mail associated with the owner's account. Depending on the configuration of the mail server, it may result in  an email that gets sent to the victim WordPress user with a malicious From/Return-Path address set in the email headers.</mj-text>
+          <mj-text>Attacker can perform a prior DoS attack on the victim's email account/server, in order to prevent the password reset email from reaching the victim's account and bounce back to the malicious sender address that is pointed at the attacker. An alternative would be targeting emails with "out of office" setup. Autoresponders might attach a copy of the email sent in the body of the  auto-replied message (no user interaction required)</mj-text>
+          <mj-button mj-class="bg-green" href="https://exploitbox.io/vuln/WordPress-Exploit-4-7-Unauth-Password-Reset-0day-CVE-2017-8295.html">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">New OSX.Dok malware intercepts web traffic</mj-text>
+          <mj-image src="https://blog.malwarebytes.com/wp-content/uploads/2017/04/osx.dok-open.png"></mj-image>
+          <mj-text>Most Mac malware tends to be unsophisticated. Although it has some rather unpolished and awkward aspects, a new piece of Mac malware, dubbed OSX.Dok, breaks out of that typical mold. OSX.Dok, which was discovered by Check Point, uses sophisticated means to monitor—and potentially alter—all HTTP and HTTPS traffic to and from the infected Mac. This means that the malware is capable, for example, of capturing account credentials for any website users log into, which offers many opportunities for theft of cash and data.</mj-text>
+          <mj-text>OSX.Dok comes in the form of a file named Dokument.zip, which is found being emailed to victims in phishing emails. This “document” is, of course, actually an application. After several minutes, the app will obscure the entire screen with a fake update notification.</mj-text>
+          <mj-text>Fortunately, when the user attempts to open this app, the macOS will display a standard notification to warn the user. Apple has already revoked the certificate used to sign the app, so, at this point, anyone who encounters this malware will be unable to open the app and unable to be infected by it.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://blog.malwarebytes.com/threat-analysis/2017/04/new-osx-dok-malware-intercepts-web-traffic/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Hackers Use Flaws in Telephony Core Protocol to Bypass 2FA on Bank Accounts</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2017/02/01/Call-Phone.jpg"></mj-image>
+          <mj-text>Hackers have exploited decades-old flaws in the SS7 mobile telephony protocol to hijack phone numbers and SMS messages, in order to bypass two-factor authentication (2FA) and steal money from bank accounts.</mj-text>
+          <mj-text>The SS7 (Signalling System No. 7) protocol was developed in 1975 and is a so-called telephony signaling protocol, used to route calls between different telephony providers. SS7's woeful security was brought up again this week after a German bank and telecom confirmed unauthorized wire transfers from a victim's accounts.</mj-text>
+          <mj-text>According to the German newspaper, crooks first obtained the victim's credentials for his banking account, then used the SS7 flaws to hijack his phone number and receive the transaction confirmation code on the attacker's device.</mj-text>
+          <mj-text><strong>Everyone's accounts protected by text-based two-factor authentication, such as bank accounts, are potentially at risk until the FCC and telecom industry fix the devastating SS7 security flaw.</strong></mj-text>
+          <mj-button mj-class="bg-purple" href="https://www.bleepingcomputer.com/news/security/hackers-use-flaws-in-telephony-core-protocol-to-bypass-2fa-on-bank-accounts/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">RPCbomb: remote rpcbind denial-of-service</mj-text>
+          <mj-image src="https://guidovranken.files.wordpress.com/2017/05/shodan_rpcbind.png"></mj-image>
+          <mj-text>This vulnerability allows an attacker to allocate any amount of bytes (up to 4 gigabytes per attack) on a remote rpcbind host, and the memory is never freed unless the process crashes or the administrator halts or restarts the rpcbind service.</mj-text>
+          <mj-text>Attacking a system is trivial; a single attack consists of sending a specially crafted payload of around 60 bytes through a UDP socket. This can slow down the system’s operations significantly or prevent other services (such as a web server) from spawning processes entirely.</mj-text>
+          <mj-text>Shodan reports 1.8 million hosts serving on port 111 (rpcbind). Many of those appear to be Amazon AWS instances and other mass hosting services where the owner is presumably using their default Linux distribution configuration that leaves rpcbind open to the internet.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://guidovranken.wordpress.com/2017/05/03/rpcbomb-remote-rpcbind-denial-of-service-patches/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">The Quest for the Universal Fingerprint</mj-text>
+          <mj-image src="http://www.komando.com/wp-content/uploads/2014/07/fingerprint.jpg"></mj-image>
+          <mj-text>Researchers are working towards a "universal fingerprint" - a master pattern (or small number of master patterns) that ring enough bells to unlock any of today's fingerprint readers.  They are currently have an approach that takes partial impressions and combines them until it "matches enough" to unlock a phone (or otherwise match a biometric reader) - essentially a dictionary attack against your fingerprint.   They are currently at a 65% success rate, but of course that can only get better. </mj-text>
+          <mj-text>Their advice?  Get better readers (that can read depth of fingerprint patterns, add in heartbeat sensors etc), or combine multiple authentication mechanisms if your plan needs to account for attacks of this type.</mj-text>
+          <mj-text>Add this to the well-known fact that once compromised, you cannot revoke your fingerprints, or change them either.  If a successful and simple fingerprint attack is possible, either we need to look at better fingerprint readers going forward, or this takes fingerprint authentication off the table entirely.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://isc.sans.edu/diary/22378">Read More</mj-button>
+
+          <!-- footer -->
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

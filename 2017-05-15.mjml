@@ -1,0 +1,198 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">15 May 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section mj-class="bg-blue">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">WannaCRY ransomware is spreading like wildfire across the globe</mj-text>
+          <mj-image src="https://4.bp.blogspot.com/-nDcKns-tCMg/WRYv1PfUO_I/AAAAAAAAA_Q/ZWhZcAtqCYsx-i0lnqVVOgI_wsy0vk1gQCLcB/s1600/image2.png"></mj-image>
+          <mj-text color="#fff">A major ransomware attack has affected many organizations across the world reportedly including Telefonica in Spain, the National Health Service in the UK, and FedEx in the US. The malware responsible for this attack is a ransomware variant known as 'WannaCry'. What makes it so dangerous is its capacity to spread over the internet, like worms such as Conficker or Blaster did back in the day, exploiting a recently patched SMB vulnerability.</mj-text>
+          <mj-text color="#fff">Additionally, researchers from Talos Intelligence have observed WannaCry samples making use of DOUBLEPULSAR, which is a persistent backdoor that is generally used to access and execute code on previously compromised systems. This allows for the installation and activation of additional software, such as malware. This backdoor is typically installed following successful exploitation of SMB vulnerabilities addressed as part of Microsoft Security Bulletin MS17-010, also known as "Eternal Blue". If you seem to recognize those name, it's because they all come from the recent ShadowBroker leak regarding the NSA.</mj-text>
+          <mj-text color="#fff">Don't think it is over as we've discovered and activated a "kill switch". At the time of this newsletter, the malware is still active and things may continue to change. While the initial version contained indeed a killswitch (the malware looked up a specific domain and, if it was registered, would exit without doing any harm), some samples have been founds with this kill-switched hexedited-out of the binary. Moreover, organizations that use proxies will not benefit from the killswitch.</mj-text>
+          <mj-text color="yellow"><strong>Organizations should ensure that devices running Windows are fully patched and deployed in accordance with best practices. Microsoft released a patch for vulnerable systems, including the out-of support Windows XP and Vista. Additionally, organizations should have SMB ports (139, 445) blocked from all externally accessible hosts.</strong></mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://gist.github.com/rain-1/989428fa5504f378b993ee6efbc0b168">
+            Fact sheet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="http://blog.talosintelligence.com/2017/05/wannacry.html?m=1">
+            Report from Talos
+          </mj-button>
+          <mj-button  background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/honeypot-server-gets-infected-with-wannacry-ransomware-6-times-in-90-minutes/">
+            Report from BleepingComputers
+          </mj-button>
+          <mj-button  background-color="#fff" mj-class="blue" href="https://technet.microsoft.com/en-us/library/security/ms17-010.aspx">
+            MS Security Bulletin
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Massive vulnerability in Windows Defender leaves most Windows PCs vulnerable</mj-text>
+          <mj-image src="http://cdn1.itpro.co.uk/sites/itpro/files/styles/article_main_wide_image/public/2016/05/windows_10_win_defender_ss_01_665x397.jpg?itok=4wdePNIe"></mj-image>
+          <mj-text>Microsoft on Monday patched a severe code-execution vulnerability in the malware protection engine that is used in almost every recent version of Windows (7, 8, 8.1, 10, and Server 2016), just three days after it came to its attention. Notably, Windows Defender is installed by default on all consumer-oriented Windows PCs.</mj-text>
+          <mj-text>The exploit (officially dubbed CVE-2017-0290) allows a remote attacker to take over a system without any interaction from the system owner: anything that is automatically scanned by Microsoft's malware protection engine, websites, file shares, emails, could be used as an attack vector. The exploit was also "wormable," meaning they could lead to a self-replicating chain of attacks that moved from vulnerable machine to vulnerable machine.</mj-text>
+          <mj-text>Because MsMpEng runs at the highest privilege level and is so ubiquitous across Windows PCs, this vulnerability is about as bad as it gets. Fortunately, the security researchers who discovered it—Natalie Silvanovich and Ormandy both with Google Project Zero—privately reported technical details, and last night Microsoft announced the patch. MsMpEng automatically updates every 48 hours, so disaster has probably been averted.</mj-text>
+          <mj-text>The security bulletin notes that Microsoft hadn't seen any public exploitation of the vulnerability.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://arstechnica.com/information-technology/2017/05/windows-defender-nscript-remote-vulnerability/">Read More</mj-button>
+          <mj-button mj-class="bg-pink" href="https://technet.microsoft.com/en-us/library/security/4022344">MS Security Advisory</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">How to protect your Google and Facebook accounts with a security key</mj-text>
+          <mj-image src="http://images.techhive.com/images/article/2017/05/170505-facebook-security-key-100721493-large.jpg"></mj-image>
+          <mj-text>Google supports a format called FIDO Universal 2nd Factor (U2F), which it helped develop. Keys are available that work over USB, Bluetooth, and NFC, so they can be used with a smartphone or tablet in addition to a PC. They are really easy to setup and use.</mj-text>
+          <mj-text>U2F is currently only supported by two browsers, Google Chrome and Opera. Together, they account for about two-thirds of desktop browsing and are available on Windows, macOS, and Linux, so a good portion of the market is covered, but if you prefer Firefox, Safari, or another browser, you'll need to switch.</mj-text>
+          <mj-text>Yubico has a <a  class="lnk-green" href="https://www.yubico.com/products/yubikey-hardware/" target="_blank">helpful matrix</a> on its site detailing compatibility, and there are a couple of listings of sites that support security keys and the standards they use. </mj-text>
+          <mj-button mj-class="bg-green" href="http://www.csoonline.com/article/3195792/security/how-to-protect-your-google-and-facebook-accounts-with-a-security-key.html">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Upcoming NIST Guideline Advocates Simpler Rules for Online Passwords</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2017/01/16/Password.jpg"></mj-image>
+          <mj-text>The US National Institute of Standards and Technology (NIST) is preparing to issue a new Digital Identity Guideline, which unlike its previous editions, will take a softer stance on the complexity of online passwords.</mj-text>
+          <mj-text>The current draft of the NIST Digital Identity Guideline reveals some of the changes coming next year. These recommendations are important, as they are widely accepted and followed by most government agencies and enterprises around the US, and even around the globe.</mj-text>
+          <mj-text>The changes show a relaxation of recommended password policies. This relaxation comes after several studies have shown that users tend to use simpler passwords the more complex password rules become. Instead, company should favour the length of the password, blacklist password obtained from previous breach corpuses and use random generators to define initialisation password. </mj-text>
+          <mj-text>Another major change is to finally stop asking users to change password every three months, but instead ask them to change if there is evidence of compromise. Regular password change for no good reason only leads to weaker passwords in the long run.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/upcoming-nist-guideline-advocates-simpler-rules-for-online-passwords/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Mac video app HandBrake – now with free spyware</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/05/free-spyware.png"></mj-image>
+          <mj-text>Crooks managed to break into one of the download servers of a popular open-source video converter program called HandBrake. The crooks then uploaded a hacked version of the official Mac download. As a result, anyone who installed or reinstalled HandBrake Version 1.0.7 recently may have ended up with malware known as OSX/Proton-A.</mj-text>
+          <mj-text>Proton, which targets macOS, does all kinds of nasty behavior, including stealing passwords, keylogging, exfiltrating files and enabling remote access log-in. When this file is being executed, what appears to be a legitimate dialog box appears and asks for the user’s password in order to install some “additional codecs.” But it is actually to read your KeyChain where MacOS stores your passwords.</mj-text>
+          <mj-text>If you downloaded the Handbrake Version 1.0.7 DMG outside the timeframe listed above, you are fortunate: you missed the infectious window. If you downloaded the DMG within the infectious window timeframe, you have a 50% chance of being OK, because only the mirror server was hacked. But if you did get infected, and you did find that dreaded proton.zip file, you need to assume the worst: that the crooks know some or all of your passwords.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://nakedsecurity.sophos.com/2017/05/09/mac-video-app-handbrake-now-with-free-spyware/">Read More</mj-button>
+          <mj-button mj-class="bg-purple" href="https://www.cybereason.com/labs-proton-b-what-this-mac-malware-actually-does/">Malware details</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Security Assessment of OpenVPN</mj-text>
+          <mj-image src="https://camo.githubusercontent.com/7e93354f6626d792dc977a060b10d261b0355a94/68747470733a2f2f73746f72652e73696c76656e67612e636f6d2f65787465726e616c2f6f70656e76706e746563685f6c6f676f312e706e67"></mj-image>
+          <mj-text>Quarkslab was hired by OSTIF to perform a security assessment of OpenVPN 2.4.0. Quarkslab focused on code and cryptography assessment. Results are briefly described in this blog post, and full report is available at its end.</mj-text>
+          <mj-text>The review targeted version 2.4.0 and was performed by 3 engineers between 15 February 2017 and 7 April 2017, for a total of 50 man days of effort. Issues were reported to the OpenVPN team and have been fixed in OpenVPN 2.4.2. Only one high severity vulnerability has been found, it allowed to DoS the service with specially crafted packets.</mj-text>
+          <mj-text>Since the beginning of the project, OpenVPN has followed the best practices for secure development. For examples, wrappers are used to avoid handling strings and buffers directly, assertions are used to avoid that the program ends up in an inconsistent state, secure functions of the C language are used, etc. Best practices of development make the discovery of memory corruption vulnerability unlikely. If vulnerabilities were to be found, logical or cryptographic bugs would be more likely.</mj-text>
+          <mj-button mj-class="bg-blue" href="http://blog.quarkslab.com/security-assessment-of-openvpn.html">Read More</mj-button>
+          <mj-button mj-class="bg-blue" href="http://blog.quarkslab.com/resources/2017-05-11-security-assessment-of-openvpn/17-03-284-REP-openvpn-sec-assessment.pdf">Full report</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Game of Thrones makes its stars two-factor their emails now</mj-text>
+          <mj-image src="https://www.splunk.com/content/dam/splunk-blogs/images/2016/05/SecurityMeme.png"></mj-image>
+          <mj-text>HBO’s Game of Thrones has always had to cope with bizarre threats to secrecy around its plot details — drones flying over set, rogue set photographers, its own actors accidentally posting scripts to Instagram. Then there’s the unavoidable obsessive fan interest, which turn things like the length of Kit Harington’s hair and a sighting of Rory McCann hanging out in a hotel lobby into spoilers. But now that the show is moving past the story of George R.R. Martin’s A Song of Ice and Fire for the first time with season 7, HBO is taking security even more seriously.</mj-text>
+          <mj-text>In a recent interview with Express, actress Nathalie Emmanuel, who plays Daenerys’ BFF Missandei, said the cast was required to set up two-factor authentication on their email accounts this year. They only received digital copies of the script through these accounts, and weren’t allowed to print them.</mj-text>
+          <mj-text>She also mentioned that any notes they received during rehearsal weren’t permitted to leave the set: “You might get given rehearsal notes on set, but you have to sign for and return them before you leave. If you don't, people will chase you until you give them back!"</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.theverge.com/tldr/2017/5/5/15556388/game-of-thrones-script-security-season-7-2fa">Read More</mj-button>
+
+          <!-- footer -->
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

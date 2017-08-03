@@ -1,0 +1,162 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">24 March 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">New 'DoubleAgent' Attack Can Hijack All Windows Versions — Even Your Antivirus!</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-hn8Mo8ySkh4/WNIy9I2FELI/AAAAAAAAr4Y/nLRnDB-ULNUn1aqgAnj67EYoqnvWOcP5QCLcB/s1600/hack-antivirus-microsoft-application-verifier-dll-injection.png"></mj-image>
+          <mj-text color="#fff">A team of security researchers from Cybellum, an Israeli zero-day prevention firm, has described a new Windows vulnerability that could allow hackers to take full control of your computer. Dubbed DoubleAgent, the new injecting code technique works on all versions of Microsoft Windows operating systems, starting from Windows XP to the latest release of Windows 10.</mj-text>
+          <mj-text color="#fff">Application Verifier is a runtime verification tool that loads DLLs (dynamic link library) into processes for testing purpose, allowing developers quickly detect and fix programming errors in their applications. The vulnerability resides in how this Application Verifier tool handles DLLs. According to the researchers, as part of the process, DLLs are bound to the target processes in a Windows Registry entry, but attackers can replace the real DLL with a malicious one. It is hard to block because the malicious code can be re-injected into the targeted legitimate process after the system reboots – Thanks to the persistent registry key.</mj-text>
+          <mj-text color="#fff">In order to demonstrate the DoubleAgent attack, the team hijacked anti-virus applications -- which is the main defense on systems to prevent any malware from running -- using their technique and turn them into malware. The team was able to corrupt the anti-virus app using the DoubleAgent attack and get the security software to act as disk-encrypting ransomware.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="http://thehackernews.com/2017/03/hacking-windows-dll-injection.html">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://cybellum.com/doubleagentzero-day-code-injection-and-persistence-technique/">
+            Initial press release
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">24% of latest Docker images have significant vulnerabilities</mj-text>
+          <mj-image src="https://www.federacy.com/assets/percent_of_docker_images_vulnerable-55060281837e39550505a8543b0a5391acb558c1a127e3f3c53942227f82aab0.png"></mj-image>
+          <mj-text>Understanding the vulnerability landscape in the container ecosystem is critical to our mission of securing the world, so we decided to put our technology to work to answer a key question: what is the current state of vulnerabilities in official Docker repositories?</mj-text>
+          <mj-text>The official Docker repositories consist mostly of images for open source and commercial software, are generally managed by the author or vendor, and contain the most widely used images in the Docker community. Increasingly, they are used as the base for distributed systems replacing some of the functionality of 3rd generation configuration management software.</mj-text>
+          <mj-text>While the containerization approach offers a lot of benefits, such as enhanced segregation between services, it also makes security patching a lot more challenging. Thankfully, vulnerability scanning of those containers base image is getting easier with open source tools such as <a href="https://github.com/future-architect/vuls">Vuls</a> and <a href="https://github.com/coreos/clair">Clair</a>.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.federacy.com/docker_image_vulnerabilities">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Word Document Spreads Macro Malware Targeting Both Windows and macOS</mj-text>
+          <mj-image src="http://lh6.ggpht.com/-GdP8hZrOQEM/TmC_gGn9rJI/AAAAAAAAPik/lVYxmfHH8xo/word-macro%25255B3%25255D.png?imgmax=800"></mj-image>
+          <mj-text>After last month security researchers discovered the first-ever  Word document spreading macro malware on macOS, last week, researchers from Fortinet spotted a Word document that contained macro scripts that distributed both Windows and macOS malware at the same time, depending on the OS it managed to infect.</mj-text>
+          <mj-text>Malicious Office files with attached macro scripts that download malware are usually referred in the infosec industry as "macro malware." On Windows, macro malware has been around since the 90s. Even if Microsoft offered an Office version for Mac OS X (now macOS), weaponized Office files never contained macro scripts that could run on a Mac.</mj-text>
+          <mj-text>The difference is that at the start of its malicious routine, the macro would check what OS the user was using, and delivered two different versions of the malicious Python code. <strong>MacOS users should take note and be aware of this new attack vector.</strong></mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/word-document-spreads-macro-malware-targeting-both-windows-and-macos/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Wikileaks drops 'Dark Matter', part two of its Vault 7 CIA leaks</mj-text>
+          <mj-image src="https://pbs.twimg.com/media/C7n-janXgAAcZgu.jpg"></mj-image>
+          <mj-text>Released to the public on March 23, 2017, the second set of documents has been called 'Dark Matter'. Like with part one, it is said to include details of the CIA's global hacking program, and these documents describe hacking methods allegedly used by the agency to access Apple devices and upload data.</mj-text>
+          <mj-text>In particular, <strong>the documents explain the techniques used by CIA to gain 'persistence' on Apple Mac devices, including Macs and iPhones using, among others, the "Sonic Screwdriver" project.</strong> As explained by the CIA, Sonic Screwdriver was a 2012 "mechanism for executing code on peripheral devices while a Mac laptop or desktop is booting". This would allow an attacker to boot its software from a USB stick, for example, "even when a firmware password is enabled".</mj-text>
+          <mj-text>Apple has responded to the disclosures from Wikileaks by saying it has completed a preliminary investigation on the new information. “Based on our initial analysis, the alleged iPhone vulnerability affected iPhone 3G only and was fixed in 2009 when iPhone 3GS was released,” the company said in a statement. “Additionally, our preliminary assessment shows the alleged Mac vulnerabilities were previously fixed in all Macs launched after 2013.”</mj-text>
+          <mj-button mj-class="bg-orange" href="http://www.wired.co.uk/article/cia-files-wikileaks-vault-7">Read More</mj-button>
+          <mj-button mj-class="bg-orange" href="https://wikileaks.org/vault7/darkmatter/?cia">Dark Matter leak</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">LastPass bugs could have allowed malicious websites to steal passwords</mj-text>
+          <mj-image src="https://www.hackread.com/wp-content/uploads/2016/07/lastpass-hacked-for-good.jpg"></mj-image>
+          <mj-text>LastPass patched three separate bugs that affected its Chrome and Firefox browser extensions, which if exploited, would have allowed a third-party to extract passwords from users visiting a malicious website. All bugs were discovered by Tavis Ormandy, a security researcher working for Google's Project Zero. One bug affected the LastPass for Chrome extension, while the other two affected the company's Firefox add-on.</mj-text>
+          <mj-text>Ormandy put together proof-of-concept code that executes code on a user's machine via this intermediary script and launches an instance of the Windows Calculator. All OS platforms are affected, not just Chrome on Windows. This PoC code can be altered to steal user passwords before they are copied and filled inside username and password fields.</mj-text>
+          <mj-text>Lastpasss investigation to date has not indicated that any sensitive user data was lost or compromised. All extensions have been patched and are being re-released to users. No master password change is required. No site credential passwords need to be changed.</mj-text>
+          <mj-text><strong>Any of these vulnerabilities should not keep users from installing a password manager</strong>, as wisely pointed out by some well-known security professionals, "your odds of being pwned by a LastPass issue are far lower than if your password is disclosed from one site and reused on another".</mj-text>
+          <mj-button mj-class="bg-purple" href="https://www.bleepingcomputer.com/news/security/lastpass-bugs-allow-malicious-websites-to-steal-passwords/">Read More</mj-button>
+          <mj-button mj-class="bg-purple" href="https://blog.lastpass.com/2017/03/important-security-updates-for-our-users.html/">Lastpass report</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Google Chrome to Distrust Symantec SSLs for Mis-issuing 30,000 EV Certificates</mj-text>
+          <mj-image src="https://4.bp.blogspot.com/-NJp9eL-mNRQ/WNTzMVYDekI/AAAAAAAAr58/E4ZFVwCn2a0HypNoC4MPnj890F5oBoE4gCLcB/s1600/google-symantec-ssl-certificate.png"></mj-image>
+          <mj-text>Google announced its plans to punish Symantec by gradually distrusting its SSL certificates after the company was caught improperly issuing 30,000 Extended Validation (EV) certificates over the past few years.</mj-text>
+          <mj-text>Extended validation certificates are supposed to provide the highest level of trust and authentication, where before issuing a certificate, Certificate Authority must verify the requesting entity's legal existence and identity.</mj-text>
+          <mj-text>Symantec has responded and stated that the claim of mis-issuing 30,000 SSL certificates made by Google are "Exaggerated and Misleading". Symantec issues more than 30% of the web's certs, and these are the most popularly relied-upon certs by web-users, constituting 42% of the certs that a Firefox user will encounter in a typical browsing session.</mj-text>
+          <mj-button mj-class="bg-blue" href="http://thehackernews.com/2017/03/google-invalidate-symantec-certs.html">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Pwn2Own hacking contest ends with two virtual machine escapes</mj-text>
+          <mj-image src="http://imgur.com/kvGDnzx.png"></mj-image>
+          <mj-text>Two teams of researchers managed to win the biggest bounties at this year's Pwn2Own hacking contest by escaping from the VMware Workstation virtual machine and executing code on the host operating system.</mj-text>
+          <mj-text>One of the main goals of hypervisors like VMware Workstation is to create a barrier between the guest operating system that runs inside the virtual machine and the host OS where the hypervisor runs. That's why VM escape exploits are highly prized, more so than browser or OS exploits. <strong>VM escape vulnerabilities could allow malwares to escape scanning sandboxes, or allow an attacker to move from one AWS server instance to another.</strong></mj-text>
+          <mj-text>Apple's Safari fell four times, Mozilla Firefox once, but Google Chrome remained unscathed. Researchers also demonstrated two exploits for Adobe Reader and two for Flash Player, both with sandbox escapes. The contest also included many privilege escalation exploits on Windows and macOS.</mj-text>
+          <mj-button mj-class="bg-pink" href="http://www.csoonline.com/article/3182817/security/pwn2own-hacking-contest-ends-with-two-virtual-machine-escapes.html">Read More</mj-button>
+
+          <!-- footer -->
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

@@ -1,0 +1,207 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">24 July 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Dark net markets AlphaBay and Hansa shut after huge international police sting</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/07/20/hansa.jpg"></mj-image>
+          <mj-text color="#fff">Earlier this month, news broke that authorities had seized the Dark Web marketplace AlphaBay, an online black market that peddled everything from heroin to stolen identity and credit card data.</mj-text>
+          <mj-text color="#fff">But it wasn’t until today, when the U.S. Justice Department held a press conference to detail the AlphaBay takedown that the other shoe dropped: Police in The Netherlands for the past month have been operating Hansa Market, a competing Dark Web bazaar that enjoyed a massive influx of new customers immediately after the AlphaBay takedown.</mj-text>
+          <mj-text color="#fff">FBI Active Director McCabe said AlphaBay was ten times larger than Silk Road, with over 250,000 listings for illegal drugs and toxic chemicals; and over 100,000 listings for stolen and fraudulent identification documents and access devices, counterfeit goods, malware and other computer hacking tools, firearms and fraudulent services.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.wired.com/story/alphabay-takedown-dark-web-chaos/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2017/07/after-alphabays-demise-customers-flocked-to-dark-market-run-by-dutch-police/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Microsoft Office 365 Users Targeted in Brute Force Attacks</mj-text>
+          <mj-image src="https://www.helpnetsecurity.com/wp-content/uploads/2016/12/office365.png"></mj-image>
+          <mj-text>Enterprise Office 365 accounts, many belonging to high-level employees at Fortune 2000 companies, were hit with a brute-force attack in one of the earliest operationalized cloud-to-cloud business attacks, according to Skyhigh Networks, which began tracking the campaign early this year.</mj-text>
+          <mj-text>Attackers tried logging in with different versions of employees' usernames, a sign they may have already possessed names and passwords but needed usernames for spearphishing campaigns or data access.</mj-text>
+          <mj-text>All login attempts came from instances hosted on cloud service platforms and targeted 48 businesses. <strong>The "slow-and-low" pace of attacks indicates threat actors were trying to stay under the radar</strong>; for each business, only a handful of senior employees were targeted. All those who were hit have been notified.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.darkreading.com/attacks-breaches/microsoft-office-365-users-targeted-in-brute-force-attacks-/d/d-id/1329413">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.skyhighnetworks.com/cloud-security-blog/skyhigh-discovers-a-targeted-brute-force-attack-on-enterprise-customers/">
+            Initial report
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Windows Kerberos security hole – the “Orpheus’ Lyre” attack explained</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/07/ol-1200.png?w=780&h=408&crop=1"></mj-image>
+          <mj-text>Orpheus' Lyre (OL) is a security hole in a venerable network authentication system called Kerberos, probably best known because it is widely used by Windows for logon and access control.</mj-text>
+          <mj-text>The Kerberos concept is much like the way train tickets work: the platform barriers that open to let you get on your train don’t need to be able to accept payments, issue tickets, give change, or help you select from the options available for your chosen journey; instead, they just need to know how to validate the ticket you already bought at a ticket machine or the ticket office.</mj-text>
+          <mj-text>According to the researchers who found the OL hole, this bug means that an attacker on your network could modify an official Kerberos reply in order to lure an unpatched client computer to an imposter server. To continue our train analogy, crooks could undetectably adjust Kerberos tickets to persuade client computers to travel trustingly all the way to EDINBURGH instead of getting off at EALING BROADWAY as originally intended.</mj-text>
+          <mj-text>The Windows implementation of Kerberos used to be vulnerable, but was fixed in Microsoft’s July 2017 security update under the designation CVE-2017-8495, so make sure you’ve installed the latest Windows patches. Also, numerous open source implementations, such as those in various Linux distributions, in the Samba networking software, and in FreeBSD, have been patched, so apply updates to affected open source Kerberos components as soon as you can.</mj-text>
+          <mj-button mj-class="bg-green" href="https://nakedsecurity.sophos.com/2017/07/19/windows-security-hole-the-orpheus-lyre-attack-explained/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.orpheus-lyre.info/">
+            "Official" website
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Android App Security Checklist</mj-text>
+          <mj-image src="https://articulate-heroes.s3.amazonaws.com/uploads/rte/fnqzeolh_checklist-interactions-elearning.png"></mj-image>
+          <mj-text>A checklist with security considerations for designing, testing, and releasing secure Android apps. It is based on the OWASP Mobile Application Security Verification Standard and Mobile Security Testing Guide. Follow the links on each checklist item for detailed instructions and recommendations.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://github.com/b-mueller/android_app_security_checklist/blob/master/README.md">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">How to DDoS Like an Ethical Hacker</mj-text>
+          <mj-image src="https://media.scmagazineuk.com/images/2017/01/18/thinkstockphotos527540170_1135668.jpg?format=jpg&zoom=1&quality=70&anchor=middlecenter&mode=pad"></mj-image>
+          <mj-text>You’ve just arrived home after a long work day. You wander a bit through the darkness, grab two slices of bread, and put them into that old, creaking toaster. The moment you push down on the button to toast the bread, you hear a loud pop, and all of the lights suddenly go out.</mj-text>
+          <mj-text> “Damn, the fuse blew up.” Because the toaster was faulty, it flooded the electrical installation with excessive current it wasn’t designed to handle. This blew up the fuse, and shut down the installation.</mj-text>
+          <mj-text>A nearly identical process takes place in DDoS attacks. Replace “electrical current” with “information”, and “installation” with the term “information processor”, and you’ve already understood the basic principle.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://heimdalsecurity.com/blog/how-to-ddos/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">​Millions of IoT devices hit by 'Devil's Ivy' bug in open source code library</mj-text>
+          <mj-image src="http://zdnet1.cbsistatic.com/hub/i/r/2017/07/20/7130bb7b-db77-424a-b21f-b4a1bdc1feaf/resize/770xauto/254f274d66f00a56b3cd3b91cff58a35/cameralens.jpg"></mj-image>
+          <mj-text>A flaw in a widely-used code library known as gSOAP has exposed millions of IoT devices, such as security cameras, to a remote attack.</mj-text>
+          <mj-text>Researchers at IoT security firm Senrio discovered the Devil's Ivy flaw, a stack buffer overflow bug, while probing the remote configuration services of the M3004 dome camera from Axis Communications. The bug occurs when sending a large XML file to a vulnerable system's web server.</mj-text>
+          <mj-text>According to Senrio, as of July 1 there were about 14,000 Axis cameras exposed on the internet. But as the security firm notes, this bug "goes far beyond" Axis communications kit thanks to gSOAP's widespread use and will likely remain exposed on devices for a long time. Genivia counts Adobe, IBM, Microsoft, and Xerox as customers and claims gSOAP has been downloaded more than a million times.</mj-text>
+          <mj-button mj-class="bg-blue" href="http://www.zdnet.com/article/millions-of-iot-devices-hit-by-devils-ivy-bug-in-open-source-code-library/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="http://blog.senr.io/blog/devils-ivy-flaw-in-widely-used-third-party-code-impacts-millions">
+            Initial report
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Humble bundle cybersecurity</mj-text>
+          <mj-image src="http://imgur.com/mP9AYed.jpg"></mj-image>
+          <mj-text>Humble Bundle is offering a new collection of tech ebooks for cyber security enthusiasts, straight from the libraries at Wiley/Sybex. The Cybersecurity Book Bundle includes Secrets and Lies: Digital Security in a Networked World, Applied Cryptography: Protocols, Algorithms and Source Code in C, The Art of Deception: Controlling the Human Element of Security, Social Engineering: The Art of Human Hacking, and lots more!</mj-text>
+          <mj-text>Starting at 1$ for 4 books, you can get up to 14 books if you pay 15$ or higher.</mj-text>
+          <mj-text>The Humble Book Bundle concept is to offer numerous different bundles of books, available for a limited time at a pay-what-you-want price model. All of the offered ebooks are DRM-free. The Humble Bundle allows buyers to choose the payment amount and divide it among the editors, listed charities, and the Humble Bundle itself.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.humblebundle.com/books/cybersecurity-wiley">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

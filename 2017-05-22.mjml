@@ -1,0 +1,197 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">22 May 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="blue h2" align="center">You Can Steal Windows Login Credentials via Google Chrome and SCF Files</mj-text>
+          <mj-image src="https://3.bp.blogspot.com/-4ZwFuBzjaMU/WRwUaQfGK9I/AAAAAAAAssg/B71icOj_nGYPkDn7Ldc7yNbT5GgRevoTgCLcB/s1600/google-chrome-windows-password-hacking-scf-smb.png"></mj-image>
+          <mj-text color="#fff">Just by accessing a folder containing a malicious SCF file, a user will unwittingly share his computer's login credentials with an attacker via Google Chrome and the SMB protocol. SCF stands for Shell Command File and is a file format that supports a very limited set of Windows Explorer commands, such as opening a Windows Explorer window or showing the Desktop. The "Show Desktop" shortcut we all use on a daily basis is an SCF file.</mj-text>
+          <mj-text color="#fff">Just like LNK files (shortcuts), SCF files, when stored on disk, will retrieve an icon file when the user loads the file in a Windows Explorer window. For many years, LNK files were allowed to store the location of their icon file inside a DLL or at an URL. After the Equation Group (cough, NSA, cough) used the ability to load malicious code via LNK files in the Stuxnet attacks, Microsoft patched LNK files to load their icons only from local resources. The same was not done for SCF files, which were not included in this patch, still being possible to load the icon of an SCF file from the Internet.</mj-text>
+          <mj-text color="#fff">When the user has navigated to a folder containing a malicious SCF file, in milliseconds, the OS will read the SCF file and give away the user's credentials in the form of a NTLMv2, NTLMv1, or LM password hash. Many open-source tools that can crack these types of password hashes.</mj-text>
+          <mj-text color="#fff">But this wouldn't be a problem if users wouldn't have malicious SCF files on their computers. Here is where Google Chrome comes in, in its default configuration, Chrome will automatically download files that it deems safe without prompting the user, this is the case for SCF files.</mj-text>
+          <mj-text color="#fff">As a way to mitigate these types of attacks, you can change the default behaviour in <i>Settings -> Show advanced settings -> Ask where to save each file before downloading</i>. More advanced protection measures include blocking outbound SMB requests via firewalls, so local computers can't query remote SMB servers.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/you-can-steal-windows-login-credentials-via-google-chrome-and-scf-files/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="http://thehackernews.com/2017/05/chrome-windows-password-hacking.html">
+            Tech Details
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Web Developer Security Checklist</mj-text>
+          <mj-image src="https://www.techtalk.gfi.com/wp-content/uploads/2012/02/J003-Content-The-Ultimate-Network-Security-Checklist-Redux_LK.jpg"></mj-image>
+          <mj-text>Developing secure, robust web applications in the cloud is hard. Michael O’Brien shares a security checklist for web developers so that you don’t forget anything crucial in your next projects.</mj-text>
+          <mj-text>After you review the checklist below, you may acknowledge that you are skipping many of these critical security issues. This checklist is simple, and by no means complete. It is a list of some of the more important issues you should consider when creating a web application.</mj-text>
+          <mj-text><i>Note from the curator: While I could nit-pick on some items – for example I would say that a password needs to be long and <strong>unique</strong>, not necessarily "random", as a long passphrase you've made up yourself can do wonders and is way easier to remember – this checklist is a nice summary of important security steps to think about during development and deployment phase.</i></mj-text>
+          <mj-button mj-class="bg-pink" href="https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">DocuSign Admits Data Breach That Led to Recent Spam Campaigns</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/05/16/DocuSign.jpg"></mj-image>
+          <mj-text>DocuSign, a major provider of electronic signature technology, acknowledged today that a series of recent malware phishing attacks targeting its customers and users was the result of a data breach at one of its computer systems.</mj-text>
+          <mj-text>The company stresses that the data stolen was limited to customer and user email addresses, but the incident is especially dangerous because it allows attackers to target users who may already be expecting to click on links in emails from DocuSign.</mj-text>
+          <mj-text>DocuSign was already a perennial target for phishers and malware writers, but this incident is likely to intensify attacks against its users and customers. DocuSign says it has more than 100 million users, and it seems all but certain that the criminals who stole the company’s customer email list are going to be putting it to nefarious use for some time to come.</mj-text>
+          <mj-button mj-class="bg-green" href="https://krebsonsecurity.com/2017/05/breach-at-docusign-led-to-targeted-email-malware-campaign/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/docusign-admits-data-breach-that-led-to-recent-spam-campaigns/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">WannaCry is getting a lot of siblings: Meet Adylkuzz and Uiwix</mj-text>
+          <mj-image src="http://img.clubic.com/08646212-photo-antivirus-mauvais-ordinateur.jpg"></mj-image>
+          <mj-text>On Friday, May 12, attackers spread a massive ransomware attack worldwide using the EternalBlue exploit to rapidly propagate the malware. his particular attack also appeared to use an NSA backdoor called DoublePulsar to actually install the ransomware known as WannaCry.</mj-text>
+          <mj-text>Over the subsequent weekend, however, Proofpoint discovered another very large-scale attack using both EternalBlue and DoublePulsar to install the cryptocurrency miner Adylkuzz. Initial statistics suggest that this attack may be larger in scale than WannaCry: because this attack shuts down SMB networking to prevent further infections with other malware via that same vulnerability. It should be noted that the Adylkuzz campaign significantly predates the WannaCry attack, beginning possibly as early as April 24. This attack is ongoing.</mj-text>
+          <mj-text>Uiwix is currently infecting victims using the EternalBlue exploit and looks more advanced. Rather than the ransomware being self-propagating like WannaCry, the developers of Uiwix are most likely scanning for and using a script that infects vulnerable computers. When a victim becomes infected with the ransomware, it will not be written to disk. Instead this ransomware will run directly from memory. This makes it difficult for most security programs to properly detect and block it.</mj-text>
+          <mj-text>This is why it is so important that everyone makes sure the MS17-010 security updates released by Microsoft for the EternalBlue vulnerability are installed.  If you are no longer using a supported Windows version, Microsoft has released updates for Windows XP, Windows 8, and Windows Server 2003, which typically no longer receive security updates. </mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.proofpoint.com/us/threat-insight/post/adylkuzz-cryptocurrency-mining-malware-spreading-for-weeks-via-eternalblue-doublepulsar">Read More about Adylkuzz</mj-button>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/uiwix-ransomware-using-eternalblue-smb-exploit-to-infect-victims/">Read more about Uiwix</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Vault 7: CIA Co-Developed Athena Malware with US Cyber-Security Company</mj-text>
+          <mj-image src="https://steemitimages.com/0x0/http://images.travelpod.com/tw_slides/ta00/b55/664/temple-of-athena-athens.jpg"></mj-image>
+          <mj-text>WikiLeaks' newest Vault 7 release, titled Marble Framework, discusses a host of tools used to hide the CIA's tracks.</mj-text>
+          <mj-text>It does this in a very unique way, however, by replacing the code for a given malware program with another language AND its encoding equivalent, including such languages as Chinese, Russian, Korean, Arabic and Farsi. This then gives CIA malware the appearance of having originated from one of these language groups as a means to throw off forensic investigators.</mj-text>
+          <mj-text>In addition, Marble Framework may have provided support for sending encrypted communications as well. This release is unique for WikiLeaks in that it is not an actual set of Wiki pages or emails. Rather, this is a .zip file containing literal source code to components of Marble Framework.</mj-text>
+          <mj-text>Next time you see an article stating that an attack comes from Russia because they've found comments in Cyrillic or something similar, think twice.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://steemit.com/wikileaks/@rebelskum/wikileaks-vault-7-part-iii-marble-framework-the-cia-s-cloaking-device-for-hackers">Read More</mj-button>
+          <mj-button mj-class="bg-purple" href="https://wikileaks.org/vault7/">Previous Vault7 releases</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">WannaCry Ransomware Decryption Tool Released; There is hope...if you did not reboot.</mj-text>
+          <mj-image src="https://4.bp.blogspot.com/-YezVvmbiaEc/WR6mmOrsdVI/AAAAAAAAsvU/a4sR66lLidsv6VAgeZrSvHbOP0LTK8AngCLcB/s1600/wannacry-ransomware-decryption-tool-unlock-files-free.png"></mj-image>
+          <mj-text>If your PC has been infected by WannaCry – the ransomware that wreaked havoc across the world last Friday – you might be lucky to get your locked files back without paying the ransom of $300 to the cyber criminals. French security researcher from Quarkslab, has discovered a way to retrieve the secret encryption keys used by the WannaCry ransomware for free, which works on Windows XP, Windows 7, Windows Vista, Windows Server 2003 and 2008 operating systems.</mj-text>
+          <mj-text>There is a catch though: if you have restarted you're computer since the attack, you're out of luck. To prevent the victim from accessing the private key and decrypting locked files himself, WannaCry erases the key from the system, leaving no choice for the victims to retrieve the decryption key except paying the ransom to the attacker. However, it does not erase the does not erase the prime numbers used to create the key from memory.</mj-text>
+          <mj-text>Based on this finding, Guinet released a WannaCry ransomware decryption tool, named WannaKey, that basically tries to retrieve the two prime numbers, used in the formula to generate encryption keys from memory. Although the tool won't work for every user due to its dependencies, still it gives some hope to WannaCry's victims.</mj-text>
+          <mj-button mj-class="bg-blue" href="http://thehackernews.com/2017/05/wannacry-ransomware-decryption-tool.html?m=1">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Penetration testing AWS storage: Kicking the S3 bucket</mj-text>
+          <mj-image src="http://hackerzsecret.in/wp-content/uploads/2017/03/amazon-s3-down.png"></mj-image>
+          <mj-text>In this instalment, we’ll look at an Amazon Web Service (AWS) instance from a no-credential situation and specifically, potential security vulnerabilities in AWS S3 “Simple Storage” buckets.</mj-text>
+          <mj-text>After walking through the AWS S3 methodology, we’ll apply that to the Alexa top 10,000 sites to identify the most popular AWS users for these vulnerabilities. Each site with open S3 permissions has been contacted by Rhino Security Labs in advance for remediation.</mj-text>
+          <mj-text>If you like to know more about common AWS security flaws and misconfiguration, have a look at <a href="http://flaws.cloud" target="_blank" class="lnk-pink">flaws.cloud</a>, this website will lead you to better practice through funny security challenges.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://rhinosecuritylabs.com/penetration-testing/penetration-testing-aws-storage/">Read More</mj-button>
+          <mj-button mj-class="bg-pink" href="http://flaws.cloud/">Learn AWS security with challenges</mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

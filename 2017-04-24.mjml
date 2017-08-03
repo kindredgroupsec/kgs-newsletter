@@ -1,0 +1,181 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">24 April 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Delegated Account Recovery with Facebook
+</mj-text>
+          <mj-image src="https://scontent-mrs1-1.xx.fbcdn.net/v/t31.0-8/p720x720/17990630_1875380826035393_5601584669693229113_o.jpg?oh=e0e9c8003e02809f23911e5426837236&oe=597E8AE8"></mj-image>
+          <mj-text color="#fff">A recent study by Gigya in the US and UK revealed that 55 percent of people will abandon a log in page because they forget their password or answer a security question incorrectly. And the trouble doesn’t end there: the 45 percent who don't abandon the page are more likely to create a new account than to work through the established account recovery process, making a mess of your data and confusing your CRM systems.</mj-text>
+          <mj-text color="#fff">In January, Facebook presented a new approach: Delegated Account Recovery. Instead of requesting user data at the outset, your business creates a recovery token linked to your identifier for the customer, and sends it to Facebook. Facebook keeps it safe and private until that person needs it. When the need to recover access arises, Facebook will take the person through a re-authentication flow and then send the original token back to the service that created it, with a new cryptographic signature from Facebook.</mj-text>
+          <mj-text color="#fff">Facebook says that delegated account recovery will be a more secure account recovery vehicle than what’s typically used, which is email. The good news: judging by what GitHub and Facebook have described, we don’t have to trust Facebook, because it isn’t actually handling our personal information, or our app accounts.</mj-text>
+          <mj-text color="#fff">Facebook has been working with GitHub to build and test the service, and following a successful trial period, they're giving the developer community access to the protocol as part of a closed beta program and publishing SDKs, documentation, and example applications for both Java and NodeJS server platforms. You can learn more, read the specification, download example code, and apply to participate in Facebook's early access program at <a class="lnk-white" href="https://fb.me/recovery" target="_blank">https://fb.me/recovery</a>.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2017/04/20/locked-out-of-your-accounts-facebook-wants-to-hold-the-key/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.facebook.com/notes/protect-the-graph/delegated-account-recovery-now-available-in-beta/1875376806035795/">
+            Facebook statement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Hajime, Brickerbot, vigilantes (or competitors?) are attacking Mirai botnet</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/04/shutterstock_512707846.jpg"></mj-image>
+          <mj-text>Authorities have been talking about IoT security standards for years, but in the meantime, some of the same vendors participating in those discussions have continued to ship out insecure devices with the same ol' default passwords. Some crooks have used those blatant vulnerabilities to assemble big IoT botnets, Mirai being the most popular example. But other botnets are currently fighting on Mirai's territory, and we're not sure if they are grey hat acting for our own good, or competitors hiding behind a fake, vigilante posture.</mj-text>
+          <mj-text>First there is Hajime. Once in control of a target, it blocks several ports used by rival IoT-ware, a perfect annoyance for Mirai. Lacking a module that could be used to launch DDoS, it currently sends a signed message stating "Just a white hat securing some systems. Important messages will be signed like this! Hajime Author. Contact CLOSED. Stay sharp!". According to new estimates it has taken over at least “tens of thousands” of devices, especially in Brazil, Iran, Thailand, the Russian Federation and Turkey. </mj-text>
+          <mj-text>As regards Brickerbot, it is the first threat of its kind that intentionally bricked IoT and networking devices, by rewriting the flash storage space of affected devices with random data. Such actions rendered troves of devices useless, many needing a firmware reinstall, but as many needing to be replaced altogether. BrickerBot allegedly wiped over two million devices.</mj-text>
+          <mj-text>The message for all owners of IoT devices is to secure your devices, and for vendors of those devices to pull their fingers out and update firmware. In the case of Mirai and Hajime, simply applying a decent password and username is an excellent start. </mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/brickerbot-author-claims-he-bricked-two-million-devices/">BrickerBot</mj-button>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2017/04/20/the-iot-malware-that-plays-cat-and-mouse-with-mirai/">Hajime</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Did Microsoft delayed February's patch tuesday to fix Shadowbrokers' flaws ?</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-zw4yh7tc0NQ/WFJra1y4UGI/AAAAAAAAqls/DK4SZs_hi6wq6cbKQFgyZMD4cp0PU0rbQCLcB/s1600/shadow-brokers-nsa-hacking.png"></mj-image>
+          <mj-text>Microsoft delayed its February security update slate to finish patching critical flaws in Windows that a hacker gang tried to sell, several security experts have argued. MS17-010, one of several security bulletins Microsoft issued in March, was just one of several cited Friday by the Redmond, Wash. developer when it said it had already patched most of the vulnerabilities exploited by just-leaked hacking tools.</mj-text>
+          <mj-text>Those tools -- 12 different Windows exploits -- had been included in a large data dump made April 14 by a hacker group dubbed Shadow Brokers, which is believed to have ties to Russia. The exploits, as well as a trove of documents, had been stolen from the National Security Agency (NSA), Shadow Brokers claimed. The timing -- Shadow Brokers' January auction, Microsoft's MS17-010 release in March -- and the unprecedented, and still unexplained, decision by the latter to postpone all of February's security updates, brought several security professionals to the same connect-the-dots conclusions.</mj-text>
+          <mj-text>Two months ago, Microsoft issued only a vague statement when it cancelled February's patches, saying, "We discovered a last-minute issue that could impact some customers and was not resolved in time for our planned updates." Nor has the company explained how it came to find the vulnerabilities it rushed to patch in MS17-010. Although Microsoft asserted that it had not been alerted by outsiders, it did not respond to questions from journalists, including how it learned of the bugs.</mj-text>
+          <mj-button mj-class="bg-green" href="http://www.csoonline.com/article/3190799/windows/experts-contend-microsoft-canceled-feb-updates-to-patch-nsa-exploits.amp.html">Read More</mj-button>
+          <mj-button mj-class="bg-green" href="https://www.dearbytes.com/en/blog/nsa-tools/">NSA hacking tools</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Introducing an Easier Way to Delegate Permissions to AWS Services: Service-Linked Roles</mj-text>
+          <mj-image src="https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2017/04/17/Step3-FINAL.png"></mj-image>
+          <mj-text>Some AWS services create and manage AWS resources on your behalf. To do this, these services require you to delegate permissions to them by using AWS Identity and Access Management (IAM) roles. Today, AWS IAM introduces service-linked roles, which give you an easier and more secure way to delegate permissions to AWS services. </mj-text>
+          <mj-text>Each service-linked role links to an AWS service, which is called the linked service. Service-linked roles provide a secure way to delegate permissions to AWS services because only the linked service can assume a service-linked role. This makes it easier for you to manage the permissions you delegate to AWS services.</mj-text>
+          <mj-text>To start, you can use service-linked roles with Amazon Lex, Over time, more AWS services will use service-linked roles as a way for you to delegate permissions to them to create and manage AWS resources on your behalf.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://aws.amazon.com/blogs/security/introducing-an-easier-way-to-delegate-permissions-to-aws-services-service-linked-roles/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Phishing with ‘punycode’ – when foreign letters spell English words</mj-text>
+          <mj-image src="http://imgur.com/EkMbxNN.png"></mj-image>
+          <mj-text>The curiously-named system known as punycode is a way of converting words that can’t be written in ASCII, such as the Ancient Greek phrase ΓΝΩΘΙΣΕΑΥΤΟΝ (know yourself), into an ASCII encoding, like this: xn--mxadglfwep7amk6b. This makes it possible to encode so-called International Domain Names (IDNs) – ones that include non-ASCII characters – using only the Roman letters A to Z, the digits 0 to 9 and the hyphen (-) character, as required for DNS domains for example.</mj-text>
+          <mj-text>By default, browser makers were supposed to read the Punycode URL and transform it into Unicode characters inside the browser. Nevertheless, browser makers were quick to understand that Punycode could be used to disguise phishing sites as legitimate sites. We call this homograph attacks, and it has been known since 2001. That’s why, some browser makers introduced filters to render URLs as Punycode (instead of Unicode) if the URL contained characters from different languages (eg., Cyrillic + Latin), deeming such URLs as phishing attempts. This meant that only Punycode URLs in one language would be rendered as Unicode...</mj-text>
+          <mj-text>...and this is exactly what this new attack is doing, the researcher managed to create a domain that looked like apple .com, only using cyrillic characters. Browsers are now into a dilemma, leaving everything in punycode is seen as culturally insensitive, but leaving it like this allow dangerous abuse. In the meantime, using a password manager would protect you from the risk of pasting password in an incorrectly named site. You can also look at the certificate details, which will contain the Common Name it is issued to in...punycode.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://nakedsecurity.sophos.com/2017/04/19/phishing-with-punycode-when-foreign-letters-spell-english-words/">Read More</mj-button>
+          <mj-button mj-class="bg-purple" href="https://www.bleepingcomputer.com/news/security/chrome-firefox-and-opera-vulnerable-to-undetectable-phishing-attack/">Even more</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Introducing SSL for SaaS</mj-text>
+          <mj-image src="http://imgur.com/FAaFO5b.png"></mj-image>
+          <mj-text>This week, Cloudflare unveiled SSL for SaaS companies, a wholesale SSL solution that will allow SaaS companies to extend Cloudflare benefits to their customers on their own domain without the need for engineering or support work or any extensive customer set-up.</mj-text>
+          <mj-text>The need for providing SSL to SaaS customers on unique domains is frequently hindered by difficulties in implementation. Cloudflare’s SSL for SaaS seeks to address this problem. Customers add the initial CNAME into their domain, after which SaaS companies send a single API call to them. Cloudflare then provisions the hostname for forwarding, acquires SSL certificates to enable HTTPS and HTTP/2, and sits in front of the customer’s site to protect against DDoS and layer 7 attacks on customer websites. In addition, customers of SaaS companies using Cloudflare’s wholesale SSL will receive the same CDN, WAF, HTTP/2, and load balancing benefits as other Cloudflare customers.</mj-text>
+          <mj-text>SSL for SaaS is available for any bring-your-own-domain SaaS applications, such as content management solutions, eCommerce platforms, web portals, and PaaS companies that allow apps to be served on customer host names. </mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.bizety.com/2017/04/20/cloudflare-introduces-wholesale-ssl-saas-companies/">Read More</mj-button>
+          <mj-button mj-class="bg-blue" href="https://blog.cloudflare.com/introducing-ssl-for-saas/">Official statement</mj-button>
+        </mj-column>
+      </mj-section>
+
+          <!-- footer -->
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

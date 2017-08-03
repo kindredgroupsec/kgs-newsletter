@@ -1,0 +1,190 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">21 June 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">More evidence Mac ransomware exists</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/06/shutterstock_404668465.jpg?w=780&h=408&crop=1"></mj-image>
+          <mj-text color="#fff">We’ve been saying it for some time: Mac malware is rare compared to the stuff that targets Windows. But Apple computers are far from immune.</mj-text>
+          <mj-text color="#fff">This year’s SophosLabs malware forecast included Mac malware geared towards harvesting data, providing covert remote access to thieves and holding files for ransom.</mj-text>
+          <mj-text color="#fff">Now comes word of a new piece of Mac ransomware, which SophosLabs has identified as OSX/Ransom-A. Widely reported as an example of ransomware-as-a-service (RaaS) for Macs, it has become popularly known as MacRansom.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2017/06/15/more-mac-ransomware-666-and-7-days-to-pay/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Samsung Left Millions Vulnerable to Hackers Because It Forgot to Renew a Domain, Researchers Say</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/59402cf9df10a05676b8bd54/lede/1497381199549-shutterstock_256716037.jpeg"></mj-image>
+          <mj-text>Samsung, the most popular smartphone maker in the world, left millions of customers vulnerable to hackers after it let expire a domain that was used to control a stock app installed on older devices, security researchers say.</mj-text>
+          <mj-text>If you own an older Samsung smartphone, chances are you have a stock app designed to recommend other popular apps named S Suggest installed on it. The company says it discontinued S Suggest in 2014, and it recently let one of the domains used to control the app—ssuggest.com—expire, according to a security researcher who took over the domain.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://motherboard.vice.com/en_us/article/samsung-left-millions-vulnerable-to-hackers-because-it-forgot-to-renew-a-domain">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">CIA Created Toolkit for Hacking Hundreds of Routers Models</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-gxLbyn1vCvw/WUKhMnKqQ-I/AAAAAAAAtKU/0MMQMYWz06YggFA655hIlv31oQD4KRoEACLcBGAs/s1600/cia-wikileaks.png"></mj-image>
+          <mj-text>After a two-week hiatus, WikiLeaks dumped new files as part of the Vault 7 series that supposedly contains CIA-made hacking tools the organization claims it received from hackers and agency insiders.</mj-text>
+          <mj-text>Today's dump includes the documentation for a CIA tool named CherryBlossom, a multi-purpose framework developed for hacking hundreds of home router models.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/cia-created-toolkit-for-hacking-hundreds-of-routers-models/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Adobe Patches Nine Security Flaws in Flash Player</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/companies/adobe/logo.jpg"></mj-image>
+          <mj-text>Adobe released today four security bulletins announcing patches for products such as Flash Player, Shockwave Player, Captivate, and Digital Editions.</mj-text>
+          <mj-text>In total, these four security bulletins fix 20 security flaws, among which the most crucial are the ones in the Flash and Shockwave players, the products with the larger userbases.</mj-text>
+          <mj-text>Of the four security bulletins, the one for Flash Player comes with a priority of "1" — the highest — so make sure to install it as soon as possible.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/adobe-patches-nine-security-flaws-in-flash-player/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Nearly One Million Systems Provide "Guest" SMB Access, Most Are Linux</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2017/06/15/SMB-logo.png"></mj-image>
+          <mj-text>There are 2,306,820 devices connected to the Internet at the moment that feature open ports for SMB services, the same protocol that was used to infect hundreds of thousands of computers with the WannaCry ransomworm a month ago.</mj-text>
+          <mj-text>Of these, 42%, or nearly 970,000, provide "guest" access, meaning anyone can access data shared via the SMB file-sharing protocol without needing to provide authentication.</mj-text>
+          <mj-text>The exploits used by WannaCry didn't necessarily need guest access, but only that the system be connected to the Internet. Providing guest access opens the machine to less complex exploits</mj-text>
+          <mj-button mj-class="bg-purple" href="https://www.bleepingcomputer.com/news/security/nearly-one-million-systems-provide-guest-smb-access-most-are-linux/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Decrypted: Kaspersky Releases Decryptor for the Jaff Ransomware</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-OeQi2Po3wc4/WRXucroxESI/AAAAAAAAsmU/yXwfETjPfuAS9mRZp8Eq-tkqGKEw6GCTwCLcB/s1600/jaff-ransomware-decrypt-unlock-files.png"></mj-image>
+          <mj-text>We are happy to report that the Fedor Sinitsyn, a senior malware analyst at Kaspersky Labs, has discovered a weakness in the Jaff ransomware and was able to release a decryptor for all variants that have been released to date. For those who were infected with the Jaff Ransomware and had their files encrypted with the .jaff, .wlu, or .sVn extensions, this decryptor can recover your files for free.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.bleepingcomputer.com/news/security/decrypted-kaspersky-releases-decryptor-for-the-jaff-ransomware/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Lessons from TV5Monde 2015 Hack</mj-text>
+          <mj-image src="http://www.broadbandtvnews.com/wp-content/uploads/2011/11/TV5Monde.jpg"></mj-image>
+          <mj-text>This week during the SSTIC2017 annual cyber security conference, a French conference running consecutively since 2004, the National Cybersecurity Agency of France (ANSSI) gave a presentation detailing their 2015 audit of their investigation and remediation of the intrusion which affected TV5Monde television network channel. This intrusion was allegedly conducted by the Fancy Bear/APT28 actor, and resulted into broadcasting and social media sabotage.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://blog.comae.io/lessons-from-tv5monde-2015-hack-c4d62f07849d">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

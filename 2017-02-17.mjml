@@ -1,0 +1,142 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">17 February 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Docker introduces Secret</mj-text>
+          <mj-image src="https://i0.wp.com/blog.docker.com/wp-content/uploads/b69d2410-9e25-44d8-aa2d-f67b795ff5e3.jpg"></mj-image>
+          <mj-text color="#fff">We fundamentally believe that apps are safer if there is a standardized interface for accessing secrets. Any good solution will also have to follow security best practices, such as encrypting secrets while in transit; encrypting secrets at rest; preventing secrets from unintentionally leaking when consumed by the final application; and strictly adhere to the principle of least-privilege, where an application only has access to the secrets that it needs—no more, no less.</mj-text>
+          <mj-text color="#fff">By integrating secrets into Docker orchestration, we are able to deliver a solution for the secrets management problem that follows these exact principles.</mj-text>
+          <mj-button background-color="#fff" color="#00a8df" href="https://blog.docker.com/2017/02/docker-secrets-management/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">AWS Announces CISPE Membership and Compliance with First-Ever Code of Conduct for Data Protection in the Cloud</mj-text>
+          <mj-image src="https://pbs.twimg.com/media/CvM-8VtUMAAZV7C.jpg"></mj-image>
+          <mj-text>In order to show AWS’s continued commitment to ensuring that customers can comply with EU Data Protection requirements when using our services. Amazon announced they joined the CISPE (Cloud Infrastructure Services Providers in Europe) and announced compliance with their code of conduct on several services they offer through AWS.</mj-text>
+          <mj-text>Please note that it does not include all AWS services yet: EC2 (servers), S3 (file storage), RDS (databases), IAM (Access management), Cloudtrail (logging) and EBS (storage space "for rapidly moving "dynamic" data such as operating system files, databases, etc) are in the scope for now.</mj-text>
+          <mj-button background-color="#E72B78" href="https://aws.amazon.com/blogs/security/aws-announces-cispe-membership-and-compliance-with-first-ever-code-of-conduct-for-data-protection-in-the-cloud/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">A rash of invisible, fileless malware is infecting banks around the globe</mj-text>
+          <mj-image src="https://cdn.arstechnica.net/wp-content/uploads/2015/06/duqu2-scheme-01.png"></mj-image>
+          <mj-text>Fileless malware is going mainstream, as financially motivated criminal hackers mimic their nation-sponsored counterparts. Those malwares evade detection by reducing or eliminating the storage of any binaries on disk and instead hides its code in the registry of a compromised host</mj-text>
+          <mj-text>The researchers don't yet know how the malware initially takes hold. Possible vectors include SQL-injection attacks and exploits targeting plugins for the WordPress content management application. This is a good reminder that Antivirus is not a silver bullet that can anihilate any threats. It is important for IT administrators, developers and end users stay aware of the risks and act responsibily.</mj-text>
+          <mj-button background-color="#2ea836" href="https://arstechnica.com/security/2017/02/a-rash-of-invisible-fileless-malware-is-infecting-banks-around-the-globe/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Everything you need to know about HTTP security headers</mj-text>
+          <mj-image src="https://blog.keycdn.com/blog/wp-content/uploads/2016/03/http-security-headers.png"></mj-image>
+          <mj-text>What can be attacked must be defended, and since tradition requires all security features to be a bolted-on afterthought, things… got a little complicated.</mj-text>
+          <mj-text>This article explains what secure headers are and how to implement these headers in Rails, Django, Express.js, Go, Nginx, and Apache.</mj-text>
+          <mj-button background-color="#F39000" href="https://blog.appcanary.com/2017/http-security-headers.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Phishing: Malware distributors are switching to less suspicious file types</mj-text>
+          <mj-image src="http://images.techhive.com/images/article/2017/01/dsc02671-100706102-large.jpg"></mj-image>
+          <mj-text>After aggressively using JavaScript email attachments to distribute malware for the past year, attackers are now switching to less suspicious file types to trick users. Last week, researchers from the Microsoft Malware Protection Center warned about a new wave of spam emails that carried malicious .LNK files inside ZIP archives. Those files had malicious PowerShell scripts attached to them. </mj-text>
+          <mj-text>In the recent campaign seen by Microsoft, the malicious LNK files contained a PowerShell script that downloaded and installed the Kovter click fraud trojan. Another file type used to distribute malware in recent months has been SVG (Scalable Vector Graphics). While many people correctly associate .SVG files with images, it's a little-known fact that such files can actually contain JavaScript.</mj-text>
+          <mj-button background-color="#992785" href="http://www.csoonline.com/article/3166152/security/malware-distributors-are-switching-to-less-suspicious-file-types.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Security and Privacy Guidelines for the Internet of Things</mj-text>
+          <mj-image src="http://millennialsd.com/wp-content/uploads/sites/8/2016/09/internet-of-things-blog-image.png"></mj-image>
+          <mj-text>Lately, Bruce Schneier, a well-known cybersecurity expert, has been collecting IoT security and privacy guidelines. He posted everything he has found on the subject on his blog.</mj-text>
+          <mj-text>They all largely say the same things: avoid known vulnerabilities, don't have insecure defaults, make your systems patchable, and so on. He is guessing that regulation on the subject is coming soon and vendors must get ready for their upcoming products.</mj-text>
+          <mj-button background-color="#00a5de" href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+          <!-- end articles -->
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

@@ -1,0 +1,190 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">10 July 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Millions of Android Devices Using Broadcom Wi-Fi Chip Can Be Hacked Remotely</mj-text>
+          <mj-image src="https://2.bp.blogspot.com/-F5vahwVp4hA/WV8z6ddiS2I/AAAAAAAAtgE/MwABPRdqQDgwTBwAE1M7xYIl9YLd_-WqwCLcBGAs/s1600/hacking-android-phone.png"></mj-image>
+          <mj-text color="#fff">Google has released its latest monthly security update for Android devices, including a serious bug in some Broadcom Wi-Fi chipsets that affects millions of Android devices, as well as some iPhone models.</mj-text>
+          <mj-text color="#fff">Dubbed BroadPwn, the critical remote code execution vulnerability resides in Broadcom's BCM43xx family of WiFi chipsets, which can be triggered remotely without user interaction, allows a remote attacker to execute malicious code on targeted Android devices with kernel privileges.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="http://thehackernews.com/2017/07/android-ios-broadcom-hacking.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Fourth Largest Cryptocurrency Exchange Was Hacked. Users Lose Ethereum & Bitcoin</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/07/04/Bitcoin-coin.jpg"></mj-image>
+          <mj-text>Bithumb, the world's fourth largest cryptocurrency exchange by volume, confirmed a security incident during which an unknown hacker was able to make off with an yet undetermined amount of funds.</mj-text>
+          <mj-text>Clues that something was wrong emerged on Thursday, when South Korean users, who make most of Bithumb's userbase, started complaining on a local social network about losing control over large funds stored in their Bithumb accounts.</mj-text>
+          <mj-text>A day later after these complaints, the company officially admitted the breach in a blog post on its website, albeit it did not provide any meaningful details.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/fourth-largest-cryptocurrency-exchange-was-hacked-users-lose-ethereum-and-bitcoin/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">CopyCat Android Rooting Malware Infected 14 Million Devices</mj-text>
+          <mj-image src="https://regmedia.co.uk/2017/07/07/copycat_android_malware.jpg?x=648&y=439&infer_y=1"></mj-image>
+          <mj-text>A newly uncovered malware strain has already infected more than 14 Million Android devices around the world, earning its operators approximately $1.5 Million in fake ad revenues in just two months.</mj-text>
+          <mj-text>Dubbed CopyCat, the malware has capabilities to root infected devices, establish persistency, and inject malicious code into Zygote – a daemon responsible for launching apps on Android, providing the hackers full access to the devices.</mj-text>
+          <mj-button mj-class="bg-green" href="http://thehackernews.com/2017/07/copycat-rooting-malware.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Researchers Extract RSA-1024 Keys from Popular Crypto Library</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/07/04/Encryption-Broken.jpg"></mj-image>
+          <mj-text>A team of eight researchers from various universities has found a bug in the Libcrypto library that allows an attacker with local access to extract the RSA-1024 private key that was used to encrypt local data.</mj-text>
+          <mj-text>Their researcher paper was focused on GnuPG, an encryption software for Android, Linux, macOS, and Windows. More accurately, the researchers focused their work on Libgcrypt, GnuPG's module responsible for the actual GnuPG's encryption operations.</mj-text>
+          <mj-text>Researchers say they found that Libgcrypt used a method known as "sliding windows" to compute part of these mathematical equations behind data encryption. The problem, they say, was that "sliding windows" is a computation method known to leak data via side-channel attacks.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/researchers-extract-rsa-1024-keys-from-popular-crypto-library/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">OWASP Mobile Security Testing Guide</mj-text>
+          <mj-image src="https://www.owasp.org/images/2/22/OWASP_Mobile_Logo_Milan.PNG"></mj-image>
+          <mj-text>OWASP has released a work-in-progress version of the OWASP Mobile Security Testing Guide. Since it's work-in-progress the content can change at any time.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://b-mueller.gitbooks.io/the-owasp-mobile-security-testing-guide/content/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">ZIP Bombs Can Protect Websites From Getting Hacked</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/07/07/ZIP-bomb.png"></mj-image>
+          <mj-text>Webmasters can use so-called ZIP bombs to crash a hacker's vulnerability and port scanner and prevent him from gaining access to their website.</mj-text>
+          <mj-text>The term "ZIP bomb" refers to nested ZIP archives that when unzipped are decompressed to huge files that the victim's computer cannot process in its memory or cannot store on disk.</mj-text>
+          <mj-text>For example, a 4.5 petabyte file containing only zeroes can be easily compressed to 42 kilobytes because the ZIP compression system can handle repetitive data extremely well.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.bleepingcomputer.com/news/security/zip-bombs-can-protect-websites-from-getting-hacked/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Attack on Critical Infrastructure Leverages Template Injection</mj-text>
+          <mj-image src="https://alln-extcloud-storage.cisco.com/ciscoblogs/Talos_BlogBanner2_2000x3502-460x230.jpg"></mj-image>
+          <mj-text>Attackers are continually trying to find new ways to target users with malware sent via email. Talos has identified an email-based attack targeting the energy sector, including nuclear power, that puts a new spin on the classic word document attachment phish. Typically, malicious Word documents that are sent as attachments to phishing emails will themselves contain a script or macro that executes malicious code. In this case, there is no malicious code in the attachment itself. The attachment instead tries to download a template file over an SMB connection so that the user's credentials can be silently harvested. In addition, this template file could also potentially be used to download other malicious payloads to the victim's computer.</mj-text>
+          <mj-button mj-class="bg-pink" href="http://blog.talosintelligence.com/2017/07/template-injection.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

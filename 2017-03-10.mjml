@@ -1,0 +1,187 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">10 March 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">What WikiLeaks' massive CIA Leak tells us about cybersecurity</mj-text>
+          <mj-image src="https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/wikileaks-796x398.jpg"></mj-image>
+          <mj-text color="#fff">This week, WikiLeaks returned with a further installment dubbed “Vault 7/Year Zero” that exposes the first cache of 7,818 partly redacted web pages and 943 attachments that make up some of the CIA’s most precious software riddles.</mj-text>
+          <mj-text color="#fff">Year Zero introduces the scope and direction of the CIA’s global covert hacking program, its malware arsenal and dozens of zero day weaponized exploits against a wide range of US and European company products, include Apple’s iPhone, Google’s Android and Microsoft’s Windows and even Samsung TVs, which are turned into covert microphones.</mj-text>
+          <mj-text color="#fff">While a lot of its content won't surprise most people working in cybersecurity, these kind of leak confirm some important facts:</strong></mj-text>
+          <mj-list color="#FFF">
+            <li>Secure messaging app doing end-to-end encryption look to be robust enough so that even the CIA does not even try to break the encryption. What they do is that they break into the system hosting the app and intercept the messages before it gets encrypted.</li>
+            <li>The CIA routinely put false flags into their exploits so that people analysing it think it comes from other countries.</li>
+            <li>While a lot of those operations are highly technical, a lot of them still make an extensive use of social engineering techniques to get into the system and inject the malwares. Security awareness among employees is still a key cybersecurity protection.</li>
+            <li>Their documentation explaining how to evade most Antivirus detections shows how those products are just one layer of our security. They are necessary, but they don't suffice.</li>
+            <li>Those documents seemed to have leaked from some of the many contractors the CIA used over the years. They have been shared internally before one of them decided to send it to Wikileaks. That shows how important it is to manage third parties effectively.</li>
+          </mj-list>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2017/03/08/what-wikileaks-massive-cia-leak-tells-us-about-cybersecurity/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.nytimes.com/2017/03/07/world/europe/wikileaks-cia-hacking.html?_r=1">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Hackers exploit Apache Struts vulnerability to compromise corporate web servers, <br />patch now!</mj-text>
+          <mj-image src="https://cdn.arstechnica.net/wp-content/uploads/2017/03/struts-exploit-800x503.jpg"></mj-image>
+          <mj-text>Apache Struts is an open-source web development framework for Java web applications. Security experts today urged enterprises using Apache Struts2 for Web applications to upgrade to either versions 2.3.32 or 2.5.10.1 as soon as possible after researchers from Cisco Talos disclosed an easily exploitable bug in all other versions of the open-source framework.</mj-text>
+          <mj-text>It's widely used to build corporate websites. Exploits for the flaw are already available in the wild and attackers are using them to actively look for and target vulnerable Web servers. Most of the attacks appear to be taking advantage of a proof-of-concept exploit that was released publicly.</mj-text>
+          <mj-text>The remotely executable flaw exists in something called the Jakarta Multipart parser in Struts. It allows attackers to inject malicious commands into certain HTTP requests, which are then executed by the Web server. <strong>What makes the vulnerability especially dangerous is that it allows attackers unauthenticated remote access to insert malicious commands and payloads of their choice into HTTP requests.</strong></mj-text>
+          <mj-button background-color="#E72B78" color="#fff" href="http://www.darkreading.com/attacks-breaches/attacks-under-way-against-easily-exploitable-apache-struts-flaw/d/d-id/1328362">
+            Read More
+          </mj-button>
+          <mj-button background-color="#E72B78" color="#fff" href="https://testlab.sit.fraunhofer.de/downloads/publications/holzinger2016java.pdf">
+            For the brave
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Spammers expose their entire operation through backups mistakenly disclosed to the public</mj-text>
+          <mj-image src="http://images.techhive.com/images/article/2017/03/spam_examples_river_city_media-100711925-large.jpg"></mj-image>
+          <mj-text>On Monday, Salted Hash covered the story of how faulty Rsync backups exposed River City Media (RCM), an organization known to Spamhaus. The data breach exposed 1.34 billion email addresses used by RCM to send offers, or emails that most of the public would consider spam. Some of those email records included personal information, compounding the issue.</mj-text>
+          <mj-text>This leak allows us to discover how spammers operate:</mj-text>
+          <mj-list>
+            <li>How do they collect emails</li>
+            <li>How do they maintain this list to check who receives their spam, who opens it, who clicks on links and who actually gets scammed</li>
+            <li>How they cheat email providers into not flagging their messages as spam</li>
+            <li>How do they recover from their domain name being flagged as spammer</li>
+          </mj-list>
+          <mj-text><strong></strong></mj-text>
+          <mj-button background-color="#2ea836" href="http://www.csoonline.com/article/3176433/security/spammers-expose-their-entire-operation-through-bad-backups.html">
+            Read More
+          </mj-button>
+          <mj-button background-color="#2ea836" href="http://www.csoonline.com/article/3178395/security/spammergate-the-takeaway-lessons-and-follow-ups-on-the-river-city-media-data-breach.html">
+            Follow Up
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">How to spot phishing and scams on social media</mj-text>
+          <mj-image src="https://heimdalsecurity.com/blog/wp-content/uploads/fake-profile-2-1024x686.jpg"></mj-image>
+          <mj-text>We spend a lot of time on social media, and for good reason. It has collapsed the communication distance between us and other people, bringing us closer. However, this category of “other people” includes persons you would never want to meet: scammers, blackhat hackers, and other such online criminals.</mj-text>
+          <mj-text>In this article, you will learn how you can identify a fake online profile, and avoid any of their scamming attempts. You will also learn about social media specific phishing techniques, such as Catphishing and Like-farming.</mj-text>
+          <mj-button background-color="#F39000" href="https://heimdalsecurity.com/blog/fake-facebook-scams/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">How hackers find your reused passwords: LeakedSource Clone Pops Up on Russian Domain</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/u/986406/Images/Online/LeakedSource.png"></mj-image>
+          <mj-text>The original LeakedSource launched in late 2015, and it became known worldwide after it disclosed mega data breaches affecting services such as LinkedIn, MySpace, Dropbox, and many others. The original LeakedSource went down on January 25, this new website, currently hosted at LeakedSource.ru, claims to be a continuation of the official LeakedSource service. </mj-text>
+
+          <mj-text>At the same time, the site also became extremely popular with amateur hackers because, for a small fee, it allowed anyone to view cracked passwords from user accounts included in these breaches.</mj-text>
+
+          <mj-text><strong>While it is very likely that this version is a scam, real copycats will eventually show up and take back this business. That's why it's very important to use strong, UNIQUE passwords on each service.</strong></mj-text>
+          <mj-button background-color="#992785" href="https://www.bleepingcomputer.com/news/security/leakedsource-clone-pops-up-on-russian-domain/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Google finally releases it's new, invisible reCAPTCHA</mj-text>
+          <mj-image src="https://thetechportal.com/wp-content/uploads/2017/03/recaptcha-990x423.jpg"></mj-image>
+          <mj-text>Google's reCAPTCHA is the leading CAPTCHA service (that's "Completely Automated Public Turing test to tell Computers and Humans Apart") on the Web. You've probably seen CAPTCHAs a million times on sign-up pages across the Web; to separate humans from spam bots, a challenge will pop up asking you to decipher a picture of words or numbers, pick out objects in a grid of pictures, or just click a checkbox.</mj-text>
+          <mj-text>Now, though, <strong>you're going to be seeing CAPTCHAs less and less, not because Google is getting rid of them but because Google is making them invisible.</strong> It works invisibly in the background, somehow, to identify bots from humans. Google doesn't go into much detail on how it works, only saying that the system uses "a combination of machine learning and advanced risk analysis that adapts to new and emerging threats." More detailed information on how the system works would probably also help bot-makers crack it, so don't expect details to pop up any time soon.</mj-text>
+          <mj-text>To use it, just click on Get reCaptcha and select "Invisible reCAPTCHA".</mj-text>
+          <mj-button background-color="#00a5de" href="https://arstechnica.com/gadgets/2017/03/googles-recaptcha-announces-invisible-background-captchas/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#00a5de" href="https://developers.google.com/recaptcha/docs/invisible">
+            Dev HowTo
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Malware Retrieves PowerShell Scripts from DNS Records</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/03/03/DNS-Attack.jpg"></mj-image>
+          <mj-text>Malware researchers have come across a new Remote Access Trojan (RAT) that uses a novel technique to evade detection on corporate networks by fetching malicious PowerShell commands stored inside a domain's DNS TXT records.</mj-text>
+          <mj-text>Most of today's enterprise and home security products monitor HTTP/S traffic primarily. Cisco says that because the malware used DNS queries to hide its activity, unless the target company was monitoring DNS traffic, the infection would have never been picked up.</mj-text>
+          <mj-button background-color="#E72B78" href="https://www.bleepingcomputer.com/news/security/malware-retrieves-powershell-scripts-from-dns-records/">
+            Read More
+          </mj-button>
+
+          <!-- end articles -->
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

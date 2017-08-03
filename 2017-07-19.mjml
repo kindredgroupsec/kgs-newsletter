@@ -1,0 +1,207 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">19 July 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Critical Flaws Found in Windows NTLM Security Protocol – Patch Now</mj-text>
+          <mj-image src="https://blog.preempt.com/hs-fs/hubfs/NTLM%20relay%20basic%20flow.png?t=1499797883423&width=1280&name=NTLM%20relay%20basic%20flow.png"></mj-image>
+          <mj-text color="#fff">The Preempt research team discovered and reported two Microsoft NT LAN Manager (NTLM) vulnerabilities. These issues are particularly significant as they can potentially allow an attacker to create new domain administrator accounts even when best-practice controls such as LDAP server signing and RDP restricted admin mode are enabled.</mj-text>
+          <mj-text color="#fff">NTLM is a suite of Microsoft security protocols that enables authentication, integrity, and confidentiality for users. A video demonstration of the two vulnerabilities can be seen <a href="https://www.preempt.com/video/getting-handle-ntlm/" class="lnk-white">here</a>.</mj-text>
+          <mj-text color="#fff">Microsoft acknowledged both issues. For the first, a CVE has been issued (CVE-2017-8563) and a fix has been released. <strong style="color: yellow;">For the second, Microsoft, claimed it is a “known issue” and recommend configuring network to be safe from any sort of NTLM relay.</strong></mj-text>
+          <mj-text color="#fff">The bottom line: NTLM is very risky as it puts you at risk of credential forwarding and  password cracking. If you can, you should avoid using it in your network and you’ll be a lot safer. If it is not feasible for your organization, you'll find recommendations at the end of the article to mitigate the risks.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://blog.preempt.com/new-ldap-rdp-relay-vulnerabilities-in-ntlm">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8563">
+            CVE-2017-8563
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Critical RCE Vulnerability Found in Cisco WebEx Extensions, Again — Patch Now!</mj-text>
+          <mj-image src="https://3.bp.blogspot.com/-9iWPDrokoLQ/WWzum6Ve0xI/AAAAAAAAtpk/gK3Z4cxIHZAmAM3eyl58TkJxkgAxCuugQCLcBGAs/s1600/Cisco-WebEx-Remote-Command-Execution.png"></mj-image>
+          <mj-text>A highly critical vulnerability has been discovered in the Cisco Systems’ WebEx browser extension for Chrome and Firefox, for the second time in this year, which could allow attackers to remotely execute malicious code on a victim's computer.</mj-text>
+          <mj-text>Discovered by Tavis Ormandy of Google Project Zero and Cris Neckar of Divergent Security, the remote code execution flaw (CVE-2017-6753) is due to a designing defect in the WebEx browser extension. <strong>To exploit the vulnerability, all an attacker need to do is trick victims into visiting a web page containing specially crafted malicious code through the browser with affected extension installed.</strong></mj-text>
+          <mj-text>Cisco has already patched the vulnerability and released “Cisco WebEx Extension 1.0.12” update for Chrome and Firefox browsers that address this issue, though "there are no workarounds that address this vulnerability."</mj-text>
+          <mj-text>In general, users are always recommended to run all software as a non-privileged user in an effort to diminish the effects of a successful attack.</mj-text>
+          <mj-button mj-class="bg-pink" href="http://thehackernews.com/2017/07/cisco-webex-vulnerability.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1324&desc=2">
+            Google Zero bug report
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Top 10 phishing email subject lines that launch ransomware</mj-text>
+          <mj-image src="http://images.techhive.com/images/article/2016/11/phishing-threat-100691616-large.jpg"></mj-image>
+          <mj-text> Ninety-one percent of attacks by cyber criminals start through phishing, according to email security provider Mimecast. The Cisco 2017 Annual Cybersecurity Report states that ransomware is growing at a yearly rate of 350 percent.</mj-text>
+          <mj-text>Want to protect your organization from the next ransomware outbreak? Give this list of the top 10 global most-clicked phishing email subject lines for Q2 2017, recently published by KnowBe4, to your employees.</mj-text>
+          <mj-text>Security Alert <i>– 21%</i>; Revised Vacation & Sick Time Policy <i>– 14%</i>; UPS Label Delivery 1ZBE312TNY00015011 <i>– 10%</i>; BREAKING: United Airlines Passenger Dies from Brain Hemorrhage – VIDEO <i>– 10%</i>; A Delivery Attempt was made <i>– 10%</i>; All Employees: Update your Healthcare Info <i>– 9%</i>; Change of Password Required Immediately <i>– 8%</i>; Password Check Required Immediately <i>– 7%</i>; Unusual sign-in activity <i>– 6%</i>; Urgent Action Required <i>– 6%</i></mj-text>
+          <mj-button mj-class="bg-green" href="http://www.csoonline.com/article/3209086/hacking/top-10-phishing-email-subject-lines-that-launch-ransomware.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Insider scammed $14.3m lottery ‘win’ by manipulating random number generator</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/07/untitled-design-12.jpg"></mj-image>
+          <mj-text>One of the biggest lottery scams in the history of the US is coming to a close as the mastermind behind the operation has pleaded guilty in an Iowa court, at the end of last month.</mj-text>
+          <mj-text>Eddie Tipton, 54, admitted to creating malware in the form of a DLL file, which he loaded on the secure computers of the Multi-State Lottery Association (MSLA), a company that runs lotteries in 33 states, but also in the District of Columbia, Puerto Rico and the U.S. Virgin Islands.</mj-text>
+          <mj-text>Tipton was able to do this because he served as the company's computer information security director in its Urbandale, Iowa headquarters, and was one of the five persons that had access to those computers, situated in the "draw room."</mj-text>
+          <mj-button mj-class="bg-orange" href="https://nakedsecurity.sophos.com/2017/07/14/insider-who-scammed-14-3m-lottery-win-pleads-guilty/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/legal/man-pleads-guilty-to-manipulating-lottery-winning-tickets-via-hacked-computer/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">API-Security-Checklist</mj-text>
+          <mj-image src="http://imgur.com/EzQcXci.jpg"></mj-image>
+          <mj-text>Checklist of the most important security countermeasures when designing, testing, and releasing your API.</mj-text>
+          <mj-text>While some items are debatable, for example, a lot of people in infosec <a href="https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid" class="lnk-purple">do have a grip against JWT</a>, others try to promotes alternatives such as <a href="http://evancordell.com/2015/09/27/macaroons-101-contextual-confinement.html" class="lnk-purple">Macaroons</a>, that can be attenuated and delegated in ways that JWTs can not, or things like <a href="https://github.com/fernet/spec" class="lnk-purple">Fernet</a>.</mj-text>
+          <mj-text>Otherwise it seems like a very good starting point when assessing the security of an existing API or designing a new one.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://github.com/shieldfy/API-Security-Checklist/blob/master/README.md">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">On The (Perceived) Value of EV Certs, Commercial CAs, Phishing and Let's Encrypt</mj-text>
+          <mj-image src="https://www.troyhunt.com/content/images/2017/07/Blocked-Phishing-Certificates-1.png"></mj-image>
+          <mj-text>There are two important things happening here: Any page including a form element loaded over a non-secure connection will display "Not secure" (at least once you click on it). Any non-secure page at all loaded in Incognito mode will also display "Not secure" (and it'll do it all the time)</mj-text>
+          <mj-text>A cornerstone of the anti-Let's Encrypt movement has been the use of their certificates for malicious purposes, particularly in phishing campaigns. Certs are valuable for building trust in victims because the presence of HTTPS provides increased visual assurance of the safety of the site. You'll see the word "Secure" next to the address bar in Chrome on the desktop, a padlock next to the URL in Safari on iOS and other similar implementations in different clients</mj-text>
+          <mj-text>One really important part of the narrative here is that a CA issuing certs which are then used for malicious purposes in no way jeopardises the viability of that CA for other customers. But regardless of the CA, the ready availability of these certs that can be used for malicious purposes clearly poses a challenge due to user-conditioning to recognise the padlock icon as a sign of trustworthiness. HTTPS & SSL doesn't mean "trust this." It means "this is private." You may be having a private conversation with bad guys.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.troyhunt.com/on-the-perceived-value-ev-certs-cas-phishing-lets-encrypt/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Node JS Denial of Service critical vulnerability</mj-text>
+          <mj-image src="https://threatpost.com/files/2015/07/Untitled-1.jpg"></mj-image>
+          <mj-text>A bug exists in Node.js, all versions of v0.12.x through to v5.x inclusive, whereby an external attacker can cause a denial of service. The severity of this issue is high (7.5/10) and users of the affected versions should plan to upgrade when a fix is made available.</mj-text>
+          <mj-text>Versions 0.12.x, 4.x, including LTS Argon and 5.x of Node.js are vulnerable. Versions 0.10.x of Node.js are not affected.</mj-text>
+          <mj-text>An additional bug exists in Node.js, all versions of v4.x and v5.x, whereby an attacker may be able to trigger an out-of-bounds access and/or denial of service if user-supplied JavaScript can be executed by an application. The severity of this issue is considered medium for Node.js users (4.4/10), but only under circumstances where an attacker may cause user-supplied JavaScript to be executed within a Node.js application. Fixes will be shipped for the v4.x and v5.x release lines along with fixes for CVE-2015-8027.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://nodejs.org/en/blog/vulnerability/july-2017-security-releases/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

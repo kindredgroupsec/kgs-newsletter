@@ -1,0 +1,215 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">12 June 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">This powerPoint file downloads malware when you hover a link, no macros required</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-UVQiTEP2tEg/WTfxDaHj79I/AAAAAAAAtCM/9Fh2KRn0Wn0wU7lyFSNRoV_QYesp-WA-gCLcB/s1600/microsoft-powerpoint-macros-malware.png"></mj-image>
+          <mj-text color="#fff">A new social engineering attack has been discovered in the wild, which doesn't require users to enable macros; instead it executes malware on a targeted system using PowerShell commands embedded inside a PowerPoint (PPT) file. The malicious PowerShell code triggers as soon as the victim moves/hovers a mouse over a link, which downloads an additional payload on the compromised machine -- even without clicking it.</mj-text>
+          <mj-text color="#fff">The PowerPoint files have been distributed through spam emails with subjects like "Purchase Order" and "Confirmation," which when opened, displays the text "Loading...Please Wait" as a hyperlink.</mj-text>
+          <mj-text color="#fff">Fortunately the Protected View security feature that comes enabled by default in most supported versions of Office, including Office 2013 and Office 2010, displays a severe warning and prompts them to enable or disable the content. The security firm also said that the attack doesn't work if the malicious file is opened in PowerPoint Viewer, which refuses to execute the program. But the technique could still be efficient in some cases.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="http://thehackernews.com/2017/06/microsoft-powerpoint-malware.html">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="http://blog.trendmicro.com/trendlabs-security-intelligence/mouseover-otlard-gootkit/">
+            Original statement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">SecureLogin — Forget About Passwords</mj-text>
+          <mj-image src="https://cdn-images-1.medium.com/max/1600/1*TXa7VwvBGTUUWoVcuLdKew.gif"></mj-image>
+          <mj-text>SecureLogin is a decentralized authentication protocol for websites and apps. Classic passwords/2FA are poorly designed, hard to backup and inconvenient to use. SecureLogin is an all-in-one solution that creates a cryptographic private key from your email and master password to sign in everywhere and helps you to forget about passwords.</mj-text>
+          <mj-text>SecureLogin is not a new OAuth, not a password manager, not a new 2FA option. It's trying to be all three in one protocol. SecureLogin leverages deterministic password generation combined with a decentralized authentication scheme. </mj-text>
+          <mj-text>The author did his best to make the solution easy to use, login apps are available for all "major" client platforms (MacOs, iOS, Android, Windows 10). It will be interesting to see if this new concept will find its way to the market, between password managers, social connect buttons and other alternatives such as U2F.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://medium.com/@homakov/securelogin-forget-about-passwords-c1bf7b47f698">
+            Announce
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://securelogin.pw/">
+            Official webpage
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://github.com/sakurity/securelogin">
+            Github Page
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Researchers Port NSA EternalBlue Exploit to Windows 10</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/06/07/ETERNALBLUE.jpg"></mj-image>
+          <mj-text>Experts at RiskSense have ported the leaked NSA exploit named ETERNALBLUE for the Windows 10 platform. This is the same exploit that was used by the WannaCry ransomware as part of its SMB self-spreading worm in the mid-May WannaCry outbreak that affected over millions of computers across the world.</mj-text>
+          <mj-text>This ETERNALBLUE port only works against Windows 10 versions before the Redstone 1 release (April 2016). Furthermore, these older versions must have not received the MS17-010 security patch, which Microsoft released in March 2017. While this prevents the Windows 10 port of ETERNALBLUE to work on cutting-edge Windows 10 versions, there are still many older versions that are vulnerable to attacks.</mj-text>
+          <mj-text>Besides porting ETERNALBLUE to target Windows 10, the RiskSense crew also managed to remove DOUBLEPULSAR from the ETERNALBLUE exploitation chain. All Windows users should make sure they've installed the updates included in Microsoft's MS17-010 security bulletin.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/researchers-port-nsa-eternalblue-exploit-to-windows-10/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://technet.microsoft.com/en-us/library/security/ms17-010.aspx">
+            MS17-010 Security Bulletin
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Hackers Are Using An Effective Way to Spread Fake News From Verified Accounts</mj-text>
+          <mj-image src="https://3.bp.blogspot.com/-A_v8VVgab-o/WTu0b412xnI/AAAAAAAAtFQ/zu3BYdACgFcdqtQqwPH8yDz95DMLPWStQCLcB/s1600/twitter-facebook-doubleswitch-attack.png"></mj-image>
+          <mj-text>Now, researchers have uncovered a new, cunning attack technique currently being used by hackers to take over verified Twitter accounts and rename them to influential people in order to spread fake news. Dubbed DoubleSwitch, the attack begins with a simple account takeover, but then the hackers change the username and display name with the one having a large influence on social media.</mj-text>
+          <mj-text>This attack was discovered when two journalists — Milagros Socorro and Miguel Pizarro, a member of Venezuela's parliament — were hacked and then renamed. The hacker then registered a new account, resembling with their original profiles, under the original usernames (Twitter handles), but using the attacker's controlled email addresses.</mj-text>
+          <mj-text>This means, every time victims try to recover their accounts using regular password reset option, the confirmation emails will be sent to the hijacker, who pretends that the issue has been resolved, making it almost impossible for the victims to recover their account.</mj-text>
+          <mj-text>Hackers then use hijacked verified accounts, but renamed to another influence, to feed fake news to the millions of followers of the original accounts. While it's unclear how the hackers managed to hijack the verified users at the first place, it is believed that the attack begins with malware or phishing attacks.</mj-text>
+          <mj-button mj-class="bg-orange" href="http://thehackernews.com/2017/06/social-media-fake-news.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Your Essential Guide to Cyber Liability Insurance</mj-text>
+          <mj-image src="https://heimdalsecurity.com/blog/wp-content/uploads/screenshot-NIST-framework.png"></mj-image>
+          <mj-text>Small and medium companies get broken into just as frequently as big ones, they’re just not important enough to generate the news. For these fledgling businesses, a severe hacking can eat up a year's worth of profit or even bankrupt them altogether.</mj-text>
+          <mj-text>To protect against these unpredictable situations, your company should consider a cyber security liability insurance policy. A well negotiated one can cover most, if not all, of the damage caused by a cyber attack.</mj-text>
+          <mj-text>This article will go through the basics of setting up a cyber liability insurance for your company.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://heimdalsecurity.com/blog/cyber-liability-insurance/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Domain Shadowing: Some of your subdomains may be taken over by somebody else</mj-text>
+          <mj-image src="https://blog.sweepatic.com/content/images/2017/05/Picture2.png"></mj-image>
+          <mj-text>Do you know that it's possible that some of your subdomains maybe taken over by somebody else? This is due to the fact, that for some of your DNS records (mainly CNAME) you enabled zone delegation.</mj-text>
+          <mj-text>A subdomain takeover is considered a high severity threat and boils down to the registration of a domain by somebody else (with bad intentions) in order to gain control over one or more (sub)domains.</mj-text>
+          <mj-text> This presents an interesting attack vector, which can even lead to several high severity risks, like this authentication bypass explained in a bug bounty report by Arne Swinnen.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://blog.sweepatic.com/subdomain-takeover-principles/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://blogs.rsa.com/shadowfall/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Announcing Google Capture the Flag 2017</mj-text>
+          <mj-image src="http://imgur.com/IEdQLPC.png"></mj-image>
+          <mj-text>On 00:00:01 UTC of June 17th and 18th, 2017 Google will be hosting the online qualification round of their second annual Capture The Flag (CTF) competition. Top 10 finalist teams will be invited to Google offices to compete onsite for a prize pool of over USD$31,337</mj-text>
+          <mj-text>In a ‘Capture the Flag’ competition we create security challenges and puzzles in which contestants can earn points for solving them.</mj-text>
+          <mj-text>At the Google CTF last year the winning team, ‘Pasten’ from Israel, earned over 4,700 points competing against 2,400 teams out of which 900 were able to solve at least one of our challenges.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://security.googleblog.com/2017/06/announcing-google-capture-flag-2017.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://capturetheflag.withgoogle.com/">
+            CTF Page
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

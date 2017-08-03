@@ -1,0 +1,187 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">7 April 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Chinese Group Hacking Cloud Providers to Reach Into Secure Enterprise Networks</mj-text>
+          <mj-image src="http://imgur.com/RVXTeff.png"></mj-image>
+          <mj-text color="#fff">A cyber-espionage group that first surfaced in 2009 is using a novel tactic into hacking its targets by first breaching one of its cloud service providers, and then reaching inside the company's secure business network via the cloud service's approved communications channels.</mj-text>
+          <mj-text color="#fff">This group's decision to hack the cloud service providers comes as these services are becoming more ubiquitous in enterprise networks, and almost all companies use one or more cloud services to handle some type of activity, may it be human resource management, inventory activities, email, or file sharing and hosting.</mj-text>
+          <mj-text color="#fff">BAE and PwC didn't reveal a list of hacked cloud service providers, but the report also includes <a class="lnk-pink" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-indicators-of-compromise.pdf">Indicators of Compromise (IoC)</a>, if sysadmins need to update their firewalls and security platforms.</mj-text>
+          <mj-text color="#fff"><strong>Assessing the security of third parties before contracting with them is essential, but not sufficient. The industry will need to improve active monitoring of business dependencies if we want to efficiently prevent attacks in the future.</strong></mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/chinese-group-is-hacking-cloud-providers-to-reach-into-secure-enterprise-networks/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">How To Secure Your Web App With HTTP Headers</mj-text>
+          <mj-image src="https://kinsta.com/wp-content/uploads/2016/10/http-security-headers.png"></mj-image>
+          <mj-text>In 2016, approximately 40% of data breaches originated from attacks on web apps. These days, understanding cyber-security is not a luxury but rather a necessity for web developers, especially for developers who build consumer-facing applications.</mj-text>
+          <mj-text>HTTP response headers can be leveraged to tighten up the security of web apps, typically just by adding a few lines of code. In this article, the author shows how web developers can use HTTP headers to build secure apps. While the code examples are for Node.js, setting HTTP response headers is supported across all major server-side-rendering platforms and is typically simple to set up.</mj-text>
+          <mj-text>This article covers disabling caching of confidential information, enforcing HTTPS, enhancing protection against XSS attacks, blocking click-jacking techniques, and more. <strong>Remember that for the web to be truly awesome and engaging, it has to be secure.</strong></mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.smashingmagazine.com/2017/04/secure-web-app-http-headers/">Read More</mj-button>
+          <mj-button mj-class="bg-pink" href="https://securityheaders.io/">Check your site</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">No More Ransom — 15 New Ransomware Decryption Tools Available for Free</mj-text>
+          <mj-image src="https://korben.info/wp-content/uploads/2016/07/no-more-ransom.png"></mj-image>
+          <mj-text>Started as a joint initiative by Europol, the Dutch National Police, Intel Security and Kaspersky Lab, No More Ransom is an anti-ransomware cross-industry initiative to help ransomware victims recover their data without having to pay ransom to cyber criminals. The online website not just educates computer users to protect themselves from ransomware, but also provides a collection of free decryption tools.</mj-text>
+          <mj-text>Keep in mind ransomware is not a end-user only issue. Crooks are more and more startingto leverage well-spread vulnerabilities to penetrate production servers and ask for ransom. This <a href="https://www.bleepingcomputer.com/news/security/ransomware-gang-made-over-100-000-by-exploiting-apache-struts-zero-day/" class="lnk-green">happened recently with the Apache Struts vulnerability</a> we discussed <a class="lnk-green" Href="https://kindred-newsletter.infosecgur.us/2017-03-10.html">in the newsletter on March 10</a>.</mj-text>
+          <mj-text><strong>Preventing your system from being encrypted by ransomware with adequate security awareness, vulnerability patching and proper antivirus protection, as having backups in case you fail, will always be the best strategy. However, sometimes nothing goes to plan. As a last resort, don't forget to check on <a class="lnk-green" href="https://www.nomoreransom.org/">NoMoreRansom</a> if a decryption tool is freely available.</strong></mj-text>
+          <mj-button mj-class="bg-green" href="http://thehackernews.com/2017/04/decrypt-ransomware-files-tool.html">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Critical Xen hypervisor flaw endangers virtualized environments</mj-text>
+          <mj-image src="https://regmedia.co.uk/2015/11/01/xen_logos.jpg?x=1200&y=794"></mj-image>
+          <mj-text>A critical vulnerability in the widely used Xen hypervisor allows attackers to break out of a guest operating system running inside a virtual machine and access the host system's entire memory.</mj-text>
+          <mj-text>This is a serious violation of the security barrier enforced by the hypervisor and poses a particular threat to multi-tenant data centers where the customers' virtualized servers share the same underlying hardware. The open-source Xen hypervisor is used by cloud computing providers and virtual private server hosting companies, as well as by security-oriented operating systems like Qubes OS.</mj-text>
+          <mj-text>The Xen project released a patch Tuesday that can be applied manually to vulnerable deployments. The good news is that the vulnerability can only be exploited from 64-bit paravirtualized guest operating systems. <strong>Amazon Web Services said in an advisory that its customers' data and instances were not affected by this vulnerability and no customer action is required.</strong></mj-text>
+          <mj-button mj-class="bg-orange" href="http://www.csoonline.com/article/3187722/security/critical-xen-hypervisor-flaw-endangers-virtualized-environments.html">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Scammers Phishing for financial credentials on Twitter</mj-text>
+          <mj-image src="http://imgur.com/nfHjiyP.png"></mj-image>
+          <mj-text>Scammers are using Twitter as a vehicle to target people looking for customer support or asking general questions. They interject themselves into legitimate discussions, offering friendly chatter and a link that directs the target to a Phishing page designed to harvest credentials.</mj-text>
+          <mj-text>The scammers sign their messages with names, mimicking the real support accounts and adding an additional layer of legitimacy. In a flood of conversations on Twitter they might appear to be the real thing at a glance, and the target is already expecting a response.</mj-text>
+          <mj-text>The biggest red flag is the use of obvious unaffiliated domains on free hosting services like 16mb.com and axfree.com. However, at times the author has observed these Phishing accounts using the ow.ly URL shortening service as a mask. <strong>Anyone asking for sensitive information via public channels (even verified accounts) should be treated as suspect.</strong> If the matter is urgent or involves sensitive details, it's best to keep it off social media entirely and contact the bank via phone, or go to a local branch.</mj-text>
+          <mj-button mj-class="bg-purple" href="http://www.csoonline.com/article/3187832/security/scammers-phishing-for-financial-credentials-on-twitter.html">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Samsung's Android Replacement, Tizen, Is a Hacker's Dream</mj-text>
+          <mj-image src="https://cdn0.vox-cdn.com/thumbor/iqTYChlqdtSQ4fFglscIg4M7xLw=/0x0:890x600/1200x800/filters:focal(374x229:516x371)/cdn0.vox-cdn.com/uploads/chorus_image/image/54063567/tizen-iceberg.0.0.jpg"></mj-image>
+          <mj-text>A researcher in Israel has uncovered 40 unknown vulnerabilities, or zero-days, that would allow someone to remotely hack millions of newer Samsung smart TVs, smart watches, and mobile phones already on the market, as well as ones slated for future release, without needing physical access to them. The security holes are in an open-source operating system called Tizen that Samsung has been rolling out in its devices over the last few years.</mj-text>
+          <mj-text>One security hole Neiderman uncovered was particularly critical. It involves Samsung's TizenStore app—Samsung's version of Google Play Store—which delivers apps and software updates to Tizen devices. Neiderman says a flaw in its design allowed him to hijack the software to deliver malicious code to his Samsung TV. Although TizenStore does use authentication to make sure only authorized Samsung software gets installed on a device, Neiderman found a heap-overflow vulnerability that gave him control before that authentication function kicked in.</mj-text>
+          <mj-text>Neiderman contacted Samsung months ago to report the problems he found but got only an automated email in response. When the journalist contacted the Korean company, a Samsung spokesperson sent a boilerplate response via email: <em>"Samsung Electronics takes security and privacy very seriously."</em></mj-text>
+          <mj-button mj-class="bg-blue" href="https://motherboard.vice.com/en_us/article/samsung-tizen-operating-system-bugs-vulnerabilities">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Here's where the Apple accounts hackers are threatening to wipe came from</mj-text>
+          <mj-image src="https://www.troyhunt.com/content/images/2017/04/Apple-accounts-actually-at-risk-1.png"></mj-image>
+          <mj-text>The tech news recently has seen quite a lot of chatter about an alleged haul of Apple credentials, apparently about 250 million of them in all, made by a group called the Turkish Crime Family (TCF). TCF tried to extort Apple as they threaten to delete account contents and remote-wipe Apple devices if payment isn't forthcoming by... today. The 7th of April. What data do they actually have?</mj-text>
+          <mj-text>By running <a class="lnk-pink" href="https://haveibeenpwned.com/">Have I been pwned (HIBP)</a> and having 2.6 billion accounts from various data breaches to refer to, Troy Hunt has got a great data set with which to reference incidents like this. In this article, he describes what he has found and ultimately how he has identified where the vast majority of accounts have come from.</mj-text>
+          <mj-text>In a nutshell, <strong>the list of Apple accounts is not hundreds of millions, it is instead less than 53k and it's compromised predominantly of accounts from the Evony data breach and a small handful of others.</strong> The risk is no different to the one we're faced after every data breach: a bunch of people have reused their passwords and they're now going to have other accounts pwned as a result. That's a very different story to "hundreds of millions of Apple accounts will be reset and iPhones wiped".</mj-text>
+          <mj-text>I'll use this news as an opportunity to remind you that Troy Hunt's free service, Have I Been Pwned, allows you to <a href="https://haveibeenpwned.com/DomainSearch" class="lnk-pink">find all email addresses on a particular domain you own that have been caught up in any of the data breaches</a> currently in the system, in addition to notify you any future breaches of accounts on this domain. This is a great tool to warn your employees about possible password reuse attacks!</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.troyhunt.com/heres-where-the-apple-accounts-hackers-are-threatening-to-wipe-came-from/">Read More</mj-button>
+          <mj-button mj-class="bg-pink" href="https://haveibeenpwned.com/">Have I Been Pwned?</mj-button>
+
+          <!-- footer -->
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

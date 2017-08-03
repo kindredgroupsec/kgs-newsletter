@@ -1,0 +1,187 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">14 April 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">2017 OWASP Top 10 Release Candidate is available</mj-text>
+          <mj-image src="https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2017/04/OWASP_Top10.jpg?w=675"></mj-image>
+          <mj-text color="#fff">The OWASP Top 10 is a powerful awareness document for web application security. It represents a broad consensus about the most critical security risks to web applications. Project members include a variety of security experts from around the world who have shared their expertise to produce this list.</mj-text>
+          <mj-text color="#fff">This week the Open Web Application Security Project (OWASP) presented the first release candidate for the 2017 OWASP Top 10, the principal novelty is the presence of two new vulnerability categories: “insufficient attack detection and prevention” and “unprotected APIs.</mj-text>
+          <mj-text color="#fff">The 2017 OWASP Top 10 misses the “unvalidated redirects and forwards,” that was the 10th item on the current list dated back 2013. The “insufficient attack detection and prevention” results from the merger of the current 4th and 7th items, “Insecure direct object references” and the “Missing Function Level Access Control.” The categories have been merged into the item “Broken access control” that was dated back in 2004.</mj-text>
+          <mj-text color="#fff"><strong>OWASP plans to release the final OWASP Top 10 - 2017 in July or August 2017 after a public comment period ending June 30, 2017.</strong></mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="http://securityaffairs.co/wordpress/57938/hacking/2017-owasp-top-10.html">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://github.com/OWASP/Top10/blob/master/2017/OWASP%20Top%2010%20-%202017%20RC1-English.pdf">
+            OWASP Top10
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">MS Office (former) zero-day exploited in attacks – no enabling of macros required!</mj-text>
+          <mj-image src="https://www.helpnetsecurity.com/images/posts/msoffice-danger.jpg"></mj-image>
+          <mj-text>The existence of the flaw was <a class="lnk-pink" href="https://securingtomorrow.mcafee.com/mcafee-labs/critical-office-zero-day-attacks-detected-wild/">revealed by McAfee</a> researchers last Friday, and <a class="lnk-pink" href="https://www.fireeye.com/blog/threat-research/2017/04/acknowledgement_ofa.html">confirmed by FireEye</a> researchers last Saturday. The latter shared details about it with Microsoft weeks ago, and were waiting to publicly reveal the flaw once Microsoft pushed out a patch. The patch is still to be released.</mj-text>
+          <mj-text>The flaw is exploited through a specially crafted Microsoft Word RTF (Rich Text Format) file, which contains an embedded OLE2link object. The object instructs Word to send a HTTP request to a remote server controlled by the attackers, to retrieve from it a malicious .hta file masquerading as a RTF file. A .hta file is an executable, and in this case it loads and executes a malicious script that closes Word (i.e. the winword.exe process), downloads additional payloads, and starts Word again and shows a decoy document. Because .hta is executable, the attacker gains full code execution on the victim’s machine.</mj-text>
+          <mj-text>The exploit has been spotted being used to infect users with the Dridex banking malware. Microsoft has released a patch for the flaw this as part of its regular monthly Patch Tuesday. Unpatched users can protect themselves by enabling Office Protected View. Apparently, the exploit can’t bypass the protection offered by that feature.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.helpnetsecurity.com/2017/04/10/ms-office-zero-day/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Certificate Authority Authorization</mj-text>
+          <mj-image src="https://www.globalsign.com/images/globalsign-ev-root.png"></mj-image>
+          <mj-text>A Certificate Authority (CA) is an all powerful entity that can issue certificates for literally any domain on the planet. As the use of HTTPS, and thus certificates, is skyrocketing across the web (link)(link), we're looking to tighten up the controls on the CAs that issue them. Certificate miss-issuance, where someone else gets a certificate for your domain, is a really bad thing. </mj-text>
+          <mj-text>Certificate Authority Authorization (CAA) is a new mechanism that will allow site owners to specify which Certificate Authorities are authorised to issue certificates for their domain name. It's a simple DNS record so setup is a breeze and SSL Labs is now checking for it, so it's time to do it!</mj-text>
+          <mj-text>Right now it's optional for a CA to check for a CAA record but the CA/Browser Forum have literally just voted to make this check mandatory in the Baseline Requirements. This will land on September 8th 2017 so if you setup your record now the CAs that already check will respect it and later this year all CAs will be required to respect it.</mj-text>
+          <mj-button mj-class="bg-green" href="https://scotthelme.co.uk/certificate-authority-authorization/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Malware, Sir? Jenkins ‘software butler’ tool gets many security fixes</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/04/jk-1200.jpg"></mj-image>
+          <mj-text>One popular and widely used toolkit for the Continuous Integration (CI) process is called Jenkins. Jenkins can not only rebuild projects after each change, but even automatically approve, sign and deploy newly-built versions into one or more test environments, and even make it flow automatically into your distribution system</mj-text>
+          <mj-text>The most recent Jenkins security update, for example (2017-04-10), addressed at least 32 arbitrary remote code execution bugs, both in the software itself and in many of its plugins. Bugs of this sort may sound harmless on the surface, but you can think of these holes as “metacoding” bugs, where a rogue programmer could submit perfectly legitimate code changes that would be passed as improvements, yet could at the same time sneakily subvert the build process itself. That could leave you with official software, built officially from the official source code…but with some unofficial “secret sauce” mixed in.</mj-text>
+          <mj-text>If you’re part of a programming team that uses Jenkins, make sure you’ve applied all needed patches, or stopped using any plugins that are now known to be vulnerable but haven’t yet been patched.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://nakedsecurity.sophos.com/2017/04/12/malware-sir-jenkins-software-butler-tool-gets-many-security-fixes/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Hacker Caused Panic in Dallas by Turning ON Every Emergency Siren at Once</mj-text>
+          <mj-image src="https://4.bp.blogspot.com/-VGHiAtEAJ2o/WOuj31o8ZYI/AAAAAAAAsI8/1ZPFWVfDLQMoG5FB-YT_uSboSLzJJ6toQCLcB/s1600/dallas-tornado-siren-hack.png"></mj-image>
+          <mj-text>A hacker triggered a network of 156 emergency warning sirens for about two hours in Dallas, waking up residents and sparking fears of a disaster. The emergency warning sirens — designed to warn citizens of the Texas about dangerous weather conditions, such as severe storms and tornados — were activated around 11:40 p.m. Friday and lasted until 1:20 a.m. Saturday.</mj-text>
+          <mj-text>This week, Dallas city officials revealed a few details about last Friday’s chaos. “It’s a radio system, not a computer issue”.  City officials declined to provide details on how the emergency system works, noting only that “it’s a tonal-type system,” which suggests it could be compromised by outside radio equipment replicating the tonal code required to trigger the alarms. The whole thing sounds kind of like massive-scale phone phreaking</mj-text>
+          <mj-text>This is the second time when some hacker has attacked critical infrastructure in the city. Last year, some unknown hacker hacked into some traffic signals in Dallas and used them to publish jokes. For anyone who still thinks hacking always looks like a scene from Mr. Robot, the Dallas incident is just one more cautionary tale. With that in mind, it’s worth remembering that not all security incidents involve Matrix-style lines of code scrolling down a computer screen. Apparently, a good old-fashioned radio hack can still wreak havoc too.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://techcrunch.com/2017/04/12/dallas-emergency-system-100000-dollar-upgrade-radio-hack/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Five Inmates Built Two PCs and Hacked a Prison From Within</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/u/986406/Hackers/NetworkRackP3.jpg"></mj-image>
+          <mj-text>Five inmates from the Marion Correctional Institution (MCI) built two computers from spare parts, hid them in the ceiling of a training room closet, and used them to hack into the prison's network. Their actions were discovered in July 2015, when the prison's IT staff switched internal proxy servers, which are designed to monitor and report suspicious traffic. It immediately started reporting issues.</mj-text>
+          <mj-text>The five inmates managed to build their two PCs because they were part of the prison's Green Initiative program where they worked in trash management and electronics recycling. A forensic analysis of the hard drives found in the two PCs found legitimate software, hacking tools, and traces of illegal activities.</mj-text>
+          <mj-text>According to investigators, the inmates used these tools to capture network traffic, move laterally in the prison's network, crack passwords for active user accounts, and use these accounts to access the prison's network. They used this access to collect personal information for other inmates, apply for credit cards in the names of other inmates, and issued passes for other inmates.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.bleepingcomputer.com/news/security/five-inmates-built-two-pcs-and-hacked-a-prison-from-within/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Critical Security Updates from Adobe and Microsoft</mj-text>
+          <mj-image src="http://i1-news.softpedia-static.com/images/news2/Adobe-and-Microsoft-to-Release-Security-Updates-on-May-13-2014-441371-2.jpg"></mj-image>
+          <mj-text>Adobe and Microsoft separately issued updates on Tuesday to fix a slew of security flaws in their products. Adobe patched dozens of holes in its Flash Player, Acrobat and Reader products. Microsoft pushed fixes to address dozens of vulnerabilities in Windows and related software.  Adobe pushed its own batch of security patches. The usual “critical” update for Flash Player fixes at least seven flaws. The newest version is v. 25.0.0.148 for Windows, Mac and Linux systems.</mj-text>
+          <mj-text>The biggest change this month for Windows users and specifically for people responsible for maintaining lots of Windows machines is that Microsoft has replaced individual security bulletins for patches with a single “Security Update Guide". Many users are likely to be put off by the new format, which seems to require a great deal more clicking and searching than under the previous rubric.</mj-text>
+          <mj-text>Finally, a heads up for any Microsoft users still running Windows Vista: <strong>This month is slated to be the last that Vista will receive security updates.</strong> Vista was first released to consumers more than ten years ago — in January 2007 — so if you’re still using Vista it might be time to give a more modern OS a try.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://krebsonsecurity.com/2017/04/critical-security-updates-from-adobe-microsoft/">Read More</mj-button>
+
+          <!-- footer -->
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

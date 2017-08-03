@@ -1,0 +1,189 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">3 July 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">52% of All JavaScript npm Packages Could Have Been Hacked via Weak Credentials</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/06/27/npm.png"></mj-image>
+          <mj-text color="#fff">Tens of thousands of developers using weak credentials to secure their npm accounts inadvertently put more than half of the npm packages (JavaScript libraries and tools) at risk of getting hijacked and used to deploy malicious code to legitimate applications that use them in their build process.</mj-text>
+          <mj-text color="#fff">npm Inc, the company that runs the npm package manager, has addressed the issue at the start of June by triggering password reset operations for all affected users.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/52-percent-of-all-javascript-npm-packages-could-have-been-hacked-via-weak-credentials/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">WordPress Plugin Used by 300,000+ Sites Found Vulnerable to SQL Injection Attack</mj-text>
+          <mj-image src="http://cyberwarzone.com/wp-content/uploads/2014/05/wordpress-hack.jpg"></mj-image>
+          <mj-text>A SQL Injection vulnerability has been discovered in one of the most popular Wordpress plugins, installed on over 300,000 websites, which could be exploited by hackers to steal databases and possibly hijack the affected sites remotely.</mj-text>
+          <mj-text>The flaw has been discovered in the highly popular WP Statistics plugin, which allows site administrators to get detailed information related to the number of users online on their sites, the number of visits and visitors, and page statistics.</mj-text>
+          <mj-button mj-class="bg-pink" href="http://thehackernews.com/2017/06/wordpress-hacking-sql-injection.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">New ransomware, old techniques: Petya adds worm capabilities</mj-text>
+          <mj-image src="https://d1srlirzdlmpew.cloudfront.net/wp-content/uploads/sites/92/2016/03/06022553/petya-ransomware-fb-3.png"></mj-image>
+          <mj-text>On June 27, 2017 reports of a ransomware infection began spreading across Europe. We saw the first infections in Ukraine, where more than 12,500 machines encountered the threat. We then observed infections in another 64 countries, including Belgium, Brazil, Germany, Russia, and the United States.</mj-text>
+          <mj-text>The new ransomware has worm capabilities, which allows it to move laterally across infected networks. Based on our investigation, this new ransomware shares similar codes and is a new variant of Ransom:Win32/Petya. This new strain of ransomware, however, is more sophisticated.</mj-text>
+          <mj-button mj-class="bg-green" href="https://blogs.technet.microsoft.com/mmpc/2017/06/27/new-ransomware-old-techniques-petya-adds-worm-capabilities/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">How Not to Encrypt a File — Courtesy of Microsoft</mj-text>
+          <mj-image src="https://imgs.xkcd.com/comics/security.png"></mj-image>
+          <mj-text>A client recently sent me a crypto spec which involved some, how do I say, suboptimal use of crypto primitives. They’re .Net users so I decided to search for a nice msdn crypto reference to set them straight. Instead I found the likely culprit behind their confusion.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://medium.com/@bob_parks1/how-not-to-encrypt-a-file-courtesy-of-microsoft-bfadf2b0273d">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Vault 7: CIA Malware for Tracking Windows Devices via WiFi Networks</mj-text>
+          <mj-image src="https://2.bp.blogspot.com/-LATlalDY9hQ/WVOhKUDa6pI/AAAAAAAAtZE/4wD1FoJ4IZ0CqNAXr_Wx_jGusKYLGCtgQCLcBGAs/s1600/elsa-cia-geo-location-malware.png"></mj-image>
+          <mj-text>Today, WikiLeaks has published the documentation manual for an alleged CIA tool that can track users of WiFi-capable Windows devices based on the ESS (Extended Service Set) data of nearby WiFi networks.</mj-text>
+          <mj-text>According to the tool's 42-page manual, the tool's name is ELSA. The manual includes the following image to explain to CIA operatives how the tool works. A summary of an ELSA operation is included below the image.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://www.bleepingcomputer.com/news/security/vault-7-cia-malware-for-tracking-windows-devices-via-wifi-networks/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">OutlawCountry Is CIA's Malware for Hacking Linux Systems</mj-text>
+          <mj-image src="https://i0.wp.com/gbhackers.com/wp-content/uploads/2017/07/Vault7_GBHackers.jpg?resize=680%2C458&ssl=1"></mj-image>
+          <mj-text>WikiLeaks dumped today a manual describing a new CIA malware strain. Called OutlawCountry, this is malware designed for Linux operating systems.</mj-text>
+          <mj-text>The leaked user manual — dated 04 June 2015 — details a kernel module for Linux 2.6 that allows CIA operatives to divert traffic from a Linux machine to a chosen destination.</mj-text>
+          <mj-text>Shell access and root privileges are needed to install OutlawCountry, meaning CIA operatives must compromise machines via other means before deploying this malware strain.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.bleepingcomputer.com/news/security/outlawcountry-is-cias-malware-for-hacking-linux-systems/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">PRMitM: Attackers Can Hide Password Resets Inside Account Registrations</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/06/25/Registration.jpg"></mj-image>
+          <mj-text>A research paper published by four Israeli scientists details a new attack called PRMitM, or the "Password Reset Man-in-the-Middle," in which attackers hide password reset interactions for a user's legitimate profile inside account registration interactions on another site.</mj-text>
+          <mj-text>The attack falls under the category of social engineering, as it requires an attacker to convince or lure a potential victim to register a profile on a boobytrapped website.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/prmitm-attackers-can-hide-password-resets-inside-account-registrations/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

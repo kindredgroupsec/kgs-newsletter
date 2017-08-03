@@ -1,0 +1,171 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg" />
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">17 March 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Consumer Reports to Begin Evaluating Products, Services for Privacy and Data Security</mj-text>
+          <mj-image src="http://article.images.consumerreports.org/prod/content/dam/CRO%20Images%202017/Electronics/March/CR-Electonics-Inline-3-new-standard-for-digital-privacy-and-security-03-17" />
+          <mj-text color="#fff">In a recent CR Consumer Voices survey, 65 percent of Americans told them they are either slightly or not at all confident that their personal data is private and not distributed without their knowledge.</mj-text>
+          <mj-text color="#fff">That’s why Customer Report is now launching the first phase of a collaborative effort to create a new standard that safeguards consumers’ security and privacy. They hope industry will use that standard when building and designing digital products such as connected devices, software, and mobile apps.</mj-text>
+          <mj-text color="#fff">The new standard also calls on companies to delete consumer data from their servers upon request, to protect personal data with encryption as the data is sent through the internet, and to be completely transparent about how personal consumer information is shared with other companies.</mj-text>
+          <mj-text color="#fff"><strong>Improving products' security and protecting customers' privacy is not just to prevent a hypothetical future brand image impact anymore. Customers are getting more and more interested by how the product they use protect us from the start. Security and Privacy are, finally, being recognized as true added values.</strong></mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="http://www.consumerreports.org/privacy/consumer-reports-to-begin-evaluating-products-services-for-privacy-and-data-security/">Read More</mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="http://www.consumerreports.org/electronics/guide-to-privacy/">CR's Guide</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Spoofing the Address Bar in Microsoft Edge with the Malware Warning</mj-text>
+          <mj-image src="https://www.brokenbrowser.com/wp-content/uploads/2016/12/08-fb.png" />
+          <mj-text>Over the last few months, we’ve seen a proliferation of these tech-support scams where users end up “locked” in their browsers with horrible red-screens and messages like “your computer may be at risk“. This is not new of course, but scammers are using more and more tricks to fool their victims.</mj-text>
+          <mj-text>Hackers have recently found a way to spoof the address bar in Microsoft edge, displaying the address of their choice, by abusing how Microsoft Smartscreen operates to warn users about dangerous websites.</mj-text>
+          <mj-text>This bug was patched on 2017-03-14 but some researchers have found a bypass the same day. This article is a good demonstration of how to evade user input sanitization techniques based on blacklisting.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.brokenbrowser.com/spoof-addressbar-malware/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Nintendo Switch vulnerable to iOS 9.3 WebKit exploit</mj-text>
+          <mj-image src="http://i3.ytimg.com/vi/xkdPjbaLngE/hqdefault.jpg" />
+          <mj-text>A little over a week after the release of Nintendo’s new console, the Switch, reputed iOS hacker Luca Todesco has posted an image of an adapted version of his WebKit exploit running on the device.</mj-text>
+          <mj-text>The bug was patched in more recent versions of the open-source WebKit engine, and was likewise fixed up in iOS 9.3.5, but apparently the Nintendo Switch’s bundled browser is behind the times and still contains this critical vulnerability.</mj-text>
+          <mj-text>Whilst this news does not imply that the Switch is close to being fully jailbroken, it is a first step, and is certainly notable in its transference of the underlying bug. It seems slightly lax of Nintendo to have shipped a browser incorporating such a powerful and well-known exploit, but at this point it has only been used to gain code execution within the browser, not over the entire system.</mj-text>
+          <mj-text>While Nintendo own codebase may be properly implemented following security best practices, heavy use of third party libraries make you vulnerable to other teams' mistakes. That's why it is equally important to monitor the security of your dependencies and update them in a timely manner.</mj-text>
+          <mj-button mj-class="bg-green" href="http://www.idownloadblog.com/2017/03/13/nintendo-switch-webkit-exploit/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Bolstering security across Google Cloud</mj-text>
+          <mj-image src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/DLP_API_Presentation_2.gif" />
+          <mj-text>This week at Cloud Next ‘17, Google launched several new features for Google Cloud Platform (GCP) and G Suite that are designed to help safeguard your company’s assets and prevent disruption to your business.</mj-text>
+          <mj-text><strong>Identity-Aware Proxy (IAP)</strong> for GCP (now in beta) allows you to manage granular access to applications running on GCP based on risk, rather than the “all-or-nothing” approach of VPN access. <strong>Data Loss Prevention (DLP) API</strong> for GCP (now in beta) lets you scan for more than 40 sensitive data types so you can identify and redact sensitive data.<strong>Security Key Enforcement (SKE)</strong> for GCP and G Suite (now generally available) allows you to require security keys be used as the two-step verification factor for stronger authentication whenever a user signs in.</mj-text>
+          <mj-text>By baking security into everything they do and offering innovative capabilities that build upon this secure foundation, Google creates many different layers to prevent and defend against attacks and implement enterprise security policies.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.blog.google/topics/google-cloud/bolstering-security-across-google-cloud/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Lip reading: biometrics you can reset just like passwords?</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/03/shutterstock_400724080-1.jpg" />
+          <mj-text>Fingerprint. Voice. Face. Today’s smartphones already include a wide variety of biometrics features that allow you to unlock your phone, access apps and even authorize payments. Now, researchers have come up with a new identity authentication system – using lip reading.</mj-text>
+          <mj-text>This article is  a good opportunity to remind readers about the main pitfalls of this authentication method: Accuracy and the capability to recover from "compromised credentials". On the accuracy side, biometrics still have some challenges. First, they have to cope with changes in our body, such as when we are ill, injured – or simply getting older. Biometrics will never give you the definitive “yes” or “no” a password can, you have to finely tune it so that you have low false positive and low false negative. This is what we call FAR (False Acceptance Rate) and FRR (False Rejection Rate). When looking for a new kind of biometrics, always look for those data.</mj-text>
+          <mj-text>Biometrics also faces another significant obstacle: you can’t reset them if they’re compromised. You can't change your fingerprints, same for your retina or your voice. Maybe new ideas, such as lip reading, will allow the industry to overcome this issue?</mj-text>
+          <mj-button mj-class="bg-purple" href="https://nakedsecurity.sophos.com/2017/03/10/how-online-gamers-use-malware-to-cheat/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">How online gamers use malware to cheat</mj-text>
+          <mj-image src="http://situspokeronlineindonesia.com/wp-content/uploads/2016/04/Tampilan-Cheat-Poker.jpg" />
+          <mj-text>We typically think of malware as something used to steal data from corporations or knock down websites in politically motivated attacks. But if you’re a gamer, sometimes it’s simply a tool for winning.</mj-text>
+          <mj-text><i>"I see a lot of different malware at Sophos, and I’ve also heard a lot about video game cheats. Then I started to dig into cheating, and I found that it’s very similar to malware. What I mean by cheat is a software for changing an online, competitive game in real time."<i/></mj-text>
+          <mj-text>The anti-cheat software developers are following a similar trajectory as that of anti-malware software. Despite its  problems, behavioral analysis is taking more of a role in the defensive tools under development, and he has hope that such tools will work better in the near future. He also has hope for the tools under development that incorporate machine learning.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://nakedsecurity.sophos.com/2017/03/10/how-online-gamers-use-malware-to-cheat/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Adobe fixes 8 Security Vulnerabilities in Adobe Flash Player and Shockwave Player</mj-text>
+          <mj-image src="http://3.bp.blogspot.com/-GqLnLJ0erIQ/VoIpMsXEkQI/AAAAAAAAl_I/SZRl9xL7k8I/s1600/adobe-flash-player-security-patch-update.png" />
+          <mj-text>Adobe has released updates for Adobe Flash Player and Adobe Shockwave Player that resolves a combined 8 security vulnerabilities. Of these 8 vulnerabilities, 7 of them are rated as Critical because they could lead to information disclosure or remote code execution. </mj-text>
+          <mj-text>A remote code execution vulnerability is particularly worrisome as it could allow attackers to remotely execute command on an affected machine. <strong>This would allow them to execute almost any command, including the downloading and execution of malware</strong>, on the remote computer without the knowledge of the owner.</mj-text>
+          <mj-text><strong>With Flash and Shockwave being less and less necessary to surf modern website, the best approach is to disable those addons in your browser. At the very least, enable <a href="https://www.howtogeek.com/188059/how-to-enable-click-to-play-plugins-in-every-web-browser/">click-to-play for plugins</a>. Same goes to Java of course.</strong></mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/adobe-fixes-8-security-vulnerabilities-in-adobe-flash-player-andamp-shockwave-player/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+          <!-- Green Articles -->
+          <mj-section background-color="#fff">
+            <mj-column>
+              <mj-spacer height="30px" />
+              <mj-text mj-class="green h2">GitHub Enterprise Remote Code Execution</mj-text>
+              <mj-image src="https://enterprise.github.com/images/opengraph/opengraph.png" />
+              <mj-text>Everyone uses GitHub. If you have huge amount of green paper or you are very paranoid about your code, you can run your own GitHub. For $2,500 USD per 10 user years you get GitHub Enterprise: A virtual machine containing a fully-featured GitHub instance. Despite a few edge cases that are handled with an occasional GitHub.enterprise? invocation, it runs the same code base as the original.</mj-text>
+              <mj-text>So let’s hack it.</mj-text>
+              <mj-text><strong>This articles nicely explains how the researcher abused ill-implemented cryptography and Ruby object deserialization routines to perform Remote Code Execution on the Github enterprise server.</strong></mj-text>
+              <mj-button mj-class="bg-green" href="http://exablue.de/blog/2017-03-15-github-enterprise-remote-code-execution.html">Read More</mj-button>
+            </mj-column>
+          </mj-section>
+
+          <!-- footer -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg" />
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

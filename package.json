@@ -1,0 +1,17 @@
+{
+  "name": "kindred-security-newsletter",
+  "version": "1.0.0",
+  "description": "Kindred Security Newsletter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-mjml": "^2.2.0"
+  }
+}

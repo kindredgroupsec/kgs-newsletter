@@ -1,0 +1,217 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">DATE 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Featured</mj-text>
+          <mj-image src="PIC"></mj-image>
+          <mj-text color="#fff">text</mj-text>
+          <mj-text color="#fff">text</mj-text>
+          <mj-text color="#fff">text</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="URL">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="URL">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">News2</mj-text>
+          <mj-image src="PIC"></mj-image>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-button mj-class="bg-pink" href="#">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="#">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">News3</mj-text>
+          <mj-image src="PIC"></mj-image>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-button mj-class="bg-green" href="URL">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="URL">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">News4</mj-text>
+          <mj-image src="PIC"></mj-image>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-button mj-class="bg-orange" href="URL">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="URL">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">News5</mj-text>
+          <mj-image src="PIC"></mj-image>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-button mj-class="bg-purple" href="URL">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="URL">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">News6</mj-text>
+          <mj-image src="PIC"></mj-image>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-button mj-class="bg-blue" href="URL">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="URL">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">News7</mj-text>
+          <mj-image src="PIC"></mj-image>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-button mj-class="bg-pink" href="URL">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="URL">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

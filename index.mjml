@@ -1,0 +1,110 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png" />
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg" />
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">Archives</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Additional Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-text>A weekly newsletter of the best articles on cybersecurity, privacy, security awareness, and more. All links are curated by hand from Kindred Group's security team.</mj-text>
+          <mj-text><strong>Don't forget to <a class="lnk-pink" href="https://kindred-newsletter.infosecgur.us/register">register</a> if you want to receive this newsletter directly to your email address.</strong></mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">2017</mj-text>
+          <mj-list>
+            <li><a href="./2017-07-31.html" class="lnk-blue">31 July 2017</a> (<a href="./2017-07-31.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-07-24.html" class="lnk-blue">24 July 2017</a> (<a href="./2017-07-24.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-07-19.html" class="lnk-blue">19 July 2017</a> (<a href="./2017-07-19.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-07-10.html" class="lnk-blue">10 July 2017</a> (<a href="./2017-07-10.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-07-03.html" class="lnk-blue">3 July 2017</a> (<a href="./2017-07-03.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-06-27.html" class="lnk-blue">27 June 2017</a> (<a href="./2017-06-27.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-06-21.html" class="lnk-blue">21 June 2017</a> (<a href="./2017-06-21.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-06-12.html" class="lnk-blue">12 June 2017</a> (<a href="./2017-06-12.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-06-05.html" class="lnk-blue">05 June 2017</a> (<a href="./2017-06-05.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-05-29.html" class="lnk-blue">29 May 2017</a> (<a href="./2017-05-29.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-05-22.html" class="lnk-blue">22 May 2017</a> (<a href="./2017-05-22.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-05-15.html" class="lnk-blue">15 May 2017</a> (<a href="./2017-05-15.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-05-08.html" class="lnk-blue">8 May 2017</a> (<a href="./2017-05-08.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-05-02.html" class="lnk-blue">2 May 2017</a> (<a href="./2017-05-02.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-04-24.html" class="lnk-blue">24 April 2017</a> (<a href="./2017-04-24.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-04-14.html" class="lnk-blue">14 April 2017</a> (<a href="./2017-04-14.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-04-07.html" class="lnk-blue">7 April 2017</a> (<a href="./2017-04-07.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-03-31.html" class="lnk-blue">31 March 2017</a> (<a href="./2017-03-31.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-03-24.html" class="lnk-blue">24 March 2017</a> (<a href="./2017-03-24.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-03-17.html" class="lnk-blue">17 March 2017</a> (<a href="./2017-03-17.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-03-10.html" class="lnk-blue">10 March 2017</a> (<a href="./2017-03-10.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-03-03.html" class="lnk-blue">3 March 2017</a> (<a href="./2017-03-03.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-02-24.html" class="lnk-blue">24 February 2017</a> (<a href="./2017-02-24.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2017-02-17.html" class="lnk-blue">17 February 2017</a> (<a href="./2017-02-17.pdf" class="lnk-green">PDF</a>)</li>
+          </mj-list>
+        </mj-column>
+      </mj-section>
+
+
+          <!-- end articles -->
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg" />
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

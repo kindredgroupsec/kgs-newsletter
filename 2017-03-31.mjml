@@ -1,0 +1,158 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">31 March 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Firefox gets complaint for labeling unencrypted login page insecure</mj-text>
+          <mj-image src="https://i1.wp.com/www.thesslstore.com/blog/wp-content/uploads/2017/03/InsecurePasswordWarning.png"></mj-image>
+          <mj-text color="#fff">The operator of a website that accepts subscriber logins only over unencrypted HTTP pages has taken to Mozilla's Bugzilla bug-reporting service to complain that the Firefox browser is warning that the page isn't suitable for the transmission of passwords.</mj-text>
+          <mj-text color="#fff">As a member of the Mozilla developer team pointed out in reply to the complaint, both Firefox and Chrome routinely issue warnings whenever users encounter a login page that's not protected by HTTPS encryption. The warnings became standard earlier this year.</mj-text>
+          <mj-text color="#fff">When your site requests a user's password over HTTP, the transmission of these passwords is done in the clear. As such, anybody listening on the network would be able to record those passwords. This puts not just users at risk when using your site, but also puts them at risk on any other website that they might share a password with yours.</mj-text>
+          <mj-text color="#fff">Needless to say that any website that takes security of their customers seriously should at least enforce https on login pages, if not on the whole website.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://arstechnica.com/security/2017/03/firefox-gets-complaint-for-labeling-unencrypted-login-page-insecure/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Announcing Keyholder: Secure, shared shell access</mj-text>
+          <mj-image src="https://wikimediablog.files.wordpress.com/2017/03/keyholder-graph-svg.png"></mj-image>
+          <mj-text>Keyholder, a newly open-sourced project from the Wikimedia Foundation, is a bit like that ever-watchful security minion. For us, it allows authorized developers to access remote servers using an ssh key, to which it is the only user that has access. More specifically, Keyholder is an ssh-agent proxy that allows a group of trusted users to share an SSH identity without exposing the contents of that identity’s private key.</mj-text>
+          <mj-text>ssh-agent is a program that allows a user to hold unencrypted private keys in memory for use in public key authentication. ssh-agent is neat – it means you only need to enter the password for your private keys once per login session. ssh-agent is also a way you can be bad at public key authentication.</mj-text>
+          <mj-text>A common use of the ssh-agent is to “forward” your agent to a remote machine. You can then use the socket that that agent creates to access any of your many (now unencrypted) keys, and login to any other machines for which you may have keys in your ssh-agent. So, too, potentially, can all the other folks that have root access to the machine to which you’ve forwarded your ssh-agent.</mj-text>
+          <mj-text>Several years ago there were some folks around here who pondered this exact problem and came up with a pretty novel solution that we’ve finally made into a standalone project!</mj-text>
+          <mj-button mj-class="bg-pink" href="https://blog.wikimedia.org/2017/03/22/keyholder/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">eBay to ‘downgrade’ verification by switching to SMS</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/03/shutterstock_468902252.jpg"></mj-image>
+          <mj-text>For a decade, eBay customers who wanted extra-strong security have been able to use two-factor authentication (2FA) involving a Verisign-manufactured key fob. Now, however, eBay’s hardware 2FA option is going away.</mj-text>
+          <mj-text>KrebsOnSecurity reports that eBay is asking key fob users to start receiving their 2FA security codes via SMS text message instead. Krebs found eBay’s timing ironic: security experts at the US National Institute for Standards and Technology (NIST) recently began actively discouraging the use of SMS-based 2FA in government systems as they are vulnerable to interception… thieves can divert the target’s SMS messages and calls to another device (either by social engineering a customer service person at the phone company, or via more advanced attacks like SS7 hacks).</mj-text>
+          <mj-text>eBay certainly isn’t the only company that has sought to move away from hardware tokens, which traditionally had a reputation for being costly to provide and manage. If you’ve already got a hardware fob, it still works – for now. And <strong>if you’re not using 2FA at all, eBay’s SMS-based 2FA is still much better than nothing.</strong></mj-text>
+          <mj-button mj-class="bg-green" href="https://nakedsecurity.sophos.com/2017/03/28/ebay-to-downgrade-verification-by-switching-to-sms//">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">New IIS 6.0 Zero-Day Exploited in Live Attacks Since July 2016</mj-text>
+          <mj-image src="http://www.loadbalancer.org/public/images/articles/2015/07/microsoft-logo.png"></mj-image>
+          <mj-text>Since July 2016, attackers have been using a zero-day in IIS 6.0 to compromise and take over Windows servers. <strong>Microsoft acknowledged the flaw, but said it couldn't patch it as it affected EOL products, for which it doesn't issue updates anymore.</strong></mj-text>
+          <mj-text>The vulnerability only affects IIS 6.0, which was released in November 2010, and shipped with Windows Server 2003 and Windows XP Professional x64 Edition. IIS 6.0 accounts for around 11.3% of all IIS installations, according to data from W3Techs, while IIS overall takes up 11.4% of the entire web server market.</mj-text>
+          <mj-text>According to the Chinese security experts, the IIS 6.0 zero-day affects the WebDAV service included by default in all IIS distributions. WebDAV is an extension of the HTTP protocol that simplifies sharing and content authoring. <strong>Server owners should update IIS servers to a newer version, unaffected by this issue, or at least disable the WebDAV service if they can't upgrade servers for technical reasons.</strong></mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/new-iis-6-0-zero-day-exploited-in-live-attacks-since-july-2016/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">1.4 Billion Data Records Exposed in 2016 Breaches</mj-text>
+          <mj-image src="http://imgur.com/2H988GM.png"></mj-image>
+          <mj-text>Cybercriminals infiltrated some 1.4 billion data records last year – a whopping 86% increase over the previous year, according to a new report released today by digital security firm Gemalto.</mj-text>
+          <mj-text>Identity theft accounted for 59% of the data breach incidents, a 5% increase from 2015. Account access-based breaches was next in line as the most prevalent type of data breach. The most targeted industries included technology, which incurred 11% of the breaches. Healthcare was hit with 28% of all data breaches and financial services, 12% of data breaches.</mj-text>
+          <mj-text>This year only 75 of the data breaches (or 4.2% of the total) involved data that had been encrypted in part or in full. If it's not already the case: <strong>Time to encrypt your sensitive data!</strong></mj-text>
+          <mj-button mj-class="bg-purple" href="http://www.darkreading.com/threat-intelligence/14-billion-data-records-exposed-in-2016-breaches/d/d-id/1328501">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">The scam that knows your name and home address</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/03/hello-11.png"></mj-image>
+          <mj-text>Many UK residents woke up recently to a rude internet shock: a scam email that greeted them with their real name and home address. But in this case, the email wasn’t trying to disguise that it came from a ne’er-do-well. With so many data breaches in the news recently, it’s perfectly reasonably to wonder, “How serious is this?” So it feels wrong and risky not to open it to see how much is in there</mj-text>
+          <mj-text>To get you to agree to run their malicious macro program, the crooks use what you might call a bait-and-switch trick. The document presents an official-looking help page that tells you that you need to “Enable editing” to view its content. If you click on [Enable Content], you’re agreeing to execute a malicious VBA program.</mj-text>
+          <mj-text>What to do then? Don’t open unsolicited or unexpected attachments, especially not on the say-so of an unknown sender. More importantly, don’t turn off important security settings such as “macros have been disabled”, especially not on the say-so of an unknown sender.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://nakedsecurity.sophos.com/2017/03/30/the-scam-that-knows-your-name-and-home-address-heres-what-to-do/">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">PicoCTF 2017, a hacking contest and computer security education tool, opens today!</mj-text>
+          <mj-image src="https://picoctf.com/img/screen1.png"></mj-image>
+          <mj-text>PicoCTF is a computer security game targeted at middle and high school students. The game consists of a series of challenges centered around a unique storyline where participants must reverse engineer, break, hack, decrypt, or do whatever it takes to solve the challenge. <strong>The challenges are all set up with the intent of being hacked, making it an excellent, legal way to get hands-on experience.</strong></mj-text>
+          <mj-text>This year’s competition features a brand new adventure. When your friend disappears unexpectedly, you must learn and use computer security skills to uncover and decipher critical evidence behind their whereabouts. Can you find your friend before it’s too late?</mj-text>
+          <mj-text>PicoCTF will be on from March 31 to April 14, go subscribe and have fun hacking!</mj-text>
+          <mj-button mj-class="bg-pink" href="https://2017.picoctf.com/">Read More</mj-button>
+
+          <!-- footer -->
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

@@ -1,0 +1,193 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">29 May 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Beware! Subtitle Files Can Hack Your Computer While You're Enjoying Movies</mj-text>
+          <mj-image src="https://3.bp.blogspot.com/-o8jylHVWrKU/WSRpOQHbE-I/AAAAAAAAs0M/5gCljlLzHbsyyVlCq4uL37rmw8KUpFZ6ACLcB/s1600/Hacking-media-player.png"></mj-image>
+          <mj-text color="#fff">A team of researchers at Check Point has discovered vulnerabilities in four of the most popular media player applications, which can be exploited by hackers to hijack "any type of device via vulnerabilities; whether it is a PC, a smart TV, or a mobile device" with malicious codes inserted into the subtitle files.</mj-text>
+          <mj-text color="#fff">The vulnerabilities reside in the way various media players process subtitle files and if exploited successfully, could put hundreds of millions of users at risk of getting hacked. As soon as the media player parses those malicious subtitle files before displaying the actual subtitles on your screen, the hackers are granted full control of your computer or Smart TV on which you ran those files.</mj-text>
+          <mj-text color="#fff">Since text-based subtitles for movies and TV shows are created by writers and then uploaded to Internet stores, like OpenSubtitles and SubDB, hackers could also craft malicious text files for same TV shows and movies. The researchers believe that similar security vulnerabilities also exist in other streaming media players.</mj-text>
+          <mj-text color="#fff">Check Point has already informed the developers of VLC, Kodi, Popcorn Time and Stremio applications about the recently discovered vulnerabilities. All of them have patched the flaws. <strong style="color: yellow;">This is a good reminder of the importance to keep your whole system up to date, not just your operating system, you never know where the next attack will come from.</strong></mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2017/05/movie-subtitles-malware.html">
+            Read more
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="http://blog.checkpoint.com/2017/05/23/hacked-in-translation/">
+            CheckPoint's Report
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Cloak and Dagger: Advanced device takeover attack on Android</mj-text>
+          <mj-image src="https://2.bp.blogspot.com/-bRV5jiLq2EY/WScLzhDmPAI/AAAAAAAAs3M/byD3Da8IHGkW9Xgv64i95Ym0ZWgL789EACLcB/s1600/how-to-hack-android-phone.png"></mj-image>
+          <mj-text>Cloak and Dagger is a new class of potential attacks affecting Android devices. These attacks allow a malicious app to completely control the UI feedback loop and take over the device — without giving the user a chance to notice the malicious activity.</mj-text>
+          <mj-text>These attacks only require two permissions that, in case the app is installed from the Play Store, the user does not need to explicitly grant and for which she is not even notified. These attacks affect all recent versions of Android (including the latest version, Android 7.1.2), and they are yet to be fixed.</mj-text>
+          <mj-text>Abusing those permissions allows the attacker to perform several malicious tasks such as click-jacking, keylogging, stealing 2FA tokens, silent installation of ultra-permissive app, and more.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://amp.thehackernews.com/thn/2017/05/android-hacking-technique.html">Read More</mj-button>
+          <mj-button mj-class="bg-pink" href="http://cloak-and-dagger.org/">Initial report</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Free course: The GDPR Attack Plan</mj-text>
+          <mj-image src="https://www.troyhunt.com/content/images/2017/05/What-Constitutes-Offering-Goods-or-Services.png"></mj-image>
+          <mj-text>The EU General Data Protection regulation will be law on May 25, 2018 - changing the landscape of regulated data protection law and the way that companies collect personal data.   What are the requirements?  Who will be affected?  How does this help protect personal data?  Does it only affect companies based in the EU? (hint: no.)</mj-text>
+          <mj-text>Troy Hunt released a free video course going through the roles of GPDR, understanding what Personal Data means, territorial scope, penalties and GDPR principles in action. You can access it through Varonis website, keep in mind can safely expect to be contacted by them if you use a corporate email.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.troyhunt.com/free-course-the-gdpr-attack-plan/">Read More</mj-button>
+          <mj-button mj-class="bg-green" href="https://info.varonis.com/gdpr-attack-plan">Course</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Samba exploit – not quite WannaCry for Linux, but patch anyway!</mj-text>
+          <mj-image src="https://2.bp.blogspot.com/-IfU802XsX6s/WSaDGq07jCI/AAAAAAAAs1w/qr8caqavXxccixsBzn9XPPsIm27uRro4QCLcB/s1600/samba-remote-code-exploit.png"></mj-image>
+          <mj-text>Samba is open-source software (re-implementation of SMB networking protocol) that runs on the majority of operating systems available today, including Windows, Linux, UNIX, IBM System 390, and OpenVMS. A 7-year-old critical remote code execution vulnerability has been discovered in Samba networking software that could allow a remote attacker to take control of an affected Linux and Unix machines.</mj-text>
+          <mj-text>All versions of Samba from 3.5.0 onwards are vulnerable to a remote code execution vulnerability (CVE-2017-7494), allowing a malicious client to upload a shared library to a writable share, and then cause the server to load and execute it. Samba 3.5.0 was released on March 1, 2010. Some experts are saying it is "Linux version of EternalBlue," used by the WannaCry ransomware.</mj-text>
+          <mj-text>The vulnerability is hell easy to exploit. Just one line of code is required to execute malicious code on the affected system (<i>simple.create_pipe("/path/to/target.so")</i>). The Samba exploit has already been ported to Metasploit, a penetration testing framework, enabling researchers as well as hackers to exploit this flaw easily.</mj-text>
+          <mj-text>The maintainers of Samba has already patched the issue in their new versions Samba versions 4.6.4/4.5.10/4.4.14, and are urging those using a vulnerable version of Samba to install the patch as soon as possible. If you can not upgrade to the latest versions of Samba, you can work around the vulnerability by adding <i>"nt pipe support = no"</i> to your Samba configuration file smb.conf. Samba maintainers have also provided patches for older and unsupported versions of Samba.</mj-text>
+          <mj-button mj-class="bg-orange" href="http://thehackernews.com/2017/05/samba-rce-exploit.html">Read More</mj-button>
+          <mj-button mj-class="bg-orange" href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2017-7494">CVE</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Building Searchable Encrypted Databases with PHP and SQL</mj-text>
+          <mj-image src="https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/media/always-encrypted.png"></mj-image>
+          <mj-text>This question shows up from time to time in open source encryption libraries' bug trackers: How do we securely encrypt database fields but still use these fields in search queries?</mj-text>
+          <mj-text>Paragon's secure solution is rather straightforward, but the path between most teams asking that question and discovering our straightforward solution is fraught with peril: bad designs, academic research projects, misleading marketing, and poor threat modeling.</mj-text>
+          <mj-text>In order to store encrypted information and still use the plaintext in SELECT queries, we're going to follow a strategy we call blind indexing. The general idea is to store a keyed hash (e.g. HMAC) of the plaintext in a separate column. It is important that the blind index key be distinct from the encryption key and unknown to the database server...</mj-text>
+          <mj-button mj-class="bg-purple" href="https://paragonie.com/blog/2017/05/building-searchable-encrypted-databases-with-php-and-sql">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Security Firm Releases Windows XP Patch for NSA Exploit ESTEEMAUDIT</mj-text>
+          <mj-image src="https://cdn2.hubspot.net/hubfs/487909/email/NL%20v5.jpg"></mj-image>
+          <mj-text>Cyber-security firm enSilo has released a patch for Windows XP and Windows Server 2003 that will protect against attacks via ESTEEMAUDIT, a hacking tool dumped online by the Shadow Brokers last month, and allegedly developed by the NSA. At the technical level, ESTEEMAUDIT is a zero-day in the RDP protocol used by Windows to open desktop sessions on remote computers.</mj-text>
+          <mj-text>After the Shadow Brokers dumped a collection of NSA hacking tools on April 14, a day later, Microsoft announced that its engineers had secretly patched Windows against most exploits a month earlier, in March. ESTEEMAUDIT is one of the exploits that didn't receive a patch, along with ENGLISHMANSDENTIST and EXPLODINGCAN. This is because ESTEEMAUDIT only works on Windows XP and Windows 2003, two operating system that Microsoft stopped supporting in 2014, and 2015, respectively.</mj-text>
+          <mj-text>EnSilo researchers developed a patch for ESTEEMAUDIT. The security company says the patch — which can be downloaded from here — works on Windows XP SP3 x86, Windows XP SP3 x64, and Windows Server 2003 R2. Besides applying the enSilo patch, users can disable RDP as an alternative method of protecting their systems.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.bleepingcomputer.com/news/security/security-firm-releases-windows-xp-patch-for-nsa-exploit-esteemaudit/">Read more</mj-button>
+          <mj-button mj-class="bg-blue" href="http://pages.ensilo.com/download-the-patch-for-esteemaudit-exploit">Download page</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Windows AppLocker protection and UAC are vulnerable to new bypass techniques</mj-text>
+          <mj-image src="https://www.tenforums.com/attachments/antivirus-firewalls-system-security/31687d1485954539t-can-uac-configured-single-application-notepad.png"></mj-image>
+          <mj-text>AppLocker is a security service introduced with Windows 7 and Windows Server 2008 R2 that allows system administrators to restrict access to Windows applications based on a rule-based system. An attacker or a rogue employee can create and register custom control panel items through registry and use these files to bypass the Windows AppLocker security feature.</mj-text>
+          <mj-text>This bypass technique is possible because both registry and Control Panel are Microsoft-signed binaries,  allowed by AppLocker by default. While blocking access to utilities like reg, regedit, and the Control Panel is one alternative, the attack can also be mitigated, at the cost of performance, by enabling the 'DLL Rule Collection' under the AppLocker 'Advanced' tab.</mj-text>
+          <mj-text>User Account Control (UAC) is a feature introduced with Microsoft's Windows Vista which aims to improve the security by limiting applications to standard user privileges until an administrator authorizes an increase or elevation. A new bypass method has been discovered by Christian B., a german student currently working on his master's thesis in cybersecurity.</mj-text>
+          <mj-text>Despite this, Christian's UAC bypass is not universal, as users need to be part of the operating system's administrator group. While on paper this sounds like a huge restriction, this isn't actually such a big issue on Windows, where most users utilize an admin-level account to manage their PCs.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/you-can-bypass-windows-applocker-protection-via-rogue-control-panel-items/">Applocker bypass</mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/windows-10-uac-bypass-uses-apps-and-features-utility/">UAC bypass</mj-button>
+
+          <!-- footer -->
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
