@@ -1,0 +1,213 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">7 August 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Introducing 306 Million Freely Downloadable Pwned Passwords</mj-text>
+          <mj-image src="https://www.troyhunt.com/content/images/2017/07/Pwned-Hash-Found.jpg"></mj-image>
+          <mj-text color="#fff">This blog post introduces a new service I call "Pwned Passwords", gives you guidance on how to use it and ultimately, provides you with 306 million passwords you can download for free and use to protect your own systems.</mj-text>
+          <mj-text color="#fff">Last week Troy Hunt wrote about Passwords Evolved: Authentication Guidance for the Modern Era with the aim of helping those building services which require authentication to move into the modern era of how we think about protecting accounts. In that post, I talked about NIST's Digital Identity Guidelines which were recently released. Of particular interest to me was the section advising organisations to block subscribers from using passwords that have previously appeared in a data breach. </mj-text>
+          <mj-text color="#fff">People will probably come up with other ways of using this data. Perhaps, for example, a Pwned Password is only allowed if multi-step verification is enabled. Maybe there are certain features of the service that are not available if the password has a hit on the pwned list. Or consider whether you could even provide an incentive if the user proactively opts to change a Pwned Password after being prompted. As an example, MailChimp provides a 10%discount if you enabled 2FA.</mj-text>
+          <mj-text color="yellow">It goes without saying (although he said it anyway in his article page), but don't enter a password you currently use into any third-party service like this! Even if Troy Hunt is saying he does not explicitly log them and he is quite well known in the industry, don't.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.troyhunt.com/introducing-306-million-freely-downloadable-pwned-passwords/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://haveibeenpwned.com/Passwords">
+            HIBP Password check
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">SMBLoris: DoS vulnerability affecting all SMB version, from Windows 2000 to Windows 10</mj-text>
+          <mj-image src="https://isc.sans.edu/diaryimages/images/smbloris-tweet.png"></mj-image>
+          <mj-text> "SMBLoris" is a proof-of-concept exploit that takes advantage of a vulnerability in the implementation of SMB services on both Windows and Linux, enabling attackers to "kill you softly" with a clever, low-profile application-level denial of service (DoS). This vulnerability impacts all versions of Windows and Samba (the Linux software that provides SMB services on that platform) and Microsoft has stated that is has no current intention to provide a fix for the issue.</mj-text>
+          <mj-text>This means that the current situation is that all Windows systems exposing port 445 and the majority of Linux systems exposing port 445 are vulnerable to this application-level denial of service attack. If the attack is successful, the system being attacked will need to be rebooted and will still be vulnerable. Researchers have noted that this vulnerability is similar to one from 2009 — Slowloris — that impacted different types of systems with the same technique. It appears, however, that SMBLoris can have a much faster negative impact even on Windows systems with robust hardware configurations.</mj-text>
+          <mj-text>Your internal systems are also vulnerable to this attack as most organizations do not implement granular controls over port 445 system-to-system communications. This means that an attacker who compromises a system within your network can launch SMBLoris attacks against any assets exposing port 445. If you have an active, mobile user base, then those devices should be configured to block access to port 445 when not on the corporate network. Even then, it's a good idea to have well-crafted host firewall rules to restrict access on this port.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://community.rapid7.com/community/infosec/blog/2017/08/03/smbloris-what-you-need-to-know">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="http://smbloris.com/">
+            "Official" page
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Chrome Extensions With Over One Million Users Hijacked to Serve Adware</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/08/03/Chrome-extension-hijacked.png"></mj-image>
+          <mj-text>Copyfish is supposed to let you grab subtitles from films, captions from cartoons, and so on, while you’re browsing. Web Developer, a tool developed by Chris Pederick, Director of Engineering at Bleacher Report. The extension overlays a popup with various debug tools that developers can use when building or editing their websites.</mj-text>
+          <mj-text>What does those two extensions have in common? Both have been hijacked to inject an adware as their developers fell for a phishing attack.</mj-text>
+          <mj-text>The crooks who’d acquired the password had lost no time: Locking Copyfish out of its own Chrome Web Store account. “Upgrading” the plugin to an unofficial release and adding in a bunch of ad-serving malware code. Moving the extension code to a different account to lock the original developer out of their own creation.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/chrome-extension-with-over-one-million-users-hijacked-to-serve-adware/">
+            About Web Developer
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://nakedsecurity.sophos.com/2017/07/31/one-lousy-click-the-phishing-blunder-that-sank-an-entire-product/">
+            About CopyFish
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">New U.S. Bill Seeks Basic IoT Security Standards</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2017/08/iotc.png"></mj-image>
+          <mj-text>Lawmakers in the U.S. Senate today introduced a bill that would set baseline security standards for the government’s purchase and use of a broad range of Internet-connected devices, including computers, routers and security cameras. The legislation, which also seeks to remedy some widely-perceived shortcomings in existing cybercrime law, was developed in direct response to a series of massive cyber attacks in 2016 that were fuelled for the most part by poorly-secured “Internet of Things” (IoT) devices.</mj-text>
+          <mj-text>For example, the bill would require vendors of Internet-connected devices purchased by the federal government make sure the devices can be patched when security updates are available; that the devices do not use hard-coded (unchangeable) passwords; and that vendors ensure the devices are free from known vulnerabilities when sold.</mj-text>
+          <mj-text>Specifically, the bill would “exempt cybersecurity researchers engaging in good-faith research from liability under the Computer Fraud and Abuse Act and the Digital Millennium Copyright Act when in engaged in research pursuant to adopted coordinated vulnerability disclosure guidelines”</mj-text>
+          <mj-button mj-class="bg-orange" href="https://krebsonsecurity.com/2017/08/new-bill-seeks-basic-iot-security-standards/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">JavaScript Packages Caught Stealing Environment Variables</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2017/08/04/npm.png"></mj-image>
+          <mj-text>On August 1, npm Inc. — the company that runs the biggest JavaScript package repository — removed 38 JavaScript npm packages that were caught stealing environment variables from infected projects.</mj-text>
+          <mj-text>The attacker used a technique called "typo-squatting" to register packages with names similar to popular libraries, but containing typos in their names. The malicious code in these projects would execute when developers would compile and run their personal JavaScript projects. The code would collect local environment variables and upload them to the attacker's server located at: npm.hacktask.net..</mj-text>
+          <mj-text>The attack is dangerous because some information such as hard-coded passwords or API access tokens is stored as environment variables. The issue first came to light when Swedish developer Oscar Bolmsten ran across the cross-env npm package. The developer reported the issue to the npm security team who eventually tracked down the rest of the affected packages and banned HackTask's npm account.</mj-text>
+          <mj-text color="red">Full list of malicious npm packages is available in the article. Developers who used any of these packages within their projects are advised to change any passwords or access tokens they stored in their configurations.</mj-text>
+          <mj-button mj-class="bg-purple" href="Uhttps://www.bleepingcomputer.com/news/security/javascript-packages-caught-stealing-environment-variables/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Winners of the 2017 Pwnie Awards</mj-text>
+          <mj-image src="https://pwnies.com/images/header_graphic.jpg"></mj-image>
+          <mj-text>The winners of the 2017 Pwnie Awards were announced last night at the Black Hat USA security conference. The annual ceremony awards the very best and worst coming out of the security community. People previously nominated their opinions of the biggest achievements and failures over the last year; the award winners are chosen from the top nominees in each category by a panel of security researchers.</mj-text>
+          <mj-text>If you want to know who won the Pwnie for the best server-side bug, client-side bug, privilege-escalation bug, cryptographic attack, backdoor, branding, the most innovative research, the lamest vendor response or the most epic fail, check out the following article! </mj-text>
+          <mj-text>There was tie for epic ownage, so the Pwnie award went to both WannaCry, credited as “North Korea(?)” and the Shadow Brokers, credited as “Russia. Straight up: Russia.” The Pwnie Awards’ website has not yet been updated with a list of this year’s winners.</mj-text>
+          <mj-button mj-class="bg-blue" href="http://www.csoonline.com/article/3211592/security/winners-of-the-2017-pwnie-awards.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://pwnies.com/nominations/">
+            Official page
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Mozilla Send, Open Source filesharing platform with client-side encryption</mj-text>
+          <mj-image src="https://testpilot.firefox.com/static/images/experiments/send/experiments_experimentdetail/send-1.e6857d26.jpg"></mj-image>
+          <mj-text>Firefox maker Mozilla has released a trio of new experimental tools, including a simple, secure file-sharing service, dubbed Firefox Send, which supports up to 1GB files.  In the current version, you can securely send files to a contact using a link that only works once. The encrypted file, which is stored on Mozilla's server, is destroyed immediately after it has been downloaded once or after 24 hours have elapsed.</mj-text>
+          <mj-text>The clever part is that the file is encrypted client-side, and the key is provided as an anchor of the download link. This means the server never sees the encryption key and therefore cannot decrypt the shared file.</mj-text>
+          <mj-text>You may need to update to the latest version of Mozilla's desktop browser, Firefox 54, to use Send. It also works with Chrome, but not the current version of Safari, while Edge support is in the works.</mj-text>
+          <mj-button mj-class="bg-pink" href="http://www.zdnet.com/article/firefoxs-new-tool-lets-you-send-self-destructing-1gb-files-from-any-browser/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://testpilot.firefox.com/experiments/send/">
+            Pilot page
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
