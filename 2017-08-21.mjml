@@ -88,7 +88,7 @@
       <mj-section background-color="#fff">
         <mj-column>
           <mj-spacer height="30px" />
-          <mj-text mj-class="pink h2">Libsodium, the well-known croos-platforms cryptography library, got audited</mj-text>
+          <mj-text mj-class="pink h2">Libsodium, the well-known cross-platforms cryptography library, got audited</mj-text>
           <mj-image src="https://camo.githubusercontent.com/ca6e4e672fc80a77d378b8ad26b9bf5ff2100499/68747470733a2f2f7261772e6769746875622e636f6d2f6a656469736374312f6c6962736f6469756d2f6d61737465722f6c6f676f2e706e67"></mj-image>
           <mj-text>Sodium is a modern, easy-to-use software library for encryption, decryption, signatures, password hashing and more. Its goal is to provide all of the core operations needed to build higher-level cryptographic tools.</mj-text>
           <mj-text>Private Internet Access today releases the results of its Libsodium audit. The Libsodium security assessment was conducted by Dr. Matthew Green of Cryptography Engineering on v1.0.12 and v1.0.13. Dr. Green previously completed the TrueCrypt audit with the Open Crypto Audit Project as well as an OpenVPN 2.4 audit on PIA’s behalf.</mj-text>
