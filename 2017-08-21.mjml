@@ -1,0 +1,213 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+
+          <mj-image src="http://i.imgur.com/kQIWprp.png"></mj-image>
+
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">21 August 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Pulse Wave - New DDoS Assault Pattern Discovered</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/u/986406/attacks/DDoS/DDoS-PulseWave.png"></mj-image>
+          <mj-text color="#fff">A new method of carrying out DDoS attacks named Pulse Wave is causing problems to certain DDoS mitigation solutions, allowing attackers to down servers previously thought to be secured.</mj-text>
+          <mj-text color="#fff">Classic attacks usually have the shape of a sloping triangle going up and down as an attacker slowly assembles bots and aims them at a desired target. The new pulse wave attacks start from zero and go to maximum values in a very short time span, then go back to zero, and back to maximum, repeating in continuous cycles at short clocked intervals.</mj-text>
+          <mj-text color="#fff">Pulse wave attacks cause problems to hybrid mitigation solutions. The equipment and the targeted organization are shut down when one pulse hits. Recovering from one pulse usually takes a few minutes, by which time another pulse jams the network. Using this new technique, attackers can shut down organizations for extended periods of time, while also carrying out DDoS attacks on other targets.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/pulse-wave-new-ddos-assault-pattern-discovered/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Libsodium, the well-known croos-platforms cryptography library, got audited</mj-text>
+          <mj-image src="https://camo.githubusercontent.com/ca6e4e672fc80a77d378b8ad26b9bf5ff2100499/68747470733a2f2f7261772e6769746875622e636f6d2f6a656469736374312f6c6962736f6469756d2f6d61737465722f6c6f676f2e706e67"></mj-image>
+          <mj-text>Sodium is a modern, easy-to-use software library for encryption, decryption, signatures, password hashing and more. Its goal is to provide all of the core operations needed to build higher-level cryptographic tools.</mj-text>
+          <mj-text>Private Internet Access today releases the results of its Libsodium audit. The Libsodium security assessment was conducted by Dr. Matthew Green of Cryptography Engineering on v1.0.12 and v1.0.13. Dr. Green previously completed the TrueCrypt audit with the Open Crypto Audit Project as well as an OpenVPN 2.4 audit on PIA’s behalf.</mj-text>
+          <mj-text>The assessment found no critical flaws or vulnerabilities in the Libsodium library.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.privateinternetaccess.com/blog/2017/08/libsodium-audit-results/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.privateinternetaccess.com/blog/2017/08/libsodium-v1-0-12-and-v1-0-13-security-assessment">
+            Audit Report
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Hacker Releases Decryption Key for Apple's Secure Enclave Firmware</mj-text>
+          <mj-image src="https://image.slidesharecdn.com/rootedconfinal2-150306062334-conversion-gate01/95/demystifying-apple-pie-touchid-43-638.jpg?cb=1425636074"></mj-image>
+          <mj-text>A hacker who goes online only by the pseudonym of Xerub has released the decryption key for Apple's Secure Enclave Processor (SEP) firmware.</mj-text>
+          <mj-text>The leak, confirmed by an Apple employee who wanted to remain anonymous, is crucial to iOS security, as it now allows hackers and security researchers alike access to a previously encrypted iOS component.</mj-text>
+          <mj-text>This key allows someone to decrypt the SEP firmware. It does not allow a third-party to decrypt and access TouchID or other data passing through SEP. Xerub's discovery is not inherently dangerous in itself, but through the ripples caused in the world of iOS security. A publicly available SEP decryption key will allow hackers, surveillance companies, and others to analyze and look for bugs in an area of iOS devices they previously had not had access to.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/hacker-releases-decryption-key-for-apples-secure-enclave-firmware/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="http://www.techrepublic.com/article/hacker-claims-to-have-decrypted-apples-secure-enclave-destroying-key-piece-of-ios-mobile-security/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Unpatchable Flaw in Modern Cars Allows Hackers to Disable Safety Features</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-kXDIV1FN1-M/WZW6fKULFWI/AAAAAAAAuH0/hwH0FU40EDQyWbKAJTG0PrvZajD-kgE7gCLcBGAs/s1600/car-hacking.png"></mj-image>
+          <mj-text>Researchers have discovered a security flaw that probably affects all new vehicles. It allows an attacker to turn off safety features, such as airbags, ABS brakes, and power-steering -- or any of a vehicle's computerized components connected to its controller area network or CAN bus.</mj-text>
+          <mj-text>Because it's a design flaw affecting the CAN bus messaging protocol standard used in CAN controller chips, the vulnerability can't simply be patched with a recall. It's also not specific to one vehicle model or its underlying electronics.</mj-text>
+          <mj-text>Initially developed in 1983 and put into production in 1989, the CAN standard manages the majority of the electrical subsystems and control units found in a significant number of modern smart cars.</mj-text>
+          <mj-text>By overloading the system with error messages, attackers can make a device to go into a Bus Off state, cutting it off from the greater CAN system and making it inoperable. The attack requires a "specially-crafted attack device" to be introduced via local access, which is only possible if the attacker has access to your vehicle.</mj-text>
+          <mj-button mj-class="bg-orange" href="http://www.zdnet.com/article/how-secure-is-your-car-unpatchable-flaw-lets-attackers-disable-safety-features/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://amp.thehackernews.com/thn/2017/08/car-safety-hacking.html">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">RCE Vulnerability Affecting Older Versions of Chrome Will Remain Unpatched</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/08/17/GC.jpg"></mj-image>
+          <mj-text>A remote code execution vulnerability affects older versions of the Google Chrome browser, all except the current version — Chrome 60. To sum it up, the vulnerability is found in Google Chrome's Turbofan component, used to optimize JavaScript code.</mj-text>
+          <mj-text>In a response to the company's bug report, Google told Beyond Security engineers they do not plan to address the vulnerability because it does not work in the most recent version, the only one Google's security team is interested in servicing.</mj-text>
+          <mj-text>Exploiting the flaw requires luring a user to an attacker-controlled website and serving a piece of malicious JavaScript code. The flaw allows the attacker to execute code in the user's browser. While the vulnerability disclosure does not mention a sandbox escape to allow the attacker to execute code on the PC level, the flaw allows attackers to steal data accessible through the browser (cookies, passwords, etc.).</mj-text>
+          <mj-text>Google Chrome, overall, has a browser market share of around 59%. According to Web analytics firm Clicky, Chrome 60 accounts to 50% of those installations. This leaves nearly one in ten web users exposed to this flaw. Upgrading to the latest Chrome 60 version will mitigate this flaw.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://www.bleepingcomputer.com/news/security/rce-vulnerability-affecting-older-versions-of-chrome-will-remain-unpatched/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="https://blogs.securiteam.com/index.php/archives/3379">
+            Technical details
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">New NIST draft embeds privacy into US govt security for the first time</mj-text>
+          <mj-image src="https://regmedia.co.uk/2016/08/04/privacy_shutterstock.jpg?x=442&y=293&crop=1"></mj-image>
+          <mj-text>A draft of new IT security measures by the US National Institute of Standards and Technology (NIST) has for the first time pulled privacy into its core text as well as expanded its scope to include the internet of things and smart home technology.</mj-text>
+          <mj-text>Another interesting side effect of the new focus is that NIST has stopped pretending that it is only influencing federal agencies and is actively pitching its contents to private enterprise in the hope of building a more resilient overall network.</mj-text>
+          <mj-text>Among other things, it argues for a specific privacy program and separate privacy-focused training and includes two extensive appendices that track the privacy requirements and considerations for all the different named-and-numbered controls in the document.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.theregister.co.uk/2017/08/18/new_nist_draft_embeds_privacy_into_security_for_the_first_time/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">CoMisSion – Whitebox CMS analysis</mj-text>
+          <mj-image src="https://securite.intrinsec.com/wp-content/uploads/2017/08/2017-08-14_10-06-06.stdout1.png"></mj-image>
+          <mj-text>CoMisSion is a tool to automate all this stuff. You give it a CMS type (WordPress and Drupal are currently supported), a source code directory, an output filename and you are ready to go.</mj-text>
+          <mj-text>The tool prints its results to stdout. To gather CVEs, it uses the WPvulndb API. Once the version is identified, the tool downloads a « clean » archive of this version and checks for any alteration. </mj-text>
+          <mj-text>The tool generates a report as an XLSX file, with four tabs : The core; Alterations to the core; The plugins list and analyses; Alterations to plugins. This can be used as a starting point of a more in-depth audit.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://securite.intrinsec.com/2017/08/16/comission-whitebox-cms-analysis/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://github.com/Intrinsec/comission">
+            Source Code
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
