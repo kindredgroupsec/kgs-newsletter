@@ -6,6 +6,7 @@ const plugins = gulpLoadPlugins();
 gulp.task('html', function() {
   return gulp.src('./*.mjml')
     .pipe(plugins.cached('htmlify'))
+    .pipe(plugins.newer({"ext": ".html", "dest": "./"}))
     .pipe(plugins.mjml())
     .pipe(gulp.dest('./'));
 });
