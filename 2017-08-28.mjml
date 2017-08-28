@@ -50,7 +50,12 @@
           color: #fff;
           text-decoration: none;
         }
-
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Group Security Newsletter - 28 August 2017" />
+        <meta name="twitter:description" content="A weekly newsletter of the best articles on cybersecurity, privacy, security awareness, and more. All links are curated by hand from Kindred Group's security team." />
+        <meta name="twitter:image" content="https://tctechcrunch2011.files.wordpress.com/2017/08/horror-movie.png?w=1279&h=727&crop=1" />
       </mj-style>
   </mj-head>
   <mj-body>
