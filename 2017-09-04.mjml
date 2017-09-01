@@ -1,0 +1,234 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 28/08/17" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://tctechcrunch2011.files.wordpress.com/2017/08/horror-movie.png?w=1279&h=727&crop=1" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">4 September 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Is your email in the latest cache of 711 million pwnd addresses?</mj-text>
+          <mj-image src="https://2.bp.blogspot.com/-R1opASI6Gjc/WaZ1TUtaSVI/AAAAAAAAuMw/Xmb0DrcYHyQSBxoo3GjBRtx7zrG_-3YgwCLcBGAs/s1600/spam-emails.png"></mj-image>
+          <mj-text color="#fff">A massive database of 630 million email addresses used by a spambot to send large amounts of spam to has been published online in what appears to be one of the biggest data dumps of its kind.</mj-text>
+          <mj-text color="#fff">A French security researcher, who uses online handle Benkow, has spotted the database on an "open and accessible" server containing a vast amount of email addresses, along with millions of SMTP credentials from around the world.</mj-text>
+          <mj-text color="#fff">As the researcher explained, he found "a huge list of valid SMTP credentials"—around 80 millions—which is then used to send out spam emails to the remaining 630 million accounts via internet provider's mail servers, making them look legitimate that bypass anti-spam measures.</mj-text>
+          <mj-text color="#fff">The exposed database has been verified by Troy Hunt, added the leaked email addresses to his breach notification site. At the time of writing, it is unclear who is behind the Onliner Spambot. Users can check for their email addresses on the site and those affected are  advised to change their passwords for their email accounts and enable two-factor authentication if you haven't yet.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2017/08/spambot-email-addresses.html">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://benkowlab.blogspot.se/2017/08/from-onliner-spambot-to-millions-of.html">
+            Technical write-up
+          </mj-button>
+
+          <mj-button background-color="#fff" mj-class="blue" href="https://haveibeenpwned.com/">
+            Have I Been Pwned?
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">How to buy MacBook for $1, or hacking SAP POS</mj-text>
+          <mj-image src="http://zdnet2.cbsistatic.com/hub/i/r/2017/08/28/664e8b92-7355-43fd-81a7-2ca518d27bcf/resize/770xauto/d5ad893ee79d7c82da2ffef698945bc9/point-of-sale.jpg"></mj-image>
+          <mj-text>Security researchers have devised a way to offer steep discounts or steal goods by hacking vulnerable point-of-sale systems.</mj-text>
+          <mj-text>The researchers at cybersecurity firm ERPScan, which has a commercial stake in the space, found that SAP's point-of-sale (POS) systems don't authenticate or check internal commands, allowing anyone with access to the store's network unrestricted access to the checkout system. That might not be so difficult when various devices and machines around the store are also ethernet-connected, making a plug and play-style attack easier than others.</mj-text>
+          <mj-text>That access allows the unauthenticated hacker to change prices, set discounts, or take other malicious actions against the systems -- including remotely shutting down the checkout machines, or unmasking credit card numbers.</mj-text>
+          <mj-text>SAP has since fixed the vulnerabilities and rolled out patches.</mj-text>
+          <mj-button mj-class="bg-pink" href="http://www.zdnet.com/article/hackers-snag-a-dollar-laptop-by-exploiting-point-of-sale-system-flaw/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://erpscan.com/research/hacking-sap-pos/">
+            Original write-up
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Welcome to 2017: Pacemaker Patients Told to Visit Doctors to Receive Security Patches</mj-text>
+          <mj-image src="https://images.vice.com/motherboard/content-images/article/26479/1444334442473346.jpg"></mj-image>
+          <mj-text>Patients with pacemakers manufactured by Abbott — formerly St. Jude Medical's — are advised to reach out to their doctors and inquire about the availability of a security update for their implanted medical devices.</mj-text>
+          <mj-text>The security update will fix three vulnerabilities discovered last year by MedSec Holdings Ltd.. The flaws are detailed in a security alert issued by the Department of Homeland Security's CERT team. We’re talking about a total of 465,000 implanted devices that are affected by the firmware flaws, which leave the devices vulnerable to tampering that could cause them to pace at potentially dangerous rates or fail by rapidly draining their batteries.</mj-text>
+          <mj-text>Abbott estimates it would take around three minutes for doctors to install the update by placing an RF wand over the pacemaker. Pacemakers manufactured from August 28 2017 will have this update pre-loaded in the device and won’t need the update.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/welcome-to-2017-pacemaker-patients-told-to-visit-doctors-to-receive-security-patches/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://nakedsecurity.sophos.com/2017/08/31/pacemaker-gets-firmware-update-go-and-see-your-doctor/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Massive Email Campaign Sends Locky Ransomware to Over 23 Million Users</mj-text>
+          <mj-image src="https://2.bp.blogspot.com/-mraf7dv1SIk/Wagwn7QsrRI/AAAAAAAAuO4/JNW9m69o5j8z9iIXGWCjS6fu4aI6zHmWQCLcBGAs/s1600/locky-ransomware.png"></mj-image>
+          <mj-text>Sometimes cyberattacks are incredibly sophisticated. They succeed through careful planning and methodical execution. Other times hackers will launch wholesale attacks, setting as many traps as possible and waiting to see how many people walk into them.</mj-text>
+          <mj-text>The latter is the approach taken by cybercriminals with a recent email barrage that is spreading a nasty new strain of the notorious Locky ransomware. Security experts at AppRiver have been watching the campaign unfold. In just 24 short hours, their systems have watched the attack fire off a jaw-dropping 23 million infected emails.</mj-text>
+          <mj-text>The sample email posted by AppRiver looks like minimal effort was put into its creation. The only text in it is the words "download it here" and a bogus sender's name. The subject line of the email is randomly chosen, albeit from a very simplistic list. Most are just one word: documents, photo, images, scans, pictures. The most complex has two: please print. Those are very obvious red flags, but with 23 million potential targets there's bound to be a few ill-advised clicks.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.forbes.com/sites/leemathews/2017/08/31/massive-ransomware-attack-unleashes-23-million-emails-in-24-hours/#75a5b636394b">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://amp.thehackernews.com/thn/2017/08/locky-ransomware-emails.html">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">iOS 11's most underrated security feature? A password manager</mj-text>
+          <mj-image src="http://imgur.com/5nyuYd5.png"></mj-image>
+          <mj-text>Apple's iOS 11 comes with a new feature that could finally make passwords less cumbersome. The iPhone and iPad software comes with a password manager, which lets users access their account details for apps and websites.</mj-text>
+          <mj-text>Whenever a login box appears -- including in apps -- a small key-prompt will appear, allowing the user to open their bank of passwords. The password manager is protected by the user's device passcode, or Touch ID if it's enabled, to prevent others from snooping.</mj-text>
+          <mj-text>Many users new to iOS 11 will find that their password manager already be populated with login information. That's because passwords that were saved in Safari are now stored in the iOS 11's password manager. The key difference is that the saved passwords now work within apps, too.</mj-text>
+          <mj-text>Although the feature is a boon for personal user security, at the time of writing, the password manager feature doesn't allow users to generate passwords, a feature of most other password managers.</mj-text>
+          <mj-button mj-class="bg-purple" href="http://www.zdnet.com/article/ios-11-underrated-security-feature-iphone-ipad/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Webserver hardening: How to install and enable ModSecurity with NGINX</mj-text>
+          <mj-image src="https://geekflare.com/wp-content/uploads/2016/05/nginx-modsecurity-configure.jpg"></mj-image>
+          <mj-text>ModSecurity is toolkit for real time web application monitoring, logging, and access control. This open source Web Application Firewall (WAF) module does an outstanding job of protecting web servers (Apache, NGINX, and IIS) from attacks that target potential vulnerabilities in various web applications.</mj-text>
+          <mj-text>This article walks you through the process of installing both ModSecurity and NGINX, so you can ensure your web server is better capable of standing up against certain attacks.</mj-text>
+          <mj-text>text</mj-text>
+          <mj-button mj-class="bg-blue" href="http://www.techrepublic.com/article/how-to-install-and-enable-modsecurity-with-nginx-on-ubuntu-server/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://modsecurity.org/crs/">
+            Core Rule Set
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Git-secret: Store secrets in Git repositories the right way</mj-text>
+          <mj-image src="http://git-secret.io/images/git-secret-big.png"></mj-image>
+          <mj-text>There’s a known problem in server configuration and deploying, when you have to store your private data such as: database passwords, application secret-keys, OAuth secret keys and so on, outside of the git repository. Even if this repository is private, it is a security risk to just publish them into the world wide web.</mj-text>
+          <mj-text>Storing them separately has a lot of drawbacks. These files are not version controlled. Filenames change, locations change, passwords change from time to time, some new information appears, other is removed. Also, when building the automated deployment system there will be one extra step: download and place these secret-configuration files where they need to be. So you have to maintain an extra secure server, where everything is stored.</mj-text>
+          <mj-text>How does git-secret solve these problems? Git-secret encrypts files and stores them inside the git repository, so you will have all the changes for every commit. Git-secret doesn’t require any other deploy operations rather than git secret reveal, so it will automatically decrypt all the required files.</mj-text>
+          <mj-button mj-class="bg-pink" href="http://git-secret.io/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
