@@ -192,7 +192,6 @@
           <mj-image src="https://geekflare.com/wp-content/uploads/2016/05/nginx-modsecurity-configure.jpg"></mj-image>
           <mj-text>ModSecurity is toolkit for real time web application monitoring, logging, and access control. This open source Web Application Firewall (WAF) module does an outstanding job of protecting web servers (Apache, NGINX, and IIS) from attacks that target potential vulnerabilities in various web applications.</mj-text>
           <mj-text>This article walks you through the process of installing both ModSecurity and NGINX, so you can ensure your web server is better capable of standing up against certain attacks.</mj-text>
-          <mj-text>text</mj-text>
           <mj-button mj-class="bg-blue" href="http://www.techrepublic.com/article/how-to-install-and-enable-modsecurity-with-nginx-on-ubuntu-server/">
             Read More
           </mj-button>
