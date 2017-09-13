@@ -219,6 +219,27 @@
         </mj-column>
       </mj-section>
 
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="http://">
+                cut1</a></li>
+              <li><a class="lnk-pink" href="https://">
+                cut2</a></li>
+              <li><a class="lnk-green" href="https://">
+                cut3</a></li>
+              <li><a class="lnk-orange" href="https://">
+                cut4</a></li>
+              <li><a class="lnk-purple"  href="http://">
+                cut5</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
       <!-- footer -->
 
       <mj-section background-color="#fff">
