@@ -1,0 +1,262 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 18/09/17" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="http://img.phonandroid.com/2017/09/blueborne-attaque-bluetooth-android.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">18 September 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">The IoT Attack Vector “BlueBorne” Exposes Almost Every Connected Device</mj-text>
+          <mj-image src="http://img.phonandroid.com/2017/09/blueborne-attaque-bluetooth-android.png"></mj-image>
+          <mj-text color="#fff">If you are using a Bluetooth enabled device, be it a smartphone, laptop, smart TV or any other IoT device, you are at risk of malware attacks that can carry out remotely to take over your device even without requiring any interaction from your side.</mj-text>
+          <mj-text color="#fff">Security researchers have just discovered total 8 zero-day vulnerabilities in Bluetooth protocol that impact more than 5.3 Billion devices—from Android, iOS, Windows and Linux to the Internet of things (IoT) devices—using the short-range wireless communication technology.</mj-text>
+          <mj-text color="#fff">Using these vulnerabilities, security researchers at IoT security firm Armis have devised an attack, dubbed BlueBorne, which could allow attackers to completely take over Bluetooth-enabled devices, spread malware, or even establish a "man-in-the-middle" connection to gain access to devices' critical data and networks without requiring any victim interaction.</mj-text>
+          <mj-text color="#fff">The security firm responsibly disclosed the vulnerabilities to all the major affected companies a few months ago—including Google, Apple and Microsoft, Samsung and Linux Foundation. Google and Microsoft have already made security patches available to their customers, while Apple iOS devices running the most recent version of its mobile operating system (that is 10.x) are safe.</mj-text>
+          <mj-text color="yellow">All iOS devices with 9.3.5 or older versions and over 1.1 Billion active Android devices running older than Marshmallow (6.x) are vulnerable to the BlueBorne attack. Android users need to wait for security patches for their devices, as it depends on your device manufacturers. In the meantime, they can install <a href="https://play.google.com/store/apps/details?id=com.armis.blueborne_detector" class="lnk-white">BlueBorne Vulnerability Scanner app</a> (created by Armis team) from Google Play Store to check if their devices are vulnerable to BlueBorne attack or not. If found vulnerable, you are advised to turn off Bluetooth on your device when not in use.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="http://thehackernews.com/2017/09/blueborne-bluetooth-hacking.html">
+            Even More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.armis.com/blueborne/">
+            Original announcement
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.kb.cert.org/vuls/id/240311">
+            CVE List
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Equifax data leak could involve 143 million consumers, what to do?</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-2--mGvZ4Glg/WbKZv7K8ecI/AAAAAAAAAF8/u3CkmOOGIicZBvoWaZWTnujZwC442-4rQCLcBGAs/s1600/equifax-data-breach-identity-theft.png"></mj-image>
+          <mj-text>Equifax reports that it discovered the leak on July 29th and took steps to stop the intrusion. It then hired a cybersecurity firm to determine the extent of the intrusion and what damage was done. The company reports that it has involved law enforcement, but it’s not clear at this point how the intruders entered the system or exactly what they took.</mj-text>
+          <mj-text>The data at risk includes Social Security numbers, birth dates, addresses on 143 million Americans. Equifax also said the breach involved some driver’s license numbers (although it didn’t say how many or which states might be impacted), credit card numbers for roughly 209,000 U.S. consumers, and “certain dispute documents with personal identifying information for approximately 182,000 U.S. consumers.</mj-text>
+          <mj-text>The breach is not limited to Americans though, Equifax said it believes the intruders got access to “limited personal information for certain UK and Canadian residents.” It has not disclosed what information for those residents was at risk or how many from Canada and the UK may be impacted.</mj-text>
+          <mj-text>While this is not the worst breach of all time by a long shot in terms of pure numbers, this leak is particularly worrisome because Equifax is a credit reporting service. They track a history of your consumer life, credit cards, credit scores and more. This gives the black market a potential gold mine of information about people’s financial lives.</mj-text>
+          <mj-text>Equifax is offering one free year of their credit monitoring service. A credit monitoring can’t hurt, but you should not count on it protecting you from identity theft. For that, you need to file a security freeze — also known as a credit freeze — with the four major credit bureaus.</mj-text>
+          <mj-text></mj-text>
+          <mj-button mj-class="bg-pink" href="https://techcrunch.com/2017/09/07/equifax-data-leak-could-involve-143-million-consumers/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://krebsonsecurity.com/2017/09/the-equifax-breach-what-you-should-know/">
+            Credit Freeze - What you should know
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Apache Struts 2 Flaws Affect Multiple Cisco Products</mj-text>
+          <mj-image src="http://i1-news.softpedia-static.com/images/news2/Cisco-Patches-Four-Year-Old-Apache-Struts-2-Issue-450663-2.jpg"></mj-image>
+          <mj-text>After Equifax massive data breach that was believed to be caused due to a vulnerability in Apache Struts, Cisco has initiated an investigation into its products that incorporate a version of the popular Apache Struts2 web application framework.</mj-text>
+          <mj-text>Multiple Cisco products incorporate a version of the Apache Struts 2 package that is affected by these vulnerabilities.</mj-text>
+
+          <mj-text>Some of Cisco products including its Digital Media Manager, MXE 3500 Series Media Experience Engines, Network Performance Analysis, Hosted Collaboration Solution for Contact Center, and Unified Contact Center Enterprise have been found vulnerable to multiple Apache Struts flaws.</mj-text>
+          <mj-text>At the current, there are no software patches to address the vulnerabilities in Cisco products, but the company promised to release updates for affected software which will soon be accessible through the Cisco Bug Search Tool.</mj-text>
+          <mj-button mj-class="bg-green" href="http://thehackernews.com/2017/09/apache-struts-flaws-cisco.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170907-struts2">
+            Cisco Advisory Page
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Does Apple Face ID make it easier for feds to hack the iPhone X?</mj-text>
+          <mj-image src="https://static.dezeen.com/uploads/2017/09/iphone-x-apple-news_dezeen_2364_hero-852x479.jpg"></mj-image>
+          <mj-text>The biggest announcement on Tuesday for security folk, facial recognition, may be a double-edged sword. With no home button for Touch ID, Face ID will be the primary way to unlock iPhone X. On the one-hand, the face is a unique identifier and will allow for quick and secure access. On the other, as with fingerprints, past forms of facial biometrics have been exploited with simple tricks, such as holding up a clear picture of the real user.</mj-text>
+          <mj-text>But Apple appears to have invested seriously in the security of Face ID. Apple senior vice president Phil Schiller said "Face ID learns your face" and can adapt to recognize changes in the user's appearance.  The TrueDepth camera system of the iPhone X combines a lot of high-end tech - an infrared camera, proximity and ambient light sensors, as well as a flood illuminator.</mj-text>
+          <mj-text>Apple has even worked with Hollywood specialists to test mask attacks. The chance of a random person being able to unlock a device is one in a million, Schiller said. When it comes to law enforcement searches, Face ID could, in one respect, be a boon. It may be easier to force a user into opening their iPhone simply by holding it up to their face when compared to Touch ID, where police have repeatedly tried to force suspects to depress their fingerprint to unlock the phone.</mj-text>
+          <mj-text>Apple has added an additional login layer in iOS 11 so that when connecting an iPhone to an unknown external PC, an extra passcode is required. For feds then, even if they can unlock the phone, it doesn't mean they can extract the data inside, quite the opposite thanks to iOS 11.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.forbes.com/sites/thomasbrewster/2017/09/12/iphone-x-faceid-security-danger/#3987c7de512d">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://nakedsecurity.sophos.com/2017/09/12/new-ios11-features-create-fresh-headaches-for-law-enforcement/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Everybody without Android Oreo vulnerable to toast overlay attack</mj-text>
+          <mj-image src="http://www.2-spyware.com/news/wp-content/uploads/news/android-toast-vulnerability1_en.jpg"></mj-image>
+          <mj-text>Any unpatched Android phone running a version older than Oreo is going to need patching fairly soon, with researchers turning up a class of vulnerability that lets malware draw fake dialogs so users “okay” their own pwnage.</mj-text>
+          <mj-text>This vulnerability is a variant of the overlay attack we encountered with the "Cloak and Dagger" vulnerability. It's a straightforward way to trick users: draw a bogus screen for users to click on (for example, to install an app or accept a set of permissions), hiding what's really happening.</mj-text>
+          <mj-text>Android is supposed to prevent this happening. But the vulnerability turned up by Palo Alto's Unit 42 threat research team bypasses these requirements, by exploiting a notification type called Toast.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://www.theregister.co.uk/2017/09/11/everybody_without_android_oreo_vulnerable_to_overlay_attack/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Microsoft says it won't fix kernel flaw allowing to bypass Antivirus scans</mj-text>
+          <mj-image src="https://varianto25.com/assets/img/stickers/its-not-a-bug-its-a-feature/featured.jpg"></mj-image>
+          <mj-text>A design flaw within the Windows kernel that could stop antivirus software from recognizing malware isn't going to be fixed, Microsoft has said. The issue, spotted this week by enSilo security researcher Omri Misgav, lies within the system call PsSetLoadImageNotifyRoutine, which has been part of Microsoft's operating system since Windows 2000 and is still active in the latest builds.</mj-text>
+          <mj-text>Antivirus tools use PsSetLoadImageNotifyRoutine to check if malicious code has been loaded into memory, but Misgav found that a cunning attacker could use poor coding behind the API to smuggle malware past scanners. Essentially, malware can use the above API to trick the OS into giving malware scanners other files – such as benign executables – to inspect rather than their own malicious code. This would allow software nasties to evade antivirus packages.</mj-text>
+          <mj-text>After enSilo notified Microsoft about the issue nothing happened. When Redmond's techies did get in contact, they said that they weren't concerned about the issue. </mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.theregister.co.uk/2017/09/08/microsoft_says_it_wont_fix_kernel_flaw_its_not_a_security_issue_apparently/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://breakingmalware.com/documentation/windows-pssetloadimagenotifyroutine-callbacks-good-bad-unclear-part-1/">
+            Original statement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Take These Steps to Secure Your Raspberry Pi Against Attackers</mj-text>
+          <mj-image src="https://blog.trendmicro.com/trendlabs-security-intelligence/files/2013/06/raspberrypithumb.png"></mj-image>
+          <mj-text>Raspberry Pi boards are fantastic for any project — they’re cheap, easy to use, can run a wide range of possible operating systems. You can use Raspberry Pi boards for all kinds of automation and information gathering projects. But, if you are not careful, your little hobby project might result in a security risk that acts as an entry point into your network.</mj-text>
+          <mj-text>They can’t perform secure booting such as ARM Trustzone, and the SD card and operating system are not easily encrypted. Follow these security tips to safeguard your Pi and other devices on your network.</mj-text>
+          <mj-text>This guide covers basic security hardening that should be part of any project, tasks such as changing default passwords, securing SSH, configuring the Firewall, ensuring continuous security updates, etc.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://makezine.com/2017/09/07/secure-your-raspberry-pi-against-attackers/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.raspberrypi.org/documentation/configuration/security.md">
+            Official documentation
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="http://www.techrepublic.com/article/ios-security-alert-your-device-is-transmitting-exchange-credentials-without-any-encryption/">iOS security alert: Your device is transmitting Exchange credentials without any encryption</a></li>
+              <li><a class="lnk-pink" href="https://amp.thehackernews.com/thn/2017/09/hacking-infusion-pumps.html">Hackers Can Remotely Access Syringe Infusion Pumps to Deliver Fatal Overdoses</a></li>
+              <li><a class="lnk-green" href="https://amp.thehackernews.com/thn/2017/09/windows-10-linux-evade-malware.html
+">Linux Subsystem on Windows 10 Allows Malware to Become Fully Undetectable</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2017/09/12/researcher-reveals-d-link-router-holes-that-might-never-be-patched/
+">Researcher reveals D-Link router holes that might never be patched</a></li>
+              <li><a class="lnk-purple"  href="http://thehackernews.com/2017/09/adobe-security-patch.html">Adobe Patches Two Critical RCE Vulnerabilities in Flash Player</a></li>
+              <li><a class="lnk-blue" href="http://www.zdnet.com/article/equifax-freeze-your-account-site-is-also-vulnerable-to-hacking/">Equifax's credit report monitoring site is also vulnerable to hacking</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/blogs/cynics-guide-to-equifax-breach-nothing-will-change-p-2545">Cynic's Guide to the Equifax Breach: Nothing Will Change (and why we need the GDPR)</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
