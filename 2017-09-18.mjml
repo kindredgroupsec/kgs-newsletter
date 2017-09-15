@@ -114,7 +114,7 @@
           <mj-spacer height="30px" />
           <mj-text mj-class="pink h2">Equifax data leak could involve 143 million consumers, what to do?</mj-text>
           <mj-image src="https://1.bp.blogspot.com/-2--mGvZ4Glg/WbKZv7K8ecI/AAAAAAAAAF8/u3CkmOOGIicZBvoWaZWTnujZwC442-4rQCLcBGAs/s1600/equifax-data-breach-identity-theft.png"></mj-image>
-          <mj-text>Equifax reports that it discovered the leak on July 29th and took steps to stop the intrusion. It then hired a cybersecurity firm to determine the extent of the intrusion and what damage was done. The company reports that it has involved law enforcement, but it’s not clear at this point how the intruders entered the system or exactly what they took.</mj-text>
+          <mj-text>Equifax reports that it discovered the leak on July 29th and took steps to stop the intrusion. It then hired a cybersecurity firm to determine the extent of the intrusion and what damage was done. The company reported that it has involved law enforcement. After investigation, Equifax recently declared that the vulnerability was Apache Struts CVE-2017-5638</mj-text>
           <mj-text>The data at risk includes Social Security numbers, birth dates, addresses on 143 million Americans. Equifax also said the breach involved some driver’s license numbers (although it didn’t say how many or which states might be impacted), credit card numbers for roughly 209,000 U.S. consumers, and “certain dispute documents with personal identifying information for approximately 182,000 U.S. consumers.</mj-text>
           <mj-text>The breach is not limited to Americans though, Equifax said it believes the intruders got access to “limited personal information for certain UK and Canadian residents.” It has not disclosed what information for those residents was at risk or how many from Canada and the UK may be impacted.</mj-text>
           <mj-text>While this is not the worst breach of all time by a long shot in terms of pure numbers, this leak is particularly worrisome because Equifax is a credit reporting service. They track a history of your consumer life, credit cards, credit scores and more. This gives the black market a potential gold mine of information about people’s financial lives.</mj-text>
@@ -234,13 +234,12 @@
             <ul>
               <li><a class="lnk-blue" href="http://www.techrepublic.com/article/ios-security-alert-your-device-is-transmitting-exchange-credentials-without-any-encryption/">iOS security alert: Your device is transmitting Exchange credentials without any encryption</a></li>
               <li><a class="lnk-pink" href="https://amp.thehackernews.com/thn/2017/09/hacking-infusion-pumps.html">Hackers Can Remotely Access Syringe Infusion Pumps to Deliver Fatal Overdoses</a></li>
-              <li><a class="lnk-green" href="https://amp.thehackernews.com/thn/2017/09/windows-10-linux-evade-malware.html
-">Linux Subsystem on Windows 10 Allows Malware to Become Fully Undetectable</a></li>
-              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2017/09/12/researcher-reveals-d-link-router-holes-that-might-never-be-patched/
-">Researcher reveals D-Link router holes that might never be patched</a></li>
+              <li><a class="lnk-green" href="https://amp.thehackernews.com/thn/2017/09/windows-10-linux-evade-malware.html">Linux Subsystem on Windows 10 Allows Malware to Become Fully Undetectable</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2017/09/12/researcher-reveals-d-link-router-holes-that-might-never-be-patched/">Researcher reveals D-Link router holes that might never be patched</a></li>
               <li><a class="lnk-purple"  href="http://thehackernews.com/2017/09/adobe-security-patch.html">Adobe Patches Two Critical RCE Vulnerabilities in Flash Player</a></li>
               <li><a class="lnk-blue" href="http://www.zdnet.com/article/equifax-freeze-your-account-site-is-also-vulnerable-to-hacking/">Equifax's credit report monitoring site is also vulnerable to hacking</a></li>
               <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/blogs/cynics-guide-to-equifax-breach-nothing-will-change-p-2545">Cynic's Guide to the Equifax Breach: Nothing Will Change (and why we need the GDPR)</a></li>
+              <li><a class="lnk-green" href="https://www.forbes.com/sites/thomasbrewster/2017/09/14/massive-google-android-malware-expensivewall/#3a8526dd477f">Google Is Fighting A Massive Android Malware Outbreak -- Up To 21 Million Victims</a></li>
             </ul>
           </mj-text>
         </mj-column>
