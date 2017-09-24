@@ -237,6 +237,8 @@
           <mj-text mj-class="h2">Cutting room floor</mj-text>
           <mj-text>
             <ul>
+              <li><a class="lnk-blue" href="https://medium.freecodecamp.org/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c">
+                How I hacked hundreds of companies through their helpdesk</a></li>
               <li><a class="lnk-pink" href="https://torrentfreak.com/the-pirate-bay-website-runs-a-cryptocurrency-miner-170916/">
                 The Pirate Bay Website Runs a Cryptocurrency Miner (Updated)</a></li>
               <li><a class="lnk-green" href="http://www.zdnet.com/article/ios-11s-control-center-may-say-bluetooth-wi-fi-are-off-but-thats-just-not-true/">
@@ -249,6 +251,8 @@
                 Google Experiment Tests Top 5 Browsers, Finds Safari Riddled With Security Bugs</a></li>
                 <li><a class="lnk-pink" href="https://krebsonsecurity.com/2017/09/experian-site-can-give-anyone-your-credit-freeze-pin/">
                   Experian Site Can Give Anyone Your Credit Freeze PIN</a></li>
+              <li><a class="lnk-green" href="https://www.kali.org/news/kali-linux-2017-2-release/">
+                Kali Linux 2017.2 Release</a></li>
             </ul>
           </mj-text>
         </mj-column>
