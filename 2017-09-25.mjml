@@ -1,0 +1,269 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 25/09/17" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://3.bp.blogspot.com/-1W7Liv72ZRI/Wb_fHq-Z_iI/AAAAAAAAALU/pE7t2XcDFs4YIfconu2-oSX8x2wSeQteACLcBGAs/s1600/ccleaner-hacked-malware.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">25 September 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Warning: CCleaner Hacked to Distribute Malware; Over 2.3 Million Users Infected</mj-text>
+          <mj-image src="https://3.bp.blogspot.com/-1W7Liv72ZRI/Wb_fHq-Z_iI/AAAAAAAAALU/pE7t2XcDFs4YIfconu2-oSX8x2wSeQteACLcBGAs/s1600/ccleaner-hacked-malware.png"></mj-image>
+          <mj-text color="#fff">If you have downloaded or updated CCleaner application on your computer between August 15 and September 12 of this year from its official website, then pay attention—your computer has been compromised.</mj-text>
+          <mj-text color="#fff">Earlier this month, researchers found CCleaner and CCleaner Cloud were being illegally altered before they were released to the public. The download for CCleaner v5.33 was accompanied by a multi-stage malware payload, signed using a valid digital signature issued to Piriform.</mj-text>
+          <mj-text color="#fff">This incident is yet another example of supply chain attack. Earlier this year, update servers of a Ukrainian company called MeDoc were also compromised in the same way to distribute the Petya ransomware, which wreaked havoc worldwide.</mj-text>
+          <mj-text color="#fff">During the analysis of the hackers' command-and-control (C2) server to which the malicious CCleaner versions connected, security researchers from Cisco's Talos Group found evidence of a second payload (GeeSetup_x86.dll, a lightweight backdoor module) that was delivered to a specific list of computers based on local domain names. The target companies included: Google, Microsoft, Cisco, Intel, Samsung, Sony, HTC, Linksys, D-Link, Akamai, VMware</mj-text>
+          <mj-text color="yellow"> Piriform estimated that up to 3 percent of its users (up to 2.27 million people) were affected by the malicious installation. Affected users are strongly recommended to update their CCleaner software to version 5.34 or higher, in order to protect their computers from being compromised.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2017/09/ccleaner-hacked-malware.html">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.darkreading.com/attacks-breaches/avast-owned-piriform-releases-ccleaner-security-update/d/d-id/1329923">
+            Avast-Owned Piriform Releases CCleaner Security Update
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2017/09/ccleaner-malware-hacking.html">
+            CCleaner Malware Infects Big Tech Companies With Second Backdoor
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Joomla patches eight-year-old critical CMS bug</mj-text>
+          <mj-image src="http://zdnet2.cbsistatic.com/hub/i/r/2017/09/22/3f868a69-2d53-4d03-bf4a-7aeaf23ab20a/resize/770xauto/21184f18069af05491c6277276d6ca23/screen-shot-2017-09-22-at-08-49-04.jpg"></mj-image>
+          <mj-text>Joomla has patched a critical bug which could be used to steal account information and fully compromise website domains. They provider issued a security advisory detailing the flaw, which is found in the LDAP authentication plugin.</mj-text>
+          <mj-text>Joomla considers the bug a "medium" severity issue, but according to researchers from RIPS Technologies, the problem is closer to a critical status. Through the flaw, CVE-2017-14596, a remote attacker is able to extract authentication credentials from the LDAP server, including the super user username and password, as long as Joomla is configured to use LDAP for authentication.</mj-text>
+          <mj-text>The attacker does not need any privileges to exploit the bug, which has been present in the plugin for the past eight years. It is not known if the issue has been exploited in the wild. After the vulnerability was disclosed to the Joomla team and confirmed in July, a fix has been released through the latest Joomla release, version 3.8.</mj-text>
+          <mj-button mj-class="bg-pink" href="http://www.zdnet.com/article/joomla-patches-eight-year-old-critical-cms-bug/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">All That's Needed To Hack Gmail And Rob Bitcoin: A Name And A Phone Number</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-mp21wsq2Boc/WcEXd1ujFKI/AAAAAAAAAMk/jMedYvWe_FcIlFv-Dc4Uji4l5dZ_tZ_WACLcBGAs/s1600/hacking-bitcoin-wallets.png"></mj-image>
+          <mj-text>Hackers have proven just how urgently a gaping flaw in the global telecoms network, affecting what's known as Signalling System No. 7 (SS7), needs to be fixed. In a video demonstration, shown to Forbes ahead of publication today, benevolent hackers from Positive Technologies were able to take control of a Coinbase bitcoin wallet and start pilfering funds via the SS7 flaws.</mj-text>
+          <mj-text>In their attack, the Positive researchers first went to Gmail, using Google's service to find an email account with just a phone number. Once the email account was identified, the hackers initiated a password reset process, asking one-time authorization codes to be sent to the victim's phone. By exploiting SS7 weaknesses they were able to intercept text messages containing those codes, allowing them to choose a new password and take control of the Gmail account. They could then simply head to the Coinbase website and do another password reset using the email they'd compromised.</mj-text>
+          <mj-text>The biggest barrier, perhaps, to such attacks is acquiring access to the SS7 network in the first place. Criminals have, on at least one occasion, used SS7 vulnerabilities to carry out an attack. That occurred in Germany this year, when crooks were able to use the same methods as the Positive researchers, but to pilfer funds from bank accounts of O2-Telefonica customers.</mj-text>
+          <mj-text mj-class="green">While the world waits for telecoms companies to act, users could also stop using SMS for two-factor authentication.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.forbes.com/sites/thomasbrewster/2017/09/18/ss7-google-coinbase-bitcoin-hack/#4cdb7eb141a4">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://amp.thehackernews.com/thn/2017/09/hacking-bitcoin-wallets.html">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">With Forseti, Spotify and Google release GCP security tools to open source community</mj-text>
+          <mj-image src="https://pbs.twimg.com/media/DJzu3lHWAAAsBJ8.jpg"></mj-image>
+          <mj-text>Spotify and Google Cloud worked together to develop innovative security tools that help organizations protect GCP (Google Cloud Platform) projects, and have made them available in an open source community called Forseti Security. Forseti is now open to all GCP users!</mj-text>
+          <mj-text>Forseti is an open source toolkit designed to help give security teams the confidence and peace of mind that they have the appropriate security controls in place across GCP. Today, Forseti features a number of useful security tools:</mj-text>
+          <mj-text>
+          <ul>
+            <li>Inventory: provides visibility into existing GCP resources</li>
+            <li>Scanner: validates access control policies across GCP resources</li>
+            <li>Enforcer: removes unwanted access to GCP resources</li>
+            <li>Explain: analyzes who has what access to GCP resources</li>
+          </ul></mj-text>
+          <mj-text>We had the opportunity to see in details the tool's potential through a <a href="https://twitter.com/SEC_T_org/status/894632139714682880" class="lnk-orange">great talk by Carly Schneider at SEC-T</a>. Needless to say this is really promising!</mj-text>
+          <mj-button mj-class="bg-orange" href="https://cloudplatform.googleblog.com/2017/09/with-Forseti-Spotify-and-Google-release-GCP-security-tools-to-open-source-community15.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="http://forsetisecurity.org/">
+            Forseti homepage
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Critical VMware vulnerability bypassing guest isolation (VMEscape), patch now</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/09/vmware.png?w=1024&h=536&crop=1"></mj-image>
+          <mj-text>On September 15, VMware issued a notice that some versions of ESXi, Workstation and Fusion are affected by an out-of-bounds write vulnerability.</mj-text>
+          <mj-text>The out-of-bounds write vulnerability in VMware’s products allows guests to break out of their isolation—an attacker could escape the confines of a virtual machine and execute malicious code on the machine the VM is running on.</mj-text>
+          <mj-text>The impact of this vulnerability is potentially quite high, which is why VMware rates this vulnerability as critical; however, the Zero Day Initiative, which worked with the two researchers who discovered this issue to disclose it to VMware, gives this vulnerability only a medium score of 6.2. The nuance behind ZDI’s reasoning is that while the impact is potentially high, this is not an easy vulnerability to exploit.</mj-text>
+          <mj-text mj-class="purple">Thankfully VMware issued a fix for this vulnerability (CVE-2017-4924 for those keeping track at home), so the standard advice of “patch ASAP” applies. ESXi version 6.5, Workstation 12.x, and Fusion 8.x on OSX are all vulnerable to this bug, so update as soon as you can if you haven’t yet.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://nakedsecurity.sophos.com/2017/09/21/critical-vmware-vulnerability-patch-and-update-now/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-4924">
+            CVE-2017-4924
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Put your multiple online personalities in Firefox Multi-Account Containers</mj-text>
+          <mj-image src="https://blog.mozilla.org/firefox/files/2017/09/container-tour-2-copy.png"></mj-image>
+          <mj-text>Maybe you’ve got two Gmail or Instagram or Twitter or Facebook accounts (or a few more than that). Maybe you want to keep your bank’s website farther away from your Pinterest board. Maybe you just like to keep everything very, very organized. Firefox got an extension for you!</mj-text>
+          <mj-text>The Firefox Multi-Account Containers extension lets you carve out a separate box for each of your online lives. Each Container stores cookies separately, so you can log into the same site with different accounts and online trackers can’t easily connect the browsing.</mj-text>
+          <mj-text>Custom labels and color-coded tabs help keep your different activities or personas separate. Exciting, right? Contain yourself! Install the Firefox Multi-Account Containers extension today and be who you want to be.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://blog.mozilla.org/firefox/introducing-firefox-multi-account-containers/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">
+            Download the extension
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Apache “Optionsbleed” vulnerability – what you need to know</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/09/apache-1200.jpg"></mj-image>
+          <mj-text>Remember Heartbleed? The Heartbleed vulnerability was that you could sneakily tell the server to reply with more data than you originally sent in, and instead of ignoring your malformed request, the server would send back your data…plus whatever was lying around nearby in memory, even if that was personal data or private data such as encryption keys from the web server itself.</mj-text>
+          <mj-text>Well, something similar has happened again. This time, the bug isn’t in OpenSSL, but in a program called httpd, probably better known as the Apache Web Server, and officially called the Apache HTTP Server Project. The vulnerability has been dubbed OptionsBleed, because the bug is triggered by making HTTP OPTION requests.</mj-text>
+          <mj-text>Apache servers can be configured by putting files called .htaccess into the directory tree of content that is stored on the server. Each .htaccess file sets configuration options for the directory it’s in and all the others below it. One of the settings you can configure in your .htaccess files allows to limit the available OPTIONS in the current directory tree. But here’s the thing: if any of the HTTP methods you configure in a directive are inapplicable,  for example because you typed DELLETE instead of DELETE, the “Optionsbleed” bug is triggered.</mj-text>
+          <mj-text mj-class="pink">The good news is that the side-effects of the bug don’t seem to show up often, given that it requires the coincidence of an incorrectly-configured .htaccess file and an unluckily-timed OPTIONS request. There is no official patch yet, we suggest you visit all your .htaccess files looking for settings that aren’t applicable (or are mis-spelled).</mj-text>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2017/09/19/apache-optionsbleed-vulnerability-what-you-need-to-know/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.cisecurity.org/optionsbleed-vulnerability-for-apache-web-servers/">
+            Recommendations
+          </mj-button>
+
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-pink" href="https://torrentfreak.com/the-pirate-bay-website-runs-a-cryptocurrency-miner-170916/">
+                The Pirate Bay Website Runs a Cryptocurrency Miner (Updated)</a></li>
+              <li><a class="lnk-green" href="http://www.zdnet.com/article/ios-11s-control-center-may-say-bluetooth-wi-fi-are-off-but-thats-just-not-true/">
+                iOS 11's Control Center may say Bluetooth, Wi-Fi are off, but that's just not true</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/attackers-take-over-wordpress-joomla-jboss-servers-to-mine-monero/">
+                Attackers Take Over WordPress, Joomla, JBoss Servers to Mine Monero</a></li>
+              <li><a class="lnk-purple"  href="https://nakedsecurity.sophos.com/2017/09/22/equifax-has-been-sending-customers-to-a-fake-phishing-site-for-weeks/">
+                Equifax has been sending customers to a fake phishing site for weeks</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/google-experiment-tests-top-5-browsers-finds-safari-riddled-with-security-bugs/">
+                Google Experiment Tests Top 5 Browsers, Finds Safari Riddled With Security Bugs</a></li>
+                <li><a class="lnk-pink" href="https://krebsonsecurity.com/2017/09/experian-site-can-give-anyone-your-credit-freeze-pin/">
+                  Experian Site Can Give Anyone Your Credit Freeze PIN</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
