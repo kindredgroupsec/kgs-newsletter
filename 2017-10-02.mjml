@@ -61,7 +61,7 @@
         <meta name="twitter:site" content="@kindredgroup" />
         <meta name="twitter:title" content="Kindred Security Newsletter - 02/10/17" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
-        <meta name="twitter:image" content="http://i.imgur.com/kQIWprp.png" />
+        <meta name="twitter:image" content="https://i.guim.co.uk/img/media/a3892ff4820fe266ab7b422968fb3aa26d94c442/0_308_5023_3013/master/5023.jpg?w=620&q=55&auto=format&usm=12&fit=max&s=abce6b157344c21963472c3ad945b681" />
       </mj-style>
   </mj-head>
   <mj-body>
@@ -89,9 +89,12 @@
         <mj-column>
           <mj-text mj-class="white h2" align="center">Deloitte Hacked — Exposing Clients' Emails (and their bad security practices)</mj-text>
           <mj-image src="https://i.guim.co.uk/img/media/a3892ff4820fe266ab7b422968fb3aa26d94c442/0_308_5023_3013/master/5023.jpg?w=620&q=55&auto=format&usm=12&fit=max&s=abce6b157344c21963472c3ad945b681"></mj-image>
-          <mj-text color="#fff">text</mj-text>
-          <mj-text color="#fff">text</mj-text>
-          <mj-text color="#fff">text</mj-text>
+          <mj-text color="#fff">One of the world’s “big four” accountancy firms has been targeted by a sophisticated hack that compromised the confidential emails and plans of some of its blue-chip clients. Deloitte provides auditing, tax consultancy and high-end cybersecurity advice to some of the world’s biggest banks, multinational companies, media enterprises, pharmaceutical firms and government agencies.</mj-text>
+          <mj-text color="#fff">Deloitte has sought to downplay the incident, saying it impacted “very few” clients. But according to a source close to the investigation, the breach dates back to at least the fall of 2016, and involves the compromise of all administrator accounts at the company as well as Deloitte’s entire internal email system.</mj-text>
+          <mj-text color="#fff">The source told KrebsOnSecurity they were coming forward with information about the breach because, “I think it’s unfortunate how we have handled this and swept it under the rug. It wasn’t a small amount of emails like reported. They accessed the entire email database and all admin accounts. But we never notified our advisory clients or our cyber intel clients.” This same source said forensic investigators identified several gigabytes of data being exfiltrated to a server in the United Kingdom. The source further said the hackers had free reign in the network for “a long time” and that the company still does not know exactly how much total data was taken.</mj-text>
+          <mj-text color="#fff">The breach revealed really poor security practices. A pile of researchers have uncovered worrying security practices at the accounting, audit and consulting firm. These include open ports for fragile services, and clear-text passwords stored in plain sight.</mj-text>
+
+          <mj-text color="#fff">Ironically, Deloitte Touche Tohmatsu Ltd. is (was?) the world’s No. 1 security consulting group.</mj-text>
           <mj-button background-color="#fff" mj-class="blue" href="https://www.theguardian.com/business/2017/sep/25/deloitte-hit-by-cyber-attack-revealing-clients-secret-emails">
             Read More
           </mj-button>
@@ -109,9 +112,9 @@
           <mj-spacer height="30px" />
           <mj-text mj-class="pink h2">Extreme Vetting: Evaluating The Security Posture Of Third-Party Vendors</mj-text>
           <mj-image src="https://specials-images.forbesimg.com/imageserve/720960493/960x0.jpg?fit=scale"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
+          <mj-text>We outsource data processing and other work to third parties because of their expertise in a specific area, but not necessarily because of their security capabilities. Is there a way for companies to enforce security standards on service providers?</mj-text>
+          <mj-text>These types of issues are typically resolved through special contracts. Popular data security standards such as PCI DSS or the NIST 800 series even ask companies to enforce security controls on service providers through legal contacts. For data that falls under data security and privacy laws -- say, HIPAA regulations in the U.S. for medical information or EU rules on consumer data like the fast-approaching General Data Protection Regulation (GDPR) -- there are additional requirements to have contracts containing specific data protection and privacy provisions. In other words, it’s illegal not to have these contracts with outside service providers. If they can’t sign the contract, find another provider!</mj-text>
+          <mj-text>This article will go through useful tips to design proper contract clauses, security controls and SLA clauses you should have with your third parties.</mj-text>
           <mj-button mj-class="bg-pink" href="https://www.forbes.com/sites/forbestechcouncil/2017/09/28/extreme-vetting-evaluating-the-security-posture-of-third-party-vendors/#5d45afce1dc2">
             Read More
           </mj-button>
@@ -126,9 +129,9 @@
           <mj-spacer height="30px" />
           <mj-text mj-class="green h2">How I hacked hundreds of companies through their helpdesk</mj-text>
           <mj-image src="https://cdn-images-1.medium.com/max/800/1*IgIzEgfAG6XwcFZ8EYIi7A.png"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
+          <mj-text>Months ago, the author discovered a flaw hackers can use to access a company’s internal communications. The flaw only takes a couple of clicks to potentially access intranets, social media accounts such as Twitter, and most commonly Yammer and Slack teams.</mj-text>
+          <mj-text>The bug is still out there. It isn’t something that can be fixed right away. Over the past few months, he contacted dozens of companies and affected vendors as part of their bug bounty programs in order to get their setup fixed. Due to the number of affected companies it was not possible to contact everyone. On the recommendation of some of his hacker heroes, and with approval of the affected vendors, he's publishing this blog so everyone affected can act immediately. Introducing what he has been calling Ticket Trick.</mj-text>
+          <mj-text>We need to keep looking for security issues in all possible places. This vulnerability existed for years in hundreds of websites screened by security professionals, but as far as he knows, nobody found it.</mj-text>
           <mj-button mj-class="bg-green" href="https://medium.freecodecamp.org/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c">
             Read More
           </mj-button>
@@ -143,9 +146,9 @@
           <mj-spacer height="30px" />
           <mj-text mj-class="orange h2">Apple macOS Exploit Lets Hackers Steal Keychain Passwords in Plaintext</mj-text>
           <mj-image src="https://2.bp.blogspot.com/-hfQjknuak6w/WcoVLTKzjQI/AAAAAAAAAP0/wGAgJFq7Jw8m7mEGbW3cuh2hW6Z6e0r5wCLcBGAs/s1600/keychain-password-vulnerability-macOS-High-Sierra.png"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
+          <mj-text>Discovered by former NSA hacker Patrick Wardle, the exploit allows an attacker to steal the entire contents of a macOS Keychain in plain text. To make matters even worse, Wardle was able to steal passwords using an unsigned app downloaded and installed from the internet.</mj-text>
+          <mj-text>As if a flaw that lets hackers get at the entire contents of your Keychain password vault isn't bad enough, it's not just High Sierra that's vulnerable: Older versions of macOS and OS X can be exploited in the same way. This is just one of the many flaw discovered on MacOS systems recently. Apple recently silently patched a vulnerability that allowed the bypass of the Apple Quarantine and the execution of arbitrary Javascript code without restrictions, iOS is transmitting Exchange credentials in plain text, the Secure Enclave has been hacked, and dozens of iOS apps allow man-in-the-middle intercepts.</mj-text>
+          <mj-text>"Every time I look at macOS the wrong way something falls over," Wardle said. He added that Apple marketing has done a great job of convincing consumers that its products are secure. Recent revelations speak to the contrary, though: Apple has a security problem.</mj-text>
           <mj-button mj-class="bg-orange" href="http://www.techrepublic.com/article/macos-high-sierra-comes-with-a-flaw-that-leaves-your-passwords-vulnerable/">
             Read More
           </mj-button>
@@ -165,9 +168,9 @@
           <mj-spacer height="30px" />
           <mj-text mj-class="purple h2">Android unlock patterns are too easy to guess</mj-text>
           <mj-image src="https://sophosnews.files.wordpress.com/2017/09/shutterstock_424829374.jpg?w=780&h=408&crop=1"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
+          <mj-text>A new report (PDF) from security researchers at the US Naval Academy and the University of Maryland Baltimore County has quantified just how absurdly easy it is to do an over-the-shoulder glance that accurately susses out an Android unlock pattern. In a nutshell: it is far easier for an attacker to shoulder surf a pattern than a PIN.</mj-text>
+          <mj-text>While there are 389,112 possible patterns you could draw using four to nine nodes, when researcher Marte Løge analyzed 3400 user-selected patterns, she found that the most commonly selected patterns used just four. To make it even worse, most people do swipes in predictable patterns: they go from left to right, top to bottom, typically starting in a corner, often create patterns in the shape of a letter, and rarely backtrack over the space their fingers have already traversed.</mj-text>
+          <mj-text>The best approach to securing your device is to use the longest PIN it will allow and the shortest lock out time you can stand. But is it feasible? As it is, exhausted users are increasingly just rolling over and playing dead, numbed by alarm fatigue at all the security protocols/security warnings/data getting crowbarred out of companies that can’t seem to figure out how to keep their data safe. After all, patterns are better than no protection at all. </mj-text>
           <mj-button mj-class="bg-purple" href="https://nakedsecurity.sophos.com/2017/09/28/android-unlock-patterns-are-too-easy-to-guess-stop-using-them/">
             Read More
           </mj-button>
@@ -183,14 +186,11 @@
           <mj-spacer height="30px" />
           <mj-text mj-class="blue h2">Google Discloses Critical Wi-Fi Flaws Affecting iOS, Android, with PoC for iPhone 7</mj-text>
           <mj-image src="https://i1.wp.com/gbhackers.com/wp-content/uploads/2017/09/iPhone7.jpg?fit=684%2C458&ssl=1"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
+          <mj-text>A Google security researcher has published proof-of-concept code for a vulnerability that can be exploited remotely via a WiFi connection to take over iPhone 7. The exploit gains code execution on the Wi-Fi firmware on handset.</mj-text>
+          <mj-text>The exploit works remotely, no user interaction needed, and can be used to target any user attempting to connect to a rogue WiFi network. While the demo code works on iPhone 7 devices, the vulnerability at the heart of the issue affects a broad range of products, such Android handsets, smart TVs running tvOS, and other devices with Broadcom WiFi chips.</mj-text>
+          <mj-text>Apple released security updates for iOS last week. The issue affects all iOS versions but was fixed with the release of iOS 11.</mj-text>
           <mj-button mj-class="bg-blue" href="https://www.bleepingcomputer.com/news/security/proof-of-concept-exploit-code-published-for-remote-iphone-7-wifi-hack/">
             Read More
-          </mj-button>
-          <mj-button mj-class="bg-blue" href="http://www.securityweek.com/google-discloses-critical-wi-fi-flaws-affecting-ios-android">
-            Even More
           </mj-button>
           <mj-button mj-class="bg-blue" href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1291">
             Technical details
@@ -205,9 +205,8 @@
           <mj-spacer height="30px" />
           <mj-text mj-class="pink h2">OpenEX: Open Source Crisis management exercises platform.</mj-text>
           <mj-image src="https://www.openex.io/wp-content/uploads/2016/12/screenshot.png"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
+          <mj-text>Software under open source licence designed to plan and conduct exercises. Many builtin features and ISO 22398 compliant.</mj-text>
+          <mj-text>The events of the exercise scenario are automatically sent by the platform at the scheduled time. The scenario can be played in accelerated speed before exercise to check its sequencing and rhythm. Players can be grouped by audience and receive only the events especially created for them. Checks on the players' means of communication are automatic and can be launched at any time. The available communication vectors are modular: SMS, emails, phone calls etc. Real-time indicators and statistics allow exercise control team to constantly adjust the relevance of the scenario.</mj-text>
           <mj-button mj-class="bg-pink" href="https://www.openex.io/en/">
             Read More
           </mj-button>
