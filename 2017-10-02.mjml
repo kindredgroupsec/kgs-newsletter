@@ -1,0 +1,262 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 02/10/17" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="http://i.imgur.com/kQIWprp.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">2 October 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Deloitte Hacked — Exposing Clients' Emails (and their bad security practices)</mj-text>
+          <mj-image src="https://i.guim.co.uk/img/media/a3892ff4820fe266ab7b422968fb3aa26d94c442/0_308_5023_3013/master/5023.jpg?w=620&q=55&auto=format&usm=12&fit=max&s=abce6b157344c21963472c3ad945b681"></mj-image>
+          <mj-text color="#fff">text</mj-text>
+          <mj-text color="#fff">text</mj-text>
+          <mj-text color="#fff">text</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.theguardian.com/business/2017/sep/25/deloitte-hit-by-cyber-attack-revealing-clients-secret-emails">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2017/09/source-deloitte-breach-affected-all-company-email-admin-accounts/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Extreme Vetting: Evaluating The Security Posture Of Third-Party Vendors</mj-text>
+          <mj-image src="https://specials-images.forbesimg.com/imageserve/720960493/960x0.jpg?fit=scale"></mj-image>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.forbes.com/sites/forbestechcouncil/2017/09/28/extreme-vetting-evaluating-the-security-posture-of-third-party-vendors/#5d45afce1dc2">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">How I hacked hundreds of companies through their helpdesk</mj-text>
+          <mj-image src="https://cdn-images-1.medium.com/max/800/1*IgIzEgfAG6XwcFZ8EYIi7A.png"></mj-image>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-button mj-class="bg-green" href="https://medium.freecodecamp.org/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Apple macOS Exploit Lets Hackers Steal Keychain Passwords in Plaintext</mj-text>
+          <mj-image src="https://2.bp.blogspot.com/-hfQjknuak6w/WcoVLTKzjQI/AAAAAAAAAP0/wGAgJFq7Jw8m7mEGbW3cuh2hW6Z6e0r5wCLcBGAs/s1600/keychain-password-vulnerability-macOS-High-Sierra.png"></mj-image>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-button mj-class="bg-orange" href="http://www.techrepublic.com/article/macos-high-sierra-comes-with-a-flaw-that-leaves-your-passwords-vulnerable/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://www.wearesegment.com/research/Mac-OS-X-Local-Javascript-Quarantine-Bypass.html">
+            Mac OS X Local Javascript Quarantine Bypass
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://business.f-secure.com/more-mac-malware-than-ever-before">
+            [Infographic] More Mac malware than ever before
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Android unlock patterns are too easy to guess</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/09/shutterstock_424829374.jpg?w=780&h=408&crop=1"></mj-image>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-button mj-class="bg-purple" href="https://nakedsecurity.sophos.com/2017/09/28/android-unlock-patterns-are-too-easy-to-guess-stop-using-them/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="http://www.zdnet.com/article/face-fingerprint-passwords-or-pin-whats-the-best-way-to-keep-your-smartphone-secure/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Google Discloses Critical Wi-Fi Flaws Affecting iOS, Android, with PoC for iPhone 7</mj-text>
+          <mj-image src="https://i1.wp.com/gbhackers.com/wp-content/uploads/2017/09/iPhone7.jpg?fit=684%2C458&ssl=1"></mj-image>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.bleepingcomputer.com/news/security/proof-of-concept-exploit-code-published-for-remote-iphone-7-wifi-hack/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="http://www.securityweek.com/google-discloses-critical-wi-fi-flaws-affecting-ios-android">
+            Even More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1291">
+            Technical details
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">OpenEX: Open Source Crisis management exercises platform.</mj-text>
+          <mj-image src="https://www.openex.io/wp-content/uploads/2016/12/screenshot.png"></mj-image>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.openex.io/en/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2017/09/windows-monero-miners.html">
+                Hackers Exploiting Microsoft Servers to Mine Monero - Makes $63,000 In 3 Months</a></li>
+              <li><a class="lnk-pink" href="https://www.minerva-labs.com/post/new-free-tool-from-minerva-mystique-automatically-extract-malware-infection-markers">
+                Mystique, automatically extract malware infection markers</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2017/09/breach-at-sonic-drive-in-may-have-impacted-millions-of-credit-debit-cards/">
+                Breach at Sonic Drive-In May Have Impacted Millions of Credit, Debit Cards</a></li>
+
+                <li><a class="lnk-orange" href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170927-nat">
+                  Cisco IOS Software Network Address Translation Denial of Service Vulnerability</a></li>
+              <li><a class="lnk-purple"  href="https://www.theregister.co.uk/2017/09/28/linux_kernel_vuln/">
+                Patch alert! Easy-to-exploit flaw in Linux kernel rated 'high risk'</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/apple/permissions-loophole-lets-ios-apps-extract-location-details-from-image-metadata/">
+                Permissions Loophole Lets iOS Apps Extract Location Details From Image Metadata</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/7-percent-of-all-amazon-s3-servers-are-exposed-explaining-recent-surge-of-data-leaks/">
+                7% of All Amazon S3 Servers Are Exposed, Explaining Recent Surge of Data Leaks</a></li>
+              <li><a class="lnk-green" href="https://amp.thehackernews.com/thn/2017/09/dark-web-crime.html">
+                Dark-Web Drug Dealer Arrested After He Travelled US for World Beard Championships</a></li>
+                <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/hacker-hides-backdoor-inside-fake-wordpress-security-plugin/">
+                  Hacker Hides Backdoor Inside Fake WordPress Security Plugin</a></li>
+              <li><a class="lnk-purple"  href="https://thesecurityexperts.wordpress.com/2017/09/24/how-i-got-13337-bounty-from-google/">
+                How I got $13337 bounty From Google</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
