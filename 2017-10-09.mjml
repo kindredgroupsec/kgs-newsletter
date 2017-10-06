@@ -240,8 +240,8 @@
               <li><a class="lnk-green" href="
               https://www.bleepingcomputer.com/news/security/pocs-for-two-magento-bugs-released/">
                 PoCs for Two Magento Bugs Released (CSRF+XSS)</a></li>
-              <li><a class="lnk-orange" href="Applied Crypto Hardening guide">
-                https://bettercrypto.org/static/applied-crypto-hardening.pdf</a></li>
+              <li><a class="lnk-orange" href="https://bettercrypto.org/static/applied-crypto-hardening.pdf">
+                Applied Crypto hardening</a></li>
               <li><a class="lnk-purple"  href="https://medium.com/@iseethieves/intro-to-rop-rop-emporium-split-9b2ec6d4db08">
                 Intro to Return Oriented Programming</a></li>
                 <li><a class="lnk-blue" href="http://www.securityweek.com/fbi-can-keep-details-iphone-hack-secret-judge">
