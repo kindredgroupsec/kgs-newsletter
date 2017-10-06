@@ -1,0 +1,276 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 09/10/17" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.hackread.com/wp-content/uploads/2017/10/all-3-billion-yahoo-users-were-affected-in-2013-data-breach.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">9 October 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">It's 3 Billion! Yes, Every Single Yahoo Account Was Hacked In 2013 Data Breach</mj-text>
+          <mj-image src="https://www.hackread.com/wp-content/uploads/2017/10/all-3-billion-yahoo-users-were-affected-in-2013-data-breach.jpg"></mj-image>
+          <mj-text color="#fff">If you had an account on Yahoo back in the days of August 2013, then it is most probably one of the 3 billion email accounts that were hacked in one of the biggest data theft feats of that time. It was this particular data hack that forced Yahoo to lower its assets price when it was being sold to Verizon in February 2017 since the buyer lowered the original offer by $350 million.</mj-text>
+          <mj-text color="#fff">In December 2016, Yahoo issued a statement that just 1 billion accounts were compromised in the 2013 data hack. But, later the company initiated a thorough investigation in collaboration with Verizon, law enforcement agencies, and cyber-security firms to identify the full scope of the data breach. On Tuesday, Yahoo stated that all the 3 billion accounts on Yahoo, which included Tumblr, Yahoo Email, Flickr, and Fantasy, were hacked after the company became a victim of huge data theft. This is undoubtedly the largest data breach in digital history as far as the size of stolen data is concerned.</mj-text>
+          <mj-text color="#fff">Yahoo claimed that the data hacked includes email addresses, names and passwords only and financial information was not stolen. Still, it is unclear who perpetrated the hack attack against Yahoo back in 2013.</mj-text>
+          <mj-text color="#FFF">Meanwhile, big three credit bureau Equifax added 2.5 million more victims to its roster of 143 million Americans who had their Social Security numbers and other personal data stolen in a breach earlier this year. At the same time, Equifax’s erstwhile CEO informed Congress that the breach was the result of even more bone-headed security than was first disclosed. <strong>Assume you’re compromised, and take steps accordingly.</strong></mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.hackread.com/all-3-billion-yahoo-users-were-hacked-in-2013-data-breach/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2017/10/fear-not-you-too-are-a-cybercrime-victim/">
+            Fear Not: You, Too, Are a Cybercrime Victim!
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.darkreading.com/attacks-breaches/less-than-half-of-consumers-take-protective-steps-post-breach/d/d-id/1330032">
+            Less Than Half of Consumers Take Protective Steps Post-Breach
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Crazy but true – Apple’s “show hint” button reveals your actual password</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/10/hint-1200.jpg?w=780&h=408&crop=1"></mj-image>
+          <mj-text>It’s only eight days since Apple’s latest and greatest macOS 10.13 release, better known as High Sierra. But the first security update has already come out, and we suggest you apply it urgently.</mj-text>
+          <mj-text>The update is called High Sierra 10.13 Supplemental Update, detailed in the security advisory APPLE-SA-2017-10-05-1. A local attacker may gain access to an encrypted APFS volume. If a password hint was set in Disk Utility when creating an APFS encrypted volume, the password was stored as the hint.</mj-text>
+          <mj-text>If you haven’t created any new APFS encrypted volumes since upgrading to High Sierra, you are OK. If you created an APFS encrypted volume but didn’t specify a hint, you are OK. If you created an AFPS encrypted volume using diskutil you are OK. If you upgraded to High Sierra from an earlier version of macOS, your disk will have been converted to APFS, but any hint you had before is left untouched (so far as we can tell), so you are OK. If you had set a hint with Disk Utility, then for all you know someone who knew the [Show Hint] trick might have seen your password, so you ought to change it.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2017/10/05/urgent-update-your-mac-again-right-now/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="http://www.zdnet.com/article/apple-fixes-two-high-sierra-password-bugs/">
+            Apple fixes two High Sierra password bugs
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Social Security numbers are 'flawed system,' need modern tech replacement</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/59d55312adca7d0c70b1c498/lede/1507212681423-1504824452602-shutterstock_583421965-copy.jpeg"></mj-image>
+          <mj-text>At a recent cyber conference, White House cybersecurity coordinator Rob Joyce said a replacement for Social Security numbers that could include a 'modern cryptographic identifier. The biggest issue with traditional social security numbers, Joyce said, is that they cannot be changed if they become compromised. He also said that he believed his own Social Security number had been compromised at least four times in his life.</mj-text>
+          <mj-text>To remedy these issues, Joyce said that the White House is looking into modern alternatives. These could include a "modern cryptographic identifier" Joyce said, which could power a private key-based system, for example. What exactly this could turn out to be, though, remains up for debate. The replacement could include the use of blockchain technology, biometric security, or some other form of identification.</mj-text>
+          <mj-text>Should we replace the social security number for that purpose? Probably, but that's not easy, either. There are a couple of relevant National Academies reports on questions that need to be answered before any national ID system could be deployed, and Who Goes There? Authentication Through the Lens of Privacy, on the privacy properties of various authentication systems. Basically, running any sort of national identity scheme is hard, and it's not clear that the replacement would have fewer problems than what we have now. Even well-engineered systems, such as the Estonian national ID card, have been reported vulnerable.</mj-text>
+          <mj-text>What, then, can we do? The problem underlying identity theft is not the existence of social security numbers, but rather, how little authentication is done for a person requesting credit. A digital national ID card could perhaps solve that</mj-text>
+          <mj-button mj-class="bg-green" href="http://www.techrepublic.com/article/white-house-social-security-numbers-are-flawed-system-need-modern-tech-replacement/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://motherboard.vice.com/en_us/article/pakwnb/replacing-social-security-numbers-is-harder-than-you-think">
+            Replacing Social Security Numbers Is Harder Than You Think
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Google Finds 7 Security DNS/DHCP Flaws in Widely Used Dnsmasq</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-2cQyXniMsck/WdNFYcK80kI/AAAAAAAAATs/Hw8Biu_t52ceDL-fF5nRzhuzks6wdE7FwCLcBGAs/s1600/Dnsmasq-network-services-software.png"></mj-image>
+          <mj-text>Security researchers have discovered a total of seven security vulnerabilities in the popular open source Dnsmasq network services software, three of which could allow remote code execution on a vulnerable system and hijack it.</mj-text>
+          <mj-text>Dnsmasq is a widely used lightweight network application tool designed to provide DNS (Domain Name System) forwarder, DHCP (Dynamic Host Configuration Protocol) server, router ads and network boot services for small networks. Dnsmasq comes pre-installed on various devices and operating systems, including Linux distributions such as Ubuntu and Debian, home routers, smartphones and Internet of Things (IoT) devices. A shodan scan for "Dnsmasq" reveals around 1.1 million instances worldwide.</mj-text>
+          <mj-text>Since all the issues have already been addressed with the release of Dnsmasq 2.78, Dnsmasq users are advised to update their installations as soon as possible. Proofs of concept are provided so you can check if you are affected by these issues, and verify any mitigations you may deploy.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://amp.thehackernews.com/thn/2017/10/dnsmasq-network-services.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://security.googleblog.com/2017/10/behind-masq-yet-more-dns-and-dhcp.html">
+            Initial statement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Apache Tomcat Patches Important Remote Code Execution Flaw</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-FJN5mv7udjk/WdYQhsxOOUI/AAAAAAAAAU0/0a1mgN6N0-c4sgbuLHYOyU9yK0tbhpJeACLcBGAs/s1600/apache-tomcat-rce-exploit.png"></mj-image>
+          <mj-text>The Apache Tomcat team has recently patched several security vulnerabilities in Apache Tomcat, one of which could allow an unauthorised attacker to execute malicious code on affected servers remotely. The critical Remote Code Execution (RCE) vulnerability (CVE-2017-12617) discovered in Apache Tomcat is due to insufficient validation of user-supplied input by the affected software.</mj-text>
+          <mj-text>Apache Tomcat, developed by the Apache Software Foundation (ASF), is an open source web server and servlet system, which uses several Java EE specifications like Java Servlet, JavaServer Pages (JSP), Expression Language, and WebSocket, and provides a "pure Java" HTTP web server environment for Java concept to run in.</mj-text>
+          <mj-text>Only systems with HTTP PUTs enabled (via setting the "read-only" initialization parameter of the Default servlet to "false") are affected. Exploiting this vulnerability requires an attacker to upload a maliciously crafted Java Server Page (JSP) file to a targeted server running an affected version of Apache Tomcat, and the code contained in the JSP file would be executed by the server when the file is requested.</mj-text>
+          <mj-text>This RCE vulnerability, marked as "important," impacts all Apache Tomcat versions 9.0.0.M1 to 9.0.0, 8.5.0 to 8.5.22, 8.0.0.RC1 to 8.0.46 and 7.0.0 to 7.0.81, and has been addressed with the release of Tomcat versions 9.0.1 (Beta), 8.5.23, 8.0.47 and 7.0.82.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://amp.thehackernews.com/thn/2017/10/apache-tomcat-rce.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="https://bz.apache.org/bugzilla/show_bug.cgi?id=61542">
+            Bug 61542 - Apache Tomcat Remote Code Execution via JSP Upload bypass
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Managing PowerShell in a modern corporate environment</mj-text>
+          <mj-image src="http://dbondarchuk.com/wp-content/uploads/2016/09/PowerShell-logo.png"></mj-image>
+          <mj-text>Since its incarnation in 2006, PowerShell has grown to be a powerful and extensible management tool, allowing for large-scale automation of system administration and maintenance tasks with ease.</mj-text>
+          <mj-text>However, analysis by Carbon Black of several breach reports identified that nearly 38 per cent of recent cyberattacks made use of PowerShell in some form. In addition, a large number of affected organisations did not detect the use of PowerShell until it was identified during post-incident response activities. The data gathered by Carbon Black also revealed that social engineering was the favoured delivery technique for malicious PowerShell payloads.</mj-text>
+          <mj-text>In the Fall of 2016 and Spring of 2017, Daniel Bohannon (@danielhbohannon) released Invoke-Obfuscation and Invoke-CradleCrafter, two open-source PowerShell obfuscation frameworks. The goal of this research and these frameworks was to highlight the limitations of a purely signature-based approach to detecting attackers' usage of PowerShell. The extreme levels of randomization in Invoke-Obfuscation have led defenders to look for a new, scalable means of generically detecting both known and unknown obfuscation techniques. Revoke-Obfuscation is the final hand-crafted product of these efforts.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.nccgroup.trust/uk/our-research/managing-powershell-in-a-modern-corporate-environment/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://github.com/danielbohannon/Revoke-Obfuscation">
+            Revoke-Obfuscation
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">FormBook Infostealer Sold on Hacking Forums Is Becoming Quite a Threat</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/10/05/FormBook-ad.png"></mj-image>
+          <mj-text>During the past few months, malware campaigns distributing a previously unknown infostealer have ramped up, according to reports by Arbor Networks, FireEye, and the Internet Storm Center (ISC SANS). The malware is named FormBook and has been sold on an infamous underground hacking forum since mid-July.</mj-text>
+          <mj-text>The malware is not sold as a builder that crooks download on their PCs and use it to create unique FormBook samples, but as a PHP control panel. Users can rent access to a hosted version of this panel, or they can buy it and host it on their own servers. The malware is rented for $29/week, $59/month, and $99/three months. Buying the panel for self-hosted cases costs someone $299.</mj-text>
+          <mj-text>One of the malware's most interesting features is that it reads Windows’ ntdll.dll module from disk into memory, and calls its exported functions directly, rendering user-mode hooking and API monitoring mechanisms ineffective. Most of the emails bearing FormBook malware carry file attachments in a wide variety of formats, such as PDF, DOC, XLS, ZIP, RAR, ACE, and even ISO. The documents either contain links to the FormBook EXE or they drop and execute the malware's binary on infected hosts.</mj-text>
+          <mj-text>FormBook is neither sophisticated, nor difficult-to-detect malware, so the best way to protect yourself from this malware is to keep good antivirus software on your systems, and always keep it up-to-date.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/formbook-infostealer-sold-on-hacking-forums-is-becoming-quite-a-threat/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://amp.thehackernews.com/thn/2017/10/formbook-password-stealer.html">
+            Even More
+          </mj-button>
+
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://hackernoon.com/myths-and-legends-of-spf-d17919a9e817">
+                Myths and Legends of SPF</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/new-rowhammer-attack-bypasses-previously-proposed-countermeasures/">
+                New Rowhammer Attack Bypasses Previously Proposed Countermeasures</a></li>
+              <li><a class="lnk-green" href="
+              https://www.bleepingcomputer.com/news/security/pocs-for-two-magento-bugs-released/">
+                PoCs for Two Magento Bugs Released (CSRF+XSS)</a></li>
+              <li><a class="lnk-orange" href="Applied Crypto Hardening guide">
+                https://bettercrypto.org/static/applied-crypto-hardening.pdf</a></li>
+              <li><a class="lnk-purple"  href="https://medium.com/@iseethieves/intro-to-rop-rop-emporium-split-9b2ec6d4db08">
+                Intro to Return Oriented Programming</a></li>
+                <li><a class="lnk-blue" href="http://www.securityweek.com/fbi-can-keep-details-iphone-hack-secret-judge">
+                  FBI Can Keep Details of iPhone Hack Secret: Judge</a></li>
+                <li><a class="lnk-pink" href="http://threat.tevora.com/lay-of-the-land-with-bloodhound/">
+                  Lay of the Land with BloodHound</a></li>
+                <li><a class="lnk-green" href="https://www.zerodayinitiative.com/blog/2017/10/04/vmware-escapology-how-to-houdini-the-hypervisor">
+                  VMWare escapology - How to houdini the hypervisor</a></li>
+                <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/video-streams-leak-what-youre-watching-to-attackers-with-over-95-percent-accuracy/">
+                  Video Streams Leak What You're Watching to Attackers With Over 95% Accuracy</a></li>
+                <li><a class="lnk-purple"  href="https://www.bleepingcomputer.com/news/security/three-wordpress-plugin-zero-days-exploited-in-the-wild/">
+                  Three WordPress Plugin Zero-Days Exploited in the Wild</a></li>
+                  <li><a class="lnk-blue" href="https://threatpost.com/netgear-fixes-50-vulnerabilities-in-routers-switches-nas-devices/128230/">
+                    Netgear fixes 50 vulnerabilities in routers, switches, NAS devices</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
