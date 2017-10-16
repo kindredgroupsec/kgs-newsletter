@@ -230,7 +230,7 @@
               <li><a class="lnk-blue" href="https://googleprojectzero.blogspot.se/2017/10/using-binary-diffing-to-discover.html">
                 Using Binary Diffing To Discover Windows Kernel Memory Bugs</a></li>
               <li><a class="lnk-pink" href="https://cocoaengineering.com/2017/10/08/reverse-engineering-macos-high-sierra-supplemental-update/">
-                Using Binary Diffingto Rediscover macOs Last Week Bug</a></li>
+                Using Binary Diffing to Rediscover macOs Last Week Bug</a></li>
               <li><a class="lnk-green" href="http://georgemauer.net/2017/10/07/csv-injection.html">
                 The Absurdly Underestimated Dangers of CSV Injection</a></li>
               <li><a class="lnk-orange" href="https://www.bishopfox.com/blog/2017/10/a-bug-has-no-name-multiple-heap-buffer-overflows-in-the-windows-dns-client/">
