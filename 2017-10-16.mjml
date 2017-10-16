@@ -1,0 +1,270 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 16/10/17" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/posts/2017/10/13/Equifax.JPG" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">16 October 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Equifax Website Redirected Users to Adware, Scam Sites</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/10/13/Equifax.JPG"></mj-image>
+          <mj-text color="#fff">Equifax is not having its best moments these days, and the much-maligned organization was again at the center of another cyber-security-related incident.</mj-text>
+          <mj-text color="#fff">On Wednesday, and probably the previous days, Equifax's credit report assistance website (aa.econsumer.equifax.com) was caught redirecting users to all sort of nasty websites that were peddling fake Flash Player update files laced with adware, fake Android and iOS updates, and scam sites offering products at cheap prices.</mj-text>
+          <mj-text color="#fff">In May credit reporting service Equifax's website was breached by attackers who eventually made off with Social Security numbers, names, and a dizzying amount of other details for some 145.5 million US consumers.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/equifax-website-redirected-users-to-adware-scam-sites/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://arstechnica.com/information-technology/2017/10/equifax-website-hacked-again-this-time-to-redirect-to-fake-flash-update/">
+            More on ArsTechnica
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://arstechnica.com/tech-policy/2017/10/after-second-bungle-irs-suspends-equifaxs-taxpayer-identity-contract/">
+             IRS suspends Equifax's "taxpayer identity" contract
+          </mj-button>
+        </mj-column>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Nearly two centuries ago, France was hit by the world’s first cyber-attack. </mj-text>
+          <mj-image src="http://img4.hostingpics.net/pics/306051Chappeexemple.jpg"></mj-image>
+          <mj-text>The world’s first national data network was constructed in France during the 1790s. It was a mechanical telegraph system, consisting of chains of towers, each of which had a system of movable wooden arms on top.</mj-text>
+          <mj-text>The network was reserved for government use but in 1834 two bankers, François and Joseph Blanc, devised a way to subvert it to their own ends. With the help of an accomplice, they introduced some extraneous characters in the message flows to get quick information on market movements. The scam was only discovered two years later.</mj-text>
+          <mj-text>All this holds lessons for us as we grapple with online mischief today. Network intrusions often go unnoticed for many years, and many (if not most) may never be detected: most attackers, like the Blancs, do not advertise their presence.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.1843magazine.com/technology/rewind/the-crooked-timber-of-humanity">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Outlook Might Not Have Encrypted Your Emails If You Used S/MIME Encryption</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/10/11/SMIME_Outlook.png"></mj-image>
+          <mj-text>A vulnerability was present in Outlook's S/MIME functionality. The short version: If you used Outlook's S/MIME encryption in the past 6 months (at least, this has still to be confirmed by Microsoft) your mails might not have been encrypted as expected. In the context of encryption this can be considered a worst-case bug.</mj-text>
+          <mj-text>S/MIME is an IETF standard for end-to-end encryption and signing of mails. Most popular mail clients, including Microsoft Outlook, Mozilla Thunderbird, Apple Mail, and the Mail Clients on Apple iOS and Samsung Knox devices, support S/MIME. Along with similar technologies like PGP/GPG, it is used by security/privacy conscious individuals and organizations to protect the mail communication.</mj-text>
+          <mj-text>There is a bug in Outlook that causes S/MIME encrypted mails to be send in encrypted and unencrypted form (within one single mail) to your mail server (and the recipient’s mail server and client and any intermediate mail servers). The impact is that a supposedly S/MIME encrypted mail can be read without the private keys of the recipient. This results in total loss of security properties provided by S/MIME encryption.</mj-text>
+          <mj-text>Researchers said they contacted Microsoft about the issue and the company released a fix for the bug — tracked as CVE-2017-11776 — last week, during the October 2017 Patch Tuesday.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/outlook-might-not-have-encrypted-your-emails-if-you-used-s-mime-encryption/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.sec-consult.com/en/blog/2017/10/fake-crypto-microsoft-outlook-smime-cleartext-disclosure-cve-2017-11776/index.html">
+            Technical details of the vulnerability
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Chrome Extension Uses Your Gmail to Register Domains Names & Injects Coinhive</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/malware/extensions/LDI/chrome-webstore-page.jpg"></mj-image>
+          <mj-text>With Chrome being the most widely used web browser, attackers are starting to develop more advanced and malicious extensions for it every day. Whether it's impersonating popular extensions to deliver ads, hijacking search queries, or injecting the CoinHive browser miner, it is easy to see that malicious extensions are on the rise.</mj-text>
+          <mj-text>The extension examined in this article, called Ldi, takes it to the next level when it comes to malicious behavior. This is because it not only loads the Coinhive browser miner into a victim's browser and uses up all the CPU, but it also uses that victim's Gmail account to register free domains for the attackers using Freenom.
+          </mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/chrome-extension-uses-your-gmail-to-register-domains-names-and-injects-coinhive/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Australian defense firm was hacked and F-35 data stolen, DOD confirms</mj-text>
+          <mj-image src="https://cdn.arstechnica.net/wp-content/uploads/2017/10/ausf-35-800x466.jpg"></mj-image>
+          <mj-text>The Australian Cyber Security Centre noted in its just-issued 2017 Threat Report that a small Australian defense company "with contracting links to national security projects" had been the victim of a cyber-espionage attack detected last November.</mj-text>
+          <mj-text>The attacker stole approximately 30 gigabytes of data, including data related to Australia's involvement in the F-35 Joint Strike Fighter program, as well as data on the P-8 Poseidon patrol plane, planned future Australian Navy ships, the C-130 Hercules cargo plane, and the Joint Direct Attack Munition (JDAM) bomb. The breach began in July of 2016.
+          <mj-text>The breach was achieved by "exploiting an Internet-facing server," the ACSC reported, "then [by] using administrative credentials to move laterally within the network, where they were able to install multiple webshells—a script that can be uploaded to a webserver to enable remote administration of the machine—throughout the network to gain and maintain further access."
+          </mj-text>
+          <mj-text>The investigation found that internet-facing services still had their default passwords, admin::admin and guest::guest.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://arstechnica.com/information-technology/2017/10/australian-defense-firm-was-hacked-and-f-35-data-stolen-dod-confirms/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">How Kaspersky AV reportedly was caught helping Russian hackers steal NSA secrets</mj-text>
+          <mj-image src="https://static01.nyt.com/images/2017/10/11/us/11dc-kaspersky1/11dc-kaspersky1-master768.jpg"></mj-image>
+          <mj-text>It was a case of spies watching spies watching spies: Israeli intelligence officers looked on in real time as Russian government hackers searched computers around the world for the code names of American intelligence programs.</mj-text>
+          <mj-text>Moscow-based Kaspersky Lab disclosed the intrusion into its network in mid-2015. Kaspersky released a detailed report that said some of the attack code shared digital fingerprints first found in the Stuxnet worm that sabotaged Iran's nuclear program. When combined with other clues—including the attackers' targeting of entities located in the US, which is off limits to the NSA—most analysts concluded that the 2014 hack was carried out by Israel.</mj-text>
+          <mj-text>The New York Times, citing unnamed people, said on Tuesday that Israeli spies indeed carried out the attack. More revealing still, the report said, that during the course of the hack, the spies watched in real time as Russian government hackers turned Kaspersky antivirus software used by 400 million people worldwide into an improvised search tool that scoured computers for code names of US intelligence programs. The NYT likened to a "sort of Google search for sensitive information."</mj-text>
+          <mj-text>The Israeli officials who had hacked into Kaspersky’s own network alerted the United States to the broad Russian intrusion, which has not been previously reported, leading to a decision just last month to order Kaspersky software removed from government computers.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.nytimes.com/2017/10/10/technology/kaspersky-lab-israel-russia-hacking.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://arstechnica.com/information-technology/2017/10/russian-hackers-reportedly-used-kaspersky-av-to-search-for-nsa-secrets/">
+            Summary article by Ars Technica
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">OnePlus Secretly Collects Way More Data Than It Should</mj-text>
+          <mj-image src="https://2.bp.blogspot.com/-IM4RjpOnKls/Wd0cp_UP2II/AAAAAAAAuU4/xTmFqp1BsfseFdKYqw4-_7fjEuTDyQGcACLcBGAs/s1600/oneplus-telemetry-data.png"></mj-image>
+          <mj-text>Your OnePlus handset, running OxygenOS—the company's custom version of the Android operating system, is collecting way more data on its users than it requires.</mj-text>
+          <mj-text>A recent blog post published today by security researcher Christopher Moore on his website detailed the data collection practice by the Shenzhen-based Chinese smartphone maker, revealing that OxygenOS built-in analytics is regularly sending users' telemetry data to OnePlus' servers.
+          </mj-text>
+          <mj-text>Collecting basic telemetry device data is a usual practice that every software maker and device manufacturers do to identify, analyse and fix software issues and help improve the quality of their products, but OnePlus found collecting user identification information as well.</mj-text>
+          <mj-text>While One Plus does not offer a method to disable the data collection easily through the graphical interface, it is possible to do it by plugging the phone on a computer and running a command through the Android Debugger.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2017/10/oneplus-oxygenos-analytics-data.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.chrisdcmoore.co.uk/post/oneplus-analytics/">
+            Original Article
+          </mj-button>
+
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://googleprojectzero.blogspot.se/2017/10/using-binary-diffing-to-discover.html">
+                Using Binary Diffing To Discover Windows Kernel Memory Bugs</a></li>
+              <li><a class="lnk-pink" href="https://cocoaengineering.com/2017/10/08/reverse-engineering-macos-high-sierra-supplemental-update/">
+                Using Binary Diffingto Rediscover macOs Last Week Bug</a></li>
+              <li><a class="lnk-green" href="http://georgemauer.net/2017/10/07/csv-injection.html">
+                The Absurdly Underestimated Dangers of CSV Injection</a></li>
+              <li><a class="lnk-orange" href="https://www.bishopfox.com/blog/2017/10/a-bug-has-no-name-multiple-heap-buffer-overflows-in-the-windows-dns-client/">
+                Multiple Heap Buffer Overflows In the Windows DNS Client</a></li>
+              <li><a class="lnk-purple"  href="https://www.megabeets.net/reverse-engineering-a-gameboy-rom-with-radare2/">
+                Reverse engineering a Gameboy ROM with radare2</a></li>
+                <li><a class="lnk-blue" href="https://googleprojectzero.blogspot.se/2017/10/over-air-vol-2-pt-3-exploiting-wi-fi.html">
+                  Exploiting The Wi-Fi Stack on Apple Devices (Part 3)</a></li>
+                <li><a class="lnk-pink" href="https://emeraldonion.org/hardenedbsd/">
+                  Running Tor on HardenedBSD</a></li>
+                <li><a class="lnk-green" href="https://lirias.kuleuven.be/bitstream/123456789/547640/1/usenix2016-wifi.pdf">
+                  Predicting, Decrypting, and Abusing WPA2/802.11 Group Keys (PDF)</a></li>
+                <li><a class="lnk-orange" href="https://thehackernews.com/2017/10/no-logs-vpn-service-security_8.html">
+                  FBI Arrests A Cyberstalker After Shady "No-Logs" VPN Provider Shared User Logs</a></li>
+                <li><a class="lnk-purple"  href="https://justi.cz/security/2017/10/07/rubygems-org-rce.html">
+                  Remote Code Execution on rubygems.org</a></li>
+                  <li><a class="lnk-blue" href="https://thehackernews.com/2017/10/apple-id-password-hacking.html">
+                  Watch Out! Difficult-to-Detect Phishing Attack Can Steal Your Apple ID Password
+                  </a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
