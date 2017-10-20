@@ -61,7 +61,7 @@
         <meta name="twitter:site" content="@kindredgroup" />
         <meta name="twitter:title" content="Kindred Security Newsletter - 23/10/17" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
-        <meta name="twitter:image" content="http://i.imgur.com/kQIWprp.png" />
+        <meta name="twitter:image" content="https://2.bp.blogspot.com/-l7PTpBKt5AQ/WeW977DgiaI/AAAAAAAAuaI/IpJw99rtX1oelCUz7Mf5NSzVqgQMkSR_ACLcBGAs/s1600/crack-encryption-keys.png" />
       </mj-style>
   </mj-head>
   <mj-body>
@@ -92,7 +92,7 @@
           <mj-text color="#fff">Microsoft, Google, Lenovo, HP and Fujitsu are warning their customers of a potentially serious vulnerability in widely used RSA cryptographic library produced by German semiconductor manufacturer Infineon Technologies. Infineon's Trusted Platform Module (TPM) is a widely-used, dedicated microcontroller designed to secure hardware by integrating cryptographic keys into devices and is used for secured crypto processes.</mj-text>
           <mj-text color="#fff">This 5-year-old algorithmic vulnerability, dubbed ROCA (Return of Coppersmith's Attack), is a factorization attack that could potentially allow a remote attacker to reverse-calculate a private encryption key just by having a target's public key. This can allow to impersonate key owner, decrypt victim's sensitive data, inject malicious code into digitally signed software, and bypass protections that prevent accessing or tampering with the targeted computer. </mj-text>
           <mj-text color="#fff">The team has provided rough estimates on how long and how much it would cost attackers to be able to crack a private key based on their knowledge of a public key using cloud services such as AWS. 512 bit RSA keys - 2 CPU hours (the cost of $0.06). 1024 bit RSA keys - 97 CPU days (the cost of $40-$80). 2048 bit RSA keys - 140.8 CPU years, (the cost of $20,000 - $40,000)</mj-text>
-          <mj-text color="#fff">The researchers have provided offline and online detection tools for users to check to see whether or not they are affected. If a vulnerable key is found, then you should contact your device vendor for further advice. The following general advices may apply: Apply the software update if available. Replace the device with one without the vulnerable library. Generate a secure RSA keypair outside the device (e.g., via the OpenSSL library) and import it to the device. Use other cryptographic algorithm (e.g., ECC) instead of RSA on affected devices.</mj-text>
+          <mj-text color="#fff">The researchers have provided offline and online detection tools for users to check to see whether or not they are affected. If a vulnerable key is found, then you should contact your device vendor for further advice. The following general advices may apply: Apply the software update if available. Replace the device with one without the vulnerable library. Generate a secure RSA key pair outside the device (e.g., via the OpenSSL library) and import it to the device. Use other cryptographic algorithm (e.g., ECC) instead of RSA on affected devices.</mj-text>
           <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2017/10/rsa-encryption-keys.html">
             Read More
           </mj-button>
@@ -124,8 +124,8 @@
           <mj-button mj-class="bg-pink" href="https://www.krackattacks.com/">
             Key Reinstallation Attacks: Breaking WPA2 by forcing nonce reuse
           </mj-button>
-          <mj-button mj-class="bg-pink" href="http://www.zdnet.com/article/nsa-krack-vulnerability-security-experts/">
-            Looks like NSA knew about the Krack attacks
+          <mj-button mj-class="bg-pink" href="https://github.com/vanhoefm/krackattacks-test-ap-ft">
+            Test if your Access Point is vulnerable
           </mj-button>
         </mj-column>
       </mj-section>
@@ -205,15 +205,12 @@
       <mj-section background-color="#fff">
         <mj-column>
           <mj-spacer height="30px" />
-          <mj-text mj-class="pink h2">News7</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-button mj-class="bg-pink" href="URL">
-            Read More
-          </mj-button>
-          <mj-button mj-class="bg-pink" href="URL">
+          <mj-text mj-class="pink h2">Leaked: Facebook security boss says its corporate network is run "like a college campus"</mj-text>
+          <mj-image src="https://31.media.tumblr.com/2933f645e21c5e6289e9e9a78bdeb865/tumblr_inline_n1no8ccnfm1qa344h.jpg"></mj-image>
+          <mj-text>The source of the recording said Facebook's senior management and executives were apathetic to matters of cybersecurity. Facebook's security chief said he used one of the remarks "as a figure of speech". Alex Stamos made the comments to employees at a late-July internal meeting where he argued that the company had not done enough to respond to the growing threats that the company faces, citing both technical challenges and cultural issues at the company.</mj-text>
+          <mj-text>"Tech companies are famous for providing freedom for engineers to customize their computing environments and to experiment with new tools, frameworks and development processes," he said. "Allowing for this freedom helps creativity and productivity, but we have to weigh that against the fact that we have become a potential target of advanced threat actors. As a result, we can't architect our security in the same way a defense contractor can, with extremely limited computing options and no freedom."</mj-text>
+          <mj-text>In fairness, Stamos isn't wrong. Facebook likely has more citizen data now than most governments, making the social network as much of a target today as defense contractors were ten years ago. But while Facebook may not be storing plans for spy planes and autonomous drones, private citizen data is a commodity -- the social network has billions of people's data -- and nation states are hungry for it.</mj-text>
+          <mj-button mj-class="bg-pink" href="http://www.zdnet.com/article/leaked-audio-facebook-security-boss-says-network-is-like-a-college-campus/">
             Read More
           </mj-button>
 
@@ -231,13 +228,18 @@
               <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2017/10/17/flash-0-day-in-the-wild-patch-now/">Flash 0-day in the wild – patch now!</a></li>
               <li><a class="lnk-pink" href="https://www.hackread.com/ddos-attacks-on-sweden-transport-agencies-delay-train-service/">DDoS attacks on Sweden’ Transport Agencies Delay Train Service</a></li>
               <li><a class="lnk-green" href="https://amp.thehackernews.com/thn/2017/10/linux-privilege-escalation.html">Yet Another Linux Kernel Privilege-Escalation Bug Discovered</a></li>
-              <li><a class="lnk-orange" href="https://landing.google.com/advancedprotection/">Google’s strongest security for those who need it most</a></li>
+              <li><a class="lnk-orange" href="https://github.com/d33tah/call-for-wpa3/blob/master/README.md?t=1">Call for WPA3 - what's wrong with WPA2 security and how to fix it</a></li>
               <li><a class="lnk-purple" href="https://www.theregister.co.uk/2017/10/19/microsoft_google_security_chrome/">Microsoft tsk-tsk-tsks at Google: Chrome security fixes made public too early</a></li>
               <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/google/google-announces-three-new-chrome-security-features/">Google Announces Three New Chrome Security Features</a></li>
               <li><a class="lnk-pink" href="https://blogs.technet.microsoft.com/srd/2017/10/03/vulnscan-automated-triage-and-root-cause-analysis-of-memory-corruption-issues/">VulnScan – Automated Triage and Root Cause Analysis of Memory Corruption Issues</a></li>
               <li><a class="lnk-green" href="https://amp.thehackernews.com/thn/2017/10/facebook-account-hacking-scam.html">Scam Alert: Your Trusted Friends Can Hack Your Facebook Account</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple"  href="URL">cut5</a></li>
+              <li><a class="lnk-orange" href="https://www.darkreading.com/attacks-breaches/boundhook-technique-enables-attacker-persistence-on-windows-systems/d/d-id/1330174">'BoundHook' Technique Enables Attacker Persistence on Windows Systems</a></li>
+              <li><a class="lnk-purple"  href="https://research.checkpoint.com/eternalblue-everything-know/">EternalBlue – Everything there is to know</a></li>
+              <li><a class="lnk-blue" href="http://www.zdnet.com/article/nsa-krack-vulnerability-security-experts/">Looks like NSA knew about the Krack attacks</a></li>
+              <li><a class="lnk-pink" href="https://minerva-labs.com/post/waterminer-a-new-evasive-crypto-miner">WaterMiner – a New Evasive Crypto-Miner</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@jrozner/wiping-out-csrf-ded97ae7e83f">Wiping Out CSRF</a></li>
+              <li><a class="lnk-orange" href="https://landing.google.com/advancedprotection/">Google’s strongest security for those who need it most</a></li>
+              <li><a class="lnk-purple" href="https://erpscan.com/press-center/blog/peoplesoft-passwords-decryption/">Peoplesoft password decryption</a></li>
             </ul>
           </mj-text>
         </mj-column>
