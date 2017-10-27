@@ -1,0 +1,257 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 30/10/17" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="http://i.imgur.com/kQIWprp.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">30 October 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Bad Rabbit ransomware spreading like wildfire, how to stop it</mj-text>
+          <mj-image src="https://www.hackread.com/wp-content/uploads/2017/10/bad-rabbit-ransomware-spreading-like-wildfire-but-there-is-a-way-out-2.jpg?x62286"></mj-image>
+          <mj-text color="#fff">The ransomware, named as Bad Rabbit, is spreading like wildfire and has targeted corporate networks in Russia, Germany, Ukraine, and Turkey mainly. This is a Petya type ransomware that has launched targeted attacks in the past few hours. After successfully compromising the system and encrypting the data, attackers demand 0.05 bitcoin, approx. $285 as ransom to hand over decryption key.</mj-text>
+          <mj-text color="#fff">Bad Rabbit is distributed through drive-by download attacks and utilizes fake Adobe Flash players installers to trap victims into installing malware. The victim is required to manually execute the ransomware dropper, which is downloaded from the attacker’s infrastructure.</mj-text>
+          <mj-text color="#fff">This new campaign does not use EternalBlue exploit but scans the internal network to open SMB (Server Message Block) shares and then uses a hardcoded list of common credentials to drop malware. It also utilizes Mimikatz post-exploitation tool to obtain credentials from infected systems.</mj-text>
+          <mj-text color="#fff">There is a “Vaccination for Bad Rabbit”. Create the following files c:\windows\infpub.dat && c:\windows\cscc.dat – remove ALL PERMISSIONS (inheritance) and you are now vaccinated from the current known samples.</mj-text>
+          <mj-text color="#fff">To protect your network, you need to disable WMI service which will not let the malware spread. Moreover, users must remain cautious while clicking on attachments and web links sent by unknown senders via emails and avoid downloading software from third-party platforms.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.hackread.com/bad-rabbit-ransomware-spreading-like-wildfire/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2017/10/bad-rabbit-ransomware-attack.html">
+            Tech details and IoC
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">New phishing campaign uses 30-year-old Microsoft mess as bait</mj-text>
+          <mj-image src="https://3.bp.blogspot.com/-HZiSnP1dtO8/WenEV8VCWzI/AAAAAAAAudA/OoVSmGy-0c4hWjt7P6-kvYYADMOVL86zgCLcBGAs/s1600/disable-dde-word.png"></mj-image>
+          <mj-text>A newly discovered unpatched attacking method that exploits a built-in feature of Microsoft Office is currently being used in various widespread malware attack campaigns. The old Microsoft Office feature is called Dynamic Data Exchange (DDE) and allows to perform malicious code execution on the targeted device without requiring Macros enabled or memory corruption.</mj-text>
+          <mj-text>DDE protocol is one of the several methods that Microsoft uses to allow two running applications to share the same data. The protocol is being used by thousands of apps, including MS Excel, MS Word or Visual Basic. The DDE exploitation technique displays no "security" warnings to victims, except asking them if they want to execute the application specified in the command—although this popup alert could also be eliminated "with proper syntax modification."</mj-text>
+          <mj-text>Locky ransomware hackers previously relied on macros-based booby-trapped MS Office documents, but now they have updated the Nercus Botnet to deliver malware via the DDE exploit and gain an ability to take screenshots of the desktops of victims.</mj-text>
+          <mj-text>Since DDE is a Microsoft's legitimate feature, most antivirus solutions do not flag any warning or block MS Office documents with DDE fields. So, you can protect yourself and your organisation from such attacks by disabling the "update automatic links at open" option in the MS Office programs. To do so, Open Word → Select File → Options → Advanced and scroll down to General and then uncheck "Update Automatic links at Open."</mj-text>
+          <mj-button mj-class="bg-pink" href="https://amp.thehackernews.com/thn/2017/10/ms-office-dde-malware-exploit.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2017/10/22/office-dde-attack-works-in-outlook-too-heres-what-to-do/">
+            DDE attack works in Outlook too
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Security pros' advice to consumers: 'We dunno, try 152 things'</mj-text>
+          <mj-image src="https://c1.staticflickr.com/1/388/18709586962_42498a806f_b.jpg"></mj-image>
+          <mj-text>A Google-conducted survey of 231 infosec pros worldwide has reaffirmed the industry's faith in strong passwords, and achieved consensus about nothing else.</mj-text>
+          <mj-text>It's almost unfair to make fun of the study's title, as the document also includes the note, “ED: Please provide section title”. What's clear is that infosec types can't agree, on an industry-wide basis. By asking 231 security pros for their top three pieces of advice, the suffering authors of the study (Robert Reeder, Iulia Ion, and Sunny Consolvo) ended up with a list 152 items long. As the paper dryly notes, “future work is needed to distill the 152 pieces of advice and communicate to users the most important ones”.</mj-text>
+          <mj-text>“it’s perhaps unsurprising that users don’t follow all the advice on offer—there’s a lot of it, it spans diverse areas, and it’s not clear where to start. Users are probably not receiving a consistent message on what’s most important and exactly what to do in each area”.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.theregister.co.uk/2017/10/24/googles_security_advice_we_dunno/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/46306.pdf">
+            152 Simple Steps to Stay Safe Online
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">DUHK Crypto Attack Recovers Encryption Keys, Exposes VPN Connections, etc</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/10/24/DUHK.png"></mj-image>
+          <mj-text>After last week we had the KRACK and ROCA cryptographic attacks, this week has gotten off to a similarly "great" start with the publication of a new crypto attack known as DUHK (Don't Use Hard-coded Keys).</mj-text>
+          <mj-text>The issue at the heart of the DUHK attack is a combination of the usage of the ANSI X9.31 Random Number Generator (RNG) and when hardware vendors use a hardcoded "seed key" for this algorithm. When those two conditions are met, attackers can decrypt encrypted communications carried out through that device. This includes communications passing over VPN connections or encrypted web sessions that carry out login credentials, payment information, Intranet information, private enterprise data, and more.</mj-text>
+          <mj-text>Researchers reveal they were able to recover encrypted traffic from Fortinet FortiGate devices used by companies across the world as firewalls or to create private VPN networks. They reversed engineered FortiGate firmware images and found the hard-coded seed key. They then observed traffic coming from the affected device and using the seed key, they brute-forced encrypted data to guess the rest of the encryption parameters. This, in turn, allowed them to determine the main encryption key. Fortinet FortiGate devices using FortiOS 4.3.0 to FortiOS 4.3.18 are vulnerable.</mj-text>
+          <mj-text>The attack is not trivial, but researchers say it's practical as an attacker using a modern computer can recover the encryption key in around four minutes per connection. There is no user interaction needed to carry out a DUHK attack, as all the threat actor needs is a position to observe traffic coming from a vulnerable device. Because this is a passive network attack, victims cannot detect when someone uses a DUHK attack against them. This is because ANSI X9.31 is very widespread. Up until January 2016, the algorithm was on the list of US government (FIPS) approved RNG algorithms.</mj-text>
+          <mj-text>The research team also warns that other hardware and software products may also be affected by DUHK attacks.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/duhk-crypto-attack-recovers-encryption-keys-exposes-vpn-connections-more/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://duhkattack.com/">
+            "Official" page
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">After quietly infecting a million devices, Reaper botnet set to be worse than Mirai</mj-text>
+          <mj-image src="https://www.pcrisk.com/images/stories/news/reaper-botnet-is-hudge.jpg"></mj-image>
+          <mj-text>A little over a month ago, a sizable botnet of infected Internet of Things devices began appearing on the radar of security researchers. Just weeks later, it's on track to become one of the largest botnets recorded in recent years.</mj-text>
+          <mj-text>The botnet, dubbed "Reaper" by researchers at Netlab 360, is said to have ensnared almost two million internet-connected webcams, security cameras, and digital video recorders (DVRs) in the past month, says Check Point, which also published research, putting its growth at a far faster pace than Mirai.</mj-text>
+          <mj-text>Mirai aggressively ran each device against a list of known usernames and passwords, but Reaper is "not very aggressive," said Netlab. By targeting a known vulnerability, the botnet can swiftly take control of a device without raising any alarms. Netlab said at the time of publishing their research that the botnet was infecting nine known vulnerabilities in D-Link, Netgear, and AVTech products, as well as other device makers. As it stands, Reaper's size today could be capable of "creating significantly more DDoS traffic than Mirai".</mj-text>
+          <mj-button mj-class="bg-purple" href="http://www.zdnet.com/article/reaper-botnet-could-be-worse-than-mirai-cyberattack/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="http://blog.netlab.360.com/iot_reaper-a-rappid-spreading-new-iot-botnet-en/">
+            Initial article from Netlab
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Hacker Takes Over Coinhive DNS Server After Company Reuses Old Password</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/10/24/Coinhive.jpg"></mj-image>
+          <mj-text>Monero miner maker Coin Hive was hacked so that websites using its code inadvertently redirected their generated cryptocurrency to miscreants – after the outfit forgot to change an old password.</mj-text>
+          <mj-text>"The DNS records for coinhive.com have been manipulated to redirect requests for the coinhive.min.js to a third party server," it said in a blog post. "This third party server hosted a modified version of the JavaScript file with a hardcoded site key. This essentially let the attacker 'steal' hashes from our users." Coin Hive said it regularly changes its passwords and uses two-factor authentication on its main accounts, but its Cloudflare account was overlooked. It thinks the password was the same one its team used on Kickstarter, which was hacked in February 2014 and the Cloudflare pass phrase hadn't been changed since.</mj-text>
+          <mj-text>The cockup highlights the dangers of reusing pass phrases and not setting up two-factor authentication for everything. There are plenty of databases out there with searchable passwords, email addresses and usernames, collected from various hacked websites and services. So if you're reusing credentials on multiple systems, you'll eventually be caught out when one of those systems is compromised and the login details for, essentially, all your accounts are leaked.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.theregister.co.uk/2017/10/24/coin_hive_hacked_password_reuse/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://www.bleepingcomputer.com/news/security/hacker-takes-over-coinhive-dns-server-after-company-reuses-old-password/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Performing and Preventing SSL Stripping: A Plain-English Primer</mj-text>
+          <mj-image src="https://blog.cloudflare.com/content/images/2017/10/password_not_secure.png"></mj-image>
+          <mj-text>Over the past few days we learnt about a new attack that posed a serious weakness in the encryption protocol used to secure all modern Wi-Fi networks. The KRACK Attack effectively allows interception of traffic on wireless networks secured by the WPA2 protocol. Whilst it is possible to backward patch implementations to mitigate this vulnerability, security updates are rarely installed universally.</mj-text>
+          <mj-text>It is beyond doubt that it is simply not secure to blindly trust the medium that connects your users to the internet. HTTPS was created to allow HTTP traffic to be transmitted in encrypted form, however the authors of the KRACK Attack presented a video demonstration of how the encryption could be completely stripped away on a popular dating site (despite the website supporting HTTPS). </mj-text>
+          <mj-text>This blog post presents a plain-english primer on how HTTPS protection can be stripped and mechanisms for mitigating this.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://blog.cloudflare.com/performing-preventing-ssl-stripping-a-plain-english-primer/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="http://www.zdnet.com/article/microsofts-new-open-source-tool-can-scan-your-website-for-security-and-performance-headaches/">Microsoft's new open source tool can scan your website for security and performance headaches</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/surveying-17-anti-virus-firms-on-their-security-practices-a-10393">Surveying 17 Anti-Virus Firms on Their Security Practices</a></li>
+              <li><a class="lnk-green" href="https://scotthelme.co.uk/sarahah/">Quick web pentest of Sarahah</a></li>
+              <li><a class="lnk-orange" href="https://tonyarcieri.com/introducing-miscreant-a-multi-language-misuse-resistant-encryption-library">Introducing Miscreant: a multi-language misuse resistant encryption library</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/windows-10s-controlled-folder-access-anti-ransomware-feature-is-now-live/">Windows 10's "Controlled Folder Access" Anti-Ransomware Feature Is Now Live</a></li>
+              <li><a class="lnk-blue" href="https://aws.amazon.com/blogs/security/amazon-elasticache-now-supports-encryption-for-elasticache-for-redis/">Now You Can Use Amazon ElastiCache for Redis with In-Transit and At-Rest Encryption to Help Protect Sensitive Information</a></li>
+              <li><a class="lnk-pink" href="https://www.forbes.com/sites/thomasbrewster/2017/10/26/lg-hom-bot-robot-hoover-hacked-into-surveillance-device/#1e883ef5f042">Time To Update Your Vacuum Cleaner -- Hack Turns LG Robot Hoover Into A Spy</a></li>
+              <li><a class="lnk-green" href="https://www.jitbit.com/alexblog/256-targetblank---the-most-underestimated-vulnerability-ever/">Target="_blank" - the most underestimated vulnerability ever</a></li>
+              <li><a class="lnk-orange" href="https://www.theregister.co.uk/2017/10/26/eu_lawmakers_move_closer_to_new_cookie_law_after_parliamentary_battle/">EU law bods closer to baking new 'cookie law' after battle</a></li>
+              <li><a class="lnk-purple"  href="https://www.theregister.co.uk/2017/10/26/google_play_android_malware_bad/">Google Play Protect is last at detecting known malware on Android</a></li>
+              <li><a class="lnk-blue" href="https://github.com/joaomatosf/JavaDeserH2HC">Lab for Java Deserialization Vulnerabilities</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
