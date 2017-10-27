@@ -91,7 +91,7 @@
           <mj-image src="https://www.hackread.com/wp-content/uploads/2017/10/bad-rabbit-ransomware-spreading-like-wildfire-but-there-is-a-way-out-2.jpg?x62286"></mj-image>
           <mj-text color="#fff">The ransomware, named as Bad Rabbit, is spreading like wildfire and has targeted corporate networks in Russia, Germany, Ukraine, and Turkey mainly. This is a Petya type ransomware that has launched targeted attacks in the past few hours. After successfully compromising the system and encrypting the data, attackers demand 0.05 bitcoin, approx. $285 as ransom to hand over decryption key.</mj-text>
           <mj-text color="#fff">Bad Rabbit is distributed through drive-by download attacks and utilizes fake Adobe Flash players installers to trap victims into installing malware. The victim is required to manually execute the ransomware dropper, which is downloaded from the attacker’s infrastructure.</mj-text>
-          <mj-text color="#fff">This new campaign does not use EternalBlue exploit but scans the internal network to open SMB (Server Message Block) shares and then uses a hardcoded list of common credentials to drop malware. It also utilizes Mimikatz post-exploitation tool to obtain credentials from infected systems.</mj-text>
+          <mj-text color="#fff">Earlier it was reported that this week's crypto-ransomware outbreak did not use any National Security Agency-developed exploits, neither EternalRomance nor EternalBlue, but a recent report from Cisco's Talos Security Intelligence revealed that the Bad Rabbit ransomware did use EternalRomance exploit. It also utilizes Mimikatz post-exploitation tool to obtain credentials from infected systems.</mj-text>
           <mj-text color="#fff">There is a “Vaccination for Bad Rabbit”. Create the following files c:\windows\infpub.dat && c:\windows\cscc.dat – remove ALL PERMISSIONS (inheritance) and you are now vaccinated from the current known samples.</mj-text>
           <mj-text color="#fff">To protect your network, you need to disable WMI service which will not let the malware spread. Moreover, users must remain cautious while clicking on attachments and web links sent by unknown senders via emails and avoid downloading software from third-party platforms.</mj-text>
           <mj-button background-color="#fff" mj-class="blue" href="https://www.hackread.com/bad-rabbit-ransomware-spreading-like-wildfire/">
@@ -99,6 +99,9 @@
           </mj-button>
           <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2017/10/bad-rabbit-ransomware-attack.html">
             Tech details and IoC
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2017/10/bad-rabbit-ransomware.html">
+            Bad Rabbit Uses 'EternalRomance' NSA Exploit
           </mj-button>
         </mj-column>
       </mj-section>
@@ -171,17 +174,21 @@
       <mj-section background-color="#fff">
         <mj-column>
           <mj-spacer height="30px" />
-          <mj-text mj-class="purple h2">After quietly infecting a million devices, Reaper botnet set to be worse than Mirai</mj-text>
+          <mj-text mj-class="purple h2">Reaper botnet could be worse than Mirai</mj-text>
           <mj-image src="https://www.pcrisk.com/images/stories/news/reaper-botnet-is-hudge.jpg"></mj-image>
-          <mj-text>A little over a month ago, a sizable botnet of infected Internet of Things devices began appearing on the radar of security researchers. Just weeks later, it's on track to become one of the largest botnets recorded in recent years.</mj-text>
-          <mj-text>The botnet, dubbed "Reaper" by researchers at Netlab 360, is said to have ensnared almost two million internet-connected webcams, security cameras, and digital video recorders (DVRs) in the past month, says Check Point, which also published research, putting its growth at a far faster pace than Mirai.</mj-text>
-          <mj-text>Mirai aggressively ran each device against a list of known usernames and passwords, but Reaper is "not very aggressive," said Netlab. By targeting a known vulnerability, the botnet can swiftly take control of a device without raising any alarms. Netlab said at the time of publishing their research that the botnet was infecting nine known vulnerabilities in D-Link, Netgear, and AVTech products, as well as other device makers. As it stands, Reaper's size today could be capable of "creating significantly more DDoS traffic than Mirai".</mj-text>
+          <mj-text>A little over a month ago, a sizable botnet of infected Internet of Things devices began appearing on the radar of security researchers. Just weeks later, it could become one of the largest botnets recorded in recent years.</mj-text>
+          <mj-text>The botnet, dubbed "Reaper" by researchers at Netlab 360, is was said to have ensnared almost two million internet-connected webcams, security cameras, and digital video recorders (DVRs), putting its growth at a far faster pace than Mirai. But the Reaper IoT botnet is nowhere near as threatening as previously suggested, according to new research. Boffins at Arbor Networks, however, estimate that the actual size of the Reaper botnet tends to fluctuate between 10,000-20,000 bots, but warn that this number could change at any time.</mj-text>
+          <mj-text>Mirai aggressively ran each device against a list of known usernames and passwords, but Reaper is "not very aggressive," said Netlab. By targeting a known vulnerability, the botnet can swiftly take control of a device without raising any alarms. Netlab said at the time of publishing their research that the botnet was infecting nine known vulnerabilities in D-Link, Netgear, and AVTech products, as well as other device makers.</mj-text>
           <mj-button mj-class="bg-purple" href="http://www.zdnet.com/article/reaper-botnet-could-be-worse-than-mirai-cyberattack/">
             Read More
           </mj-button>
           <mj-button mj-class="bg-purple" href="http://blog.netlab.360.com/iot_reaper-a-rappid-spreading-new-iot-botnet-en/">
             Initial article from Netlab
           </mj-button>
+          <mj-button mj-class="bg-purple" href="https://www.theregister.co.uk/2017/10/27/reaper_iot_botnet_follow_up/">
+            Reaper IoT botnet ain't so scary
+          </mj-button>
+
         </mj-column>
       </mj-section>
 
