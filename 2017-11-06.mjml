@@ -61,7 +61,7 @@
         <meta name="twitter:site" content="@kindredgroup" />
         <meta name="twitter:title" content="Kindred Security Newsletter - 06/11/17" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
-        <meta name="twitter:image" content="http://i.imgur.com/kQIWprp.png" />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-BuB4vTntHg4/V9bJuPKOcVI/AAAAAAAAJ4o/ubIc4SCc_7I7hpg3wxMondMKcO3gONOtACLcB/s1600/wifi%2Bhack.png" />
       </mj-style>
   </mj-head>
   <mj-body>
@@ -69,7 +69,7 @@
       <mj-section background-color="#fff">
         <mj-column>
             <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
-          <mj-image src="https://1.bp.blogspot.com/-BuB4vTntHg4/V9bJuPKOcVI/AAAAAAAAJ4o/ubIc4SCc_7I7hpg3wxMondMKcO3gONOtACLcB/s1600/wifi%2Bhack.png"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
 
           <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
           <mj-text mj-class="grey h2" align="center">6 November 2017</mj-text>
