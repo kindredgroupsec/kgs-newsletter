@@ -1,0 +1,260 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 13/11/17" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://i.kinja-img.com/gawker-media/image/upload/s--Q1NgPoqX--/c_scale,fl_progressive,q_80,w_800/s66cddjnmcdfbuqkoorr.gif" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">13 November 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">"Eavesdropper" Vulnerability Exposes Millions of Private Conversations because of hardcoded secrets</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/11/09/Eavesdropper-Logo.jpg"></mj-image>
+          <mj-text color="#fff">Security researchers have discovered that tens of developers have left API credentials in hundreds of applications built around the Twilio service. Attackers can extract these credentials from the source code of vulnerable apps and gain access to conversations and SMS messages sent by that app — and its users — via Twilio, a cloud platform that allows third-party apps to make and receive phone calls and SMS messages via programmatic APIs to various telephony providers.</mj-text>
+          <mj-text color="#fff">"We found the Eavesdropper vulnerability on over 685 enterprise apps (44% Android, 56% iOS) associated with 85 Twilio developer accounts," the Appthority team said in a report published today. Appthority says that around a third of all affected apps are enterprise related, potentially granting attackers access to highly precious financial and business phone calls and SMS alerts.</mj-text>
+          <mj-text color="#fff">The cause of the Eavesdropper issue is careless developers. We've seen many cases in the past where developers leave API and server credentials inside an app's source code, instead of storing them in a secure, remote database. The same Appthority report on the Eavesdropper vulnerability also points out that researchers found similar credentials for Amazon S3 servers. A Fallible study published earlier this year found that 2,500 of 16,000 Android apps had some type of credentials inside them, usually for services like Twitter, Dropbox, Instagram, Slack, Flickr, or Amazon Web Services (AWS).</mj-text>
+          <mj-text color="#fff">If you commit sensitive data, such as a password or SSH key into a Git repository, you can remove it from the history. To entirely remove unwanted files from a repository's history you can use either the git filter-branch command or the BFG Repo-Cleaner. However, be warned: Once you have pushed a commit to GitHub, you should consider any data it contains to be compromised. If you committed a password, change it! If you committed a key, generate a new one.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/-eavesdropper-vulnerability-exposes-millions-of-private-conversations/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://help.github.com/articles/removing-sensitive-data-from-a-repository/">
+            Removing sensitive data from a repository
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">One of the Secrets Guarding the Secure Internet Is a Wall of Lava Lamps</mj-text>
+          <mj-image src="https://i.kinja-img.com/gawker-media/image/upload/s--Q1NgPoqX--/c_scale,fl_progressive,q_80,w_800/s66cddjnmcdfbuqkoorr.gif"></mj-image>
+          <mj-text>Cloudflare provides security and domain name services for millions of the most prominent sites on the web. The company has built a solid reputation for its secure encryption and one of the key factors in its system is a wall of 100 lava lamps in the lobby of its San Francisco headquarters.</mj-text>
+          <mj-text>Cryptography relies on the ability to generate random numbers that are both unpredictable and kept secret from any adversary. Unfortunately for cryptographers, if there’s one thing computers are good at, it’s being predictable. They can execute the same code a million times, and so long as they are given the same inputs each time, they’ll always come up with the same outputs. This is very good for reliability, but it’s tricky when it comes to cryptography - after all, we need unpredictability!</mj-text>
+          <mj-text>The solution to this problem is cryptographically-secure pseudorandom number generators (CSPRNGs). But even though CSPRNGs are a very powerful tool, they’re only one half of the equation - they still need an unpredictable input to operate. But where can a computer get such unpredictable input, even slowly? The answer is the real world. </mj-text>
+          <mj-text>A lava lamp is a great way to generate randomness. LavaRand is a system that uses lava lamps as a secondary source of randomness for Cloudflare's production servers. A wall of lava lamps in the lobby of Cloudflare's San Francisco office provides an unpredictable input to a camera aimed at the wall. A video feed from the camera is fed into a CSPRNG.</mj-text>
+          <mj-text>Hopefully they'll never need it. Hopefully, the primary sources of randomness used by their production servers will remain secure, and LavaRand will serve little purpose beyond adding some flair to their office. But if it turns out that they're wrong, then LavaRand will be the hedge, making it just a little bit harder to hack Cloudflare.</mj-text>
+
+          <mj-button mj-class="bg-pink" href="https://sploid.gizmodo.com/one-of-the-secrets-guarding-the-secure-internet-is-a-wa-1820188866">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://blog.cloudflare.com/randomness-101-lavarand-in-production/">
+            Randomness 101: LavaRand in Production
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">60% of developers lack confidence in their app security, but don't take steps to fix it</mj-text>
+          <mj-image src="https://betanews.com/wp-content/uploads/2016/07/Computer-bug-e1469695703447.jpg"></mj-image>
+          <mj-text>NodeSource and Sqreen released a study that should be a wakeup call for developers: The majority of them report not trusting the security of their own code. Some 60% of Node.js developers, in fact, say that they aren't confident in the security of the code they write, while only 31% say they are.</mj-text>
+          <mj-text>Let's not sell developers short—most of them do review their code in some way, according to the report. Many (44%) perform manual reviews, and 30% perform both manual and automated reviews. Only 12% are guilty of not reviewing their code at all.</mj-text>
+          <mj-text>Where the real problem comes from, at least in the eyes of the devs doing the coding, is third-party dependencies. Only 16% have confidence in the security of the third-party packages they use. That said, it would make sense for much of the code review process to focus more on outside code. It doesn't, though: 40% said they skip the review process for third-party packages.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.techrepublic.com/article/report-60-of-developers-lack-confidence-in-their-app-security-but-dont-take-steps-to-fix-it/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="http://www.businesswire.com/news/home/20171109005210/en/NodeSource-Sqreen-Survey-Quarter-Node.js-Developers-Form">
+            Original study
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Privacy Pass: A browser extension for anonymous authentication</mj-text>
+          <mj-image src="https://blog.cloudflare.com/content/images/2017/11/Firefox-3--2-.png"></mj-image>
+          <mj-text>There is a new browser extension for Chrome and Firefox named Privacy Pass. Privacy Pass uses privacy-preserving cryptography to allow users to authenticate to services without compromising their anonymity.</mj-text>
+          <mj-text>Using the extension, users can retrieve ‘passes’ from services by completing a task of the server’s choosing. However, when the user comes to redeem a pass in the future, it will be cryptographically unlinkable from the pass that was received before; even for the service that issued it.</mj-text>
+          <mj-text>The internet security and performance company Cloudflare is the first partner to implement support for Privacy Pass. Using Privacy Pass with Cloudflare websites allows users to acquire signed 30 tokens for each Cloudflare challenge CAPTCHA that they solve. Once tokens are acquired, users are able to bypass future Cloudflare CAPTCHAs using the redemption phase of the protocol above.</mj-text>
+          <mj-text>Privacy Pass is released as beta currently, but they hope that releasing it now will encourage more users to get involved in the development process.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://medium.com/@alxdavids/privacy-pass-6f0acf075288">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://blog.cloudflare.com/cloudflare-supports-privacy-pass/">
+            Cloudflare supports Privacy Pass
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Google Ranks Phishing Above Keyloggers and Password Reuse as Bigger Threat to Users</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2017/02/07/Phishing-Safe-Browsing.jpg"></mj-image>
+          <mj-text>Research carried out by Google engineers and academics from the University of California, Berkeley and the International Computer Science Institute has revealed that phishing attacks pose a more significant threat to users losing access to their Google accounts when compared to keyloggers or password reuse.</mj-text>
+          <mj-text>The research team says it found over 788,000 credentials stolen via keyloggers, 12.4 million credentials stolen via phishing, and 1.9 billion credentials exposed by third-party breaches. "We find victims of phishing are 400x more likely to be successfully hijacked compared to a random Google user. In comparison, this rate falls to 10x for data breach victims and roughly 40x for keylogger victims," the research team added.</mj-text>
+          <mj-text>In addition, researchers also spotted a rising trend in keyloggers and phishing kits, which are now logging IP addresses and other geolocation data in an attempt to fool geo-based protection filters, while other more complex attack kits also log phone numbers and user-agent string data.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://www.bleepingcomputer.com/news/security/google-ranks-phishing-above-keyloggers-and-password-reuse-as-bigger-threat-to-users/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">WikiLeaks’ Vault 8 Leaks Show CIA Impersonated Kaspersky Lab</mj-text>
+          <mj-image src="https://www.hackread.com/wp-content/uploads/2017/11/wikileaks-vault-8-leaks-show-cia-impersonated-kaspersky-lab.jpg?x62286"></mj-image>
+          <mj-text>Wikileaks released the source code for Hive on Thursday, a CIA (Central Intelligence Agency) implants used in transferring exfiltrated information from target Windows machines. The latest release has been carried out under the code name of Vault 8. The Vault 8 series will only expose source codes for previously leaked implants.</mj-text>
+          <mj-text>Hive works as a communication tool between malware and “cover domains.” These domains seem harmless and “perfectly-boring-looking” to visitors however traffic from implants communicating with these domains is sent to an implant operator management gateway called Honeycomb. According to WikiLeaks, CIA used these fake certificates to impersonate existing entities including Kaspersky Lab.</mj-text>
+          <mj-text>In October this year, it was reported that in 2015 Israeli spies managed to access Kaspersky’s backend systems and identified that Russian hackers were discreetly using the software both as a universal search engine and a spying tool.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.hackread.com/wikileaks-vault-8-leaks-show-cia-impersonated-kaspersky-lab/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Flaw crippling millions of crypto keys is worse than first disclosed</mj-text>
+          <mj-image src="https://cdn.arstechnica.net/wp-content/uploads/2017/11/estonian-digital-id-800x680.jpg"></mj-image>
+          <mj-text>A crippling flaw affecting millions—and possibly hundreds of millions—of encryption keys used in some of the highest-stakes security settings is considerably easier to exploit than originally reported, cryptographers declared over the weekend. The assessment came as Estonia abruptly suspended 760,000 national ID cards used for voting, filing taxes, and encrypting sensitive documents.</mj-text>
+          <mj-text>One way to improve the attack, may be to use fast graphics cards, which have the potential to shave the average cost of factorizing a vulnerable 2048-bit key to $2,000 in energy costs.</mj-text>
+          <mj-text>Estonia is almost certainly not the only country with a national ID card that's vulnerable to ROCA. Researchers said cards issued by Slovakia also tested positive for the vulnerability. Ars is also aware of unconfirmed reports of a Western European country that also issues affected ID cards. </mj-text>
+          <mj-button mj-class="bg-pink" href="https://arstechnica.com/information-technology/2017/11/flaw-crippling-millions-of-crypto-keys-is-worse-than-first-disclosed/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://blog.cr.yp.to/20171105-infineon.html">
+            Reconstructing ROCA
+          </mj-button>
+
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://find-sec-bugs.github.io/">Find Security Bugs: plugin for security audits of Java web applications</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/antivirus-engine-design-flaw-helps-malware-sink-its-teeth-into-your-system/">Antivirus Engine Design Flaw Helps Malware gain boot persistence</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/AMP/2017/11/08/ietf_drafts_middlebox_security_workaround/">IETF draft to fix SSL spy boxes</a></li>
+              <li><a class="lnk-orange" href="http://www.securityweek.com/stack-ranking-ssl-vulnerabilities-duhk-and-roca">Stack Ranking SSL Vulnerabilities: DUHK and ROCA</a></li>
+              <li><a class="lnk-purple" href="https://posts.specterops.io/a-guide-to-attacking-domain-trusts-971e52cb2944">A Guide to Attacking Domain Trusts</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/misconfigured-amazon-s3-buckets-expose-users-companies-to-stealthy-mitm-attacks/">Misconfigured Amazon S3 Expose Companies to MitM Attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/researcher-details-new-windows-code-injection-technique-named-propagate/">Windows Code Injection Technique: PROPagate</a></li>
+              <li><a class="lnk-green" href="https://www.hackread.com/flaw-in-tor-browser-leads-to-leaking-of-your-real-ip-address/">Flaw in Tor Browser Leads to Leaking of Your Real IP Address</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/dnstwist-helps-you-find-phishing-sites-based-on-your-domain/">Dnstwist: Find Phishing Sites Based on Your Domain</a></li>
+              <li><a class="lnk-purple"  href="https://pleasestopnamingvulnerabilities.com/">Exploring 6 Remote Kernel Bugs on Android Phones</a></li>
+              <li><a class="lnk-blue" href="https://www.hackread.com/google-chrome-will-automatically-block-forced-website-redirects/">Google Chrome will automatically block forced website redirects</a></li>
+              <li><a class="lnk-pink" href="https://www.smashingmagazine.com/2017/11/safe-password-resets-with-json-web-tokens/">Creating Secure Password Resets With JSON Web Tokens</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/2017/11/09/evil_pixels_researcher_demos_datatheft_over_screenshare_protocols/">Evil pixels: Researcher demos data-theft over screen-share protocols</a></li>
+              <li><a class="lnk-orange" href="https://www.theregister.co.uk/2017/11/08/credential_stuffing_defence/">Credential-stuffing defense tech aims to defuse password leaks</a></li>
+              <li><a class="lnk-purple"  href="http://www.defaultpassword.com">Default Password list: If you use one of those, change it ASAP!</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
