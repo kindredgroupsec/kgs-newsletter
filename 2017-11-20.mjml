@@ -1,0 +1,250 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 20/11/17" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">20 November 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Apple FaceID tricked by masks and kids</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/11/13/FaceID.png"></mj-image>
+          <mj-text color="#fff">When iPhone X was launched, Apple claimed its Face ID system is unbeatable, but that turned out to be untrue when a group of hackers unlocked an iPhone X after bypassing its Face ID with a specially crafted 3D mask. </mj-text>
+          <mj-text color="#fff">The authors of this research are experts from Vietnamese cyber-security firm Bkav, the same company that back in 2009 bypassed some of the first facial recognition systems deployed with laptops. They didn't go as far as to reconstruct accurate masks of the phone owner's face, compared to past experiments that failed. Instead, they focused on the features that needed to be valid for the actual authentication process — getting right the mask's eyes, nose, mouth, face shape, and relief. The whole process took about one week and cost researchers $150 in materials, which excludes this type of hack being used on regular users.</mj-text>
+          <mj-text color="#fff">Now, a 10-year-old kid has unlocked his mother’s iPhone X with his face by tricking the Face ID system proving that facial recognition is far from flawless. According to a video uploaded on YouTube, it emerged that you don’t have to look alike to unlock iPhone X of your family members. Apparently, it can be done by anyone having a slight resemblance to a family member.  In the video, the mom explained that she set up the Face ID with her face, but her son Ammar who naturally has a resemblance to her face was able to unlock the phone within a second.</mj-text>
+          <mj-text color="#fff">while those discovery don't turn FaceID useless, it certainly proves the system is not as unbeatable as Apple pretended. As with any biometrics, the authentication system has a False Acceptance Rate and a False Rejection Rate, which are basically non-existent with traditional passwords. Users will have to keep this in mind while going for the convenience of those authentication systems.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/apple/apple-faceid-tricked-with-150-mask/">
+            FaceID tricked by a 150$ mask
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.hackread.com/kid-uses-his-face-to-unlock-moms-iphonex-with-face-id/">
+            10yo kid uses his face to unlock moms iPhone
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">OnePlus Phones Come Preinstalled With a Factory App That Can Root Devices</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/11/14/EngineerMode.jpg"></mj-image>
+          <mj-text>Some OnePlus devices, if not all, come preinstalled with an application named EngineerMode that can be used to root the device and may be converted into a fully-fledged backdoor by clever attackers. The app was discovered by a mobile security researcher who goes online by the pseudonym of Elliot Alderson — the name of the main character in the Mr. Robot TV series.</mj-text>
+          <mj-text>The researcher said he started investigating OnePlus devices after a story he saw online last month detailing a hidden stream of telemetry data sent by OnePlus devices to the company's servers. According to a series of tweets the researcher has published online yesterday evening, the EngineerMode app can perform a series of intrusive hardware diagnosis tests, but can also check for root status, diagnose the GPS function, and more.</mj-text>
+          <mj-text>The researcher says that an attacker with physical access to a phone can run the following command to root the device. Ironically, the password to root the device is Angela, name of the childhood friend of Elliot Alderson in the Mr Robot TV show.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/oneplus-phones-come-preinstalled-with-a-factory-app-that-can-root-devices/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Homeland Security Hackers Remotely Hack Boeing 757</mj-text>
+          <mj-image src="PIC"></mj-image>
+          <mj-text>Robert Hickey, the program manager at Department of Homeland Security’s Cyber Security Division revealed that their security researchers remotely hacked a Boeing 757 parked at the airport in Atlantic City, New Jersey.</mj-text>
+          <mj-text>Although technical details for the hack haven’t been released yet, Hickey said his team was able to breach the system’s security by exploiting flaws in 757’s “radio frequency communications.” Although technical details for the hack haven’t been released yet, Hickey said his team was able to breach the system’s security by exploiting flaws in 757’s “radio frequency communications.” The first reaction of his team was “We’ve known that for years,’” and, “It’s not a big deal”. However, when a group of pilots from Delta and American Airlines was briefed about the vulnerabilities, they were clueless. “All seven of them broke their jaw hitting the table,</mj-text>
+          <mj-text>What’s more shocking according to Hickey is that 90% of the commercial planes don’t have protections while only new models of 737s and 787 and the Airbus Group A350 have been designed with security in mind. In a comment to CBS, Boeing said that “We firmly believe that the test did not identify any cyber vulnerabilities in the 757 or any other Boeing aircraft.” Meanwhile, Hickey said research into aircraft security is ongoing. Homeland Security has yet to formulate specific advice for airplane manufacturers and airlines. Hickey also pointed out that patching avionics subsystem on every aircraft when a vulnerability is discovered is cost prohibitive</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.hackread.com/homeland-security-hackers-remotely-hack-boeing-757/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.theregister.co.uk/2017/11/15/airplanes_vulnerable_rf_hacking/">
+            How can airlines stop hackers pwning planes over the air?
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">17-Year-Old MS Office Flaw Lets Hackers Install Malware Without User Interaction</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-vzywAlxC0Ns/WgwPNxH5zkI/AAAAAAAAuvk/98E2bQPoaB4yeYldBfUVQ2I8TXJ5bT8RACLcBGAs/s1600/microsoft-office-remote-code-execution.png"></mj-image>
+          <mj-text>Microsoft has patched today a huge security hole in Microsoft Office that could be exploited to run malicious code without user interaction on all Windows versions released in the past 17 years. Discovered by the Embedi research team, the vulnerability affects the Microsoft Equation Editor (EQNEDT32.EXE), one of the executables that is installed on users' computers with the Office suite.</mj-text>
+          <mj-text>This tool, as the name obviously implies, allows users to embed mathematical equations inside Office documents as dynamic OLE objects. Embedi discovered that Microsoft was still using a version of the EQNEDT32.EXE file that was compiled on November 9, 2000. the EQNEDT32.EXE component spawned its own process, outside the main Office process, that did not utilize any of the security features added to Windows 10 or the Office suite. Using Microsoft's own BinScope binary verification tool, it didn't take long for researchers to find two memory corruption (buffer overflow) vulnerabilities in the EQNEDT32.EXE file.</mj-text>
+          <mj-text>The exploitation chain Embedi experts devised worked on all Microsoft Office versions (including Microsoft Office 365), and with all the Microsoft Windows versions released in the past 17 years. In addition, it worked on all types of architectures (32-bit and 64-bit), did not interrupt the user's Microsoft Office workflow, and did not require any user interaction. The vulnerability — tracked as CVE-2017-11882 — was patched today in the November 2017 Patch Tuesday updates.</mj-text>
+          <mj-text>Last but not least, users can use two registry keys to disable registering of the legacy equation editor component in the Windows registry. The vulnerability, as described by Embedi researchers, is a gold mine for both APT groups and day-to-day malware distribution campaigns. We've certainly not heard the last of CVE-2017-11882.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://thehackernews.com/2017/11/microsoft-office-rce-exploit.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/office-equation-editor-security-bug-runs-malicious-code-without-user-interaction/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Trump administration releases rules on disclosing security flaws</mj-text>
+          <mj-image src="https://www.eff.org/files/issues/og-nsa-1.png"></mj-image>
+          <mj-text>The Trump administration has released an unclassified set of rules for deciding if a security vulnerability should be shared or kept private. The White House's cybersecurity coordinator said the rules are "vital" to ensuring a balance between public disclosure and retaining flaws for intelligence operations.</mj-text>
+          <mj-text>Under the Obama administration, the government created the multi-agency review board to weigh if a flaw discovered by the intelligence community should be disclosed privately to tech companies, or kept a secret so that they can be used for carrying out intelligence operations, such as hacking and network exploitation.</mj-text>
+          <mj-text>The newly-revealed rules show that if the board decides to keep a vulnerability private, the board must reassess its decision every year. The security community, which has been calling on the government to release the details of this process for years, has long believed that the government was holding onto more exploits than it was disclosing. The unclassified report comes less than a year after a set of NSA hacking tools were stolen, and used to launch a large scale, global ransomware attack.</mj-text>
+          <mj-button mj-class="bg-purple" href="http://www.zdnet.com/article/trump-administration-releases-secret-rules-on-disclosing-security-flaws/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">AVGater: New Vulnerability Exploits Antivirus Programs to Install Malware</mj-text>
+          <mj-image src="https://www.hackread.com/wp-content/uploads/2017/11/new-vulnerability-exploits-antivirus-programs-to-install-malware-1-1024x531.jpg"></mj-image>
+          <mj-text>Hackers have learned to exploit the Restore from Quarantine feature, and a number of AV solutions have been affected. The flaw has been named AVGater. Once it is on a system, this vulnerability relocates malware from an AV quarantine folder and stores it to another sensitive location.</mj-text>
+          <mj-text>It was also possible to exploit the Dynamic Link Library search order function so that malware could obtain full privileges. A key limitation associated with AVGater is that to launch it attackers need to obtain physical access to a computer and in shared computer environments attack becomes a lot more difficult.</mj-text>
+          <mj-text>To prevent AVGater, users need to update the antivirus programs installed on their devices. On the contrary, enterprise computer is more at risk to this attack and therefore, Bogner suggests that enterprise users must remove the restore files from quarantine feature for good.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.hackread.com/new-vulnerability-exploits-antivirus-programs-to-install-malware/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Why AV Detection for New Malware Remains Low</mj-text>
+          <mj-image src="https://heimdalsecurity.com/blog/wp-content/uploads/AV-detects-new-malware.png"></mj-image>
+          <mj-text>This year we saw massive spam campaigns like NonPetya or Locky fly below the radar of antivirus software and went undetected during the first hours or even days. Some of them actually went undetected even for months.</mj-text>
+          <mj-text>Second-generation malware usually has the ability to evade detection and bypass antivirus programs users have installed on their computers to keep their data safe. Maybe you’ve never asked yourself this, but do you know how long it takes for antivirus programs to detect advanced types of malware?</mj-text>
+          <mj-text>In this article we’ll show you several examples of spam campaigns which went undetected by antivirus software and explain why this happens in the first place. We’ll also provide details on how you can protect efficiently against such threats and close the various security gaps in your system.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://heimdalsecurity.com/blog/campaigns-av-detection-new-malware-low/">
+            Read More
+          </mj-button>
+
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/interviews/troy-leach-i-3771">PCI Council Developing Software Framework</a></li>
+              <li><a class="lnk-pink" href="https://www.hackread.com/new-vulnerability-exploits-antivirus-programs-to-install-malware/">New Vulnerability Exploits Antivirus Programs to Install Malware</a></li>
+              <li><a class="lnk-green" href="https://cdn2.hubspot.net/hubfs/468115/Campaigns/2017-Ponemon-Report/2017-ponemon-report-key-findings.pdf">Fileless Attacks Ten Times More Likely to Succeed (Report)</a></li>
+              <li><a class="lnk-orange" href="https://www.hackread.com/now-can-use-body-sweat-unlock-smartphone/">You can soon securely unlock smartphone with your “body sweat”</a></li>
+              <li><a class="lnk-purple" href="http://www.securityweek.com/vmware-patches-vulnerabilities-vcenter-server">VMware Patches Vulnerabilities in vCenter Server</a></li>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2017/11/adobe-microsoft-patch-critical-cracks/">Adobe, Microsoft Patch Critical Cracks</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2017/11/14/google-researcher-finds-79-linux-usb-vulnerabilities/">Google researcher finds 79 Linux USB vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/android-beats-ios-and-windows-as-least-secure-mobile-os-nokia-report-finds/">Android beats iOS and Windows as least-secure mobile OS, Nokia report finds</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2017/11/data-breach-forever21.html">Forever 21 Warns Shoppers of Payment Card Breach at Some Stores</a></li>
+              <li><a class="lnk-purple"  href="https://nakedsecurity.sophos.com/2017/11/15/hackers-mimicking-little-kids-can-fool-voice-recognition-systems/">Hackers mimicking little kids can fool voice recognition systems</a></li>
+              <li><a class="lnk-blue" href="https://www.hackread.com/amazon-echo-google-home-devices-vulnerable-to-blueborne-attack/">Amazon Echo and Google Home Devices Vulnerable to BlueBorne Attack</a></li>
+              <li><a class="lnk-pink" href="https://www.troyhunt.com/locking-down-your-website-scripts-with-csp-hashes-nonces-and-report-uri/">Locking Down Your Website Scripts with CSP, Hashes, Nonces and Report URI</a></li>
+              <li><a class="lnk-green" href="https://www.wired.com/story/amazon-key-flaw-let-deliverymen-disable-your-camera/">Amazon key flaw could let rogue deliverymen disable your camera</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/google-amp/article/new-free-quad9-dns-service-has-built-in-security-privacy-settings-to-protect-internet-users/">New free Quad9 DNS service has built-in security, privacy settings to protect internet users</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
