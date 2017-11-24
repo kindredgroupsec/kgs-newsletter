@@ -1,0 +1,266 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 27/11/17" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="http://www.securityweek.com/sites/default/files/Uber_Data-Breach.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">27 November 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Uber: Hackers stole 57m passengers, drivers' info. Uber bribed them $100k to conceal it</mj-text>
+          <mj-image src="http://www.securityweek.com/sites/default/files/Uber_Data-Breach.jpg"></mj-image>
+          <mj-text color="#fff">Uber CEO Dara Khosrowshahi posted a blog yesterday saying hackers downloaded the names and driver’s license numbers of around 600,000 drivers in the United States — and some personal information of 57 million Uber users around the world. The data theft, which occurred a year ago, included names, email addresses and mobile phone numbers.</mj-text>
+          <mj-text color="#fff">Rather than warn state and federal authorities of the personal data theft, as is required by the California upstart, Uber's chief of information security Joe Sullivan ordered that the crooks be paid off, the stolen files erased, and the whole thing hushed up, leaving riders and drivers none the wiser. The payout was disguised as a bug bounty prize complete with non-disclosure agreements signed.</mj-text>
+          <mj-text color="#fff">It’s hard to know what’s most troubling about this news: The fact Uber concealed the hack for a year. That Uber forked over a hundred-grand to cyber thieves. Or that they actually believed the hackers would destroy the stolen data.</mj-text>
+          <mj-text color="#fff">What are the consequences for users? Users may perhaps receive a lot of spam or ads on their mobile phone. Still, hackers could orchestrate phishing campaigns by creating fake Uber accounts, asking users to "confirm" their banking details or to click on links that would allow viruses into their devices. </mj-text>
+          <mj-text color="#fff">In Europe, the General Data Protection Regulation is scheduled to come into force in May 2018. Under that measure, companies that have lost personal data may be fined up to four percent of their revenues. In the case of Uber, this would be $260 million. "If they don't pay a fine, they are going to pay a cost."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.theregister.co.uk/2017/11/22/uber_2016_data_breach/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.csoonline.com/article/3238133/security/uber-paid-hackers-a-100000-cyber-bribe-to-destroy-stolen-data.html">
+            Even More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="http://www.securityweek.com/should-uber-users-be-worried-about-data-hack">
+            Should Uber Users be Worried About Data Hack?
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Final Version of 2017 OWASP Top 10 Released</mj-text>
+          <mj-image src="http://www.securityweek.com/sites/default/files/images/OWASP_top10.png"></mj-image>
+          <mj-text>The final version of the 2017 OWASP Top 10 was released on Monday and some types of vulnerabilities that don’t longer represent a serious risk have been replaced with issues that are more likely to pose a significant threat. One significant change compared to the 2013 OWASP Top 10 is the fact that the types of flaws that made it into the 2017 list have been selected based on the risk they pose.</mj-text>
+          <mj-text>The OWASP Top 10 vulnerabilities are injection, broken authentication, sensitive data exposure, XML external entity (XXE), broken access control, security misconfiguration, cross-site scripting (XSS), insecure deserialization, using components with known vulnerabilities, and insufficient logging and monitoring.</mj-text>
+          <mj-text>API as well as web apps are covered throughout the entire Top 10. This covers mobile, single page apps, RESTful API and traditional web apps. A3:2017 Sensitive Data Exposure is now firmly about privacy and PII breaches, and not stack traces or headers. A4:2017 XXE is a new data supported item, and so tools and testers need to learn how to find and test for XXE, and developers and devops need to understand how to fix it.</mj-text>
+          <mj-text>A6:2017 Misconfiguration now encompasses cloud security issues, such as open buckets. A8:2017 Deserialization is a critical issue, asked for by the community. It's time to learn how to find this in tools, and for testers to understand what Java and PHP (and other serialization) looks like so it can be fixed. A10:2017 Insufficient Logging and Monitoring: Many folks think this is a missing control, rather than a weakness, but as organizations still take over half a year to detect a breach - usually from external notification - we have to fix this.</mj-text>
+          <mj-button mj-class="bg-pink" href="http://www.securityweek.com/final-version-2017-owasp-top-10-released">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://owasp.blogspot.com.mt/2017/11/owasp-is-pleased-to-announce-release-of.html">
+            Official announcement from OWASP
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Golden SAML: Newly discovered attack technique forges authentication to cloud apps</mj-text>
+          <mj-image src="https://www.cyberark.com/wp-content/uploads/2017/11/Golden-SAML-image.png"></mj-image>
+          <mj-text>Golden SAML in a new attack vector discovered by CyberArk labs.  The vector enables an attacker to create a golden SAML, which is basically a forged SAML “authentication object,” and authenticate across every service that uses SAML 2.0 protocol as an SSO mechanism.</mj-text>
+          <mj-text>In a golden SAML attack, attackers can gain access to any application that supports SAML authentication (e.g. Azure, AWS, vSphere, etc.) with any privileges they desire and be any user on the targeted application (even one that is non-existent in the application in some cases).</mj-text>
+          <mj-text>In a time when more and more enterprise infrastructure is ported to the cloud, the Active Directory (AD) is no longer the highest authority for authenticating and authorizing users. AD can now be part of something bigger – a federation. A federation enables trust between different environments otherwise not related, like Microsoft AD, Azure, AWS and many others. An attacker will no longer suffice in dominating the domain controller of his victim.</mj-text>
+          <mj-text>The golden SAML name may remind you of another notorious attack known as golden ticket, which was introduced by Benjamin Delpy who is known for his famous attack tool called Mimikatz. The name resemblance is intended, since the attack nature is rather similar. Golden SAML introduces to a federation the advantages that golden ticket offers in a Kerberos environment – from gaining any type of access to stealthily maintaining persistency.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.cyberark.com/threat-research-blog/golden-saml-newly-discovered-attack-technique-forges-authentication-cloud-apps/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Firefox Will Warn Users When Visiting Sites That Suffered a Data Breach</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/u/986406/Software/Firefox/Add-ons/HIBP-Firefox-Lastfm.png"></mj-image>
+          <mj-text>Mozilla engineers are working on a notifications system for Firefox that shows a security warning to users visiting sites that have suffered data breaches. The notifications system will use data provided by Have I Been Pwned?, a website that indexes public data breaches and allows users to search and see if their details have been compromised in any of these incidents.</mj-text>
+          <mj-text>The add-on is in early stages of development, and the warnings are rough on the edges. Currently, they trigger when the user visits a site included in Have I Been Pwned's list of public data breaches. The alert also includes an input field. In the add-ons current version this field doesn't do anything, but we presume it's there to allow users to search and see if their data was exposed during that site's security breach.</mj-text>
+          <mj-text>This new notification system will surely ruffle features with some of the breached companies. It is one thing for Have I Been Pwned to offer this kind of details on its website, buried in a corner of the Internet, but it's another thing to have news of your past breach thrust in all your site visitors' faces, especially since some of these breaches have occurred years before. One thing's for sure is that Mozilla needs to pay close attention to the language and manner it shows these notifications to users. Putting less focus on the security incident and more emphasis on encouraging users to change credentials for breached accounts is most likely the best way to go about it.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/firefox-will-warn-users-when-visiting-sites-that-suffered-a-data-breach/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Introducing security alerts on GitHub</mj-text>
+          <mj-image src="https://user-images.githubusercontent.com/594029/32851987-76c36e4a-c9eb-11e7-98fc-feb39fddaadb.gif"></mj-image>
+          <mj-text>Code hosting service GitHub now warns developers if certain software libraries used by their projects contain any known vulnerabilities and provides advice on how to address the issue. The new security feature added by GitHub is designed to alert developers when one of their project’s dependencies has known flaws. The Dependency graph and the security alerts feature have been automatically enabled for public repositories, but they are opt-in for private repositories.</mj-text>
+          <mj-text>When a vulnerable library is detected, a “Known security vulnerability” alert will be displayed next to it in the Dependency graph. Administrators can also configure email alerts, web notifications, and warnings via the user interface, and they can add the teams or individuals who should see the alerts.</mj-text>
+          <mj-text>The information provided to administrators includes the type of flaw, its severity, and affected versions. There is also a link that points to a page where additional details are available. GitHub currently tracks vulnerabilities that have been assigned a CVE identifier, but since many publicly disclosed flaws don’t have CVEs, the company will also try to warn users of issues that don’t have one. “We'll continue to get better at identifying vulnerabilities as our security data grows,” GitHub said.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://github.com/blog/2470-introducing-security-alerts-on-github">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="http://www.securityweek.com/github-warns-developers-when-using-vulnerable-libraries">
+            GitHub Warns Developers When Using Vulnerable Libraries
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Windows 8 and later fail to properly apply ASLR?</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/11/17/Windows+ASLR.jpg"></mj-image>
+          <mj-text>Windows 8, Windows 8.1, and subsequent Windows 10 variations fail to properly apply ASLR in some use cases, rendering this crucial Windows security feature useless. Address Space Layout Randomization (ASLR) is a computer security technique that randomizes the memory address where application code is executed.</mj-text>
+          <mj-text>While looking into a recently disclosed 17-years-old vulnerability affecting the Microsoft Office equation editor, CERT/CC vulnerability analyst Will Dormann discovered that ASLR was not randomizing the memory code locations of application binaries in specific conditions. According to Dormann, when users turned on system-wide ASLR protection, a bug in the feature's implementation on Windows 8 and later would not generate enough entropy (random data) to start application binaries in random memory locations. This is the equivalent of ASLR not being enabled at all.</mj-text>
+          <mj-text>Redmond's response, posted here, was that ASLR is working as intended, and that the lack of randomisation discovered by Will Dormann - with assistance from Matt Miller of Microsoft - was a feature, not a bug. users must enable ASLR in a system-wide bottom-up configuration in order for ASLR to work properly. While Microsoft is expected to fix the issue in a future patch, currently, the only way of starting ASLR in the proper configuration is by tinkering with the Windows Registry. </mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.bleepingcomputer.com/news/security/windows-8-and-later-fail-to-properly-apply-aslr/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://www.theregister.co.uk/2017/11/22/microsoft_says_aslr_a_feature_not_a_bug/">
+            Microsoft says Win 8/10's weak randomisation is 'working as intended'
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://blogs.technet.microsoft.com/srd/2017/11/21/clarifying-the-behavior-of-mandatory-aslr/">
+            Microsoft: Clarifying the behavior of mandatory ASLR
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">KeePass – a password manager that’s cloud-less (but complex)</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2017/11/13142.png"></mj-image>
+          <mj-text>It can get a bit overwhelming for the average person to understand all the security-related best practices they might hear about online or at work. This one is certainly worth harping on about though: credential reuse. Using that same easy-to-type password on every website and service you use practically rolls out the red carpet for an attacker into your online life. So if there’s one thing we suggest to everyone that will go a long way to improve their overall security, it’s using a password manager.</mj-text>
+          <mj-text>KeePass is an open-source password manager that does all the things you’d expect a password manager to do at the very least – it stores all websites and service credentials in a highly-encrypted vault that can only be unlocked with one Master Password, which becomes the only password you need to remember.</mj-text>
+          <mj-text>But a key difference between KeePass and cloud-based password managers is that KeePass is software you run locally – not an online service – and your KeePass vault is something you store in a location of your choosing. That can be on a hard drive, a portable USB key, or even a cloud service you subscribe to. It’s up to you where your password vault goes and who has access to it.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2017/11/17/keepass-a-password-manager-thats-cloud-less-but-complex/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.enpass.io/">
+            Enpass: An alternative to Keypass
+          </mj-button>
+
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.kali.org/releases/kali-linux-2017-3-release/">Kali Linux 2017.3 Release</a></li>
+              <li><a class="lnk-pink" href="https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6">A penetration tester’s guide to sub-domain enumeration</a></li>
+              <li><a class="lnk-green" href="https://isc.sans.edu/forums/diary/Proactive+Malicious+Domain+Search/23065/">Proactive Malicious Domain Search</a></li>
+              <li><a class="lnk-orange" href="https://foxglovesecurity.com/2017/11/20/a-sheep-in-wolfs-clothing-finding-rce-in-hps-printer-fleet/">A Sheep in Wolf’s Clothing – Finding RCE in HP’s Printer Fleet</a></li>
+              <li><a class="lnk-purple" href="https://statuscode.ch/2017/11/from-markdown-to-rce-in-atom/">From Markdown to RCE in Atom</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2017/11/android-location-tracking.html">Google Collects Android Location Data Even When Location Service Is Disabled</a></li>
+              <li><a class="lnk-pink" href="https://github.com/cure53/DOMPurify">DOMPurify: DOM-only, fast, tolerant XSS sanitizer for HTML, MathML and SVG.</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2017/11/22/chromebook-exploit-earns-researcher-second-100k-bounty/">Chromebook exploit earns researcher second $100k bounty</a></li>
+              <li><a class="lnk-orange" href="https://www.hackread.com/android-flaw-lets-attacker-capture-screen-record-audio/">Android Flaw Lets Attackers Capture Screen and Record Audio</a></li>
+              <li><a class="lnk-purple"  href="https://www.bleepingcomputer.com/news/software/another-tor-browser-feature-makes-it-into-firefox-first-party-isolation/">Another Tor browser feature makes it into Firefox first party isolation</a></li>
+              <li><a class="lnk-blue" href="http://www.zdnet.com/article/id-card-security-spain-is-facing-chaos-over-chip-crypto-flaws/">ID card security: Spain is facing chaos over chip crypto flaws</a></li>
+              <li><a class="lnk-pink" href="https://www.theregister.co.uk/2017/11/23/samba_needs_two_patches/">Samba needs two patches, unless you're happy for SMB servers to dance for evildoers</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/2017/11/20/f5_crypto_weakness/">F5 Crypto Fail: BIG-IP SSL vulnerability CVE-2017-6168</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/apple/apples-latest-macos-security-update-contained-fix-for-plug-n-hack-usb-attack/">Apple's Latest MacOS Security Update Contained Fix for Plug-n-Hack USB Attack</a></li>
+              <li><a class="lnk-purple"  href="https://jordanpotti.com/2017/11/06/honey-accounts/">Honey Accounts</a></li>
+              <li><a class="lnk-blue" href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-190.pdf">NIST SP800-190: Application Container Security Guide</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
