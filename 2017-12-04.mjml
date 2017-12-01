@@ -1,0 +1,262 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 04/12/17" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">04 December 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">MacOS High Sierra Bug: Change Root Password Now or Patch</mj-text>
+          <mj-image src="https://objective-see.com/images/blog/blog_0x24/attack.gif"></mj-image>
+          <mj-text color="#fff">A newly-discovered flaw in macOS High Sierra allows anyone with local (and, apparently in some cases, remote) access to the machine to log in as the all-powerful “root” user without supplying a password. Fortunately, there is a simple fix for this until Apple patches this inexplicable bug: Change the root account’s password now.</mj-text>
+          <mj-text color="#fff">High Sierra users should be able to replicate the exploit by accessing System Preferences, then Users & Groups, and then click the lock to make changes. Type “root” with no password, and simply try that several times until the system relents and lets you in.</mj-text>
+          <mj-text color="#fff">How does one change the root password? Open up a Terminal (in the Spotlight search box just type “terminal”) and type “sudo passwd root”. Sources who have tested the bug say it can be exploited remotely if a High Sierra user has enabled “screen sharing” on their Mac. Likewise, multiple sources have now confirmed that disabling the root account does not fix the problem because the exploit actually causes the account to be re-enabled.</mj-text>
+          <mj-text color="#fff">Apple has released a patch, but this patch appears to break the operating system’s file sharing functionality in some cases. The company has provided an easy fix for affected users. Users simply need to open the Terminal, type the command <i>sudo /usr/libexec/configureLocalKDC</i>. This addresses the issue until Apple releases another update.</mj-text>
+          <mj-text color="#fff">This is not the only authentication bug found in macOS High Sierra recently. Last month, a developer noticed that the operating system had leaked the passwords for encrypted Apple File System (APFS) volumes via the password hint.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2017/11/macos-high-sierra-users-change-root-password-now/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://objective-see.com/blog/blog_0x24.html">
+            Why "blank" Gets You Root (Technical)
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">US Army and NSA Files Left Exposed Online on Amazon S3 Server</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/11/28/NSA.jpg"></mj-image>
+          <mj-text>Ten days after an Amazon S3 server exposed data from the US Army's CENTCOM and PACOM divisions, security researchers have identified another S3 server instance that leaked files from INSCOM, a joint US Army and NSA agency tasked with conducting intelligence, security, and information operations.</mj-text>
+          <mj-text>Of these three, researchers said that one was an Oracle Virtual Appliance (.ova) file that was an image of a virtual machine running a Linux-based operating system and an attached virtual hard drive. Researchers were not able to boot the OS or access any of the files stored on the virtual hard drive. Nonetheless, the metadata of files stored on the virtual hard drive allowed researchers to determine the SSD image held troves of highly sensitive files.</mj-text>
+          <mj-text>In addition, a folder in the same VM image also indicated that the system was also part of Red Disk, a cloud computing platform that was part of the Distributed Common Ground System-Army (DCGS-A), a "battlefield intelligence platform" developed by the DOD. Early tests showed the platform was incredibly slow, and mostly hindered existing operations. The project never made it out of the testing stage, and the DOD eventually scraped it in 2014.</mj-text>
+          <mj-text>Regrettably, this cloud leak was entirely avoidable, the likely result of process errors within an IT environment that lacked the procedures needed. That being said, It was an intelligence distribution system under development, not raw intelligence. The researcher that discovered the data, didn't disclosed anything.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/top-secret-us-army-and-nsa-files-left-exposed-online-on-amazon-s3-server/
+">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.schneier.com/blog/archives/2017/11/nsa_red_disk_da.html">
+            NSA "Red Disk" Data Leak
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Snoopers beware: Google's AI can now spot shoulder-surfers peeking at your screen</mj-text>
+          <mj-image src="https://zdnet4.cbsistatic.com/hub/i/r/2017/11/28/53e221ba-f14f-4b75-b264-49aca80124d9/resize/770xauto/4080dc67f2e9eb98bd72246432f36cbe/googleshouldsurf.png"></mj-image>
+          <mj-text>Google researchers have developed a privacy application that can instantly detect when a stranger glances at your screen over your shoulder. When the user holds a phone up to chat or view a private video, say, on a train or other crowded place, the algorithm will detect when someone else from behind begins looking at the screen too. The video shows that the algorithm can detect a stranger's gaze within milliseconds.</mj-text>
+          <mj-text>The video suggests the researchers are using FaceNet, a facial-recognition neural network developed by Schroff and other Google researchers in 2015, as well as GazeNet, a gaze-estimation neural network recently described by researchers in Japan and Germany. The two Google researchers call their application an 'electronic screen protector', which combines the two areas of computer vision research to provide enhanced privacy when using a big-screen smartphone in public spaces.</mj-text>
+          <mj-text>Researchers See Jung Ryu and Florian Schroff will demonstrate their shoulder-surfing warning system at next month's Neural Information Processing Systems Conference in California.</mj-text>
+          <mj-button mj-class="bg-green" href="http://www.zdnet.com/article/snoopers-beware-googles-ai-can-now-spot-shoulder-surfers-peeking-at-your-screen/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.youtube.com/watch?v=rchVXWdpVvQ">
+            Demo video
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Keybase Bug Might Have Backed up Your Private Encryption Key on Google's Servers</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/11/27/Keybase.png"></mj-image>
+          <mj-text>Keybase is notifying Android users of a bug in its mobile app that might have unintentionally included the users' private key —used to encrypt conversations and other private data— into the automatic backups created by the Android OS and uploaded on Google's servers.</mj-text>
+          <mj-text>Keybase, which is a company that provides a wide range of identity proofing and encrypted communication tools, says it fixed the bug and has sent notification emails to users it believes are affected by this issue. According to an email seen by Bleeping Computer, the issue appears to affect only "early adopters" of the Keybase Android app.</mj-text>
+          <mj-text>An attacker may obtain a user's Keybase account password (passphrase), but he won't be able to impersonate that user in Keybase-encrypted chats and private PGP-protected messages unless he sends those messages from verified devices. The bug Keybase just fixed allows an attacker to obtain the private key and impersonate the user's Android smartphone. This is why it is important that users secure devices, even if there's a little possibility they were affected.</mj-text>
+          <mj-text>Despite this issue, users shouldn't be deterred from using Keybase, which is currently the only service that provides support for end-to-end encrypting Git operations, Reddit and Twitter private messages.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/keybase-bug-might-have-backed-up-your-private-encryption-key-on-googles-servers/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Several Vulnerabilities Patched in PowerDNS</mj-text>
+          <mj-image src="https://www.unixmen.com/wp-content/uploads/2015/03/powerdns.png-800x95-100-_001.png"></mj-image>
+          <mj-text>Updates released for the authoritative nameserver and recursive nameserver components of PowerDNS patch several vulnerabilities that can be exploited for denial-of-service (DoS) attacks, records manipulation, modifying configurations, and cross-site scripting (XSS) attacks.</mj-text>
+          <mj-text>None of the bugs pose a risk that PowerDNS might itself be compromised, but this is the DNS: what an attacker can do is fool around with DNS records in various ways. That can be catastrophic if done right: for example, if a network is tricked into advertising itself as the whole of the Internet, it can be hosed, or if the wrong network promises it's the best way to reach YouTube, then YouTube is blackholed.</mj-text>
+          <mj-text>PowerDNS's Remi Gacogne told the OSS-Sec mailing list the bugs affect only non-default configurations, and noted that users on the version 3 stream can download "minimal" patches.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://www.theregister.co.uk/2017/11/28/powerdns_dnssec_bugs/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="http://www.securityweek.com/several-vulnerabilities-patched-powerdns">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">No Patch Available for RCE Bug Affecting Half of the Internet's Email Servers</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/11/27/Exim-bug.png"></mj-image>
+          <mj-text>A critical remote code execution flaw affects over half of the Internet's email servers, and there's no fix for it available, just yet. The bug is a vulnerability in Exim, a mail transfer agent (MTA), which is software that runs on email servers and that relays emails from senders to recipients.</mj-text>
+          <mj-text>According to a security alert published last week on Exim's website, the Exim development team was notified of two bugs that impact Exim 4.88 and 4.89, the two latest Exim versions. The most dangerous of the two bugs is the one tracked as CVE-2017-16943, which is a use-after-free vulnerability that leads to remote code execution on affected servers.</mj-text>
+          <mj-text>The Taiwanese researcher who discovered the bug published his findings, including proof-of-concept code, on Exim's public bug tracker. The researcher said the Exim team did not list an email address for reporting security flaws in private, a mistake that the Exim team admitted.</mj-text>
+          <mj-text>"A tentative patch exists but has not yet been confirmed," said Phil Pennock, one of the Exim developers, in a security alert published late last week. A workaround is available in the article.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.bleepingcomputer.com/news/security/no-patch-available-for-rce-bug-affecting-half-of-the-internets-email-servers/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Amazon adds security monitoring and threat defence with GuardDuty</mj-text>
+          <mj-image src="https://d1.awsstatic.com/Security/Amazon-GuardDuty/GuardDuty_20171127.232582401fbe99b47f9a0db069d821475ef2cac8.png"></mj-image>
+          <mj-text>Amazon has launched GuardDuty, a new intelligence-driven threat detection service that uses machine learning to locate anomalies and notify the user when it finds something suspect.</mj-text>
+          <mj-text>The new offering scans public and AWS-generated events looking for trends, patterns, and anomalies. Findings of the scans are presented to the user as one of low, medium, or high level, along with evidence and recommendations for remediation.</mj-text>
+          <mj-text>GuardDuty consumes multiple data streams, including several threat intelligence feeds, staying aware of IP addresses and domains flagged as malicious, while also learning to identify malicious or unauthorised behaviour in a user's AWS account. GuardDuty runs completely on AWS infrastructure, with no agent or sensor to install, or even a network appliance required to run it.</mj-text>
+          <mj-button mj-class="bg-pink" href="http://www.zdnet.com/article/amazon-adds-security-monitoring-and-threat-defence-with-guardduty/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://aws.amazon.com/guardduty/">
+            AWS product page
+          </mj-button>
+
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="http://www.zdnet.com/article/new-web-browsing-security-tool-arrives-dns-over-tls/">New web browsing security tool arrives: DNS over TLS</a></li>
+              <li><a class="lnk-pink" href="https://www.theregister.co.uk/2017/11/29/google_dev_network/">Wondering why your internal .dev web app has stopped working?</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/2017/11/27/password_psychology/">Don't shame idiots about their idiotically weak passwords</a></li>
+              <li><a class="lnk-orange" href="https://github.com/IOActive/RepoSsessed">RepoSsessed: parse public source code repositories and find various types of vulnerabilities.</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/bindecy/huge-dirty-cow-cve-2017-1000405-110eca132de0">“Huge Dirty COW” (CVE-2017–1000405): The Incomplete Dirty COW patch</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/even-highly-skilled-cyber-thieves-make-stupid-mistakes-or-do-they/">Even Highly Skilled Cyber-Thieves Make Stupid Mistakes, or Do They?</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/android-cryptocurrency-wallet-apps-are-a-security-disaster-waiting-to-happen/Android">Cryptocurrency Wallet Apps Are a Security Disaster Waiting to Happen</a></li>
+              <li><a class="lnk-green" href="https://blog.malwarebytes.com/cybercrime/2017/11/persistent-drive-by-cryptomining-coming-to-a-browser-near-you/">Persistent drive-by cryptomining coming to a browser near you</a></li>
+              <li><a class="lnk-orange" href="https://www.troyhunt.com/heres-what-im-telling-us-congress-about-data-breaches/">Here's What I'm Telling US Congress about Data Breaches</a></li>
+              <li><a class="lnk-purple"  href="https://github.com/payatu/Tiredful-API/blob/master/README.md">Tiredful API: Damn insecure REST API</a></li>
+              <li><a class="lnk-blue" href="https://sec-consult.com/en/blog/2017/11/the-art-of-fuzzing-slides-and-demos/index.html">The art of fuzzing: Slides and demos</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@tomac/a-15-openwrt-based-diy-pen-test-dropbox-26a98a5fa5e5">SWORD dropbox: A $15 OpenWRT based DIY disposable pen-test tool.</a></li>
+              <li><a class="lnk-green" href="https://dejandayoff.com/using-dns-to-break-out-of-isolated-networks-in-a-aws-cloud-environment/">Using DNS to break out of isolated networks in a AWS cloud environment</a></li>
+              <li><a class="lnk-orange" href="https://www.peew.pw/blog/2017/11/26/exploring-cmdkey-an-edge-case-for-privilege-escalation">Exploring cmdkey: An Edge Case for Privilege Escalation</a></li>
+              <li><a class="lnk-purple"  href="https://adsecurity.org/?page_id=1821">Unofficial Guide to Mimikatz and Command Reference</a></li>
+              <li><a class="lnk-blue" href="https://labs.nettitude.com/blog/symantec-encryption-desktop-local-privilege-escalation-exploiting-an-arbitrary-hard-disk-read-write-vulnerability-over-ntfs/">Symantec Encryption Desktop Local Privilege Escalation – Exploiting an Arbitrary Hard Disk Read/Write Vulnerability Over NTFS</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

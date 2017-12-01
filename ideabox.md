@@ -1,39 +1,59 @@
-Uber: Hackers stole 57m passengers, drivers' info. We also bribed the thieves $100k to STFU
-https://www.theregister.co.uk/2017/11/22/uber_2016_data_breach/
-Uber paid hackers a $100,000 cyber bribe to destroy stolen data
-https://www.csoonline.com/article/3238133/security/uber-paid-hackers-a-100000-cyber-bribe-to-destroy-stolen-data.html
-Should Uber Users be Worried About Data Hack?
-http://www.securityweek.com/should-uber-users-be-worried-about-data-hack
+MacOS High Sierra Users: Change Root Password Now
+https://krebsonsecurity.com/2017/11/macos-high-sierra-users-change-root-password-now/
+macOS High Sierra Bug Lets Anyone Gain Root Access Without a Password
+https://thehackernews.com/2017/11/mac-os-password-hack.html
+Patch for macOS Root Access Flaw Breaks File Sharing
+http://www.securityweek.com/patch-macos-root-access-flaw-breaks-file-sharing
+
+Top Secret US Army and NSA Files Left Exposed Online on Amazon S3 Server
+https://www.bleepingcomputer.com/news/security/top-secret-us-army-and-nsa-files-left-exposed-online-on-amazon-s3-server/
+Top secret government files stored without password protection on Amazon server
+https://www.csoonline.com/article/3239069/security/top-secret-government-files-stored-without-password-protection-on-amazon-server.html
+
+Keybase Bug Might Have Backed up Your Private Encryption Key on Google's Servers
+https://www.bleepingcomputer.com/news/security/keybase-bug-might-have-backed-up-your-private-encryption-key-on-googles-servers/
+
+Open source nameserver used by millions needs patching
+https://www.theregister.co.uk/2017/11/28/powerdns_dnssec_bugs/
+Several Vulnerabilities Patched in PowerDNS
+http://www.securityweek.com/several-vulnerabilities-patched-powerdns
+
+No Patch Available for RCE Bug Affecting Half of the Internet's Email Servers
+https://www.bleepingcomputer.com/news/security/no-patch-available-for-rce-bug-affecting-half-of-the-internets-email-servers/
 
 
+Amazon adds security monitoring and threat defence with GuardDuty
+http://www.zdnet.com/article/amazon-adds-security-monitoring-and-threat-defence-with-guardduty/
 
 
-OWASP is pleased to announce the release of the OWASP Top 10 - 2017
-https://owasp.blogspot.com.mt/2017/11/owasp-is-pleased-to-announce-release-of.html
-Final Version of 2017 OWASP Top 10 Released
-http://www.securityweek.com/final-version-2017-owasp-top-10-released
-
-Golden SAML: Newly discovered attack technique forges authentication to cloud apps
-https://www.cyberark.com/threat-research-blog/golden-saml-newly-discovered-attack-technique-forges-authentication-cloud-apps/
+Here's What I'm Telling US Congress about Data Breaches
+https://www.troyhunt.com/heres-what-im-telling-us-congress-about-data-breaches/
 
 
-Firefox Will Warn Users When Visiting Sites That Suffered a Data Breach
-https://www.bleepingcomputer.com/news/security/firefox-will-warn-users-when-visiting-sites-that-suffered-a-data-breach/
+########
+
+New web browsing security tool arrives: DNS over TLS
+http://www.zdnet.com/article/new-web-browsing-security-tool-arrives-dns-over-tls/
+
+Wondering why your internal .dev web app has stopped working?
+https://www.theregister.co.uk/2017/11/29/google_dev_network/
+
+Don't shame idiots about their idiotically weak passwords
+https://www.theregister.co.uk/2017/11/27/password_psychology/
+
+RepoSsessed: parse public source code repositories and find various types of vulnerabilities.
+https://github.com/IOActive/RepoSsessed
 
 
-Introducing security alerts on GitHub
-https://github.com/blog/2470-introducing-security-alerts-on-github
-GitHub Warns Developers When Using Vulnerable Libraries
-http://www.securityweek.com/github-warns-developers-when-using-vulnerable-libraries
+Snoopers beware: Google's AI can now spot shoulder-surfers peeking at your screen
+http://www.zdnet.com/article/snoopers-beware-googles-ai-can-now-spot-shoulder-surfers-peeking-at-your-screen/
 
-Windows 8 and later fail to properly apply ASLR?
-https://www.bleepingcomputer.com/news/security/windows-8-and-later-fail-to-properly-apply-aslr/
-Clarifying the behavior of mandatory ASLR
-https://blogs.technet.microsoft.com/srd/2017/11/21/clarifying-the-behavior-of-mandatory-aslr/
-Microsoft says Win 8/10's weak randomisation is 'working as intended'
-
-KeePass – a password manager that’s cloud-less (but complex)
-https://nakedsecurity.sophos.com/2017/11/17/keepass-a-password-manager-thats-cloud-less-but-complex/
+Even Highly Skilled Cyber-Thieves Make Stupid Mistakes, or Do They?
+https://www.bleepingcomputer.com/news/security/even-highly-skilled-cyber-thieves-make-stupid-mistakes-or-do-they/
 
 
-######CRF######
+Android Cryptocurrency Wallet Apps Are a Security Disaster Waiting to Happen
+https://www.bleepingcomputer.com/news/security/android-cryptocurrency-wallet-apps-are-a-security-disaster-waiting-to-happen/
+
+Persistent drive-by cryptomining coming to a browser near you
+https://blog.malwarebytes.com/cybercrime/2017/11/persistent-drive-by-cryptomining-coming-to-a-browser-near-you/
