@@ -1,0 +1,270 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 11/12/17" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://3.bp.blogspot.com/-tvF-WCffojY/WiaG9C6x8BI/AAAAAAAAvDU/Dr9t2E7TKc4R-rsM8KpT-ZpZxd-h-6cdwCLcBGAs/s1600/email-spoofing.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">11 December 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Mailsploit: It's 2017, and you can spoof the 'from' in email to fool filters</mj-text>
+          <mj-image src="https://3.bp.blogspot.com/-tvF-WCffojY/WiaG9C6x8BI/AAAAAAAAvDU/Dr9t2E7TKc4R-rsM8KpT-ZpZxd-h-6cdwCLcBGAs/s1600/email-spoofing.png"></mj-image>
+          <mj-text color="#fff">Email identities were really easy to spoof back in the 90s and early 2000s. Changing the “From” header field was enough to make friends believe an email came from their mother, significant other, or even the FBI. There were websites specially made for this purpose. However, those tricks no longer work thanks to anti-spoofing protections such as DMARC (DKIM / SPF) and anti-spam filters. Today, emails with a spoofed “From” field either go to the spam folder or are completely rejected by the server...until Mailsploit.</mj-text>
+          <mj-text color="#fff">Penetration tester Sabri Haddouche has reintroduced the world to email source spoofing, bypassing spam filters and protections, thereby posing a risk to anyone running a vulnerable and unpatched mail client.</mj-text>
+          <mj-text color="#fff">What he's found is that more than 30 mail clients including Apple Mail, Thunderbird, various Windows clients, Yahoo! Mail, ProtonMail and more bungled their implementation of an ancient RFC, letting an attacker trick the software into displaying a spoofed from field, even though what the server sees is the real sender.</mj-text>
+          <mj-text color="#fff">The Mailsploit vulnerability stems from how email servers interpret email addresses encoded with RFC-1342. Haddouche discovered that a large number of email clients would take an RFC-1342 encoded string but wouldn't sanitize it afterward to check for malicious code.</mj-text>
+          <mj-text color="#fff">Mailsploit has another nasty side: some trouble ticketing systems (Supportsystem, osTicket and Intercom) are also subject to the bug; and in many mailers, the bug can also be exploited for cross-site scripting and code injection attacks.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.theregister.co.uk/2017/12/06/mailsploit_email_spoofing_bug/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.mailsploit.com/index">
+            "Official" page
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">The Trouble with Politicians Sharing Passwords</mj-text>
+          <mj-image src="https://www.troyhunt.com/content/images/2017/12/TGIF_Toothbrush-700x469.jpg"></mj-image>
+          <mj-text>UK MP Nadine Dorries revealed yesterday that she shares her parliamentary login information with her staff. This was an attempt to defend recently resurfaced allegations about porn allegedly found on fellow politician Damian Green's office computer.</mj-text>
+          <mj-text>She's certainly not the only one handing her password out to other people. Reading through hundreds of tweets on the matter, there's a defence of "yeah but others do it too". It's important to acknowledge that there's a reason Nadine (and others) are deliberately sharing their passwords with other people. Her challenge appears to be handling large volumes of email. As many people pointed out, there are indeed technology solutions available to solve this problem: access delegation.</mj-text>
+          <mj-text>The concept of delegation hinges on someone else being able to perform duties on your behalf. How this is done depends on the technology of choice, for example in the Microsoft world there are a couple of ways to grant other people access. Firstly, you can share folders such that another party can access your mail. Now that's not strictly delegation (they can't act on your behalf), but it addresses use cases where someone else may need to access your messages (i.e. a personal assistant).</mj-text>
+          <mj-text>The frustrating thing for those versed in infosec is that there are plenty of simple technologies to ease password hassles - which are a problem - including password managers, two-factor authentication and more. “I’d like to see proximity card assisted login on MP accounts and computers. You walk away, you’re out. Make the card part of their ID card so they are less likely to ‘loan’ it,” said Rik Ferguson of Trend Micro.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.troyhunt.com/the-trouble-with-politicians-sharing-passwords/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.theregister.co.uk/2017/12/04/dorries_i_give_my_staff_my_login_details/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">New TeamViewer Hack Could Allow Clients to Hijack Viewers' Computer</mj-text>
+          <mj-image src="https://www.hackread.com/wp-content/uploads/2017/12/teamviewer-vulnerability-lets-attackers-take-full-control-of-pcs.jpg?x62286"></mj-image>
+          <mj-text>Do you have remote support software TeamViewer installed on your desktop? If yes, then you should pay attention to a critical vulnerability discovered in the software that could allow users sharing a desktop session to gain complete control of the other's PC without permission.</mj-text>
+          <mj-text>TeamViewer is a popular remote-support software that lets you securely share your desktop or take full control of other's PC over the Internet from anywhere in the world. To do this, the client has to share a secret authentication code with the person he wants to share his desktop. A GitHub user named "Gellin" has disclosed a vulnerability in TeamViewer that could allow the client (sharing its desktop session) to gain control of the viewer's computer without this code.</mj-text>
+          <mj-text>Gellin has also published a proof-of-concept (PoC) code, which is an injectable C++ DLL, which leverages "naked inline hooking and direct memory modification to change TeamViewer permissions." If exploited by the Server—the hack allows viewers to enable "switch sides" feature, which is only active after the server authenticated control with the client, eventually allowing the server to initiate a change of control/sides. If exploited by the Client—the hack allows the client to take control of the mouse and keyboard of the server "with disregard to servers current control settings and permissions."</mj-text>
+          <mj-text>TeamViewer users are recommended to install the patched versions of the software as soon as they become available. Patches will be delivered automatically to those users who have configured their TeamViewer software to receive automatic updates.</mj-text>
+          <mj-button mj-class="bg-green" href="https://thehackernews.com/2017/12/teamviewer-hacking-tool.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://github.com/gellin/TeamViewer_Permissions_Hook_V1">
+            Proof of Concept
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Keyboard app AI.type caught collecting users data after 31M records leaked online</mj-text>
+          <mj-image src="https://www.hackread.com/wp-content/uploads/2017/12/keyboard-app-caught-collecting-users-data-after-exposing-577gb-of-its-database-3.png"></mj-image>
+          <mj-text>It’s just another day with just another breach exposing personal details of unsuspecting users. This time, it’s an immensely popular virtual keyboard app called AI.Type whose developers have exposed personal details of over 31 million users.</mj-text>
+          <mj-text>The database was discovered by security researchers at the Kromtech Security Center who detailed that in total 577 GB of data containing details of 31,293,959 users was left exposed as a result of a misconfigured MongoDB database.</mj-text>
+          <mj-text>The database accessed by researcher included sensitive details of users such as: Full name, phone number, device name, model number, screen resolution, SMS number, mobile network name, Android version, user languages enabled, IMSI number, IMEI number, country of residence, email address, links and the information associated with the social media profiles including photo and in some cases IP addresses.</mj-text>
+          <mj-text>According to Alex Kernishniuk, VP of strategic alliances, Kromtech:”It is clear that data is valuable and everyone wants access to it for different reasons. Some want to sell the data they collect; others use it for targeted marketing, predictive artificial intelligence, and cybercriminals want to use it to make money in more and more creative ways. This is once again a wakeup call for any company that gathers and stores data on their customers to protect, secure, and audit their data privacy practices.”</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.hackread.com/keyboard-app-caught-collecting-users-data-after-31m-records-leaked-online/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://mackeepersecurity.com/post/virtual-keyboard-developer-leaked-31-million-of-client-records">
+            Original statement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Android App Developers at Risk of Attacks via ParseDroid Vulnerability</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/12/05/ParseDroid.png"></mj-image>
+          <mj-text>A vulnerability codenamed ParseDroid affects development tools used by Android app developers and allows attackers to steal files and execute malicious code on vulnerable machines. "The vulnerability exposes the whole OS file system of [affected] users, and as a result, attackers could then potentially retrieve any file on the victim's PC by using a malicious AndroidManifest.xml file," researchers said.</mj-text>
+          <mj-text>Discovered by security researchers from Israeli firm Check Point, ParseDroid affects the XML parsing library included with projects such as APKTool, IntelliJ, Eclipse, and Android Studio. Researchers discovered that this library does not disable external entity references when parsing an XML file, a classic XML External Entity (XXE) vulnerability that attackers can exploit with ease.</mj-text>
+          <mj-text>Check Point said it notified the development teams of all affected products and they've all released updates fixing the ParseDroid flaw. Android app developers and security researchers who use these tools to compile or decompile Android APK files should update their IDEs. Regular Android app users aren't affected by the ParseDroid vulnerability.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://www.bleepingcomputer.com/news/security/android-app-developers-at-risk-of-attacks-via-parsedroid-vulnerability/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="https://thehackernews.com/2017/12/android-development-tools.html">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">How Hackers Become You With Credential Stuffing</mj-text>
+          <mj-image src="https://specials-images.forbesimg.com/dam/imageserve/766493248/960x0.jpg?fit=scale"></mj-image>
+          <mj-text>When you are creating a password for a retail website or banking application, often times you’ll be asked for a capital letter, special character, and a number, as an example. But the vast majority of people do not use something such as tXZiXjkBA(6LJCjigbh6K/x}r)qGw2 for their password. More often than not it would be something akin to “OttawaMickey1” which, while containing a capital letter, a number, and a special character – that isn’t what the site had in mind when they put those requirements in place.</mj-text>
+          <mj-text>We try to use passwords that we remember. Birthdays, favorite hockey players “Sundin13” or a child’s name. This becomes worse when people reuse the same passwords on multiple sites. If your password is Sundin13, as an example, and you use this on your Internet banking site and several retail sites – attackers can become a real problem in the event just one of those sites is compromised. Again, as creatures of habit, people will also use the same email when they create accounts online.</mj-text>
+          <mj-text>OK, so now the attackers have your email and password from a site they have breached. Now, along with potentially thousands of other accounts, they can take those credentials and supply them into an automated tool. This tool can then run those accounts against a target site to see what credentials will work. If they are able to gain access, your account is now taken over by the malicious attacker. This is an attack typed called credential stuffing.</mj-text>
+          <mj-text>As a consumer you need to be sure that you are using different credentials for each account that you have online. You can manage these account credentials with a password manager such as Enpass, Keypass, 1Password, LastPass or Dashlane. As an enterprise there is a need for strong authentication controls, monitoring, and control of what kinds of bots are interacting with your site. This will help to reduce the risk of web fraud and lead to having happier customers and a safer bottom line.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.forbes.com/sites/davelewis/2017/12/04/how-hackers-become-you-with-credential-stuffing/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Doppelgänging: How to circumvent security products to execute code on Windows</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/12/07/Doppleganging.png"></mj-image>
+          <mj-text>Researchers have disclosed an attack which exploits processes in the Windows operating system to circumvent all traditional security software and perform code execution attacks.</mj-text>
+          <mj-text>Process hollowing is the creation of a process for the sole purpose of running a malicious executable inside. In a presentation titled, "Lost in transaction: Process Doppelgänging," the team described a play on process hollowing to circumvent security software.</mj-text>
+          <mj-text>This technique does not require any files to be created during the process, and it cannot be patched as "it exploits fundamental features and the core design of the process loading mechanism in Windows," according to the team. The team says that not only does the technique work on all major products, but can be launched on all versions of Microsoft Windows -- and can also be used to execute hacking utilities such as password stealers to avoid detection and retain persistence. The attack can also give old malware variants new life by making them undetectable.</mj-text>
+          <mj-text>"While this technique leverages Microsoft's transaction technology, it is not a vulnerability, but an evasion technique," Liberman told ZDNet. "That being said, we did submit a description of the technique to Microsoft and as they, too, do not deem it to be a vulnerability, they will not address it."</mj-text>
+          <mj-button mj-class="bg-pink" href="http://www.zdnet.com/article/dancing-around-security-products-to-execute-code-on-windows/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.blackhat.com/docs/eu-17/materials/eu-17-Liberman-Lost-In-Transaction-Process-Doppelganging.pdf">
+            Presentation's slides
+          </mj-button>
+
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2017/12/windows-update-malware-protection.html">Microsoft Issues Emergency Windows Security Update For A Critical Vulnerability</a></li>
+              <li><a class="lnk-pink" href="https://www.darkreading.com/cloud/tips-for-writing-better-infosec-job-descriptions/d/d-id/1330534">Tips for Writing Better Infosec Job Descriptions</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2017/12/05/paypals-tio-networks-breached-pii-of-1-6-million-users-affected/">PayPal’s TIO Networks breached; PII of 1.6 million users affected</a></li>
+              <li><a class="lnk-orange" href="https://scotthelme.co.uk/are-ev-certificates-worth-the-paper-theyre-written-on/">Are EV certificates worth the paper they're written on?</a></li>
+              <li><a class="lnk-purple" href="https://0.me.uk/ev-phishing/">First part of phishing with EV</a></li>
+              <li><a class="lnk-blue" href="https://aws.amazon.com/blogs/security/introducing-aws-single-sign-on/">Introducing AWS Single Sign-On</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/php-adds-support-for-next-gen-password-hashing-algorithm-argon2/">PHP Adds Support for Next-Gen Password Hashing Algorithm Argon2</a></li>
+              <li><a class="lnk-green" href="https://github.com/bbb31/slurp">Slurp: Enumerates S3 buckets manually or via certstream</a></li>
+              <li><a class="lnk-orange" href="https://blog.sucuri.net/2017/12/cloudflare-solutions-keylogger-on-thousands-of-infected-wordpress-sites.html">Cloudflare[.]Solutions Keylogger on Thousands of Infected WordPress Sites</a></li>
+              <li><a class="lnk-purple"  href="https://blog.cloudflare.com/make-ssl-boring-again/">Make SSL boring again</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/nsa-employee-at-the-middle-of-the-kaspersky-saga-admits-taking-files-home/">NSA Employee at the Middle of the Kaspersky Saga Admits Taking Files Home</a></li>
+              <li><a class="lnk-pink" href="https://www.hackread.com/a-tricky-paypal-phishing-scam-that-comes-from-official-paypal-email/">A Tricky PayPal Phishing Scam That Comes From Official PayPal Email</a></li>
+              <li><a class="lnk-green" href="http://www.zdnet.com/article/android-security-alert-googles-latest-bulletin-warns-of-47-bugs-10-critical/">Android security alert: Google's latest bulletin warns of 47 bugs, 10 critical</a></li>
+              <li><a class="lnk-orange" href="https://www.hackread.com/ashley-madison-leaking-private-photos-of-users/">Ashley Madison Found Leaking Private & Explicit Photos of Users</a></li>
+              <li><a class="lnk-purple"  href="https://blogs.dropbox.com/tech/2016/09/how-dropbox-securely-stores-your-passwords/">How Dropbox securely stores your passwords #Old_NotObsolete</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/apps-can-track-users-even-when-gps-is-turned-off/">Apps Can Track Users Even When GPS Is Turned Off #SoDoesGoogle</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2017/12/04/proposed-law-would-jail-execs-who-fail-to-report-data-breaches/">Proposed law would jail execs who fail to report data breaches</a></li>
+              <li><a class="lnk-green" href="https://github.com/0ang3el/EasyCSRF">EasyCSRF extension for Burp</a></li>
+              <li><a class="lnk-orange" href="https://github.com/pglombardo/PasswordPusher">PasswordPusher: Self-hostable app to securely communicate passwords over the web</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/google-ups-chrome-security-for-business-users-with-new-features-and-policies/">Google ups Chrome security for business users with new features and policies</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

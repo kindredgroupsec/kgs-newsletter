@@ -71,7 +71,7 @@
       <!-- Featured (blue) Article -->
       <mj-section background-color="#00a5de">
         <mj-column>
-          <mj-text mj-class="blue h2" align="center">You Can Steal Windows Login Credentials via Google Chrome and SCF Files</mj-text>
+          <mj-text mj-class="white h2" align="center">You Can Steal Windows Login Credentials via Google Chrome and SCF Files</mj-text>
           <mj-image src="https://3.bp.blogspot.com/-4ZwFuBzjaMU/WRwUaQfGK9I/AAAAAAAAssg/B71icOj_nGYPkDn7Ldc7yNbT5GgRevoTgCLcB/s1600/google-chrome-windows-password-hacking-scf-smb.png"></mj-image>
           <mj-text color="#fff">Just by accessing a folder containing a malicious SCF file, a user will unwittingly share his computer's login credentials with an attacker via Google Chrome and the SMB protocol. SCF stands for Shell Command File and is a file format that supports a very limited set of Windows Explorer commands, such as opening a Windows Explorer window or showing the Desktop. The "Show Desktop" shortcut we all use on a daily basis is an SCF file.</mj-text>
           <mj-text color="#fff">Just like LNK files (shortcuts), SCF files, when stored on disk, will retrieve an icon file when the user loads the file in a Windows Explorer window. For many years, LNK files were allowed to store the location of their icon file inside a DLL or at an URL. After the Equation Group (cough, NSA, cough) used the ability to load malicious code via LNK files in the Stuxnet attacks, Microsoft patched LNK files to load their icons only from local resources. The same was not done for SCF files, which were not included in this patch, still being possible to load the icon of an SCF file from the Internet.</mj-text>
