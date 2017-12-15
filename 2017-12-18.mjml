@@ -1,0 +1,276 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 18/12/17" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://pbs.twimg.com/media/DQw_9BWVoAo6yPd.jp" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">18 December 2017</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Security Planner: Improve your online safety with advice from experts</mj-text>
+          <mj-image src="https://pbs.twimg.com/media/DQw_9BWVoAo6yPd.jpg"></mj-image>
+          <mj-text color="#fff">Many of us feel we could be doing more to stay safe online, but it can be hard to decide where to start and which advice to follow. We are often asked about security advice “for the rest of us.” Fortunately, experts tend to agree that there are basic steps that anyone can take to make their accounts and devices safer. We believe that these practices work like a vaccine: when more people take steps to be safer, everyone’s safety increases.</mj-text>
+          <mj-text color="#fff">Security Planner is an easy-to-use platform with tested, peer reviewed recommendations for staying safe online. With just a few clicks, Security Planner tailors straightforward recommendations based on someone’s digital habits and the technology they use. Recommendations are presented with clear language, making it easier to decide if they are right for someone. Our goal is to put people in a position to move from learning to action.</mj-text>
+          <mj-text color="#fff">Finally, it asks questions to identify people who, because of who they are or what they do, may face additional risks. Since these users are likely to require deeper, more personalized assistance, Security Planner points them to organizations and resources that offer these specialized services.</mj-text>
+          <mj-text color="#fff">Our recommendations are developed by a peer review committee of experts from universities, non-profits, and the private sector. This approach ensures that no private company can exercise influence over the products or services that we recommend. Security Planner is also overseen by an advisory board whose members include some of the world’s leading thinkers and practitioners in the digital security space.</mj-text>
+          <mj-text color="#fff">Clear advice and simple steps for your personal online safety are only a few clicks away. See for yourself at Security Planner.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://securityplanner.org/">
+            Security Planner
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://citizenlab.ca/2017/12/citizen-lab-launches-security-planner/">
+            Original statement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Three Hackers Plead Guilty to Creating IoT-based Mirai DDoS Botnet</mj-text>
+          <mj-image src="https://2.bp.blogspot.com/-NGXVqcGcESE/WjFW23bmt3I/AAAAAAAAvM4/D2lsKarAnikkEbgxc7215LipCGYLlWV-ACLcBGAs/s1600/Mirai-Botnet.png"></mj-image>
+          <mj-text>The U.S. Justice Department on Tuesday unsealed the guilty pleas of two men first identified in January 2017 by KrebsOnSecurity as the likely co-authors of Mirai, a malware strain that remotely enslaves so-called “Internet of Things” devices such as security cameras, routers, and digital video recorders for use in large scale attacks designed to knock Web sites and entire networks offline (including multiple major attacks against this site).</mj-text>
+          <mj-text>Jha and White were co-founders of Protraf Solutions LLC, a company that specialized in mitigating large-scale DDoS attacks. Like firemen getting paid to put out the fires they started, Jha and White would target organizations with DDoS attacks and then either extort them for money to call off the attacks, or try to sell those companies services they claimed could uniquely help fend off the attacks.</mj-text>
+          <mj-text>The Mirai malware is responsible for coordinating some of the largest and most disruptive online attacks the Internet has ever witnessed. That September 2016 digital siege maxed out at 620 Gbps, almost twice the size of the next-largest attack that Akamai — Krebs' DDoS mitigation provider at the time — had ever seen.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://krebsonsecurity.com/2017/12/mirai-iot-botnet-co-authors-plead-guilty/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2017/12/hacker-ddos-mirai-botnet.html">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">I'm Sorry You Feel This Way NatWest, but HTTPS on Your Landing Page Is Important</mj-text>
+          <mj-image src="https://www.troyhunt.com/content/images/2017/12/Is-NatWest-Secure.jpg"></mj-image>
+          <mj-text>This was after a concerned customer and then myself trying to explain to them that serving their home page over a non-secure connection wasn't such a good idea. The "I'm sorry you feel this way" tweet was in response to me laying things out in what Troy Hunt thought was a pretty crystal-clear fashion. Their original argument - and certainly they're not alone in this misconception - is that because the landing page of the website doesn't have anything sensitive on it then it doesn't require HTTPS.</mj-text>
+          <mj-text>It's served over HTTP so it's not an encrypted connection and can therefore be intercepted, the traffic read, modified or requests redirect to other locations. We're seeing "Not secure" next to the address bar. Then we have the link to the login page which is the source of much of this controversy. That link takes you off to https://www.nwolb.com/default.aspx which is indeed encrypted. The padlock next to that link is of zero functional value and importantly in the context of this post, is the only padlock on the page because the browser won't give you one due to the non-secure connection!</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.troyhunt.com/im-sorry-you-feel-this-way-natwest-but-https-on-your-landing-page-is-important/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">'ROBOT Attack' Exposed Facebook With 19-Year-Old Bug</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/12/12/TheROBOTAttack.png"></mj-image>
+          <mj-text>Facebook has paid out a bounty to thank some benevolent hackers who made subtle alterations to an 19-year-old attack to potentially steal user accounts. Whilst the social network has fixed, however, many major websites remain vulnerable, the researchers warned.</mj-text>
+          <mj-text>Three security researchers have discovered a variation to an old cryptographic attack that can be exploited to obtain the private encryption key necessary to decrypt sensitive HTTPS traffic under certain conditions. Named ROBOT, which stands for Return Of Bleichenbacher's Oracle Threat, this new attack is a variation of the Bleichenbacher attack on the RSA algorithm discovered almost two decades ago.</mj-text>
+          <mj-text>Until patches arrive for vulnerable products, the ROBOT research team and US-CERT recommend that owners of vulnerable devices disable TLS session key RSA encryption (also known as RSA encryption mode) on their device. This won't be an issue as most devices also support Elliptic Curve Diffie Hellman (ECDH) session key encryption as a better solution for RSA.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.forbes.com/sites/thomasbrewster/2017/12/12/robot-hack-exploits-encryption-weaknesses-in-major-websites-facebook-patches/#300977c25cc4">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/variation-of-19-year-old-cryptographic-attack-affects-facebook-paypal-others/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">TRITON Malware Used in Attacks Against Industrial Safety Equipment</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2017/12/14/Triton.png"></mj-image>
+          <mj-text>Security researchers from FireEye's Mandiant investigative division have spotted a new form of malware that's capable of targeting industrial equipment.</mj-text>
+          <mj-text>SIS controllers are special equipment installed in production lines and other industrial setups. They work by reading data from industrial equipment, such as factory machinery, robots, valves, motors, and others. SIS controllers read data streams and make sure the industrial equipment works between certain parameters. If data deviates from a predetermined safety margin, the SIS controller takes a set of actions, which in extreme cases can shut down an entire factory or production line, but will protect human lives and equipment.</mj-text>
+          <mj-text>The malware hidden inside this fake software would read the configuration files it found on the infected SIS engineering workstation, identify SIS controllers, and attempt to deploy certain payloads. The payloads were configured to either shut down the production process or allow SIS-controlled machinery to work in an unsafe state, most likely to trigger physical damage.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://www.bleepingcomputer.com/news/security/triton-malware-used-in-attacks-against-industrial-safety-equipment/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="https://thehackernews.com/2017/12/triton-ics-scada-malware.html">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Microsoft Azure AD Connect Flaw Elevates Employee Privilege</mj-text>
+          <mj-image src="https://www.supinfo.com/articles/resources/208574/4500/0.png"></mj-image>
+          <mj-text>Microsoft today issued a security advisory to alert users to an improper default configuration in Azure AD Connect, which increases the number of "stealthy admins" on corporate networks and makes businesses more vulnerable to targeted attacks.</mj-text>
+          <mj-text>Preempt researchers found many employees on their customers' networks had some type of unnecessary administrative privilege, which came from unintentional inclusion in a protected administrative group. Active Directory audit systems often miss "stealthy admins," or admins who have higher domain privileges as a direct result of domain discretionary access control list (DACL) configuration.</mj-text>
+          <mj-text>Several permissions could give stealthy admins full domain admin privileges. Stealthy admins may be non-administrative users who can add users to security groups, which would enable them to make themselves a domain admin at any point. Another is the ability to replicate a domain, which includes the ability to read password hashes from the domain controller.</mj-text>
+          <mj-text>When you provision Office 365 in the organization, the first thing you need to do is sync the on-prem directory with the cloud directory," says Ziner. When Azure AD Connect is installed, it creates a service (MSOL) account that syncs directories to read on-prem passwords. This is a "stealthy admin" account: it can access passwords but doesn't have strong security measures.</mj-text>
+          <mj-text>The company also recommends moving the AD DS account used by Azure AD Connect, and other privileged accounts, into an Organization Unit that is only accessible by highly trusted admins. When giving reset password permissions to specific users, limit their access to only user objects they are supposed to manage.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.darkreading.com/cloud/microsoft-azure-ad-connect-flaw-elevates-employee-privilege/d/d-id/1330616">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">The 2018 Guide to Building Secure PHP Software</mj-text>
+          <mj-image src="https://paragonie.com/files/blog/php-security-2018.png"></mj-image>
+          <mj-text>As the year 2018 approaches, technologists in general—and web developers in particular—must discard many of their old practices and beliefs about developing secure PHP applications. This is especially true for anyone who does not believe such a feat is even possible.</mj-text>
+          <mj-text>This guide should serve as a complement to the e-book, PHP: The Right Way, with a strong emphasis on security and not general PHP programmer topics (e.g. code style).</mj-text>
+          <mj-button mj-class="bg-pink" href="https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software">
+            Read More
+          </mj-button>
+
+
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://lightningsecurity.io/blog/host-header-injection/">Don't Trust the Host Header for Sending Password Reset Emails</a></li>
+              <li><a class="lnk-pink" href="https://aws.amazon.com/blogs/security/now-available-new-digital-training-to-help-you-learn-about-aws-cloud-security/">New (free) Digital Training to Help You Learn About AWS Cloud Security</a></li>
+              <li><a class="lnk-green" href="https://security.googleblog.com/2017/12/securing-communications-between-google.html">Securing communications between Google services with Application Layer Transport Security</a></li>
+              <li><a class="lnk-orange" href="https://cloudplatform.googleblog.com/2017/12/how-Google-protects-your-data-in-transit.html">How Google protects your data in transit</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/@wallarm/the-good-the-bad-and-the-ugly-of-safari-in-client-side-attacks-56d0cb61275a">The Good, The Bad and The Ugly of Safari in Client-Side Attacks</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/how-to-install-the-built-in-windows-10-openssh-server/">How to Install the Built-In Windows 10 OpenSSH Server</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2017/12/patch-tuesday-december-2017-edition/">Patch Tuesday, December 2017 Edition</a></li>
+              <li><a class="lnk-green" href="https://oddvar.moe/2017/12/13/applocker-case-study-how-insecure-is-it-really-part-1/">AppLocker – Case study – How insecure is it really?</a></li>
+              <li><a class="lnk-orange" href="https://oddvar.moe/2017/12/13/harden-windows-with-applocker-based-on-case-study-part-1/">How to harden Applocker - Block the bypass technique</a></li>
+              <li><a class="lnk-purple" href="https://www.twistlock.com/2017/12/13/hiding-content-git-escape-sequence-twistlock-labs-experiment/">Hiding content from Git + more on escape sequences</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cryptojackers-found-on-starbucks-wifi-network-github-pirate-streaming-sites/">Cryptojackers Found on Starbucks WiFi Network, GitHub, Pirate Streaming Sites</a></li>
+              <li><a class="lnk-pink" href="https://aws.amazon.com/blogs/security/introducing-the-new-gdpr-center-and-navigating-gdpr-compliance-on-aws-whitepaper/">Introducing the New GDPR Center and “Navigating GDPR Compliance on AWS” Whitepaper</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/jonluca/Anubis">Anubis: Subdomain enumeration and information gathering tool</a></li>
+              <li><a class="lnk-pink" href="https://retdec.com/">RetDec: retargetable machine-code decompiler based on LLVM.</a></li>
+              <li><a class="lnk-green" href="https://github.com/secrary/makin">Makin: Reveal anti-debugging tricks</a></li>
+              <li><a class="lnk-orange" href="https://gitlab.com/nowayout/yara_sweeper">Yara Sweeper: Run yara rules in a large scale environment.</a></li>
+              <li><a class="lnk-purple" href="https://github.com/deadPix3l/CryptSky">CryptSky: an open source, fully python ransomware PoC.</a></li>
+              <li><a class="lnk-blue" href="Detection Lab: Windows AD VM infra,  with a collection of endpoint security tooling and logging">https://medium.com/@clong/introducing-detection-lab-61db34bed6ae</a></li>
+
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#d42426">
+        <mj-column>
+          <mj-text mj-class="white h3" align="center">This is the last Kindred Security Newsletter for 2017</mj-text>
+          <mj-image src="http://www.staffingsolution.com.au/site/user-assets/images/transparent_christmas_pine_garland_red_bow_png_clipart.png"></mj-image>
+
+          <mj-text mj-class="white">It's time for the Kindred Group Security team to take some holiday. The newsletter will be off for a few weeks during Christmas and New Year's Eve. But don't worry, we'll be back. See you soon for some awesome infosec news!</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
