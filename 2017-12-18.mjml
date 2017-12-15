@@ -232,6 +232,8 @@
               <li><a class="lnk-purple" href="https://www.twistlock.com/2017/12/13/hiding-content-git-escape-sequence-twistlock-labs-experiment/">Hiding content from Git + more on escape sequences</a></li>
               <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cryptojackers-found-on-starbucks-wifi-network-github-pirate-streaming-sites/">Cryptojackers Found on Starbucks WiFi Network, GitHub, Pirate Streaming Sites</a></li>
               <li><a class="lnk-pink" href="https://aws.amazon.com/blogs/security/introducing-the-new-gdpr-center-and-navigating-gdpr-compliance-on-aws-whitepaper/">Introducing the New GDPR Center and “Navigating GDPR Compliance on AWS” Whitepaper</a></li>
+              <li><a class="lnk-green" href="http://blog.en.elevenpaths.com/2017/12/breaking-out-hsts-and-hpkp-on-firefox.html">Breaking Out HSTS (and HPKP) on Firefox, IE/Edge and (possibly) Chrome.</a></li>
+              <li><a class="lnk-orange" href="https://colloq.io/blog/how-our-password-check-works">How Our Password Check Works</a></li>
             </ul>
           </mj-text>
           <mj-spacer height="30px" />
