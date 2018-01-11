@@ -1,0 +1,270 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 15/01/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/posts/2018/01/03/Meltdown+Spectre.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">15 January 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Meltdown / Spectre: Almost all CPUs since 1995 vulnerable to these attacks</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/01/03/Meltdown+Spectre.png"></mj-image>
+          <mj-text color="#fff">Meltdown and Spectre exploit critical vulnerabilities in modern processors. These hardware vulnerabilities allow programs to steal data which is currently processed on the computer. While programs are typically not permitted to read data from other programs, a malicious program can exploit Meltdown and Spectre to get hold of secrets stored in the memory of other running programs. This might include your passwords stored in a password manager or browser, your personal photos, emails, instant messages and even business-critical documents. Meltdown and Spectre work on personal computers, mobile devices, and in the cloud. Depending on the cloud provider's infrastructure, it might be possible to steal data from other customers.</mj-text>
+          <mj-text color="#fff">The bugs were discovered by Jann Horn, a security researcher with Google Project Zero. Horn describes these issues as hardware bugs that will need both firmware patches from CPU vendors and software fixes from both OS and application vendors. According to Google, everything and everyone is affected. This includes all major chipset vendors (Intel, AMD, ARM), all major operating systems (Windows, Linux, macOS, Android, ChromeOS), cloud providers (Amazon, Google, Microsoft), and application makers.</mj-text>
+          <mj-text color="#fff">The actual flaws reside in a technique called "speculative execution" that is employed by all modern CPUs. This is a basic optimization technique that processors employ to carry out computations for data they "speculate" may be useful in the future. Google says that Horn discovered a way to use speculative execution to read data from the CPU's memory that should have not been available for user-level apps.</mj-text>
+          <mj-text color="#fff"><strong>Meltdown</strong> breaks the most fundamental isolation between user applications and the operating system. This attack allows a program to access the memory, and thus also the secrets, of other programs and the operating system.<strong>Spectre</strong> breaks the isolation between different applications. It allows an attacker to trick error-free programs, which follow best practices, into leaking their secrets. In fact, the safety checks of said best practices actually increase the attack surface and may make applications more susceptible to Spectre.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/google-almost-all-cpus-since-1995-vulnerable-to-meltdown-and-spectre-flaws/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://meltdownattack.com/">
+            "Official" page
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://blog.cloudflare.com/meltdown-spectre-non-technical/">
+            Meltdown / Spectre explanation for non-technical audience
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">2018 - Bad start for MacOS as well</mj-text>
+          <mj-image src="https://4.bp.blogspot.com/-j3QDxj8egDI/WlcYpp3-dYI/AAAAAAAAvbQ/fba8tgSHiaAhc74zcTBMOnHS95GaO4DuACLcBGAs/s1600/macOS-high-sierra-password-unlock.png"></mj-image>
+          <mj-text>Yet another password vulnerability has been uncovered in macOS High Sierra, which unlocks App Store System Preferences with any password (or no password at all). The vulnerability impacts macOS version 10.13.2 and requires the attacker to be logged in with an administrator-level account for this vulnerability to work. </mj-text>
+          <mj-text>Apple also patched a similar vulnerability in October in macOS, which affected encrypted volumes using APFS wherein the password hint section was showing the actual password of the user in the plain text. There was also the root login bug in Apple's desktop OS that enabled access to the root superuser account simply by entering a blank password on macOS High Sierra 10.13.1. What's wrong with password prompts in macOS? It's high time Apple should stop shipping updates with such an embarrassing bug.</mj-text>
+          <mj-text>A few days ago, a researcher ended 2017 with a bang by releasing details of a macOS kernel exploit, based on an IOHIDFamily zero-day, that affects all Mac operating systems. The bug is a local privilege escalation (LPE) flaw that can be exploited only if an attacker has local access to the Mac — or previously pwned the computer. However, exploiting it would give an attacker root access.</mj-text>
+          <mj-text>The researcher said "I would’ve submitted to Apple if their bug bounty included macOS."</mj-text>
+          <mj-button mj-class="bg-pink" href="https://amp.thehackernews.com/thn/2018/01/macOS-high-sierra-password.html">
+            App Store preferences can be unlocked without a password
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.csoonline.com/article/3245037/security/researcher-drops-15-year-old-macos-zero-day-that-leads-to-full-system-compromise.html">
+            15-years old MacOS 0-day leads to full system compromise
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Flaw In Major Browsers Allows 3rd-Party Scripts to Steal Your Saved Passwords</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-ZK-hM3-1mhw/WktfRDD2CUI/AAAAAAAAvWw/fujokh_5FDYhTtxV91JxDjfKFyNQRvJPwCLcBGAs/s1600/browser-password-manager-hacking.png"></mj-image>
+          <mj-text>Security researchers have uncovered how marketing companies have started exploiting an 11-year-old bug in browsers' built-in password managers, which allow them to secretly steal your email address for targeted advertising across different browsers and devices.</mj-text>
+          <mj-text>Every modern browser—Google Chrome, Mozilla Firefox, Opera or Microsoft Edge—today comes with a built-in easy-to-use password manager tool that allows you to save your login information for automatic form-filling. Third-party tracking scripts found by researchers inject invisible login forms in the background of the webpage, tricking browser-based password managers into auto-filling the form using the saved user's information. Since these scripts are primarily designed for user-tracking, they detect the username and send it to third-party servers after hashing with MD5, SHA1 and SHA256 algorithms, which could then be used as a persistent ID for a specific user to track him/her from page to page.</mj-text>
+          <mj-text>Although the researchers have spotted marketing firms scooping up your usernames using such tracking scripts, there is no technical measure to prevent these scripts from collecting your passwords the same way. The simplest way to prevent such attacks is to disable the autofill function on your browser.</mj-text>
+          <mj-button mj-class="bg-green" href="https://amp.thehackernews.com/thn/2018/01/browser-password-managers.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://senglehardt.com/demo/no_boundaries/loginmanager/">
+            Login Manager autofill abuse demo page
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">VTech hack fallout: What is a kid's privacy worth? About 22 cents – FTC</mj-text>
+          <mj-image src="https://regmedia.co.uk/2017/05/04/shuttertock_glum_kid.jpg?x=442&y=293&crop=1"></mj-image>
+          <mj-text>The US Federal Trade Commission (FTC) today agreed to a settlement deal with a children's electronic toymaker it had accused of collecting kids' personal information and then failing to properly secure that data. The government watchdog said VTech will pay $650,000 and agree to a set of privacy and security requirements in order to settle charges it violated both the Children's Online Privacy Protection Act (COPPA) and the FTC Act. VTech will also agree to a stricter set of compliance requirements, including regular third-party security audits to check whether it is properly storing and encrypting its collected information, and to make sure it is getting express consent from parents before it collects and personal information.</mj-text>
+          <mj-text>The breached Learning Lodge and Kid Connect services were said to have hosted around 2.25 million accounts that contained information on roughly three million kids. The accounts had things like the child's name, date of birth, and gender as well as the parent's name, physical address, email address, and security question answers. VTech was accused of failing to properly encrypt that information (a violation of COPPA) and lying to parents about the extent of data collection and level of security it used (a violation of the FTC Act).</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.theregister.co.uk/2018/01/08/vtech_ftc_settlement_hacking/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">With WPA3, Wi-Fi security is about to get a lot tougher</mj-text>
+          <mj-image src="https://cnet4.cbsistatic.com/img/SnTUMSRicSo0ykkss4tGd-kV-Gg=/2018/01/08/491ab1f6-9e01-43dd-b7fe-8f1f068e1166/10069532ec3365d748b6f7decf8625fc.gif"></mj-image>
+          <mj-text>The Wi-Fi Alliance, an industry body made up of device makers, announced monday its next-generation wireless network security standard, WPA3. The standard will replace WPA2, a near-two decades-old security protocol that's built in to protect almost every wireless device today -- including phones, laptops, and the Internet of Things.</mj-text>
+          <mj-text>One of the key improvements in WPA3 will aim to solve a common security problem: open Wi-Fi networks. Seen in coffee shops and airports, open Wi-Fi networks are convenient but unencrypted, allowing anyone on the same network to intercept data sent from other devices. WPA3 employs individualized data encryption, which scramble the connection between each device on the network and the router, ensuring secrets are kept safe and sites that you visit haven't been manipulated.</mj-text>
+          <mj-text>Another key improvement in WPA3 will protect against offline brute-force dictionary attacks, making it tougher for attackers near your Wi-Fi network to guess a list of possible passwords. The new wireless security protocol will also block an attacker after too many failed password guesses.</mj-text>
+          <mj-text>The new WPA3 security standard is expected to land in devices later this year.</mj-text>
+          <mj-button mj-class="bg-purple" href="http://www.zdnet.com/article/wpa3-wireless-standard-tougher-wifi-security-revealed/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="https://www.bleepingcomputer.com/news/hardware/wpa3-wifi-standard-announced-after-researchers-kracked-wpa2-three-months-ago/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Say hello to security.txt</mj-text>
+          <mj-image src="https://user-images.githubusercontent.com/8936090/31477035-069e33da-af0a-11e7-9a8c-fad08ecc5dba.png"></mj-image>
+          <mj-text>“When security risks in web services are discovered by independent security researchers who understand the severity of the risk, they often lack the channels to disclose them properly. As a result, security issues may be left unreported. Security.txt defines a standard to help organizations define the process for security researchers to disclose security vulnerabilities securely.”</mj-text>
+          <mj-text>The security.txt file is a simple text file, much like robots.txt, that contains crucial information on who to contact or where to look for security related information about a website. You can read the RFC and check out the securitytxt.org website for more details. That simple little piece of information gives a researcher exactly the information they need should they ever want to contact you.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://scotthelme.co.uk/say-hello-to-security-txt/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://securitytxt.org/">
+            Project page
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Fixing Data Breaches</mj-text>
+          <mj-image src="https://frankonfraud.com/wp-content/uploads/2017/11/2017-data-breach-level.jpg"></mj-image>
+          <mj-text>We have a data breach problem. They're constant news headlines, they're impacting all of us and frankly, things aren't getting any better. Quite the opposite, in fact - things are going downhill in a hurry. In this 5-parts blog series, you'll find recommendations on how we can address the root causes of data breaches</mj-text>
+          <mj-text>
+          <ul>
+            <li><a class="lnk-blue" href="https://www.troyhunt.com/fixing-data-breaches-part-1-education/">Fixing Data Breaches Part 1: Education</a></li>
+            <li><a class="lnk-pink" href="https://www.troyhunt.com/fixing-data-breaches-part-2-data-ownership-minimisation/">Fixing Data Breaches Part 2: Data Ownership & Minimisation</a></li>
+            <li><a class="lnk-green" href="https://www.troyhunt.com/fixing-data-breaches-part-3-the-ease-of-disclosure/">Fixing Data Breaches Part 3: The Ease of Disclosure</a></li>
+            <li><a class="lnk-orange" href="https://www.troyhunt.com/fixing-data-breaches-part-4-bug-bounties/">Fixing Data Breaches Part 4: Bug Bounties</a></li>
+            <li><a class="lnk-purple" href="https://www.troyhunt.com/fixing-data-breaches-part-5-penalties/">Fixing Data Breaches Part 5: Penalties</a></li>
+          </ul></mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://twofactorauth.org/">List of websites and whether or not they support 2FA.</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2018/01/whatsapp-encryption-spying.html">WhatsApp Flaw Could Allow 'Potential Attackers' to Spy On Encrypted Group Chats</a></li>
+              <li><a class="lnk-green" href="https://pwdless.github.io/Cierge-Website/">Cierge: "passwordless" open source authentication server (OIDC)</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2018/01/microsoft-security-patch.html">Microsoft Releases Patches for 16 Critical Flaws, Including a Zero-Day</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/-trackmageddon-vulnerabilities-discovered-in-gps-location-tracking-services/">"Trackmageddon" Vulnerabilities Discovered in (GPS) Location Tracking Services</a></li>
+              <li><a class="lnk-blue" href="https://rcoh.me/posts/two-factor-auth/">Demystifying Two Factor Auth</a></li>
+              <li><a class="lnk-pink" href="https://navytitanium.github.io/DNSMasterChef/">Setting up a DNS Firewall on steroids</a></li>
+              <li><a class="lnk-green" href="http://www.kvakil.me/posts/ropchain/">Ropchain - How to bypass ASLR+DEP+stack canaries</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More Spectre / Meltdown stuff</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAtckQxYiuirADzf3cL42FQ/htmlview?usp=sharing&sle=true">Windows' antivirus security update compatibility matrix</a></li>
+              <li><a class="lnk-pink" href="https://arstechnica.com/gadgets/2018/01/meltdown-and-spectre-heres-what-intel-apple-microsoft-others-are-doing-about-it/">Meltdown and Spectre: Here’s what Intel, Apple, Microsoft, others are doing about it</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/how-to-check-and-update-windows-systems-for-the-meltdown-and-spectre-cpu-flaws/">How to Check and Update Windows Systems for the Meltdown and Spectre CPU Flaws</a></li>
+              <li><a class="lnk-orange" href="https://www.renditioninfosec.com/2018/01/meltdown-and-sceptre-enterprise-action-plan/">Meltdown and Spectre – enterprise action plan</a></li>
+              <li><a class="lnk-purple" href="https://www.endgame.com/blog/technical-blog/detecting-spectre-and-meltdown-using-hardware-performance-counters">Detecting Spectre And Meltdown Using Hardware Performance Counters</a></li>
+              <li><a class="lnk-blue" href="http://www.tomshardware.com/news/meltdown-spectre-exploit-browser-javascript,36221.html">Meltdown, Spectre and your browser: Edge/Firefox/Chrome/Safari</a></li>
+              <li><a class="lnk-pink" href="https://webkit.org/blog/8048/what-spectre-and-meltdown-mean-for-webkit/">What Spectre and Meltdown Mean For WebKit</a></li>
+              <li><a class="lnk-green" href="https://github.com/marcan/speculation-bugs/blob/master/README.md">CPU security bugs caused by speculative execution</a></li>
+              <li><a class="lnk-orange" href="https://github.com/speed47/spectre-meltdown-checker">Spectre - Meltdown Checker Shell script</a></li>
+              <li><a class="lnk-purple" href="https://github.com/stressboi/splunk-spectre-meltdown-uf-script">Spectre - Meltdown checker - Splunk UF script</a></li>
+              <li><a class="lnk-blue" href="https://github.com/paragonie/past">Platform-Agnostic Security Tokens</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
