@@ -233,10 +233,12 @@
               <li><a class="lnk-blue" href="https://rcoh.me/posts/two-factor-auth/">Demystifying Two Factor Auth</a></li>
               <li><a class="lnk-pink" href="https://navytitanium.github.io/DNSMasterChef/">Setting up a DNS Firewall on steroids</a></li>
               <li><a class="lnk-green" href="http://www.kvakil.me/posts/ropchain/">Ropchain - How to bypass ASLR+DEP+stack canaries</a></li>
+              <li><a class="lnk-orange" href="https://www.darkreading.com/endpoint/microsoft-launches-private-conversations-in-skype/d/d-id/1330811">Microsoft Launches 'Private Conversations' in Skype</a></li>
+              <li><a class="lnk-purple" href="https://github.com/paragonie/past">Platform-Agnostic Security Tokens</a></li>
             </ul>
           </mj-text>
           <mj-spacer height="30px" />
-          <mj-text mj-class="h2">More Spectre / Meltdown stuff</mj-text>
+          <mj-text mj-class="h2">More Spectre / Meltdown content</mj-text>
           <mj-text>
             <ul>
               <li><a class="lnk-blue" href="https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAtckQxYiuirADzf3cL42FQ/htmlview?usp=sharing&sle=true">Windows' antivirus security update compatibility matrix</a></li>
@@ -249,7 +251,7 @@
               <li><a class="lnk-green" href="https://github.com/marcan/speculation-bugs/blob/master/README.md">CPU security bugs caused by speculative execution</a></li>
               <li><a class="lnk-orange" href="https://github.com/speed47/spectre-meltdown-checker">Spectre - Meltdown Checker Shell script</a></li>
               <li><a class="lnk-purple" href="https://github.com/stressboi/splunk-spectre-meltdown-uf-script">Spectre - Meltdown checker - Splunk UF script</a></li>
-              <li><a class="lnk-blue" href="https://github.com/paragonie/past">Platform-Agnostic Security Tokens</a></li>
+              <li><a class="lnk-blue" href="http://www.securityweek.com/amd-working-microcode-updates-mitigate-spectre-attack">AMD Working on Microcode Updates to Mitigate Spectre Attack</a></li>
             </ul>
           </mj-text>
         </mj-column>
