@@ -1,0 +1,269 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 22/01/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="http://i.imgur.com/kQIWprp.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">22 January 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Wanna motivate staff to be more secure? Don't bother bribing 'em</mj-text>
+          <mj-image src="https://i.imgur.com/zn1MjGn.png"></mj-image>
+          <mj-text color="#fff"> It's frustrating getting users to keep information and systems secure on a daily basis. However, don't try any smart gimmicks – particularly offering wedges of cash or other prizes for good behavior. It doesn't work. Quite the opposite, it can make things worse.</mj-text>
+          <mj-text color="#fff">Paying out a bonus to those who make few or zero security mistakes ultimately demotivates staff, Masha Sedova, cofounder of Elevate security, told Usenix's Enigma 2018 security conference. This is, in part, because once an incentive – especially a financial one – is dangled as a carrot, it's usually never substantial enough to warrant the extra effort required to follow security best practices. Thus, most people don't bother at all to meet the standard, reducing overall security.</mj-text>
+          <mj-text color="#fff">Another, er, motivational technique – naming and shaming of employees by the BOFH – doesn’t work either. Sedova said this massively demotivates staff. Instead, IT security teams need to be more positive with users. And by positive, she meant that workers should be praised for good behavior, and be given better tools to tackle threats to the network.</mj-text>
+          <mj-text color="#fff">Sedova said that research, and her experience, shows that around 20 per cent of the workforce are very motivated to secure their systems. Around 70 per cent are ambivalent about it and will use security if it’s easy enough, but 10 per cent won’t touch security at all – and in the latter case, naming and shaming may be the only option.</mj-text>
+          <mj-text color="#fff">research also revealed that Facebook users are more concerned about the security of their friends and family than they are about their own accounts. This means it should be possible to make security awareness spread in a viral way. "Reminding family about security techniques can be very effective in changing behavior," Das said. "But it has limitations – warn people too often and you're seen as a nag."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.theregister.co.uk/2018/01/17/staff_security_training/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://drive.google.com/file/d/1Hh5YPbuxzWSBR9oRN5x0ikVyXeT-DuO1/view">
+            Presentation slides
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Intel AMT Security Issue Lets Attackers Bypass BIOS and BitLocker Passwords</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/01/12/Intel-AMT.jpg"></mj-image>
+          <mj-text>An F-Secure security researcher has found a way to use Intel's Active Management Technology (AMT) to bypass BIOS passwords, BitLocker credentials, and TPM pins and gain access to previously-secured corporate computers. Only laptops and computers on which Intel AMT has been provisioned (configured) are vulnerable, according to F-Secure security researcher Harry Sintonen, the one who claims to have discovered the issue last July.</mj-text>
+          <mj-text>Computers on which AMT has been configured without an AMT password are vulnerable. He says a malicious actor with access to the device can press CTRL+P during the boot-up process and select the Intel Management Engine BIOS Extension (MEBx) for the boot-up routine, effectively bypassing any previous BIOS, BitLocker, or TPM logins. A MEBx password is required, but Sintonen says that in most cases companies do not change the default, which is "admin."</mj-text>
+          <mj-text>Most security experts scoff at the idea of attacks requiring "physical access" to perform and often demean their importance of such issues compared to other security bugs. But because this attack takes under a minute to perform and configure the device for future remote access. Sintonen recommends that companies configure an AMT password so attackers wouldn't be able to boot via MEBx and compromise the system. Optionally, unlike the Intel Management Engine (ME), AMT can be disabled, an option that Sintonen also recommends in situations where AMT use is not a corporate policy.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/intel-amt-security-issue-lets-attackers-bypass-bios-and-bitlocker-passwords/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://business.f-secure.com/intel-amt-security-issue">
+            Original statement from F-Secure
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">The First "Serverless Architectures Security Top 10" Guide Released</mj-text>
+          <mj-image src="https://i.imgur.com/oZCwDpG.png"></mj-image>
+          <mj-text>PureSec is launching the “Serverless Architectures Security Top 10” project - this project is meant to provide assistance and education for organizations looking to adopt serverless architectures. This document is not a secure coding best practices, but rather a list of the top most common weaknesses that are found in serverless applications.</mj-text>
+          <mj-text>Serverless architectures enable organizations to build and deploy software and services without having to own or provision any physical or virtual servers. Applications built using serverless architectures are suitable for a wide range of services, and can scale elastically as cloud workloads grow.</mj-text>
+          <mj-text>In essence, when you develop applications using serverless architectures, you relieve yourself from the daunting task of having to constantly apply security patches for the underlying operating system and application servers - these tasks are now the responsibility of the serverless architecture provider.</mj-text>
+          <mj-text>If you are a developer - this sounds like heaven, right? Hold on...there’s a fly in the ointment. You are still responsible for designing robust applications and making sure that your code doesn’t introduce application layer vulnerabilities. Moreover, any configuration related to the application itself or to cloud services it interacts with would still need to be secure - again, that’s your responsibility. In the serverless world, the cloud vendor and you share security responsibilities.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.puresec.io/blog/serverless-top-10-released">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://cdn2.hubspot.net/hubfs/4166658/SAS-Top10-2018/PureSec%20-%20SAS%20Top%2010%20-%202018.pdf">
+            Whitepaper
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Who's using 2FA? Sweet FA. Less than 1 in 10 Gmail users enable two-factor authentication</mj-text>
+          <mj-image src="https://www.cheapsslshop.com/wp-content/uploads/2016/06/2fa-two-factor-authentication.jpg"></mj-image>
+          <mj-text>In a presentation at Usenix's Enigma 2018 security conference in California, Google software engineer Grzegorz Milka today revealed that, right now, less than 10 per cent of active Google accounts use two-step authentication to lock down their services. He also said only about 12 per cent of Americans have a password manager to protect their accounts, according to a 2016 Pew study.</mj-text>
+          <mj-text>The Register asked Milka why Google didn’t just make two-factor mandatory across all accounts, and the response was telling. “The answer is usability,” he replied. “It’s about how many people would we drive out if we force them to use additional security.” Google has tried to make the whole process easier to use, but it seems netizens just can’t handle it. More than 10 per cent of those trying to use the defense mechanism had problems just inputting an access code sent via SMS.</mj-text>
+          <mj-text>To spot criminals and other miscreants commandeering a victim's webmail inbox, the Chocolate Factory has increased its use of heuristics to detect dodgy behavior. A typical attacker has a typical routine – once they manage to get into an account, they shut down notification to the owner, ransack the inbox for immediately valuable stuff like Bitcoin wallet stuff or intimate photos, copy the contacts lists, and then install a filter to mask their action from the owner.</mj-text>
+          <mj-text>Please, if you haven't already done so, just enable two-step authentication. This means when you or someone else tries to log into your account, they need not only your password but authorization from another device, such as your phone. So, simply stealing your password isn't enough – they need your unlocked phone, or similar, to to get in.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.theregister.co.uk/2018/01/17/no_one_uses_two_factor_authentication/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Flaw in Popular Transmission BitTorrent Client Lets Hackers Control Your PC Remotely</mj-text>
+          <mj-image src="https://blog.flo.cx/mycontent/2011/02/Screenshot-Transmission-Web-Interface-Iron.png"></mj-image>
+          <mj-text>A critical vulnerability has been discovered in the widely used Transmission BitTorrent app that could allow hackers to remotely execute malicious code on BitTorrent users' computers and take control of them.</mj-text>
+          <mj-text>The PoC attack published by Ormandy exploits a specific Transmission function that lets users control the BitTorrent app with their web browser. Ormandy confirmed his exploit works on Chrome and Firefox on Windows and Linux (Fedora and Ubuntu) and believes that other browsers and platforms are also vulnerable to the attack. Ormandy found that a hacking technique called the "domain name system rebinding" attack could successfully exploit this implementation, allowing any malicious website that user visits to execute malicious code on user's computer remotely with the help of installed daemon service.</mj-text>
+          <mj-text>The loophole resides in the fact that services installed on localhost can be manipulated to interact with third-party websites. Attackers can exploit this loophole by simply creating a DNS name they're authorized to communicate with and then making it resolve to the vulnerable computer's localhost name.</mj-text>
+          <mj-text>Ormandy said the vulnerability (CVE-2018-5702) was the "first of a few remote code execution flaws in various popular torrent clients," though he did not name the other torrent apps due to the 90-day disclosure timeline.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://thehackernews.com/2018/01/bittorent-transmission-hacking.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1447">
+            Technical paper
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Some Basic Rules for Securing Your IoT Stuff</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2017/08/iotc.png"></mj-image>
+          <mj-text>Most readers here have likely heard or read various prognostications about the impending doom from the proliferation of poorly-secured “Internet of Things” or IoT devices. Loosely defined as any gadget or gizmo that connects to the Internet but which most consumers probably wouldn’t begin to know how to secure, IoT encompasses everything from security cameras, routers and digital video recorders to printers, wearable devices and “smart” lightbulbs.</mj-text>
+          <mj-text>Throughout 2016 and 2017, attacks from massive botnets made up entirely of hacked IoT devices had many experts warning of a dire outlook for Internet security. But the future of IoT doesn’t have to be so bleak. Here’s a primer on minimizing the chances that your IoT things become a security liability for you or for the Internet at large.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://krebsonsecurity.com/2018/01/some-basic-rules-for-securing-your-iot-stuff/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Hacker Might Have Stolen the Healthcare Data for Half of Norway’s Population</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/01/18/Norway.jpg"></mj-image>
+          <mj-text>A hacker or hacker group might have stolen healthcare data for more than half of Norway's population, according to reports in local press. The attack took place on January 8 and came to light this week when Health South-East RHF, a healthcare organization that manages hospitals in Norway's southeast region, announced a security breach on its website.</mj-text>
+          <mj-text>Health South-East RHF manages healthcare units in nine of Norway's 18 counties. The list includes the counties of Akershus (includes Norway's capital Oslo), Aust-Agder, Buskerud, Hedmark, Oppland, Østfold, Telemark, Vest-Agder, and Vestfold. According to local press [1, 2], Health South-East RHF is the largest of Norway's four healthcare regions with hospitals serving 2.9 million of the country's total of 5.2 million inhabitants.</mj-text>
+          <mj-text>In the autumn of 2016, Health South-East RHF signed a contract with Hewlett Packard Enterprise to modernize its computer systems, but the contract was dropped after local press disclosed poor security controls when accessing patient healthcare information. The leak, if confirmed, is still nowhere near to what happened in Sweden, where a government contractor leaked the personal details of all the country's citizens. The person responsible was fined only a half a month's paycheck.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/hacker-might-have-stolen-the-healthcare-data-for-half-of-norway-s-population/">
+            Read More
+          </mj-button>
+
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2018/01/leakedsource-operator-charged.html">LeakedSource Founder Arrested for Selling 3 Billion Stolen Credentials</a></li>
+              <li><a class="lnk-pink" href="http://www.securityweek.com/common-approaches-automated-application-security-testing-sast-and-dast">Common Approaches to Automated Application Security Testing - SAST and DAST</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2018/01/microsoft-office-malware.html">Hackers Exploiting Three Microsoft Office Flaws to Spread Zyklon Malware</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2018/01/oneplus-credit-card.html">OnePlus Site’s Payment System Reportedly Hacked to Steal Credit Card Details</a></li>
+              <li><a class="lnk-purple" href="https://aws.amazon.com/compliance/data-center/data-centers/">AWS - How do we secure our datacenters</a></li>
+              <li><a class="lnk-blue" href="https://github.com/hannob/meltdownspectre-patches">Meltdown / Spectre patches compendium</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/ghostteam-android-malware-can-steal-facebook-credentials/">GhostTeam Android Malware Can Steal Facebook Credentials</a></li>
+              <li><a class="lnk-green" href="http://www.zdnet.com/article/google-intros-security-center-tool-for-g-suite/">Google intros Security Center tool for G Suite</a></li>
+              <li><a class="lnk-orange" href="https://www.csoonline.com/article/3248825/security/skygofree-powerful-android-spyware-with-advanced-surveillance-tools.html">Skygofree — Powerful Android Spyware Discovered</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2018/01/16/hawaii-missile-alert-triggered-by-one-wrong-click/">Hawaii missile alert triggered by one wrong click</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2018/01/18/yes-hawaii-emergency-management-stuck-a-password-on-a-sticky-note/">Yes, Hawaii emergency management stuck a password on a sticky note</a></li>
+              <li><a class="lnk-pink" href="https://shkspr.mobi/blog/2018/01/mailchimp-leaks-your-email-address/">MailChimp leaks your email address</a></li>
+              <li><a class="lnk-green" href="https://blog.christophetd.fr/bypassing-cloudflare-using-internet-wide-scan-data/">CloudFlair: Bypassing Cloudflare using Internet-wide scan data</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.asia/aadhaar-getting-additional-security-layer-a-10595">Aadhaar Getting Additional Security Layer</a></li>
+              <li><a class="lnk-purple" href="http://www.daemonology.net/blog/2018-01-17-some-thoughts-on-spectre-and-meltdown.html">Some thoughts on Spectre and Meltdown</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/how-to-fix-the-docker-and-ufw-security-flaw/">How to fix the Docker and UFW security flaw</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@mazin.ahmed/bypassing-csp-by-abusing-jsonp-endpoints-47cf453624d5">Bypassing CSP by Abusing JSONP Endpoints</a></li>
+              <li><a class="lnk-green" href="https://www.xorrior.com/emond-persistence/">Leveraging Emond on macOS For Persistence</a></li>
+              <li><a class="lnk-orange" href="https://crates.io/crates/pgen/1.0.1">pgen(1) – Passphrase Generator</a></li>
+              <li><a class="lnk-purple" href="https://github.com/mikesiegel/ews-crack">Exchange Web Services Cracker</a></li>
+              <li><a class="lnk-blue" href="https://www.grc.com/inspectre.htm">InSpectre: Test Spectre/Meltdown vulnerability</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">ubsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
