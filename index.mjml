@@ -69,10 +69,13 @@
           <mj-text>A weekly newsletter of the best articles on cybersecurity, privacy, security awareness, and more. All links are curated by hand from Kindred Group's security team.</mj-text>
           <mj-text><strong>Don't forget to <a class="lnk-pink" href="https://kindred-newsletter.infosecgur.us/register">register</a> if you want to receive this newsletter directly to your email address.</strong></mj-text>
           <mj-spacer height="30px" />
-          <mj-text mj-class="pink h2">2017</mj-text>
+          <mj-text mj-class="orange h2">2018</mj-text>
           <mj-list>
             <li><a href="./2018-01-22.html" class="lnk-blue">22 January 2018</a> (<a href="./2018-01-22.pdf" class="lnk-green">PDF</a>)</li>
             <li><a href="./2018-01-15.html" class="lnk-blue">15 January 2018</a> (<a href="./2018-01-15.pdf" class="lnk-green">PDF</a>)</li>
+          </mj-list>
+          <mj-text mj-class="pink h2">2017</mj-text>
+          <mj-list>
             <li><a href="./2017-12-18.html" class="lnk-blue">18 December 2017</a> (<a href="./2017-12-18.pdf" class="lnk-green">PDF</a>)</li>
             <li><a href="./2017-12-11.html" class="lnk-blue">11 December 2017</a> (<a href="./2017-12-11.pdf" class="lnk-green">PDF</a>)</li>
             <li><a href="./2017-12-04.html" class="lnk-blue">4 December 2017</a> (<a href="./2017-12-04.pdf" class="lnk-green">PDF</a>)</li>
