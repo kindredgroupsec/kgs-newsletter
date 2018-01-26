@@ -1,0 +1,274 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 29/01/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="http://home.bt.com/images/password-security-on-keyboard-136401243093503901-151023111611.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">29 January 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Software Framework Flaw Affects Apps From Skype, Signal, Slack, Twitch, Others</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/u/986406/Logos/Electron.png"></mj-image>
+          <mj-text color="#fff">A flaw in a very popular software-building framework may affect a large number of popular desktop apps from Microsoft (Skype, Visual Studio Code), Brave (browser), GitHub (Atom Editor), Signal, Slack, Basecamp, WordPress.com, Twitch, Ghost, and others.</mj-text>
+          <mj-text color="#fff">The flaw affects Electron, a software framework created by the GitHub team to aid in the development of the Atom source code editor. Since its creation in 2013, the framework became insanely popular because it allowed app developers to create cross-OS applications using basic web technologies such as JavaScript (Node.js), HTML, and CSS.</mj-text>
+          <mj-text color="#fff">The Electron team said it patched a remote code execution vulnerability in the Electron framework. The vulnerability affects only Windows apps, not apps for Mac or Linux. Electron apps that register themselves as the default app for handling custom protocol formats such as myapp:// are vulnerable and will allow an attacker to execute malicious code on affected systems remotely.</mj-text>
+          <mj-text color="#fff">The flaw was patched on Monday when the Electron team released versions 1.8.2-beta.4, 1.7.11, and 1.6.16 of the software-building framework. Developers also included a quick workaround for app developers who cannot update their apps to the new Electron framework code just yet. The workaround is a temporary fix to prevent attackers from exploiting the flaw, but experts expect attackers to find a way around it pretty soon.</mj-text>
+          <mj-text color="#fff">App developers are the first ones who need to act by incorporating the Electron fixes in their apps. Second, app users will need the apply the most recent patches for any of the apps listed on this page.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/software-framework-flaw-affects-apps-from-skype-signal-slack-twitch-others/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://electronjs.org/blog/protocol-handler-fix">
+            Official Statement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Does your credit card need a tinfoil hat to keep it safe on the train?</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2018/01/attenuo-card-6401.jpg"></mj-image>
+          <mj-text>Do you travel on the subway? Perhaps you’re waiting for a flight, after rushing through a crowded airport to get to your departure gate in time? If so, I bet you’ve worried that having a wireless debit card could lead to you being digitally pickpocketed. Or that having an RFID-enabled passport could lead to your passport details being sniffed out while your documents are safely stashed in your backpack or bumbag.</mj-text>
+          <mj-text>Passports use RFID Basic Access Control (BAC) protection to protect passport data. This protection is weaker than using a password (as you do to to log into your laptop or mobile phone, for example), but means that you can’t read digital data from the passport’s chip without first having some data specific to the document. Loosely speaking, this means that anyone who wants to read the chip on your passport needs to open it at the picture page first, so they can’t just wander through the airport reading off passports that are inside bags, wallets, suitcases and so on.</mj-text>
+          <mj-text>Debit and credit cards with contactless payment chips don’t need any sort of authenticated setup before agreeing to pass across information. An NFC-enabled mobile phone can accurately scan and record the long card number and expiry date of a debit card that’s stashed in your pocket.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2018/01/19/credit-card-tinfoil-hat/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.facebook.com/SophosSecurity/videos/10155345347100017/">
+            NFC Card skimming video
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Blizzard Fixes DNS Rebinding Flaw that Put All the Company's Users at Risk</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2017/02/22/Blizzard-Logo.jpg"></mj-image>
+          <mj-text>A Google security researcher has discovered a security flaw in the Blizzard Update Agent shipped with all the company's games. The vulnerability —known as DNS rebinding— allows someone to pass as Blizzard's update server and send over malicious files that the Update Agent will run thinking they are game updates.</mj-text>
+          <mj-text>The flaw was discovered by famous Google security researcher Tavis Ormandy. Tavis noted that Blizzard patched the bug after they ceased all communications on December 22, he did not agree with how Blizzard patched the bug. Blizzard used a blacklist approach, where a whitelist would have been safer. "The obvious flaw in this scheme is that the blacklist needs to be complete and maintained, so I expect it will break in future or for users on unusual browsers."</mj-text>
+          <mj-text>Ormandy previously discovered that the Transmission BitTorrent client was also vulnerable to a similar DNS rebinding flaw. He also published another proof-of-concept page that carries out generic DNS rebinding attacks on other applications, and that security researchers can use to find other apps vulnerable to this type of flaw. Finally, he said he plans to look into the security flaws of major games in the upcoming future.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/blizzard-fixes-dns-rebinding-flaw-that-put-all-the-companys-users-at-risk/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://lock.cmpxchg8b.com/rebinder.html">
+            DNS Rebinding PoC page
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Tinder flaw exposes user swipe, match and photos to strangers</mj-text>
+          <mj-image src="https://i1.ytimg.com/vi/ZBTL1bmJ9o8/hqdefault.jpg"></mj-image>
+          <mj-text>Tinder is an online dating app that was launched in 2012 and allows members to swipe through profiles to make social connections. Tinder has two critical security flaws that expose every swipe and match of yours to strangers including cybercriminals who are using the same wireless network. The flaws were identified in November last year and Tinder was informed about them at that time but a fix is yet to be released.</mj-text>
+          <mj-text>The first flaw is associated with the encryption process surrounding images category; it lets hackers get information about the photos you have been checking out. The other flaw can expose the data patterns for certain actions such as swiping right or left; through understanding these patterns, hackers can easily comprehend your intentions.</mj-text>
+          <mj-text>The reason why the service is facing issue is that it is yet to implement HTTPS encryption. The app allows swiping of pictures over unsecured HTTP, which makes it easy to be intercepted by a person using the same Wi-Fi network. The proof-of-concept software to demonstrate Tinder’s vulnerabilities was also built by Checkmarx researchers, which has been dubbed as TinderDrift. When it is run on a laptop, which is connected to any wireless network, it will automatically recreate the entire session and categorize the photos as approved, matched and rejected in real-time.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.hackread.com/tinder-flaw-exposes-user-swipe-match-photos-to-strangers/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://nakedsecurity.sophos.com/2018/01/24/tinder-user-lack-of-encryption-means-stalkers-can-watch-you-at-it/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Compromised Credentials: The Primary Point of Attack for Data Breaches</mj-text>
+          <mj-image src="http://home.bt.com/images/password-security-on-keyboard-136401243093503901-151023111611.jpg"></mj-image>
+          <mj-text>According to the Verizon 2017 Data Breach Investigation Report, a whopping 81% of hacking-related breaches leverage either stolen, default, or weak passwords. So why are so many organizations still focusing on securing the network perimeter, instead of rethinking their core defenses by maturing their identity and access management strategies to secure applications, devices, data, and infrastructure — both on-premises and in the cloud.</mj-text>
+          <mj-text>The easiest way for a cyber-attacker to gain access to sensitive data is by compromising an end user’s identity and credentials. Things get even worse if a stolen identity belongs to a privileged user, who has even broader access, and therefore provides the intruder with “the keys to the kingdom”. By leveraging a “trusted” identity a hacker can operate undetected and exfiltrate sensitive data sets without raising any red flags. As a result, it’s not surprising that most of today’s cyber-attacks are front-ended by credential harvesting campaigns. Common methods for harvesting credentials include the use of password sniffers, phishing campaigns, or malware attacks. </mj-text>
+          <mj-text>To achieve a ‘Good’ identity management posture, organizations need to establish identity assurance. This can be accomplished by consolidating identities to shrink the attack surface, leveraging Single Sign-On technology, and enforcing risk-based access. In this context, multi-factor authentication (MFA) plays an essential role. To achieve ‘Great’(ness), organizations should also enforce least privilege, limiting access rights for users to the minimum permissions they need to perform their job and ultimately provide these on a just-in-time basis.</mj-text>
+          <mj-button mj-class="bg-purple" href="http://www.securityweek.com/compromised-credentials-primary-point-attack-data-breaches">
+            Read More
+          </mj-button>
+
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">After ignoring for months, Uber fixes two-factor bypass bug after all</mj-text>
+          <mj-image src="https://zdnet1.cbsistatic.com/hub/i/r/2018/01/23/a8e88e1e-d15b-477a-be43-f49d1a07a92b/resize/770xauto/e09cb672e703baebf8329ef75e3d830f/uber.jpg"></mj-image>
+          <mj-text>Uber has fixed a security bug that could've allowed an attacker to hack into user accounts by bypassing two-factor authentication, after the ride-sharing company initially said the flaw wasn't a "particularly severe" issue.</mj-text>
+          <mj-text>The ride-sharing giant has been dabbling with two-factor authentication on its systems since 2015. Two-factor authentication (2FA) is a vital part of protecting online accounts. It adds a second layer of security on top of your username and password -- which can be stolen -- by sending a code by text message to your phone, for example, which only you would have access to.</mj-text>
+          <mj-text>But that two-factor code can be bypassed, making the second layer of security protection effectively useless, said Karan Saini, a New Delhi-based security researcher, who found the bug. He filed a bug report earlier this month with HackerOne, which administers Uber's bug bounty, but his report was quickly rejected. Uber marked the bypass bug report as "informative", which according to documentation means it contains "useful information but did not warrant an immediate action or a fix".</mj-text>
+          <mj-text>If other security researchers found the bug, Saini said "there's no doubt" that malicious actors may have also found it, "since the bug is that easy to find". The company quietly issued a fix shortly after ZDNet first revealed the bug on Sunday...after ignoring multiple reports for months.</mj-text>
+          <mj-button mj-class="bg-blue" href="http://www.zdnet.com/article/uber-security-flaw-two-factor-login-bypass/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Introducing Chronicle, a new Alphabet business dedicated to cybersecurity</mj-text>
+          <mj-image src="https://cdn-images-1.medium.com/max/800/1*FHzifdf0Mir_RmcM2PJ3Yg.png"></mj-image>
+          <mj-text>Google’s parent company Alphabet has launched a security company named Chronicle. The business will be the new home of VirusTotal, which Google acquired in 2012. Chronicle’s other story will be “a new cybersecurity intelligence and analytics platform that we hope can help enterprises better manage and understand their own security-related data.”</mj-text>
+          <mj-text>Chronicle’s schtick is that security teams drown in multitudes of alerts, but can’t see the significant stuff and therefore can’t spot threats or attacks for ages. The company therefore plans to throw the cloud and machine at the problem. Chronicle’s not said much about how it will deliver, other than to say it plans to use “Massive compute and storage” to and to deliver its promised insights as cloud services.</mj-text>
+          <mj-text>Whether Chronicle will itself help or hinder remains obscure, as does the exact nature of its service remains. One thing that is sure is that the security market is expected to grow, and grow, and grow, as increased interconnectivity gives bad actors more opportunities – and vendors who think they have something to offer reason to launch new products or services. </mj-text>
+          <mj-button mj-class="bg-pink" href="http://www.theregister.co.uk/2018/01/25/alphabet_cybersecurity_business_unit_named_chronicle/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://medium.com/chronicle-blog/give-good-the-advantage-75ab2c242e45">
+            "Official" announcement
+          </mj-button>
+
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.theregister.co.uk/2018/01/25/mobile_pos_gets_pci_security_standard/">Mobile point of sale gets a PCI security standard</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/dark-caracal-hacking-group-has-stolen-hundreds-of-gigabytes-of-data-from-21-countries/">Dark Caracal hacking group has stolen hundreds of gigabytes of data from 21 countries</a></li>
+              <li><a class="lnk-green" href="http://www.zdnet.com/article/fake-cryptocurrency-scam-delivers-ransomware-and-more-malware-when-you-pay-up/">Fake cryptocurrency scam delivers ransomware - and more malware when you pay up</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/blogs/expect-more-cybersecurity-meltdowns-p-2586">Expect More Cybersecurity 'Meltdowns'</a></li>
+              <li><a class="lnk-purple" href="http://www.zdnet.com/article/firefox-58-arrives-with-tracker-blocking-to-make-browsing-faster-and-fixes-for-dozens-of-security/">​Firefox 58 with fixes for dozens of security flaws</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/software/chrome-64-released-with-stronger-popup-blocker-spectre-mitigations/">Chrome 64  with Stronger Popup Blocker, Spectre Mitigations</a></li>
+              <li><a class="lnk-pink" href="https://arstechnica.com/information-technology/2018/01/malicious-chrome-extension-is-next-to-impossible-to-manually-remove/">Malicious Chrome extension is next to impossible to manually remove</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2018/01/crackas-with-attitude-hacker.html">15-Year-Old Schoolboy Posed as CIA Chief to Hack Highly Sensitive Information</a></li>
+              <li><a class="lnk-orange" href="https://www.darkreading.com/vulnerabilities---threats/google-pays-researcher-record-$112500-for-android-flaw/d/d-id/1330857">Google Pays Researcher Record $112,500 for Android Flaw</a></li>
+              <li><a class="lnk-purple" href="https://www.schneier.com/blog/archives/2018/01/security_breach.html">Why GDPR? Security Breaches Don't Affect Stock Price</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/10-new-vm-escape-vulnerabilities-discovered-in-virtualbox/">10 new VM escape vulnerabilities discovered in VirtualBox</a></li>
+              <li><a class="lnk-pink" href="https://www.theregister.co.uk/2018/01/25/uk_prime_minister_encryption/">UK Prime Minister urges nerds to come up with magic crypto backdoors</a></li>
+                <li><a class="lnk-green" href="https://posts.specterops.io/threat-mitigation-strategies-observations-and-recommendations-b5c10b405eb7">Threat Mitigation Strategies: Observations and Recommendations</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.didierstevens.com/2018/01/20/quickpost-data-exfiltration-with-tor-browser-and-domain-fronting/">Quickpost: Data Exfiltration With Tor Browser And Domain Fronting</a></li>
+              <li><a class="lnk-pink" href="https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5">I’m harvesting credit card numbers and passwords from your site. Here’s how.</a></li>
+              <li><a class="lnk-green" href="https://emtunc.org/blog/01/2018/research-misconfigured-jenkins-servers/">Research on Misconfigured Jenkins Servers</a></li>
+              <li><a class="lnk-orange" href="https://blogs.securiteam.com/index.php/archives/3649">Oracle VirtualBox Multiple Guest to Host Escape Vulnerabilities</a></li>
+              <li><a class="lnk-purple" href="https://rhinosecuritylabs.com/azure/cloud-security-risks-part-1-azure-csv-injection-vulnerability/">Azure CSV Injection Vulnerability</a></li>
+              <li><a class="lnk-blue" href="https://avleonov.com/2018/01/24/vulners-web-vulnerability-scanner-plugin-for-google-chrome-v-2-0/">Vulners Web Vulnerability Scanner plugin for Google Chrome v. 2.0</a></li>
+              <li><a class="lnk-pink" href="https://mozilla.github.io/server-side-tls/ssl-config-generator/">Mozilla SSL Configuration Generator</a></li>
+              <li><a class="lnk-green" href="https://intoli.com/blog/not-possible-to-block-chrome-headless/">It is NOT possible to block Chrome headless</a></li>
+              <li><a class="lnk-orange" href="https://www.securityartwork.es/2018/01/25/some-vulnerability-in-asus-routers/">Some vulnerability in ASUS routers</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/@ss23/leveraging-cloudflares-authenticated-origin-pulls-for-pentesting-565c562ef1bb">Leveraging Cloudflare’s Authenticated Origin Pulls For Pentesting</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">ubsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
