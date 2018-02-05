@@ -1,0 +1,272 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 05/02/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="http://www.securityweek.com/sites/default/files/images/spectre-meltdown-chart-en.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">5 February 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Spectre and Meltdown flaws being exploited by more than 100 strains of malware</mj-text>
+          <mj-image src="http://www.securityweek.com/sites/default/files/images/spectre-meltdown-chart-en.jpg"></mj-image>
+          <mj-text color="#fff">Researchers have discovered more than 130 malware samples designed to exploit the recently disclosed Spectre and Meltdown CPU vulnerabilities. While a majority of the samples appear to be in the testing phase, we could soon start seeing attacks.</mj-text>
+          <mj-text color="#fff">The Meltdown and Spectre attack methods allow malicious applications to bypass memory isolation mechanisms and access passwords, photos, documents, emails, and other sensitive data. Shortly after Spectre and Meltdown were disclosed on January 3, experts warned that we could soon see remote attacks, especially since a JavaScript-based proof-of-concept (PoC) exploit for Spectre had been made available.</mj-text>
+          <mj-text color="#fff">"The most likely attack method regarding Spectre and Meltdown will be via web browsers and their integrated scripting engines. So I'd recommend to upgrade to the latest available versions as soon as possible," he said, adding that closing the browser and shutting down the PC when it's not in use would also reduce the risk.</mj-text>
+          <mj-text color="#fff">However, patching against variant 2 of the Spectre vulnerability has proven to be particularly difficult, due to it being related to a fundamental feature of modern CPUs, specifically their use of Branch Prediction and Speculative Execution to accelerate the rate at which they operate. "Which is why, in addition to establishing an aggressive and proactive patch-and-replace protocol, it is essential that organizations have layers of security in place designed to detect malicious activity and malware, and to protect vulnerable systems."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="http://www.securityweek.com/malware-exploiting-spectre-meltdown-flaws-emerges">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.techrepublic.com/article/spectre-and-meltdown-flaws-being-exploited-by-more-than-100-strains-of-malware/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Crooks Created 28 Fake Ad Agencies to Disguise Massive Malvertising Campaign</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/01/26/Zirconium-group.jpg"></mj-image>
+          <mj-text>A group of cyber-criminals created 28 fake ad agencies and bought over 1 billion ad views in 2017, which they used to deliver malicious ads that redirected unsuspecting users to tech support scams or sneaky pages peddling malware-laden software updates or software installers. The entire operation —codenamed Zirconium— appears to have started in February 2017, when the group started creating the fake ad agencies which later bought ad views from larger ad platforms. These fake ad agencies each had individual websites and even LinkedIn profiles for their fake CEOs. Their sole purpose was to interface with larger advertising platforms, appearing as legitimate businesses.</mj-text>
+          <mj-text>The fake ad agencies would buy ads displayed on legitimate sites via these ad platforms. These ads would allow the Zirconium group to run JavaScript code that executed a "forced redirect," effectively hijacking visitors off the original site to an intermediary domain. This intermediary domain would fingerprint and classify incoming traffic, then redirect the user to another domain, also operated by Zirconium. Crooks would use this third domain as an affiliate traffic jump-off point, allowing others to buy the traffic they hijacked from legitimate sites. In many cases, users were redirected to pages offering fake (malware-laced) Flash updates, websites offering (malware-infested) software installers, tech support scams, or other scareware pages.</mj-text>
+          <mj-text>Dangu believes that improved browser security features now make most exploit kits ineffective. In addition, the decision from most browser makers to change Flash into a disabled state or click-to-run policy have also contributed to the demise of classic malvertising+exploit kit campaigns. Chrome 64, released earlier this week, blocks the forced redirect technique (also known as tab-under) used by the Zirconium group.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/crooks-created-28-fake-ad-agencies-to-disguise-massive-malvertising-campaign/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">First ‘Jackpotting’ Attacks Hit U.S. ATMs</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2018/01/ploutus-d.png"></mj-image>
+          <mj-text>ATM “jackpotting” — a sophisticated crime in which thieves install malicious software and/or hardware at ATMs that forces the machines to spit out huge volumes of cash on demand — has long been a threat for banks in Europe and Asia, yet these attacks somehow have eluded U.S. ATM operators. But all that changed this week after the U.S. Secret Service quietly began warning financial institutions that jackpotting attacks have now been spotted targeting cash machines here in the United States.</mj-text>
+          <mj-text>To carry out a jackpotting attack, thieves first must gain physical access to the cash machine. From there they can use malware or specialized electronics — often a combination of both — to control the operations of the ATM. “The targeted stand-alone ATMs are routinely located in pharmacies, big box retailers, and drive-thru ATMs,” reads a confidential Secret Service alert sent to multiple financial institutions and obtained by KrebsOnSecurity. “During previous attacks, fraudsters dressed as ATM technicians and attached a laptop computer with a mirror image of the ATMs operating system along with a mobile device to the targeted ATM.”</mj-text>
+          <mj-text>Regalado says the crime gangs typically responsible for these attacks deploy “money mules” to conduct the attacks and siphon cash from ATMs. The term refers to low-level operators within a criminal organization who are assigned high-risk jobs, such as installing ATM skimmers and otherwise physically tampering with cash machines. The Secret Service alert says ATMs still running on Windows XP are particularly vulnerable, and it urged ATM operators to update to a version of Windows 7 to defeat this specific type of attack.</mj-text>
+          <mj-button mj-class="bg-green" href="https://krebsonsecurity.com/2018/01/first-jackpotting-attacks-hit-u-s-atms/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.schneier.com/blog/archives/2018/02/jackpotting_att.html">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Strava exercise app maps military sites, reveals where spies jog</mj-text>
+          <mj-image src="https://nrkbeta.no/wp-content/uploads/2018/01/stravaimg-1.jpg"></mj-image>
+          <mj-text>In November, exercise-tracking app Strava published a “heatmap” of user activity which it cheerily boasted comprised a billion activities, three trillion lat-long points, 13 trillion rasterized pixels and 10 TB of input data. Several people and media institutions have revealed military bases around the world using the heatmap.</mj-text>
+          <mj-text>Strava's explanation of how it made the Heatmap says it excluded data that users asked to be kept private. The service allows users to create multiple "privacy zones" with a radius of up to 1km. When users enter such the zones, their digital tracks disappear in order to make it harder to figure out where they live or work. Data revealing the location of sensitive facilities, or the habits of military personnel, would therefore have been excluded if users had employed Strava's privacy setttings.</mj-text>
+          <mj-text>However, as Ruser later tweeted, the location of bases isn't the only concern: the ability to establish “pattern of life” information also makes the Heatmap a serious source of risk – mainly because people weren't keeping their information private. It also, by the way, possible to extract people's names, profile pictures, and heart rates from Strava's backend.</mj-text>
+          <mj-text>Olejnik said at the least, someone should have conducted a privacy impact statement before pressing “publish” on the dataset. He told The Register in an email: “This highlights the challenges of location data anonymisation, and how mass datasets reveal unexpected patterns. Organisations should carefully consider consequences on multiple levels prior to publishing private data.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.theregister.co.uk/2018/01/29/strava_heatmap_military_base_locations/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://nrkbeta.no/2018/01/31/how-we-found-the-identity-of-military-personnel-using-strava/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Attackers Exploiting Unpatched Flaw in Flash</mj-text>
+          <mj-image src="https://2.bp.blogspot.com/-N0rBFsKfvJg/WnP_Z6mQQUI/AAAAAAAAvqA/Atki8zSxvMMXzU6BgC-RDnm6DGfrFf-kACLcBGAs/s1600/flash-zero-dy-exploit.png"></mj-image>
+          <mj-text>Adobe warned on Thursday that attackers are exploiting a previously unknown security hole in its Flash Player software to break into Microsoft Windows computers. Adobe said it plans to issue a fix for the flaw in the next few days, but now might be a good time to check your exposure to this still-ubiquitous program and harden your defenses. Successful exploitation could allow an attacker to take control of the affected system.</mj-text>
+          <mj-text>The software company warns that an exploit for the flaw is being used in the wild, and that so far the attacks leverage Microsoft Office documents with embedded malicious Flash content. Adobe said it plans to address this vulnerability in a release planned for the week of February 5.</mj-text>
+          <mj-text>For readers still unwilling to cut the Flash cord, there are half-measures that work almost as well. Fortunately, disabling Flash in Chrome is simple enough. Paste “chrome://settings/content” into a Chrome browser bar and then select “Flash” from the list of items. By default it should be set to “Ask first” before running Flash, although users also can disable Flash entirely here or whitelist and blacklist specific sites. By default, Mozilla Firefox on Windows computers with Flash installed runs Flash in a “protected mode,” which prompts the user to decide if they want to enable the plugin before Flash content runs on a Web site.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://krebsonsecurity.com/2018/02/attackers-exploiting-unpatched-flaw-in-flash/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="https://thehackernews.com/2018/02/flash-zero-day-exploit.html">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Breach-Proofing Your Data in a GDPR World</mj-text>
+          <mj-image src="https://www.superoffice.com/blog/wp-content/uploads/2017/06/what-is-gdpr-750x400.jpg"></mj-image>
+          <mj-text>The massive data breaches that have hit the headlines in recent years, including Yahoo, Verizon, and particularly Equifax, have taken a toll on breach victims, consumers, and corporations. This year, breaches could be even more costly for companies once the European Union's General Data Protection Regulation (GDPR) rules are in place come May 25.  </mj-text>
+          <mj-text>Organizations are under the gun to get systems in place now to ensure that they are in compliance with the regulations, before it's too late. Here are six key measures for enterprises to prioritize over the next few months: 1) Protect data beyond your perimeter, expanding use of enterprise security controls is crucial, but end-to-end data protection is one of the most potent safeguards. 2) Make privacy awareness mandatory, by requiring every employee to participate in cybersecurity awareness training and conducting training on an ongoing basis. 3) Ensure secure transmission of data in the cloud. 4) Check the terms and conditions, nearly 40% of cloud services provide terms and conditions that lack specifics around data ownership. 5) Know your data well, what information is being collected, who's collecting it, and who's sharing it throughout the organization. 6) Follow your data, especially if it crosses geopolitical boundaries.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.darkreading.com/cloud/breach-proofing-your-data-in-a-gdpr-world/a/d-id/1330917">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="URL">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">AutoSploit: Automated Hacking Tool Set to Wreak Havoc or a Tempest in a Teapot?</mj-text>
+          <mj-image src="https://media.wired.com/photos/5a74fc6a36d272250d5a9108/master/pass/AmateurHacker-TopArt.jpg"></mj-image>
+          <mj-text>Python code has emerged that automatically searches for vulnerable devices online using Shodan.io – and then uses Metasploit's database of exploits to potentially hijack the computers and gadgets. You set this script running, it crawls the internet looking for machines that are possibly vulnerable to attack – typically due to unpatched security bugs – and automatically takes over them for you. No super-l33t skills required.</mj-text>
+          <mj-text>Metasploit is an open-source penetration testing tool: it is a database of snippets of code that exploit security flaws in software and other products to extract information from systems, or open a remote control panel to the devices so they can be commanded from afar. Shodan allows you to search for public-internet-facing computers, servers, industrial equipment, webcams, and other devices, revealing their open ports and potentially exploitable services.</mj-text>
+          <mj-text>Just how dangerous is this? Opinions are varied. "[AutoSploit] makes being a script kiddie infinitely easier," comments Chris Morales, head of security analytics at Vectra Networks. "It is combining a whole set of automated tools for identifying exposed hosts and then executing exploits. Where I think this will have the most dramatic effect, and what scares me most, is with IoT. I’m predicting a rash of new IoT DOS, cryptocurrency mining, and general debauchery." "The kids are not more dangerous," he says. "They already were dangerous. We’ve simply given them a newer, simpler, shinier way to exploit everything that’s broken. Maybe we should fix the ROOT problem.”</mj-text>
+          <mj-button mj-class="bg-pink" href="http://www.securityweek.com/autosploit-automated-hacking-tool-set-wreak-havoc-or-tempest-teapot">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.theregister.co.uk/2018/01/31/auto_hacking_tool/">
+            Read More
+          </mj-button>
+
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/first-malicious-chrome-extensions-detected-using-session-replay-scripts/">First Malicious Chrome Extensions Detected Using Session Replay Scripts</a></li>
+              <li><a class="lnk-pink" href="https://www.darkreading.com/application-security/poor-visibility-weak-passwords-compromise-active-directory/d/d-id/1330963">Poor Visibility, Weak Passwords Compromise Active Directory</a></li>
+              <li><a class="lnk-green" href="https://www.darkreading.com/partner-perspectives/iboss/data-encryption-4-common-pitfalls/a/d-id/1330918">Data Encryption: 4 Common Pitfalls</a></li>
+              <li><a class="lnk-orange" href="https://www.hackread.com/most-threatening-dns-security-risks-how-to-avoid-them/">Most Threatening DNS Security Risks And How To Avoid Them</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/mozilla-fixes-severe-flaw-in-firefox-ui-that-leads-to-remote-code-execution/">Mozilla Fixes Severe Flaw in Firefox UI That Leads to Remote Code Execution</a></li>
+              <li><a class="lnk-blue" href="http://www.securityweek.com/remotely-exploitable-vulnerability-could-impact-300000-oracle-pos-systems">Remotely Exploitable Vulnerability Could Impact 300,000 Oracle PoS Systems</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/nasty-botnet-uses-wannacry-exploit-to-mine-cryptocurrency-from-your-servers/">Nasty botnet uses WannaCry exploit to mine cryptocurrency from your servers</a></li>
+              <li><a class="lnk-green" href="https://www.forbes.com/sites/thomasbrewster/2018/02/01/vibratissimo-panty-buster-sex-toy-multiple-vulnerabilities/#12586fac5a94">'Panty Buster' Toy Left Private Sex Lives Of 50,000 Exposed</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-drops-the-hammer-on-coercive-registry-cleaners-and-system-optimizers/">Microsoft Drops the Hammer on Coercive Registry Cleaners & System Optimizers</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/whats-riding-on-5g-security-internet-everything-a-10618">What's Riding on 5G Security? The Internet of Everything</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2018/01/lenovo-fingerprint.html">Hard-coded Password Lets Attackers Bypass Lenovo's Fingerprint Scanner</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.alsid.eu/dcshadow-explained-4510f52fc19d">DCShadow explained: A technical deep dive into the latest AD attack technique</a></li>
+              <li><a class="lnk-pink" href="https://www.troyhunt.com/my-blog-now-has-a-content-security-policy-heres-how-ive-done-it/">My Blog Now Has a Content Security Policy - Here's How I've Done It</a></li>
+              <li><a class="lnk-green" href="https://posts.specterops.io/the-emet-attack-surface-reduction-replacement-in-windows-10-rs3-the-good-the-bad-and-the-ugly-34d5a253f3df">The EMET Attack Surface Reduction Replacement in Windows 10 RS3: The Good, the Bad, and the Ugly</a></li>
+              <li><a class="lnk-orange" href="https://www.forbes.com/sites/tonybradley/2018/01/31/the-challenges-of-securing-and-protecting-containers-during-runtime/#561aa63643a8">The Challenges Of Securing And Protecting Containers During Runtime</a></li>
+              <li><a class="lnk-purple" href="https://www.sec-consult.com/en/blog/2018/02/internet-of-dildos-a-long-way-to-a-vibrant-future-from-iot-to-iod/index.html">Internet of dildos: a long way to a vibrant future</a></li>
+              <li><a class="lnk-blue" href="https://objective-see.com/products/lulu.html">LuLu: Free open-source macOS firewall blocking unknown outgoing connections</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/secjuice/waf-evasion-techniques-718026d693d8">Web Application Firewall (WAF) Evasion Techniques</a></li>
+              <li><a class="lnk-green" href="Sickle: Shellcode development tool in Python">https://github.com/wetw0rk/Sickle</a></li>
+              <li><a class="lnk-orange" href="https://secdevops.ai/hacking-with-go-packet-crafting-and-manipulation-in-golang-pt-1-f31cdb066e3a">Hacking With Go: Packet Crafting and Manipulation in Golang Pt 1</a></li>
+              <li><a class="lnk-purple" href="https://breachinsider.com/honey-buckets/">Honey Buckets: Find out who is snooping through your Amazon S3 buckets.</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">ubsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
