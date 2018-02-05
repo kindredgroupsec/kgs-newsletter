@@ -190,9 +190,6 @@
           <mj-button mj-class="bg-blue" href="https://www.darkreading.com/cloud/breach-proofing-your-data-in-a-gdpr-world/a/d-id/1330917">
             Read More
           </mj-button>
-          <mj-button mj-class="bg-blue" href="URL">
-            Even More
-          </mj-button>
         </mj-column>
       </mj-section>
 
