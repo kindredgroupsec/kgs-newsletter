@@ -87,16 +87,14 @@
       <!-- Featured (blue) Article -->
       <mj-section background-color="#00a5de">
         <mj-column>
-          <mj-text mj-class="white h2" align="center">Featured</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text color="#fff">text</mj-text>
-          <mj-text color="#fff">text</mj-text>
-          <mj-text color="#fff">text</mj-text>
-          <mj-button background-color="#fff" mj-class="blue" href="URL">
+          <mj-text mj-class="white h2" align="center">Microsoft Tries to Ditch Passwords In New Version Of Windows 10</mj-text>
+          <mj-image src="https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fblogs-images.forbes.com%2Fleemathews%2Ffiles%2F2018%2F02%2Fsign-in.jpg%3Fwidth%3D960"></mj-image>
+          <mj-text color="#fff">Passwords are a huge headache for most computer users. There are so many to keep tabs on that it wears people out mentally. Microsoft wants to ease that burden, even if it's only by a single password. The company has just released a new version of Windows 10 that ditches the log-in password in favor of less bothersome alternatives. You can sign in with your fingerprint, your face, or a PIN.</mj-text>
+          <mj-text color="#fff">To be clear, those are all existing ways that you can sign in to Windows 10. The difference is that this version doesn't require you to setup a password first and then switch to one of the other options. That step has been removed. In the new version, you simply tap a notification on your phone to authorize your account.</mj-text>
+          <mj-text color="#fff">Install Microsoft Authenticator on your phone and sign in with your Microsoft account. Sign in with the same account on your computer. When Microsoft sees that you're trying to sign in, it will send an alert to your phone and ask you to approve the request.</mj-text>
+          <mj-text color="#fff">For now, Microsoft has limited the tap-to-sign-in functionality to Windows 10 S. That's a special mode that only allows users to install apps that are listed in the Windows Store. While it does have some clear security benefits, using "S Mode" does mean that you won't be able to install apps from third party sources. That includes apps like Chrome, Firefox, Steam, and iTunes.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.forbes.com/sites/leemathews/2018/02/08/microsoft-ditches-passwords-in-new-version-of-windows-10/#2f6a2b502549">
             Read More
-          </mj-button>
-          <mj-button background-color="#fff" mj-class="blue" href="URL">
-            Even More
           </mj-button>
         </mj-column>
       </mj-section>
@@ -107,15 +105,15 @@
       <mj-section background-color="#fff">
         <mj-column>
           <mj-spacer height="30px" />
-          <mj-text mj-class="pink h2">News2</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-button mj-class="bg-pink" href="#">
+          <mj-text mj-class="pink h2">WordPress Holds "Epic Fail Week" —Devs Break Background Updates, Ignore Zero-Day</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-NrfVCilLkU8/Wn2L8nyaZPI/AAAAAAAAvwM/taCvXZKYKYc2g0d2EHaDDOj1xSEKw0TUgCLcBGAs/s1600/wordpress-update.png"></mj-image>
+          <mj-text>WordPress version 4.9.3 was released earlier this week with patches for a total 34 vulnerabilities, but unfortunately, the new version broke the automatic update mechanism for millions of WordPress websites. WordPress team has now issued a new maintenance update, WordPress 4.9.4, to patch this severe bug, which WordPress admins have to install manually.</mj-text>
+          <mj-text>Thus, WordPress administrators are being urged to update to the latest WordPress release manually to make sure they'll be protected against future vulnerabilities. To manually update their WordPress installations, admin users can sign into their WordPress website and visit Dashboard→Updates and then click "Update Now."</mj-text>
+          <mj-text>Moreover, the company released two new maintenance updates this week, but none of them includes a security patch for a severe application-level DoS vulnerability disclosed last week that could allow anyone to take down most WordPress websites even with a single machine.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/wordpress-holds-epic-fail-week-devs-break-background-updates-ignore-zero-day/">
             Read More
           </mj-button>
-          <mj-button mj-class="bg-pink" href="#">
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2018/02/wordpress-update.html">
             Even More
           </mj-button>
         </mj-column>
@@ -127,16 +125,13 @@
       <mj-section background-color="#fff">
         <mj-column>
           <mj-spacer height="30px" />
-          <mj-text mj-class="green h2">News3</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-button mj-class="bg-green" href="URL">
+          <mj-text mj-class="green h2">Hackers Pounce on Cisco ASA Flaw (CVE-2018-0101)</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2018/02/08/Cisco-logo.jpg"></mj-image>
+          <mj-text>Five days after details about a vulnerability in Cisco ASA software became public, hackers have now started exploiting this bug in the wild against Cisco ASA devices. Cisco did not provide any details about the exploitation attempts or the techniques hackers used, but only said it was "aware of attempted malicious use of the vulnerability."</mj-text>
+          <mj-text>The exploited bug is CVE-2018-0101, a vulnerability that became public in late January. Initially, it was believed that only Cisco devices running ASA software with the VPN (webvpn) feature enabled were vulnerable, but more components were found to be vulnerable later.</mj-text>
+          <mj-text>Companies rushed to patch the issue, but by Monday this week, Cisco reissued security updates to deliver additional patches. According to a security advisory the company is maintaining, Cisco said engineers discovered that the bug was far more wide-reaching than initially thought. The update introduced additional exploitation vectors, and Cisco users are advised to update their ASA-based devices again, with Cisco's updated patch.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/hackers-pounce-on-cisco-asa-flaw-cve-2018-0101/">
             Read More
-          </mj-button>
-          <mj-button mj-class="bg-green" href="URL">
-            Even More
           </mj-button>
         </mj-column>
       </mj-section>
@@ -147,15 +142,15 @@
       <mj-section background-color="#fff">
         <mj-column>
           <mj-spacer height="30px" />
-          <mj-text mj-class="orange h2">News4</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-button mj-class="bg-orange" href="URL">
+          <mj-text mj-class="orange h2">Uber data breach aided by lack of multi-factor authentication</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2018/02/shutterstock_554624566.jpg?w=780&h=408&crop=1"></mj-image>
+          <mj-text>Uber quits GitHub for in-house code after 2016 data breach. Code trove wasn't to blame: Uber didn’t have multifactor authentication on repos that included AWS credentials.</mj-text>
+          <mj-text>There are two strands to this incident – the company’s handling of the breach of 57 million customer and driver records once it found out about it, and the technical failings that allowed it to happen in the first place.</mj-text>
+          <mj-text>According to Flynn, the hackers were able to access backup files on an Amazon AWS bucket after finding the credentials to access it inside code that had been posted to a weakly-secured GitHub repository. But how had they accessed the repository? Presumably by brute-forcing the password, which was a viable attack method because multi-factor authentication (which GitHub offers in several forms) had not been turned on.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.theregister.co.uk/2018/02/07/uber_quit_github_for_custom_code_after_2016_data_breach/">
             Read More
           </mj-button>
-          <mj-button mj-class="bg-orange" href="URL">
+          <mj-button mj-class="bg-orange" href="https://nakedsecurity.sophos.com/2018/02/08/uber-data-breach-aided-by-multi-factor-authentication-weakness/">
             Even More
           </mj-button>
         </mj-column>
@@ -166,15 +161,15 @@
       <mj-section background-color="#fff">
         <mj-column>
           <mj-spacer height="30px" />
-          <mj-text mj-class="purple h2">News5</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-button mj-class="bg-purple" href="URL">
+          <mj-text mj-class="purple h2">Knock, knock. Who’s there? Another Amazon Key door-lock hack</mj-text>
+          <mj-image src="https://cdn.arstechnica.net/wp-content/uploads/2017/10/Screen-Shot-2017-10-25-at-11.49.10-AM-800x572.png"></mj-image>
+          <mj-text>The researcher, who's identifying himself only as MG, claimed over the weekend to have found a way to break Amazon Key using a Raspberry Pi equipped with a battery pack and wireless dongle. In a video, he showed himself as a mock hacker, planting the Pi in a hidden location on a doorstep. A fake delivery man then turns up with a package, opens the door using his Amazon Key app and delivers the parcel, before apparently locking the door and leaving. It is, of course, not locked. And the sound of the lock closing is just a fake audio file. When the hacker returns, he's able to just walk right in.</mj-text>
+          <mj-text>MG won't be releasing the full technical details of the hack until the Key app is patched, though Amazon told Forbes it involved disrupting Wi-Fi connections used by the Key system, not Amazon software. Though MG's video showed an attack involving a driver, it's equally possible his trick could dupe those who use Amazon's lock for everyday use, or permit friends and family to enter with the app. Indeed, MG told Forbes this was a more concerning aspect of his disclosure.</mj-text>
+          <mj-text>Amazon, in a statement, has downplayed the attack, saying its systems should be able to detect if a door is left unlocked for too long, and that delivery staff should check the front door is locked before leaving.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://www.forbes.com/sites/thomasbrewster/2018/02/06/amazon-key-raspberry-pi-break-in/#493757116bca">
             Read More
           </mj-button>
-          <mj-button mj-class="bg-purple" href="URL">
+          <mj-button mj-class="bg-purple" href="https://www.theregister.co.uk/2018/02/05/amazon_key_hack/">
             Even More
           </mj-button>
         </mj-column>
@@ -184,36 +179,19 @@
       <mj-section background-color="#fff">
         <mj-column>
           <mj-spacer height="30px" />
-          <mj-text mj-class="blue h2">News6</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-button mj-class="bg-blue" href="URL">
+          <mj-text mj-class="blue h2">Apple's iBoot Source Code for iPhone Leaked on Github</mj-text>
+          <mj-image src="https://4.bp.blogspot.com/-L9r-wz8qx6k/WnwM6nmsXxI/AAAAAAAAvuk/GP_5mfhqd508gSgI9h0i0BmHrhEPgv8bQCLcBGAs/s1600/ios-iboot-source-code.png"></mj-image>
+          <mj-text>Apple source code for a core component of iPhone's operating system has purportedly been leaked on GitHub, that could allow hackers and researchers to discover currently unknown zero-day vulnerabilities to develop persistent malware and iPhone jailbreaks. The source code appears to be for iBoot—the critical part of the iOS operating system that's responsible for all security checks and ensures a trusted version of iOS is loaded.</mj-text>
+          <mj-text>The iBoot code was initially shared online several months back on Reddit, but it just resurfaced today on GitHub (repository now unavailable due to DMCA takedown). Motherboard consulted some security experts who have confirmed the legitimacy of the code.</mj-text>
+          <mj-text>The leaked source code is being cited as "the biggest leak in history" by Jonathan Levin, the author of a number of books on iOS and macOS internals. He says the leaked code seems to be the real iBoot code as it matches with the code he reverse-engineered himself. It is worth noting that newer iPhones and other iOS devices ship with Secure Enclave, which protects against some of the potential issues that come with the leaked iBoot source code. For now, don't panic. No one's going to hack your iPhone or iPad over the air, nor via a webpage or an app, from this leak.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://thehackernews.com/2018/02/iboot-ios-source-code.html">
             Read More
           </mj-button>
-          <mj-button mj-class="bg-blue" href="URL">
+          <mj-button mj-class="bg-blue" href="https://www.theregister.co.uk/2018/02/08/apple_iboot_source_code_leaked/">
             Even More
           </mj-button>
         </mj-column>
       </mj-section>
-
-
-      <!-- Pink Articles -->
-      <mj-section background-color="#fff">
-        <mj-column>
-          <mj-spacer height="30px" />
-          <mj-text mj-class="pink h2">News7</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-button mj-class="bg-pink" href="URL">
-            Read More
-          </mj-button>
-          <mj-button mj-class="bg-pink" href="URL">
-            Read More
-          </mj-button>
 
 
         </mj-column>
@@ -226,27 +204,32 @@
           <mj-text mj-class="h2">Cutting room floor</mj-text>
           <mj-text>
             <ul>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
+              <li><a class="lnk-blue" href="http://www.zdnet.com/article/windows-security-microsoft-issues-adobe-patch-to-tackle-flash-zero-day/">Windows security: Microsoft issues Adobe patch to tackle Flash zero-day</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/pos-malware-steals-credit-card-data-via-dns-requests/">PoS Malware Steals Credit Card Data via DNS Requests</a></li>
+              <li><a class="lnk-green" href="https://techcrunch.com/2018/02/05/mixpanel-passwords/?ncid=rss">Mixpanel analytics accidentally slurped up passwords</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/css-code-can-be-abused-to-collect-sensitive-user-data/">CSS Code Can Be Abused to Collect Sensitive User Data</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2018/02/intel-processor-update.html">Intel Releases New Spectre Patch Update for Skylake Processors</a></li>
+              <li><a class="lnk-blue" href="https://www.theregister.co.uk/2018/02/08/uber_bug_bounties_senate/">PSA: If your security starts and ends with bug bounties, you're gonna have a bad time</a></li>
+              <li><a class="lnk-pink" href="https://www.troyhunt.com/how-long-is-long-enough-minimum-password-lengths-by-the-worlds-top-sites/">How Long is Long Enough? Minimum Password Lengths by the World's Top Sites</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/scammers-use-download-bombs-to-freeze-chrome-browsers-on-shady-sites/">Scammers Use Download Bombs to Freeze Chrome Browsers on Shady Sites</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2018/02/06/grammarly-user-patch-now-to-stop-crooks/">Vulnerability in spellchecking tool Grammarly</a></li>
+              <li><a class="lnk-purple" href="https://www.hackread.com/all-ledger-hardware-wallet-vulnerable-to-man-in-the-middle-attack/">All Ledger hardware wallets vulnerable to man in the middle attack</a></li>
+              <li><a class="lnk-blue" href="http://www.securityweek.com/xss-sql-injection-flaws-patched-joomla">XSS, SQL Injection Flaws Patched in Joomla</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/intel-releases-fixed-skylake-microcodes-for-spectre-vulnerability-to-oems/">Intel Releases Fixed Skylake Microcodes For Spectre Vulnerability to OEMs</a></li>
             </ul>
           </mj-text>
           <mj-spacer height="30px" />
           <mj-text mj-class="h2">#Tech and #Tools</mj-text>
           <mj-text>
             <ul>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
+              <li><a class="lnk-blue" href="https://github.com/lukeber4/usn-search">usn-search: Facilitate search and processing of .deb packages vulnerabilities and its CVEs.</a></li>
+              <li><a class="lnk-pink" href="https://github.com/jedisct1/dnscrypt-proxy">DNScrypt Proxy 2.0: A flexible DNS proxy, with support for encrypted DNS protocols.</a></li>
+              <li><a class="lnk-green" href="https://rhinosecuritylabs.com/aws/cloud-security-csv-injection-aws-cloudtrail/">CSV Injection in AWS CloudTrail</a></li>
+              <li><a class="lnk-orange" href="https://www.fidelissecurity.com/threatgeek/2018/02/exposing-x509-vulnerabilities">Using X.509 certificate as covert channel for data transfer</a></li>
+              <li><a class="lnk-purple" href="https://labs.mwrinfosecurity.com/blog/enumerating-remote-access-policies-through-gpo/">Enumerating remote access policies through GPO</a></li>
+              <li><a class="lnk-blue" href="https://breachinsider.com/honey-buckets/">Honey Buckets: Find out who is snooping through your Amazon S3 buckets.</a></li>
+              <li><a class="lnk-pink" href="https://github.com/dxa4481/cssInjection">Stealing CSRF tokens with CSS injection (without iFrames)</a></li>
+              <li><a class="lnk-green" href="http://www.securitybydefault.com/2018/01/microsoft-anti-ransomware-bypass-not.html">Microsoft Anti Ransomware bypass</a></li>
             </ul>
           </mj-text>
         </mj-column>
