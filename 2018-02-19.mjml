@@ -231,6 +231,7 @@
               <li><a class="lnk-blue" href="https://a.ndronic.us/the-easiest-metasploit-guide-youll-ever-read/">The Easiest Metasploit Guide You’ll Ever Read</a></li>
               <li><a class="lnk-pink" href="https://medium.com/@woj_ciech/command-and-control-server-in-social-media-twitter-instagram-youtube-telegram-5206ce763950">Command and control server in social media</a></li>
               <li><a class="lnk-green" href="https://x-c3ll.github.io/posts/javascript-antidebugging/">JavaScript AntiDebugging Tricks</a></li>
+              <li><a class="lnk-orange" href="https://getgophish.com/">Replicator: Burp plugin helping developers to reproduce issues discovered by pen testers.</a></li>
             </ul>
           </mj-text>
         </mj-column>
