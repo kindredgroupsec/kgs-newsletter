@@ -1,0 +1,252 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 19/02/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-VrXcVHiM7GU/WoJyjFXNIDI/AAAAAAAAvw4/2F1fxdQNINsjpm4V9Ft_C8P4E3GY07hKwCLcBGAs/s1600/PyeongChang-2018-Winter-Olympics.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">19 February 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Destructive Malware Wreaks Havoc at PyeongChang 2018 Winter Olympics</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-VrXcVHiM7GU/WoJyjFXNIDI/AAAAAAAAvw4/2F1fxdQNINsjpm4V9Ft_C8P4E3GY07hKwCLcBGAs/s1600/PyeongChang-2018-Winter-Olympics.png"></mj-image>
+          <mj-text color="#fff">Destructive malware intent on sabotaging PCs is to blame for the IT problems reported during the PyeongChang 2018 Winter Olympics opening ceremony. The issues, first reported on Friday by UK paper The Guardian, consisted of failing Internet and television systems for on-site journalists attending and reporting the opening ceremony. While initially, Olympics organizers were quiet, officials finally admitted on Sunday that the IT failures were no accident and their network has been the victim of a malicious and coordinated cyber-attack.</mj-text>
+          <mj-text color="#fff">According to Cisco researchers, attackers deployed a never-before-seen malware strain that was intent on data destruction and data destruction only. "The destructive nature of this malware aims to render the machine unusable by deleting shadow copies, event logs and trying to use PsExec & WMI to further move through the environment. This is something we have witnessed previously with BadRabbit and Nyetya," Mercer and Rascagneres added.</mj-text>
+          <mj-text color="#fff">Cisco published an initial analysis (now updated) of this threat, revealing that Olympic Destroyer was capable of mangling a computer's data recovery procedures and deleting crucial Windows services, rendering Windows computers unable to boot. According to the Windows Defender team, Olympic Destroyer appears to have been deployed via one of the NSA exploits leaked by the Shadow Brokers last year —namely EternalRomance.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/destructive-malware-wreaks-havoc-at-pyeongchang-2018-winter-olympics/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2018/02/pyeongchang-2018-winter-olympics.html">
+            Even More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/olympic-destroyer-data-wiping-malware-is-more-complex-than-previously-thought/">
+            Attack more complex than previously thought
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Facebook wants you to install a VPN app accused of spying on users</mj-text>
+          <mj-image src="https://www.hackread.com/wp-content/uploads/2018/02/Facebook-onavo-vpn-app-spying.png?x62286"></mj-image>
+          <mj-text>Facebook has begun releasing a controversial app for its Android and iPhone (iOS) users which is a free VPN program from Onavo, an Israeli company bought by Facebook in October 2013, which promises to protect users’ browsing data. However, the program is accused of monitoring user traffic and tracking the major competitors of Mark Zuckerberg’s company.</mj-text>
+          <mj-text>Sccording to the report, is that Onavo collects data on what apps users are using and how much they are using them. This helps Facebook spot emerging trends to hedge its M&A bets, the report said, but could be a problem for privacy-conscious users.</mj-text>
+          <mj-text>Some tens of millions of people have already installed the Onavo app, the report said, and many might not know exactly what information it collects. Privacy-conscious professionals, especially those that work from their phone or may have a competitive product to Facebook, should seriously consider ditching the app and finding a new VPN client.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.hackread.com/facebook-wants-you-to-install-a-spying-vpn-app/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.techrepublic.com/article/beware-of-facebooks-new-vpn-it-could-collect-even-more-of-your-personal-data/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">One in Three SOC Analysts Now Job-Hunting</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-4it7pPyXl68/WQzB4_yZvgI/AAAAAAAAAN0/o-zA-t6-8qESjcMPgIL95JDRr9rdHABCgCLcB/s1600/maxresdefault-1-633x350.jpg"></mj-image>
+          <mj-text>Landing a job as an entry-level security operations center (SOC) analyst often provides a foot in the door to the cybersecurity field, but a new survey shows the more seasoned a SOC staffer gets, the more likely he or she will become disillusioned with the position.</mj-text>
+          <mj-text>New data from the Cyentia Institute's "Voice of the Analyst Study" of security operations center teams shows that while three in four SOC analysts are satisfied with their jobs, some 45% say the reality of the SOC isn't what they had expected. Some 70% of entry-level (one- to two years' experience) SOC analysts say their job meets their expectations, while just 43% of more experienced SOC analysts say so, according to the report, commissioned by SOC automation vendor Respond Software.</mj-text>
+          <mj-text>SOC analysts say they were drawn to their positions for a new challenge, skills, more money, and as a way to make a difference, but those same incentives also are what's drawing them to leave their current jobs, according to the report. "If you want to keep them around, offering those same positives in-house is just as important as eliminating the negatives that drive them out," the report says. "Roughly 3 out of 4 point to a desire for more intellectually challenging work, the chance to learn new skills, and/or a chance to defend and help the business."</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.darkreading.com/vulnerabilities---threats/one-in-three-soc-analysts-now-job-hunting/d/d-id/1331040">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Cryptomining script poisons government websites – What to do</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2018/02/ba-mq.jpg?w=780&h=408&crop=1"></mj-image>
+          <mj-text>We saw a pretty big event take place over the weekend where a 3rd party provider was compromised and their JS library was altered. The alteration introduced a crypto mining script that was then subsequently included on over 4,000 websites that I know of, many of which were UK/AU Government websites.</mj-text>
+          <mj-text>If you want to load a crypto miner on 1,000+ websites you don't attack 1,000+ websites, you attack the 1 website that they all load content from. In this case it turned out that Text Help, an assistive technology provider, had been compromised and one of their hosted script files changed.</mj-text>
+          <mj-text>This is not a particularly new attack and we've known for a long time that CDNs or other hosted assets are a prime target to compromise a single target and then infect potentially many thousands of websites. The thing is though, there's a pretty easy way to defend yourself against this attack. Now, onto solutions. We have a very robust, well-proven defence for this in subresource integrity (SRI). You add the file's hash as an attribute of the script tag. If - for whatever reason - that library is modified upstream of my website, the sha256 hash of the file will be different to the one specified above and the browser simply won't run it. Finally, we have content security policies (CSP) which provide another layer of defence. A good policy would have stopped the cryptominer from being loaded from coinhive.com in the first place as it wouldn't have appeared as a white-listed script source.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://nakedsecurity.sophos.com/2018/02/12/cryptomining-script-poisons-government-websites-what-to-do/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="https://www.troyhunt.com/the-javascript-supply-chain-paradox-sri-csp-and-trust-in-third-party-libraries/">
+            Protect your site from Cryptojacking with CSP + SRI
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">New Spectre, Meltdown variants leave victims open to side-channel attacks</mj-text>
+          <mj-image src="https://tr1.cbsistatic.com/hub/i/r/2018/02/15/b2059843-60c2-4260-aa30-e66cc225a33f/resize/770x/464f1619ce97a05c2e9ffc3d3ebac70b/spctremeltdown.jpg"></mj-image>
+          <mj-text>Security researchers from NVIDIA and Princeton have discovered new variants of the Meltdown and Spectre flaws that may be more difficult to tackle than the originals. Dubbed MeltdownPrime and SpectrePrime, these flaws were further detailed in a recent research paper.</mj-text>
+          <mj-text>The software changes already underway will likely take care of these two exploits, but the coming hardware fixes won't, the researchers noted in the paper. The researchers said they believe the "hardware protection against them will be distinct," which means that chip makers may need to further change their designs to mitigate the threats.</mj-text>
+          <mj-text>After creating their own tool to synthesize the Spectre and Meltdown flaws, the researchers were able to use their findings to conduct side-channel attacks, or attacks that take advantage of the physical hardware related to a system's security. By leveraging software dependencies, the paper said, Flush+Reload attacks can also be altered to go after any memory location, not just shared memory. What's at stake here? Well, according to the researchers, these attacks can lead to a leak of privileged kernel memory as well. By leveraging software dependencies, the paper said, Flush+Reload attacks can also be altered to go after any memory location, not just shared memory. What's at stake here? Well, according to the researchers, these attacks can lead to a leak of privileged kernel memory as well.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.techrepublic.com/article/new-spectre-meltdown-variants-leave-victims-open-to-side-channel-attacks/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-blue" href="https://www.theregister.co.uk/2018/02/14/meltdown_spectre_exploit_variants/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">TextBomb: Indian Text Character Crashes Many iOS and macOS Apps</mj-text>
+          <mj-image src="https://3.bp.blogspot.com/-mv3jTmV8CXo/WoZ_bQ-IFJI/AAAAAAAAAok/Abz5Atxm0BQkGGMvjIxgXW11I_6P-D6GQCLcBGAs/s1600/iphone-crash.png"></mj-image>
+          <mj-text>Only a single character can crash your iPhone and block access to the Messaging app in iOS as well as popular apps like WhatsApp, Facebook Messenger, Outlook for iOS, and Gmail.</mj-text>
+          <mj-text>First spotted by Italian Blog Mobile World, a potentially new severe bug affects not only iPhones but also a wide range of Apple devices, including iPads, Macs and even Watch OS devices running the latest versions of their operating software.</mj-text>
+          <mj-text>Once the recipient receives a simple message containing the symbol or typed that symbol into the text editor, the character immediately instigates crashes on iPhones, iPads, Macs, Apple Watches and Apple TVs running Apple's iOS Springboard. Apps that receive the text bomb tries to load the character, but fails and refuses to function properly until the character is removed—which usually can be done by deleting the entire conversation. The easiest way to delete the offending message is by asking someone else to send a message to the app that is crashing due to the text bomb. This would allow you to jump directly into the notification and delete the entire thread containing the character.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://amp.thehackernews.com/thn/2018/02/crash-iphone-text.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="http://www.zdnet.com/article/microsoft-delivers-free-meltdown-spectre-assessment-tool-for-it-pros/">Microsoft delivers free Meltdown-Spectre assessment tool for IT pros</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2018/02/microsoft-patch-tuesday-february-2018-edition/">Microsoft Patch Tuesday, February 2018 Edition</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/2018/02/14/patch_tuesday_microsoft_adobe/">Serious security flaws in Outlook and Edge are headlining a busy Microsoft Patch Tuesday.</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/windows-password-decryption-possible-from-dump-files-mounting-offline-partitions/">Windows password decryption possible from dump files, mounting offline partitions</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/lenovo-patches-critical-wi-fi-vulnerabilities">Lenovo Patches Critical Wi-Fi Vulnerabilities</a></li>
+              <li><a class="lnk-blue" href="https://www.theregister.co.uk/2018/02/13/equifax_security_breach_bad/">Equifax hack worse than previously thought</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/security-updates-available-for-popular-netgear-routers/">Security Updates Available for Popular Netgear Routers</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2018/02/hackers-exploit-telegram-messenger-zero.html">Hackers Exploit 'Telegram Messenger' Zero-Day Flaw to Spread Malware</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/apple/researcher-uses-macos-app-screenshot-feature-to-steal-passwords-tokens-keys/">Researcher Uses macOS App Screenshot Feature to Steal Passwords, Tokens, Keys</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/apple/researcher-uses-macos-app-screenshot-feature-to-steal-passwords-tokens-keys/">Researcher Uses macOS App Screenshot Feature to Steal Passwords, Tokens, Keys</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/linux/its-2018-and-you-can-still-p0wn-your-linux-box-by-plugging-in-a-usb-stick/">It's 2018 and You Can Still p0wn Your Linux Box by Plugging in a USB Stick</a></li>
+              <li><a class="lnk-pink" href="https://www.troyhunt.com/making-light-of-the-dark-web-and-debunking-the-fud/">Making Light of the "Dark Web" (and Debunking the FUD)</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/multi-stage-word-attack-infects-users-without-using-macros/">Multi-Stage Word Attack Infects Users Without Using Macros</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/leaked-fedex-customer-data-was-stored-on-amazon-s3-server-with-no-password/">Leaked FedEx customer data was stored on Amazon S3 server with no password</a></li>
+              <li><a class="lnk-purple" href="https://krebsonsecurity.com/2018/02/new-eu-privacy-law-may-weaken-security/">New EU Privacy Law May Weaken Security</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/vincentcox/StaCoAn">StaCoAn is a crossplatform tool which aids developers, bugbounty hunters and ethical hackers performing static code analysis on mobile applications.</a></li>
+              <li><a class="lnk-pink" href="https://github.com/fireeye/ReelPhish">ReelPhish: A Real-Time Two-Factor Phishing Tool</a></li>
+              <li><a class="lnk-green" href="https://www.xorrior.com/malicious-installer-plugins/">Malicious Installer Plugins</a></li>
+              <li><a class="lnk-orange" href="https://getgophish.com/">GoPhish: Open-Source Phishing Framework</a></li>
+              <li><a class="lnk-purple" href="https://blog.nviso.be/2018/02/15/going-beyond-wireshark-experiments-in-visualising-network-traffic/">Going beyond Wireshark: experiments in visualising network traffic</a></li>
+              <li><a class="lnk-blue" href="https://a.ndronic.us/the-easiest-metasploit-guide-youll-ever-read/">The Easiest Metasploit Guide You’ll Ever Read</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@woj_ciech/command-and-control-server-in-social-media-twitter-instagram-youtube-telegram-5206ce763950">Command and control server in social media</a></li>
+              <li><a class="lnk-green" href="https://x-c3ll.github.io/posts/javascript-antidebugging/">JavaScript AntiDebugging Tricks</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">ubsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
