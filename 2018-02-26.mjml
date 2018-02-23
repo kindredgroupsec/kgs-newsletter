@@ -1,0 +1,252 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 26/02/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://files.mastodon.social/media_attachments/files/002/831/936/original/3cd089fd4603f2f7.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">26 February 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Pribot Polisis: An A.I. that reads privacy policies so that you don't have to</mj-text>
+          <mj-image src="https://files.mastodon.social/media_attachments/files/002/831/936/original/3cd089fd4603f2f7.png"></mj-image>
+          <mj-text color="#fff">You don't read privacy policies. And of course, that's because they're not actually written for you, or any of the other billions of people who click to agree to their inscrutable legalese. Instead, like bad poetry and teenagers' diaries, those millions upon millions of words are produced for the benefit of their authors, not readers — the lawyers who wrote those get - out clauses to protect their Silicon Valley employers.</mj-text>
+          <mj-text color="#fff">But one group of academics has proposed a way to make those virtually illegible privacy policies into the actual tool of consumer protection they pretend to be: an artificial intelligence that's fluent in fine print. Today, researchers at Switzerland's Federal Institute of Technology at Lausanne (EPFL), the University of Wisconsin and the University of Michigan announced the release of Polisis—short for "privacy policy analysis"—a new website and browser extension that uses their machine-learning-trained app to automatically read and make sense of any online service's privacy policy, so you don't have to.</mj-text>
+          <mj-text color="#fff">The researchers' legalese-interpretation apps do still have some kinks to work out. They see their AI engine in part as the groundwork for future tools. They suggest that future apps could use their trained AI to automatically flag data practices that a user asks to be warned about, or to automate comparisons between different services' policies that rank how aggressively each one siphons up and share your sensitive data.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.wired.com/story/polisis-ai-reads-privacy-policies-so-you-dont-have-to/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://pribot.org/">
+            Pribot Polisis
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Troy Hunt Just Launched "Pwned Passwords" V2 With Half a Billion Passwords for Download</mj-text>
+          <mj-image src="https://imgur.com/CoFfGMI.png"></mj-image>
+          <mj-text>Last August, Troy Hunt launched a little feature within Have I Been Pwned (HIBP) called Pwned Passwords. This was a list of 320 million passwords from a range of different data breaches which organisations could use to better protect their own systems. V2 just got released and there's Now 501,636,842 Pwned Passwords, but the biggest improvement is elsewhere. He got a lot of feedback from V1 along the lines of "simply blocking 320M passwords is a usability nightmare". Blocking half a billion, even more so.</mj-text>
+          <mj-text>In V2, every single password has a count next to it. What this means is that next to "abc123" you'll see 2,670,319 - that's how many times it appeared in my data sources. Having visibility to the prevalence means, for example, you might outright block every password that's appeared 100 times or more and force the user to choose another one (there are 1,858,690 of those in the data set), strongly recommend they choose a different password where it's appeared between 20 and 99 times (there's a further 9,985,150 of those), and merely flag the record if it's in the source data less than 20 times. Of course, the password "acl567" may well be deemed too weak by the requirements of the site even without Pwned Passwords so this is by no means the only test a site should apply.</mj-text>
+          <mj-text>Please note that as per NIST's Special Publication 800-63B, passwords must be checked against blacklists of known breached passwords or weak passwords. The size of the blacklist is critical as a blacklist too big will lead to a very poor user experience and a blacklist too small will not be effective.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.troyhunt.com/ive-just-launched-pwned-passwords-version-2/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://blog.cloudflare.com/validating-leaked-passwords-with-k-anonymity/">
+            Validating leaked passwords with k-anonymity
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://blog.cloudflare.com/how-developers-got-password-security-so-wrong/">
+            How developers got password security wrong
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Nearly 8,000 Security Flaws Did Not Receive a CVE ID in 2017</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/u/986406/Charts/Reports/VulnDBvsCVEID.png"></mj-image>
+          <mj-text>A record-breaking number of 20,832 vulnerabilities have been discovered in 2017 but only 12,932 of these received an official CVE identifier last year, a Risk Based Security (RBS) report reveals. This means that 7,900 security bugs remained without a CVE-2017-XXXXX number, and were left off the databases of many security scanners because of it.</mj-text>
+          <mj-text>Furthermore, this also means that many security bugs remained buried on forums and personal blogs —places where attackers might have the time to scout, but where many IT security departments will never look. The reasons are plenty, but one of them is the explosion of security bugs in IoT devices, which has made it harder for Mitre and NVD staffs to keep up with all the bugs.</mj-text>
+          <mj-text>Furthermore, almost 7,000 2917 vulnerabilities received a RESERVED CVE status, with no public details available, despite 1,342 of them having a public disclosure. "This seems to indicate that MITRE is more focused on assigning and increasing the number of IDs, and not ensuring the quality of data," RBS experts concluded.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/nearly-8-000-security-flaws-did-not-receive-a-cve-id-in-2017/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Hacker Group Makes $3 Million by Installing Monero Miners on Jenkins Servers</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/02/17/JenkinsMiner.png"></mj-image>
+          <mj-text>A hacker group has made over $3 million by breaking into Jenkins servers and installing malware that mines the Monero cryptocurrency.</mj-text>
+          <mj-text>Hackers are targeting Jenkins, a continuous integration/deployment web application built in Java that allows dev teams to run automated tests and execute various operations based on test results, including deploying new code to production servers. Because of this, Jenkins servers are extremely popular with both freelance web developers, but also with large enterprises.</mj-text>
+          <mj-text>Attackers were leveraging CVE-2017-1000353, a vulnerability in the Jenkins Java deserialization implementation that allows attackers to run malicious code remotely without needing to authenticate first. The attackers have been active for months. Researchers say the group appears to have compromised mostly Jenkins instances running on Windows operating systems. Attackers aren't the only ones who've noticed the large number of Jenkins servers available online. In mid-January, security researcher Mikail Tunç published research highlighting that there were over 25,000 Jenkins servers left exposed to Internet connections at the time of his research.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/hacker-group-makes-3-million-by-installing-monero-miners-on-jenkins-servers/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://www.hackread.com/hackers-made-monero-on-jenkins-server-in-biggest-mining-op/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Introducing the Adversary Resilience Methodology</mj-text>
+          <mj-image src="https://cdn-images-1.medium.com/max/1600/0*xT_ZhS7rvhx3GX0q."></mj-image>
+          <mj-text>In this post, the authors illustrate some of the current challenges enterprises face when trying to secure their Active Directory environment. Then, they detail a new methodology that uses the untapped power of BloodHound’s attack graph to efficiently achieve an Active Directory that is highly resilient against the most attacks most likely to be discovered and executed by an adversary.</mj-text>
+          <mj-text>Even in a perfect world, where all remediations were applied, only one attack path of many was stopped. The techniques and procedures used change, as vendors and defenders add security measures, but attackers continue to succeed. For many reasons, enterprises get stuck in this endless loop of responding to attacker behaviors and capabilities, hardly ever having time to try and get a leg up on adversaries.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://posts.specterops.io/introducing-the-adversary-resilience-methodology-part-one-e38e06ffd604">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Blue Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">Botched npm Update Crashes Linux Systems, Forces Users to Reinstall</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/02/22/npm.jpg"></mj-image>
+          <mj-text>A bug in npm (Node Package Manager), the most widely used JavaScript package manager, will change ownership of crucial Linux system folders, such as /etc, /usr, /boot.</mj-text>
+          <mj-text>Changing ownership of these files either crashes the system, various local apps, or prevents the system from booting, according to reports from users who installed npm v5.7.0. —the buggy npm update. Users who installed this update —mostly developers and software engineers— will likely have to reinstall their system from scratch or restore from a previous system image.</mj-text>
+          <mj-text>The bug was first reported a week ago but was left without an answer from npm developers. Users filed a new bug report after last night's release, and the npm team has released npm v5.7.1, a version that removes the buggy code.</mj-text>
+          <mj-button mj-class="bg-blue" href="https://www.bleepingcomputer.com/news/linux/botched-npm-update-crashes-linux-systems-forces-users-to-reinstall/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.turnon2fa.com/tutorials/">Learn How to Turn On 2FA Now!</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/windows-10-null-character-flaw-keeps-malware-hidden-from-security-scanning-tools/">Windows 10 null character flaw keeps malware hidden from security scanning tools</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-10-vulnerability-but-doesnt/">Microsoft Fixes Windows 10 Privilege Escalation bug But forgot an edge case</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/amazon-aws-servers-might-soon-be-held-for-ransom-similar-to-mongodb/">Amazon AWS Servers Might Soon Be Held for Ransom, Similar to MongoDB</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/utorrent-client-affected-by-some-pretty-severe-security-flaws/">uTorrent Client Affected by Some Pretty Severe Security Flaws</a></li>
+              <li><a class="lnk-blue" href="http://www.zdnet.com/article/hackers-are-selling-legitimate-code-signing-certificates-to-evade-malware-detection/">Hackers are selling legitimate code-signing certificates to evade malware detection</a></li>
+              <li><a class="lnk-pink" href="http://www.zdnet.com/article/north-korean-reaper-apt-uses-zero-day-vulnerabilities-to-spy-on-governments/">North Korean Reaper (APT 37) uses zero-day vulnerabilities to spy on governments</a></li>
+              <li><a class="lnk-green" href="http://www.zdnet.com/article/coldroot-nasty-mac-trojan-went-undetected-for-years/">Meet Coldroot, a nasty Mac trojan that went undetected for years</a></li>
+              <li><a class="lnk-orange" href="https://www.theverge.com/2018/2/21/17036626/intel-spectre-patch-chip-update-7th-8th-gen">Intel rolls out Spectre updates for 7th and 8th-gen Core chips</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/chromebook-update-boosts-security-but-wipes-all-data-in-the-process/">Chromebook update boosts security, but wipes all data in the process</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cryptojacking-scripts-could-soon-invade-your-word-documents/">Cryptojacking Scripts Could Soon Invade Your Word Documents</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/anchor-cms-sites-may-be-spewing-their-database-passwords/">Anchor CMS Sites May Be Spewing Their Database Passwords</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/nist-working-global-iot-cybersecurity-standards">NIST Working on Global IoT Cybersecurity Standards</a></li>
+              <li><a class="lnk-orange" href="https://www.hackread.com/pacemakers-defibrillators-can-be-hacked-turned-off/">Life-saving Pacemakers, Defibrillators Can Be Hacked and Turned Off</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2018/02/19/google-drops-a-new-edge-zero-day-as-microsoft-misses-90-day-deadline/">Google drops new Edge zero-day as Microsoft misses 90-day deadline</a></li>
+              <li><a class="lnk-blue" href="https://aws.amazon.com/fr/blogs/security/aws-single-sign-on-now-enables-command-line-interface-access-for-aws-accounts-using-corporate-credentials/">AWS Single Sign-On Now Enables Command Line Interface Access for AWS Accounts Using Corporate Credentials</a></li>
+              <li><a class="lnk-pink" href="https://isc.sans.edu/forums/diary/CIS+Controls+Version+7/23373/">Center for Internet Security (CIS) released CIS Top20 Controls version 7</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/maxchehab/CSS-Keylogging">CSS Keylogger</a></li>
+              <li><a class="lnk-pink" href="https://posts.specterops.io/assessing-the-effectiveness-of-hash-based-application-whitelisting-blacklist-rules-fe1cb01975a9">Assessing the Effectiveness of Hash-based Application Whitelisting Blacklist Rules</a></li>
+              <li><a class="lnk-green" href="https://digitasecurity.com/blog/2018/02/19/coldroot/">Tearing Apart the Undetected (OSX)Coldroot RAT</a></li>
+              <li><a class="lnk-orange" href="http://iotscanner.bullguard.com/">Check if you're public on Shodan</a></li>
+              <li><a class="lnk-purple" href="https://github.com/brthor/docker-layer2-icc">Docker Layer 2 ICC Bug</a></li>
+              <li><a class="lnk-blue" href="https://github.com/zricethezav/gitleaks">GitLeaks: Check git repos for secrets and keys</a></li>
+              <li><a class="lnk-pink" href="https://littlemaninmyhead.wordpress.com/2018/02/18/secure-coding-understanding-input-validation/">Secure Coding: Understanding input validation</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">ubsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
