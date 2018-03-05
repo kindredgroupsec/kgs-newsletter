@@ -1,0 +1,243 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 05/03/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://3.bp.blogspot.com/-Te3_-DcVyzA/WpZNbDHHzlI/AAAAAAAAv1c/JSsTVzeZkkUxIvd_qtGF5xF_4YL78HR7QCLcBGAs/s1600/memcached-amplification-ddos-attack.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">5 March 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Memcached Servers Can Be Abused for Insanely Massive DDoS Attacks</mj-text>
+          <mj-image src="https://3.bp.blogspot.com/-Te3_-DcVyzA/WpZNbDHHzlI/AAAAAAAAv1c/JSsTVzeZkkUxIvd_qtGF5xF_4YL78HR7QCLcBGAs/s1600/memcached-amplification-ddos-attack.png"></mj-image>
+          <mj-text color="#fff">Cybercriminals have figured out a way to abuse widely-used Memcached servers to launch over 51,000 times powerful DDoS attacks than their original strength, which could result in knocking down of major websites and Internet infrastructure. In practice we've seen a 15 byte request result in a 750kB response (that's a 51,200x amplification). Memcached is a popular open-source and easily deployable distributed caching system that allows objects to be stored in memory and has been designed to work with a large number of open connections. Memcached server runs over TCP or UDP port 11211.</mj-text>
+          <mj-text color="#fff">The general idea behind all amplification attacks is the same. An IP-spoofing capable attacker sends forged requests to a vulnerable UDP server. The UDP server, not knowing the request is forged, politely prepares the response. The problem happens when thousands of responses are delivered to an unsuspecting target host, overwhelming its resources. Amplification attacks are effective, because often the response packets are much larger than the request packets. Thisn attacker with limited IP spoofing capacity (such as 1Gbps) to launch very large attacks (reaching 100s Gbps) "amplifying" the attacker's bandwidth.</mj-text>
+          <mj-text color="#fff">New evidence suggests this novel attack method is fueling digital shakedowns in which victims are asked to pay a ransom to call off crippling cyberattacks. Cybereason, a Boston-based security company, said it has seen memcached attack payloads that consist of a simple ransom note requesting payment of 50 XMR (Monero virtual currency). Paying the Monero ransom won't help companies at all. That's because attackers have used the same Monero address for multiple DDoS attacks against different targets, they won't know who payed.</mj-text>
+          <mj-text color="#fff">It's necessary to fix this and prevent further attacks. If you are using memcached, please disable UDP support if you are not using it. Please also ensure that your memcached servers are firewalled from the internet! Finally, developers: Please stop using UDP. If you must, please don't enable it by default. In order to defeat such attacks in future, we need to fix vulnerable protocols and also IP spoofing. As long as IP spoofing is permissible on the internet, we'll be in trouble.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2018/02/memcached-amplification-ddos.html">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://blog.cloudflare.com/memcrashed-major-amplification-attacks-from-port-11211/">
+            Even More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2018/03/powerful-new-ddos-method-adds-extortion/">
+            Live attacks add extortion in Monero
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Single Sign-On authentication – the SAML bug that lets you logon as someone else</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2018/02/shutterstock_531384298.jpg?w=780&h=408&crop=1"></mj-image>
+          <mj-text>Logon security company Duo recently found a rather worrying flaw in its own authentication gateway. A bit of digging revealed that the flaw was reflected in many other so-called single-sign on (SSO) applications, thanks to a problem in handling the underlying “authentication language” that has become a standard for products in this space.</mj-text>
+          <mj-text>This vulnerability can allow an attacker with authenticated access to trick SAML systems into authenticating as a different user without knowledge of the victim user’s password. In the vocabulary of SSO, network authentication uses dedicated authentication servers, known as IdPs (Identity Providers), to validate requests from client software (users) for access to servers on the network, known as SPs (service providers). This means that you don’t need to program an authentication module, or maintain a separate password database, or run yet another two-factor authentication service, for every server.</mj-text>
+          <mj-text>It is recommended that individuals that rely on SAML-based SSO to update any affected software to patch this vulnerability. The presence of this behavior is not great, but not always exploitable. SAML [identity providers] and [service providers] are generally very configurable, so there is lots of room for increasing or decreasing impact," the Duo Labs team says. Researchers recommend disabling public registration of user accounts on sensitive networks and vetting each user manually to avoid attackers registering an account on internal networks in the first place. If this is not possible, network admins can configure a whitelist of accepted email address domain names to limit who can register on the network, albeit this is not a reliable protection measure and a  determined attacker will find a way around it. The attack is not possible against accounts protected by two-factor authentication (2FA) solutions.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2018/02/28/single-sign-on-authentication-the-bug-that-let-you-logon-as-someone-else/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/saml-vulnerability-lets-attackers-log-in-as-other-users/">
+            Even More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://duo.com/blog/duo-finds-saml-vulnerabilities-affecting-multiple-implementations">
+            Technical details
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Third party CSS is not safe</mj-text>
+          <mj-image src="https://www.bram.us/wordpress/wp-content/uploads/2018/02/carbon.png"></mj-image>
+          <mj-text>A few days ago there was a lot of chatter about a 'keylogger' built in CSS. Some folks called for browsers to 'fix' it. Some folks dug a bit deeper and saw that it only affected sites built in React-like frameworks, and pointed the finger at React. But the real problem is thinking that third party content is 'safe'.</mj-text>
+          <mj-text>If you're including script from another origin, you must absolutely trust them, and their security. If you get hit by a bad script, you should purge all site data using the Clear-Site-Data header. CSS is much closer in power to a script than an image. Like a script, it applies to the whole page. CSS can't modify origin storage, and you can't build a cryptocoin miner in CSS (probably, maybe, I don't know), but malicious CSS can still do a lot of damage. As explained above, they can be used to make a keylogger in certain conditions. They can also be leveraged to make content disappear, add new content or move existing one, etc.</mj-text>
+          <mj-text>Third party content has a high impact within its sandbox. An image or a sandboxed iframe has a pretty small sandbox, but script & style are scoped to your page, or even the whole origin. If you're worried about users tricking your site into loading third party resources, you can use CSP as a safety net, to limit where images, scripts and styles can be fetched from. You can also use Subresource Integrity to ensure the content of a script/style matches a particular hash, otherwise it won't execute. </mj-text>
+          <mj-button mj-class="bg-green" href="https://jakearchibald.com/2018/third-party-css-is-not-safe/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://no-csp-css-keylogger.badsite.io/">
+            CSS Keylogger PoC
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Can the FBI really unlock any iPhone?</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2018/02/shutterstock_359271251.jpg?w=780&h=408&crop=1"></mj-image>
+          <mj-text>US media giant Forbes is making a bold claim: the Feds can now unlock every iPhone in existence. The company that caused Forbes to make this dramatic claim is Cellebrite. You may recall that the FBI famously broke into the iPhone 5C of the dead San Bernadino terrorist and mass murderer Syed Rizwan Farook. In the end, it seems that Cellebrite helped out in the San Bernadino case, in a phone hack that involved a system that worked only on a “narrow slice of phones,” apparently including the iPhone 5C but not the iPhone 5s or later.</mj-text>
+          <mj-text>Now, if Forbes is to be believed, Cellebrite has extended the range of phones it can successfully unlock, including any iOS device running iOS5 to iOS11. According to Bruce Schneier, rumors are that Cellebrite hires ex-Apple engineers and moves them to countries where Apple can't prosecute them under the DMCA or its equivalents. There's also a credible rumor that Cellebrite's mechanisms only defeat the mechanism that limits the number of password attempts. It does not allow engineers to move the encrypted data off the phone and run an offline password cracker. If this is true, then strong passwords are still secure.</mj-text>
+          <mj-text>Let’s assume the worst – namely that Cellebrite does have a pair of iPhone and Android zero-day aces in the hole. You can bet your boots that Cellebrite will go many miles out of its way not to let those zero-days become known, because they’re the geese that lay the golden purchase orders. So, even if Cellebrite is willing to have a go at cracking phones, for a fee, your device still isn’t wide open to just anyone. If you think you could be the target to such services, patch early, patch often, use the longest phone lock code you can manage with the shortest lock period you can tolerate.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://nakedsecurity.sophos.com/2018/02/27/can-the-fbi-really-unlock-any-iphone-in-existence/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://www.schneier.com/blog/archives/2018/02/cellebrite_unlo.html">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">How to Fight Mobile Number Port-out Scams</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2017/08/phonefraudsmaller.png"></mj-image>
+          <mj-text>T-Mobile, AT&T and other mobile carriers are reminding customers to take advantage of free services that can block identity thieves from easily “porting” your mobile number out to another provider, which allows crooks to intercept your calls and messages while your phone goes dark. Tips for minimizing the risk of number porting fraud are available below for customers of all four major mobile providers, including Sprint and Verizon.</mj-text>
+          <mj-text>Unauthorized mobile phone number porting is not a new problem, but T-Mobile said it began alerting customers about it earlier this month because the company has seen a recent uptick in fraudulent requests to have customer phone numbers ported over to another mobile provider’s network. Crooks typically use phony number porting requests when they have already stolen the password for a customer account (either for the mobile provider’s network or for another site), and wish to intercept the one-time password that many companies send to the mobile device to perform two-factor authentication.</mj-text>
+          <mj-text>Bigger picture, these porting attacks are a good reminder to use something other than a text message or a one-time code that gets read to you in an automated phone call. Whenever you have the option, choose the app-based alternative: Many companies now support third-party authentication apps like Google Authenticator and Authy, which can act as powerful two-factor authentication alternatives that are not nearly as easy for thieves to intercept.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://krebsonsecurity.com/2018/02/how-to-fight-mobile-number-port-out-scams/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/introducing-the-adversary-resilience-methodology-part-two-279a1ed7863d">Introducing the Adversary Resilience Methodology — Part Two</a></li>
+              <li><a class="lnk-pink" href="https://www.hackread.com/unprotected-aws-bucket-exposes-50-gb-of-financial-giants-data/">Unprotected AWS Bucket Exposes 50.4 GB of Financial Giant’s Data</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/2018/03/01/trustico_digicert_symantec_spat/">23,000 HTTPS certs will be axed in next 24 hours after private keys leak</a></li>
+              <li><a class="lnk-orange" href="https://www.twistlock.com/2018/02/28/dear-developers-beware-dns-rebinding/">Dear developers, beware of DNS Rebinding</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/new-reddrop-android-spyware-records-nearby-audio/">New RedDrop Android Spyware Records Nearby Audio</a></li>
+              <li><a class="lnk-blue" href="https://cybersins.com/howto-resposible-disclosure-with-security-txt/">Implement "security.txt" to advocate responsible vuln. disclosures</a></li>
+              <li><a class="lnk-pink" href="https://biarity.gitlab.io/2018/02/23/passwordless/">An argument for passwordless</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/why-your-company-should-consider-implementing-dns-security-extensions/">Why your company should consider implementing DNS security extensions</a></li>
+              <li><a class="lnk-orange" href="URL">https://medium.com/bugbountywriteup</a>Infosec Writeups:A collection of medium posts around bug bounties, CTFs, vulnhub machines, etc.</li>
+              <li><a class="lnk-orange" href="https://www.riskbasedsecurity.com/2018/02/rip-cert-org-you-will-be-missed/">RIP CERT.org – You Will Be Missed</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/drduh/YubiKey-Guide">Guide to using YubiKey as a SmartCard for GPG and SSH</a></li>
+              <li><a class="lnk-pink" href="https://no-csp-css-keylogger.badsite.io/">CSS-Keylogger Proof of Concept</a></li>
+              <li><a class="lnk-green" href="http://docs.honeytrap.io/">Honeytrap: Open-source framework for honeypots.</a></li>
+              <li><a class="lnk-orange" href="https://www.evilsocket.net/2018/02/27/All-hail-bettercap-2-0-one-tool-to-rule-them-all/">Bettercap 2.0: Advanced Man in the Middle Attack Framework</a></li>
+              <li><a class="lnk-purple" href="https://github.com/christophetd/firepwned">Checks Firefox saved passwords against the Have I Been Pwned API. #UseAtYourOwnRisks</a></li>
+              <li><a class="lnk-blue" href="https://github.com/jcesarstef/dotdotslash">dotdotslash: Search for Directory Traversal Vulnerabilities</a></li>
+              <li><a class="lnk-pink" href="http://blog.ptsecurity.com/2018/02/new-bypass-and-protection-techniques.html">New bypass and protection techniques for ASLR on Linux</a></li>
+              <li><a class="lnk-green" href="https://www.kali.org/news/kali-linux-2018-1-release/">Kali Linux 2018.1 Release</a></li>
+              <li><a class="lnk-orange" href="https://github.com/jeremylong/DependencyCheck">OWASP DependencyCheck: Detects publicly disclosed vulnerabilities in application dependencies.</a></li>
+              <li><a class="lnk-purple" href="https://cirt.net/passwords?vendor=">Default Password database</a></li>
+              <li><a class="lnk-blue" href="https://blog.zimperium.com/cve-2018-4087-poc-escaping-sandbox-misleading-bluetoothd/">CVE-2018-4087 PoC: Escaping the sandbox by misleading bluetoothd</a></li>
+              <li><a class="lnk-pink" href="https://cybersins.com/target-blank-vulnerability-phishing/">The infamous issue of target _blank code</a></li>
+              <li><a class="lnk-green" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/">FinFisher exposed: A researcher’s tale of defeating traps, tricks, and complex virtual machines</a></li>
+              <li><a class="lnk-orange" href="https://paragonie.com/blog/2018/03/paseto-platform-agnostic-security-tokens-is-secure-alternative-jose-standards-jwt-etc">Paseto is a Secure Alternative to the JOSE Standards (JWT, etc.)</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">ubsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
