@@ -1,0 +1,218 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - DD/MM/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="http://i.imgur.com/kQIWprp.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">12 March 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">MemCached DDoS continues, with new ways to mitigate the issue</mj-text>
+          <mj-image src="https://4.bp.blogspot.com/-ROJ5NJQ4WU8/WqA2wnif_1I/AAAAAAAAv5Y/Y6zwsFbUcAYAHyqkehhls-RzMa6w5l78ACLcBGAs/s1600/memcached-amplification-ddos-attack-tool.png"></mj-image>
+          <mj-text color="#fff">Two separate proofs-of-concept (PoC) exploit code for Memcached amplification attack have been released online that could allow even script-kiddies to launch massive DDoS attacks using UDP reflections easily. Bonus—its description already includes a list of nearly 17,000 potential vulnerable Memcached servers left exposed on the Internet. The first DDoS tool is written in C programming language and works with a list of pre-compiled list of vulnerable Memcached servers. The second Memcached DDoS attack tool is written in Python that uses Shodan search engine API to obtain a fresh list of vulnerable Memcached servers and then sends spoofed source UDP packets to each server.</mj-text>
+          <mj-text color="#fff">Memcached reflections that recently fueled two most largest amplification DDoS attacks in the history have also helped other cybercriminals launch nearly 15,000 cyber attacks against 7,131 unique targets in last ten days, a new report revealed. The maximum number of active vulnerable Memcached servers at a time that participated in the DRDoS attacks was 20,612. Last week we saw two record-breaking DDoS attacks—1.35 Tbps hit Github and 1.7 Tbps attack against an unnamed US-based company—which were carried out using a technique called amplification/reflection attack.</mj-text>
+          <mj-text color="#fff">Security researcher Amir Khashayar Mohammadi has released today a new tool named Memfixed that can help victims of DDoS attacks carried out via Memcached servers. The mitigation technique consists of sending a "flush_all" command to a Memcached server that is attacking a victim's network, part of a larger DDoS attack. The flush_all command wipes a Memcached server's cached memory, including the malicious payload that is executing the DDoS attack. In addition to flushing the cache, Memfixed also supports sending a "shutdown" command to attacking servers that actually shuts down the memcached daemon. If you are under attack and are considering using this tool, it should be noted that its use is most likely illegal in almost all countries. This is because you are accessing a a server that you do not own and modifying its behavior without permission. Therefore, it is strongly advised that you contact law enforcement and seek legal advice before considering the use of this tool.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2018/03/memcached-ddos-exploit-code.html">
+            Exploit Code released
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2018/03/memcached-ddos-attack.html">
+            Over 15 000 DDoS attacks in the last 10 days
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/memfixed-tool-helps-mitigate-memcached-based-ddos-attacks/">
+            Memfixed Tool Helps Mitigate Memcached-Based DDoS Attacks
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Patch now! Half a million Exim mail servers need an urgent update</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2018/03/shutterstock_238140811.jpg?w=780&h=408&crop=1"></mj-image>
+          <mj-text>About half a million email systems running the hugely popular Exim Mail Transfer Agent (MTA) have yet to be patched for a potentially dangerous security flaw made public earlier this week. Disclosed to the software’s maintainers in early February by Meh Chang, from security firm Devcore Security Consulting, the Exim vulnerability is a one-byte buffer overflow in the software’s Base64 decoding.</mj-text>
+          <mj-text>The bug —tracked as CVE-2018-6789— is categorized as a "pre-auth remote code execution," meaning an attacker could trick the Exim email server into running malicious commands before the attacker would need to authenticate on the server. The main takeaway is that this flaw affects all Exim versions going back to its first appearance in 1995. At the time of writing, there is no public exploit code for taking advantage of vulnerable Exim servers. Would it really be hard to exploit? Granted, the PoC design involves a sophisticated sequence of memory manipulation but the MO is now in the public domain, forever.</mj-text>
+          <mj-text>The clock is ticking for unpatched servers and it’s probably best not to wait and find out if somebody can find a way to turn a remotely triggerable bug into an RCE. Shodan, the search engine for internet-connected systems, pins the number of Exim servers in the low millions.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2018/03/07/patch-now-half-a-million-exim-mail-servers-need-an-urgent-update/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/vulnerability-affects-half-of-the-internets-email-servers/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Hard-Coded Password in Cisco Software Lets Attackers Take Over Linux Servers</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-15YTPTPJX-Q/WqFznUjdpLI/AAAAAAAAv6Y/UomiKvWLEjo4z3BdlaqncDmQu_nF_LwLQCLcBGAs/s1600/cisco-networking-hacking.png"></mj-image>
+          <mj-text>A medium yet critical vulnerability has been discovered in Cisco Prime Collaboration Provisioning software that could allow a local attacker to elevate privileges to root and take full control of a system.</mj-text>
+          <mj-text>Cisco Prime Collaboration Provisioning (PCP) application allows administrators to remotely control the installation and management of Cisco communication devices (integrated IP telephony, video, voicemail) deployed in the company and services for its subscribers.</mj-text>
+          <mj-text>The vulnerability (CVE-2018-0141) is due to a hard-coded password for Secure Shell (SSH), which could be exploited by a local attacker to connect to the PCP's Linux operating system and gain low-level privileges. The company is strongly encouraging users to update their software to the latest versions as soon as possible, as there are no workarounds to patch these vulnerabilities.</mj-text>
+          <mj-button mj-class="bg-green" href="https://amp.thehackernews.com/thn/2018/03/cisco-pcp-security.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">How Dutch Police Busted Hansa Dark Web Marketplace</mj-text>
+          <mj-image src="https://regmedia.co.uk/2018/03/08/dutch.jpg?x=442&y=293&crop=1"></mj-image>
+          <mj-text>Hansa was once the second largest dark web marketplace after AlphaBay selling everything from illegal drugs to stolen databases, credit card information and malicious software. But then Dutch Police came in, secretly took control of Hansa domain days before seizing its domain and arrested its administrators, buyers, and sellers.</mj-text>
+          <mj-text>The sudden bust shocked the customers as well as the IT security community keeping an eye on dark web marketplaces. However, now the Dutch police have revealed how they took over Hansa and shut down its large-scale drug-related operation.</mj-text>
+          <mj-text>The operation was so secretive and professional that 4 other moderators of Hansa were totally unaware of it. A couple of weeks later, Dutch police defaced Hansa with a message that said: “This hidden site has seized by the Dutch National Police.” According to officials, after shutting down Hansa, Dutch police extracted data on over 420,000 users and 10,000 home addresses leading to the arrests of a number of vendors while the search for more vendors is still on by Europol Moreover, they have also seized millions of dollars worth of Bitcoins. </mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.theregister.co.uk/2018/03/08/dutch_police_detail_how_they_became_the_admins_for_hansa_dark_web_market/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://www.hackread.com/how-dutch-police-busted-hansa-dark-web-marketplace/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://aws.amazon.com/blogs/security/how-to-use-bucket-policies-and-apply-defense-in-depth-to-help-secure-your-amazon-s3-data/">How to Use Bucket Policies to Help Secure Your Amazon S3 Data</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/cigslip-attack-bypasses-windows-code-integrity-guard-cig/">CIGslip Attack Bypasses Windows Code Integrity Guard (CIG)</a></li>
+              <li><a class="lnk-green" href="https://scotthelme.co.uk/debunking-the-fallacy-that-paid-certificates-are-better-than-free-certificates-and-other-related-nonsense/">Debunking the fallacy that paid certificates are better than free certificates</a></li>
+              <li><a class="lnk-orange" href="https://www.hackread.com/combojack-malware-steals-cryptocurrency-modifies-addresses/">ComboJack Trojan Replaces Cryptocurrency Addresses Copied to Windows Clipboard</a></li>
+              <li><a class="lnk-purple" href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/">Look-Alike Domains and Visual Confusion</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/software/group-policy-support-coming-to-firefox-60/">Group Policy Support Coming to Firefox 60</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/coinminer-campaigns-target-redis-apache-solr-and-windows-servers/">Coinminer Campaigns Target Redis, Apache Solr, and Windows Servers</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/chinese-intelligence-agencies-are-doctoring-the-countrys-vulnerability-database/">Chinese Intelligence Agencies Are Doctoring the Country's Vulnerability Database</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/only-half-of-those-who-paid-a-ransomware-were-able-to-recover-their-data/">Only Half of Those Who Paid a Ransomware Were Able to Recover Their Data</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2018/03/cryptocurrency-spyware-malware.html">ISPs Caught Injecting Cryptocurrency Miners and Spyware In Some Countries</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/avast-shares-new-info-on-2017-ccleaner-incident-possible-3rd-stage-payload/">Avast Shares New Info on 2017 CCleaner Incident: Possible 3rd Stage Payload</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/researchers-find-29-types-of-usb-attacks-recommend-never-plugging-into-a-usb-you-dont-own/">Researchers find 29 types of USB attacks, recommend never plugging into a USB you don't own</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/anyrun-an-interactive-malware-analysis-tool-is-now-open-to-the-public/">Any.Run - An Interactive Malware Analysis Tool</a></li>
+              <li><a class="lnk-pink" href="https://secapps.com/appbandit">AppBandit - Fast web security proxy</a></li>
+              <li><a class="lnk-green" href="https://lp.cyberark.com/rs/316-CZP-275/images/wp_Labs_Research_Kerberos_Decryption.pdf">Paper on Kerberos decryption</a></li>
+              <li><a class="lnk-orange" href="https://github.com/caffix/amass">Amass: Subdomain enumeration tool</a></li>
+              <li><a class="lnk-purple" href="https://github.com/Moham3dRiahi/XBruteForcer">XBruteForcer: CMS sign-in bruteforce tool</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@adam.toscher/top-five-ways-i-got-domain-admin-on-your-internal-network-before-lunch-2018-edition-82259ab73aaa">Top Five Ways I Got Domain Admin on Your Internal Network before Lunch</a></li>
+              <li><a class="lnk-pink" href="https://blog.malwarebytes.com/threat-analysis/2018/03/encryption-101-how-to-break-encryption/">Encryption 101: How to break encryption</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2018/03/09/facebook-says-let-me-get-that-for-you-secures-your-links/">Facebook now enforces HTTPS on website that supports it</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2018/03/cryptocurrency-mining-malware.html">New Cryptocurrency Mining Malware Infected Over 500,000 PCs in Just Few Hours</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">ubsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
