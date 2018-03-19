@@ -1,0 +1,203 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 19/03/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://2.bp.blogspot.com/-gBh6leN4jRs/Wqf8eaVbzvI/AAAAAAAAv_w/fhw8n07n5DM9TKunFVlNKyDV8WjgnggcACLcBGAs/s1600/amd-secure-processor.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">19 March 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Featured</mj-text>
+          <mj-image src="https://2.bp.blogspot.com/-gBh6leN4jRs/Wqf8eaVbzvI/AAAAAAAAv_w/fhw8n07n5DM9TKunFVlNKyDV8WjgnggcACLcBGAs/s1600/amd-secure-processor.png"></mj-image>
+          <mj-text color="#fff">Security researchers claimed to have discovered 13 critical Spectre/Meltdown-like vulnerabilities throughout AMD's Ryzen and EPYC lines of processors that could allow attackers to access sensitive data, install persistent malware inside the chip, and gain full access to the compromised systems. All these vulnerabilities reside in the secure part of the AMD's Zen architecture processors and chipsets—typically where device stores sensitive information such as passwords and encryption keys and makes sure nothing malicious is running when you start your PC.</mj-text>
+          <mj-text color="#fff">The alleged vulnerabilities are categorized into four classes—RYZENFALL, FALLOUT, CHIMERA, and MASTERKEY—and threaten wide-range of servers, workstations, and laptops running vulnerable AMD Ryzen, Ryzen Pro, Ryzen Mobile or EPYC processors. Discovered by a team of researchers at Israel-based CTS-Labs, newly disclosed unpatched vulnerabilities defeat AMD's Secure Encrypted Virtualization (SEV) technology and could allow attackers to bypass Microsoft Windows Credential Guard to steal network credentials.</mj-text>
+          <mj-text color="#fff">While Intel and Microsoft are still managing its patches for Meltdown and Spectre vulnerabilities, the newly discovered vulnerabilities could create similar trouble for AMD and its customers. It's unclear how long it would take to fix these issues. CTS-Labs said it hasn't heard back from AMD. How long before a fix is available? We don't know. CTS has been in touch with industry experts to try and answer this question. According to experts, firmware vulnerabilities such as MASTERKEY, RYZENFALL and FALLOUT take several months to fix. Hardware vulnerabilities such as CHIMERA cannot be fixed and require a workaround. Producing a workaround may be difficult and cause undesired side-effects.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2018/03/amd-processor-vulnerabilities.html">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.cnet.com/news/amd-has-a-spectre-meltdown-like-security-flaw-of-its-own/">
+            Even More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amdflaws.com/">
+            "Official" site
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">CredSSP Vulnerability Affects RDP and WinRM on All Windows Versions</mj-text>
+          <mj-image src="https://www.helpnetsecurity.com/images/posts2018/CredSSP-vuln-exploit.jpg"></mj-image>
+          <mj-text>The March 2018 Patch Tuesday contains a fix for a severe vulnerability affecting the CredSSP protocol; a vulnerability that affects all Windows versions ever released. Security researchers from Preempt say the flaw (CVE-2018-0886) can be abused to run remote commands on gain control over Windows domain controllers, and then expand access to other systems. The research team describes the vulnerability as a "logic" bug in CredSSP.</mj-text>
+          <mj-text>The Credential Security Support Provider (CredSSP) protocol is a Windows-specific mechanism that is responsible for securely forwarding authentication credentials between a client and a remote server in an internal network/domain. CredSSP is a core component of the Remote Desktop Protocol (RDP) and the Windows Remote Management (WinRM) service, both of which are vulnerable to exploitation. An attacker can exploit the CredSSP vulnerability to execute remote commands when users are trying to authenticate during RDP or WinRM sessions.</mj-text>
+          <mj-text>Because of the nature of this flaw, the attacker needs to have a man-in-the-middle (MitM) position to intercept the victim's traffic. This either means the attacker must have a foothold on an internal network, or control an ISP-level server that relays the victim's RDP session.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/credssp-vulnerability-affects-rdp-and-winrm-on-all-windows-versions/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2018/03/15/microsoft-patches-rdp-vulnerability-update-now/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Samba releases patch to fix two critical vulnerabilities</mj-text>
+          <mj-image src="https://fossbytes.com/wp-content/uploads/2017/05/SAMBA-FLAW-LINUX-WANNACRY.jpg"></mj-image>
+          <mj-text>Samba versions 4.0.0 and up have two critical vulnerabilities that have just been solved by security patches. Samba users should update their instances immediately. The first vulnerability could allow an outside user to launch a DoS attack that takes printing capabilities offline, and the second could allow a remote user to reset user and administrator passwords.</mj-text>
+          <mj-text>Samba is a free, open source interoperability suite that extends Windows file and print services to Unix and Linux machines. Businesses that run Unix/Linux and Windows side by side frequently use Samba to link the two operating systems together, making any risk to the security and stability of Samba a serious risk. The vulnerabilities in question, CVE-2018-1050 and CVE-2018-1057, are both serious risks for anyone using Samba. If your business has a Samba implementation it's highly recommended that you install the applicable security updates.</mj-text>
+          <mj-text>As regards the first vulnerability, Samba says there is no known vulnerability associated with the error, only the denial of service resulting from the crash of the spooler. Samba added that leaving the RPC spoolss set to internal prevents the problem from occurring. The second vulnerability, 1057, is a far greater risk to Samba security. This vulnerability only affects Samba installations being used as Active Directory domain controllers, so those using Samba in non-domain control roles don't need to be concerned. If you are using Samba as an AD DC and can't install the security patch yet, there is a workaround Samba says you can put in place as a temporary protection measure: revoking password change permissions for "the world" group.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.techrepublic.com/article/samba-releases-patch-to-fix-two-critical-vulnerabilities/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://amp.thehackernews.com/thn/2018/03/samba-server-vulnerability.html">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.malwarebytes.com/security-world/2018/03/graykey-iphone-unlocker-poses-serious-security-concerns/">GrayKey iPhone unlocker poses serious security concerns</a></li>
+              <li><a class="lnk-pink" href="https://www.csoonline.com/article/3263820/security/not-a-breach-facebook-says-after-suspending-firm-that-took-50m-facebook-users-data.html">Not a breach, Facebook says after suspending firm that took 50M Facebook users’ data</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/firefox-master-password-system-has-been-poorly-secured-for-the-past-9-years/">Firefox Master Password System Has Been Poorly Secured for the Past 9 Years</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/chrome-extension-protects-against-javascript-based-cpu-side-channel-attacks/">Chrome Extension Protects Against JavaScript-Based CPU Side-Channel Attacks</a></li>
+              <li><a class="lnk-purple" href="https://rebecca-ricks.com/paypal-data/">How PayPal Shares Your Data</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/router-malware-slingshot-lurked-for-six-years-a-10708">How 'Slingshot' Router Malware Lurked for Six Years</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/necurs-and-gamut-botnets-account-for-97-percent-of-the-internets-spam-emails/">Necurs and Gamut Botnets Account for 97% of the Internet's Spam Emails</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/microsoft-removes-antivirus-registry-key-check-for-windows-10-users/">Microsoft Removes Antivirus Registry Key Check for Windows 10 Users</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/report-77-of-companies-dont-have-a-consistent-cybersecurity-response-plan/">Report: 77% of companies don't have a consistent cybersecurity response plan</a></li>
+              <li><a class="lnk-purple" href="https://www.hackread.com/apt15-hackers-hacked-uk-contactor-steal-military-secrets/">APT15 Hackers Hit UK Govt Contractor to Steal Military Technology Secrets</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/facebook-flaws-exposed-friend-lists-payment-card-data">Facebook Flaws Exposed Friend Lists, Payment Card Data</a></li>
+              <li><a class="lnk-pink" href="https://community.letsencrypt.org/t/acme-v2-and-wildcard-certificate-support-is-live/55579">Let's Encrypt: ACME v2 and Wildcard Certificate Support is Live</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@lergin/6-digit-pins-c191ae4ae554">6 digit PINs and the usefulness of password restrictions</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2018/03/flash-windows-users-its-time-to-patch/">Flash, Windows Users: It’s Time to Patch</a></li>
+              <li><a class="lnk-purple" href="URL">cut5</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://medium.com/@adam.toscher/top-5-ways-i-gained-access-to-your-corporate-wireless-network-lo0tbo0ty-karma-edition-f72e7995aef2">Top Five Ways I gained access to Your Corporate Wireless Network</a></li>
+              <li><a class="lnk-pink" href="https://github.com/DanMcInerney/icebreaker">IceBreaker: Gets plaintext Active Directory credentials when on the internal network but outside AD</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@alex91ar/aggressive-password-policy-when-your-security-turns-against-you-14c536e27fae">Aggressive password policy: When your security turns against you.</a></li>
+              <li><a class="lnk-orange" href="https://github.com/guardicore/monkey">Infection Monkey - An automated pentest tool</a></li>
+              <li><a class="lnk-purple" href="https://github.com/uber-common/metta">Metta: An information security preparedness tool to do adversarial simulation.</a></li>
+              <li><a class="lnk-blue" href="https://github.com/berzerk0/Probable-Wordlists/releases/tag/v2.0">Top 2Billion passwords</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/handy-tech/analysis-of-a-kubernetes-hack-backdooring-through-kubelet-823be5c3d67c">Analysis of a Kubernetes hack — Backdooring through kubelet</a></li>
+              <li><a class="lnk-green" href="https://lightningsecurity.io/blog/bypassing-payments-using-webhooks/">Bypassing Payments Using Webhooks</a></li>
+              <li><a class="lnk-orange" href="http://nerdydatablog.com/2018/03/13/12-million-sensitive-urls-available-for-download/">12 Million Sensitive URLs Available for Download</a></li>
+              <li><a class="lnk-purple" href="https://github.com/dsopas/assessment-mindset">Mindmap: Assessment mindset</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">ubsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
