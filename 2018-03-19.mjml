@@ -165,7 +165,6 @@
               <li><a class="lnk-pink" href="https://community.letsencrypt.org/t/acme-v2-and-wildcard-certificate-support-is-live/55579">Let's Encrypt: ACME v2 and Wildcard Certificate Support is Live</a></li>
               <li><a class="lnk-green" href="https://medium.com/@lergin/6-digit-pins-c191ae4ae554">6 digit PINs and the usefulness of password restrictions</a></li>
               <li><a class="lnk-orange" href="https://krebsonsecurity.com/2018/03/flash-windows-users-its-time-to-patch/">Flash, Windows Users: It’s Time to Patch</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
             </ul>
           </mj-text>
           <mj-spacer height="30px" />
