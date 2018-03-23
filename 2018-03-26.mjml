@@ -1,0 +1,199 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 26/03/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://c.slashgear.com/wp-content/uploads/2018/03/ohwoopsie.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">26 March 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Facebook loses control of 50 million users’ data, suspends analytics firm</mj-text>
+          <mj-image src="https://c.slashgear.com/wp-content/uploads/2018/03/ohwoopsie.jpg"></mj-image>
+          <mj-text color="#fff">Cambridge Analytica – the data-crunching firm with tools so muscular that founder Christopher Wylie has described it as “Steve Bannon’s psychological warfare mindf**k tool” – has been collecting Facebook user data without permission through “a scam and a fraud,” Facebook said on Friday.</mj-text>
+          <mj-text color="#fff">On Friday, after a week of questions from investigative reporters, Facebook suspended Cambridge Analytica and parent company Strategic Communication Laboratories (SCL) from its platform. The suspensions came late in the game, news outlets are charging, given that Facebook has known about this for three years. Facebook, for its part, claims that the parties involved lied about having deleted harvested data years ago. At least one of the parties involved has shown evidence that points to Facebook having done very little to make sure the data was deleted.</mj-text>
+          <mj-text color="#fff">Not surprisingly, Facebook immediately pushed back against the characterization of a massive data leak in an update to its initial announcement of the suspensions. It said that the data got out not through a leak but because some 270,000 Facebook users willingly signed up for a Facebook personality test called thisisyourdigitallife that billed itself as “a research app used by psychologists.” The Observer reports that the dossier includes emails, invoices, contracts and bank transfers that reveal more than 50 million profiles – most of which belong to registered US voters – that were harvested from Facebook. Facebook has suspended Wylie from its platform while it carries out its investigation.</mj-text>
+          <mj-text color="#fff">You might well question how 270,000 people signing up for a Facebook personality quiz blossomed into a potential data breach affecting 50 million users – nearly 25% of potential US voters. As The Observer describes it, the app scraped not just test-takers’ private profile data, but also that of their friends. Facebook didn’t disallow such behavior from apps at the time, but such data harvesting was allowed only to improve user experience in the app, not to be sold or used for advertising. Of the 50 million profiles scraped (only 270,000 of which belonged to users who’d granted permission), roughly 30 million contained enough information, including places of residence, that the company could (at least theoretically) match users to other records and build “psychographic” profiles.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2018/03/19/facebook-loses-control-of-50-million-users-data-suspends-analytics-firm/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.theguardian.com/news/2018/mar/17/data-war-whistleblower-christopher-wylie-faceook-nix-bannon-trump">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">GitHub dependency security alerts notified developers of 4M code vulnerabilities</mj-text>
+          <mj-image src="https://i1.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2017/11/GitHub-dependency-grraph.gif?resize=1360%2C600"></mj-image>
+          <mj-text>GitHub dependency alerts, which the repository site implemented in November 2017, have notified developers of over four million security vulnerabilities in more than 500,000 Ruby and JavaScript dependencies in the four months since. The alerts, which show up on all RubyGems and JavaScript npm dependencies used by a project, are an essential part of app development security, GitHub said.</mj-text>
+          <mj-text>Developers who use RubyGems or npm on GitHub should be sure to enable security alerts, and those who use Python should keep an eye out—the alerts will be added to Python dependencies later this year. With over 75% of GitHub projects using shared dependencies, there's a good possibility that at least one of the projects you're involved in could benefit from security alerts. They aren't enabled by default, however, so you'll need to toggle a few settings to turn them on. With more than 500,000 libraries being vulnerable to upwards of four million issues there's a good chance code you're involved with is affected, and GitHub is making it easy to fix the problem.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.techrepublic.com/article/github-dependency-security-alerts-notified-developers-of-4m-code-vulnerabilities/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://blog.github.com/2018-03-21-security-alerting-a-first-look-at-community-responses/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">AMD Acknowledges Newly Disclosed Flaws In Its Processors — Patches Coming Soon</mj-text>
+          <mj-image src="https://3.bp.blogspot.com/-k7UE0WxdUgs/WrITcjgSt1I/AAAAAAAADHo/hTCvpmauXhgDdATFNFZV_jHYh_GBn5A6QCLcBGAs/s1600/amd-processor-vulnerabilities.jpg"></mj-image>
+          <mj-text>AMD has finally acknowledged 13 critical vulnerabilities, and exploitable backdoors in its Ryzen and EPYC processors disclosed earlier this month by Israel-based CTS Labs and promised to roll out firmware patches for millions of affected devices ‘in the coming weeks.’</mj-text>
+          <mj-text>According to CTS-Labs researchers, critical vulnerabilities (RyzenFall, MasterKey, Fallout, and Chimera) that affect AMD's Platform Security Processor (PSP) could allow attackers to access sensitive data, install persistent malware inside the chip, and gain full access to the compromised systems. In a press release published by AMD on Tuesday, the company downplays the threat by saying that, "any attacker gaining unauthorised administrative access would have a wide range of attacks at their disposal well beyond the exploits identified in this research."</mj-text>
+          <mj-text>Infosec experts and journalists embroiled CTS Labs into controversies by raising questions over the way it disclosed vulnerabilities details to the public in less than 24 hours after notifying AMD. According to Ilia Luk-Zilberman, CTO of CTS-Labs, the current process of 'Responsible Disclosure' has two significant problems: 1) If researcher gives a 30/45/90 days limit to the affected vendor, it's extremely rare that the vendor would notify its customers about the unpatched security vulnerabilities during this period, leaving them unaware of potential risks. 2)If vendors do not respond or patch the vulnerability during this 90-day disclosure period, researchers can proudly prefer to go public with full technical details of the flaws, ultimately putting their customers at risk.</mj-text>
+          <mj-button mj-class="bg-green" href="https://amp.thehackernews.com/thn/2018/03/amd-processor-hacking.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://community.amd.com/community/amd-corporate/blog/2018/03/21/initial-amd-technical-assessment-of-cts-labs-research">
+            Press release
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.hackread.com/hackers-left-ransom-note-after-wipingout-mongodb-in-13-seconds/">Hackers leave ransom note after wiping out MongoDB in 13 seconds</a></li>
+              <li><a class="lnk-pink" href="https://www.mac4n6.com/blog/2018/3/21/uh-oh-unified-logs-in-high-sierra-1013-show-plaintext-password-for-apfs-encrypted-external-volumes-via-disk-utilityapp">Unified Logs in High Sierra (10.13) Show Plaintext Password for APFS Encrypted External Volumes via Disk Utility.app</a></li>
+              <li><a class="lnk-green" href="https://www.darkreading.com/cloud/online-sandboxing-a-stash-for-exfiltrated-data/d/d-id/1331327">Online Sandboxing: A Stash for Exfiltrated Data?</a></li>
+              <li><a class="lnk-orange" href="https://www.darkreading.com/cloud/how-serverless-computing-reshapes-security/a/d-id/1331265">How Serverless Computing Reshapes Security</a></li>
+              <li><a class="lnk-purple" href="http://www.zdnet.com/article/google-bolsters-security-tools-on-google-cloud-g-suite/">Google bolsters security tools on Google Cloud, G Suite</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-r2d2-technique-protects-files-against-wiper-malware/">New R2D2 Technique Protects Files Against Wiper Malware</a></li>
+              <li><a class="lnk-pink" href="https://www.hackread.com/pwn2own-2018-hackers-pwn-edge-firefox-safari-macos-virtualbox/">Hackers pwn Edge, Firefox, Safari, macOS, VirtualBox at Pwn2Own 2018</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2018/03/15-year-old-finds-flaw-in-ledger-crypto-wallet/">15-Year-old Finds Flaw in Ledger Crypto Wallet</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2018/03/hsts-supercookie-tracking.html">Apple Blocks Sites From Abusing HSTS Security Standard to Track Users</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2018/03/window-remote-assistance.html">Windows Remote Assistance Exploit Lets Hackers Steal Sensitive Files</a></li>
+              <li><a class="lnk-blue" href="https://arstechnica.com/information-technology/2018/03/thousands-of-servers-found-leaking-750-mb-worth-of-passwords-and-keys/">Thousands of servers found leaking 750MB worth of passwords and keys</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/software/mozilla-is-testing-dns-over-https-support-in-firefox/">Mozilla Is Testing "DNS over HTTPS" Support in Firefox</a></li>
+              <li><a class="lnk-green" href="https://amp.thehackernews.com/thn/2018/03/expedia-data-breach.html">880,000 payment cards affected in travel company data breach</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/securitywithoutborders/hardentools">Hardentools: disables a number of risky Windows features</a></li>
+              <li><a class="lnk-pink" href="https://github.com/MooseDojo/apt2">APT2: Automated penetration toolkit</a></li>
+              <li><a class="lnk-green" href="https://www.endgame.com/blog/technical-blog/introducing-endgame-red-team-automation">Introducing Endgame Red Team Automation</a></li>
+              <li><a class="lnk-orange" href="https://certstream.calidog.io/">Real-time certificate transparency log update stream.</a></li>
+              <li><a class="lnk-purple" href="http://blog.ptsecurity.com/2018/03/we-need-to-talk-about-ids-signature.html">We need to talk about IDS signatures</a></li>
+              <li><a class="lnk-blue" href="https://gitlab.com/brn1337/sandbox-detection-user-behaviour">Sandbox awareness via user behaviour </a></li>
+              <li><a class="lnk-pink" href="https://bohops.com/2018/02/10/vshadow-abusing-the-volume-shadow-service-for-evasion-persistence-and-active-directory-database-extraction/">Vshadow: Abusing the Volume Shadow Service for Evasion, Persistence, and Active Directory Database Extraction</a></li>
+              <li><a class="lnk-green" href="https://www.twistlock.com/2018/03/21/deep-dive-severe-kubernetes-vulnerability-date-cve-2017-1002101/">Deep dive on the most severe Kubernetes vulnerabilities to date</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/@nykolas.z/ending-dns-hijacking-with-dnscrypt-1679e78b2c92">Ending DNS Hijacking with DNSCrypt</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">ubsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
