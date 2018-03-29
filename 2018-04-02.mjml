@@ -1,0 +1,228 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 02/04/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/posts/2018/03/28/drupal_logo.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">2 April 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Drupalgeddon2: New drupal critical security flaw, patch now!</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/03/28/drupal_logo.png"></mj-image>
+          <mj-text color="#fff">The Drupal CMS team has fixed a highly critical security flaw that allows hackers to take over a site just by accessing an URL. Drupal site owners should immediately —and we mean right now— update their sites to Drupal 7.58 or Drupal 8.5.1, depending on the version they're running.</mj-text>
+          <mj-text color="#fff">The Drupal team pre-announced today's patches last week when it said "exploits might be developed within hours or days" after today's disclosure. The bug —tracked under the CVE-2018-7600 identifier— allows an attacker to run any code he desires against the CMS' core component, effectively taking over the site.</mj-text>
+          <mj-text color="#fff">The attacker doesn't need to be registered or authenticated on the targeted site, and all the attacker must do is to access an URL. The Drupal community has already nicknamed this bug as Drupalgeddon2 after the Drupalgeddon security bug (CVE-2014-3704, SQL injection, severity 25/25) disclosed in 2014 that led to numerous Drupal sites getting hacked for years afterward.</mj-text>
+          <mj-text color="#fff">Besides fixes for Drupal's two main branches —7.x and 8.x— the Drupal team announced patches for the ancient 6.x branch that was discontinued in February 2016. Web firewall products are expected to receive updates in the following days to handle exploitation attempts. According to BuiltWith.com, Drupal currently powers over one million sites and has a 9% market share among the top 10K most popular sites.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/drupal-fixes-drupalgeddon2-security-flaw-that-allows-hackers-to-take-over-sites/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://groups.drupal.org/security/faq-2018-002">
+            SA-CORE-2018-002
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Cisco critical flaw: At least 8.5 million switches open to attack, so patch now</mj-text>
+          <mj-image src="https://d2538mqrb7brka.cloudfront.net/wp-content/uploads/sites/31/2013/03/07050142/cisco_patches-680x400.jpg"></mj-image>
+          <mj-text>Cisco has released patches for 34 vulnerabilities mostly affecting its IOS and IOS XE networking software, including three critical remote code execution security bugs. Perhaps the most serious issue Cisco has released a patch for is critical bug CVE-2018-0171 affecting Smart Install, a Cisco client for quickly deploying new switches for Cisco IOS Software and Cisco IOS XE Software.</mj-text>
+          <mj-text>A remote unauthenticated attacker can exploit a flaw in the client to reload an affected device and cause a denial of service or execute arbitrary code. Embedi, the security firm that found the flaw, initially believed it could only be exploited within an enterprise's network. However, it found millions of affected devices exposed on the internet.</mj-text>
+          <mj-text>Smart Install is supported by a broad range of Cisco routers and switches. The high number of devices with an open port is probably because the Smart Install client's port TCP 4786 is open by default. This situation is overlooked by network admins, Embedi said. The company has also published proof-of-concept exploit code, so it probably will be urgent for admins to patch.</mj-text>
+          <mj-button mj-class="bg-pink" href="http://www.zdnet.com/article/cisco-critical-flaw-at-least-8-5-million-switches-open-to-attack-so-patch-now/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180328-smi2">
+            CVE-2018-0171
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Windows 7 Meltdown patch opens worse vulnerability: Install March updates now</mj-text>
+          <mj-image src="https://4.bp.blogspot.com/-9c4H8Du9hAo/Wrkow8_FpGI/AAAAAAAAASI/boLoB8uqyigstJhP0WaHJUS1YYttOruUQCK4BGAYYCw/s640/win7-prsc-pcileech-mount.PNG"></mj-image>
+          <mj-text>Microsoft's early patches for Intel's Meltdown CPU vulnerability created an even bigger problem in Windows 7 that allowed any unprivileged application to read kernel memory.</mj-text>
+          <mj-text>Microsoft's January and February patches stopped the Meltdown bug that exposed passwords in protected memory, but security researcher Ulf Frisk has discovered that the patches introduced a far worse kernel bug, which allows any process to read and write anywhere in kernel memory.</mj-text>
+          <mj-text>Frisk says the bug would be "trivially easy" to use to access all physical memory on. This issue affected only 64-bit versions of Windows 7 and Windows Server 2008 R2. We say affected because Microsoft patched the bug by flipping the PML4 permission bit back to its original value in this month's Patch Tuesday. Windows 7 and Server 2008 R2 users should make sure they installed both the January 2018 and March 2018 Patch Tuesday releases. Windows 10 or 8.1 systems were never affected or put at risk. Physical access is required to exploit the bug </mj-text>
+          <mj-button mj-class="bg-green" href="http://www.zdnet.com/article/windows-7-meltdown-patch-opens-worse-vulnerability-install-march-updates-now/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/microsoft/meltdown-patch-opened-bigger-security-hole-on-windows-7/">
+            Even More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://blog.frizk.net/2018/03/total-meltdown.html">
+            Original statement from PCILeech creator
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Academics Discover New CPU Side-Channel Attack Named BranchScope</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/03/27/BranchScope.png"></mj-image>
+          <mj-text>A team of academics from four US universities have discovered a new side-channel attack that takes advantage of the speculative execution feature in modern processors to recover data from users' CPUs. Researchers named this new technique BranchScope because it attacks the "branch prediction" operation —which is the same part of a CPU speculative execution process that the Spectre variant 2 (CVE-2017-5715) vulnerability also targets.</mj-text>
+          <mj-text>Spectre 2 has provoked both operating system and hardware changes, with more hardware fixes planned. The researchers suggest that a similar combination of solutions would be needed for BranchScope; some software can be modified to eliminate branches, and hardware could be altered to partition the speculative execution data structures on the processor so that one process could not attack another.</mj-text>
+          <mj-text>Besides Meltdown, Spectre, and now BranchScope, other side-channel attacks recently discovered include SgxSpectre, MeltdownPrime and SpectrePrime. It's likely to be years before researchers have determined all the various ways in which the speculative execution hardware can be used to leak information this way, and it will be longer still before robust, universal defenses are available to stop the attacks.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/academics-discover-new-cpu-side-channel-attack-named-branchscope/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://arstechnica.com/gadgets/2018/03/its-not-just-spectre-researchers-reveal-more-branch-prediction-attacks/">
+            More branch prediction processor attacks are discovered
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">The CLOUD Act — A needed fix for U.S. and foreign law enforcement or threat to civil liberties?</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2016/12/01/Congress.png"></mj-image>
+          <mj-text>The United States Congress passed late last night a $1.3 trillion budget spending bill that also contained a piece of legislation that allows internal and foreign law enforcement access to user data stored online without a search warrant or probable cause. The legislation is the Clarifying Lawful Overseas Use of Data Act (CLOUD Act), a bill proposed in mid-February. </mj-text>
+          <mj-text>The CLOUD Act would amend the SCA to require service providers to “preserve, backup, or disclose the contents of a wire or electronic communication and any record or other information pertaining to a customer or subscriber within such provider’s possession, custody, or control, regardless of whether such communication, record, or other information is located within or outside of the United States.” The CLOUD Act would also give “qualifying” foreign governments access to records stored in the U.S. that pertain to foreign citizens, including foreign citizens here in the U.S.</mj-text>
+          <mj-text>it is not clear whether the bill, in its current form, would meet legal requirements under the EU’s impending General Data Protection Regulation Act. Article 48 of the GDPR addresses foreign (including U.S.) investigations and prohibits the transfer or disclosure of personal data unless pursuant to an MLAT or other international agreement. One possible resolution would be for the U.S. to enter into an agreement with the EU or for the EU to agree that the U.S. investigations and subsequent transfers or disclosures in compliance with the CLOUD Act procedures do not conflict with Article 48.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://iapp.org/news/a/the-cloud-act-a-needed-fix-for-u-s-and-foreign-law-enforcement-or-threat-to-civil-liberties/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="https://www.bleepingcomputer.com/news/government/us-congress-passes-cloud-act-hidden-in-budget-spending-bill/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2018/03/omitting-the-o-in-com-could-be-costly/">Omitting the “o” in .com Could Be Costly</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2018/03/28/unmasking-monero-stripping-the-currencys-privacy-protection/">Unmasking Monero: stripping the currency’s privacy protection</a></li>
+              <li><a class="lnk-green" href="https://techcrunch.com/2018/03/29/1password-nets-partnership-with-have-i-been-pwned/">1Password nets partnership with ‘Have I Been Pwned’</a></li>
+              <li><a class="lnk-orange" href="http://www.zdnet.com/article/stingray-spying-5g-will-protect-you-against-surveillance-attacks-say-standards-setters/">Stingray spying: 5G will protect you against surveillance attacks, say standards-setters</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/ietf-approves-tls-13-protocol">IETF Approves TLS 1.3</a></li>
+              <li><a class="lnk-blue" href="https://scotthelme.co.uk/introducing-xss-reporting-to-report-uri/">Introducing XSS Auditor reporting to Report URI</a></li>
+              <li><a class="lnk-pink" href="https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain">Carbanak: Mastermind behind EUR 1 Billion cyber bank roberry arrested in spain</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.qubes-os.org/news/2018/03/28/qubes-40/">QubeOS 4.0 has been released!</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/new-site-resurrects-crackme-challenges-from-the-old-crackmesde/">New Site Resurrects CrackMe Challenges From the Old Crackmes.de</a></li>
+              <li><a class="lnk-green" href="https://www.nccgroup.trust/us/our-research/discovering-smart-contract-vulnerabilities-with-goatcasino/?style=Cyber+Security">Discovering Smart Contract Vulnerabilities with GOATCasino</a></li>
+              <li><a class="lnk-orange" href="http://blog.talosintelligence.com/2018/03/goscanssh-analysis.html">Forgot About Default Accounts? No Worries, GoScanSSH Didn’t</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">ubsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
