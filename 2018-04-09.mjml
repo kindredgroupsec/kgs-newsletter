@@ -1,0 +1,200 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 09/04/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://image3.appdisqus.com/wp-content/uploads/2018/03/myfitnesspal-hacked.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">9 April 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Remote Execution Flaw Threatens Apps Built Using Spring Framework — Patch Now</mj-text>
+          <mj-image src="https://4.bp.blogspot.com/-7wbHanO4Xuw/Wscn9dJaqqI/AAAAAAAADKk/wOdCRehQeeck79kK70BErJ6_rc7wXVZkQCLcBGAs/s1600/spring-framework-hacking-min.jpg"></mj-image>
+          <mj-text color="#fff">Security researchers have discovered three vulnerabilities in the Spring Development Framework, one of which is a critical remote code execution flaw that could allow remote attackers to execute arbitrary code against applications built with it. Spring Framework is a popular, lightweight and an open source framework for developing Java-based enterprise applications.</mj-text>
+          <mj-text color="#fff">Vulnerable Spring Framework versions expose STOMP clients over WebSocket endpoints with an in-memory STOMP broker through the 'spring-messaging' module, which could allow an attacker to send a maliciously crafted message to the broker, leading to a remote code execution attack (CVE-2018-1270).</mj-text>
+          <mj-text color="#fff">The second bug (CVE-2018-1271) resides in Spring's Web model-view-controller (MVC) that allows attackers to execute directory traversal attack and access restricted directories when configured to serve static resources (e.g., CSS, JS, images) from a file system on Windows. This vulnerability doesn't work if you are not using Windows to serve content and can be avoided if you don't serve files from the file system or use Tomcat/WildFly as the server.</mj-text>
+          <mj-text color="#fff">Pivotal has released Spring Framework 5.0.5 and 4.3.15, which include fixes for all the three vulnerabilities. The company has also released Spring Boot 2.0.1 and 1.5.11, that match the patched Spring Framework versions. So developers and administrators are highly recommended to upgrade their software to the latest versions immediately.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2018/04/spring-framework-hacking.html">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://spring.io/blog/2018/04/05/multiple-cve-reports-published-for-the-spring-framework">
+            Advisory
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Magento sites hacked with cryptominers & credential stealing malware</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2016/12/02/Magento.png"></mj-image>
+          <mj-text>Security researchers say they've identified at last 1,000 Magento sites that have been hacked by cybercriminals and infected with malicious scripts that steal payment card details or are used as staging points in the delivery of other malware.</mj-text>
+          <mj-text>The Magento sites are being compromised through brute-force attacks using common and known default Magento credentials, brute-force attacks such as these are simplified when admins fail to change the credentials upon installation of the platform. Attackers, meanwhile, can build simple automated scripts loaded with known credentials to facilitate access of the panels.</mj-text>
+          <mj-text>In today's cybercrime landscape where criminals have access to cheap brute-forcing botnets that they can use to guess site passwords with relatively little effort, site owners should make sure they use unique usernames and passwords that can't be guessed after a few attempts. Securing admin account passwords should be a top priority —next to applying security updates— for all site owners, not just those managing online stores.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/over-1-000-magento-stores-hacked-to-steal-card-data-run-cryptojacking-scripts/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://support.hypernode.com/knowledgebase/recover-a-hacked-magento-shop/">
+            How to recover a hacked Magento shop
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Security Experts Weigh In On Massive Data Breach Of 150 Million MyFitnessPal Accounts</mj-text>
+          <mj-image src="https://image3.appdisqus.com/wp-content/uploads/2018/03/myfitnesspal-hacked.jpg"></mj-image>
+          <mj-text>Under Armour has admitted that around 150 million MyFitnessPal user accounts were hacked in February of this year. MyFitnessPal is a popular fitness tracking app that has been around for a long time. It was founded in 2005 and enables users to monitor calorie intake and exercise. Under Armour acquired MyFitnessPal about three years ago for $475 million.</mj-text>
+          <mj-text>A post on the MyFitnessPal site shares the details known so far and offers some guidance for affected users. It explains that Under  Armour is notifying all MyFitnessPal users to provide information about how to protect their data, requiring all users to change their passwords, working with law enforcement to investigate and continuing to monitor for suspicious activity, and exploring enhancements to help detect and prevent similar unauthorized access in the future.</mj-text>
+          <mj-text>The good news for those affected is that the only data that was exposed or potentially compromised was usernames, email addresses, and encrypted passwords. More sensitive—and potentially more harmful—data like Social Security numbers or driver’s license numbers are not collected by MyFitnessPal, and the bank and credit card details are collected and processed separately. Under Armour states that most of the passwords were encrypted with bcrypt—which is a relatively strong password hashing mechanism. However, some of the passwords were protected using a significantly weaker 160-bit hashing function, SHA-1.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.forbes.com/sites/tonybradley/2018/03/30/security-experts-weigh-in-on-massive-data-breach-of-150-million-myfitnesspal-accounts/#444e48fa3bba">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://content.myfitnesspal.com/security-information/FAQ.html">
+            Official advisory
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Patches, leaks, releases and the kitchen sink</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-pink" href="https://blog.cloudflare.com/announcing-1111/">Announcing 1.1.1.1: the fastest, privacy-first consumer DNS service</a></li>
+              <li><a class="lnk-blue" href="https://www.hackread.com/live-chat-widgets-leaking-details-of-employees/">LiveChat widgets vulnerability allow leaking details of employees</a></li>
+              <li><a class="lnk-green" href="https://aws.amazon.com/blogs/aws/aws-secrets-manager-store-distribute-and-rotate-credentials-securely/">AWS Secrets Manager: Store, Distribute, and Rotate Credentials Securely</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/virustotal-launches-droidy-its-new-android-sandbox-technology/">VirusTotal Launches Droidy, Its New Android Sandbox Technology</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2018/04/facebook-data-privacy.html">Facebook admits public data of its 2.2 billion users has been compromised</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/microsoft-out-of-band-security-update-patches-malware-protection-engine-flaw/">Microsoft Out-Of-Band Security Update Patches Malware Protection Engine Flaw</a></li>
+              <li><a class="lnk-green" href="https://www.hackread.com/macos-malware-infect-devices-with-malicious-macros/">New macOS malware aims at infecting devices with malicious macros</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/misconfigured-django-apps-are-exposing-secret-api-keys-database-passwords/">Misconfigured Django Apps Are Exposing Secret API Keys, Database Passwords</a></li>
+              <li><a class="lnk-purple" href="https://www.theregister.co.uk/2018/04/03/microsoft_windows_meltdown_patch_saga/">Mad March Meltdown! Microsoft's patch for a patch for a patch may need another patch</a></li>
+              <li><a class="lnk-blue" href="https://www.vox.com/2018/4/2/17189078/grindr-hiv-status-data-sharing-privacy">Grindr is revealing its users’ HIV status to third-party companies</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-out-of-band-security-update-patches-malware-protection-engine-flaw/">Microsoft Out-Of-Band Security Update Patches Malware Protection Engine Flaw</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2018/04/03/panera-bread-customer-records-exposed-via-leaky-database-dough/">Panera Bread customer records exposed via leaky database – dough!</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Tech content and tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/brannondorsey/whonow">Whonow: "malicious" DNS server for executing DNS Rebinding attacks on the fly </a></li>
+              <li><a class="lnk-pink" href="https://umpox.github.io/zero-width-detection/">Zero-width steganography PoC</a></li>
+              <li><a class="lnk-green" href="https://cybersyndicates.com/2017/04/expand-your-horizon-red-team/">Expand your horizon, read teams – Modern SaaS C2</a></li>
+              <li><a class="lnk-orange" href="https://www.mindpointgroup.com/blog/pen-test/cloudfront-hijacking/">CloudFront Hijacking</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/@hakluke/haklukes-ultimate-oscp-guide-part-3-practical-hacking-tips-and-tricks-c38486f5fc97">Hakluke’s Ultimate OSCP Guide: Part 3 — Practical hacking tips and tricks</a></li>
+              <li><a class="lnk-blue" href="https://research.rootme.in/on-site-request-forgery/">On-site Request Forgery</a></li>
+              <li><a class="lnk-pink" href="https://lukasvileikis.com/your-website-needs-a-csp-heres-why/">Your website needs a CSP, here's why</a></li>
+              <li><a class="lnk-green" href="https://scotthelme.co.uk/report-uri-csp-wizard/">Introducing the CSP Wizard on Report URI</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/@abhishekbundela/hey-organisations-dont-underestimate-dmarc-policy-23f525df7b99">Organisations, don’t underestimate DMARC policy!</a></li>
+              <li><a class="lnk-purple" href="https://lukasvileikis.com/your-website-has-assets-you-need-sri/">Your website has assets, use SRI</a></li>
+              <li><a class="lnk-blue" href="https://jdow.io/blog/2018/03/18/web-application-penetration-testing-methodology">Web Application Penetration Testing Cheat Sheet</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">ubsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
