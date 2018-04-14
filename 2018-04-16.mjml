@@ -61,7 +61,7 @@
         <meta name="twitter:site" content="@kindredgroup" />
         <meta name="twitter:title" content="Kindred Security Newsletter - 14/04/18" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
-        <meta name="twitter:image" content="http://i.imgur.com/kQIWprp.png" />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-m6AJ3EhzrCo/Ws0vKuUza6I/AAAAAAAAwLo/lr2t-vaiZdos0IzDfacN8NJsQuUOuJwfwCLcBGAs/s1600/microsoft-windows-update.png" />
       </mj-style>
   </mj-head>
   <mj-body>
@@ -87,37 +87,27 @@
       <!-- Featured (blue) Article -->
       <mj-section background-color="#00a5de">
         <mj-column>
-          <mj-text mj-class="white h2" align="center">Featured</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text color="#fff">text</mj-text>
-          <mj-text color="#fff">text</mj-text>
-          <mj-text color="#fff">text</mj-text>
-          <mj-button background-color="#fff" mj-class="blue" href="URL">
+          <mj-text mj-class="white h2" align="center">Warning: Your Windows PC Can Get Hacked by Just Visiting a Site</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-m6AJ3EhzrCo/Ws0vKuUza6I/AAAAAAAAwLo/lr2t-vaiZdos0IzDfacN8NJsQuUOuJwfwCLcBGAs/s1600/microsoft-windows-update.png"></mj-image>
+          <mj-text color="#fff">Can you get hacked just by clicking on a malicious link or opening a website? — YES.</mj-text>
+          <mj-text color="#fff">Microsoft has just released its April month's Patch Tuesday security updates, which addresses multiple critical vulnerabilities in its Windows operating systems and other products, five of which could allow an attacker to hack your computer by just tricking you visit a website.</mj-text>
+          <mj-text color="#fff">An attacker can exploit these issues by tricking an unsuspecting user to open a malicious file or a specially crafted website with the malicious font, which if open in a web browser, would hand over control of the affected system to the attacker.</mj-text>
+          <mj-text color="#fff">Windows Microsoft Graphics is also affected by a denial of service vulnerability that could allow an attacker to cause a targeted system to stop responding. This flaw exists in the way Windows handles objects in memory. Besides this, Microsoft has also patched multiple remote code execution vulnerabilities in Microsoft Office and Microsoft Excel, which could allow attackers to take control of the targeted systems.</mj-text>
+          <mj-text color="#fff">The security updates also include patches for six flaws in Adobe Flash Player, three of which were rated critical.</mj-text>
+          <mj-text color="#fff">Users are strongly advised to apply security patches as soon as possible to keep hackers and cybercriminals away from taking control of their computers.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2018/04/windows-patch-updates.html">
             Read More
           </mj-button>
-          <mj-button background-color="#fff" mj-class="blue" href="URL">
-            Even More
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/microsoft-april-patch-tuesday-fixes-66-security-issues/">
+            Microsoft’s April 2018 Patch – 65 vulns, 24 critical
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-1013">
+            CVE-2018-1013 Advisory
           </mj-button>
         </mj-column>
       </mj-section>
 
-      <!-- Green Articles -->
-      <mj-section background-color="#fff">
-        <mj-column>
-          <mj-spacer height="30px" />
-          <mj-text mj-class="green h2">News3</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-button mj-class="bg-green" href="URL">
-            Read More
-          </mj-button>
-          <mj-button mj-class="bg-green" href="URL">
-            Even More
-          </mj-button>
-        </mj-column>
-      </mj-section>
+
 
       <!-- Pink Articles -->
       <mj-section background-color="#fff">
@@ -125,13 +115,31 @@
           <mj-spacer height="30px" />
           <mj-text mj-class="pink h2">Flaw in Microsoft Outlook Lets Hackers Easily Steal Your Windows Password</mj-text>
           <mj-image src="https://2.bp.blogspot.com/-OfmiDWzwR9s/Ws8GUXwBSSI/AAAAAAAAwMg/AkLbVIotvZoOgwyT8XTO0sEaqViL5r1nACLcBGAs/s1600/SMB-hack-outlook.png"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
+          <mj-text>A security researcher has disclosed details of an important vulnerability in Microsoft Outlook for which the company released an incomplete patch this month—almost 18 months after receiving the responsible disclosure report.</mj-text>
+          <mj-text>The Microsoft Outlook vulnerability (CVE-2018-0950) could allow attackers to steal sensitive information, including users' Windows login credentials, just by convincing victims to preview an email with Microsoft Outlook, without requiring any additional user interaction.</mj-text>
+          <mj-text>If you have already installed the latest Microsoft patch update, that's great, but attackers can still exploit this vulnerability. So, Windows users, especially network administrators at corporates, are advised to follow the below-mentioned steps to mitigate this vulnerability. Block specific ports (445/tcp, 137/tcp, 139/tcp, along with 137/udp and 139/udp) used for incoming and outgoing SMB sessions. Block NT LAN Manager (NTLM) Single Sign-on (SSO) authentication. Always use complex passwords, that cannot be cracked easily even if their hashes are stolen (you can use password managers to handle this task). Most important, don't click on suspicious links provided in emails.</mj-text>
           <mj-button mj-class="bg-pink" href="https://thehackernews.com/2018/04/outlook-smb-vulnerability.html">
             Read More
           </mj-button>
-          <mj-button mj-class="bg-pink" href="#">
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Practical passwordless authentication comes a step closer with WebAuthn</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/04/10/WebAuthn.png"></mj-image>
+          <mj-text>Three major browser makers —Google, Microsoft, and Mozilla—have put their official backing behind a new W3C API called Web Authentication (WebAuthn) that is advertised as a reliable alternative to passwordless online authentication.</mj-text>
+          <mj-text>WebAuthn is a specification to allow browsers to expose hardware authentication devices—USB, Bluetooth, or NFC—to sites on the Web. These hardware devices enable users to prove their identity to sites without requiring usernames and passwords. The spec has been developed as a joint effort between FIDO, an industry body that's developing secure authentication systems, and W3C, the industry group that oversees development of Web standards.</mj-text>
+          <mj-text>With WebAuthn-enabled browsers and sites, users can sign in using both integrated biometric hardware (such as the fingerprint and facial-recognition systems that are widely deployed) and external authentication systems such as the popular YubiKey USB hardware. With WebAuthn, no user credentials ever leave the browser and no passwords are used, providing strong protection against phishing, man-in-the-middle attacks, and replay attacks.</mj-text>
+          <mj-text>With WebAuthn in place, widespread adoption of passwordless authentication will be much more practical. We're certainly not going to see the end of the password overnight, but this is the kind of infrastructure that needs to be in place before it can credibly be replaced.</mj-text>
+          <mj-button mj-class="bg-green" href="https://arstechnica.com/gadgets/2018/04/practical-passwordless-authentication-comes-a-step-closer-with-webauthn/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/google-microsoft-and-mozilla-put-their-backing-behind-new-webauthn-api/">
             Even More
           </mj-button>
         </mj-column>
@@ -139,129 +147,60 @@
 
 
 
-
-
-
-
-      <!-- Orange Articles -->
-      <mj-section background-color="#fff">
+      <mj-section background-color="#00a5de">
         <mj-column>
-          <mj-spacer height="30px" />
-          <mj-text mj-class="orange h2">News4</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-button mj-class="bg-orange" href="URL">
-            Read More
-          </mj-button>
-          <mj-button mj-class="bg-orange" href="URL">
-            Even More
-          </mj-button>
+          <mj-text mj-class="h2 white">#Facebook</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-white" href="https://www.forbes.com/sites/steveandriole/2018/04/12/facebooks-zukerberg-quietly-drops-another-privacy-bomb-facial-recognition/#7b42826251c0">Facebook's Zukerberg Quietly Drops Another Privacy Bomb - Facial Recognition</a></li>
+              <li><a class="lnk-white" href="https://thehackernews.com/2018/04/facebook-data-download.html">How to Find Out Everything Facebook Knows About You</a></li>
+              <li><a class="lnk-white" href="https://thehackernews.com/2018/04/facebook-data-abuse-bounty.html">Facebook Offering $40,000 Bounty If You Find Evidence Of Data Leaks</a></li>
+              <li><a class="lnk-white" href="https://news.vice.com/en_us/article/ywxqeg/zuckerbergs-cheat-sheet-accidentally-made-public-at-senate-hearing-on-privacy">These are Mark Zuckerberg’s notes from his testimony to Congress</a></li>
+              <li><a class="lnk-white" href="https://theoutline.com/post/3994/it-is-weirdly-hard-to-steal-mark-zuckerbergs-trash">It's weirdly hard to steal Mark Zuckerberg's trash</a></li>
+              <li><a class="lnk-white" href="https://www.theguardian.com/technology/live/2018/apr/10/mark-zuckerberg-testimony-live-congress-facebook-cambridge-analytica">Congress grills Facebook CEO over data misuse – as it happened</a></li>
+              <li><a class="lnk-white" href="https://github.com/Lackoftactics/facebook_data_analyzer/blob/master/README.md">Facebook data analyzer tool</a></li>
+            </ul>
+          </mj-text>
         </mj-column>
       </mj-section>
-
-
-      <!-- Purple Articles -->
-      <mj-section background-color="#fff">
-        <mj-column>
-          <mj-spacer height="30px" />
-          <mj-text mj-class="purple h2">News5</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-button mj-class="bg-purple" href="URL">
-            Read More
-          </mj-button>
-          <mj-button mj-class="bg-purple" href="URL">
-            Even More
-          </mj-button>
-        </mj-column>
-      </mj-section>
-
-      <!-- Blue Articles -->
-      <mj-section background-color="#fff">
-        <mj-column>
-          <mj-spacer height="30px" />
-          <mj-text mj-class="blue h2">News6</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-button mj-class="bg-blue" href="URL">
-            Read More
-          </mj-button>
-          <mj-button mj-class="bg-blue" href="URL">
-            Even More
-          </mj-button>
-        </mj-column>
-      </mj-section>
-
-
-      <!-- Pink Articles -->
-      <mj-section background-color="#fff">
-        <mj-column>
-          <mj-spacer height="30px" />
-          <mj-text mj-class="pink h2">News7</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-button mj-class="bg-pink" href="URL">
-            Read More
-          </mj-button>
-          <mj-button mj-class="bg-pink" href="URL">
-            Read More
-          </mj-button>
-
-
-        </mj-column>
-      </mj-section>
-
-
-      <mj-section background-color="#fff">
-        <mj-column>
-          <mj-spacer height="30px" />
+        <mj-section background-color="#fff">
+          <mj-column>
           <mj-text mj-class="h2">Cutting room floor</mj-text>
           <mj-text>
             <ul>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2018/04/dont-give-away-historic-details-about-yourself/">Don’t Give Away Historic Details About Yourself</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2018/04/11/3-critical-flash-vulnerabilities-patched-update-now/">3 critical Flash vulnerabilities patched. Update now!</a></li>
+              <li><a class="lnk-green" href="https://www.csoonline.com/article/3268526/security/sirenjack-hackers-can-hijack-emergency-alert-sirens-with-a-35-radio-and-laptop.html">SirenJack: Hackers can hijack emergency alert sirens with a $35 radio and laptop</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/exploitation-of-drupalgeddon2-flaw-starts-after-publication-of-poc-code/">Exploitation of Drupalgeddon2 Flaw Starts After Publication of PoC Code</a></li>
+              <li><a class="lnk-purple" href="https://www.theregister.co.uk/2018/04/13/thai_mobile_operator_data_breach/">Thai mobile operator spills 46k people's data due to S3 bucket leak</a></li>
+              <li><a class="lnk-blue" href="http://www.infosecisland.com/blogview/25056-Avoiding-Holes-in-Your-AWS-Buckets.html">Avoiding Holes in Your AWS Buckets</a></li>
+              <li><a class="lnk-pink" href="https://scotthelme.co.uk/security-headers-is-changing-domain-and-branding/">Security Headers is changing domain and branding</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/2018/04/10/gmail_netflix_phishing_vector/">Gmail is secure. Netflix is secure. Together they're a phishing threat</a></li>
+              <li><a class="lnk-orange" href="https://www.darkreading.com/cloud/serverless-architectures-a-paradigm-shift-in-application-security/a/d-id/1331418">Serverless Architectures: A Paradigm Shift in Application Security</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/over-65-000-home-routers-are-proxying-bad-traffic-for-botnets-apts/">Over 65,000 Home Routers Are Proxying Bad Traffic for Botnets, APTs</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/researchers-catch-android-oems-lying-about-security-patches/">Researchers Catch Android OEMs Lying About Security Patches</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/oblivious-dns-could-protect-your-internet-traffic-against-snooping/">Oblivious DNS could protect your internet traffic against snooping</a></li>
             </ul>
           </mj-text>
           <mj-spacer height="30px" />
           <mj-text mj-class="h2">#Tech and #Tools</mj-text>
           <mj-text>
             <ul>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
+              <li><a class="lnk-blue" href="https://scotthelme.co.uk/securing-dns-across-all-of-my-devices-with-pihole-dns-over-https-1-1-1-1/">Securing DNS across all of my devices with Pi-Hole + DNS-over-HTTPS + 1.1.1.1</a></li>
+              <li><a class="lnk-pink" href="https://www.opensnitch.io/">OpenSnitch is a GNU/Linux port of the Little Snitch application firewall.</a></li>
+              <li><a class="lnk-green" href="https://github.com/mame82/P4wnP1">P4wnP1: Customizable USB attack platform on a low cost Raspberry Pi Zero</a></li>
+              <li><a class="lnk-orange" href="https://www.immunit.ch/blog/2018/04/10/yet-another-drupal-scanner-drupwn/">Drupwn: Yet another Drupal scanner</a></li>
+              <li><a class="lnk-purple" href="http://www.harmj0y.net/blog/activedirectory/remote-hash-extraction-on-demand-via-host-security-descriptor-modification/">Remote Hash Extraction On Demand Via Host Security Descriptor Modification</a></li>
+              <li><a class="lnk-blue" href="https://blog.nviso.be/2018/04/09/creating-custom-yara-rules/">Creating custom YARA rules</a></li>
+              <li><a class="lnk-pink" href="https://www.redteam-pentesting.de/en/advisories/rt-sa-2017-014/-cyberark-password-vault-web-access-remote-code-execution">CyberArk Password Vault Web Access Remote Code Execution</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2018/04/early-bird-code-injection.html">Hackers Found Using A New Code Injection Technique to Evade Detection</a></li>
+              <li><a class="lnk-orange" href="http://nint.en.do/Signal-Bypass-Screen-locker.php">Signal Bypass Screen locker</a></li>
+              <li><a class="lnk-purple" href="https://randywestergren.com/compromising-opendrives-cloud-storage-accounts-or-how-not-to-design-session-management/">Compromising OpenDrive’s Cloud Storage Accounts – Or How Not to Design Session Management</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@vysec.private/domlink-automating-domain-discovery-467704375d0a">DomLink — Automating domain discovery</a></li>
+              <li><a class="lnk-pink" href="MacOS Heap overflow">https://blog.grimm-co.com/post/heap-overflow-in-the-necp_client_action-syscall/</a></li>
+              <li><a class="lnk-green" href="https://github.com/Nhoya/PastebinMarkdownXSS">XSS in pastebin.com via unsanitized markdown output</a></li>
+              <li><a class="lnk-orange" href="https://github.com/hannob/snallygaster">Snallygaster - a Tool to Scan for Secrets on Web Servers</a></li>
+              <li><a class="lnk-purple" href="https://blog.cloudflare.com/spectrum/">Spectrum: Extending Cloudflare To 65,533 More Ports</a></li>
             </ul>
           </mj-text>
         </mj-column>
