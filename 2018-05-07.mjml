@@ -84,7 +84,23 @@
           </mj-button>
         </mj-column>
       </mj-section>
-      <!-- Featured (blue) Article -->
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2" align="center">PLAY TLS 1.3 WITH CURL</mj-text>
+          <mj-image src="https://daniel.haxx.se/blog/wp-content/uploads/2018/01/binary-2326144_1920-672x372.jpg"></mj-image>
+          <mj-text>The <a href='https://www.ietf.org/mail-archive/web/ietf-announce/current/msg17592.html'>IESG recently approved the TLS 1.3 draft-28 for proposed standard </a>and we can expect the real RFC for this protocol version to appear soon (within a few months probably).</mj-text>
+          <mj-text>TLS 1.3 has been in development for quite some time by now, and a lot of TLS libraries already support it to some extent. At varying draft levels.</mj-text>
+          <mj-text>Today, curl and libcurl support speaking TLS 1.3 if you build it to use one of these fine TLS libraries of a recent enough version:</mj-text>
+          <mj-text><li>OpenSSL</li> <li>BoringSSL</li><li>libressl</li><li>NSS</li><li>WolfSSL</li><li>Secure Transport (on iOS 11 or later, and macOS 10.13 or later)</li></mj-text>
+          <mj-button mj-class="bg-green" href="https://daniel.haxx.se/blog/2018/03/27/play-tls-1-3-with-curl/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
 
       <!-- Featured (blue) Article -->
       <mj-section background-color="#00a5de">
