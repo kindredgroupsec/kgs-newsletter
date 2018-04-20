@@ -61,7 +61,7 @@
         <meta name="twitter:site" content="@kindredgroup" />
         <meta name="twitter:title" content="Kindred Security Newsletter - 23/04/18" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
-        <meta name="twitter:image" content="https://sophosnews.files.wordpress.com/2018/04/shutterstock_661592254.jpg?w=780&h=408&crop=1" />
+        <meta name="twitter:image" content="https://sophosnews.files.wordpress.com/2018/04/shutterstock_661592254.jpg?w=780&h=408&crop=1 />
       </mj-style>
   </mj-head>
   <mj-body>
@@ -150,7 +150,6 @@
             <ul>
               <li><a class="lnk-blue" href="https://github.com/tehw0lf/airbash">A fully automated WPA PSK handshake capture script aimed at penetration testing.</a></li>
               <li><a class="lnk-pink" href="https://github.com/phishai/phish-ai-api">Official python API for Phish.AI public and private API to detect zero-day phishing websites.</a></li>
-              <li><a class="lnk-green" href="https://github.com/mame82/P4wnP1">P4wnP1: Customizable USB attack platform on a low cost Raspberry Pi Zero</a></li>
             </ul>
           </mj-text>
         </mj-column>
