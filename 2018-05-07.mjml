@@ -89,6 +89,36 @@
       <mj-section background-color="#fff">
         <mj-column>
           <mj-spacer height="30px" />
+          <mj-text mj-class="green h2" align="center">DDoS-for-Hire Service Webstresser Dismantled</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2018/04/webstresser.png"></mj-image>
+          <mj-text>Authorities in the U.S., U.K. and the Netherlands on Tuesday took down popular online attack-for-hire service WebStresser.org and arrested its alleged administrators</mj-text>
+          <mj-text>Investigators say that prior to the takedown, the service had more than 136,000 registered users and was responsible for launching somewhere between four and six million attacks over the past three years.</mj-text>
+          <mj-button mj-class="bg-green" href="https://krebsonsecurity.com/2018/04/ddos-for-hire-service-webstresser-dismantled/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Ethereum cryptocurrency wallets raided after Amazon’s internet domain service hijacked</mj-text>
+          <mj-image src="https://s3.amazonaws.com/influencive.com/wp-content/uploads/2017/03/14094843/ethereum-dan-fleyshman-branden-hampton.jpg"></mj-image>
+          <mj-text color="#fff">Online cryptocurrency website MyEtherWallet.com has confirmed that for a period of time yesterday some visitors could have been redirected to a phishing site designed to steal users’ credentials and – ultimately – empty their cryptocurrency wallets.</mj-text>
+          <mj-text color="#fff">According to reports, whoever was behind the attack may have successfully stolen approximately US $152,000 worth of Ethereum-based cryptocurrency. </mj-text>
+          <mj-text color="#fff">However, assuming that MyEtherWallet itself was at fault may be a mistake, as the website explained in its statement:</mj-text>
+          <mj-text color="#fff"><li>“This is not due to a lack of security on the [MyEtherWallet] platform. It is due to hackers finding vulnerabilities in public facing DNS servers.”</li></mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="http://feedproxy.google.com/~r/eset/blog/~3/ZqdnGXUPqGc/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
           <mj-text mj-class="green h2" align="center">PLAY TLS 1.3 WITH CURL</mj-text>
           <mj-image src="https://daniel.haxx.se/blog/wp-content/uploads/2018/01/binary-2326144_1920-672x372.jpg"></mj-image>
           <mj-text>The <a href='https://www.ietf.org/mail-archive/web/ietf-announce/current/msg17592.html'>IESG recently approved the TLS 1.3 draft-28 for proposed standard </a>and we can expect the real RFC for this protocol version to appear soon (within a few months probably).</mj-text>
