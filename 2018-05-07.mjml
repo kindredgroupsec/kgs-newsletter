@@ -114,6 +114,22 @@
         </mj-column>
       </mj-section>
 
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-text mj-class="green h2" align="center">IDN Homograph Attack Is Back</mj-text>
+          <mj-image src="https://39hwra47nlyu11cw9c40ez6v-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/wood-cube-abc-cube-letters-48898-915x610.jpeg"></mj-image>
+          <mj-text><b>Even the most vigilant internet users are susceptible to this IDN homograph attack</b></mj-text>
+          <mj-text>A new wave of Unicode Domain Phishing attacks are tricking even the most seasoned of internet veterans thanks to its clever use of homographs.</mj-text>
+          <mj-text>For those that don’t know a homograph is a set of two or more words that are spelled the same but have different meanings and origins. In this case, homograph is an imperfect descriptor, but it’s still sufficient. To execute a Unicode Domain Phishing attack, you first need a Unicode domain. Typically, the URLs you type are in ASCII, that stands for American Standard Code for Information Interchange. However, in 2003, a specification was added to allow Unicode characters to be used in domain names. Unicode is an industry standard for encoding text expressed in most of the world’s written languages. The idea behind this was to give international internet users the ability to follow links in their own language. But, as with everything on the internet, somebody found a way to exploit this.</mj-text>
+          <mj-text><li>Researcher Xudong Zheng published a proof of concept last year that highlights the issue. In the POC, Zheng uses Unicode to produce a web page that resembles Apple’s. To do this, he created a domain with Punycode, which allows for Internationalized Domain Names. He then mixed in Unicode with ASCII to create a website that actually says “Apple.com”</li></mj-text>
+          <mj-button background-color="bg-green" href="https://www.thesslstore.com/blog/unicode-domain-phishing/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
       <!-- Green Articles -->
       <mj-section background-color="#fff">
         <mj-column>
@@ -175,7 +191,7 @@
               <li><a class="lnk-green" href="https://github.com/danielmiessler/SecLists">SecLists is the security tester's companion. It is a collection of multiple types of lists used during security assessments</a></li>
               <li><a class="lnk-orange" href="https://www.bettercap.org/">bettercap is the Swiss army knife for network attacks and monitoring. </a></li>
               <li><a class="lnk-purple" href="https://github.com/volatilityfoundation/volatility">Volatility an advanced memory forensics framework</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
+              <li><a class="lnk-blue" href="https://github.com/UndeadSec/EvilURL">EvilURL generate unicode evil domains for IDN Homograph Attack and detect them.</a></li>
               <li><a class="lnk-pink" href="URL">cut2</a></li>
               <li><a class="lnk-green" href="URL">cut3</a></li>
               <li><a class="lnk-orange" href="URL">cut4</a></li>
