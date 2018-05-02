@@ -59,9 +59,9 @@
       </style>
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@kindredgroup" />
-        <meta name="twitter:title" content="Kindred Security Newsletter - DD/MM/18" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 07/05/18" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
-        <meta name="twitter:image" content="http://i.imgur.com/kQIWprp.png" />
+        <meta name="twitter:image" content="https://blog.mozilla.org/wp-content/uploads/2017/12/Firefox-on-Fire-TV-announcement-1400x770.png" />
       </mj-style>
   </mj-head>
   <mj-body>
@@ -137,6 +137,7 @@
             <ul>
               <li><a class="lnk-blue" href="https://thehackernews.com/2018/04/oracle-weblogic-rce-exploit.html"></a>Faulty Patch for Oracle WebLogic Flaw Opens Updated Servers to Hackers Again</li>
               <li><a class="lnk-pink" href="https://thehackernews.com/2018/04/amazon-alexa-hacking-skill.html">Amazon Alexa Has Got Some Serious Skills - Spying on Users</a></li>
+
             </ul>
           </mj-text>
           <mj-spacer height="30px" />
