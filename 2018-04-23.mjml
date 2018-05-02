@@ -1,0 +1,171 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 23/04/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://sophosnews.files.wordpress.com/2018/04/shutterstock_661592254.jpg?w=780&h=408&crop=1 />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">23 April 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">NSA reveals how it beats 0-days</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2018/04/shutterstock_661592254.jpg?w=780&h=408&crop=1"></mj-image>
+          <mj-text color="#fff">In the ongoing cat-and-mouse game between nation states and attackers, anyone with something to protect has less time than ever to shore up their defenses.</mj-text>
+          <mj-text color="#fff">At this week’s RSA conference in San Francisco, Dave Hogue, technical director of the US National Security Agency (NSA), reviewed the organization’s best practices for defense – one of which is to “harden to best practices,” as the NSA often sees attacks against their systems within 24 hours of a new vulnerability being disclosed or discovered in the wild.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2018/04/19/nsa-reveals-how-it-beats-0-days/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Over 20 Million Users Installed Malicious Ad Blockers From Chrome Store</mj-text>
+          <mj-image src="https://cdn.images.express.co.uk/img/dynamic/59/590x/Google-Chrome-Hack-805729.jpg"></mj-image>
+          <mj-text>If you have installed any of the below-mentioned Ad blocker extension in your Chrome browser, you could have been hacked.</mj-text>
+          <mj-text>A security researcher has spotted five malicious ad blockers extension in the Google Chrome Store that had already been installed by at least 20 million users.</mj-text>
+          <mj-text>Unfortunately, malicious browser extensions are nothing new. They often have access to everything you do online and could allow its creators to steal any information victims enter into any website they visit, including passwords, web browsing history and credit card details.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2018/04/adblocker-chrome-extention.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">iOS Trustjacking – A Dangerous New iOS Vulnerability</mj-text>
+          <mj-image src="https://content.connect.symantec.com/sites/default/files/styles/blogs_hero_tiny/public/2018-04/GettyImages-597317493.jpg?itok=pwzxaaz-"></mj-image>
+          <mj-text>An iPhone user's worst nightmare is to have someone gain persistent control over his/her device, including the ability to record and control all activity without even needing to be in the same room. In this blog post, we present a new vulnerability called “Trustjacking”, which allows an attacker to do exactly that.</mj-text>
+          <mj-text>This vulnerability exploits an iOS feature called iTunes Wi-Fi sync, which allows a user to manage their iOS device without physically connecting it to their computer. A single tap by the iOS device owner when the two are connected to the same network allows an attacker to gain permanent control over the device. In addition, we will walk through past related vulnerabilities and show the changes that Apple has made in order to mitigate them, and why these are not enough to prevent similar attacks.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.symantec.com/blogs/feature-stories/ios-trustjacking-dangerous-new-ios-vulnerability">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+        <mj-section background-color="#fff">
+          <mj-column>
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2018/04/drupal-site-vulnerability.html">Another Critical Flaw Found In Drupal Core—Patch Your Sites Immediately</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/bugbountywriteup/piercing-the-veil-server-side-request-forgery-to-niprnet-access-c358fd5e249a">Piercing the Veil: Server Side Request Forgery to NIPRNet access</a></li>
+              <li><a class="lnk-green" href="https://www.securifera.com/blog/2018/04/15/amd-gaming-evolved-raptr-plays-tv-remote-file-execution/">AMD gaming evolved raptr plays tv remote file execution</a></li>
+              <li><a class="lnk-orange" href="https://www.glenscott.co.uk/wordpress-hacked-site-forensics-report/">WordPress hacked site – forensics report</a></li>
+              <li><a class="lnk-purple" href="https://assets.pentesterlab.com/jwt_security_cheatsheet/jwt_security_cheatsheet.pdf">JSON Web Token (JWT) Security Cheat Sheet PDF</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/tehw0lf/airbash">A fully automated WPA PSK handshake capture script aimed at penetration testing.</a></li>
+              <li><a class="lnk-pink" href="https://github.com/phishai/phish-ai-api">Official python API for Phish.AI public and private API to detect zero-day phishing websites.</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">ubsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

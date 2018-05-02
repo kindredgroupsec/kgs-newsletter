@@ -1,0 +1,209 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 30/04/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/images/news/ransomware/h/hpe-ilo-4/security-notice.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">30 April 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">SEC Fines Yahoo $35 Million for Data Breach</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2016/11/10/Yahoo_Logo.png"></mj-image>
+          <mj-text color="#fff">The United States Securities and Exchange Commission has fined Yahoo $35 million for failing to disclose a massive security breach that took place in 2014. The fine is for the first Yahoo data breach that came to light in 2016 —the one where hackers stole the usernames, email addresses, phone numbers, birthdates, encrypted passwords, and security questions for over 500 million Yahoo users.</mj-text>
+          <mj-text color="#fff">The fine comes after Yahoo filed its quarterly documents in November 2016, two months after announcing the first breach, admitting that it knew about the breach since 2014, and not 2016, when the breach became public. This meant that Yahoo leadership purposely hid the data breach.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/business/sec-fines-yahoo-35-million-for-data-breach-that-affected-500-million-users/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Ransomware Hits HPE iLO Remote Management Interfaces</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/ransomware/h/hpe-ilo-4/security-notice.jpg"></mj-image>
+          <mj-text>HPE iLO 4, otherwise known as HPE Integrated Lights-Out, is a management processor built into certain HP servers that allow administrators to remotely administer the device. Attackers are targeting Internet accessible HPE iLO 4 remote management interfaces, supposedly encrypting the hard drives, and then demanding Bitcoins to get access to the data again.</mj-text>
+          <mj-text>An interesting part of the ransom note is that the attackers state that the ransom price is not negotiable unless the victim's are from Russia. This is common for Russian based attackers, who in many cases tries to avoid infecting Russian victims.
+</mj-text>
+          <mj-text>Exposing a remote administration tool like iLO 4 to the Internet is never a good thing to do. These tools should only be accessible via secure VPNs in order to prevent them from being scanned for and accessed by anyone on the Internet. Finding connected iLO interfaces is also trivial. A quick search on Shodan shows that over 5,000 iLO 4 devices are connected to the Internet, with many of them being known vulnerable versions.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/ransomware-hits-hpe-ilo-remote-management-interfaces/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">New critical Drupal Vulnerability already exploited in the wild</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2018/04/25/drupal_logo.png"></mj-image>
+          <mj-text>The new flaw that is being exploited is a remote code execution (RCE) bug that affects both Drupal 7.x and 8.x versions. The vulnerability was rated 19 out of 25 on Drupal's own severity scale ("Critical"), meaning it can give attackers complete control over an attacked site. After the detection of in-the-wild exploit only hours after the patch release, the vulnerability score was bumped to 20/25 ("Highly critical").</mj-text>
+          <mj-text>This vulnerability should not be confused with Drupalgeddon 2 (CVE-2018-7600), another Drupal CMS security issue patched last month, which is also heavily exploited. In a public announcement from mid-April, the Drupal Security team announced that websites that were not patched against Drupalgeddon 2 by the 11th of April may be considered as compromised.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/hackers-dont-give-site-owners-time-to-patch-start-exploiting-new-drupal-flaw-within-hours/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.drupal.org/sa-core-2018-004">
+            Read Drupal Security Advisory SA-CORE-2018-004
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Millions Of Hotel Room Keys Can Be Hacked</mj-text>
+          <mj-image src="https://fsecurebusiness2017.files.wordpress.com/2018/04/cards1.jpg?w=620&h=465"></mj-image>
+          <mj-text>F-Secure researchers Tomi Tuominen and Timo Hirvonen have found serious design flaws within Assa Abloy’s smart lock system Vision by Vingcard, used in a massive number of hotels and other institutions around the world. When exploited, these issues allow a potential attacker to open any door within a facility that uses the lock system, and get access to its restricted areas.</mj-text>
+          <mj-text>The attack is simple: you need to get ahold of an electronic keycard that opens a lock within the target facility. Any key will work, active or inactive (think lost), whether it’s used to open a highly-secure room or a broom closet. The attacker can then use a small electronic device to generate a master key and open all the doors within the target facility. The system of the electronic device will not be released by F-Secure.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://business.f-secure.com/hotel-room-keys-can-be-hacked">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Europol Shuts Down World's Largest DDOS-for-Hire Service</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/04/25/WebStresser.png"></mj-image>
+          <mj-text>Europol officials have shut down WebStresser, a website where users could register and launch DDoS attacks after paying for a monthly plan, with prices starting as low as €15 ($18.25). The website, considered the largest DDoS-for-hire service online, had over 136,000 users at the time it was shut down. Europol said it had been responsible for over 4 million DDoS attacks in recent years.</mj-text>
+          <mj-text>Besides shutting down the website's server infrastructure, authorities said they also arrested the site's administrators, located in the United Kingdom, Croatia, Canada, and Serbia. Dutch and UK cops led the investigation and were responsible for tracking down administrators and their infrastructure. Cops seized WebStresser's server infrastructure located in the Netherlands, the US and Germany.</mj-text>
+          <mj-text>Not only did Europol arrest site administrators, but also they took "further measures" against the site's top users who have launched the most attacks in the recent years. Officials didn't reveal what these measures were but merely said the users were located in the Netherlands, Italy, Spain, Croatia, the United Kingdom, Australia, Canada and Hong Kong.</mj-text>
+          <mj-button mj-class="bg-purple" href="https://www.bleepingcomputer.com/news/security/europol-shuts-down-worlds-largest-ddos-for-hire-service/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+        <mj-section background-color="#fff">
+          <mj-column>
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://freedom-to-tinker.com/2018/04/18/no-boundaries-for-facebook-data-third-party-trackers-abuse-facebook-login/">How third-party trackers abuse Facebook Login to exfiltrate PII and track people</a></li>
+              <li><a class="lnk-orange" href="https://hackaday.com/2018/04/23/spoofing-cell-networks-with-a-usb-to-vga-adapter/">Spoofing Cell Networks with a USB to VGA adapter</a></li>
+              <li><a class="lnk-pink" href="https://keenlab.tencent.com/en/2018/04/23/A-bunch-of-Red-Pills-VMware-Escapes/">How "Keen Security Lab" exploited VMware during the Pwn2Own 2017 competiton #VMEscape</a></li>
+              <li><a class="lnk-green" href="https://kciredor.com/fuzzing-adobe-reader-for-exploitable-vulns-fun-not-profit.html">Fuzzing Adobe Reader for exploitable vulns</a></li>
+              <li><a class="lnk-orange" href="https://motherboard.vice.com/en_us/article/pax987/crowdfense-offers-3-million-for-iphone-android-hacks">Startup offers $3 Million to anyone who can hack the iPhone</a></li>
+              <li><a class="lnk-purple" href="https://blog.talosintelligence.com/2018/04/cryptomining-campaign-returns-coal-not-diamond.html">Cisco's Talos analysis of a cryptomining campaign</a></li>
+              <li><a class="lnk-blue" href="https://blog.talosintelligence.com/2018/04/gravityrat-two-year-evolution-of-apt.html">Cisco's Talos uncovering of a new piece of malware</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/hannob/snallygaster">Snallygaster, a tool to scan for secret files on HTTP servers</a></li>
+              <li><a class="lnk-pink" href="https://github.com/NetSPI/PowerUpSQL">PowerUpSQL, a PowerShell Toolkit for Attacking SQL Server</a></li>
+              <li><a class="lnk-green" href="https://github.com/Cyb3rWard0g/Invoke-ATTACKAPI">A PoweShell script to interact with MITRE's ATT&CK Framework</a></li>
+              <li><a class="lnk-orange" href="https://twitter.com/r00tbsd/status/989742476280803329">New Anti-VM trick discovered by a Cisco's Talos Analyst</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">ubsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
