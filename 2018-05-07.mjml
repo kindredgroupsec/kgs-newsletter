@@ -129,57 +129,14 @@
         </mj-column>
       </mj-section>
 
-
-      <!-- Green Articles -->
-      <mj-section background-color="#fff">
-        <mj-column>
-          <mj-spacer height="30px" />
-          <mj-text mj-class="green h2" align="center">DDoS-for-Hire Service Webstresser Dismantled</mj-text>
-          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2018/04/webstresser.png"></mj-image>
-          <mj-text>Authorities in the U.S., U.K. and the Netherlands on Tuesday took down popular online attack-for-hire service WebStresser.org and arrested its alleged administrators</mj-text>
-          <mj-text>Investigators say that prior to the takedown, the service had more than 136,000 registered users and was responsible for launching somewhere between four and six million attacks over the past three years.</mj-text>
-          <mj-button mj-class="bg-green" href="https://krebsonsecurity.com/2018/04/ddos-for-hire-service-webstresser-dismantled/">
-            Read More
-          </mj-button>
-        </mj-column>
-      </mj-section>
-
-      <!-- Featured (blue) Article -->
-      <mj-section background-color="#00a5de">
-        <mj-column>
-          <mj-text mj-class="white h2" align="center">Ethereum cryptocurrency wallets raided after Amazon’s internet domain service hijacked</mj-text>
-          <mj-image src="https://s3.amazonaws.com/influencive.com/wp-content/uploads/2017/03/14094843/ethereum-dan-fleyshman-branden-hampton.jpg"></mj-image>
-          <mj-text color="#fff">Online cryptocurrency website MyEtherWallet.com has confirmed that for a period of time yesterday some visitors could have been redirected to a phishing site designed to steal users’ credentials and – ultimately – empty their cryptocurrency wallets.</mj-text>
-          <mj-text color="#fff">According to reports, whoever was behind the attack may have successfully stolen approximately US $152,000 worth of Ethereum-based cryptocurrency. </mj-text>
-          <mj-text color="#fff">However, assuming that MyEtherWallet itself was at fault may be a mistake, as the website explained in its statement:</mj-text>
-          <mj-text color="#fff"><li>“This is not due to a lack of security on the [MyEtherWallet] platform. It is due to hackers finding vulnerabilities in public facing DNS servers.”</li></mj-text>
-          <mj-button background-color="#fff" mj-class="blue" href="http://feedproxy.google.com/~r/eset/blog/~3/ZqdnGXUPqGc/">
-            Read More
-          </mj-button>
-        </mj-column>
-      </mj-section>
-
       <mj-section background-color="#fff">
         <mj-column>
           <mj-spacer height="30px" />
           <mj-text mj-class="h2">Cutting room floor</mj-text>
           <mj-text>
             <ul>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2018/04/oracle-weblogic-rce-exploit.html"></a>Faulty Patch for Oracle WebLogic Flaw Opens Updated Servers to Hackers Again</li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2018/04/amazon-alexa-hacking-skill.html">Amazon Alexa Has Got Some Serious Skills - Spying on Users</a></li>
             </ul>
           </mj-text>
           <mj-spacer height="30px" />
@@ -192,15 +149,6 @@
               <li><a class="lnk-orange" href="https://www.bettercap.org/">bettercap is the Swiss army knife for network attacks and monitoring. </a></li>
               <li><a class="lnk-purple" href="https://github.com/volatilityfoundation/volatility">Volatility an advanced memory forensics framework</a></li>
               <li><a class="lnk-blue" href="https://github.com/UndeadSec/EvilURL">EvilURL generate unicode evil domains for IDN Homograph Attack and detect them.</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
             </ul>
           </mj-text>
         </mj-column>
