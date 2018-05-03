@@ -135,6 +135,7 @@
           <mj-text mj-class="h2">Cutting room floor</mj-text>
           <mj-text>
             <ul>
+              <li><a class="lnk-orange" href="https://www.cisecurity.org/advisory/a-vulnerability-in-7-zip-could-allow-for-arbitrary-code-execution_2018-049/">A Vulnerability in 7-Zip Could Allow for Arbitrary Code Execution</a></li>
               <li><a class="lnk-blue" href="https://thehackernews.com/2018/04/oracle-weblogic-rce-exploit.html"></a>Faulty Patch for Oracle WebLogic Flaw Opens Updated Servers to Hackers Again</li>
               <li><a class="lnk-pink" href="https://thehackernews.com/2018/04/amazon-alexa-hacking-skill.html">Amazon Alexa Has Got Some Serious Skills - Spying on Users</a></li>
 
