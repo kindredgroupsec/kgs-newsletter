@@ -1,0 +1,246 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 14/05/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/posts/2018/05/04/Dasan-GPON.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://i.imgur.com/kQIWprp.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border-right.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">14 May 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Vulnerabilities Affecting Over One Million Dasan GPON Routers Are Now Under Attack</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/05/04/Dasan-GPON.png"></mj-image>
+          <mj-text color="#fff">Two vulnerabilities affecting over one million routers, and disclosed earlier this week, are now under attack by botnet herders, who are trying to gather the vulnerable devices under their control. Exploitation of these two flaws started after on Monday, April 30, an anonymous researcher published details of the two vulnerabilities via the VPNMentor blog.</mj-text>
+          <mj-text color="#fff">His findings detail two flaws —an authentication bypass (CVE-2018-10561) and a remote code execution vulnerability (CVE-2018-10562). The most ludicrous of these two flaws is the first, which basically allows anyone to access the router's internal settings by appending the "?images" string to any URL, effectively giving anyone control over the router's configuration. By combining these two issues, the anonymous researcher said he was able to bypass authentication and execute code on vulnerable devices. A video by the VPNMentor crew summarizes the findings.</mj-text>
+          <mj-text color="#fff">Within just 10 days of the disclosure of two critical vulnerabilities in GPON router at least 5 botnet families have been found exploiting the flaws to build an army of million devices. Security researchers from Chinese-based cybersecurity firm Qihoo 360 Netlab have spotted 5 botnet families, including Mettle, Muhstik, Mirai, Hajime, and Satori, making use of the GPON exploit in the wild.</mj-text>
+          <mj-text color="#fff">Even if there is no official patch available, users can protect their devices by disabling remote administration and using a firewall to prevent outside access from the public Internet. Making these changes to your vulnerable router would restrict access to the local network only, within the range of your Wi-Fi network, effectively reducing the attack surface by eliminating remote attackers.</mj-text>
+          <mj-text color="#fff">If you are unsure about these settings, vpnMentor has done this job for you by providing an online "user-friendly" solution that automatically modifies your router settings on your behalf, keeping you away from remote attacks.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/vulnerabilities-affecting-over-one-million-dasan-gpon-routers-are-now-under-attack/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2018/05/botnet-malware-hacking.html">
+            5 Powerful Botnets Found Exploiting
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2018/05/protect-router-hacking.html">
+            Tool to Protect Dasan GPON Routers from Remote Hacking
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Password re-use is dangerous, what about stopping it with password-sharing?</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2018/05/shutterstock_545804782-compressor.jpg"></mj-image>
+          <mj-text>Two professors believe they have a way to stop password reuse, which is giving hackers access to more and more information every day. Their plan involves 20-50 of the biggest websites on the internet coordinating and forcing users to create different passwords for all of their sites.</mj-text>
+          <mj-text>The traditional solution is to implore users to set unique ones, preferably using a password manager. However, only a small minority pay any attention. But what if there were a way for websites to compare notes on whether a password (or similar password) has been set by a user elsewhere?</mj-text>
+          <mj-text>At the outline level it's easy: a server where the user is registering a new account – the requester – asks other sites (responders) whether that individual has used the same password with them. However, that has to be done in a way that protects those passwords (the sites can only say “yes” or “no”, without handing around a password); the sites also have to identify the right user; and the scheme would have to avoid imposing excessive overheads on authentication servers.</mj-text>
+          <mj-text>Their suggestion is the ‘private set-membership-test’ protocol, based on the seeming magic of homomorphic encryption invented by IBM a decade ago to process encrypted cloud data without needing to decrypt it first.</mj-text>
+          <mj-text>For identification, they reckon (probably correctly) that the vast majority of users rely on email addresses tied to a single domain from within this select group. As for security and privacy (the problem of querying sites without creating the potential for leakage), the principles of homomorphic encryption would take care of this, they say.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.theregister.co.uk/2018/05/07/blocking_password_reuse/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2018/05/09/could-this-be-the-end-of-password-re-use/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Firefox 60 Supports Enterprise-Friendly Policy Engine and Password-free login capabilities</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/u/986406/Software/Firefox/Firefox60/FirefoxNightlySensors.png"></mj-image>
+          <mj-text>The Mozilla Foundation released Firefox 60 earlier today. The highlights of this new Firefox version are support for a policy engine for deploying Firefox across enterprise environments, support for the WebAuthn passwordless authentication system, and the addition of sponsored stories (ads) for US users.</mj-text>
+          <mj-text>By far the biggest addition to Firefox 60 is the new Group Policy engine that allows system administrators in large corporate networks to deploy and control Firefox settings across an entire company via group policy objects. Other browsers like Chrome, Edge, and IE had a similar feature for years, and this was one of the most requested features in Firefox for a long time.</mj-text>
+          <mj-text>An emerging W3C standard called Web Authentication or WebAuthn, is enabled by default in Firefox 60 and is coming later this month to Chrome 67, and Microsoft Edge. It's also under consideration for Safari. By removing passwords, the WebAuthn API will make phishing attacks a lot harder and gives users more convenient authentication choices, including hardware security key dongles such as a YubiKey device, fingerprint readers on smartphones, or facial-recognition systems like the iPhone X's Face ID.</mj-text>
+          <mj-text>Firefox 60 also comes with support for same-site cookies, a mechanism that prevents malicious websites from requesting other sites' cookies. Mozilla engineers added support for this feature to improve both user privacy, but also as a way to prevent some types of cross-site request forgery (CSRF) attacks that relied on malicious sites faking actions on other sites by employing cookies they shouldn't have had access to.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/software/firefox-60-released-with-support-for-an-enterprise-friendly-policy-engine/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/firefox-60-lands-its-worlds-first-browser-to-give-you-password-free-logins-says-mozilla/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Orange Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="orange h2">Backdoored libraries are getting common, be careful what you use</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/05/09/Python-code.png"></mj-image>
+          <mj-text>The Node Package Manager (npm) team avoided a disaster recently when it discovered and blocked the distribution of a cleverly hidden backdoor mechanism inside a popular —albeit deprecated— JavaScript package. The actual backdoor mechanism was found in "getcookies," a relatively newly created npm package (JavaScript library) for working with browser cookies. The npm team —who analyzed this package earlier today after reports from the npm community— says "getcookies" contains a complex system for receiving commands from a remote attacker, who could target any JavaScript app that had incorporated this library. Back in August 2017, the same npm team removed 38 JavaScript npm packages that were caught stealing environment variables from infected projects.</mj-text>
+          <mj-text>Something similar happened on PyPI — Python Package Index — the official third-party software repository for the Python programming language. Back in September 2017, the Slovak National Security Office (NBU) found and reported ten malicious Python packages on PyPI, which were promptly removed.</mj-text>
+          <mj-text>Barely a week has passed from the last attempt to hide a backdoor in a code library, and we have a new case. This time around, the backdoor was found in a Python module. The module's name is SSH Decorator (ssh-decorate), developed by Israeli developer Uri Goren, a library for handling SSH connections from Python code. On Monday, another developer noticed that multiple recent versions of the SSH Decorate module contained code that collected users' SSH credentials and sent the data to a remote server. After having the issue brought to his attention, Goren said the backdoor was not intentional and was the result of a hack.</mj-text>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/backdoored-python-library-caught-stealing-ssh-credentials/">
+            Somebody Tried to Hide a Backdoor in a Popular JavaScript npm Package
+          </mj-button>
+          <mj-button mj-class="bg-orange" href="https://www.bleepingcomputer.com/news/security/somebody-tried-to-hide-a-backdoor-in-a-popular-javascript-npm-package/">
+            Backdoored Python Library Caught Stealing SSH Credentials
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Purple Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="purple h2">Github and Twitter accidentally recorded some plaintext passwords in their logs</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2017/03/29/GitHub.jpg"></mj-image>
+          <mj-text>In an email sent out last week, GitHub has warned a select number of users that a bug in its password reset functionality has recorded users' passwords in plaintext format inside the company's internal logs. The company says that the plaintext passwords have only been exposed to a small number of GitHub employees with access to those logs. No other GitHub users have seen users' plaintext passwords. GitHub says that normally, passwords are secure, as they are hashed with the bcrypt algorithm. The company blamed a bug for plaintext passwords ending up in its internal logs. Only users who've recently reset passwords were affected. GitHub said it discovered its error during a routine audit and made it clear its servers weren't hacked.</mj-text>
+          <mj-text>In June 2016, GitHub also sent out password reset emails to customers after an unknown actor tried to access GitHub accounts using passwords leaked online at the time, via the LinkedIn, Dropbox, MySpace, and the other mega breaches of 2016.</mj-text>
+          <mj-text>Twitter just asked all 300+ million users to reset their passwords, citing the exposure of user passwords via a bug that stored passwords in plain text — without protecting them with any sort of encryption technology that would mask a Twitter user’s true password. The social media giant says it has fixed the bug and that so far its investigation hasn’t turned up any signs of a breach or that anyone misused the information. But if you have a Twitter account, please change your account password now.</mj-text>
+          <mj-text>Agrawal explains that Twitter normally masks user passwords through a state-of-the-art encryption technology called “bcrypt,” which replaces the user’s password with a random set of numbers and letters that are stored in Twitter’s system. Due to a bug, passwords were written to an internal log before completing the hashing process,” he continued. “We found this error ourselves, removed the passwords, and are implementing plans to prevent this bug from happening again</mj-text>
+          <mj-button mj-class="bg-purple" href="https://www.bleepingcomputer.com/news/security/github-accidentally-recorded-some-plaintext-passwords-in-its-internal-logs/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-purple" href="https://krebsonsecurity.com/2018/05/twitter-to-all-users-change-your-password-now/">
+            Twitter admits to password storage blunder
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/windows-cli-apps-vulnerable-to-new-ctrl-inject-process-injection-attack/">Windows CLI Apps Vulnerable to New Ctrl-Inject Process Injection Attack</a></li>
+              <li><a class="lnk-pink" href="https://www.csoonline.com/article/2122505/it-careers/what-is-a-chief-security-officer.html">What is a Chief Security Officer? Understanding this critical role</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2018/05/09/critical-bug-in-7-zip-make-sure-youre-up-to-date/">Critical bug in 7-Zip – make sure you’re up to date!</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2018/05/microsoft-patch-tuesday-may-2018-edition/">Microsoft Patch Tuesday, May 2018 Edition</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/security-pros-get-ready-to-patch-for-8-new-spectre-related-vulnerabilities-soon/">Security pros: Get ready to patch for 8 new Spectre-related vulnerabilities soon</a></li>
+              <li><a class="lnk-pink" href="https://www.hackread.com/abbott-vulnerability-icds-pacemakers/">Abbott to fix critical vulnerabilities in 350,000 ICDs & Pacemakers</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2018/05/rowhammer-android-hacking.html">GLitch: New 'Rowhammer' Attack Can Remotely Hijack Android Phones</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/new-service-blocks-eu-users-so-companies-can-save-thousands-on-gdpr-compliance/">New Service Blocks EU Users So Companies Can Save Thousands on GDPR Compliance</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/amazon-introduces-aws-security-specialty-certification-exam">Amazon Introduces AWS Security Specialty Certification Exam</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/facebooks-phishing-detection-tool-now-recognizes-homograph-attacks/">Facebook's Phishing Detection Tool Now Recognizes Homograph Attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/phishing-alert-gdpr-themed-scam-wants-you-to-hand-over-passwords-credit-card-details/">Phishing alert: GDPR-themed scam wants you to hand over passwords, credit card details</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2018/05/windows-docker-containers.html">Microsoft Issues Emergency Patch For Critical Flaw In Windows Containers</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/australian-bank-lost-data-for-198-million-accounts-a-10967">Australian Bank Lost Data for 19.8 Million Accounts</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/cloud/amazon-follows-google-in-banning-domain-fronting/">Amazon Follows Google in Banning "Domain Fronting"</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.hackread.com/download-kali-linux-2018-2-with-new-security-features/">Download Kali Linux 2018.2 with new security features</a></li>
+              <li><a class="lnk-pink" href="https://digital-forensics.sans.org/media/Poster_Windows_Forensics_2018_WEB.pdf">SANS Poster - Windows Forensic Analysis</a></li>
+              <li><a class="lnk-green" href="https://github.com/f3d0x0/GPON">Python Exploit for Remote Code Execution on GPON home routers (CVE-2018-10562)</a></li>
+              <li><a class="lnk-orange" href="https://charles.dardaman.com/js_coinhive_in_excel">Javascript CoinHive in Excel</a></li>
+              <li><a class="lnk-purple" href="https://www.threat9.com/blog.html">RouterSploit 3.0: Exploitation framework for embedded devices</a></li>
+              <li><a class="lnk-blue" href="https://github.com/0x00-0x00/ShellPop">ShellPop: Pop shells like a master.</a></li>
+              <li><a class="lnk-pink" href="https://vincentyiu.co.uk/host-header-manipulation/">Domain Fronting and Host header obfuscation</a></li>
+              <li><a class="lnk-green" href="https://github.com/initstring/passphrase-wordlist">Passphrase wordlist and hashcat rules for offline cracking of long, complex passwords</a></li>
+              <li><a class="lnk-orange" href="https://0xpatrik.com/project-sonar-guide/">Project Sonar: An Underrated Source of Internet-wide Data</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="http://www.kindredgroup.com/wp-content/themes/kindred/img/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">ubsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
