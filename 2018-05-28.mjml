@@ -1,0 +1,196 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - DD/MM/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="http://i.imgur.com/kQIWprp.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">28 May 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">VPNFilter: FBI Seizes botnet army of 500,000 hacked routers</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-qE4JVnZK6IQ/WwWOd1JKaiI/AAAAAAAAwyA/pr8kyWQawIEBJ56oPUJmDOG3Wwbrd65iQCLcBGAs/s728-e7/router-hacking.png"></mj-image>
+          <mj-text color="#fff">More than half a million routers and storage devices in dozens of countries have been infected with a piece of highly sophisticated IoT botnet malware, likely designed by Russia-baked state-sponsored group. Cisco's Talos cyber intelligence unit have discovered an advanced piece of IoT botnet malware, dubbed VPNFilter, that has been designed with versatile capabilities to gather intelligence, interfere with internet communications, as well as conduct destructive cyber attack operations.</mj-text>
+          <mj-text color="#fff">VPNFilter is a multi-stage, modular malware that can steal website credentials and monitor industrial controls or SCADA systems, such as those used in electric grids, other infrastructure and factories. The malware communicates over Tor anonymizing network and even contains a killswitch for routers, where the malware deliberately kills itself.</mj-text>
+          <mj-text color="#fff">The US Federal Bureau of Investigation (FBI) has obtained court orders and has taken control of the command and control servers of a massive botnet of over 500,000 devices, known as the VPNFilter botnet. The FBI confirmed that the botnet has been created and was under the control of a famous Russian cyber-espionage unit known under different names, such as APT28, Sednit, Fancy Bear, Pawn Storm, Sofacy, Grizzly Steppe, STRONTIUM, Tsar Team, and others. A report authored by the Estonian Foreign Intelligence Service claims APT28 is a unit of the Russian Military's Main Intelligence Directorate (abbreviated GRU). With the domain firmly in its grasp, the FBI is now asking users across the world who own affected routers and NAS devices to reset their equipment.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2018/05/vpnfilter-router-hacking.html">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/fbi-takes-control-of-apt28s-vpnfilter-botnet/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">SpectreNG: Google and Microsoft Reveal New Spectre Attack</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/05/21/SpectreNG.png"></mj-image>
+          <mj-text>Security researchers from Google and Microsoft have found two new variants of the Spectre attack that affects processors made by AMD, ARM, IBM, and Intel. AMD, ARM, IBM, Intel, Microsoft, Red Hat and Ubuntu have published security advisories at the time of writing, containing explanations of how the bugs work, along with mitigation advice.</mj-text>
+          <mj-text>The bugs —referred to in the past weeks as SpectreNG— are related to the previous Meltdown and Spectre bugs discovered last year and announced at the start of 2018. Both Google and Microsoft researchers discovered the bug independently. The bugs work similarly to the Meltdown and Spectre bugs, a reason why they were classified as "variant 3a" and "variant 4" instead of separate vulnerabilities altogether.</mj-text>
+          <mj-text>The researchers also claims that one of the vulnerabilities is much more dangerous than the original Spectre. In theory, attackers could launch exploit code from within a virtual machine, which could then attack the host or other VMs. Unfortunately, these attacks could even sidestep Intel's Software Guard Extensions (SGX), which are designed to protect the most sensitive passwords and encryption keys.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/google-and-microsoft-reveal-new-spectre-attack/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.tomshardware.com/news/spectre-ng-vulnerabilities-intel-arm-amd,37002.html">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">GDPR: Request your personal data from 100+ companies.</mj-text>
+          <mj-image src="https://imgur.com/LE7gwSu.png"></mj-image>
+          <mj-text>Hundreds of companies store & process information about you. In many cases, you're entitled to this data, as well as information on how it's being used & shared. MyDataRequest.com read these companies' privacy policies to figure out how you can get this data about you.</mj-text>
+          <mj-text>Depending on where you live, you may be subject to certain regulations that entitle you to access certain types of personal data. You can use their templates to make these requests.</mj-text>
+          <mj-text>In the EU: People in the EU can access personal data based on the EU Data Protection Directive. These rights will be extended by the General Data Protection Regulation (GDPR) that came into effect on May 25, 2018.</mj-text>
+          <mj-button mj-class="bg-green" href="https://mydatarequest.com/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/backdoor-account-found-in-d-link-dir-620-routers/">Backdoor Account Found in D-Link DIR-620 Routers</a></li>
+              <li><a class="lnk-pink" href="http://money.cnn.com/2018/05/22/technology/amazon-surveillance-technology-aclu-letter/index.html">Amazon asked to stop selling facial recognition technology to police</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/tips/web-browsers/google-chrome-has-a-built-in-password-generator-heres-how-to-use-it/">Google Chrome Has a Built-In Password Generator. Here's how to use it!</a></li>
+              <li><a class="lnk-orange" href="https://doublepulsar.com/hijack-of-amazons-internet-domain-service-used-to-reroute-web-traffic-for-two-hours-unnoticed-3a6f0dda6a6f">Hijack of Amazon’s internet domain service used to reroute web traffic for two hours unnoticed</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-to-block-flash-in-office-365/">Microsoft to Block Flash in Office 365</a></li>
+              <li><a class="lnk-blue" href="https://techcrunch.com/2018/05/21/comcast-is-leaking-the-names-and-passwords-of-customers-wireless-routers/">Comcast is (update: was) leaking the names and passwords of customers’ wireless routers</a></li>
+              <li><a class="lnk-pink" href="https://sunder.readthedocs.io/en/latest/index.html">Sunder: User-friendly graphical interface for cryptographic secret sharing.</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/data-of-over-200-million-japanese-sold-on-underground-hacking-forum/">Data of Over 200 Million Japanese Sold on Underground Hacking Forum</a></li>
+              <li><a class="lnk-orange" href="https://scotthelme.co.uk/ct-is-coming/">CT is coming, are you ready?</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/gpon-routers-attacked-with-new-zero-day/">GPON Routers Attacked With New Zero-Day</a></li>
+              <li><a class="lnk-blue" href="https://www.theregister.co.uk/2018/05/25/electron_patches_blacklist_error/">Electron patches patch after security researcher bypassed said patch</a></li>
+              <li><a class="lnk-pink" href="http://www.infosecisland.com/blogview/25068-The-AWS-Bucket-List-for-Security.html">The AWS Bucket List for Security</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/brain-food-botnet-infected-5000-websites-with-malicious-php-scripts-in-past-4-months/">Brain Food botnet infected 5,000+ websites with malicious PHP scripts in past 4 months</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/software/firefox-63-to-get-improved-tracking-protection-that-blocks-in-browser-miners/">Firefox 63 to Get Improved Tracking Protection That Blocks In-Browser Miners</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/microsoft-enclavedb-can-defend-against-malicious-database-admins-compromised-os/">Microsoft EnclaveDB can defend against malicious database admins, compromised OS</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.mathyvanhoef.com/2018/03/wpa3-technical-details.html">WPA3: Technical Details and Discussion</a></li>
+              <li><a class="lnk-pink" href="https://blogs.technet.microsoft.com/srd/2018/05/21/analysis-and-mitigation-of-speculative-store-bypass-cve-2018-3639/">Analysis and mitigation of speculative store bypass (CVE-2018-3639)</a></li>
+              <li><a class="lnk-green" href="https://insights.sei.cmu.edu/cert/2018/05/announcing-cert-tapioca-20-for-network-traffic-analysis.html"> Announcing CERT Tapioca 2.0 for Network Traffic Analysis</a></li>
+              <li><a class="lnk-orange" href="https://mksben.l0.cm/2018/05/cve-2018-5175-firefox-csp-strict-dynamic-bypass.html">CVE-2018-5175: Universal CSP strict-dynamic bypass in Firefox</a></li>
+              <li><a class="lnk-purple" href="https://justi.cz/security/2018/05/23/cdn-tar-oops.html">Compromising Thousands of Websites Through a CDN</a></li>
+              <li><a class="lnk-blue" href="https://blog.jli.host/posts/cloudflare-scrape-shield/">An Analysis of Cloudflare's Email Address Obfuscation</a></li>
+              <li><a class="lnk-pink" href="http://niiconsulting.com/checkmate/2018/05/kerberoasting-exploiting-unpatched-systems-a-day-in-the-life-of-a-red-teamer/">Kerberoasting, exploiting unpatched systems – a day in the life of a Red Teamer</a></li>
+              <li><a class="lnk-green" href="URL">CobaltSplunk: Use Splunk as a central log database and analysis system for offensive infrastructure logs. </a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
