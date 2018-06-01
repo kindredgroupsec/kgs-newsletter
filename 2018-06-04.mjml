@@ -1,0 +1,188 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 04/06/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/we-need-you.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">4 June 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-cor0358/4749/description/" class="lnk-yellow" target="_blank">Cybersecurity team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-cor0353/4712/description/" class="lnk-yellow" target="_blank">SOC analyst position</a></li>
+                <li>You're into identity and access management? We are looking for an <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-iam-cor0352/4711/description/" class="lnk-yellow" target="_blank">IAM Specialist</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-cor0351/4710/description/" class="lnk-yellow" target="_blank">InfoSec team</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. You can always find our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a></mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Git users: Update now to avoid massive remote code execution flaw</mj-text>
+          <mj-image src="https://tr2.cbsistatic.com/hub/i/r/2017/10/31/af72d5e4-2f4c-48b5-954c-e4fa24fb0a97/resize/770x/898a67b34423a4fcc6cf43be113170f7/git-logo.jpg"></mj-image>
+          <mj-text color="#fff">A recently revealed flaw in Git could allow an attacker to execute arbitrary remote code by infecting a Git project. The exploit, assigned a Common Vulnerabilities and Exposures (CVE) number of CVE-2018-11235, is triggered when users recursively clone repositories that contain a malicious .gitmodules file. The exploit essentially functions like a directory traversal attack that uses .gitmodules files as its starting point.</mj-text>
+          <mj-text color="#fff">Git is a popular version control platform for software development that simplifies change tracking and collaboration. Git repositories can be hosted locally, or platforms like GitHub can be used to store code in the cloud.</mj-text>
+          <mj-text color="#fff">The exploit, according to the NIST National Vulnerability Database, affects all versions of Git "before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 2.16.4, and 2.17.x before 2.17.1.". </mj-text>
+          <mj-text color="#fff">There isn't much action for users or administrators to take to solve this issue outside of updating their Git platforms as soon as a new version is published. Don't wait on this fix—the alternative could be devastating. But patches aren't only rolled out to Git clients. A fix is also included for Git's server-side component.</mj-text>
+
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.techrepublic.com/article/git-users-update-now-to-avoid-massive-remote-code-execution-flaw/">
+            Even More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://portswigger.net/daily-swig/git-users-urged-to-update-following-rce-flaw-discovery">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">MnuBot Banking Trojan Tries to Hide Behind MSSQL Traffic</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/05/29/MnuBot-image.png"></mj-image>
+          <mj-text>Security researchers have spotted a new banking trojan named MnuBot that uses some atypical tricks to avoid easy detection on compromised hosts. Discovered by the IBM security team, this trojan is written in Delphi, and its author is currently spreading it to Brazilian targets only. But while most Delphi-based malware is generally considered as unsophisticated, MnuBot got the IBM team's interest due to an odd trick it used to disguise its traffic.</mj-text>
+          <mj-text>According to Jonathan Lusky, a malware researcher for IBM Security's Trusteer's group, this new banking trojan is controlled by crooks via a remote Microsoft SQL (MSSQL) database. All communications between the malware and its C&C server occurs as SQL traffic. This includes queries for new commands, and the commands themselves.</mj-text>
+          <mj-text>Like many other malware families in the region, MnuBot uses a full-screen overlay form to assist the attacker to commit the fraud. Overlaying forms are used to prevent the victims from accessing their open banking session inside the browser. Those forms are a type of social engineering to keep the user waiting. In the background, the cybercriminal takes control over the user endpoint and attempts to perform an illegal transaction via the victim’s open banking session.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/mnubot-banking-trojan-tries-to-hide-behind-seemingly-innocent-mssql-traffic/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://securityintelligence.com/new-banking-trojan-mnubot-discovered-by-ibm-x-force-research/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/your-logo-and-branded-vulnerability-arent-helping-how-to-disclose-better/">Your logo and branded vulnerability aren't helping: How to disclose better</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/technology/ghostery-tries-to-comply-with-gdpr-but-ends-up-violating-gdpr-in-the-process/">Ghostery Tries to Comply With GDPR, but Ends Up Violating GDPR in the Process</a></li>
+              <li><a class="lnk-green" href="https://www.csoonline.com/article/3276660/security/what-is-shodan-the-search-engine-for-everything-on-the-internet.amp.html">What is Shodan? The search engine for everything on the internet</a></li>
+              <li><a class="lnk-orange" href="http://www.infosecisland.com/blogview/25073-Valve-Patches-10-Year-Old-Flaw-in-Steam-Client.html">Valve Patches 10-Year Old Flaw in Steam Client</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/gdpr-vs-eprivacy-the-3-differences-you-need-to-know/">GDPR vs. ePrivacy: The 3 differences you need to know</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/http-parameter-pollution-leads-recaptcha-bypass">HTTP Parameter Pollution Leads to reCAPTCHA Bypass</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/remote-code-execution-vulnerability-disclosed-in-windows-jscript-component/">Remote Code Execution Vulnerability Disclosed in Windows JScript Component</a></li>
+              <li><a class="lnk-green" href="https://www.hackread.com/hundreds-of-android-devices-shipped-with-pre-installed-malware/">Hundreds of Android devices shipped with pre-installed malware</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/coca-cola-suffers-breach-at-the-hands-of-former-employee/">Coca-Cola Suffers Breach at the Hands of Former Employee</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://ivre.rocks/">IVRE: Open-source framework for network recon.</a></li>
+              <li><a class="lnk-pink" href="https://www.passprotect.io/">PassProtect: Stop using bad passwords.</a></li>
+              <li><a class="lnk-green" href="https://www.evonide.com/side-channel-attacking-browsers-through-css3-features/">Side-channel attacking browsers through CSS3 features</a></li>
+              <li><a class="lnk-orange" href="https://aws.amazon.com/blogs/security/how-to-rotate-your-twitter-api-key-and-bearer-token-automatically-with-aws-secrets-manager/">How to rotate your Twitter API key and bearer token automatically with AWS Secrets Manager</a></li>
+              <li><a class="lnk-purple" href="https://www.contextis.com/blog/frag-grenade-a-remote-code-execution-vulnerability-in-the-steam-client">SteamClient RCE details</a></li>
+              <li><a class="lnk-blue" href="https://www.welivesecurity.com/2018/05/25/backswap-malware-empty-bank-accounts/">BackSwap malware finds innovative ways to empty bank accounts</a></li>
+              <li><a class="lnk-pink" href="https://blogs.securiteam.com/index.php/archives/3689">QRadar Remote Command Execution</a></li>
+              <li><a class="lnk-green" href="https://andresriancho.com/recaptcha-bypass-via-http-parameter-pollution/">ReCaptcha Bypass by HTTP parameter pollution</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
