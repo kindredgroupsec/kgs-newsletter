@@ -90,12 +90,12 @@
           <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
           <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
             <ul>
-                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-cor0358/4749/description/" class="lnk-yellow" target="_blank">Cybersecurity team</a></li>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-cor0358/4749/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
                 <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-cor0353/4712/description/" class="lnk-yellow" target="_blank">SOC analyst position</a></li>
                 <li>You're into identity and access management? We are looking for an <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-iam-cor0352/4711/description/" class="lnk-yellow" target="_blank">IAM Specialist</a></li>
                 <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-cor0351/4710/description/" class="lnk-yellow" target="_blank">InfoSec team</a></li>
             </ul>
-            Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. You can always find our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a></mj-text>
+            Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
         </mj-column>
       </mj-section>
 
