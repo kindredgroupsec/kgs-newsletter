@@ -1,0 +1,216 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 11/06/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-aaNy3zivP4s/Wxj55IVo32I/AAAAAAAAw-w/p67ml_9Vq6QK2djHcUYagm93t2v-5pezQCLcBGAs/s728-e100/prowli-malware-min.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">11 June 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Prowli Malware Operation Infected Over 40,000 Servers, Modems, and IoT Devices</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-aaNy3zivP4s/Wxj55IVo32I/AAAAAAAAw-w/p67ml_9Vq6QK2djHcUYagm93t2v-5pezQCLcBGAs/s728-e100/prowli-malware-min.png"></mj-image>
+          <mj-text color="#fff">After the discovery of massive VPNFilter malware botnet, security researchers have now uncovered another giant botnet that has already compromised more than 40,000 servers, modems and internet-connected devices belonging to a wide number of organizations across the world. Named Prowli and discovered by the GuardiCore security team, this botnet is a diverse operation that relies on vulnerabilities and credentials brute-force attacks to infect and take over devices.</mj-text>
+          <mj-text color="#fff">Since the attackers behind the Prowli attack are abusing the infected devices and websites to mine cryptocurrency or run a script that redirects them to malicious websites, researchers believe they are more focused on making money rather than ideology or espionage.</mj-text>
+          <mj-text color="#fff">Besides cryptocurrency miner, attackers are also using a well known open source webshell called "WSO Web Shell" to modify the compromised servers, eventually allowing attackers to redirect visitors of websites to fake sites distributing malicious browser extensions.</mj-text>
+          <mj-text color="#fff">Since the attackers are using a mix of known vulnerabilities and credential guessing to compromise devices, users should make sure their systems are patched and up to date and always use strong passwords for their devices. Moreover, users should also consider locking down systems and segmenting vulnerable or hard to secure systems, in order to separate them from the rest of their network.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/prowli-malware-operation-infected-over-40-000-servers-modems-and-iot-devices/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2018/06/prowli-malware-botnet.html">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">ZipSlip: How poisoned archives can hack your computer</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-k6ynb2rBRY8/Wxa1nJQ1x5I/AAAAAAAAw8s/Ec5_s5i2wwYZV9c3EN9W5JGcUJlk7GLvACLcBGAs/s728-e100/zipslip-vulnerability.png"></mj-image>
+          <mj-text>Booby-trapped archive files can exploit vulnerabilities in a swath of software to overwrite documents and data elsewhere on a computer's file system – and potentially execute malicious code. Specifically, the flaws, dubbed "Zip Slip" by its discoverers at security outfit Snyk, are path traversals that can potentially be exploited to perform arbitrary code execution attacks. It affects certain tools that handle .zip, .tar, .war, .cpio, and .7z formats.</mj-text>
+          <mj-text>Thousands of projects written in various programming languages including JavaScript, Ruby, Java, .NET and Go—from Google, Oracle, IBM, Apache, Amazon, Spring/Pivotal, Linkedin, Twitter, Alibaba, Eclipse, OWASP, ElasticSearch, JetBrains and more—contained vulnerable codes and libraries.</mj-text>
+          <mj-text>Using this Zip Slip attack an attacker can even overwrite legitimate executable files or configuration files for an application to trick the targeted system or the user into running it, "thus achieving remote command execution on the victim's machine," the company explains. Team Snyk said any developer who uses one of the vulnerable libraries should update their code to use the latest patched version, where available, and make sure users are updated, too – and also check their own code to make sure file names and paths are validated before extraction.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.theregister.co.uk/2018/06/05/zip_slip_bug_archives/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2018/06/zipslip-vulnerability.html">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">​VPNFilter malware now targeting Asus, D-Link, Huawei, ZTE devices</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/06/06/VPNFilter-logo.png"></mj-image>
+          <mj-text>The new strain of malware known as VPNFilter is targeting more makes and models of devices and boasting additional capabilities, including the ability to deliver exploits to endpoints and override reboots, Cisco Talos has reported. Originally, Talos found VPNFilter had infected at least 500,000 networking devices, mainly consumer-grade internet routers, across 54 countries.</mj-text>
+          <mj-text>According to new research technical details published today by the Cisco Talos security team, the malware —which was initially thought to be able to infect devices from Linksys, MikroTik, Netgear, TP-Link, and QNAP— can also infect routers made by ASUS, D-Link, Huawei, Ubiquiti, UPVEL, and ZTE. The list of devices vulnerable to VPNFilter has seen a sharp jump from Cisco's original report, going from 16 device models to 71 —and possibly more.</mj-text>
+          <mj-text>In addition to adding new devices to the list, Talos said it discovered a new stage 3 module -- named "ssler" -- that injects malicious content into web traffic as it passes through a network device, which allows the actor to deliver exploits to endpoints via a man-in-the-middle capability. Despite the FBI urging small businesses and households to immediately reboot routers following initial reports from Talos, it won't prevent the threat; even after a reboot, ssler renders the malware capable of maintaining a persistent presence on an infected device.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/vpnfilter-malware-now-targeting-asus-d-link-huawei-zte/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/vpnfilter-can-also-infect-asus-d-link-huawei-ubiquiti-upvel-and-zte-devices/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/jira-bug-exposed-private-server-keys-at-major-companies-researcher-finds/">Jira bug exposed private server keys at major companies, researcher finds</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/cisco-fixes-critical-bug-that-exposed-networks-to-hackers/">Cisco fixes 9.8 CVSS critical bug in ACS that exposed networks to hackers</a></li>
+              <li><a class="lnk-green" href="https://www.digitalshadows.com/blog-and-research/threats-to-the-2018-football-world-cup/">Threats to the 2018 Football World Cup: Traditional Rules or a New Style of Play?</a></li>
+              <li><a class="lnk-orange" href="https://www.theregister.co.uk/2018/06/07/wannacry_reverse_engine_marcus_hutchins_hit_with_fresh_charges/">WannaCry reverse-engineer Marcus Hutchins hit with fresh charges</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/ticketfly-cyberattack-exposed-data-belonging-to-27-million-accounts/">Ticketfly cyberattack exposed data belonging to 27 million accounts</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2018/06/google-chrome-csp.html">Update Google Chrome: High Severity CSP Bypass Vulnerability</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/facebook-bug-caused-new-posts-by-14-million-users-to-be-shared-publicly/">Facebook Bug Caused New Posts by 14 Million Users to be Shared Publicly</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/geneology-service-myheritage-leaked-92-million-credentials-a-11059">Geneology Service MyHeritage Leaked 92 Million Credentials</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2018/06/adobe-patches-zero-day-flash-flaw/">Adobe Patches Zero-Day Flash Flaw</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/lol-babayaga-wordpress-malware-updates-your-site/">BabaYaga WordPress Malware Updates Your Site</a></li>
+              <li><a class="lnk-blue" href="https://www.hackread.com/misconfigured-google-groups-settings-leaking-data/">Misconfigured Google Groups Settings Leaking Sensitive Data</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2018/06/redis-server-hacking.html">75% of the 'Left to Get Hacked' Redis Servers Found Infected</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2018/06/apple-macos-mojave.html">All New Privacy and Security Features Coming in macOS 10.14 Mojave</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/mirai-variants-continue-spawn-vulnerable-iot-ecosystem">Mirai Variants Continue to Spawn in Vulnerable IoT Ecosystem</a></li>
+              <li><a class="lnk-purple" href="https://blog.cloudflare.com/welcome-hidden-resolver/">Introducing DNS Resolver for Tor</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/drupalgeddon-2-wreaking-havoc-on-900-sites-because-it-still-hasnt-applied-updates/">Drupalgeddon 2 wreaking havoc on 900+ sites because IT still hasn't applied updates</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/sofacy-apt-has-subtly-changed-tactics/">Sofacy APT Has Subtly Changed Tactics</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/toniblyx/prowler">Prowler: AWS Security Best Practices Assessment, Auditing, Hardening and Forensics Readiness Tool</a></li>
+              <li><a class="lnk-pink" href="https://www.icebrg.io/blog/adobe-flash-zero-day-targeted-attack">Adobe Flash Zero-day leveraged for targeted attack in the middle east</a></li>
+              <li><a class="lnk-green" href="https://marc.info/?l=openbsd-cvs&m=152824407931917&w=2">Adding RetGuard to clang for OpenBSD</a></li>
+              <li><a class="lnk-orange" href="https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/">A cartoon intro to DNS over HTTPS</a></li>
+              <li><a class="lnk-purple" href="https://blog.ret2.io/2018/06/05/pwn2own-2018-exploit-development/">A Methodical Approach to Browser Exploitation</a></li>
+              <li><a class="lnk-blue" href="https://thehackerblog.com/reading-your-emails-with-a-readwrite-chrome-extension-same-origin-policy-bypass-8-million-users-affected/index.html">Reading Your Emails With A Read&Write Chrome Extension Same Origin Policy Bypass (~8 Million Users Affected)</a></li>
+              <li><a class="lnk-pink" href="https://github.com/P3GLEG/WhaleTail">WhaleTail: Reverse Docker images into Dockerfiles</a></li>
+              <li><a class="lnk-green" href="https://snyk.io/research/zip-slip-vulnerability">ZipSlip vulnerability: Technical details</a></li>
+              <li><a class="lnk-orange" href="https://github.com/trimstray/otseca">OTSECA: Open source security auditing tool to search and dump system configuration.</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-cor0358/4749/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-cor0353/4712/description/" class="lnk-yellow" target="_blank">SOC analyst position</a></li>
+                <li>You're into identity and access management? We are looking for an <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-iam-cor0352/4711/description/" class="lnk-yellow" target="_blank">IAM Specialist</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-cor0351/4710/description/" class="lnk-yellow" target="_blank">InfoSec team</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
