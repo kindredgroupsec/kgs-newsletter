@@ -1,0 +1,189 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 18/06/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/hl-images/2017/08/28/Intel.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">18 June 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">New 'Lazy FP State Restore' Vulnerability Found in All Modern Intel CPUs</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2017/08/28/Intel.png"></mj-image>
+          <mj-text color="#fff">Another security vulnerability has been discovered in Intel chips that affects the processor's speculative execution technology—like Specter and Meltdown—and could potentially be exploited to access sensitive information, including encryption related data. Dubbed Lazy FP State Restore, the vulnerability (CVE-2018-3665) within Intel Core and Xeon processors has just been confirmed by Intel, and vendors are now rushing to roll out security updates in order to fix the flaw and keep their customers protected.</mj-text>
+          <mj-text color="#fff">As the name suggests, the flaw leverages a system performance optimization feature, called Lazy FP state restore, embedded in modern processors, which is responsible for saving or restoring the FPU state of each running application 'lazily' when switching from one application to another, instead of doing it 'eagerly.'</mj-text>
+          <mj-text color="#fff">However, it should be noted that, unlike Spectre and Meltdown, the latest vulnerability does not reside in the hardware. So, the flaw can be fixed by pushing patches for various operating systems without requiring new CPU microcodes from Intel. According to Intel, since the flaw is similar to Spectre Variant 3A (Rogue System Register Read), many operating systems and hypervisor software have already addressed it. AMD processors are not affected by this issue.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2018/06/intel-processor-vulnerability.html">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180016">
+            Microsoft Security Advisory
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Football app tracks illegal broadcasts using your microphone and GPS</mj-text>
+          <mj-image src="https://i.kinja-img.com/gawker-media/image/upload/s--0l0-O1Ux--/c_scale,f_auto,fl_progressive,q_80,w_800/q3rwjtor9cie5owol4ok.jpg"></mj-image>
+          <mj-text>The organization behind Spain’s top-flight soccer league known as La Liga has added a functionality to its official Android app that enables it to identify bars, restaurants and other public venues that broadcast soccer games illegally. It has turned out that, after being downloaded or updated, the app asks the user for permission to access their smartphone’s microphone and geolocation service (GPS).</mj-text>
+          <mj-text>If the user grants their permission, La Liga receives the ability to activate the phone’s microphone remotely in order to record audio clips of the handset’s surroundings. In doing so, the app seeks to ascertain if the captured sound corresponds to that of the broadcast of a soccer game. At the same time, by turning on the phone’s geolocation service it can pinpoint the location of the place where the recording was made and, thus, identify the establishment that may be showing the game without a license.</mj-text>
+          <mj-text>La Liga’s governing body, LFP, said in its statement on Monday that the functionality was added to its Android app only in the June 8 update with the sole aim of cracking down on unauthorized broadcasts of soccer games within Spain. La Liga says that unlicensed broadcasts of soccer games in bars and restaurants cost Spanish soccer €150 million (US$176 million) in lost revenues each year.</mj-text>
+          <mj-text>In an effort to further ease privacy concerns, La Liga said that it doesn’t access the captured audio snippet, as the snippet is instead automatically converted into a binary code on the device itself. The code is then compared to a reference database and, if there’s no match between the two, the former code is discarded. The organization stressed that there is no way to turn the code back into the actual content of the recording.</mj-text>
+          <mj-button mj-class="bg-green" href="https://nakedsecurity.sophos.com/2018/06/15/football-app-tracks-illegal-broadcasts-using-your-microphone-and-gps/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.welivesecurity.com/2018/06/12/spains-la-liga-app-phones-detect-illegal/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/government/kaspersky-halts-europol-and-nomoreransom-project-coop-after-eu-parliament-vote/">Kaspersky Halts Europol and NoMoreRansom Project Coop After EU Parliament Vote</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2018/06/microsoft-patch-tuesday-june-2018-edition/">Microsoft Patch Tuesday, June 2018 Edition</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-explains-whether-a-vulnerability-turns-into-a-windows-security-update/">Microsoft Explains Whether a Vulnerability Turns Into a Windows Security Update</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2018/06/13/6-million-cards-compromised-in-dixons-carphone-beach-act-now/">6 million cards compromised in Dixons Carphone breach</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/17-backdoored-docker-images-removed-from-docker-hub/">17 Backdoored Docker Images Removed From Docker Hub</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2018/06/12/the-google-pixelbook-power-button-is-now-a-2fa-token/">The Google Pixelbook power button is now a 2FA token</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/europol-dismantles-one-of-the-internets-oldest-hacker-groups/">Europol Dismantles One of the Internet's Oldest Hacker Groups</a></li>
+              <li><a class="lnk-green" href="https://blog.360totalsecurity.com/en/new-cryptominer-hijacks-your-bitcoin-transaction-over-300000-computers-have-been-attacked/">Clipboard Hijacker Targeting Bitcoin & Ethereum Users</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/cortana-hack-lets-you-change-passwords-on-locked-pcs/">Cortana Hack Lets You Change Passwords on Locked PCs</a></li>
+              <li><a class="lnk-purple" href="https://heimdalsecurity.com/blog/security-podcasts/">The Best English Security Podcasts in 2018</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/mobile/android-app-devs-find-clever-trick-for-fooling-users-into-installing-their-crapware/">Android App Devs Find Clever Trick for Fooling Users Into Installing Their Crapware</a></li>
+              <li><a class="lnk-pink" href="https://www.darkreading.com/containerized-apps-an-8-point-security-checklist/d/d-id/1332045">Containerized Apps: An 8-Point Security Checklist</a></li>
+              <li><a class="lnk-green" href="https://www.hackread.com/chinese-hackers-data-center-watering-hole-attack/">Chinese hackers attack National Data Center using watering hole attack</a></li>
+              <li><a class="lnk-orange" href="https://www.theregister.co.uk/2018/06/12/gnupg_patched_to_thwart_exploit/">GnuPG patched to thwart 'fake filename'</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="http://blackhat.com/eu-18/">BlackHat Europe 2018</a></li>
+              <li><a class="lnk-pink" href="https://arxiv.org/abs/1806.05179">SafeSpec: Banishing the Spectre of a Meltdown with Leakage-Free Speculation</a></li>
+              <li><a class="lnk-green" href="https://github.com/octarinesec/kubectl-rbac">Kubernetes RBAC plugin</a></li>
+              <li><a class="lnk-orange" href="https://www.bishopfox.com/blog/2018/06/server-side-spreadsheet-injections/">Server-Side Spreadsheet Injection – Formula Injection to RCE</a></li>
+              <li><a class="lnk-purple" href="https://sec-consult.com/en/blog/2018/06/pentesters-windows-ntfs-tricks-collection/">Pentester's Windows NTFS tricks collection</a></li>
+              <li><a class="lnk-blue" href="https://neopg.io/blog/gpg-signature-spoof/">SigSpoof: Spoofing signatures in GnuPG, Enigmail, GPGTools and python-gnupg (CVE-2018-12020)</a></li>
+              <li><a class="lnk-pink" href="https://www.wst.space/cookies-samesite-secure-httponly/">Cookies for dummies Part 3: Understanding security flags</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-cor0358/4749/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-cor0353/4712/description/" class="lnk-yellow" target="_blank">SOC analyst position</a></li>
+                <li>You're into identity and access management? We are looking for an <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-iam-cor0352/4711/description/" class="lnk-yellow" target="_blank">IAM Specialist</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-cor0351/4710/description/" class="lnk-yellow" target="_blank">InfoSec team</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
