@@ -1,0 +1,201 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 25/06/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://sophosnews.files.wordpress.com/2018/06/shutterstock_1038185590-compressor.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">25 June 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">It's time for TLS 1.0 and 1.1 to die, you may want to update your browser asap</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2018/06/shutterstock_1038185590-compressor.jpg"></mj-image>
+          <mj-text color="#fff">TLS is the encryption on many of the internet protocols we use every day: for example, when we send authentication credentials and credit card information over the web, as well as for internet services such as email, FTP and VPN. As TLS 1.3 inches towards publication into the Internet Engineering Task Force's RFC series, it's a surprise to realise that there are still lingering instances of TLS 1.0 and TLS 1.1. </mj-text>
+          <mj-text color="#fff">Online merchants have until 30 June to support TLS 1.2 and HTTP/1.1: a kill date that was extended for these security sadsack protocols from the original June 2016 deadline, which the PCI Council decided that retailers weren’t going to make. Apart from websites, organisations like 3GPP 5G, CloudFlare, Amazon and GitHub have either completed their deprecation or will finish the job by July.</mj-text>
+          <mj-text color="#fff">The council says that online and e-commerce environments using SSL and early TLS are the most susceptible to the SSL exploits, but the 30 June 2018 PCI DSS migration date applies to all environments except for payment terminals (POIs) (and the SSL/TLS termination points to which they connect) that can be verified as not being susceptible to any known exploits for SSL and early TLS. PayPal, for its part, put out a notice reminding merchants that they have to support TLS 1.2 and HTTP/1.1 by June 30: insecure connections will break after that.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.theregister.co.uk/AMP/2018/06/19/ietf_calls_for_formal_tls_1_0_1_1_deprecation/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2018/06/21/why-you-may-want-to-update-your-browser-in-the-next-9-days/">
+            Why you may want to update your browser in the next 5 days
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Over 22,000 Container Orchestration Systems Connected to the Internet</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/06/19/Lacework-Kubernetes.png"></mj-image>
+          <mj-text>The admin consoles of over 22,000 container orchestration and API management systems are currently exposed online, according to a report published on Monday by Lacework, a company specialized in cloud security. In its report, the company analyzed the breadth of the problem of cloud management systems left exposed online, focusing on container orchestration systems, such as Kubernetes, Docker Swarm, Mesos Marathon, Redhat Openshift, Portainer.IO, and Swarmpit.</mj-text>
+          <mj-text>"Although the vast majority of these management interfaces have credentials set up, there is little reason why they should be world-accessible and are far more vulnerable than they should be. These nodes are essentially openings to these organization’s cloud environments to anyone with basic skills at searching the web. These organizations, and the others who will replicate their mistakes, are opening themselves up to brute force password and dictionary attacks."</mj-text>
+          <mj-text>The Lacework report, which also includes basic advice for avoiding such exposures and hardening container management panel security, highlights a growing trend in today's IT landscape where many system administrators appear to have forgotten what passwords, firewalls, and access control lists (ACLs) are good for.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/over-22-000-container-orchestration-systems-connected-to-the-internet/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://info.lacework.com/hubfs/Containers%20At-Risk_%20A%20Review%20of%2021,000%20Cloud%20Environments.pdf">
+            LaceWork report on Containers at Risk
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/microsoft-edge-bug-exposes-content-from-other-sites-via-html5-audio-tag/">Microsoft Edge Bug Exposes Content From Other Sites via HTML5 Audio Tag</a></li>
+              <li><a class="lnk-pink" href="https://scotthelme.co.uk/finding-phishing-sites-with-ct/">Finding phishing sites with CT</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/gaming/gaming-companies-remove-analytics-app-after-massive-user-outcry/">Gaming Companies Remove Analytics App After Massive User Outcry</a></li>
+              <li><a class="lnk-orange" href="https://amp.thehackernews.com/thn/2018/06/apple-macos-quicklook.html">Apple macOS Bug Reveals Cache of Sensitive Data from Encrypted Drives</a></li>
+              <li><a class="lnk-purple" href="https://www.csoonline.com/article/3281023/security/the-new-endpoint-security-market-growing-in-size-and-scope.html">The new endpoint security market: Growing in size and scope</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/someone-is-taking-over-insecure-cameras-and-spying-on-device-owners/">Attackers Taking Over Insecure Cameras and Spying on Device Owners</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/cisco-patches-critical-nexus-flaws-are-your-switches-vulnerable/">Cisco patches critical Nexus flaws: Are your switches vulnerable?</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2018/06/android-biometric-authentication.html">Android Gets New Anti-Spoofing Feature to Make Biometric Authentication Secure</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/zerofont-technique-lets-phishing-emails-bypass-office-365-security-filters/">ZeroFont Technique Lets Phishing Emails Bypass Office 365 Security Filters</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2018/06/flightradar24-data-breach.html">Popular Flight Tracker Flightradar24 Suffers Data Breach</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/how-to-allow-users-to-report-suspicious-emails-with-outlooks-report-message-feature/">How to allow users to report suspicious emails with Outlook's Report Message feature</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2018/06/openbsd-hyper-threading.html">OpenBSD Disables Intel Hyper-Threading to Prevent Spectre-Class Attacks</a></li>
+              <li><a class="lnk-green" href="https://www.schneier.com/blog/archives/2018/06/perverse_vulner.html">Perverse Vulnerability from Interaction between 2-Factor Authentication and iOS AutoFill</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/olympic-destroyer-malware-spotted-new-attacks">'Olympic Destroyer' Malware Spotted in New Attacks</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/microsoft-this-azure-password-banning-tool-will-help-kill-off-bad-pw0rd-habits/">New Azure password-banning tool will help kill off bad 'P@$$w0rd' habits</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://pwnaccelerator.github.io/2018/webusb-yubico-disclosure.html">Vendors, Disclosure, and a bit of WebUSB Madness</a></li>
+              <li><a class="lnk-pink" href="https://github.com/justicerage/ffm">Freedom Fighting Mode: open source hacking harness</a></li>
+              <li><a class="lnk-green" href="https://github.com/treussart/probemanager">ProbeManager: Centralize Management of Intrusion Detection System like Suricata Bro Ossec ...</a></li>
+              <li><a class="lnk-orange" href="https://github.com/iNod3/sandbagility">Sandbagility: Framework to analyze malwares</a></li>
+              <li><a class="lnk-purple" href="https://www.wireguard.com/">WireGuard: Fast, Modern, Secure VPN tunnel</a></li>
+              <li><a class="lnk-blue" href="https://macpaw.com/encrypto">Graphical AES encryption tool for end users.</a></li>
+              <li><a class="lnk-pink" href="https://github.com/Prodicode/ARPPD">ARPPD: An ARP Poisoning Defender script</a></li>
+              <li><a class="lnk-green" href="https://blog.hansenpartnership.com/containers-and-cloud-security/">Containers and Cloud Security</a></li>
+              <li><a class="lnk-orange" href="https://jakearchibald.com/2018/i-discovered-a-browser-bug/">Technical details on Wavethrough vulnerability</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/tenable-techblog/reverse-shell-from-an-openvpn-configuration-file-73fd8b1d38da">Reverse Shell from an OpenVPN Configuration File</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@brannondorsey/attacking-private-networks-from-the-internet-with-dns-rebinding-ea7098a2d325">Attacking Private Networks from the Internet with DNS Rebinding</a></li>
+              <li><a class="lnk-pink" href="https://www.crowdstrike.com/blog/hiding-in-plain-sight-using-the-office-365-activities-api-to-investigate-business-email-compromises/">Hiding in Plain Sight: Using the Office 365 Activities API to Investigate Business Email Compromises</a></li>
+              <li><a class="lnk-green" href="https://blog.netspi.com/tokenvator-a-tool-to-elevate-privilege-using-windows-tokens/">Tokenvator: A Tool to Elevate Privilege using Windows Tokens</a></li>
+              <li><a class="lnk-orange" href="http://aboutdfir.com/cloud-exposure-dlp-ir-a-z/">Cloud Exposure, DLP & IR, A-Z</a></li>
+              <li><a class="lnk-purple" href="https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/">AWS Privilege Escalation – Methods and Mitigation</a></li>
+              <li><a class="lnk-blue" href="https://www.mdsec.co.uk/2018/06/exploring-powershell-amsi-and-logging-evasion/">Exploring PowerShell AMSI and Logging Evasion</a></li>
+              <li><a class="lnk-pink" href="https://www.sxcurity.pro/advanced-cors-techniques/">Advanced CORS Exploitation Techniques</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-cor0358/4749/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-cor0353/4712/description/" class="lnk-yellow" target="_blank">SOC analyst position</a></li>
+                <li>You're into identity and access management? We are looking for an <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-iam-cor0352/4711/description/" class="lnk-yellow" target="_blank">IAM Specialist</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-cor0351/4710/description/" class="lnk-yellow" target="_blank">InfoSec team</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
