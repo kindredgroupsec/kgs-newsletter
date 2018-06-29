@@ -1,0 +1,182 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 02/07/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="http://i.imgur.com/kQIWprp.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">7 July 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">TicketMaster: Personal and Payment data breach, blaming Inbenta</mj-text>
+          <mj-image src="http://ksassets.timeincuk.net/wp/uploads/sites/54/2018/06/Ticketmaster-920x470.jpg"></mj-image>
+          <mj-text color="#fff">Global entertainment ticketing service Ticketmaster has admitted that the company has suffered a security breach, warning customers that their personal and payment information may have been accessed by an unknown third-party.</mj-text>
+          <mj-text color="#fff">A support chat tool, used to help dozens of major websites interact with customers, has been blamed for a security breach at Ticketmaster. One of the code libraries built by Silicon Valley-based tech firm Inbenta, which powers Ticketmaster's customer support agent, was sending payment data to an unknown third-party on customers who were buying tickets.</mj-text>
+          <mj-text color="#fff">Inbenta chief executive Jordi Torras confirmed the security incident in a statement Thursday, but said that no other customers are at risk. "It has been confirmed that the source of the data breach was a single piece of JavaScript code, that was customized by Inbenta to meet Ticketmaster's particular requirements," said Torras.</mj-text>
+          <mj-text color="#fff">The ticket-selling giant said Wednesday that international customers who bought tickets between September 2017 and June 23, 2018 -- when the malicious code was found -- may be affected. It's reported that as many as 40,000 UK-based customers who bought tickets between February 2018 and June 23, 2018 may also have been affected.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/inbenta-blamed-for-ticketmaster-breach-says-other-sites-not-affected/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.inbenta.com/en/inbenta-and-the-ticketmaster-data-breach/">
+            Official statement from Inbenta
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://security.ticketmaster.co.uk/">
+            Official statement from TicketMaster
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Gentoo Linux distro hacked on GitHub, “all code considered compromised”</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-qeb5RDTah9c/WzXyMDuU-gI/AAAAAAAAxQQ/k57nPM31JYAM4rKdOY2rGPSm9EsWdY3TgCLcBGAs/s728-e100/gentoo-linux-hack.png"></mj-image>
+          <mj-text>Downloaded anything from Gentoo's GitHub account yesterday? Consider those files compromised and dump them now—as an unknown group of hackers or an individual managed to gain access to the GitHub account of the Gentoo Linux distribution on Thursday and replaced the original source code with a malicious one.</mj-text>
+          <mj-text>Gentoo is a free open source Linux or FreeBSD-based distribution built using the Portage package management system that makes it more flexible, easier to maintain, and portable compared to other operating systems. In a security alert released on its website yesterday, developers of the Gentoo Linux distribution warned users not to use code from its GitHub account, as some "unknown individuals" had gained its control on 28 June at 20:20 UTC and "modified the content of repositories as well as pages there."</mj-text>
+          <mj-text>However, Gentoo assured its users that the incident did not affect any code hosted on the Gentoo's official website or the mirror download servers and that users would be fine as long as they are using rsync or webrsync from gentoo.org.</mj-text>
+          <mj-text>If you are the one who have downloaded Gentoo Linux images from GitHub instead of its official website, you are highly recommend to backup your content and reinstall the OS from scratch.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2018/06/gentoo-linux-github.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://archives.gentoo.org/gentoo-announce/message/dc23d48d2258e1ed91599a8091167002">
+            Official Statement from Gentoo
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.csoonline.com/article/3244651/application-security/for-strong-api-security-you-need-a-program-not-a-piecemeal-approach.html">For strong API security, you need a program not a piecemeal approach</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2018/06/29/facebook-and-google-accused-of-manipulating-us-with-dark-patterns/amp/">Facebook and Google accused of manipulating us with “dark patterns”</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/propagate-code-injection-technique-detected-in-the-wild-for-the-first-time/">PROPagate Code Injection Technique Detected in the Wild for the First Time</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/those-harder-to-mitigate-upnp-powered-ddos-attacks-are-becoming-a-reality/">Those Harder to Mitigate UPnP-Powered DDoS Attacks Are Becoming a Reality</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/hundreds-of-hotels-affected-by-data-breach-at-hotel-booking-software-provider/">Hundreds of Hotels Affected by Data Breach at Hotel Booking Software Provider</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2018/06/free-ransomware-decryption-tools.html">Free Thanatos Ransomware Decryption Tool Released</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/hotels-airlines-and-travel-sites-battle-bot-attacks/">Hotels, airlines and travel sites battle bot attacks</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/protonmail-ddos-attacks-are-a-case-study-of-what-happens-when-you-mock-attackers/">ProtonMail DDoS Attacks Are a Case Study of What Happens When You Mock Attackers</a></li>
+              <li><a class="lnk-orange" href="http://www.infosecisland.com/blogview/25079-Least-Privilege-Access--Still-at-the-Front-Lines-of-Security.html">Least Privilege Access – Still at the Front Lines of Security</a></li>
+              <li><a class="lnk-purple" href="https://aws.amazon.com/blogs/security/how-to-access-secrets-across-aws-accounts-by-attaching-resource-based-policies/">How to access secrets across AWS accounts by attaching resource-based policies</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/google-amp/article/betting-giant-betvictor-left-a-list-of-internal-passwords-online/">Betting giant BetVictor leaked a list of its own internal systems passwords</a></li>
+              <li><a class="lnk-green" href="http://rampageattack.com/">Rampage and Guardian: RowHammer attack on Android and associated mitigation</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="http://opensecuritytraining.info/Welcome.html">Open Source Security Trainings</a></li>
+              <li><a class="lnk-pink" href="https://github.com/fabionoth/awesome-cyber-security">A collection of software, libraries, documents, books, resources about security.</a></li>
+              <li><a class="lnk-green" href="https://trailofbits.github.io/ctf/">CTF Field Guide</a></li>
+              <li><a class="lnk-orange" href="https://github.com/dsopas/h1-search">h1-search: Collect public disclosures for a HackerOne program</a></li>
+              <li><a class="lnk-purple" href="https://alephsecurity.com/2018/06/26/spectre-browser-query-cache/">Overcoming (some) Spectre browser mitigations</a></li>
+              <li><a class="lnk-blue" href="https://forum.filezilla-project.org/viewtopic.php?t=48441">Filezilla bundle: Malware behaviour?</a></li>
+              <li><a class="lnk-pink" href="https://www.denialof.services/lambda/">Reverse engineering AWS Lambda</a></li>
+              <li><a class="lnk-green" href="https://www.coresecurity.com/blog/playing-relayed-credentials">Playing with Relayed Credentials</a></li>
+              <li><a class="lnk-orange" href="https://pentesterslife.blog/2018/06/28/jsgen/">JSgen.py – bind and reverse shell JS code generator</a></li>
+              <li><a class="lnk-purple" href="URL">Streisand: Create your anti-censorship box (VPN, SSH, Tunneling...)</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
