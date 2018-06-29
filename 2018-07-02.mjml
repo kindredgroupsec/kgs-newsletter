@@ -61,7 +61,7 @@
         <meta name="twitter:site" content="@kindredgroup" />
         <meta name="twitter:title" content="Kindred Security Newsletter - 02/07/18" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
-        <meta name="twitter:image" content="http://i.imgur.com/kQIWprp.png" />
+        <meta name="twitter:image" content="http://ksassets.timeincuk.net/wp/uploads/sites/54/2018/06/Ticketmaster-920x470.jpg" />
       </mj-style>
   </mj-head>
   <mj-body>
@@ -72,7 +72,7 @@
           <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
 
           <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
-          <mj-text mj-class="grey h2" align="center">7 July 2018</mj-text>
+          <mj-text mj-class="grey h2" align="center">2 July 2018</mj-text>
 
         </mj-column>
       </mj-section>
