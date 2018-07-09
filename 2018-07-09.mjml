@@ -1,0 +1,174 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 09/07/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-I-EZDo6lZ98/WznovcUIheI/AAAAAAAAxV0/Sm1oFLLMAY06Plebz00neOx0eU8hPVnGwCLcBGAs/s728-e100/facebook-data-share.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">9 July 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Facebook Admits Sharing Users' Data With 61 Tech Companies</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-I-EZDo6lZ98/WznovcUIheI/AAAAAAAAxV0/Sm1oFLLMAY06Plebz00neOx0eU8hPVnGwCLcBGAs/s728-e100/facebook-data-share.png"></mj-image>
+          <mj-text color="#fff">Facebook has admitted that the company gave dozens of tech companies and app developers special access to its users' data after publicly saying it had restricted outside companies to access such data back in 2015.</mj-text>
+          <mj-text color="#fff">During the Cambridge Analytica scandal revealed March this year, Facebook stated that it already cut off third-party access to its users' data and their friends in May 2015 only. However, in a 747-page long document [PDF] delivered to Congress late Friday, the social networking giant admitted that it continued sharing data with 61 hardware and software makers, as well as app developers after 2015 as well.</mj-text>
+          <mj-text color="#fff">The documents also acknowledged that Facebook partnered with 52 domestic and international companies, including U.S. tech giants Apple, Microsoft, Spotify, Amazon, Sony, Acer, China-based Huawei and Alibaba, and device-makers Samsung and BlackBerry. The document comes months after it revealed that personal data of 87 million Facebook users were harvested by Cambridge Analytica, a political consultancy firm, who reportedly helped Donald Trump win the US presidency in 2016.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2018/07/facebook-data-privacy.html">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2018/06/facebook-users-data-leak.html">
+            Another Facebook Quiz App Left 120 Million Users' Data Exposed
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://gbhackers.com/typeform-suffers-data-breach/amp/">Typeform Suffers Data Breach, More than 20,000 User’s Personal Data Was Compromised</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2018/07/windows-adobe-zero-exploit.html">Two Zero-Day Exploits Found After Someone Uploaded 'Unarmed' PoC to VirusTotal #OpSec</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2018/07/fortnite-v-bucks-cheat.html">Beware! Fortnite Cheat Hijacks Gamers’ PCs to Intercept HTTPS Traffic</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/data-security-startup-enveil-unveils-homomorphic-encryption-platform">Data Security Startup Enveil Unveils Homomorphic Encryption Platform</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/newer-diameter-telephony-protocol-just-as-vulnerable-as-ss7/">Newer Diameter Telephony Protocol Just As Vulnerable As SS7</a></li>
+              <li><a class="lnk-blue" href="https://www.hackread.com/nhs-data-breach-exposed-sensitive-health-data-of-patients/">NHS data breach exposed sensitive health data of 150,000 patients</a></li>
+              <li><a class="lnk-pink" href="https://matmannion.com/my-experience-of-vulnerability-disclosure/">My experience of vulnerability disclosure - Jolokia</a></li>
+              <li><a class="lnk-green" href="https://gbhackers.com/wordpress-update-4-9-7-update/">WordPress Update 4.9.7 – Critical Security Update</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2018/07/05/your-smartphone-can-watch-you-if-it-wants-to-study-finds/">Your smartphone can watch you if it wants to, study finds</a></li>
+              <li><a class="lnk-purple" href="https://www.darkreading.com/attacks-breaches/weak-admin-password-enabled-gentoo-github-breach/d/d-id/1332225">Weak Admin Password Enabled Gentoo GitHub Breach</a></li>
+              <li><a class="lnk-blue" href="https://www.csoonline.com/article/3287646/security/polar-fitness-app-exposed-locations-names-and-addresses-of-soldiers-and-spies.html">Polar fitness app exposed locations, names and addresses of soldiers and spies</a></li>
+              <li><a class="lnk-pink" href="https://gbhackers.com/google-released-security-updates/">Google Released Security Updates for More than 40 Android Security vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://gbhackers.com/hackers-compromise-gas-station/">Hackers Compromised the Gas Station Fuel Pump and Steal 600 Gallons of Gas using Remote Device</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://x-c3ll.github.io/posts/PAM-backdoor-DNS/">Exfiltrating credentials via PAM backdoors & DNS requests</a></li>
+              <li><a class="lnk-pink" href="https://0x09al.github.io/waf/bypass/ssl/2018/07/02/web-application-firewall-bypass.html">Bypassing Web-Application Firewalls by abusing SSL/TLS</a></li>
+              <li><a class="lnk-green" href="https://lmgsecurity.com/exposing-the-secret-office-365-forensics-tool/">Exposing the Secret Office 365 Forensics Tool</a></li>
+              <li><a class="lnk-orange" href="http://dandylife.net/blog/archives/743">Compiler-assisted Code Randomization</a></li>
+              <li><a class="lnk-purple" href="https://github.com/arismelachroinos/lscript">LAZY: script for Kali Linux that automates many procedures about wifi penetration and hacking.</a></li>
+              <li><a class="lnk-blue" href="https://github.com/CIRCL/lookyloo">lookyloo: Scrape a website and then displays a tree of domains calling each other.</a></li>
+              <li><a class="lnk-pink" href="https://blog.cloudflare.com/how-to-drop-10-million-packets/amp/">How to drop 10 million packets per second</a></li>
+              <li><a class="lnk-green" href="https://posts.specterops.io/categorizing-and-enriching-security-events-in-an-elk-with-the-help-of-sysmon-and-att-ck-6c8e30234d34">Categorizing and Enriching Security Events in an ELK with the Help of Sysmon and ATT&CK</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/@grayhatwarfare/how-to-search-for-open-amazon-s3-buckets-and-their-contents-https-buckets-grayhatwarfare-com-577b7b437e01">How to search for Open Amazon s3 Buckets and their contents</a></li>
+              <li><a class="lnk-blue" href="https://noxxi.de/research/mime-5-easy-steps-to-bypass-av.html">Five Easy Steps to Bypass Antivirus using manipulated MIME</a></li>
+              <li><a class="lnk-pink" href="https://github.com/PortSwigger/hackability">Hackability: Rendering Engine Hackability Probe</a></li>
+              <li><a class="lnk-green" href="https://portswigger.net/blog/hackability-inspector">Hackability inspector</a></li>
+              <li><a class="lnk-orange" href="URL">Enumerid: Enumerate RIDs using pure Python</a></li>
+              <li><a class="lnk-purple" href="URL">Apfell: A macOS, post-exploit, red teaming framework</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-cor0358/4749/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-cor0353/4712/description/" class="lnk-yellow" target="_blank">SOC analyst position</a></li>
+                <li>You're into identity and access management? We are looking for an <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-iam-cor0352/4711/description/" class="lnk-yellow" target="_blank">IAM Specialist</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-cor0351/4710/description/" class="lnk-yellow" target="_blank">InfoSec team</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
