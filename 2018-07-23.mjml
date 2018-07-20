@@ -1,0 +1,161 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 23/07/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://i.imgur.com/eGmnM23.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">23 July 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">2.3B credentials were stolen in 2017</mj-text>
+          <mj-image src="https://i.imgur.com/eGmnM23.png"></mj-image>
+          <mj-text color="#fff">In 2017, some 2.3 billion account credentials were stolen because of 51 independent credential spill incidents, according to Shape Security's second annual Credential Spill Report. The main industries affected were consumer banking, retail, airline, and hospitality, which were primarily attacked via credential stuffing and account takeovers, according to Shape Security's press release.</mj-text>
+          <mj-text color="#fff">Credential stuffing are large scale cyberattacks where criminals use stolen credentials over a mass amount of logins. These attacks are often successful because of users reusing passwords, which is no surprise, as 25% of employees use the same passwords for every account. Attackers then use the information to commit various fraudulent actions, from unauthorized bank transfers to online purchases.</mj-text>
+          <mj-text color="#fff"> "What most people don't realize is the domino effect of damage that a single breach is capable of producing. To fight back, organizations have started banding together to build a collective defense to be alerted when credentials stolen from one breach are being used to log in to another, effectively blocking attackers attempting to access their platforms with compromised credentials."</mj-text>
+          <mj-text color="#fff">An average of 15 months passed between the day credentials were stolen and the day the incident was realized and reported by an organization, said the release. With this substantial amount of time, cybercriminals can carry out a slew of attacks. Roughly 1 million credentials were exposed to criminals every day in 2017, said the report.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.techrepublic.com/article/2-3b-credentials-were-stolen-in-2017-these-industries-suffered-the-most/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="http://info.shapesecurity.com/rs/935-ZAM-778/images/Shape_Credential_Spill_Report_2018.pdf">
+            2018 Credential Spill report
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/researchers-mount-successful-gps-spoofing-attack-against-road-navigation-systems/">Researchers Mount Successful GPS Spoofing Attack Against Road Navigation Systems</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/paypals-venmo-app-exposes-most-transactions-via-its-api/">PayPal's Venmo App Exposes Most Transactions via Its API</a></li>
+              <li><a class="lnk-green" href="https://blog.elcomsoft.com/2018/07/this-9-device-can-defeat-ios-usb-restricted-mode/">This $39 Device Can Defeat iOS USB Restricted Mode</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/droppers-is-how-android-malware-keeps-sneaking-into-the-play-store/">Droppers Is How Android Malware Keeps Sneaking Into the Play Store</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/oracle-patches-record-334-vulnerabilities-july-2018">Oracle Patches Record 334 Vulnerabilities in July 2018</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/telefonica-spain-exposed-the-personal-details-of-millions-of-customers/">Telefonica Spain Exposed the Personal Details of Millions of Customers</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/nist-withdraw-11-outdated-cybersecurity-publications">NIST to Withdraw 11 Outdated Cybersecurity Publications</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2018/07/20/hackers-hold-80000-healthcare-records-to-ransom/">Hackers hold 80,000 healthcare records to ransom</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2018/07/singapore-healthcare-breach.html">Singapore's Largest Healthcare Group Hacked, 1.5 Million Patient Records Stolen</a></li>
+              <li><a class="lnk-purple" href="https://scotthelme.co.uk/a-new-security-header-feature-policy/">A new security header: Feature Policy</a></li>
+              <li><a class="lnk-blue" href="https://www.csoonline.com/article/3287826/application-security/5-tips-for-getting-started-with-devsecops.html">5 tips for getting started with DevSecOps</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/CERTCC/keyfinder">KeyFinder: Find and analyze private (and public) key files, support Android APK.</a></li>
+              <li><a class="lnk-pink" href="https://blog.jse.li/posts/marveloptics-malware/">Reversing JS Malware From marveloptics.com #Magecart</a></li>
+              <li><a class="lnk-green" href="https://medium.com/week-in-osint/week-in-osint-2018-28-fa30381aca54">This Week in OSINT — #2018–28</a></li>
+              <li><a class="lnk-orange" href="https://blog.doyensec.com/2018/07/19/instrumenting-electron-app.html">Instrumenting Electron Apps for Security Testing</a></li>
+              <li><a class="lnk-purple" href="https://www.wst.space/ssl-part-4-tls-handshake-protocol/">SSL/TLS for dummies part 4 – Understanding the TLS Handshake Protocol</a></li>
+              <li><a class="lnk-blue" href="https://labs.mwrinfosecurity.com/blog/experimenting-bypassing-memory-scanners-with-cobalt-strike-and-gargoyle/">Bypassing Memory Scanners with Cobalt Strike and Gargoyle</a></li>
+              <li><a class="lnk-pink" href="https://portswigger.net/blog/evading-csp-with-dom-based-dangling-markup">Evading CSP with DOM-based dangling markup</a></li>
+              <li><a class="lnk-green" href="https://www.anitian.com/blog/owning-saml/">Exploiting a SAML Implementation</a></li>
+              <li><a class="lnk-orange" href="https://securityneversleeps.net/2018/07/20/hunting-for-bad-apples-part-2/">Hunting for Bad Apples — Part 2</a> (<a class="lnk-orange" href="https://posts.specterops.io/hunting-for-bad-apples-part-1-22ef2b44c0aa">Part 1</a>)</li>
+              <li><a class="lnk-purple" href="https://www.digitalshadows.com/blog-and-research/mitre-attck-and-the-mueller-gru-indictment-lessons-for-organizations/">Mitre ATT&CK and the Mueller GRU Indictment: Lessons for Organizations</a></li>
+              <li><a class="lnk-blue" href="https://www.csoonline.com/article/2115776/authentication/what-is-single-sign-on-how-sso-improves-security-and-the-user-experience.html">What is single sign-on? How SSO improves security and the user experience</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/hackers-breach-russian-bank-and-steal-1-million-due-to-outdated-router/">Hackers Breach Russian Bank and Steal $1 Million Due to Outdated Router</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2018/07/russia-election-hacking.html">Microsoft Says Russia Tried to Hack Three 2018 Midterm Election Candidates</a></li>
+              <li><a class="lnk-orange" href="https://engineering.riotgames.com/news/riots-approach-anti-cheat">Riot's approach to anti-cheat</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
