@@ -1,0 +1,191 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 30/07/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-82aL50VBUfQ/W1ra9hP17iI/AAAAAAAAxrI/lx9fDsBd4zUZ1oFAQoTJF-0SNDrdg5SzgCLcBGAs/s728-e100/netspectre-remote-spectre-attack.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">30 July 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="white h2">Google: Security Keys Neutralized Employee Phishing</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2018/07/titan-key.jpg?w=780&h=408&crop=1"></mj-image>
+          <mj-text color="#fff">Google has not had any of its 85,000+ employees successfully phished on their work-related accounts since early 2017, when it began requiring all employees to use physical Security Keys in place of passwords and one-time codes.</mj-text>
+          <mj-text  color="#fff">Security Keys are inexpensive USB devices that offer an alternative approach to two-factor authentication (2FA). The most common forms of 2FA require the user to supplement a password with a one-time code sent to their mobile device via text message or an app. In contrast, a Security Key implements a form of multi-factor authentication known as Universal 2nd Factor (U2F), which allows the user to complete the login process simply by inserting the USB device and pressing a button on the device. U2F is the only technology resisting to the most advanced Phishing techniques to date.</mj-text>
+          <mj-text color="#fff">Google took its efforts to protect online accounts up a notch this week, announcing its own hardware-based security key, dubbed the Titan key. There will be two versions of Google’s key: a USB one that plugs into your computer, and a Bluetooth one that must be paired with a device before use, aimed at users of mobile devices. They will both meet the Fast IDentity Online (FIDO) authentication standard, making them compatible with a range of other sites beyond Google’s own.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2018/07/google-security-keys-neutralized-employee-phishing/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2018/07/27/google-takes-on-yubico-with-its-own-security-key-titan/">
+            Google takes on Yubico with its own security key, Titan
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://landing.google.com/advancedprotection/">
+            Google Advanced Protection Program
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-text mj-class="pink h2" align="center">NetSpectre — New Remote Spectre Attack Steals Data Over the Network</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-82aL50VBUfQ/W1ra9hP17iI/AAAAAAAAxrI/lx9fDsBd4zUZ1oFAQoTJF-0SNDrdg5SzgCLcBGAs/s728-e100/netspectre-remote-spectre-attack.jpg"></mj-image>
+          <mj-text>Scientists have published a paper today detailing a new Spectre-class CPU attack that can be carried out via network connections and does not require the attacker to host code on a targeted machine.</mj-text>
+          <mj-text>This new attack —codenamed NetSpectre— is a major evolution for Spectre attacks, which until now have required the attacker to trick a victim into downloading and running malicious code on his machine, or at least accessing a website that runs malicious JavaScript in the user's browser. With NetSpectre, an attacker can simply bombard a computer's network ports and achieve the same results.</mj-text>
+          <mj-text>The biggest is the attack's woefully slow exfiltration speed, which is 15 bits/hour for attacks carried out via a network connection and targeting data stored in the CPU's cache. Both NetSpectre variations are too slow to be considered valuable for an attacker. This makes NetSpectre just a theoretical threat, and not something that users and companies should be planning for with immediate urgency. </mj-text>
+          <mj-text>Under the hood, this new NetSpectre attack is related to the Spectre v1 vulnerability (CVE-2017-5753) that Google researchers and academics have revealed at the start of the year. As such, all CPUs previously affected by Spectre v1 are believed to also be affected by NetSpectre, although academics said that existing vendor mitigations should stop NetSpectre, if they've been deployed with our OS and CPU's firmware.</mj-text>
+          <mj-button  mj-class="bg-pink" href="https://amp.thehackernews.com/thn/2018/07/netspectre-remote-spectre-attack.html">
+            TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://arstechnica.com/gadgets/2018/07/new-spectre-attack-enables-secrets-to-be-leaked-over-a-network/">
+            ArsTechnica
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/under-gdpr-data-breach-reports-in-uk-have-quadrupled-a-11249">Under GDPR, Data Breach Reports in UK Have Quadrupled</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/hackers-hiding-web-shell-logins-in-fake-http-error-pages/">Hackers Hiding Web Shell Logins in Fake HTTP Error Pages</a></li>
+              <li><a class="lnk-green" href="https://gbhackers.com/us-government-remove-adobe-flash/">US Government to Remove Adobe Flash Contents From Federal Agency Sites and Computers</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/half-billion-enterprise-devices-exposed-dns-rebinding">Half a Billion Enterprise Devices Exposed by DNS Rebinding</a></li>
+              <li><a class="lnk-purple" href="https://krebsonsecurity.com/2018/07/lifelock-bug-exposed-millions-of-customer-email-addresses/">LifeLock Bug Exposed Millions of Customer Email Addresses</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/researchers-detail-new-cpu-side-channel-attack-named-spectrersb/">Researchers Detail New CPU Side-Channel Attack Named SpectreRSB</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/apache-openwhisk-flaws-allowed-attackers-overwrite-code-ibm-cloud">Apache OpenWhisk Flaws Allowed Attackers to Overwrite Code in IBM Cloud</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/software-supply-chain-increasingly-targeted-attacks-survey">Software Supply Chain Increasingly Targeted in Attacks: Survey</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2018/07/24/the-bluetooth-device-snooping-bug-what-you-need-to-know/amp/">The Bluetooth “device snooping bug” – what you need to know</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2018/07/apache-tomcat-server.html">Apache Tomcat Patches Important Security Vulnerabilities</a></li>
+              <li><a class="lnk-blue" href="https://www.csoonline.com/article/3292263/security/rapid7-penetration-tests-reveal-multitude-of-software-flaws-network-misconfigurations.html">Rapid7 penetration tests reveal multitude of software flaws, network misconfigurations</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/how-website-filtering-affects-workplace-productivity/">How website filtering affects workplace productivity</a></li>
+              <li><a class="lnk-green" href="https://www.hackread.com/157-gb-of-sensitive-data-from-tesla-gm-toyota-others-exposed-online/">Exposed: 157 GB of sensitive data from Tesla, GM, Toyota & others</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2018/07/27/simple-trick-floors-home-security-camera-gives-anyone-access/">“Simple trick” floors home security camera, gives anyone access</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/364-idaho-inmates-hacked-their-prison-tablets-for-free-credits/">364 Idaho Inmates Hacked Their Prison Tablets for Free Credits</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://breakdev.org/evilginx-2-next-generation-of-phishing-2fa-tokens/">Evilginx 2 - Next Generation of Phishing 2FA Tokens</a></li>
+              <li><a class="lnk-pink" href="https://scotthelme.co.uk/xss-on-etherscan-io/">XSS on etherscan.io</a></li>
+              <li><a class="lnk-green" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/07/26/attack-inception-compromised-supply-chain-within-a-supply-chain-poses-new-risks/">Attack inception: Compromised supply chain within a supply chain poses new risks</a></li>
+              <li><a class="lnk-orange" href="http://www.harmj0y.net/blog/redteaming/ghostpack/">Announcing GhostPack - C# implementations of previous PowerShell red team functionality</a></li>
+              <li><a class="lnk-purple" href="https://blog.cloudflare.com/the-road-to-quic/amp/">The Road to QUIC</a></li>
+              <li><a class="lnk-blue" href="http://malicious.life/">Malicious.life podcast</a></li>
+              <li><a class="lnk-pink" href="https://blog.nviso.be/2018/07/26/shortcomings-of-blacklisting-in-adobe-reader-and-what-you-can-do-about-it/">Shortcomings of blacklisting in Adobe Reader and what you can do about it</a></li>
+              <li><a class="lnk-green" href="https://blog.talosintelligence.com/2018/07/samsung-smartthings-vulns.html?m=1">Vulnerability Spotlight: Multiple Vulnerabilities in Samsung SmartThings Hub</a></li>
+              <li><a class="lnk-orange" href="https://www.mitre.org/capabilities/cybersecurity/overview/cybersecurity-blog/the-philosophy-of-attck">The Philosophy of ATT&CK</a></li>
+              <li><a class="lnk-purple" href="http://obtruse.syfrtext.com/2018/07/oracle-privilege-escalation-via.html">Oracle Privilege Escalation via Deserialization</a></li>
+              <li><a class="lnk-blue" href="https://blog.bentkowski.info/2018/07/vulnerability-in-hangouts-chat-aka-how.html">Vulnerability in Hangouts Chat a.k.a. how Electron makes open redirect great again</a></li>
+              <li><a class="lnk-pink" href="https://opnsec.com/2018/07/into-the-borg-ssrf-inside-google-production-network/">Into the Borg – SSRF inside Google production network</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
