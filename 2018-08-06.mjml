@@ -1,0 +1,204 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 06/08/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-ajU3iaSli6w/W2Njguq5PqI/AAAAAAAAxvI/qybu5nPgvSMi-oAC0TMH0EsOkU1V6jylwCLcBGAs/s728-e100/reddit-hack.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">6 August 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Reddit Breach Highlights Limits of SMS-Based Authentication</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-ajU3iaSli6w/W2Njguq5PqI/AAAAAAAAxvI/qybu5nPgvSMi-oAC0TMH0EsOkU1V6jylwCLcBGAs/s728-e100/reddit-hack.png"></mj-image>
+          <mj-text color="#fff">Reddit.com today disclosed that a data breach exposed some internal data, as well as email addresses and passwords for some Reddit users. As Web site breaches go, this one doesn’t seem too severe. What’s interesting about the incident is that it showcases once again why relying on mobile text messages (SMS) for two-factor authentication (2FA) can lull companies and end users into a false sense of security.</mj-text>
+          <mj-text color="#fff">Reddit said the exposed data included internal source code as well as email addresses and obfuscated passwords for all Reddit users who registered accounts on the site prior to May 2007. The incident also exposed the email addresses of some users who had signed up to receive daily email digests of specific discussion threads.</mj-text>
+          <mj-text color="#fff">Of particular note is that although the Reddit employee accounts tied to the breach were protected by SMS-based two-factor authentication, the intruder(s) managed to intercept that second factor. “Already having our primary access points for code and infrastructure behind strong authentication requiring two factor authentication (2FA), we learned that SMS-based authentication is not nearly as secure as we would hope, and the main attack was via SMS intercept,” Reddit disclosed. “We point this out to encourage everyone here to move to token-based 2FA.”</mj-text>
+          <mj-text color="#fff">Reddit didn’t specify how the SMS code was stolen, although it did say the intruders did not hack Reddit employees’ phones directly. In one common scenario, known as a SIM-swap, the attacker masquerading as the target tricks the target’s mobile provider into tying the customer’s service to a new SIM card that the bad guys control. Customers can request a SIM swap when their existing SIM card has been damaged, or when they are switching to a different phone that requires a SIM card of another size.</mj-text>
+          <mj-text color="#fff">Another typical scheme involves mobile number port-out scams, wherein the attacker impersonates a customer and requests that the customer’s mobile number be transferred to another mobile network provider. If the only 2FA options offered by a site you frequent are SMS and/or phone calls, this is still better than simply relying on a password. But it’s high time that popular Web sites of all stripes start giving their users more robust authentication options like TOTP and security keys.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2018/08/reddit-breach-highlights-limits-of-sms-based-authentication/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2018/08/hack-reddit-account.html">
+            Reddit Hacked – Emails, Passwords, Private Messages Stolen
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.reddit.com/r/announcements/comments/93qnm5/we_had_a_security_incident_heres_what_you_need_to/#ampf=undefined">
+            Official Statement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">How a man hacked his victims’ SIM cards to steal millions of dollars</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2018/08/shutterstock_196839467.jpg"></mj-image>
+          <mj-text>Californian Authorities have arrested and charged a 20-year old college student Joel Ortiz for being part of a mobile phone hijacking group who hacked SIM cards. According to reports the detainee managed to hijack over 40 phone numbers and stole $5 million as well from high-profile targets including cryptocurrency investors. Detectives at the Regional Enforcement Allied Computer Team were tipped by one of the victims, a blockchain investor, informing that his cellphone number has been hijacked.</mj-text>
+          <mj-text>According to Motherboard, his cellphone number was hijacked twice and the hacker not only reset the password of his email ID and cryptocurrency accounts but also replaced the 2FA Google authenticator app with another one. Hacker, claims the victim, also harassed his daughter. On 20th March, the hacker allegedly called his wife from the stolen phone number and also messaged his daughter and friends to send him Bitcoin.</mj-text>
+          <mj-text>Reportedly, Ortiz pulled off this feat using SIM swapping technique, which allowed him to access the numbers and execute port out scams. His targets were the attendees of the cryptocurrency/blockchain conference Consensus held in New York in May 2018. With help from some of his accomplices and using SIM swapping, Ortiz could trick cellular service providers into sending out phone numbers to SIM cards owned by them.</mj-text>
+          <mj-text>SIM swapping can be prevented if you add a PIN code to your smartphone account. You may also set up a verbal password to further complicate the verification process.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.hackread.com/how-a-man-hacked-his-victims-sim-cards-to-steal-millions/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2018/08/01/alleged-sim-swap-scammer-nabbed-for-stealing-5m-in-bitcoin/amp/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Dixons Carphone Data Breach Affects not 1.2, but 10 Million Customers</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-O-z9L7kIgFo/W2A9gIeyw0I/AAAAAAAAxsU/lGc5kT1UaA4q6EKmreaaK-DHxTbw33QHQCLcBGAs/s728-e100/dixons-carphone-currys-pc-world-data-breach-hack.png"></mj-image>
+          <mj-text>Dixons Carphone's 2017 data breach was worse than initially anticipated. In an announcement on Monday, Dixons Carphone, one of the largest consumer electronics and telecommunication retailers in Europe, admitted that the breach affected around 10 million customers, up from an initial estimate of 1.2 million people the company acknowledged back in June.</mj-text>
+          <mj-text>The Carphone Warehouse and Currys PC World owner said the hackers may have accessed personal information of its affected customers including their names, addresses and email addresses last year. The hackers also got access to 5.9 million payments cards used at Currys PC World and Dixons Travel, but nearly all of those cards were protected by the chip-and-pin system.</mj-text>
+          <mj-text>However, Dixons Carphone assured its customers that no bank details, including pin codes, card verification values and authentication data used to make purchases, were taken and that there's no evidence any fraud had resulted from the security breach.</mj-text>
+          <mj-text>This is second time in three years Dixons Carphone has become the victim of a major cyber attack. In 2015, a data breach hit around 3 million customers, for which the company was fined £400,000 earlier this year.</mj-text>
+          <mj-text>An ICO spokesperson said: “Dixons Carphone reported a data breach to the ICO in June. The company has now confirmed that the incident affected the personal data of 10 million records, which is significantly higher than initially stated. Our investigation into the incident is ongoing and we will take time to assess this new information. In the meantime, we would expect the company to alert all those affected in the UK as soon as possible and to take all steps necessary to reduce any potential harm to consumers.”</mj-text>
+          <mj-button mj-class="bg-green" href="https://thehackernews.com/2018/07/dixons-carphone-data-breach.html">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://ico.org.uk/about-the-ico/news-and-events/news-and-blogs/2018/07/ico-statement-in-response-to-dixons-carphone-breach-announcement/">
+            ICO statement in response to Dixons Carphone breach announcement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.csoonline.com/article/3293015/windows/patching-windows-for-spectre-and-meltdown-a-complete-guide.html">Patching Windows for Spectre and Meltdown: A complete guide</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/fake-websites-for-keepass-7zip-audacity-others-found-pushing-adware/">Fake Websites for Keepass, 7Zip, Audacity, Others Found Pushing Adware</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/2018/08/02/atlassian_advises_jira_password_reset/">Atlassian: Jira email server passwords blabbed to strangers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/massive-malvertising-campaign-discovered-attempting-40-000-infections-per-week/">Massive Malvertising Campaign Discovered Attempting 40,000 Infections per Week</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2018/07/31/cryptojacking-for-beginners-what-you-need-to-know/">Cryptojacking for beginners – what you need to know</a></li>
+              <li><a class="lnk-blue" href="https://amp.thehackernews.com/thn/2018/08/fin7-carbanak-cobalt-hackers.html">3 Carbanak (FIN7) Hackers Charged With Stealing 15 Million Credit Card</a></li>
+              <li><a class="lnk-pink" href="https://www.troyhunt.com/why-no-https-questions-answered-new-data-path-forward/">Why No HTTPS? Questions Answered, New Data, Path Forward</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/microsoft-edge-flaw-lets-hackers-steal-local-files/">Microsoft Edge Flaw Lets Hackers Steal Local Files</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2018/08/02/microsoft-edge-adds-webauthn-as-passwords-near-the-end/amp/">Microsoft Edge adds WebAuthn as passwords near the end</a></li>
+              <li><a class="lnk-purple" href="https://www.csoonline.com/article/3294622/regulation/the-rolling-tide-that-is-gdpr-say-hello-to-the-ccpa.amp.html">The rolling tide that is GDPR … say hello to the CCPA</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/massive-coinhive-cryptojacking-campaign-touches-over-200-000-mikrotik-routers/">Massive Coinhive Cryptojacking Campaign Touches Over 200,000 MikroTik Routers</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2018/08/symfony-drupal-hack.html">Symfony Flaw Leaves Drupal Sites Vulnerable to Hackers—Patch Now</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blyx.com/2018/07/18/my-arsenal-of-aws-security-tools/">My arsenal of AWS security tools</a></li>
+              <li><a class="lnk-pink" href="https://www.humblebundle.com/books/cybersecurity-wiley-books">Humble book bundle: Cybersecurity 2.0 by Wiley</a></li>
+              <li><a class="lnk-green" href="https://www.netsparker.com/blog/web-security/stealing-local-files-with-simple-html-file/">Exploiting a Microsoft Edge Vulnerability to Steal Files - PoC</a></li>
+              <li><a class="lnk-orange" href="https://labs.detectify.com/2018/08/02/bypassing-exploiting-bucket-upload-policies-signed-urls/">Bypassing and exploiting Bucket Upload Policies and Signed URLs</a></li>
+              <li><a class="lnk-purple" href="https://www.mdsec.co.uk/2018/08/escaping-the-sandbox-microsoft-office-on-macos/">Escaping the Sandbox – Microsoft Office on MacOS</a></li>
+              <li><a class="lnk-blue" href="https://asaf.me/2018/07/23/attacking-the-attackers/">Attacking the attackers</a></li>
+              <li><a class="lnk-pink" href="https://blog.nviso.be/2018/07/31/powershell-inside-a-certificate-part-1/">PowerShell Inside a Certificate? – Part 1</a> <a href="https://blog.nviso.be/2018/08/01/powershell-inside-a-certificate-part-2/" class="lnk-pink">(Part 2)</a></li>
+              <li><a class="lnk-green" href="http://www.ntt.co.jp/news2018/1807e/180718a.html">Identifying web user social accounts, by exploiting user-blocking mechanisms</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8">Making a Blind SQL Injection a Little Less Blind</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
