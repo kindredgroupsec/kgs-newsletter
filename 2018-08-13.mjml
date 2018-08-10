@@ -1,0 +1,167 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 13/08/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://sophosnews.files.wordpress.com/2018/08/brew-1200.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">13 August 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">How I gained commit access to Homebrew in 30 minutes</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2018/08/brew-1200.png"></mj-image>
+          <mj-text color="#fff">"Since the recent NPM, RubyGems, and Gentoo incidents, I’ve become increasingly interested, and concerned, with the potential for package managers to be used in supply chain attacks to distribute malicious software. Specifically with how the maintainers and infrastructure of these projects can be targeted as an attack vector. On Jun 31st, I went in with the intention of seeing if I could gain access to Homebrew’s GitHub repositories. About 30 minutes later, I made my first commit to Homebrew/homebrew-core."</mj-text>
+          <mj-text color="#fff">GitHub Support was contacted and they verified the relevant token had not been used to perform any pushes to Homebrew/brew or Homebrew/homebrew-core during the period of elevated scopes. To be explicit: no packages were compromised and no action is required by users due to this incident.</mj-text>
+          <mj-text color="#fff">If you’re a Brew user, there’s no need for alarm and no immediate action you need to take. Holmes disclosed this responsibly to the Homebrew crew, who fixed the issue right away – within a few hours, in fact – and published a short, frank and informative disclosure notice. As in the case of Gentoo’s recent supply-chain breach, the disclosure notice is worth reading whether the incident directly affects you or not. Supply-chain attacks can have wide-reaching effects, so ask yourself, “What can I and my own organisation learn from this?”</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://medium.com/@vesirin/how-i-gained-commit-access-to-homebrew-in-30-minutes-2ae314df03ab">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2018/08/10/how-one-man-could-have-hacked-every-mac-developer-73-of-them-anyway/">
+            Even More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://brew.sh/2018/08/05/security-incident-disclosure/">
+            Homebrew statement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/flaw-bind-security-feature-allows-dos-attacks">Flaw in BIND Security Feature Allows DoS Attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/darkhydrus-relies-on-open-source-tools-for-phishing-attacks/">DarkHydrus Relies on Open-Source Tools for Phishing Attacks</a></li>
+              <li><a class="lnk-green" href="https://gbhackers.com/new-whatsapp-vulnerability/amp/">New WhatsApp Vulnerability Allows Hackers to Intercept and Change Message Contents</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/devsecops-keys-to-success-a-11299">DevSecOps: The Keys to Success</a></li>
+              <li><a class="lnk-purple" href="https://www.theregister.co.uk/AMP/2018/08/09/how_evil_javascript_helps_attackers_tag_possible_victims_and_gives_away_their_intent/">How evil JavaScript helps attackers tag possible victims – and gives away their intent</a></li>
+              <li><a class="lnk-blue" href="https://amp.thehackernews.com/thn/2018/08/snapchat-hack-source-code.html">Snapchat Hack — Hacker Leaked Snapchat Source Code On GitHub</a></li>
+              <li><a class="lnk-pink" href="https://gbhackers.com/lets-encrypt-root-certificate/amp/">Let’s Encrypt Root Certificate Now Directly Trusted by Microsoft and all Major Root Programs</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/pentagon-bans-military-from-using-devices-with-gps/">Pentagon bans military from using GPS apps and fitness trackers</a></li>
+              <li><a class="lnk-orange" href="https://www.theregister.co.uk/2018/08/07/chaff_confuse_automated_vulnerability_scanners/">Top tip? Sprinkle bugs into your code to throw off robo-vuln scanners</a></li>
+              <li><a class="lnk-purple" href="https://www.theregister.co.uk/2018/08/06/facebook_tls_1_3_fizz/">Facebook releases Fizz: TLS 1.3 library</a></li>
+              <li><a class="lnk-blue" href="https://amp.thehackernews.com/thn/2018/08/tsmc-wannacry-ransomware-attack.html">TSMC Chip Maker Blames WannaCry Malware for Production Halt</a></li>
+              <li><a class="lnk-pink" href="https://www.darkreading.com/threat-intelligence/mastering-mitres-attandck-matrix/d/d-id/1332460">Mastering MITRE's ATT&CK Matrix</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-method-simplifies-cracking-wpa-wpa2-passwords-on-80211-networks/">New Method Simplifies Cracking WPA/WPA2 Passwords on 802.11 Networks</a></li>
+              <li><a class="lnk-orange" href="https://www.csoonline.com/article/3295012/security/hundreds-of-hp-inkjet-printer-models-vulnerable-to-critical-remote-code-execution-flaws.amp.html">Hundreds of HP inkjet printer models vulnerable to critical remote code execution flaws</a></li>
+              <li><a class="lnk-purple" href="https://www.inforisktoday.com/numerous-openemr-security-flaws-found-most-patched-a-11304">Numerous OpenEMR Security Flaws Found; Most Patched</a></li>
+              <li><a class="lnk-blue" href="https://arstechnica.com/staff/2018/08/windows-10-to-get-disposable-sandboxes-for-dodgy-apps/">Windows 10 to get disposable sandboxes for dodgy apps</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://medium.com/netflix-techblog/netflix-cloud-security-detecting-credential-compromise-in-aws-9493d6fd373a">Netflix Cloud Security: Detecting Credential Compromise in AWS</a></li>
+              <li><a class="lnk-pink" href="https://posts.specterops.io/bloodhound-2-0-bc5117c45a99">BloodHound 2.0</a></li>
+              <li><a class="lnk-green" href="https://www.mbsecure.nl/blog/2018/06/hunting-with-ja3">Hunting with JA3</a></li>
+              <li><a class="lnk-orange" href="https://github.com/michenriksen/gitrob">GitRob: Reconnaissance tool for GitHub organizations</a></li>
+              <li><a class="lnk-purple" href="https://github.com/zricethezav/gitleaks">GitLeaks: Audit git repos for secrets 🔑</a></li>
+              <li><a class="lnk-blue" href="https://securitytrails.com/blog/use-reverse-dns-records-to-identify-mass-scanners">How to use reverse DNS records to identify mass scanners</a></li>
+              <li><a class="lnk-pink" href="https://portswigger.net/blog/practical-web-cache-poisoning">Practical Web Cache Poisoning</a></li>
+              <li><a class="lnk-green" href="https://daniel.haxx.se/blog/2018/08/10/how-to-doh-only-with-firefox/">How to DoH (DNS over HTTPS) only with Firefox</a></li>
+              <li><a class="lnk-orange" href="https://mattslifebytes.com/2018/08/07/protecting-internal-applications-with-a-saml-aware-reverse-proxy-a-tutorial/">Protecting internal applications with a SAML-aware reverse-proxy (a tutorial)</a></li>
+              <li><a class="lnk-purple" href="https://smallstep.com/blog/zero-trust-swiss-army-knife.html">Step: A New Zero Trust Swiss Army Knife from Smallstep</a></li>
+              <li><a class="lnk-blue" href="https://github.com/bfuzzy/auditd-attack">A Linux Auditd rule set mapped to MITRE's Attack Framework</a></li>
+              <li><a class="lnk-pink" href="https://insights.sei.cmu.edu/cert/2018/08/when-aslr-is-not-really-aslr---the-case-of-incorrect-assumptions-and-bad-defaults.html"> When "ASLR" Is Not Really ASLR - The Case of Incorrect Assumptions and Bad Defaults</a></li>
+              <li><a class="lnk-green" href="http://www.datagenetics.com/blog/september32012/">PIN analysis</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
