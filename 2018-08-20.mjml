@@ -1,0 +1,164 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 20/08/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/intel-has-new-speculative-execution-issue-foreshadow-showcase_image-8-a-11347.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">20 August 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Intel Has a New Speculative Execution Issue: Foreshadow</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/intel-has-new-speculative-execution-issue-foreshadow-showcase_image-8-a-11347.jpg"></mj-image>
+          <mj-text color="#fff">The Meltdown and Spectre vulnerabilities revealed earlier this year showed how the quest to make CPUs run faster inadvertently introduced serious security vulnerabilities that could be used to access sensitive data. Now, researchers have unveiled a new attack called Foreshadow that builds on those speculative execution flaws, affecting millions of Intel processors made over the past five years. It's particularly dangerous because Foreshadow can be triggered from the user space and does not require a privileged attacker with root access.</mj-text>
+          <mj-text color="#fff">The vulnerability has been kept under wraps since January as Intel has developed mitigations. Intel also found two variants of the Foreshadow attack, one of which could affect cloud-computing environments. While Foreshadow is serious, Intel says it expects its impact on consumers and enterprises in non-virtualized environments to be low. The chip manufacturer has issued microcode fixes all three variations of the vulnerability, two of which it believes have been sufficiently mitigated.</mj-text>
+          <mj-text color="#fff">Intel, operating system and hypervisor vendors have issued update to mitigate the CVE-2018-3646 aspect of Foreshadow, but Intel says in some cases, more defensive steps may need to be taken.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/intel-has-new-speculative-execution-issue-foreshadow-a-11347">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.securityweek.com/foreshadowl1tf-what-you-need-know">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.hackread.com/hackers-can-use-fax-machines-to-inject-malware-into-a-targeted-network/">Faxploit: Hackers can use Fax machines to inject malware into a targeted network</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/popular-android-apps-vulnerable-to-man-in-the-disk-attacks/">Popular Android Apps Vulnerable to Man-in-the-Disk Attacks</a></li>
+              <li><a class="lnk-green" href="https://amp.thehackernews.com/thn/2018/08/macos-mouse-click-hack.html">ex-NSA Hacker Discloses macOS High Sierra Zero-Day Vulnerability</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/voracle-attack-can-recover-http-data-from-vpn-connections/">VORACLE Attack Can Recover HTTP Data From VPN Connections</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/skim-reaper-device-that-detects-wide-range-of-skimmer-devices/">Skim Reaper Device That Detects Wide Range of Skimmer Devices</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/google-amp/article/microsoft-patch-tuesday-60-vulnerabilities-resolved-including-two-active-exploits/">Microsoft Patch Tuesday: 60 vulnerabilities resolved including two active exploits</a></li>
+              <li><a class="lnk-pink" href="https://amp.thehackernews.com/thn/2018/08/microsoft-office365-phishing.html">Email Phishers Using New Way to Bypass Microsoft Office 365 Protections</a></li>
+              <li><a class="lnk-green" href="https://www.theage.com.au/national/victoria/melbourne-teen-hacked-into-apple-s-secure-computer-network-court-told-20180816-p4zxwu.html">Melbourne teen hacked into Apple's secure computer network, court told</a></li>
+              <li><a class="lnk-orange" href="https://pwnies.com/winners/">2018 Pwnie Awards: Winners are up</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/linux/two-ddos-friendly-bugs-fixed-in-linux-kernel/">Two DDoS Friendly Bugs Fixed in Linux Kernel</a></li>
+              <li><a class="lnk-blue" href="https://amp.thehackernews.com/thn/2018/08/google-chrome-vulnerability.html">Chrome Bug Allowed Hackers to Find Out Everything Facebook Knows About You</a></li>
+              <li><a class="lnk-pink" href="https://gbhackers.com/btlejacking-attack-allow/">Btlejacking Attack Could Allow a Hacker to Jam and Takeover the Bluetooth Connection</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2018/08/php-deserialization-wordpress.html">New PHP Code Execution Attack Puts WordPress Sites at Risk</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/mozilla-wipes-23-firefox-add-ons-off-the-map-for-tracking-user-activity/">Mozilla wipes 23 Firefox add-ons off the map for tracking user activity</a></li>
+              <li><a class="lnk-purple" href="https://www.malgregator.com/key-management.html">Commercial Cryptographic Key Management in 2018</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://dmitryfrank.com/articles/backup_u2f_token">Reliable, Secure and Universal Backup for U2F Token</a></li>
+              <li><a class="lnk-pink" href="https://www.netgate.com/docs/pfsense/book/">The pfSense book</a></li>
+              <li><a class="lnk-green" href="https://developers.google.com/web/updates/2018/07/reportingobserver">ReportingObserver: know your code health</a></li>
+              <li><a class="lnk-orange" href="http://seclists.org/oss-sec/2018/q3/124">OpenSSH Username Enumeration through malformed packets</a></li>
+              <li><a class="lnk-purple" href="https://dttw.tech/posts/Hka91N-IQ">Welcome to the New Order: A DEF CON 2018 CTF Retrospective</a></li>
+              <li><a class="lnk-blue" href="https://www.malgregator.com/key-management.html">Commercial Cryptographic Key Management in 2018</a></li>
+              <li><a class="lnk-pink" href="https://software.intel.com/security-software-guidance/software-guidance/l1-terminal-fault">L1 Terminal Fault / CVE-2018-3615 , CVE-2018-3620,CVE-2018-3646 / INTEL-SA-00161</a></li>
+              <li><a class="lnk-green" href="https://github.com/tarunkant/Gopherus">Generates gopher link for exploiting SSRF and gaining RCE in various servers</a></li>
+              <li><a class="lnk-orange" href="https://www.okta.com/security-blog/2018/08/multi-factor-authentication-microsoft-adfs-vulnerability/">CVE-2018-8340: Multi-Factor Mixup in Microsoft ADFS</a></li>
+              <li><a class="lnk-purple" href="https://www.ei.rub.de/media/nds/veroeffentlichungen/2018/08/13/sec18-felsch.pdf">The Dangers of Key Reuse: Practical Attacks on IPsec IKE</a></li>
+              <li><a class="lnk-blue" href="https://utkusen.com/blog/bypassing-anomaly-based-nids-with-empire.html">Evading Anomaly-Based NIDS with Empire</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@harwoeck/password-and-credential-management-in-2018-56f43669d588">Password and Credential Management in 2018</a></li>
+              <li><a class="lnk-green" href="https://github.com/cossacklabs/acra/">Acra: Database encryption proxy for data-driven apps: strong selective encryption, SQL injections prevention, intrusion detection, honeypots.</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
