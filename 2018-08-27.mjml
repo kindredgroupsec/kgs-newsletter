@@ -1,0 +1,205 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 27/08/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/posts/2018/08/21/Ghostscript.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">27 August 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Primer on two-factor authentication</mj-text>
+          <mj-image src="https://trust.salesforce.com/static/images/2fa/2fa-devices.png"></mj-image>
+          <mj-text color="#fff">Many online accounts allow you to supplement your password with a second form of identification, which can prevent some prevalent attacks. The second factors you can use to identify yourself include authenticator apps on your phone, which generate codes that change every 30 seconds, and security keys, small pieces of hardware similar in size and shape to USB drives.</mj-text>
+          <mj-text color="#fff">Since innovations that can actually improve the security of your online accounts are rare, there has been a great deal of well-deserved enthusiasm for two-factor authentication (as well as for password managers, which make it easy to use a different random password for every one of your online accounts.) These are technologies more people should be using.</mj-text>
+          <mj-text color="#fff">However, in trying to persuade users to adopt second factors, advocates sometimes forget to disclose that all security measures have trade-offs. Before you require a second factor to login to your accounts, you should understand the risks, have a recovery plan for when you lose your second factor(s), and know the tricks attackers may use to defeat two-factor authentication.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://medium.com/@stuartschechter/before-you-turn-on-two-factor-authentication-27148cc5b9a1">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://twofactorauth.org/">
+            Common services supporting 2FA
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Experts Urge Rapid Patching of ‘Struts’ Bug</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2018/08/apache.png"></mj-image>
+          <mj-text>In September 2017, Equifax disclosed that a failure to patch one of its Internet servers against a pervasive software flaw — in a Web component known as Apache Struts — led to a breach that exposed personal data on 147 million Americans. Now security experts are warning that blueprints showing malicious hackers how to exploit a newly-discovered Apache Struts bug are available online, leaving countless organizations in a rush to apply new updates and plug the security hole before attackers can use it to wriggle inside.</mj-text>
+          <mj-text>On Aug. 22, the Apache Software Foundation released software updates to fix a critical vulnerability in Apache Struts, a Web application platform used by an estimated 65 percent of Fortune 100 companies. Unfortunately, computer code that can be used to exploit the bug has since been posted online, meaning bad guys now have precise instructions on how to break into vulnerable, unpatched servers.</mj-text>
+          <mj-text>“Critical remote code execution vulnerabilities like the one that affected Equifax and the one we announced today are incredibly dangerous for several reasons: Struts is used for publicly-accessible customer-facing websites, vulnerable systems are easily identified, and the flaw is easy to exploit,” wrote Semmle co-founder Pavel Avgustinov. “A hacker can find their way in within minutes, and exfiltrate data or stage further attacks from the compromised system. It’s crucially important to update affected systems immediately; to wait is to take an irresponsible risk.”</mj-text>
+          <mj-text>The vulnerability affects all supported versions of Struts 2. Users of Struts 2.3 should upgrade to version 2.3.35; users of Struts 2.5 should upgrade to 2.5.17.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://krebsonsecurity.com/2018/08/experts-urge-rapid-patching-of-struts-bug/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/critical-remote-code-execution-flaw-in-apache-struts-exposes-the-enterprise-to-attack/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">No Patch Available Yet for New Major Vulnerability in Ghostscript Interpreter</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/08/21/Ghostscript.png"></mj-image>
+          <mj-text>Tavis Ormandy, a Google Project Zero security researcher, has revealed details about a new major vulnerability discovered in Ghostscript, an interpreter for Adobe's PostScript and PDF page description languages. Ghostscript is by far the most widely used solution of its kind. The Ghostscript interpreter is embedded in hundreds of software suites and coding libraries that allow desktop software and web servers to handle PostScript and PDF-based documents. For example, you'll find Ghostscript inside ImageMagick, Evince, GIMP, and all PDF editing or viewing software.</mj-text>
+          <mj-text>Exploiting the bug Ormandy discovered requires that an attacker sends a malformed PostScript, PDF, EPS, or XPS file to a victim. Once the file reaches the Ghostscript interpreter, the malicious code contained within will execute an attacker's desired on that machine.</mj-text>
+          <mj-text>At the time of writing, there is no fix available. "I *strongly* suggest that [Linux] distributions start disabling PS, EPS, PDF and XPS coders in [ImageMagick's] policy.xml by default," Ormandy said.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/no-patch-available-yet-for-new-major-vulnerability-in-ghostscript-interpreter/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://nakedsecurity.sophos.com/2018/08/23/how-an-uploaded-image-could-take-over-your-website-and-how-to-stop-it/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://amp.thehackernews.com/thn/2018/08/adobe-photoshop-update.html">Adobe Issues Emergency Patches for Critical Flaws in Photoshop CC</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/supply-chain-attack-hits-organizations-in-south-korea/">Supply Chain Attack Hits Organizations In South Korea</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2018/08/alleged-sim-swapper-arrested-in-california/">Alleged SIM Swapper Arrested in California</a></li>
+              <li><a class="lnk-orange" href="https://www.digitalshadows.com/blog-and-research/mitre-attck-and-the-fin7-indictment-lessons-for-organizations/">Mitre ATT&CK™ and the FIN7 Indictment: Lessons for Organizations</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/google-amp/article/windows-10-alert-all-versions-get-new-intel-patches-for-spectre-foreshadow-bugs/">Windows 10 alert: All versions get new Intel patches for Spectre, Foreshadow bugs</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/hacker-holds-the-data-of-20000-superdrug-customers-to-ransom/">Hacker holds the data of 20,000 Superdrug customers to ransom</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/tls-certs-outliving-domain-ownership-open-door-to-mitm-and-dos/">TLS Certs Outliving Domain Ownership Open Door to MitM and DoS</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cloud-product-accidentally-exposes-users-tls-certificate-private-keys/">Cloud Product Accidentally Exposes Users' TLS Certificate Private Keys</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/new-attack-recovers-rsa-encryption-keys-from-em-waves-within-seconds/">New Attack Recovers RSA Encryption Keys from EM Waves Within Seconds</a></li>
+              <li><a class="lnk-purple" href="https://blog.cloudflare.com/cache-poisoning-protection/">Cloudflare's approach to protect from cache poisoning</a></li>
+              <li><a class="lnk-blue" href="https://amp.thehackernews.com/thn/2018/08/mexico-banking-malware.html">Dark Tequila Banking Malware Uncovered After 5 Years of Activity</a></li>
+              <li><a class="lnk-pink" href="https://www.csoonline.com/article/3298166/cloud-security/what-are-amazon-zelkova-and-tiros-aws-looks-to-reduce-s3-configuration-errors.html">What are Amazon Zelkova and Tiros? AWS looks to reduce S3 configuration errors</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/skypes-end-to-end-encryption-goes-live/">Skype's End-to-End Encryption Goes Live</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/new-turning-tables-technique-bypasses-all-windows-kernel-mitigations/">New "Turning Tables" Technique Bypasses All Windows Kernel Mitigations</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/google/gmails-confidential-mode-lets-you-send-self-destructing-emails/">Gmail's Confidential Mode Lets You Send Self-Destructing Emails...beware of Phishing attempts</a></li>
+              <li><a class="lnk-blue" href="https://www.hackread.com/fake-android-fortnite-version-circulating-on-the-web-to-spread-malware/">Fake Android Fortnite version circulating on the web to spread malware</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/nccgroup/singularity">Singularity: A DNS rebinding attack framework</a></li>
+              <li><a class="lnk-pink" href="https://lgtm.com/blog/apache_struts_CVE-2018-11776">CVE-2018-11776: How to find 5 RCEs in Apache Struts with Semmle QL</a></li>
+              <li><a class="lnk-green" href="https://portswigger.net/blog/burp-suite-2-0-beta-now-available">Burp Suite 2.0 beta now available</a></li>
+              <li><a class="lnk-orange" href="https://ninja.style/post/bcard/">Enumerating registered BlackHat attendees with the BCard API</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/crowdstrike-adds-malware-search-engine-hybrid-analysis">CrowdStrike Adds Malware Search Engine to 'Hybrid Analysis'</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2018/08/21/serious-security-how-to-stop-dodgy-http-headers-clogging-your-website/">Serious Security: How to stop dodgy HTTP headers clogging your website</a></li>
+              <li><a class="lnk-pink" href="https://paragonie.com/blog/2018/08/security-concerns-surrounding-webauthn-don-t-implement-ecdaa-yet">Security Concerns Surrounding WebAuthn: Don't Implement ECDAA (Yet)</a></li>
+              <li><a class="lnk-green" href="https://labs.mwrinfosecurity.com/blog/from-http-referer-to-aws-security-credentials/">DNS Rebinding Headless Browsers</a></li>
+              <li><a class="lnk-orange" href="http://seclists.org/oss-sec/2018/q3/142">More Ghostscript Issues: Should we disable PS coders in policy.xml by default?</a></li>
+              <li><a class="lnk-purple" href="https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/">Pacu: The Open Source AWS Exploitation Framework</a></li>
+              <li><a class="lnk-blue" href="https://uselesscsp.com/">Useless CSP</a></li>
+              <li><a class="lnk-pink" href="http://pages.cs.wisc.edu/~liangw/pub/atc18-final298.pdf?utm_campaign=Serverless%2BDigest&utm_source=Serverless_Digest_44">Peeking Behind the Curtains of Serverless Platforms</a></li>
+              <li><a class="lnk-green" href="https://hackerone.com/reports/386807">Account takeover due to blind MongoDB injection in password reset</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
