@@ -1,0 +1,185 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 03/09/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/images/news/u/986406/attacks/Vulnerabilities/ALPC-tweet.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">3 September 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Exploit Published for Unpatched Flaw in Windows Task Scheduler</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/u/986406/attacks/Vulnerabilities/ALPC-tweet.png"></mj-image>
+          <mj-text color="#fff">A security researcher has published on Twitter details about a vulnerability in the Windows OS. The vulnerability is a "local privilege escalation" issue that allows an attacker to elevate the access of malicious code from a limited USER role to an all-access SYSTEM account.</mj-text>
+          <mj-text color="#fff">Will Dormann, an engineer of CERT/CC, has confirmed the vulnerability and has issued an official CERT/CC alert last night. Dormann says the vulnerability resides in the Windows Task Scheduler, and more precisely in the Advanced Local Procedure Call (ALPC) interface.</mj-text>
+          <mj-text color="#fff">The researcher, who goes online by the name of SandboxEscaper, has released proof-of-concept (PoC) code on GitHub for exploiting the ALPC interface to gain SYSTEM access on a Windows system. Malware authors will particularly be interested in this PoC, as it allows benign malware to gain admin access on targeted systems using an exploit more reliable than many existing methods. SandboxEscaper has not notified Microsoft about the vulnerability, meaning there is no official patch for this flaw. Currently, all Windows 64-bit users are vulnerable. The zero-day flaw has been confirmed working on a "fully-patched 64-bit Windows 10 system."</mj-text>
+          <mj-text color="#fff">A patch is available for the Windows zero-day, but it’s not from Microsoft. Instead, the fix comes from 0patch, a community project that aims at addressing software vulnerabilities by delivering tiny fixes to users worldwide. The fix for this week’s vulnerability is also very small, at only 13 bytes. It was released within 24 hours after the bug was ousted on Twitter on Monday, and, already validated and verified, it is now rolling out to users. </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/exploit-published-for-unpatched-flaw-in-windows-task-scheduler/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2018/08/windows-zero-day-exploit.html">
+            Even More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.securityweek.com/third-party-patch-released-windows-zero-day">
+            Third-Party Patch Released for Windows Zero-Day
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Critical Flaw Fixed in Packagist, PHP's Largest Package Repository</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/08/29/Packagist.png"></mj-image>
+          <mj-text>The maintainers of Packagist, the PHP ecosystem's largest package repository, have fixed a critical vulnerability on their official website that could have allowed an attacker to hijack their service. The flaw was discovered and reported by security researcher Max Justicz.</mj-text>
+          <mj-text>According to Justicz, the "Submit Package" input field for submitting new PHP packages via the Packagist homepage allowed an attacker to run a malicious command in the format of "$(MALICIOUS_COMMANDS)". Justicz discovered that Packagist was improperly escaping inputted characters when performing checks to see if the URL leads to a Perforce or Subversion repository, and was executing the malicious commands.</mj-text>
+          <mj-text>Packagist is not a package manager, but only a host for PHP packages. It is the default package host behind Composer, the most popular PHP package manager. Packagist is the largest package hosting service in the PHP ecosystem, with over 435 million package installs reported in July 2018 alone.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/critical-flaw-fixed-in-packagist-phps-largest-package-repository/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2018/08/30/how-one-man-could-have-pwned-all-your-php-programs/amp/">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://arstechnica.com/gadgets/2018/08/wireguard-vpn-review-fast-connections-amaze-but-windows-support-needs-to-happen/">WireGuard VPN review: A new type of VPN offers serious advantages</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2018/08/30/air-canada-resets-1-7-million-accounts-after-app-breach/">Air Canada resets 1.7 million accounts after app breach</a></li>
+              <li><a class="lnk-green" href="https://blog.mozilla.org/futurereleases/2018/08/30/changing-our-approach-to-anti-tracking/">Firefox: Changing Our Approach to Anti-tracking</a></li>
+              <li><a class="lnk-orange" href="https://www.troyhunt.com/pwned-passwords-now-as-ntlm-hashes/">Pwned Passwords, Now As NTLM Hashes!</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/one-in-five-employees-share-their-email-password-with-co-workers/">One in five employees share their email password with co-workers</a></li>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2018/08/fiserv-flaw-exposed-customer-data-at-hundreds-of-banks/">Fiserv Flaw Exposed Customer Data at Hundreds of Banks</a></li>
+              <li><a class="lnk-pink" href="http://www.infosecisland.com/blogview/25097-Conceptual-and-Technical-Challenges-in-Multi-cloud-Security.html">Conceptual and Technical Challenges in Multi-cloud Security</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/data-of-130-million-chinese-hotel-chain-guests-sold-on-dark-web-forum/">Data of 130 Million Chinese Hotel Chain Guests Sold on Dark Web Forum</a></li>
+              <li><a class="lnk-orange" href="https://www.theregister.co.uk/2018/08/28/bad_passwords_never_go_out_of_fashion/">No, eight characters, some capital letters and numbers is not a good password policy</a></li>
+              <li><a class="lnk-purple" href="https://www.theregister.co.uk/2018/08/27/fortnite_ceo_slams_google_for_revealing_security_hole_early/">Fortnite CEO mad at Google for revealing security hole early</a></li>
+              <li><a class="lnk-blue" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/08/30/building-the-security-operations-center-of-tomorrow-harnessing-the-law-of-data-gravity/">Building the security operations center of tomorrow—harnessing the law of data gravity</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2018/08/google-titan-security-key.html">Google 'Titan Security Key' Is Now On Sale For $50</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://justi.cz/security/2018/08/28/packagist-org-rce.html">Remote Code Execution on packagist.org</a></li>
+              <li><a class="lnk-pink" href="https://blog.0patch.com/2018/08/how-we-micropatched-publicly-dropped.html">How We Micropatched a Publicly Dropped 0day in Task Scheduler (CVE-UNKNOWN)</a></li>
+              <li><a class="lnk-green" href="https://blog.scrt.ch/2018/08/24/remote-code-execution-on-a-facebook-server/">Remote Code Execution on a Facebook server</a></li>
+              <li><a class="lnk-orange" href="https://dotelite.gr/the-lame-technique/">LAteral Movement Encryption technique (a.k.a. The "LAME" technique)</a></li>
+              <li><a class="lnk-purple" href="https://www.trustwave.com/Resources/SpiderLabs-Blog/Firework--Leveraging-Microsoft-Workspaces-in-a-Penetration-Test/">Firework: Leveraging Microsoft Workspaces in a Penetration Test</a></li>
+              <li><a class="lnk-blue" href="https://github.com/AndProx/AndProx/">Native Android Proxmark3 client (no root required)</a></li>
+              <li><a class="lnk-green" href="https://www.pentestgeek.com/burp-suite/playing-with-the-new-burp-suite-rest-api">Playing with the new Burp suite REST API</a></li>
+              <li><a class="lnk-orange" href="https://www.nccgroup.trust/uk/our-research/technical-advisory-bypassing-workflows-protection-mechanisms-remote-code-execution-on-sharepoint/">Bypassing Workflows Protection Mechanisms - Remote Code Execution on SharePoint</a></li>
+              <li><a class="lnk-purple" href="https://rhinosecuritylabs.com/aws/assume-worst-aws-assume-role-enumeration/">Assume the Worst: Enumerating AWS Roles through ‘AssumeRole</a></li>
+              <li><a class="lnk-blue" href="https://blog.secureideas.com/2018/07/three-c-words-of-web-app-security-part-1-cors.html">Three C-Words of Web App Security: Part 1 – CORS</a></li>
+              <li><a class="lnk-pink" href="https://www.voidsecurity.in/2018/08/from-compiler-optimization-to-code.html">From Compiler Optimization to Code Execution - VirtualBox VM Escape - CVE-2018-2844</a></li>
+              <li><a class="lnk-green" href="https://www.secjuice.com/apache-struts2-cve-2018-11776/">Apache Struts2 CVE-2018-11776 POC</a></li>
+              <li><a class="lnk-orange" href="https://insinuator.net/2018/08/nmap-parse-output-a-tool-for-analyzing-nmap-scans/">nmap-parse-output: A tool for analyzing Nmap scans</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
