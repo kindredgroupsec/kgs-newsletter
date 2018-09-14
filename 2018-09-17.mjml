@@ -1,0 +1,223 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 17/09/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-QJopzWCxfnE/W5pXtRt2X0I/AAAAAAAAyHE/yrdKkjT9DVszxku-9bX7o7_MlMdRyQMIQCLcBGAs/s728-e100/cold-boot-attack-full-disk-encryption.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">17 September 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Why that email from your boss could be a scam waiting to happen</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/u/1100723/friendly-name-spoofing_evolution.png"></mj-image>
+          <mj-text color="#fff">While phishing continues to be the prevalent threat in malware-less email-based attacks, cybercriminals refine their methods by adding an impersonation component to increase the success rate against company employees. Impersonation fraud—also known as Business Email Compromise (BEC)—is on the rise, as criminals gain access to a business email account and pretend to be the account owner in order to defraud the company and its employees, customers, or partners.</mj-text>
+          <mj-text color="#fff">One technique cybercriminals use in impersonation attacks is to give the email address a name that is trusted by the victim. This detail may be the only one shown, so the source of the message will reveal the deception. Another tactic that is usually combined with display name spoofing is to use an address with a friendly username that is trusted by the victim. Other methods rely on tricking the eye by using domain names that look like a trusted source. Purchasing domains that are similar to the ones impersonated is a common strategy that is often used in phishing attacks.</mj-text>
+          <mj-text color="#fff">One in 12 businesses have fallen victim to impersonation fraud, a recent report found, and there has been a 58% rise in this type of crime this year. However, the data is based only on reported fraud cases, the report noted, so the true scale of the problem is likely much larger. Fear of punishment also keeps employees from reporting cybersecurity mistakes, the report found: One in 20 employee victims of impersonation fraud said they were so ashamed that they hid their mistake from their team. However, hiding an issue like this likely causes further problems, the report noted. If the systems have been compromised, the criminals may be able to access other critical information, or make new requests, increasing losses.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/crooks-combine-phishing-and-impersonation-for-higher-success-rate/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.techrepublic.com/article/why-that-email-from-your-boss-could-be-a-scam-waiting-to-happen/">
+            Even More on TechRepublic
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">MageCart: Card-stealing code that pwned British Airways, Ticketmaster pops up on more sites via hacked JavaScript</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/riskiq-british-airways-breach-ties-to-cybercrime-group-showcase_image-5-a-11481.jpg"></mj-image>
+          <mj-text>A Javascript library hosted by Feedify and used by e-commerce websites globally has been repeatedly infected this week to potentially siphon off countless victims' bank card details to crooks. The library code is typically embedded into retail webpages by site administrators and developers to add a means for shoppers to leave customer feedback.</mj-text>
+          <mj-text>This library has been repeatedly tampered with by hackers to include the MageCart malware. This malicious software seeks out credit card details entered on the compromised webpages, and phones them home to an outside server controlled by fraudsters. Thus, if someone visits a website that includes Feedify's vandalized code, their browser will pull in the MageCart malware from Feedify's servers as well as the feedback form, and this will then snoop on and siphon off any sensitive information, such as payment card data, typed in and submitted.</mj-text>
+          <mj-text>Feedify claims 4,000-plus websites use its code; a quick search showed at least a few hundred using this particular feedback library. And that, by the way, is the same MageCart script that also, it is understood, appeared on the British Airways and Ticketmaster websites, leading to the theft of people's payment card data while booking tickets.</mj-text>
+          <mj-text>Essentially, this is a textbook demonstration of why sensitive pages on websites – particular payment pages – should not carry any third-party code. If the JavaScript or other elements are hosted by an external source, and that source is pwned, and there is no way to detect that, it's game over for everyone. And if the source is supplying scripts to thousands of websites, it becomes a very valuable target: hacking it will compromise many, many online stores in one fell swoop.</mj-text>
+          <mj-button mj-class="bg-pink" href="#">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/feedify-becomes-latest-victim-of-the-magecart-malware-campaign/">
+            Feedify becomes latest victim of the Magecart malware campaign
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bankinfosecurity.com/riskiq-british-airways-breach-ties-to-cybercrime-group-a-11481">
+            Even More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">New Cold Boot Attack Unlocks Disk Encryption On Nearly All Modern PCs</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-QJopzWCxfnE/W5pXtRt2X0I/AAAAAAAAyHE/yrdKkjT9DVszxku-9bX7o7_MlMdRyQMIQCLcBGAs/s728-e100/cold-boot-attack-full-disk-encryption.jpg"></mj-image>
+          <mj-text>Security researchers have revealed a new attack to steal passwords, encryption keys and other sensitive information stored on most modern computers, even those with full disk encryption. The attack is a new variation of a traditional Cold Boot Attack, which is around since 2008 and lets attackers steal information that briefly remains in the memory (RAM) after the computer is shut down.</mj-text>
+          <mj-text>However, to make the cold boot attacks less effective, most modern computers come bundled with a safeguard, created by the Trusted Computing Group (TCG), that overwrites the contents of the RAM when the power on the device is restored, preventing the data from being read. Now, researchers from Finnish cyber-security firm F-Secure figured out a new way to disable this overwrite security measure by physically manipulating the computer's firmware, potentially allowing attackers to recover sensitive data stored on the computer after a cold reboot in a matter of few minutes.</mj-text>
+          <mj-text>Like the traditional cold boot attack, the new attack also requires physical access to the target device as well as right tools to recover remaining data in the computer's memory.</mj-text>
+          <mj-text>According to Olle and his colleague Pasi Saarinen, their new attack technique is believed to be effective against nearly all modern computers and even Apple Macs and can't be patched easily and quickly. Microsoft updated its guidance on Bitlocker countermeasures in response to the F-Secure's findings. Apple recommended users to set a firmware password in order to help harden the security of their computers. Intel has yet to comment on the matter. Meanwhile, the duo recommends IT departments to configure all company computers to either shut down or hibernate (not enter sleep mode) and require users to enter their BitLocker PIN whenever they power up or restore their PCs.</mj-text>
+          <mj-button mj-class="bg-green" href="https://thehackernews.com/2018/09/cold-boot-attack-encryption.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://arstechnica.com/gadgets/2018/09/cold-boot-attacks-given-new-life-with-firmware-attack/">
+            Even more from Ars Technica
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-countermeasures">
+            BitLocker Countermeasures
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-purple" href="https://www.theatlantic.com/technology/archive/2018/09/phishing-is-the-internets-most-successful-con/569920/">Phishing Is the Internet’s Most Successful Con</a></li>
+              <li><a class="lnk-blue" href="https://www.troyhunt.com/the-42m-record-kayo-moe-credential-stuffing-data/">The 42M Record kayo.moe Credential Stuffing Data</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/microsoft-office-is-more-dangerous-than-you-think-doc-deliver-45-of-all-malware/">Microsoft Office is more dangerous than you think: Docs deliver 45% of all malware</a></li>
+              <li><a class="lnk-green" href="http://www.infosecisland.com/blogview/25109-Why-Admin-Rights-Removal-Is-only-the-First-Step-towards-Data-Protection.html">Why Admin Rights Removal Is only the First Step towards Data Protection/a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/security-flaw-can-leak-intel-me-encryption-keys/">Security flaw can leak Intel ME encryption keys</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2018/09/14/browser-security-hole-on-macs-and-iphones-just-how-bad-is-it/">Browser security hole on Macs and iPhones – just how bad is it?</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/apples-safari-falls-for-new-address-bar-spoofing-trick/">Apple's Safari Falls For New Address Bar Spoofing Trick</a></li>
+              <li><a class="lnk-pink" href="https://www.digitalshadows.com/blog-and-research/gaos-equifax-post-mortem-report/">GAO’s Equifax Post-mortem Report</a></li>
+              <li><a class="lnk-green" href="https://software-security.sans.org/blog/2018/09/13/your-secure-devops-questions-answered/">Your Secure DevOps Questions Answered</a></li>
+              <li><a class="lnk-orange" href="https://www.troyhunt.com/the-effectiveness-of-publicly-shaming-bad-security/">The Effectiveness of Publicly Shaming Bad Security</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/sly-malware-author-hides-cryptomining-botnet-behind-ever-shifting-proxy-service/">Sly malware author hides cryptomining botnet behind ever-shifting proxy service</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2018/09/11/keybase-browser-extension-weakness-discovered/">Keybase browser extension weakness discovered</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2018/09/in-a-few-days-credit-freezes-will-be-fee-free/">In a Few Days, Credit Freezes Will Be Fee-Free in the US</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/how-automation-helps-security-managers">How Automation Helps Security Managers</a></li>
+              <li><a class="lnk-orange" href="http://www.infosecisland.com/blogview/25111-Busting-the-VDI-Security-Myth.html">Busting the VDI Security Myth</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/mongo-lock-attack-ransoming-deleted-mongodb-databases/">Mongo Lock Attack Ransoming Deleted MongoDB Databases</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://justi.cz/security/2018/09/13/alpine-apk-rce.html">Remote Code Execution in Alpine Linux</a></li>
+              <li><a class="lnk-pink" href="https://www.digitalshadows.com/blog-and-research/indictment-of-north-korean-regime-backed-programmer/">MITRE ATT&CK™ and the North Korean Regime-Backed Programmer</a></li>
+              <li><a class="lnk-green" href="https://github.com/woodruffw/twa">TWA: A tiny web auditor with strong opinions.</a></li>
+              <li><a class="lnk-orange" href="https://github.com/PaulSec/awesome-windows-domain-hardening">Awesome Windows Domain Hardening</a></li>
+              <li><a class="lnk-purple" href="https://blog.ret2.io/2018/09/11/scalable-security-education/">Scaling up Binary Exploitation Education</a></li>
+              <li><a class="lnk-blue" href="https://www.rafaybaloch.com/2018/09/apple-safari-microsoft-edge-browser.html">Apple Safari & Microsoft Edge Browser Address Bar Spoofing - Writeup</a></li>
+              <li><a class="lnk-pink" href="https://www.esat.kuleuven.be/cosic/fast-furious-and-insecure-passive-keyless-entry-and-start-in-modern-supercars/">Fast, Furious and Insecure: passive keyless entry and start in modern supercars</a></li>
+              <li><a class="lnk-green" href="https://vulmon.com/">Vulmon - Vulnerability / Exploit Search Engine with Vulnerability Intelligence</a></li>
+              <li><a class="lnk-orange" href="https://www.fireeye.com/blog/threat-research/2018/08/bios-boots-what-finding-evil-in-boot-code-at-scale.html">BIOS Boots What? Finding Evil in Boot Code at Scale!</a></li>
+              <li><a class="lnk-purple" href="https://labs.mwrinfosecurity.com/blog/pth-attacks-against-ntlm-authenticated-web-applications/">Passing-the-Hash to NTLM Authenticated Web Applications</a></li>
+              <li><a class="lnk-blue" href="https://labs.nettitude.com/blog/cve-2018-5240-symantec-management-agent-altiris-privilege-escalation/">CVE-2018-5240: Symantec Management Agent (Altiris) Privilege Escalation</a></li>
+              <li><a class="lnk-pink" href="https://sploitus.com/">Sploitus, exploit and tools search engine</a></li>
+              <li><a class="lnk-green" href="https://blog.mindedsecurity.com/2018/09/a-practical-guide-to-testing-security.html">A practical guide to testing the security of Amazon Web Services (Part 1: AWS S3)</a></li>
+              <li><a class="lnk-orange" href="https://www.cybereason.com/blog/.net-malware-dropper">The anatomy of a .NET malware dropper</a></li>
+              <li><a class="lnk-purple" href="https://www.rfk.id.au/blog/entry/security-bugs-ssrf-via-request-splitting/">Security Bugs in Practice: SSRF via Request Splitting</a></li>
+              <li><a class="lnk-blue" href="https://blog.powerdns.com/2018/09/10/spoofing-dns-with-fragments/">Spoofing DNS with fragments</a></li>
+              <li><a class="lnk-pink" href="https://www.mdsec.co.uk/2018/09/serverless-red-team-infrastructure-part-1-web-bugs/">Serverless Red Team Infrastructure: Part 1, Web Bugs</a></li>
+              <li><a class="lnk-green" href="https://chris408.com/post/certificate-transparency-logs-and-how-they-are-a-gold-mine-to-bug-hunters/">Certificate Transparency logs and how they are a gold mine to Bug Hunters</a></li>
+              <li><a class="lnk-orange" href="https://www.ctrl.blog/entry/firefox-fpi">What is First-Party Isolation in Firefox and what breaks if you enabled it</a></li>
+              <li><a class="lnk-purple" href="https://researchcenter.paloaltonetworks.com/2018/09/unit42-multi-exploit-iotlinux-botnets-mirai-gafgyt-target-apache-struts-sonicwall/">Multi-exploit IoT/Linux Botnets Mirai and Gafgyt Target Apache Struts, SonicWall</a></li>
+              <li><a class="lnk-blue" href="https://tersesystems.com/blog/2018/09/08/keymanagers-and-keystores/">Key Managers and Key Stores (Java)</a></li>
+              <li><a class="lnk-pink" href="https://blogs.technet.microsoft.com/cloudyhappypeople/2018/09/10/every-question-tells-a-story-mitigating-ransomware-using-the-rapid-cyberattack-assessment-tool-part-1/">Every Question Tells a Story – Mitigating Ransomware Using the Rapid Cyberattack Assessment Tool: Part 1</a></li>
+              <li><a class="lnk-green" href="https://blog.appsecco.com/open-source-intelligence-gathering-201-covering-12-additional-techniques-b76417b5a544">Open Source Intelligence Gathering 201 </a> (<a class="lnk-green" href="https://blog.appsecco.com/open-source-intelligence-gathering-101-d2861d4429e3">101</a>)</li>
+
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
