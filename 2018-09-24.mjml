@@ -1,0 +1,173 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 24/09/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-JIRLoHVJ-5E/W6KgkWnPMsI/AAAAAAAAyK4/ea_zUYFR51EMdSvWyMSL-j-fF5IJUKTVQCLcBGAs/s728-e100/newegg-data-breach-credit-card-hacking.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">24 September 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Magecart claims another victim in Newegg merchant data theft</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-JIRLoHVJ-5E/W6KgkWnPMsI/AAAAAAAAyK4/ea_zUYFR51EMdSvWyMSL-j-fF5IJUKTVQCLcBGAs/s728-e100/newegg-data-breach-credit-card-hacking.jpg"></mj-image>
+          <mj-text color="#fff">Magecart, the notorious hacking group behind the Ticketmaster and British Airways data breaches, has now victimized popular computer hardware and consumer electronics retailer Newegg.</mj-text>
+          <mj-text color="#fff">Magecart hacking group managed to infiltrate the Newegg website and steal the credit card details of all customers who entered their payment card information between August 14 and September 18, 2018, according to a joint analysis from Volexity and RiskIQ. The Magecart hacking group, which has been active since 2015, registered a domain called neweggstats.com. Being similar to Newegg's legitimate domain, newegg.com, it was likely registered to appear as a genuine extension of the true domain.</mj-text>
+          <mj-text color="#fff">The attack affected both desktop and mobile customers, though it is still unclear how many customers were actually hit by this credit card breach. However, considering that more than 50 million shoppers visit Newegg every month and that the malicious code was there for over one month, it could be assumed that this Magecart newest card skimming campaign has possibly stolen the payment information on millions of Newegg customers, even if only a fraction of those visitors make purchases.</mj-text>
+          <mj-text color="#fff">But where would this payload come from? Newegg itself. Around the same day, the cyberattackers were able to infiltrate Newegg systems and drop payment card skimmer code into the e-retailer's checkout process.</mj-text>
+          <mj-text color="#fff">How do we solve the problem? There is no silver bullet, but some security measures definitely make it harder for the attacker: 1) Define a (strict) Content-Security-Policy (CSP)  2) Trust your 3rd parties, but verify with Subresource Integrity (SRI) 3) Make sure all assets on sensitive pages use SRI through...CSP.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/magecart-claims-another-victim-in-newegg-merchant-data-theft/">
+            Read More at ZDNet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2018/09/newegg-credit-card-hack.html">
+            Even more at TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.riskiq.com/blog/labs/magecart-newegg/">
+            Report from RiskIQ
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://scotthelme.co.uk/hardening-payment-forms-with-csp/">
+            Magecart are coming for you, are you ready?
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/new-xbash-malware-combines-ransomware-coinminer-botnet-and-worm-features-in-deadly-combo/">New XBash malware combines ransomware, coinminer, botnet, and worm features in deadly combo</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/critical-security-update-released-for-adobe-reader-and-acrobat/">Critical Security Update Released for Adobe Reader and Acrobat</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/this-windows-file-may-be-secretly-hoarding-your-passwords-and-emails/">This Windows file may be secretly hoarding your passwords and emails</a></li>
+              <li><a class="lnk-orange" href="https://www.theregister.co.uk/2018/09/18/remote_access_vulnerability_western_digital_my_cloud/">'I am admin' bug turns WD's My Cloud boxes into Everyone's Cloud</a></li>
+              <li><a class="lnk-purple" href="https://amp.thehackernews.com/thn/2018/09/android-ios-hacking-tool.html">Powerful Android and iOS Spyware Found Deployed in 45 Countries</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/credential-stuffing-attacks-generate-billions-of-login-attempts/">Credential Stuffing Attacks Generate Billions of Login Attempts</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/perth-mint-says-3200-customers-affected-by-data-breach-a-11521">Perth Mint Says 3,200 Customers Affected By Data Breach</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/googles-android-team-finds-serious-flaw-honeywell-devices">Google's Android Team Finds Serious Flaw in Honeywell Devices</a></li>
+              <li><a class="lnk-orange" href="https://www.digitalshadows.com/blog-and-research/airline-discovers-trove-of-frequent-flyer-accounts-compromised-and-posted-for-sale-online/">Airline Discovers Trove of Frequent Flyer Accounts Compromised and Posted for Sale Online</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/kraken-cryptor-ransomware-masquerading-as-superantispyware-security-program/">Kraken Cryptor Ransomware Masquerading as SuperAntiSpyware Security Program</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-css-attack-restarts-an-iphone-or-freezes-a-mac/">New CSS Attack Restarts an iPhone or Freezes a Mac</a></li>
+              <li><a class="lnk-pink" href="https://gbhackers.com/zdi-opened-microsoft-zero-day/">ZDI Exposed Unpatched Microsoft RCE Zero-day Flaw in Public After it Crossed the 120 Days Deadline</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/cloudflare-ends-captcha-challenges-for-tor-users/">Cloudflare ends CAPTCHA challenges for Tor users</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/nss-labs-sues-crowdstrike-symantec-eset-amtso-for-alleged-testing-conspiracy/">NSS Labs Sues CrowdStrike, Symantec, ESET, AMTSO for Alleged Testing Conspiracy</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2018/09/21/warning-issued-as-netflix-subscribers-hit-by-phishing-attack/">Warning issued as Netflix subscribers hit by phishing attack</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/cybercrime-markets-sell-access-to-hacked-sites-databases-a-11536">Cybercrime Markets Sell Access to Hacked Sites, Databases</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://labs.spotify.com/2018/09/18/scalable-user-privacy/">Spotify Padlock: Scalable User Privacy</a></li>
+              <li><a class="lnk-pink" href="https://www.endgame.com/blog/technical-blog/kernel-mode-threats-practical-defenses-part-1">Kernel Mode Threats & Practical Defenses: Part 1</a></li>
+              <li><a class="lnk-green" href="https://blog.cloudflare.com/automatically-provision-and-maintain-dnssec/">Expanding DNSSEC Adoption</a></li>
+              <li><a class="lnk-orange" href="https://blog.cloudflare.com/e2e-integrity/">End-to-End Integrity with IPFS</a></li>
+              <li><a class="lnk-purple" href="https://blog.cloudflare.com/rpki-details/">RPKI and BGP: our path to securing Internet Routing</a></li>
+              <li><a class="lnk-blue" href="https://github.com/jeanlouisferey/aws-securitygroup-grapher">AWS SecurityGroup Grapher: Generate a graphical representation of security groups</a></li>
+              <li><a class="lnk-pink" href="https://ipfs.io/ipns/Qmea45XwFtdwaCGAPLRMxFmoUP5YLnknc2WGCGQ3HnDP6f/post/dropbike/">Cracking Dropbike: Data Breach and Free Bike Rides</a></li>
+              <li><a class="lnk-green" href="https://arkakapimag.com/blog/why_you_shouldnt_store_sensitive_data_in_javascript_files.html">Why You Shouldn’t Store Sensitive Data in JavaScript Files</a></li>
+              <li><a class="lnk-orange" href="https://randywestergren.com/xss-vulnerabilities-in-multiple-iframe-busters-affecting-top-tier-sites/">XSS Vulnerabilities in Multiple iFrame Busters Affecting Top Tier Sites</a></li>
+              <li><a class="lnk-purple" href="https://blog.mozilla.org/security/2018/09/11/protecting-mozillas-github-repositories-from-malicious-modification/">Protecting Mozilla’s GitHub Repositories from Malicious Modification</a></li>
+              <li><a class="lnk-blue" href="https://ash-king.co.uk/facebook-bug-bounty-09-18.html">Breaking The Facebook For Android Application</a></li>
+              <li><a class="lnk-pink" href="https://posts.specterops.io/introducing-sharpsploit-a-c-post-exploitation-library-5c7be5f16c51">Introducing SharpSploit: A C# Post-Exploitation Library</a></li>
+              <li><a class="lnk-green" href="https://isc.sans.edu/forums/diary/PrePwned+AMI+Images+in+Amazons+AWS+public+instance+store/24126/">Pre-Pwned AMI Images in Amazon's AWS public instance store</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/@tejaas_solanki/understanding-pgp-by-simulating-it-79248891325f">Understanding PGP by Simulating it!</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

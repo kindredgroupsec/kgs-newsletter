@@ -16,6 +16,6 @@
   },
   "devDependencies": {
     "gulp-load-plugins": "^1.5.0",
-    "gulp-mjml": "^2.2.0"
+    "gulp-mjml": "^3.0.0"
   }
 }
