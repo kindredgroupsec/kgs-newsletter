@@ -1,0 +1,187 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 01/10/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-ipLaR726Rrc/W6yEsIaP98I/AAAAAAAAyOc/2s5NoigHkV4wXVxIkFoTUkB04ApI90TxwCLcBGAs/s728-e100/apple-macos-mojave-exploit.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">1 October 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">New UEFI LoJax Malware Can Survive After OS Re-installation and Hard Disk Replacement</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2017/10/19/APT28.jpg"></mj-image>
+          <mj-text color="#fff">Security researchers from ESET found first ever APT28 group used UEFI rootkit in wild. The UEFI rootkits are hard to detect and extremely dangerous, they persist even after operating system reinstallation and even a hard disk replacement. The Unified Extensible Firmware Interface(UEFI) is a replacement for BIOS that connects computer’s firmware to its operating system.</mj-text>
+          <mj-text color="#fff">To reach the UEFI/BIOS settings, all tools use the kernel driver of the RWEverything tool that allows modification of the settings in the firmware of almost any hardware. The driver is signed with a valid certificate. If write operations are denied, the malicious tool exploits a four-year-old race condition vulnerability in UEFI (CVE-2014-8273) to bypass the defenses. The purpose of the rootkit is just to drop malware into the Windows operating system and make sure that it executes at startup.</mj-text>
+          <mj-text color="#fff">By enabling Secure Boot you can avoid such infection. Make sure that you are using the latest available UEFI/BIOS available for your motherboard. If your system infected Flashing UEFI/BIOS or replacing the motherboard is the only solution.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://gbhackers.com/apt-group-lojax-malware/">
+            Read More on GBHacker
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/apt28-uses-lojax-first-uefi-rootkit-seen-in-the-wild/">
+            Even More on BleepingComputer
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.welivesecurity.com/wp-content/uploads/2018/09/ESET-LoJax.pdf">
+            Research Whitepaper from ESET
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">MacOS Mojave 10.14 Zero-Day Vulnerability - bypasses new Privacy feature</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-ipLaR726Rrc/W6yEsIaP98I/AAAAAAAAyOc/2s5NoigHkV4wXVxIkFoTUkB04ApI90TxwCLcBGAs/s728-e100/apple-macos-mojave-exploit.png"></mj-image>
+          <mj-text>The same day Apple released its latest macOS Mojave operating system, a security researcher demonstrated a potential way to bypass new privacy implementations in macOS using just a few lines of code and access sensitive user data.</mj-text>
+          <mj-text>On Monday, Apple started rolling out its new macOS Mojave 10.14 operating system update to its users, which includes a number of new privacy and security controls, including authorization prompts. Wardle tweeted a video Monday showing how he was able to bypass the permission requirements on a dark-themed Mojave system by running just a few lines of code simulating a malicious app called "breakMojave," which allowed him to access to the address book and copy it to the macOS desktop.</mj-text>
+          <mj-text>It should be noted that the flaw does not work with all of the new privacy protection features implemented by Apple in macOS Mojave, and hardware-based components, like the webcam and microphone, are not affected. Wardle has not released details beyond just the proof-of-concept video until the company patches the issue in order to prevent abuse. Until then, Mojave users are recommended to be cautious about what apps they run.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2018/09/apple-macos-mojave-exploit.html">
+            Read More on The Hacker News
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://twitter.com/patrickwardle/status/1044221338120941568">
+            Original Announcement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-pink" href="https://www.theregister.co.uk/2018/09/27/apple_mdm_insecure/">Looking after the corporate Apple mobile fleet? Beware: MDM onboarding is 'insecure'</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-virustotal-enterprise-offers-private-graphs-faster-searches/">New VirusTotal Enterprise Offers Private Graphs, Faster Searches</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2018/09/linux-kernel-vulnerability.html">New Linux Kernel Bug Affects Red Hat, CentOS, and Debian Distributions</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/wendys-faces-lawsuit-for-unlawfully-collecting-employee-fingerprints/">Wendy's faces lawsuit for unlawfully collecting employee fingerprints</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cisco-releases-alerts-for-14-high-severity-bugs/">Cisco Releases Alerts for 14 High Severity Bugs</a></li>
+              <li><a class="lnk-pink" href="https://heimdalsecurity.com/blog/feature-bug-security-risk-skype-for-business/">Feature, Bug or Just a Huge Security Risk? Skype for Business, Examined</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/gone-in-15-minutes-australias-phone-number-theft-problem-a-11552">Gone in 15 Minutes: Australia's Phone Number Theft Problem</a></li>
+              <li><a class="lnk-orange" href="https://www.csoonline.com/article/3309477/privacy/hey-facebook-quit-discouraging-people-from-using-2fa.amp.html">Hey Facebook: Quit discouraging people from using 2FA</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/password-managers-can-be-tricked-into-believing-that-malicious-android-apps-are-legitimate/">Password managers can be tricked into believing that malicious Android apps are legitimate</a></li>
+              <li><a class="lnk-blue" href="https://www.hackread.com/almost-every-major-free-vpn-service-is-a-glorified-data-farm/">Almost Every Major Free VPN Service is a Glorified Data Farm</a></li>
+              <li><a class="lnk-pink" href="https://www.theregister.co.uk/2018/09/25/open_source_security/">Open-source software supply chain vulns have doubled in 12 months</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/microsoft-heres-why-were-declaring-end-of-password-era/">Microsoft: Here's why we're declaring end of password era</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/starting-up-security/how-to-measure-risk-with-a-better-okr-c259bccf359e">How to measure risk with a better OKR.</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.cloudflare.com/esni/">Encrypting SNI: Fixing One of the Core Internet Bugs</a></li>
+              <li><a class="lnk-pink" href="http://www.harmj0y.net/blog/redteaming/from-kekeo-to-rubeus/">From Kekeo to Rubeus</a></li>
+              <li><a class="lnk-green" href="https://ohpe.it/juicy-potato/">Juicy Potato (abusing the golden privileges)</a></li>
+              <li><a class="lnk-orange" href="https://www.reaperbugs.com/index">Browser Reaper - Warning - Will crash your Browser (and maybe the OS)</a></li>
+              <li><a class="lnk-purple" href="https://github.com/C0RB3N/cspparse">CSParse: A tool to evaluate Content Security Policies.</a></li>
+              <li><a class="lnk-blue" href="https://aws.amazon.com/blogs/security/use-yubikey-security-key-sign-into-aws-management-console/">Use YubiKey security key to sign into AWS Management Console</a></li>
+              <li><a class="lnk-pink" href="https://twitter.com/gentilkiwi/status/1044715664823308289">New Mimikatz version to bypass Windows 10 Credential Guard</a></li>
+              <li><a class="lnk-green" href="https://www.securify.nl/advisory/SFY20180102/authentication-bypass-vulnerability-in-western-digital-my-cloud-allows-escalation-to-admin-privileges.html">Authentication bypass vulnerability in Western Digital My Cloud allows escalation to admin privileges</a></li>
+              <li><a class="lnk-orange" href="https://blogs.securiteam.com/index.php/archives/3736">VirtualBox VRDP Guest-to-Host Escape</a></li>
+              <li><a class="lnk-purple" href="https://blog.trailofbits.com/2018/09/26/effortless-security-feature-detection-with-winchecksec/">WinSecCheck: Detect security features in Windows binaries.</a></li>
+              <li><a class="lnk-blue" href="https://www.n00py.io/2018/08/bypassing-duo-two-factor-authentication-fail-open/">Bypassing Duo Two-Factor Authentication (Fail Open)</a></li>
+              <li><a class="lnk-pink" href="https://eternalnoobs.com/sqli-without-quotes/">SQLi Without Quotes</a></li>
+              <li><a class="lnk-green" href="https://blog.dcso.de/using-magic-dns-resolutions-to-track-suspicious-domains/">Using “magic” DNS-resolutions to track suspicious domains</a></li>
+              <li><a class="lnk-orange" href="https://safekeepcybersecurity.github.io/posts/2018/09/carhack_urh/">Unlock a Mustang GT - HackRF/Universal Hacker Radio</a></li>
+              <li><a class="lnk-purple" href="https://github.com/bellma101/sri-check">sri-check: A Burp Suite extension for identifying missing Subresource Integrity attributes.</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
