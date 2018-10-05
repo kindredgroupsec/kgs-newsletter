@@ -1,0 +1,193 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 08/10/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="http://i.imgur.com/kQIWprp.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">8 October 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Facebook got hacked: 50 million accounts accessed</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-IYFi5jVLX4s/W69CNMWFHqI/AAAAAAAAyQ0/4-q1NxouSW8qkjabKTncjEd0suKJjw5LQCLcBGAs/s728-e100/facebook-account-hack.png"></mj-image>
+          <mj-text color="#fff">On the afternoon of Tuesday, September 25, Facebook engineering team discovered a security issue affecting almost 50 million accounts. Attackers exploited a vulnerability in Facebook’s code that impacted “View As” a feature that lets people see what their own profile looks like to someone else. This allowed them to steal Facebook access tokens which they could then use to take over people’s accounts. Access tokens are the equivalent of digital keys that keep people logged in to Facebook so they don’t need to re-enter their password every time they use the app.</mj-text>
+          <mj-text color="#fff">In a conference call with reporters, Facebook vice president of product Guy Rosen shared a few more details of the breach: Facebook Detected Breach After Noticing Unusual Traffic Spike; Hackers Exploited Total 3 Facebook Vulnerabilities; Hackers Stole Secret Access Tokens for 50 Million Accounts but they reseted access tokens for 90 millions accounts to be safe; Your Facebook Account Password Has Not Been Compromised; Hackers Downloaded Users' Private Information Using Facebook API; Your "Logged in as Facebook" Accounts at 3rd-Party Apps/Websites Are At Risk; You should Check Active Sessions on Facebook to Find If Your Account Have Been Hacked</mj-text>
+          <mj-text color="#fff">Warning: Attackers behind the recently revealed Facebook mega-breach may still be able to access victims' accounts at third-party web services and mobile apps, and Facebook has offered no timeline for when that might change. Here's the problem: Whoever hacked Facebook stole single sign-on access tokens - and thus access - to at least 50 million accounts, which also gives them access to the hundreds of third-party services and mobile apps that accept victims' SSO authentication, dubbed Facebook Social Login or Facebook Login. Facebook found no evidence "so far" that proves such claims.</mj-text>
+          <mj-text color="#fff">Unfortunately, Facebook now says that while it can reset access tokens, it cannot guarantee that all third-party services that accept Facebook Social Login will honor these token-reset requests. This corporate approach, in fact, appears to mirror precisely what got Facebook into the Cambridge Analytica data scandal mess. Simply put, Facebook wasn't policing how third parties accessed, processed, used or sold Facebook users' data.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://newsroom.fb.com/news/2018/09/security-update/">
+            Official statements from Facebook
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/blogs/facebook-cant-reset-all-breach-victims-access-tokens-p-2669">
+            Even More on BankInfoSecurity
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2018/09/facebook-account-hacked.html">
+            10 important updates on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Phishing Attack Uses Azure storage to Impersonate Microsoft</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2018/03/19/Azure.png"></mj-image>
+          <mj-text>Even though phishing attacks can be quite convincing, a give away is when diligent users notice that the login form is unsecured, the URL is not right or the SSL certificate is clearly not owned by the company being impersonated. A new Office 365 phishing attack utilizes an interesting method of storing their phishing form hosted on Azure Blob Storage in order to be secured by a Microsoft SSL certificate.</mj-text>
+          <mj-text>Azure Blob storage is a Microsoft storage solution that can be used to store unstructured data such as images, video, or text. By storing a phishing form in Azure Blob storage, the displayed form will be signed by a SSL certificate from Microsoft. This makes it an ideal method to create phishing forms that target Microsoft services such as Office 365, Azure AD, or other Microsoft logins.</mj-text>
+          <mj-text>In these attacks, bad actors are sending out spam emails with PDF attachments. These attachments are named "Scanned Document... Please Review.pdf" and simply contain a button to download a supposed PDF of a scanned document. When users click on this link they will be brought to a HTML page pretending to be a Office 365 login form that is stored on the Microsoft Azure Blob storage solution. Notice how the URL, https://onedriveunbound80343<b>.blob.core.</b>windows.net indicates it is a blob. As this page is also being hosted on a Microsoft service, it gets the benefit of being a secured SSL site as well.</mj-text>
+          <mj-text>While more experienced users may not fall for this attack due to the strange URL, others may be more convinced because the page utilizes a certificate from Microsoft and thus must be safe. To better protect users from these types of evolving threats,Netskope recommends that companies properly educate their users to recognize non-standard web page addresses. "Enterprises should educate their users to recognize AWS, Azure, and GCP object store URLs, so they can discern phishing sites from official sites. "</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/phishing-attack-uses-azure-blob-storage-to-impersonate-microsoft/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.netskope.com/blog/phishing-in-the-public-cloud">
+            Original blog post from Netskope
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2018/10/03/update-now-adobe-fixes-85-serious-flaws-in-acrobat-and-reader/">Update now: Adobe fixes 85 serious flaws in Acrobat and Reader</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/security-update-for-foxit-pdf-reader-fixes-118-vulnerabilities/">Security Update for Foxit PDF Reader Fixes 118 Vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2018/10/01/facebook-turn-off-sms-2fa-if-you-dont-want-your-number-used-for-ads/">You gave your number to Facebook for security and it used it for ads...</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2018/10/ghostdns-botnet-router-hacking.html">GhostDNS: New DNS Changer Botnet Hijacked Over 100,000 Routers</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/passcode-bypass-method-exposes-photos-contacts-iphone-xs">New iOS Passcode Bypass Method Exposes Photos, Contacts on iPhone XS</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/telegram-leaks-ip-addresses-by-default-when-initiating-calls/">Telegram Leaks IP Addresses by Default When Initiating Calls</a></li>
+              <li><a class="lnk-pink" href="https://www.theregister.co.uk/2018/10/03/intel_management_engine_hole/">Apple forgot to lock Intel Management Engine in laptops, so get patching</a></li>
+              <li><a class="lnk-green" href="https://cybersecuritymonth.eu/about-ecsm/whats-ecsm">European Cyber Security Month</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/google/google-adds-new-rules-to-end-malicious-chrome-extensions/">Google Adds New Rules To End Malicious Chrome Extensions</a></li>
+              <li><a class="lnk-purple" href="https://blog.malwarebytes.com/cybercrime/2018/10/fortnite-gamers-targeted-by-data-theft-malware/">Fortnite gamers targeted by data theft malware</a></li>
+              <li><a class="lnk-blue" href="https://www.bloomberg.com/news/features/2018-10-04/the-big-hack-how-china-used-a-tiny-chip-to-infiltrate-america-s-top-companies?srnd=premium-europe">The Big Hack: How China Used a Tiny Chip to Infiltrate U.S. Companies</a></li>
+              <li><a class="lnk-pink" href="https://stuffwithaurum.blog/2018/09/30/an-innovative-phishing-style/">An Innovative Phishing Style</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/d-link-patches-code-execution-xss-flaws-management-tool">D-Link Patches Code Execution, XSS Flaws in Management Tool</a></li>
+              <li><a class="lnk-orange" href="https://gbhackers.com/mozilla-releases-critical-security-update-for-thunderbird/">Mozilla Releases Critical Security Update For Thunderbird</a></li>
+              <li><a class="lnk-purple" href="https://www.theregister.co.uk/2018/10/05/krack_updated_wpa2_attack/">The KRACK-en reawakens in updated WPA2 attack</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://kubedex.com/container-scanning/">Review of Container scanning tools</a></li>
+              <li><a class="lnk-pink" href="https://blog.appsecco.com/static-analysis-of-client-side-javascript-for-pen-testers-and-bug-bounty-hunters-f1cb1a5d5288">Static Analysis of Client-Side JavaScript for pen testers and bug bounty hunters</a></li>
+              <li><a class="lnk-green" href="https://github.com/SoloKeysSec/solo">Solo: Open Source FIDO2 USB+NFC security key</a></li>
+              <li><a class="lnk-orange" href="https://jordanpotti.com/2018/10/03/violating-your-personal-space-with-webex/">Violating Your Personal Space with Webex</a></li>
+              <li><a class="lnk-purple" href="https://www.intezer.com/apt37-final1stspy-reaping-the-freemilk/">APT37: Final1stspy Reaping the FreeMilk</a></li>
+              <li><a class="lnk-blue" href="https://www.fireeye.com/blog/threat-research/2018/10/apt38-details-on-new-north-korean-regime-backed-threat-group.html">APT38: Details on New North Korean Regime-Backed Threat Group</a></li>
+              <li><a class="lnk-pink" href="https://github.com/abhinavbom/Threat-Intelligence-Hunter">Threat-Intelligence-Hunter: intelligence tool that helps you in searching for IOCs across multiple openly available security feeds</a></li>
+              <li><a class="lnk-green" href="https://whoisology.com/">Whoisology: Reverse Whois Lookup</a></li>
+              <li><a class="lnk-orange" href="https://crt.sh/">crt.sh: Certificate Transparency search</a></li>
+              <li><a class="lnk-purple" href="https://github.com/AssuranceMaladieSec/CertStreamMonitor">CertStreamMonitor: Monitor certificates generated for specific domain strings and associated</a></li>
+              <li><a class="lnk-blue" href="https://www.krackattacks.com/followup.html">Follow-Up on KRACK attacks</a></li>
+              <li><a class="lnk-pink" href="http://phrack.org/papers/escaping_the_java_sandbox.html">Twenty years of Escaping the Java Sandbox</a></li>
+              <li><a class="lnk-green" href="https://www.sourcedgroup.com/blog/auditing-bitbucket-server-data-credentials-in-aws">Auditing Bitbucket Server Data for Credentials in AWS</a></li>
+              <li><a class="lnk-orange" href="http://michenriksen.com/blog/drawio-for-threat-modeling/">Draw.io for threat modeling</a></li>
+              <li><a class="lnk-purple" href="https://github.com/malwaredllc/byob">BYOB (Build Your Own Botnet)</a></li>
+              <li><a class="lnk-blue" href="https://www.criticalstart.com/2018/10/prtg-network-monitor-privilege-escalation/">PRTG Network Monitor Privilege Escalation</a></li>
+              <li><a class="lnk-pink" href="https://members.rootsh3ll.com/t/convert-nmap-scans-into-beautiful-html-pages/255">Convert nmap Scans into Beautiful HTML Pages</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
