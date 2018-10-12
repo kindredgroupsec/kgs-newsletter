@@ -1,0 +1,165 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 15/10/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://static.cliqz.com/wp-content/uploads/2018/10/Blog_GDPR-uai-1440x900.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">15 October 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Google+ Shutting Down After Bug Leaks Info of 500k Accounts</mj-text>
+          <mj-image src="https://static.cliqz.com/wp-content/uploads/2018/10/Blog_GDPR-uai-1440x900.png"></mj-image>
+          <mj-text color="#fff">Google has announced that they are closing the consumer functionality of Google+ due lack of adoption and an API bug that leaked the personal information of up to 500,000 Google+ accounts.</mj-text>
+          <mj-text color="#fff">While no evidence was found that indicates this bug was ever misused, it was determined that the complexity of protecting and operating a social network like Google+ was not a worthwhile endeavor when so few users actually used the service for any length of time. The consumer functionality of Google+ will be closing over a 10 month period, while Google transitions the product to be used internally by the Enterprise.</mj-text>
+          <mj-text color="#fff">After performing a code review of the Google+ APIs, called Project Strobe, Google stated they discovered a bug that could leak the private information of Google+ accounts. This bug could allow a user's installed apps to utilize the API and access non-public information belonging to that user's friends. As Google only keeps two weeks of API logs for its Google+ service, it was impossible for them to determine if the bug was ever misused.</mj-text>
+          <mj-text color="#fff">According to a report by the Wall Street Journal, the bug in the Google+ API existed between 2015 and March 2018, which was when Google discovered and fixed the bug. According to their reporting, an internal committee at Google decided not to disclose the bug even though they were not 100% sure that it was not abused. "disclosing the incident would likely trigger "immediate regulatory interest" and invite comparisons to Facebook's leak of user information to data firm Cambridge Analytica."</mj-text>
+          <mj-text color="#fff">Ironically, a recent study shows Google is the biggest beneficiary of the GDPR. Thanks to its dominant market position, the industry leader benefits from a stronger concentration in the online advertising market. Although the number of trackers is decreasing overall, a few large tracking operators such as Google receive even more user data.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/google-shutting-down-after-bug-leaks-info-of-500k-accounts/">
+            Read More on BleepingComputers
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://cliqz.com/en/magazine/study-google-is-the-biggest-beneficiary-of-the-gdpr">
+            Study: Google is the biggest beneficiary of the GDPR
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://blog.google/technology/safety-security/project-strobe/">
+            Google: Project Strobe
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://scotthelme.co.uk/urls-are-hard/">URLs are hard, let's kill them</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/exaramel-malware-reinforces-link-between-industroyer-and-notpetya">Exaramel Malware Reinforces Link Between Industroyer and NotPetya</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2018/10/12/experian-credit-freeze-pins-could-be-revealed-by-a-simple-trick/">Experian credit-freeze PINs could be revealed by a simple trick</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2018/10/patch-tuesday-october-2018-edition/">Patch Tuesday, October 2018 Edition</a></li>
+              <li><a class="lnk-purple" href="https://cliqz.com/en/magazine/study-google-is-the-biggest-beneficiary-of-the-gdpr?utm_source=hackernewsletter&utm_medium=email&utm_term=data">Study: Google is the biggest beneficiary of the GDPR</a></li>
+              <li><a class="lnk-blue" href="https://www.riskiq.com/blog/labs/magecart-shopper-approved/">The Magecart Seal of Approval: Card-Skimming Group Executes Scaled Supply Chain Attack on Shopper Approved</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/google-amp/article/ietf-approves-new-internet-standards-to-secure-authentication-tokens/">IETF approves new internet standards to secure authentication tokens</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/google-cloud-launches-cloud-identity-as-standalone-service/">Google Cloud launches Cloud Identity as standalone service</a></li>
+              <li><a class="lnk-orange" href="https://www.theregister.co.uk/2018/10/11/network_time_protocol_bugs_sting_junipers_operating_system/">Network time protocol bugs sting Juniper operating system</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/gemalto-reports-4-6-billion-record-breaches-in-the-first-half-of-2018/">​Gemalto reports 4.6 billion record breaches in the first half of 2018</a></li>
+              <li><a class="lnk-blue" href="https://researchcenter.paloaltonetworks.com/2018/10/unit42-fake-flash-updaters-push-cryptocurrency-miners/">Fake Flash Updaters Push Cryptocurrency Miners</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2018/10/router-hacking-exploit.html">New Exploit for MikroTik Router WinBox Vulnerability Gives Full Root Access</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/a-mysterious-grey-hat-is-patching-peoples-outdated-mikrotik-routers/">A mysterious grey-hat is patching people's outdated MikroTik routers</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://portswigger.net/blog/top-10-web-hacking-techniques-of-2017">Top 10 Web Hacking Techniques of 2017</a></li>
+              <li><a class="lnk-pink" href="https://github.com/byt3bl33d3r/SILENTTRINITY">SilentTrinity: A post-exploitation agent powered by Python, IronPython, C#/.NET</a></li>
+              <li><a class="lnk-green" href="https://tls.ulfheim.net/">The Illustrated TLS Connection</a></li>
+              <li><a class="lnk-orange" href="https://aws.amazon.com/blogs/security/how-to-rotate-a-wordpress-mysql-database-secret-using-aws-secrets-manager-in-amazon-eks/">How to rotate a WordPress MySQL database secret using AWS Secrets Manager in Amazon EKS</a></li>
+              <li><a class="lnk-purple" href="https://leucosite.com/Microsoft-Edge-RCE/">Microsoft Edge Remote Code Execution (CVE-2018-8495)</a></li>
+              <li><a class="lnk-blue" href="https://blogs.securiteam.com/index.php/archives/3723">SSD Advisory – Cisco Prime Infrastructure File Inclusion and Remote Command Execution to Privileges Escalation</a></li>
+              <li><a class="lnk-pink" href="http://flatkill.org/">Flatpak - a security nightmare</a></li>
+              <li><a class="lnk-green" href="https://blog.rapid7.com/2018/10/09/introducing-metasploits-first-evasion-module/">Introducing Metasploit’s First Evasion Modules</a></li>
+              <li><a class="lnk-orange" href="https://www.securifera.com/blog/2018/10/07/servicefu/">serviceFu: Harvesting Service Account Credentials Remotely</a></li>
+              <li><a class="lnk-purple" href="http://10degres.net/aws-takeover-ssrf-javascript/">AWS takeover through SSRF in JavaScript</a></li>
+              <li><a class="lnk-blue" href="https://github.com/hausec/ADAPE-Script/tree/master">ADAPE: Active Directory Assessment and Privilege Escalation Script</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

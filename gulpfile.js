@@ -4,7 +4,7 @@ const plugins = gulpLoadPlugins();
 
 
 gulp.task('html', function() {
-  return gulp.src('./*.mjml')
+  return gulp.src('./**/*.mjml')
     .pipe(plugins.cached('htmlify'))
     .pipe(plugins.newer({"ext": ".html", "dest": "./"}))
     .pipe(plugins.mjml())
@@ -12,7 +12,7 @@ gulp.task('html', function() {
 });
 
 gulp.task('default', ['html'], function() {
-  gulp.watch(['*.mjml'], ['html']);
+  gulp.watch(['./**/*.mjml'], ['html']);
 });
 
 gulp.task('build', ['html']);
