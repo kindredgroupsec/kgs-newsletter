@@ -1,0 +1,215 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 22/10/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">22 October 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Zero-day in popular jQuery plugin actively exploited for at least three years</mj-text>
+          <mj-image src="https://www.bitdegree.org/learn/wp-content/uploads/2017/12/img-jquery.jpg"></mj-image>
+          <mj-text color="#fff">For at least three years, hackers have abused a zero-day in one of the most popular jQuery plugins to plant web shells and take over vulnerable web servers. The vulnerability impacts the jQuery File Upload plugin, which is the second most starred jQuery project on GitHub, after the jQuery framework itself. It is immensely popular and has been integrated into many other projects, such as CMSs, CRMs, Intranet solutions, WordPress plugins, Drupal add-ons, Joomla components, and so on.</mj-text>
+          <mj-text color="#fff">The Akamai researcher says that attackers can abuse this vulnerability to upload malicious files on servers, such as backdoors and web shells. The vulnerability has been exploited in the wild. "I've seen stuff as far back as 2016". The developer's investigation identified the true source of the vulnerability not in the plugin's code, but in a change made in the Apache Web Server project dating back to 2010, which indirectly affected the plugin's expected behavior on Apache servers.</mj-text>
+          <mj-text color="#fff">Blueimp's jQuery File Upload plugin was coded to rely on a custom .htaccess file to impose security restrictions to its upload folder, without knowing that five days before, the Apache HTTPD team made a breaking change that undermined the plugin's basic design. Identifying all affected projects and stomping out this vulnerability will take years. </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/zero-day-in-popular-jquery-plugin-actively-exploited-for-at-least-three-years/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.darkreading.com/application-security/apache-access-vulnerability-could-affect-thousands-of-applications/d/d-id/1333065">
+            Even More on DarkReading
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Facebok: Update on security issues: 30M accounts leaked</mj-text>
+          <mj-image src="https://fbnewsroomus.files.wordpress.com/2018/07/security1.png?w=960"></mj-image>
+          <mj-text>Facebook has just announced additional details on last month's data breach. The company now says that only 30 million accounts had their access tokens stolen instead of the 50 million they had originally believed, and of those 30 million, 15 million users just had their emails and phone numbers taken.</mj-text>
+          <mj-text>Worse, however, is that for 14 million unlucky users, the hackers were able to access both email info and phone numbers plus their "username, gender, locale/language, relationship status, religion, hometown, self-reported current city, birthdate, device types used to access Facebook, education, work, the last 10 places they checked into or were tagged in, website, people or Pages they follow, and the 15 most recent searches" as well.</mj-text>
+          <mj-text>In an updated post on Facebook's newsroom, the company says it's working with the FBI, who is actively investigating the situation, and therefore can't reveal who they believe were behind the attack. People can check whether they were affected by visiting Facebook Help Center. In the coming days, they will send customized messages to the 30 million people affected to explain what information the attackers might have accessed, as well as steps they can take to help protect themselves, including from suspicious emails, text messages, or calls.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://newsroom.fb.com/news/2018/10/update-on-security-issue/">
+            Official Facebook advisory
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.techradar.com/news/facebook-hack-leaks-data-from-50-million-users">
+            Even More on TechRadar
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://blog.adversary.io/facebook-hack/">
+            Try the hack for yourself on Adversary!
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Hacker: I'm logged in. New LibSSH Vulnerability: OK! I believe you.</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/10/17/libssh_vuln_headpic.jpg"></mj-image>
+          <mj-text>Newly released versions of the libssh library fix an authentication bypass flaw that grants access to the server by just telling it that the procedure was a success.</mj-text>
+          <mj-text>The libssh library enables support of the Secure Shell (SSH) protocol in applications, allowing an encrypted connection between clients and servers. Leveraging it is a simple matter of presenting the server with the  SSH2_MSG_USERAUTH_SUCCESS message, which shows that the login already occurred without a problem. The server expects the message SSH2_MSG_USERAUTH_REQUEST to start the authentication procedure, but by skipping it an attacker can log in without showing any credentials.</mj-text>
+          <mj-text>The trick is possible in library versions 0.6 and above, and there is no workaround available, informs an advisory on Thursday from the libssh team. The issue has been addressed in revisions 0.8.4 and 0.7.6 of the library.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/hacker-im-logged-in-new-libssh-vulnerability-ok-i-believe-you/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button mj-class="bg-green" href="cddccd">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/interviews/update-nist-preparing-privacy-framework-i-4148">NIST Preparing a Privacy Framework</a></li>
+              <li><a class="lnk-pink" href="https://gbhackers.com/u-s-voter-records-selling-dark-web/">35 Million U.S Voter Records Selling in Popular Dark web Hacking Forum from $150 USD to $12,500 USD</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/mit-invention-breaks-down-memory-to-protect-against-meltdown-spectre/">MIT invention builds memory walls to protect against Meltdown, Spectre attacks</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/pentagon-data-breach-exposes-up-to-30-000-travel-records/">Pentagon Data Breach Exposes up to 30,000 Travel Records</a></li>
+              <li><a class="lnk-purple" href="https://www.welivesecurity.com/2018/10/17/greyenergy-updated-arsenal-dangerous-threat-actors/">GreyEnergy: Updated arsenal of one of the most dangerous threat actors</a></li>
+              <li><a class="lnk-blue" href="https://www.theregister.co.uk/2018/10/16/browser_tls_killed/">IE, Edge, Safari, Firefox, Chrome, all planning to deprecate TLS 1.0. 1.1 by 2020</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/new-iphone-passcode-bypass-method-found-days-after-patch">New iPhone Passcode Bypass Method Found Days After Patch</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2018/10/android-cloud-backup.html">Google to Encrypt Android Cloud Backups With Your Lock Screen Password</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2018/10/supply-chain-security-101-an-experts-view/">Supply Chain Security 101: An Expert’s View</a></li>
+              <li><a class="lnk-purple" href="https://gbhackers.com/dom-based-xss-vulnerability/">DOM-based XSS Vulnerability Affected 685 Million Users of Tinder, Shopify, Western Union, and Imgur</a></li>
+              <li><a class="lnk-blue" href="https://www.theregister.co.uk/2018/10/18/google_hardens_pixel3/">Decoding the Google Titan, Titan, and Titan M – that last one is the Pixel 3's security chip</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/apple/apples-new-data-and-privacy-portal-lets-you-download-your-data/">Apple's New Data & Privacy Portal Lets You Download Your Data</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/tumblr-fixes-security-bug-that-leaked-private-account-info/">Tumblr Fixes Security Bug that Leaked Private Account Info</a></li>
+              <li><a class="lnk-orange" href="https://www.theregister.co.uk/2018/10/19/tls_handshake_privacy/">Novel user tracking technique involving HTTPS (TLS) session resumption.</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/oracle-patches-301-vulnerabilities-including-46-with-a-9-8-severity-rating/">Oracle patches 301 vulnerabilities, including 46 with a 9.8+ severity rating</a></li>
+              <li><a class="lnk-pink" href="https://www.libssh.org/2018/10/16/libssh-0-8-4-and-0-7-6-security-and-bugfix-release/">LibSSH Advisory</a></li>
+              <li><a class="lnk-green" href="https://isc.sans.edu/forums/diary/Cisco+Security+Advisories+17+OCT+2018/24224/">Cisco Security Advisories: 7 High vulns</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/windows-10-cumulative-and-compatibility-updates-released/">Windows 10 Cumulative and Compatibility Updates Released</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/splunk-patches-several-flaws-enterprise-light-products">Splunk Patches Several Flaws in Enterprise, Light Products</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.xorrior.com/persistent-credential-theft/">Persistent Credential Theft with Authorization Plugins</a></li>
+              <li><a class="lnk-pink" href="https://www.cloudflare.com/ssl/encrypted-sni/">Browsing Experience Security Check</a></li>
+              <li><a class="lnk-green" href="https://blogs.cisco.com/security/detecting-encrypted-malware-traffic-without-decryption">Detecting Encrypted Malware Traffic (Without Decryption)</a></li>
+              <li><a class="lnk-orange" href="https://blog.netspi.com/four-ways-to-bypass-ios-ssl-verification-and-certificate-pinning/">Four Ways to Bypass iOS SSL Verification and Certificate Pinning</a></li>
+              <li><a class="lnk-purple" href="https://blog.stratumsecurity.com/2018/10/17/route-53-as-a-pentest-infrastructure/">Route 53 as Pentest Infrastructure</a></li>
+              <li><a class="lnk-blue" href="https://www.labofapenetrationtester.com/2018/10/deploy-deception.html">Forging Trusts for Deception in Active Directory</a></li>
+              <li><a class="lnk-pink" href="https://buckets.grayhatwarfare.com/">GrayHatWarfare Bucket search updated</a></li>
+              <li><a class="lnk-green" href="https://www.endgame.com/blog/technical-blog/deobfuscating-powershell-putting-toothpaste-back-tube">Deobfuscating PowerShell: Putting The Toothpaste Back In The Tube</a></li>
+              <li><a class="lnk-orange" href="https://blog.rothe.uk/excel-for-infosec/">Excel for Infosec #BestSIEMEver</a></li>
+              <li><a class="lnk-purple" href="https://kubedex.com/base-images/">Which Base Image should you use for your containers?</a></li>
+              <li><a class="lnk-blue" href="https://github.com/AMOSSYS/MemITM/">MemITM: Tool to make in memory man in the middle</a></li>
+              <li><a class="lnk-pink" href="https://blog.adversary.io/facebook-hack/">Curious how Facebook got hacked? Try it for yourself!</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

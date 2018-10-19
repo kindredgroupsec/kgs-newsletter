@@ -145,7 +145,28 @@
       <mj-section background-color="#fff">
         <mj-column>
           <mj-spacer height="30px" />
-          <mj-text mj-class="h2">Cutting room floor</mj-text>
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="URL">cut1</a></li>
+              <li><a class="lnk-pink" href="URL">cut2</a></li>
+              <li><a class="lnk-green" href="URL">cut3</a></li>
+              <li><a class="lnk-orange" href="URL">cut4</a></li>
+              <li><a class="lnk-purple" href="URL">cut5</a></li>
+              <li><a class="lnk-blue" href="URL">cut1</a></li>
+              <li><a class="lnk-pink" href="URL">cut2</a></li>
+              <li><a class="lnk-green" href="URL">cut3</a></li>
+              <li><a class="lnk-orange" href="URL">cut4</a></li>
+              <li><a class="lnk-purple" href="URL">cut5</a></li>
+              <li><a class="lnk-blue" href="URL">cut1</a></li>
+              <li><a class="lnk-pink" href="URL">cut2</a></li>
+              <li><a class="lnk-green" href="URL">cut3</a></li>
+              <li><a class="lnk-orange" href="URL">cut4</a></li>
+              <li><a class="lnk-purple" href="URL">cut5</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
           <mj-text>
             <ul>
               <li><a class="lnk-blue" href="URL">cut1</a></li>
