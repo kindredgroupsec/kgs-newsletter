@@ -1,0 +1,165 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 29/10/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="http://www.tpsservices.co.uk/images/news/14-11-2014/hero.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">29 October 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Facebook must pay UK's ICO £500,000 over the pre-GDPR Cambridge Analytica scandal</mj-text>
+          <mj-image src="http://www.tpsservices.co.uk/images/news/14-11-2014/hero.jpg"></mj-image>
+          <mj-text color="#fff">Facebook has been formally fined £500,000 by the UK's Information Commissioner's Office (ICO) over its role in the Cambridge Analytica scandal. On Thursday, the ICO said the fine is now final and cannot be changed.</mj-text>
+          <mj-text color="#fff">The fine has been imposed in connection to a data-sharing scandal which led to the abuse of data belonging to up to 87 million users in the UK, US, and beyond. The ICO's investigation found that between 2007 and 2014, Facebook permitted the "unfair" sharing of user data with developers without "clear and informed consent." "Facebook also failed to keep the personal information secure because it failed to make suitable checks on apps and developers using its platform," the UK regulator said. "Even after the misuse of the data was discovered in December 2015, Facebook did not do enough to ensure those who continued to hold it had taken adequate and timely remedial action, including deletion."</mj-text>
+          <mj-text color="#fff">The ICO said in July that in addition to the fine, the regulator plans to launch a criminal prosecution against SCL Elections Ltd, Cambridge Analytica's now-defunct parent company, after failing to work with the ICO during its investigation into the scandal. The ICO has only been able to issue a fine under the DPA as the breach occurred before May 25, 2018, the day that the EU's General Data Protection Regulation came into force. Under the new rules, however, any new breaches can result in companies being fined up to €20 million, or 4 percent of annual global turnover -- whichever is higher.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/facebook-must-pay-uks-ico-500000-over-cambridge-analytica-scandal/">
+            Read More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-windows-zero-day-bug-helps-delete-any-file-exploit-available/">New Windows Zero-Day Bug Helps Delete Any File, Exploit Available</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/malware-distributors-adopt-dkim-to-bypass-mail-filters/">Malware Distributors Adopt DKIM to Bypass Mail Filters</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/google-amp/article/google-to-android-phone-makers-our-new-deal-means-you-must-patch-for-two-years/">Google to Android phone makers: Our new deal means you must patch for two years</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/magecart-group-leverages-zero-days-in-20-magento-extensions/">Magecart group leverages zero-days in 20 Magento extensions</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/organizations-with-strong-devsecops-find-flaws-11x-faster-than-those-without/">Organosations with strong DevSecOps find flaws 11x faster than those without</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/unusual-remote-execution-bug-in-cisco-webex-discovered-by-researchers/">Unusual Remote Execution Bug in Cisco WebEx Discovered by Researchers</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/new-ddos-botnet-goes-after-hadoop-enterprise-servers/">New DDoS botnet goes after Hadoop enterprise servers</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/2018/10/23/paul_vixie_slaps_doh_as_dns_privacy_feature_becomes_a_standard/">'The inmates have taken over the asylum': DNS godfather blasts DNS over HTTPS adoption</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/google-amp/article/security-after-estonias-id-card-train-wreck-this-identity-app-is-taking-baltics-by-storm/">Security: After Estonia's ID-card train wreck this identity app is taking Baltics by storm</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/new-security-flaw-impacts-most-linux-and-bsd-distros/">New security flaw impacts most Linux and BSD distros</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/77k-additional-customers-affected-by-british-airways-magecart-data-breach/">185K Additional Customers Affected by British Airways' MageCart Data Breach</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/cisco-releases-fix-for-privilege-escalation-bug-in-webex-meetings/">Cisco releases fix for privilege escalation bug in Webex Meetings app</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/libssh-cve-2018-10933-scanners-and-exploits-released-apply-updates-now/">Libssh CVE-2018-10933 Scanners & Exploits Released - Apply Updates Now</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/remote-code-execution-flaws-found-in-freertos-popular-os-for-embedded-systems/">Remote Code Execution Flaws Found in FreeRTOS - Popular OS for Embedded Systems</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2018/10/critical-flaw-found-in-streaming.html">Critical Code Execution Flaw Found in LIVE555 Streaming Library</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.cymulate.com/abusing-microsoft-office-online-video">Abusing Microsoft Office Online Video</a></li>
+              <li><a class="lnk-pink" href="https://github.com/SpiderLabs/DoHC2">DoHC2: allows the ExternalC2 library from Ryan Hanson (https://github.com/ryhanson/ExternalC2) to be leveraged for command and control (C2) via DNS over HTTPS (DoH).</a></li>
+              <li><a class="lnk-green" href="https://www.darkreading.com/cloud/securing-serverless-attacking-an-aws-account-via-a-lambda-function/a/d-id/1333047">Securing Serverless: Attacking an AWS Account via a Lambda Function</a></li>
+              <li><a class="lnk-orange" href="https://www.endgame.com/blog/technical-blog/stop-and-step-away-data-rapid-anomaly-detection-ransom-note-file-classification">Stop And Step Away From The Data: Rapid Anomaly Detection Via Ransom Note File Classification</a></li>
+              <li><a class="lnk-purple" href="https://logicaltrust.github.io/ble/">BLE mobile application independent access</a></li>
+              <li><a class="lnk-blue" href="https://www.zerofox.com/blog/open-graph-protocol-abuse/">Abusing the Open Graph Protocol</a></li>
+              <li><a class="lnk-pink" href="https://www.blackhillsinfosec.com/embedding-meterpreter-in-android-apk/">Embedding Meterpreter in Android APK</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@ahmed.tanvir.11/step-by-step-guide-to-integrate-opensource-container-security-scanner-anchore-engine-with-cicd-580da8db5dfc">Integrate opensource container security scanner (Anchore engine) with CICD tool (Jenkins).</a></li>
+              <li><a class="lnk-orange" href="https://s0cket7.com/picoctf-web/">PicoCTF Web 2018 Writeup</a></li>
+              <li><a class="lnk-purple" href="https://myexperiments.io/linux-privilege-escalation.html">Local Linux privilege escalation overview</a></li>
+              <li><a class="lnk-blue" href="https://sploit.tech/2018/10/12/D-Link.html">D-Link routers - full takeover</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
