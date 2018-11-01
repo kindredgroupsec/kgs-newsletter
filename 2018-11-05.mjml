@@ -1,0 +1,194 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 05/11/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://cdn-images-1.medium.com/max/600/0*Wu6kPDDfQdveszPS" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">5 November 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Stethoscope: A user focused approach to endpoint health and management</mj-text>
+          <mj-image src="https://cdn-images-1.medium.com/max/600/0*Wu6kPDDfQdveszPS"></mj-image>
+          <mj-text color="#fff">Netflix announced the next big release in user focused security, the Stethoscope native app. The new native app includes basic device health recommendations with inline clickable instructions on how to update settings. It can also communicate with a web app (such as a Single Sign On provider) in order to make device health suggestions at pivotal moments.</mj-text>
+          <mj-text color="#fff">TL;DR: Basic device hygiene is a fundamental security practice. People want to securely configure their devices, but they may not know what the best practices are, or how to comply with them. Empowering users to see the state of their devices and how to get them into an ideal state improves the overall security posture of an organization.</mj-text>
+          <mj-text color="#fff">The Stethoscope app was built with not just device health in mind, but also with security in mind. The app does not run as root, and has no elevated privileges. The app does not change settings for users automatically. This respects the user’s ownership of their device settings, but also has the benefit of not adding risk of settings being changed maliciously via the app. Device information can be sensitive, so we limited who is able to run scans. This is enforced via a CORS policy, which is configured at build time. The local server only listens on loopback so that device scans cannot be run outside of the local machine. Currently Mac OS and Windows 10 devices are supported.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://medium.com/netflix-techblog/the-new-netflix-stethoscope-native-app-f4e1d38aafcd">
+            Read More on Netflix Blog
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="URL">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Windows Built-in Antivirus Gets Secure Sandbox Mode – How To Turn It ON</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-riAlYul9hv8/W9bk0C48jNI/AAAAAAAAyeI/YolRnY7hvSYh6TwexEA9VXaz1jShrnt9ACLcBGAs/s728-e100/windows-defender-sandbox.jpg"></mj-image>
+          <mj-text>Microsoft Windows built-in anti-malware tool, Windows Defender, has become the very first antivirus software to have the ability to run inside a sandbox environment.</mj-text>
+          <mj-text>Sandboxing is a process that runs an application in a safe environment isolated from the rest of the operating system and applications on a computer. So that if a sandboxed application gets compromised, the technique prevents its damage from spreading outside the closed area. Since antivirus and anti-malware tools run with the highest level of privileges to scan all parts of a computer for malicious code, it has become a desired target for attackers.</mj-text>
+          <mj-text>For now, Windows Defender running on Windows 10, version 1703 (also known as the Creators Update) or later, support the sandbox feature, which is not enabled by default, but you can turn the feature on by running some commands described in the article.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://amp.thehackernews.com/thn/2018/10/windows-defender-antivirus-sandbox.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/10/26/windows-defender-antivirus-can-now-run-in-a-sandbox/">
+            Read More on Microsoft Blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2018/10/31/how-one-man-could-have-taken-over-any-business-on-facebook/">How one man could have taken over any business page on Facebook</a></li>
+              <li><a class="lnk-pink" href="https://amp.thehackernews.com/thn/2018/10/apple-macbook-microphone.html">Apple's New MacBook Disconnects Microphone "Physically" When Lid is Closed</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/many-cms-plugins-are-disabling-tls-certificate-validation-and-thats-very-bad/">Many CMS plugins are disabling TLS certificate validation... and that's very bad</a></li>
+              <li><a class="lnk-orange" href="https://signal.org/blog/sealed-sender/">Technology preview: Sealed sender for Signal</a></li>
+              <li><a class="lnk-purple" href="https://www.hackread.com/tor-enabled-sim-card-onion3g-anonymous-internet/">Now use Internet anonymously through Tor-enabled SIM card Onion3G</a></li>
+              <li><a class="lnk-blue" href="https://www.welivesecurity.com/2018/10/26/cathay-pacific-breach-exposes-data-9-4-million-passengers/">Cathay Pacific breach exposes data of 9.4 million passengers</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/google-wont-let-you-sign-in-if-you-disabled-javascript-in-your-browser/">Google won't let you sign in if you disabled JavaScript in your browser</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-stuxnet-variant-allegedly-struck-iran/">New Stuxnet Variant Allegedly Struck Iran</a></li>
+              <li><a class="lnk-orange" href="https://gbhackers.com/radisson-hotel-group-data-breach/">Radisson Hotel Group Data Breach Exposed Customer’s Personal Data</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2018/10/31/googles-stealthy-recaptcha-v3-detects-humans-no-questions-asked/">Google’s stealthy reCAPTCHA v3 detects humans – no questions asked</a></li>
+              <li><a class="lnk-blue" href="https://gbhackers.com/hackers-exploit-cisco-zero-day/">Hackers Exploit Cisco Zero Day Vulnerability in Wild Resulting in DoS Condition</a></li>
+              <li><a class="lnk-pink" href="https://www.csoonline.com/article/3317702/cloud-security/automating-security-at-aws-how-amazon-web-services-operates-with-no-soc.html">Automating security at AWS: How Amazon Web Services operates with no SOC</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/twelve-malicious-python-libraries-found-and-removed-from-pypi/">Twelve malicious Python libraries found and removed from PyPI</a></li>
+              <li><a class="lnk-pink" href="https://gbhackers.com/code-execution-vulnerability-mkvtoolnix/">Critical Code Execution Vulnerability Found in MKVToolNix Tools that Parses MKV Files</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/2018/10/26/systemd_dhcpv6_rce/">Systemd: A nasty DHCPv6 packet can pwn a vulnerable Linux box</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/new-bleedingbit-zero-day-vulnerabilities-impact-majority-of-enterprises-at-the-chip-level/">Bleedingbit zero-day chip flaws may expose majority of enterprises to remote code execution attacks</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2018/11/01/update-now-apple-releases-security-fixes-for-ios-macos-safari-others/">Update now! Apple releases security fixes for iOS, MacOS, Safari, others</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://lgtm.com/blog/apple_xnu_icmp_error_CVE-2018-4407">Kernel RCE caused by buffer overflow in Apple's ICMP packet-handling code (CVE-2018-4407)</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@89berner/persistant-gcp-backdoors-with-googles-cloud-shell-2f75c83096ec">Persistent GCP backdoors with Google’s Cloud Shell</a></li>
+              <li><a class="lnk-green" href="https://pickles.xyz/on-the-run-with-empire/">On-the-Run with Empire.</a></li>
+              <li><a class="lnk-orange" href="https://leigh-annegalloway.com/for-the-love-of-money/">For The Love of Money: Finding & Exploiting Vulnerabilities in Mobile Point of Sales Terminals</a></li>
+              <li><a class="lnk-purple" href="https://posts.specterops.io/abusing-powershell-desired-state-configuration-for-lateral-movement-ca42ddbe6f06">Abusing PowerShell Desired State Configuration for Lateral Movement</a></li>
+              <li><a class="lnk-blue" href="https://blog.zimperium.com/cve-2018-9411-new-critical-vulnerability-multiple-high-privileged-android-services/">CVE-2018-9411: New critical vulnerability in multiple high-privileged Android services</a></li>
+              <li><a class="lnk-pink" href="https://blog.trendmicro.com/trendlabs-security-intelligence/trickbot-shows-off-new-trick-password-grabber-module/">Trickbot Shows Off New Trick: Password Grabber Module</a></li>
+              <li><a class="lnk-green" href="https://philippeharewood.com/facebook-business-takeover/">Facebook Business Takeover</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/sensorfu/isolated-networks-in-the-cloud-bf421701da7b">Isolated Networks in the Cloud</a></li>
+              <li><a class="lnk-purple" href="https://www.tenable.com/blog/tweetable-exploit-for-x-org-server-local-privilege-escalation-cve-2018-14665-released">Tweetable Exploit for X.org Server Local Privilege Escalation (CVE-2018-14665) Released</a></li>
+              <li><a class="lnk-blue" href="https://github.com/almandin/fuxploider">fuxploider: File upload vulnerability scanner and exploitation tool.</a></li>
+              <li><a class="lnk-pink" href="https://github.com/mstfknn/malware-sample-library">Malware Sample Library #DontTryThisAtHomeOrWork</a></li>
+              <li><a class="lnk-green" href="https://www.unix-ninja.com/p/attacking_google_authenticator">Attacking Google Authenticator</a></li>
+              <li><a class="lnk-orange" href="https://www.slideshare.net/dafthack/covert-attack-mystery-box-a-few-novel-techniques-for-exploiting-microsoft-features">Covert Attack Mystery Box: A few novel techniques for exploiting Microsoft “features”</a></li>
+              <li><a class="lnk-purple" href="https://blog.secureideas.com/2018/10/three-c-words-of-web-app-security-part-2-csrf.html">Three C-Words of Web App Security: Part 2 – CSRF</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
