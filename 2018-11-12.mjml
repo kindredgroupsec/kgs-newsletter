@@ -1,0 +1,219 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 12/11/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://i1.wp.com/www.j4vv4d.com/wp-content/uploads/2018/11/Screen-Shot-2018-11-08-at-10.05.14.png?w=626&ssl=1" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">12 November 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Credential Stuffing - HSBC Bank Alerts US Customers to Data Breach: Who is to blame?</mj-text>
+          <mj-image src="https://i1.wp.com/www.j4vv4d.com/wp-content/uploads/2018/11/Screen-Shot-2018-11-08-at-10.05.14.png?w=626&ssl=1"></mj-image>
+          <mj-text color="#fff">HSBC bank is warning some of its U.S. customers that their personal data was compromised in a breach, although it says it's detected no signs of fraud. HSBC says the breach appeared to run from Oct. 4 to Oct. 14. After spotting the breach, the bank says in a notification announcement, it "suspended online access to prevent further unauthorized entry" to affected accounts.</mj-text>
+          <mj-text color="#fff">The Telegraph reports that HSBC manages about 1.4 million U.S. accounts, meaning 14,000 customers may have been affected. While HSBC has released scant details, Woodward says this breach has all of the hallmarks of a "credential stuffing" attack. Such attacks involve criminals taking usernames, passwords or other personal data that has been stolen or leaked and using it to access a user's account with other sites or services. Millions of such leaked credentials have come to light.</mj-text>
+          <mj-text color="#fff">The best defense against credential stuffing attacks is for users to never reuse a password on more than one site. Unfortunately, many users do reuse their credentials. "This is the underlying problem: People have said: 'Hey, I have a favorite password, it's my cat's name and this is the year that it was born; this is fantastic and I'm going to use it everywhere,'" password security expert Troy Hunt.</mj-text>
+          <mj-text color="#fff">"This website B didn't necessarily do anything wrong, but now they've got to deal with the risk of ... an attacker logging in with a victim's credentials," Hunt said. "That's a really hard problem. Now, for the most part there was much support for this and clearly very many likes. But there was also a theme that popped up that needs addressing, and it boiled down to this: You're victim blaming.""</mj-text>
+          <mj-text color="#fff">J4vv4d, another well known information security public figure, disagreed with Troy Hunt and thinks what we're lacking is proper awareness and cultural changes, like what happened with car safety. "If you’re like me and grew up in the 80’s, you’ll probably remember going on car trips without wearing seatbelts [...] Fast forward a few decades and it’s inconceivable that I would get in a car and not ‘clunk clink’ [...] But these behavioural changes took decades. There have been sustained awareness campaigns, coupled with increased enforcement to get to the point where it’s almost deemed socially unacceptable."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/hsbc-bank-alerts-us-customers-to-data-breach-a-11685">
+            Read More on BankInfoSecurity
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.troyhunt.com/when-accounts-are-hacked-victims-must-share-the-blame/">
+            Victims Must Share the Blame - Troy Hunt
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.j4vv4d.com/victim-blaming-by-any-other-name-still-smells-just-as-bad/">
+            Victim-blaming is not the right approach - J4vv4d
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">VirtualBox zero-day published by disgruntled researcher</mj-text>
+          <mj-image src="https://zdnet1.cbsistatic.com/hub/i/2018/11/07/e340452f-58df-4367-bac6-660ab5c18c68/b562bb714a8e303a751a7c115355bbb9/vb.png"></mj-image>
+          <mj-text>A Russian vulnerability researcher and exploit developer has published detailed information about a zero-day vulnerability in VirtualBox. His explanations include step-by-step instructions for exploiting the bug. Exploiting the vulnerability allows an attacker to escape the virtual environment of the guest machine and reach the Ring 3 privilege layer, used for running code from most user programs, with the least privileges.</mj-text>
+          <mj-text>This is not the researcher's first vulnerability disclosure in VirtualBox. Earlier this year, he reported another security bug in VirtualBox. It was reported responsibly for version 5.2.10 of the software. For some reason, though, Oracle fixed the problem silently in version 5.2.18 of its hardware virtualization software and did not give credit to the researcher for finding and reporting the vulnerability.</mj-text>
+          <mj-text>At the beginning of today's report, Zelnyuk clearly states the reasons that drove him to publicly announcing the full details for the current zero-day, before informing the developer of the issue. Oracle's past reaction to his bug bounty reporting seems to have played a part in this.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/virtualbox-zero-day-published-by-disgruntled-researcher/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/virtualbox-zero-day-vulnerability-details-and-exploit-are-publicly-available/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Flaws in Popular Self-Encrypting SSDs Let Attackers Decrypt Data</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-j4MiFUA8iTA/W-FXeQzbiBI/AAAAAAAAyg8/v-J0jfwDMeAttyh2mUqTJv4CBw3rzt38QCLcBGAs/s728-e100/self-encrypting-ssd-encryption-hacking.jpg"></mj-image>
+          <mj-text>Security researchers have discovered multiple critical vulnerabilities in some of the popular self-encrypting solid state drives (SSD) that could allow an attacker to decrypt disk encryption and recover protected data without knowing the password for the disk.</mj-text>
+          <mj-text>The duo successfully tested their attack against three Crucial models of SSDs—Crucial MX100, MX200, and MX300—and four Samsung SSDs—840 EVO, 850 EVO, T3 Portable, and T5 Portable drives and found at least one critical flaw that breaks the encryption scheme. But researchers warned that many other SSDs may also be at risk. With physical access to the device's debug ports, the researchers were able to reverse engineer the firmware and modify it to decrypt the hardware encrypted data by entering any password.</mj-text>
+          <mj-text>What's more? Since Windows' built-in BitLocker full-disk encryption software by default uses hardware-based encryption if available, instead of its own software-based encryption algorithms, Windows users relying on BitLocker and using vulnerable drives remain exposed to above-mentioned vulnerabilities. However, you can force BitLocker to use software-based encryption only by changing a setting in Windows Group Policy.</mj-text>
+          <mj-text>Meijer and Gastel reported the vulnerabilities to Crucial and Samsung before going public with their findings. While Crucial has already released firmware patches for all of its affected drives, Samsung has rolled out security patches for its T3 and T5 Portable SSDs.</mj-text>
+          <mj-button mj-class="bg-green" href="https://thehackernews.com/2018/11/self-encrypting-ssd-hacking.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.theregister.co.uk/2018/11/05/busted_ssd_encryption/">
+            Even More on The Register
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News and #Leaks</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/steam-bug-could-have-given-you-access-to-all-the-cd-keys-of-any-game/">Steam bug could have given you access to all the CD keys of any game</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-releases-info-on-protecting-bitlocker-from-dma-attacks/">Microsoft Releases Info on Protecting BitLocker From DMA Attacks</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/data-of-nearly-700000-amex-india-customers-exposed-via-unsecured-mongodb-server/">Data of nearly 700,000 Amex India customers exposed via unsecured MongoDB server</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/chrome-71-will-warn-users-about-websites-with-shady-phone-subscription-forms/">Chrome 71 will warn users about websites with shady phone subscription forms</a></li>
+              <li><a class="lnk-purple" href="https://www.theregister.co.uk/2018/11/08/cisco_dirty_cow_exploit_blunder/">Cisco accidentally leaked in-house Dirty COW exploit code with biz conf call software</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/bankers-life-hack-affects-more-than-566000-a-11691">Bankers Life Hack Affects More Than 566,000</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2018/11/busting-sim-swappers-and-sim-swap-myths/">Busting SIM Swappers and SIM Swap Myths</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/cambodias-isps-hit-by-some-of-the-biggest-ddos-attacks-in-the-countrys-history/">Cambodia's ISPs hit by some of the biggest DDoS attacks in the country's history</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/google-amp/article/hackers-are-increasingly-destroying-logs-to-hide-attacks/">Hackers are increasingly destroying logs to hide attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/google-amp/article/the-day-computer-security-turned-real-the-morris-worm-turns-30/">​The day computer security turned real: The Morris Worm turns 30</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2018/11/whos-in-your-online-shopping-cart/">Who’s In Your Online Shopping Cart?</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/new-microsoft-edge-browser-zero-day-rce-exploit-in-the-works/">New Microsoft Edge Browser Zero-Day RCE Exploit in the Works</a></li>
+              <li><a class="lnk-purple" href="https://www.troyhunt.com/heres-why-insert-thing-here-is-not-a-password-killer/">Here's Why [Insert Thing Here] Is Not a Password Killer</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/several-dos-vulnerabilities-patched-nginx">Several Vulnerabilities Patched in nginx</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2018/11/07/serious-xss-flaw-discovered-in-evernote-for-windows-update-now/">Serious XSS flaw discovered in Evernote for Windows, update now!</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/2018/11/07/flaw_in_apache_struts/">Remote code hijacking flaw in Apache Struts, patch ASAP</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2018/11/woocommerce-wordpress-hacking.html">Popular WooCommerce WordPress Plugin Patches Critical Vulnerability</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/november-android-security-update-fixes-critical-bugs-drops-media-library/">November Android Security Update Fixes Critical Bugs, Drops Media Library</a></li>
+              <li><a class="lnk-blue" href="https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180028">ADV180028 | Guidance for configuring BitLocker to enforce software encryption</a></li>
+              <li><a class="lnk-pink" href="https://blog.ripstech.com/2018/wordpress-design-flaw-leads-to-woocommerce-rce/">WordPress Design Flaw Leads to WooCommerce RCE</a></li>
+              <li><a class="lnk-green" href="https://suricata-ids.org/2018/11/06/suricata-4-1-released/">Suricata 4.1 released!</a></li>
+              <li><a class="lnk-orange" href="https://github.com/STEALTHbits/poshkatz">PoshKatz: PowerShell module for Mimikatz</a></li>
+              <li><a class="lnk-purple" href="https://blog.doyensec.com/2018/11/05/burp-rest-api-v2.html">Introducing burp-rest-api v2</a></li>
+              <li><a class="lnk-blue" href="http://www.berkdusunur.net/2018/11/development-of-metasploit-module-after.html?m=1">Development Of Metasploit Module After 0day </a></li>
+              <li><a class="lnk-pink" href="https://www.tarlogic.com/en/blog/pentests-in-restricted-vdi-environments/">Pentests in restricted VDI environments</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://apisecurity.io/">API Security Newsletter</a></li>
+              <li><a class="lnk-green" href="https://posts.specterops.io/operational-challenges-in-offensive-c-355bd232a200">Operational Challenges in Offensive C#</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-is-porting-sysinternals-tools-to-linux-procdump-released/">Microsoft is Porting Sysinternals Tools to Linux - ProcDump Released</a></li>
+              <li><a class="lnk-purple" href="https://blog.trendmicro.com/trendlabs-security-intelligence/cryptocurrency-mining-malware-uses-various-evasion-techniques-including-windows-installer-as-part-of-its-routine/">Cryptocurrency Mining Malware uses Various Evasion Techniques</a></li>
+              <li><a class="lnk-blue" href="https://secrary.com/Random/AbusingWSLforEvasion/">Abusing WSL for Evasion</a></li>
+              <li><a class="lnk-pink" href="https://tls13.ulfheim.net/">The New Illustrated TLS Connection - TLS 1.3</a></li>
+              <li><a class="lnk-green" href="https://packetfence.org/news/2018/packetfence-v82-released.html">PacketFence v8.2 released</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
