@@ -1,0 +1,191 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 19/11/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-xQfv6aTYh7w/W4joEXen0mI/AAAAAAAAyAo/g93SC418epUJLEZBsnh8kpC_5nPAVmJtQCLcBGAs/s728-e100/google-titan-security-key-fido.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">19 November 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Beyond Passwords: 2FA, U2F and Google Advanced Protection</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-xQfv6aTYh7w/W4joEXen0mI/AAAAAAAAyAo/g93SC418epUJLEZBsnh8kpC_5nPAVmJtQCLcBGAs/s728-e100/google-titan-security-key-fido.png"></mj-image>
+          <mj-text color="#fff">This post will be partly about 2FA in general, but also specifically about Google's Advanced Protection program because of the masses of people dependent on them for Gmail. Your email address is the skeleton key to your life (not just "online" life) so protecting that is absolutely paramount.</mj-text>
+          <mj-text color="#fff">2FA is two-factor authentication. For some quick perspective, a password alone is 1FA in that when you authenticate merely by entering a secret, all you require is one factor - "something that you know". If someone obtains the thing that you know then it's (probably) game over and they have access to your account. Adding a second factor typically means either requiring "something that you have" or "something that you are". The former is a physical device. MFA is multi-factor authentication. Strictly speaking, 2FA is MFA in that obviously, it's more than one factor. It's a subset of MFA.</mj-text>
+          <mj-text color="#fff">2-Step authentication does not necessarily require 2 discrete factors. Entering 2 different passwords, for example, might be 2-step but is entirely predicated on "something you know". U2F is Universal 2nd Factor and is an open authentication standard that strengthens and simplifies two-factor authentication (2FA) using specialized USB, NFC or Bluetooth devices based on similar security technology found in smart cards.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.troyhunt.com/beyond-passwords-2fa-u2f-and-google-advanced-protection/">
+            Read More on Troy Hunt's blog
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://landing.google.com/advancedprotection/">
+            Google Advanced Protection Program
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">One in five Magecart-infected sites get reinfected within days</mj-text>
+          <mj-image src="https://zdnet1.cbsistatic.com/hub/i/2018/11/13/132f93ec-b131-4081-826d-2997ad61abc6/ea2fa43adfd2235d786625196c45ac39/magecart.png"></mj-image>
+          <mj-text>Online stores that have been infected with the Magecart malware --known to record and steal credit card details from checkout forms-- often get reinfected after clean-up operations, a recent report has revealed.</mj-text>
+          <mj-text>Researchers have tracked Magecart-like infections on more than 40,000 domains since 2015. The researcher says that during August, September, and October, his scanner detected Magecart-like card skimming malware on over 5,400 domains. 21.3 percent of the cleaned shops got reinfected. A large number of reinfections occurred within the first day, or after a week, but on average, the reinfection time was 10.5 days.</mj-text>
+          <mj-text>"This shows that countermeasures taken by merchants and their contracted security firms often fail. There are multiple reasons for this," the researcher said. The expert listed: 1/ Magecart operatives often litter a hacked store with backdoors and rogue admin accounts. 2/ Magecart operatives use reinfection mechanisms such as database triggers and hidden periodic tasks to reinstate their payload. 3/ Magecart operatives use obfuscation techniques to make their presence indistinguishable from legitimate code. 4/ Magecart operatives utilize unpublished security exploits (aka 0days) to hack sites, exploits for which there are no patches. "All in all, it takes some very keen eyes and a lot of effort to clean all traces of a breach," he said.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/one-in-five-magecart-infected-stores-get-reinfected-within-days/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/how-magecart-groups-are-stealing-your-card-details-from-online-stores/">
+            How Magecart groups are stealing your card details from online stores
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://techcrunch.com/2018/11/15/millions-sms-text-messages-leaked-two-factor-codes/">A leaky database of SMS text messages exposed password resets and two-factor codes</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/most-atms-can-be-hacked-in-under-20-minutes/">Most ATMs can be hacked in under 20 minutes</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/firefox-now-shows-warnings-on-sites-with-data-breaches/">Firefox Now Shows Warnings On Sites with Data Breaches</a></li>
+              <li><a class="lnk-orange" href="https://gbhackers.com/hackers-abuse-online-video-feature-malware/">Hackers Abuse Critical Bug in Microsoft Office Online Video Feature To Deliver Malware</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/misconfigured-docker-services-actively-exploited-in-cryptojacking-operation/">Misconfigured Docker Services Actively Exploited in Cryptojacking Operation</a></li>
+              <li><a class="lnk-blue" href="https://www.darkreading.com/attacks-breaches/understanding-evil-twin-ap-attacks-and-how-to-prevent-them-/a/d-id/1333240">Understanding Evil Twin AP Attacks and How to Prevent Them</a></li>
+              <li><a class="lnk-pink" href="https://www.schneier.com/blog/archives/2018/11/oracle_and_resp.html">Oracle and "Responsible Disclosure"</a></li>
+              <li><a class="lnk-green" href="https://www.welivesecurity.com/2018/11/12/malware-90s-michelangelo-melissa-viruses/">Malware of the 90s: Remembering the Michelangelo and Melissa viruses</a></li>
+              <li><a class="lnk-orange" href="https://www.theverge.com/2018/11/12/18087014/cloudflare-dns-service-ios-android-app">Cloudflare’s 1.1.1.1 DNS service with DoH now available on iOS and Android</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2018/11/14/http-3-come-for-the-speed-stay-for-the-security/">HTTP/3: Come for the speed, stay for the security</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2018/11/meltdown-spectre-vulnerabilities.html">7 New Meltdown and Spectre-type CPU Flaws Affect Intel, AMD, ARM CPUs</a></li>
+              <li><a class="lnk-pink" href="https://arstechnica.com/information-technology/2018/11/major-bgp-mishap-takes-down-google-as-traffic-improperly-travels-to-china/">Google goes down after major BGP mishap routes traffic through China</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2018/11/amp-plugin-for-WordPress.html">Popular AMP Plugin for WordPress Patches Critical Flaw – Update Now</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2018/11/patch-tuesday-november-2018-edition/">Patch Tuesday, November 2018 Edition - 63 flaws, including (former) 0-days</a></li>
+              <li><a class="lnk-green" href="https://gbhackers.com/adobe-published-security-updates/">Adobe Published Security Updates for Flash Player, Adobe Acrobat and Photoshop</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/deserialization-issues-also-affect-ruby-not-just-java-php-and-net/">Deserialization issues also affect Ruby, not just Java, PHP, and .NET</a></li>
+              <li><a class="lnk-purple" href="URL">ADBHoney: Low interaction honeypot designed for Android Debug Bridge over TCP/IP</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/aquasecurity/kube-hunter">Kube Hunter: Hunt for security weaknesses in Kubernetes clusters</a></li>
+              <li><a class="lnk-pink" href="https://blog.cloudflare.com/the-rise-of-multivector-amplifications/">The rise of multivector DDoS attacks</a></li>
+              <li><a class="lnk-green" href="https://github.com/MorteNoir1/virtualbox_e1000_0day">VirtualBox E1000 Guest-to-Host Escape tech details</a></li>
+              <li><a class="lnk-orange" href="https://www.troyhunt.com/add-ons-extensions-and-csp-violations-playing-nice-with-content-security-policies/">Add-ons, Extensions and CSP Violations: Playing Nice with Content Security Policies</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/alertot/new-variant-in-wp-gdpr-compliance-vulnerability-and-fixing-it-with-virtual-patching-4b72d7496c1c">New variant in wp-gdpr-compliance vulnerability and fixing it with virtual patching</a></li>
+              <li><a class="lnk-blue" href="https://justi.cz/security/2018/11/14/gvisor-lpe.html">Privilege Escalation in gVisor, Google's Container Sandbox</a></li>
+              <li><a class="lnk-pink" href="https://www.tarlogic.com/en/blog/arecibo-exfiltration-tool/">Arecibo: an Out of Band exfiltration tool (DNS and HTTP)</a></li>
+              <li><a class="lnk-purple" href="https://blog.thinkst.com/p/canarytokensorg-quick-free-detection.html">Canarytokens.org - Quick, Free, Network Breach Detection for the Masses</a></li>
+              <li><a class="lnk-green" href="https://github.com/chenerlich/FCL">FCL - Fileless Command Lines</a></li>
+              <li><a class="lnk-orange" href="https://x-c3ll.github.io/posts/DNS-endpoint-exfiltration/">Building simple DNS endpoints for exfiltration or C2</a></li>
+              <li><a class="lnk-purple" href="URL">XSStrike: Advanced XSS Detection Suite</a></li>
+              <li><a class="lnk-blue" href="https://blog.probely.com/how-to-deploy-modern-tls-in-2018-1b9a9cafc454">How to deploy modern TLS in 2018?</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/tenable-techblog/uac-bypass-by-mocking-trusted-directories-24a96675f6e">UAC Bypass by Mocking Trusted Directories</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 15 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 13 subsidiaries and brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
