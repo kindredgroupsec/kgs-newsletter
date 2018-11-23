@@ -1,0 +1,167 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 26/11/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://sophosnews.files.wordpress.com/2018/11/shutterstock_3690310761.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">26 November 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">The passwordless web explained</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2018/11/shutterstock_3690310761.jpg"></mj-image>
+          <mj-text color="#fff">On 20 November 2018, Microsoft announced that its 800 million Microsoft account holders could now log in to services like Outlook, Office, Skype and Xbox Live without using a password. The announcement is part of an apparent acceleration in the march towards a passwordless web, and comes at the end of a year when Mozilla Firefox, Google Chrome and Microsoft Edge all rolled out support for WebAuthn, one of the keystone technologies.</mj-text>
+          <mj-text color="#fff">Passwordless authentication means ditching usernames and passwords in favour of biometrics, like fingerprints and face recognition, or other forms of authentication compatible with the FIDO2 specification, such as YubiKeys or Titans.</mj-text>
+          <mj-text color="#fff">One of the reasons that passwords have hung around for so long is that they’re very, very easy to understand. Passwordless authentication works in a different way, isn’t as easy to grasp, and comes with a lexicon of new (or relatively new) acronyms and standards like FIDO2, WebAuthn and CTAP. Passwordless authentication is a Good Thing and it deserves some explanation. In this article I’ll try to explain, in simple terms, how it all works, what some of the important acronyms mean and how they fit together.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2018/11/22/the-passwordless-web-explained/">
+            Read More on Sophos NakedSecurity blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/how-a-security-test-for-dropbox-revealed-3-apple-zero-day-vulnerabilities/">How a Security Test for DropBox Revealed 3 Apple Zero Day Vulnerabilities</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/aws-rolls-out-new-security-feature-to-prevent-accidental-s3-data-leaks/">AWS rolls out new security feature to prevent accidental S3 data leaks</a></li>
+              <li><a class="lnk-green" href="https://gbhackers.com/carsblues-bluetooth-hack/">CarsBlues Bluetooth Hack Allows Hackers to Access Text Messages, Call Logs and More</a></li>
+              <li><a class="lnk-orange" href="https://www.dansdeals.com/more/dans-commentary/went-tesla-delivery-hell-tesla-giving-control-site-forums-1-5-million-tesla-account-contacts/">Tesla Gave Me Control Of Their Site Forums</a></li>
+              <li><a class="lnk-purple" href="https://www.darkreading.com/application-security/leaderboard-shows-adoption-of-dmarc-email-security-protocol/d/d-id/1333311">Leaderboard Shows Adoption of DMARC Email Security Protocol</a></li>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2018/11/usps-site-exposed-data-on-60-million-users/">USPS Site Exposed Data on 60 Million Users</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/magecart-group-hilariously-sabotages-competitor/">Magecart group hilariously sabotages competitor</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/edge-browser-can-now-sign-into-microsoft-accounts-with-fido2-security-keys/">Edge Browser Can Now Sign Into Microsoft Accounts With FIDO2 Security Keys</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2018/11/23/mobile-and-iot-attacks-sophoslabs-2019-threat-report/">Mobile and IoT attacks – SophosLabs 2019 Threat Report</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/first-gdpr-sanction-in-germany-fines-flirty-chat-platform-eur-20-000/">First GDPR Sanction in Germany Fines Flirty Chat Platform EUR 20,000</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2018/11/23/hacker-says-usps-ignored-serious-security-flaw-for-over-a-year/">Hacker says USPS ignored serious security flaw for over a year</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/rowhammer-attacks-can-now-bypass-ecc-memory-protections/">Rowhammer attacks can now bypass ECC memory protections</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/2018/11/22/german_egovernment_sdk_patched_against_id_spoofing_vulnerability/">German e-government SDK patched against ID spoofing vulnerability</a></li>
+              <li><a class="lnk-orange" href="https://www.hackread.com/amazon-exposed-names-email-addresses-of-customers/">Amazon data breach: Names & email addresses of customers exposed online</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2018/11/20/patch-skype-for-business-now-or-risk-dos-via-emoji-kittens/">Patch Skype for Business now or risk DoS via emoji kittens!</a></li>
+              <li><a class="lnk-pink" href="https://www.theregister.co.uk/2018/11/23/apache_hadoop_yarn_zip_slip_vulnerability/">Apache Hadoop spins cracking code injection vulnerability YARN</a></li>
+              <li><a class="lnk-green" href="https://gbhackers.com/vmware-vsphere-data-protection/">VMware Releases Critical Security Updates for Multiple Vulnerabilities</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://cryptobook.nakov.com/">Practical Cryptography for Developers - Free Book</a></li>
+              <li><a class="lnk-pink" href="https://github.com/kromtech/s3-inspector">S3Inspector: Check for public S3 buckets</a></li>
+              <li><a class="lnk-green" href="https://www.tarlogic.com/en/blog/sasshimi-evading-allowtcpforwarding/">SaSSHimi: evading AllowTcpForwarding</a></li>
+              <li><a class="lnk-orange" href="https://password-meter-comparison.org/static/index.php">Password Strength Meter Comparison</a></li>
+              <li><a class="lnk-purple" href="https://hackernoon.com/azure-brute-farce-17e27dc05f85">How Azure AD Could Be Vulnerable to Brute-Force and DOS Attacks</a></li>
+              <li><a class="lnk-blue" href="https://www.netsparker.com/blog/web-security/web-browser-address-bar-spoofing/">Web Browser Address Bar Spoofing</a></li>
+              <li><a class="lnk-pink" href="https://www.sec-consult.com/en/blog/2018/11/my-name-is-johann-wolfgang-von-goethe-i-can-prove-it/">Faking the German government-issued identity card online</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@ilja.bv/yet-another-memory-leak-in-imagemagick-or-how-to-exploit-cve-2018-16323-a60f048a1e12">Yet another memory leak in ImageMagick or how to exploit CVE-2018–16323.</a></li>
+              <li><a class="lnk-orange" href="https://github.com/infosecn1nja/AD-Attack-Defense/blob/master/README.md#discovery">Active Directory Kill Chain Attack & Defense</a></li>
+              <li><a class="lnk-purple" href="https://github.com/PaulSec/awesome-windows-domain-hardening/">Awesome Windows Domain Hardening</a></li>
+              <li><a class="lnk-blue" href="https://www.itprotoday.com/industry-perspectives/windows-10-security-checklist-starter-kit">Windows 10 Security Checklist Starter Kit</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

@@ -1,4 +1,4 @@
 /register                     /register.html
 http://news.infosecgur.us/*   https:/news.infosecgur.us/:splat 301
 /2017-*                       /archives/2017-:splat 301
-/latest                       /2018-11-19
+/latest                       /2018-11-26
