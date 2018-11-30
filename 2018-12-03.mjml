@@ -1,0 +1,189 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 03/12/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">3 December 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Half of all Phishing Sites Now Have the Padlock</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2018/03/aboutpunycode.png"></mj-image>
+          <mj-text color="#fff">Maybe you were once advised to “look for the padlock” as a means of telling legitimate e-commerce sites from phishing or malware traps. Unfortunately, this has never been more useless advice. New research indicates that half of all phishing scams are now hosted on Web sites whose Internet address includes the padlock and begins with “https://”.</mj-text>
+          <mj-text color="#fff">This alarming shift is notable because a majority of Internet users have taken the age-old “look for the lock” advice to heart, and still associate the lock icon with legitimate sites. A PhishLabs survey conducted last year found more than 80% of respondents believed the green lock indicated a website was either legitimate and/or safe.</mj-text>
+          <mj-text color="#fff">In reality, the https:// part of the address (also called “Secure Sockets Layer” or SSL) merely signifies the data being transmitted back and forth between your browser and the site is encrypted and can’t be read by third parties. The presence of the padlock does not mean the site is legitimate, nor is it any proof the site has been security-hardened against intrusion from hackers.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2018/11/half-of-all-phishing-sites-now-have-the-padlock/">
+            Read More on KrebsOnSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Uber fined $1.1 million by UK and Dutch regulators over 2016 data breach</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-DD1yj4dz5SY/W_1EqlPKw3I/AAAAAAAAyss/FOxyGAxpGr4gop133v8d_WpaevvfzmPYgCLcBGAs/s728-e100/uber-data-breach-fine.jpg"></mj-image>
+          <mj-text>British and Dutch data protection regulators Tuesday hit the ride-sharing company Uber with a total fine of $1,170,892 (~ 1.1 million) for failing to protect its customers’ personal information during a 2016 cyber attack involving millions of users.</mj-text>
+          <mj-text>Late last year, Uber unveiled that the company had suffered a massive data breach in October 2016, exposing names, email addresses and phone numbers of 57 million Uber riders and drivers along with driving license numbers of around 600,000 drivers.</mj-text>
+          <mj-text>Today Britain’s Information Commissioner’s Office (ICO) fined Uber 385,000 pounds ($491,102), while the Dutch Data Protection Authority (Dutch DPA) levied a 600,000 euro ($679,790) penalty on Uber for failing to protect the personal information of its 3 million British and 174,000 Dutch citizens, respectively. Since the data breach happened before the EU's General Data Protection Regulation (GDPR) took effect in May 2018, the fine of £385,000 imposed under the UK's old Data Protection Act 1998 is still lesser.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2018/11/uber-data-breach-fine.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Preventing Credential Compromise in AWS</mj-text>
+          <mj-image src="https://cdn-images-1.medium.com/max/1600/0*zo0pE0RvlpGxNlnq"></mj-image>
+          <mj-text>Previously we wrote about a method for detecting credential compromise in your AWS environment. The methodology focused on a continuous learning model and first use principle. This solution still is reactive in nature — we only detect credential compromise after it has already happened.. Even with detection capabilities, there is a risk that exposed credentials can provide access to sensitive data and/or the ability to cause damage in our environment.</mj-text>
+          <mj-text>Today, we would like to share two additional layers of security: API enforcement and metadata protection. These layers can be used to help prevent credential compromise in your environment.</mj-text>
+          <mj-button mj-class="bg-green" href="https://medium.com/netflix-techblog/netflix-information-security-preventing-credential-compromise-in-aws-41b112c15179">
+            Read More on Netflix Technology Blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/cisco-pushes-new-patch-to-fix-failed-fix-for-severe-webex-vulnerability/">Cisco pushes fix for failed Webex vulnerability patch</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/atrium-health-data-breach-exposed-2-65-million-patient-records/">Atrium Health data breach exposed 2.65 million patient records</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/aws-security-hub-aggregates-alerts-third-party-tools">AWS Security Hub Aggregates Alerts From Third-Party Tools</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/elasticsearch-server-exposed-the-personal-data-of-over-57-million-us-citizens/">ElasticSearch server exposed the personal data of over 57 million US citizens</a></li>
+              <li><a class="lnk-purple" href="https://www.darkreading.com/endpoint/mitre-changes-the-game-in-security-product-testing/d/d-id/1333374">MITRE Changes the Game in Security Product Testing</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/how-secure-is-serverless-computing/">How secure is serverless computing?</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/sennheiser-headset-software-could-allow-man-in-the-middle-ssl-attacks/">Sennheiser Headset Software Could Allow Man-in-the-Middle SSL Attacks</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/google-amp/article/after-microsoft-complaints-indian-police-arrest-tech-support-scammers-at-26-call-centers/">After Microsoft complaints, Indian police arrest tech support scammers at 26 call centers</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2018/11/29/googles-deceitful-location-tracking-is-against-the-law-say-7-eu-groups/">Google’s “deceitful” location tracking is against the law, say 7 EU groups</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2018/11/dell-data-breach-hacking.html">Dell Resets All Customers' Passwords After Potential Security Breach</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/new-industrial-espionage-campaign-leverages-autocad-based-malware/">New industrial espionage campaign leverages AutoCAD-based malware</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blogs.technet.microsoft.com/secguide/2018/11/20/security-baseline-final-for-windows-10-v1809-and-windows-server-2019/">Security baseline (FINAL) for Windows 10 v1809 and Windows Server 2019</a></li>
+              <li><a class="lnk-pink" href="http://sysadminconcombre.blogspot.com/2018/11/golem-malware-malware-hiding-in-your.html">Golem Malware - The Malware Hiding in Your Windows Fonts Folder</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@SweetRollBandit/aws-slurp-github-takeover-f8c80b13e7b5">Broken Link Hijacking: Example with AWS Slurp Github Takeover</a></li>
+              <li><a class="lnk-orange" href="https://viz.greynoise.io/table">GreyNoise Visualizer: Monitor internet mass-scans</a></li>
+              <li><a class="lnk-purple" href="https://htcap.org/">HTCAP: Single Page Application crawler</a></li>
+              <li><a class="lnk-blue" href="https://github.com/raz-varren/xsshell">XSShell: XSS "reverse shell" framework</a></li>
+              <li><a class="lnk-pink" href="https://github.com/nbulischeck/tyton">tyton: Kernel-mode rootkit hunter</a></li>
+              <li><a class="lnk-green" href="https://github.com/quarantyne/quarantyne">Quarantyne: new look at web application firewalling</a></li>
+              <li><a class="lnk-orange" href="https://gist.github.com/BuffaloWill/fa96693af67e3a3dd3fb">Cloud Metadata Dictionary useful for SSRF Testing</a></li>
+              <li><a class="lnk-purple" href="https://hackernoon.com/hunting-with-%EA%93%98amerka-2-0-aka-fist-flickr-instagram-shodan-twitter-ca363f12562a">Hunting with ꓘamerka 2.0 aka FIST (Flickr, Instagram, Shodan, Twitter)</a></li>
+              <li><a class="lnk-blue" href="https://blog.0day.rocks/hiding-through-a-maze-of-iot-devices-9db7f2067a80?clap=X0rz">Hiding Through a Maze of IoT Devices abusing UPnP</a></li>
+              <li><a class="lnk-pink" href="https://posts.specterops.io/hunting-in-active-directory-unconstrained-delegation-forests-trusts-71f2b33688e1">Hunting in Active Directory: Unconstrained Delegation & Forests Trusts</a></li>
+              <li><a class="lnk-green" href="https://www.digitalshadows.com/blog-and-research/mapping-the-asd-essential-8-to-the-mitre-attck-framework/">Mapping the ASD Essential 8 to the Mitre ATT&CK™ framework</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
