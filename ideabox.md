@@ -1,5 +1,5 @@
 What happened last week in #InfoSec? Find it out with the Kindred security newsletter!
-https://news.infosecgur.us/2018-12-03
+https://news.infosecgur.us/2018-12-10
 
 Kindred Group Security Newsletter - 3 December 2018
 Kindred Group Security

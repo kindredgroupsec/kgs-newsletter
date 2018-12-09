@@ -1,0 +1,156 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 10/12/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">10 December 2018</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Kubernetes Updates Patch Critical Privilege Escalation Bug</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2018/12/04/Kubernetes_Logo_headpic.png"></mj-image>
+          <mj-text color="#fff">A critical vulnerability in Kubernetes open-source system for handling containerized applications can enable an attacker to gain full administrator privileges on Kubernetes compute nodes.</mj-text>
+          <mj-text color="#fff">Kubernetes makes it easier to manage a container environment  by organizing application containers into pods, nodes (physical or virtual machines) and clusters. Multiple nodes form a cluster, managed by a master that coordinates cluster-related activities like scaling, scheduling, or updating apps. Each node has an agent called Kubelet that facilitates communication with the Kubernetes master via the API. The number of nodes available in a Kubernetes system can be hundreds and even thousands.</mj-text>
+          <mj-text color="#fff">The security bug was discovered by Darren Shepherd, co-founder of Rancher Labs company that provides Kubernetes-as-a-Service solution Rancher. Now tracked as CVE-2018-1002105, the flaw is critical, with a Common Vulnerability Scoring System (CVSS) score of 9.8 out of 10. The problem has been addressed in the latest Kubernetes revisions: v1.10.11, v1.11.5, v1.12.3, and v1.13.0-rc.1. Kubernetes releases prior to these along with the products and services based on them are affected by CVE-2018-1002105.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/kubernetes-updates-patch-critical-privilege-escalation-bug/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://github.com/kubernetes/kubernetes/issues/71411">
+            More on CVE-2018-1002105
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2018/12/a-breach-or-just-a-forced-password-reset/">A Breach, or Just a Forced Password Reset?</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/google-amp/article/googles-cloud-security-command-center-gets-beta-release/">Google's Cloud Security Command Center gets beta release</a></li>
+              <li><a class="lnk-green" href="https://www.darkreading.com/endpoint/windows-10-security-questions-prove-easy-for-attackers-to-exploit/d/d-id/1333404">Windows 10 Security Questions Prove Easy for Attackers to Exploit</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/new-online-service-will-hack-printers-to-spew-out-spam/">New online service will hack printers to spew out spam</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2018/12/quora-hack.html">Quora Gets Hacked – 100 Million Users Data Stolen</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/malicious-sites-abuse-11-year-old-firefox-bug-that-mozilla-failed-to-fix/">Malicious sites abuse 11-year-old Firefox bug that Mozilla failed to fix</a></li>
+              <li><a class="lnk-pink" href="https://gbhackers.com/filter-bubble-duckduckgo/">Filter Bubble – DuckDuckGo Says Chrome Incognito Mode Does not Provide Anonymity</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/webkit-vulnerability-affects-latest-versions-of-apple-safari/">WebKit Vulnerability Affects Latest Versions of Apple Safari</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/botnet-of-20-000-wordpress-sites-infecting-other-wordpress-sites/">Botnet of 20,000 WordPress Sites Infecting Other WordPress Sites</a></li>
+              <li><a class="lnk-purple" href="https://www.hackread.com/mongodb-database-exposes-personal-user-data/">Another MongoDB database exposes personal data of 66M users</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/marriott-to-reimburse-some-guests-for-new-passports-after-massive-data-breach/">Marriott to reimburse some guests for new passports after massive data breach</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/solving-3rd-party-cybersecurity-risk-a-11815">Solving 3rd Party Cybersecurity Risk</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/10-tips-to-combat-phishing-via-social-media-platforms/">10 tips to combat phishing via social media platforms</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2018/12/07/flash-zero-day-exploit-spotted-patch-now/">Flash zero-day exploit spotted – patch now!</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2018/12/linux-user-privilege-policykit.html">Warning! Unprivileged Linux Users With UID > INT_MAX Can Execute Any Command</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/apple-killing-off-web-passwords-safari-trials-webauthn-logins-on-macos/">Apple killing off web passwords? Safari trials WebAuthn logins on macOS</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.twistlock.com/labs-blog/demystifying-kubernetes-cve-2018-1002105-dead-simple-exploit/">Demystifying Kubernetes CVE-2018-1002105 (and a dead simple exploit)</a></li>
+              <li><a class="lnk-pink" href="https://github.com/LinusHenze/WebKit-RegEx-Exploit">WebKit-RegEx-Exploit</a></li>
+              <li><a class="lnk-green" href="https://robertheaton.com/2018/11/28/https-in-the-real-world/">HTTPS in the real world</a></li>
+              <li><a class="lnk-orange" href="https://github.com/portcullislabs/linikatz">linikatz is a tool to attack AD on UNIX</a></li>
+              <li><a class="lnk-purple" href="https://geosn0w.github.io/Jailbreaks-Demystified/">Jailbreaks Demystified</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
