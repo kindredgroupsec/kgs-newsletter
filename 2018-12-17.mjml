@@ -1,0 +1,200 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 17/12/18" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">17 December 2018</mj-text>
+          <mj-image src="https://news.infosecgur.us/assets/christmas-1.png"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">What's actually in Australia's encryption laws?</mj-text>
+          <mj-image src="https://protonmail.com/blog/wp-content/uploads/2018/12/protonmail-australia-anti-encryption-law.jpg"></mj-image>
+          <mj-text color="#fff">Labor caved in last Thursday. Despite spending hours telling Parliament why the Assistance and Access Bill was dangerous garbage, and complaining about the rushed process, they dropped all of their proposed amendments and voted in the sitting government's version anyway. The most controversial part is the "frameworks for voluntary and mandatory industry assistance to law enforcement and intelligence agencies" to help government access the content of encrypted communications.</mj-text>
+          <mj-text color="#fff">Under the new laws, Australian government agencies can issue three kinds of notices: Technical Assistance Notices (TAN), which are compulsory notices for a "designated communication provider" to use an interception capability they already have; Technical Capability Notices (TCN), which are compulsory notices for a designated communication provider to build a new interception capability, so that it can meet subsequent Technical Assistance Notices; and Technical Assistance Requests (TAR), which are "voluntary" requests, but which have been described by experts as the most dangerous of the three because there was less oversight, at least in the original version of the law.</mj-text>
+          <mj-text color="#fff">Is this about fighting terrorism and child abuse? Kinda. It includes any crime "punishable by a maximum term of imprisonment of 3 years or more or for life". ASIS can also ask for assistance in relation to "the interests of Australia's foreign relations or the interests of Australia's national economic well-being".</mj-text>
+          <mj-text color="#fff">Who's impacted? Pretty much anyone and everyone who provides any kind of online service or communications equipment to anyone in Australia, and anyone who even installs or maintains the kit. Yes, that includes anyone who has a website.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/whats-actually-in-australias-encryption-laws-everything-you-need-to-know/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://protonmail.com/blog/australia-anti-encryption-law/">
+            Even More on ProtonMail Blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Google+ to Shut Down Early After New API Flaw potentially impacts 52.5 Million Users</mj-text>
+          <mj-image src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/GettyImages-453920612-800x533.jpg"></mj-image>
+          <mj-text>Google said it discovered another critical security vulnerability in one of Google+'s People APIs that could have allowed developers to steal private information on 52.5 million users, including their name, email address, occupation, and age.</mj-text>
+          <mj-text>The vulnerable API in question is called "People: get" that has been designed to let developers request basic information associated with a user profile .However, software update in November introduced the bug in the Google+ People API that allowed apps to view users' information even if a user profile was set to not-public. Google engineers discovered the security issue during standard testing procedures and addressed it within a week of the issue being introduced.</mj-text>
+          <mj-text>The company said it found no evidence that the vulnerability was exploited or its users' data was misused by any third-party app developers. Google also assured its users that no passwords, financial data, national identification numbers or any other sensitive data were left exposed by this API bug. Google said the company is going to shut down its social media network in April 2019 instead of August.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2018/12/google-plus-hacking.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://arstechnica.com/tech-policy/2018/12/google-bug-exposes-non-public-profile-data-for-52-million-users/">
+            Even More on ArsTechnica
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2018/12/12/text-captchas-easily-beaten-by-neural-nets/amp/">Text CAPTCHAs easily beaten by neural networks</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/new-lamepyre-macos-malware-sends-screenshots-to-attacker/">New LamePyre macOS Malware Sends Screenshots to Attacker</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2018/12/spammed-bomb-threat-hoax-demands-bitcoin/">Spammed Bomb Threat Hoax Demands Bitcoin</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/logitech-app-security-flaw-allowed-keystroke-injection-attacks/">Logitech app security flaw allowed keystroke injection attacks</a></li>
+              <li><a class="lnk-purple" href="https://www.hackread.com/apps-on-your-phone-selling-sharing-location-data/">Apps on smartphones are selling and sharing our location data 24/7</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/ships-infected-with-ransomware-usb-malware-worms/">Ships infected with ransomware, USB malware, worms</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2018/12/scanning-for-flaws-scoring-for-security/">Scanning for Flaws, Scoring for Security</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/researchers-find-dozen-undocumented-openssh-backdoors">Researchers Find a Dozen Undocumented OpenSSH Backdoors</a></li>
+              <li><a class="lnk-orange" href="https://arstechnica.com/gaming/2018/12/cryptography-failure-leads-to-easy-hacking-for-playstation-classic/">Cryptography failure leads to easy hacking for PlayStation Classic</a></li>
+              <li><a class="lnk-purple" href="https://gbhackers.com/hackers-formjacking-credit-card/">Hackers Using Formjacking Technique to Steal Credit Card Details from Payment Forms</a></li>
+              <li><a class="lnk-blue" href="https://www.darkreading.com/threat-intelligence/mac-malware-cracks-watchguards-top-10-list-/d/d-id/1333474">Mac Malware Cracks WatchGuard’s Top 10 List</a></li>
+              <li><a class="lnk-pink" href="https://www.theregister.co.uk/2018/12/12/ticketmaster_denies_fault_website_magecart_infection/">Ticketmaster tells customer it's not at fault for site's Magecart malware pwnage</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2018/12/patch-tuesday-december-2018-edition/">Patch Tuesday, December 2018 Edition</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2018/12/adobe-acrobat-update.html">Adobe's Year-End Update Patches 87 Flaws in Acrobat Software</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/wordpress-plugs-bug-that-led-to-google-indexing-some-user-passwords/">WordPress plugs bug that led to Google indexing some user passwords</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2018/12/phpmyadmin-security-update.html">phpMyAdmin Releases Critical Software Update — Patch Your Sites Now!</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.smashingmagazine.com/2018/12/feature-policy/">Protecting Your Site With Feature Policy</a></li>
+              <li><a class="lnk-pink" href="https://research.checkpoint.com/50-adobe-cves-in-50-days/">50 CVEs in 50 Days: Fuzzing Adobe Reader</a></li>
+              <li><a class="lnk-green" href="https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8626">CVE-2018-8626 | Windows DNS Server Heap Overflow Vulnerability</a></li>
+              <li><a class="lnk-orange" href="https://github.com/WICG/change-password-url">change-password-url Specifications</a></li>
+              <li><a class="lnk-purple" href="https://www.honoki.net/2018/12/from-blind-xxe-to-root-level-file-read-access/">From blind XXE to root-level file read access</a></li>
+              <li><a class="lnk-blue" href="https://eprint.iacr.org/2018/1063">Your Culture is in Your Password: An Analysis of a Demographically-diverse Password Dataset</a></li>
+              <li><a class="lnk-pink" href="https://threader.app/thread/1072466957604192257">How Equifax breach happened</a></li>
+              <li><a class="lnk-green" href="https://smallstep.com/blog/step-certificates.html">Step Certificates: An open source solution for secure automated certificate management</a></li>
+              <li><a class="lnk-orange" href="https://blog.intothesymmetry.com/2018/12/persistent-xsrf-on-kubernetes-dashboard.html">Persistent XSRF on Kubernetes Dashboard using Redhat Keycloak Gatekeeper on Microsof Azure</a></li>
+              <li><a class="lnk-purple" href="https://hub.hacken.io/blog/implementation-of-the-owasp-mobile-top-10-methodology-for-testing-android-applications">Implementation of the OWASP Mobile TOP 10 methodology for testing Android applications</a></li>
+              <li><a class="lnk-blue" href="https://blog.ice9.us/2018/12/uberducky-ble-wireless-usb-rubber-ducky.html">Uberducky - a wireless USB Rubber Ducky triggered via BLE</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+
+            <mj-section background-color="#d42426">
+              <mj-column>
+                <mj-text mj-class="white h3" align="center">This is the last Kindred Security Newsletter for 2018</mj-text>
+                <mj-image src="https://news.infosecgur.us/assets/christmas-2.png"></mj-image>
+
+                <mj-text mj-class="white">It's time for the Kindred Group Security team to take some holiday. The newsletter will be off for a few weeks during Christmas and New Year's Eve. But don't worry, we'll be back. See you soon for some awesome infosec news!</mj-text>
+
+              </mj-column>
+            </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
