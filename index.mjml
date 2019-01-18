@@ -68,57 +68,61 @@
           <mj-text>A weekly newsletter of the best articles on cybersecurity, privacy, security awareness, and more. All links are curated by hand from Kindred Group's security team.</mj-text>
           <mj-text><strong>Don't forget to <a class="lnk-pink" href="https://kindred-newsletter.infosecgur.us/register">register</a> if you want to receive this newsletter directly to your email address.</strong></mj-text>
           <mj-spacer height="30px" />
+          <mj-text mj-class="blue h2">2019</mj-text>
+          <mj-list>
+            <li><a href="./2019-01-21.html" class="lnk-blue">21 January 2019</a> (<a href="./2019-01-21.pdf" class="lnk-green">PDF</a>)</li>
+          </mj-list>
           <mj-text mj-class="orange h2">2018</mj-text>
           <mj-list>
-            <li><a href="./2018-12-17.html" class="lnk-blue">17 December 2018</a> (<a href="./2018-12-17.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-12-10.html" class="lnk-blue">10 December 2018</a> (<a href="./2018-12-10.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-12-03.html" class="lnk-blue">3 December 2018</a> (<a href="./2018-12-03.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-11-26.html" class="lnk-blue">26 November 2018</a> (<a href="./2018-11-26.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-11-19.html" class="lnk-blue">19 November 2018</a> (<a href="./2018-11-19.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-11-12.html" class="lnk-blue">12 November 2018</a> (<a href="./2018-11-12.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-11-05.html" class="lnk-blue">5 November 2018</a> (<a href="./2018-11-05.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-10-29.html" class="lnk-blue">29 October 2018</a> (<a href="./2018-10-29.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-10-22.html" class="lnk-blue">22 October 2018</a> (<a href="./2018-10-22.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-10-15.html" class="lnk-blue">15 October 2018</a> (<a href="./2018-10-15.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-10-08.html" class="lnk-blue">8 October 2018</a> (<a href="./2018-10-08.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-10-01.html" class="lnk-blue">1 October 2018</a> (<a href="./2018-10-01.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-09-24.html" class="lnk-blue">24 September 2018</a> (<a href="./2018-09-24.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-09-17.html" class="lnk-blue">17 September 2018</a> (<a href="./2018-09-17.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-09-10.html" class="lnk-blue">10 September 2018</a> (<a href="./2018-09-10.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-09-03.html" class="lnk-blue">3 September 2018</a> (<a href="./2018-09-03.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-08-27.html" class="lnk-blue">27 August 2018</a> (<a href="./2018-08-27.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-08-20.html" class="lnk-blue">20 August 2018</a> (<a href="./2018-08-20.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-08-13.html" class="lnk-blue">13 August 2018</a> (<a href="./2018-08-13.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-08-06.html" class="lnk-blue">6 August 2018</a> (<a href="./2018-08-06.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-07-30.html" class="lnk-blue">30 July 2018</a> (<a href="./2018-07-30.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-07-23.html" class="lnk-blue">23 July 2018</a> (<a href="./2018-07-23.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-07-16.html" class="lnk-blue">16 July 2018</a> (<a href="./2018-07-16.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-07-09.html" class="lnk-blue">9 July 2018</a> (<a href="./2018-07-09.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-07-02.html" class="lnk-blue">2 July 2018</a> (<a href="./2018-07-02.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-06-25.html" class="lnk-blue">25 June 2018</a> (<a href="./2018-06-25.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-06-18.html" class="lnk-blue">18 June 2018</a> (<a href="./2018-06-18.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-06-11.html" class="lnk-blue">11 June 2018</a> (<a href="./2018-06-11.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-06-04.html" class="lnk-blue">4 June 2018</a> (<a href="./2018-06-04.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-05-28.html" class="lnk-blue">28 May 2018</a> (<a href="./2018-05-28.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-05-21.html" class="lnk-blue">21 May 2018</a> (<a href="./2018-05-21.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-05-14.html" class="lnk-blue">14 May 2018</a> (<a href="./2018-05-14.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-05-07.html" class="lnk-blue">7 May 2018</a> (<a href="./2018-05-07.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-04-30.html" class="lnk-blue">30 April 2018</a> (<a href="./2018-04-30.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-04-23.html" class="lnk-blue">23 April 2018</a> (<a href="./2018-04-23.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-04-16.html" class="lnk-blue">16 April 2018</a> (<a href="./2018-04-16.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-04-09.html" class="lnk-blue">9 April 2018</a> (<a href="./2018-04-09.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-04-02.html" class="lnk-blue">2 April 2018</a> (<a href="./2018-04-02.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-03-26.html" class="lnk-blue">26 March 2018</a> (<a href="./2018-03-26.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-03-19.html" class="lnk-blue">19 March 2018</a> (<a href="./2018-03-19.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-03-12.html" class="lnk-blue">12 March 2018</a> (<a href="./2018-03-12.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-03-05.html" class="lnk-blue">5 March 2018</a> (<a href="./2018-03-05.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-02-26.html" class="lnk-blue">26 February 2018</a> (<a href="./2018-02-26.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-02-19.html" class="lnk-blue">19 February 2018</a> (<a href="./2018-02-19.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-02-12.html" class="lnk-blue">12 February 2018</a> (<a href="./2018-02-12.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-02-05.html" class="lnk-blue">5 February 2018</a> (<a href="./2018-02-05.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-01-29.html" class="lnk-blue">29 January 2018</a> (<a href="./2018-01-29.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-01-22.html" class="lnk-blue">22 January 2018</a> (<a href="./2018-01-22.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2018-01-15.html" class="lnk-blue">15 January 2018</a> (<a href="./2018-01-15.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-12-17.html" class="lnk-blue">17 December 2018</a> (<a href="./archives/2018-12-17.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-12-10.html" class="lnk-blue">10 December 2018</a> (<a href="./archives/2018-12-10.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-12-03.html" class="lnk-blue">3 December 2018</a> (<a href="./archives/2018-12-03.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-11-26.html" class="lnk-blue">26 November 2018</a> (<a href="./archives/2018-11-26.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-11-19.html" class="lnk-blue">19 November 2018</a> (<a href="./archives/2018-11-19.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-11-12.html" class="lnk-blue">12 November 2018</a> (<a href="./archives/2018-11-12.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-11-05.html" class="lnk-blue">5 November 2018</a> (<a href="./archives/2018-11-05.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-10-29.html" class="lnk-blue">29 October 2018</a> (<a href="./archives/2018-10-29.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-10-22.html" class="lnk-blue">22 October 2018</a> (<a href="./archives/2018-10-22.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-10-15.html" class="lnk-blue">15 October 2018</a> (<a href="./archives/2018-10-15.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-10-08.html" class="lnk-blue">8 October 2018</a> (<a href="./archives/2018-10-08.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-10-01.html" class="lnk-blue">1 October 2018</a> (<a href="./archives/2018-10-01.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-09-24.html" class="lnk-blue">24 September 2018</a> (<a href="./archives/2018-09-24.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-09-17.html" class="lnk-blue">17 September 2018</a> (<a href="./archives/2018-09-17.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-09-10.html" class="lnk-blue">10 September 2018</a> (<a href="./archives/2018-09-10.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-09-03.html" class="lnk-blue">3 September 2018</a> (<a href="./archives/2018-09-03.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-08-27.html" class="lnk-blue">27 August 2018</a> (<a href="./archives/2018-08-27.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-08-20.html" class="lnk-blue">20 August 2018</a> (<a href="./archives/2018-08-20.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-08-13.html" class="lnk-blue">13 August 2018</a> (<a href="./archives/2018-08-13.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-08-06.html" class="lnk-blue">6 August 2018</a> (<a href="./archives/2018-08-06.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-07-30.html" class="lnk-blue">30 July 2018</a> (<a href="./archives/2018-07-30.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-07-23.html" class="lnk-blue">23 July 2018</a> (<a href="./archives/2018-07-23.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-07-16.html" class="lnk-blue">16 July 2018</a> (<a href="./archives/2018-07-16.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-07-09.html" class="lnk-blue">9 July 2018</a> (<a href="./archives/2018-07-09.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-07-02.html" class="lnk-blue">2 July 2018</a> (<a href="./archives/2018-07-02.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-06-25.html" class="lnk-blue">25 June 2018</a> (<a href="./archives/2018-06-25.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-06-18.html" class="lnk-blue">18 June 2018</a> (<a href="./archives/2018-06-18.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-06-11.html" class="lnk-blue">11 June 2018</a> (<a href="./archives/2018-06-11.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-06-04.html" class="lnk-blue">4 June 2018</a> (<a href="./archives/2018-06-04.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-05-28.html" class="lnk-blue">28 May 2018</a> (<a href="./archives/2018-05-28.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-05-21.html" class="lnk-blue">21 May 2018</a> (<a href="./archives/2018-05-21.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-05-14.html" class="lnk-blue">14 May 2018</a> (<a href="./archives/2018-05-14.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-05-07.html" class="lnk-blue">7 May 2018</a> (<a href="./archives/2018-05-07.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-04-30.html" class="lnk-blue">30 April 2018</a> (<a href="./archives/2018-04-30.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-04-23.html" class="lnk-blue">23 April 2018</a> (<a href="./archives/2018-04-23.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-04-16.html" class="lnk-blue">16 April 2018</a> (<a href="./archives/2018-04-16.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-04-09.html" class="lnk-blue">9 April 2018</a> (<a href="./archives/2018-04-09.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-04-02.html" class="lnk-blue">2 April 2018</a> (<a href="./archives/2018-04-02.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-03-26.html" class="lnk-blue">26 March 2018</a> (<a href="./archives/2018-03-26.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-03-19.html" class="lnk-blue">19 March 2018</a> (<a href="./archives/2018-03-19.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-03-12.html" class="lnk-blue">12 March 2018</a> (<a href="./archives/2018-03-12.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-03-05.html" class="lnk-blue">5 March 2018</a> (<a href="./archives/2018-03-05.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-02-26.html" class="lnk-blue">26 February 2018</a> (<a href="./archives/2018-02-26.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-02-19.html" class="lnk-blue">19 February 2018</a> (<a href="./archives/2018-02-19.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-02-12.html" class="lnk-blue">12 February 2018</a> (<a href="./archives/2018-02-12.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-02-05.html" class="lnk-blue">5 February 2018</a> (<a href="./archives/2018-02-05.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-01-29.html" class="lnk-blue">29 January 2018</a> (<a href="./archives/2018-01-29.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-01-22.html" class="lnk-blue">22 January 2018</a> (<a href="./archives/2018-01-22.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./archives/2018-01-15.html" class="lnk-blue">15 January 2018</a> (<a href="./archives/2018-01-15.pdf" class="lnk-green">PDF</a>)</li>
           </mj-list>
           <mj-text mj-class="pink h2">2017</mj-text>
           <mj-list>

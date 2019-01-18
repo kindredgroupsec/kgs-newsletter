@@ -1,0 +1,225 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 21/01/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://research.checkpoint.com/wp-content/uploads/2019/01/Fortnite_1021x580.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">21 January 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Hackers infect e-commerce sites by compromising their advertising partner</mj-text>
+          <mj-image src="https://blog.trendmicro.com/trendlabs-security-intelligence/files/2019/01/magecart-group-12-1.jpg"></mj-image>
+          <mj-text color="#fff">Magecart strikes again, one of the most notorious hacking groups specializes in stealing credit card details from poorly-secured e-commerce websites. According to security researchers from RiskIQ and Trend Micro, cybercriminals of a new subgroup of Magecart, labeled as "Magecart Group 12," recently successfully compromised nearly 277 e-commerce websites by using supply-chain attacks.</mj-text>
+          <mj-text color="#fff">Magecart is the same group of digital credit card skimmers which made headlines last year for carrying out attacks against some big businesses including Ticketmaster, British Airways, and Newegg. Typically, the Magecart hackers compromise e-commerce sites and insert malicious JavaScript code into their checkout pages that silently captures payment information of customers making purchasing on the sites and then send it to the attacker's remote server.</mj-text>
+          <mj-text color="#fff">The third-party library targeted by Magecart Group 12 is by a French online advertising company, called Adverline, whose service is being used by hundreds of European e-commerce websites to display ads.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/01/magecart-hacking-credit-cards.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://blog.trendmicro.com/trendlabs-security-intelligence/new-magecart-attack-delivered-through-compromised-advertising-supply-chain/">
+            Even More on TrendMicro's Blog
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="URL">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Bug in Fortnite Authentication Left Accounts Open to Take Over</mj-text>
+          <mj-image src="https://research.checkpoint.com/wp-content/uploads/2019/01/Fortnite_1021x580.jpg"></mj-image>
+          <mj-text>A weakness in Epic Games' authentication process for the highly popular Fortnite left gamers' accounts exposed to take over risks. An attacker could have stolen login tokens by just tricking the victim into clicking a link.</mj-text>
+          <mj-text>The combination of an unvalidated subdomain and cross-site scripting (XSS) in another allowed security researchers to bypass the protections implemented by the single sign-on (SSO) access control mechanism used for logging into Fortnite.</mj-text>
+          <mj-text>Epic Games fixed the issues in early December and did not say if they were exploited before that. Fortnite enjoys mad popularity, with at least 78 million monthly players, while statistics point to around 200 million registered users. Its players are often targeted for the V-Bucks - short for Vindertech Bucks or Vinderbucks in their accounts, an in-game currency that can be used to get cosmetic items for your character or to give it a competitive advantage through weaponry.Since real money is involved, criminals often use Fortnite to launder their proceedings by getting V-Bucks with stolen credit cards. The in-game currency is then sold at a discount price. At the moment, 1,000 V-Bucks cost $10.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/bug-in-fortnite-authentication-left-accounts-open-to-take-over/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://research.checkpoint.com/hacking-fortnite/">
+            Hacking Fortnite Accounts (CheckPoint Research)
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Data Breach Collection Contains 773 Million Unique Emails</mj-text>
+          <mj-image src="https://4a7efb2d53317100f611-1d7064c4f7b6de25658a4199efb34975.ssl.cf1.rackcdn.com/data-breach-collection-contains-773-million-unique-emails-showcase_image-9-p-2713.jpg"></mj-image>
+          <mj-text>On Thursday, Australian information security expert Troy Hunt warned that a collection of email address and passwords combinations that's currently in circulation contains 2.7 billion rows. He says the massive collection of breached data, called "Collection #1," appears to have been compiled from a hodgepodge of sources, and contains 773 million unique email addresses.</mj-text>
+          <mj-text>The name for the collection comes from the name of the root folder storing all of the data, which is contained in more than 12,000 files and totals 87 GB of data. Hunt says he was alerted to the existence of the collection, which was available via the MEGA file-sharing service - it's been removed - and which has since been shared on at least one hacking forum.</mj-text>
+          <mj-text>One likely use for all of this data is for credential-stuffing attacks, which is the practice of taking username/password combinations and trying them out on other websites to see where they work. If an individual reuses the same email address and password combination on multiple sites, so can attackers. Last week, for example, many people suspected that streaming service Spotify had suffered a breach, because of lists of "Spotify" usernames and passwords that were being published to text-sharing sites such as Pastebin.</mj-text>
+          <mj-text>Hunt says the obvious takeaway from the Collection #1 data breach is that everyone should be using a different password for every different site or service they use. That way, if it gets breached - and they get a notification that their username/password combo was pwned - they need only change that one password. "If you're in this breach and not already using a dedicated password manager, the best thing you can do right now is go out and get one"</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bankinfosecurity.com/blogs/data-breach-collection-contains-773-million-unique-emails-p-2713">
+            Read More on BankInfoSecurity
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.troyhunt.com/the-773-million-record-collection-1-data-reach/">
+            Even More on TroyHunt's Blog
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://krebsonsecurity.com/2019/01/773m-password-megabreach-is-years-old/">
+            773M Password ‘Megabreach’ is Years Old (KrebsOnSecurity)
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://docs.microsoft.com/en-us/office365/securitycompliance/office-365-secure-score">Office 365 Secure Score</a></li>
+              <li><a class="lnk-pink" href="https://casthack.thehackergiraffe.com/">CastHack: Hacking Chromecast/Google Homes/SmartTVs</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/phishing-toolkit-uses-custom-font-and-substitution-cipher-to-evade-detection/">Phishing toolkit uses custom font and substitution cipher to evade detection</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/01/14/usb-c-authentication-sounds-great-so-why-are-people-worried/">USB-C Authentication sounds great, so why are people worried?</a></li>
+              <li><a class="lnk-purple" href="https://azure.microsoft.com/en-us/resources/security-best-practices-for-azure-solutions/">Security best practices for Azure solutions</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/01/04/dont-fall-victim-to-the-chromecast-hackers-heres-what-to-do/">Don’t fall victim to the Chromecast hackers – here’s what to do</a></li>
+              <li><a class="lnk-pink" href="https://thenewstack.io/pagerduty-open-sources-its-incident-response-best-practices/">PagerDuty Open Sources Its Incident Response Best Practices</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/525-million-unencrypted-passport-numbers-accessed-in-starwood-breach/">5.25 Million Unencrypted Passport Numbers Accessed in Starwood Breach</a></li>
+              <li><a class="lnk-orange" href="https://blog.cloudflare.com/banking-grade-credential-stuffing-the-true-effectiveness-of-a-partial-password-validation/">Banking-Grade Credential Stuffing: The Futility of Partial Password Validation</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/01/twitter-privacy-settings.html">A Twitter Bug Left Android Users' Private Tweets Exposed For 4 Years</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/01/germany-politicians-hacked.html">Hackers Leak Personal Data from Hundreds of German Politicians On Twitter</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/flaws-in-a-card-access-control-system-may-allow-hackers-to-bypass-security/">Flaws in a Card Access Control System May Allow Hackers to Bypass Security</a></li>
+              <li><a class="lnk-green" href="https://www.hackread.com/skype-call-to-unlock-android-handset/">It only takes a Skype Call to Unlock an Android Handset</a></li>
+              <li><a class="lnk-orange" href="https://www.theregister.co.uk/2019/01/10/reddit_password_reset/">Reddit locks out users with poor password hygiene after spotting 'unusual activity'</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/mozilla-firefox-69-will-disable-adobe-flash-plugin-by-default/">Mozilla: Firefox 69 will disable Adobe Flash plugin by default</a></li>
+              <li><a class="lnk-blue" href="https://gbhackers.com/malicious-chrome-extension-2/">Chrome Extension That Steals Credit Cards Numbers Detected On Web Store</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-and-virustotal-team-up-to-detect-malicious-signed-msi-files/">Microsoft and VirusTotal Team Up to Detect Malicious Signed MSI Files</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/01/airlines-flight-hacking.html">Flight Booking System Flaw Affected Customers of 141 Airlines Worldwide</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/01/windows-security-updates.html">Microsoft Patch Tuesday — January 2019 Security Updates Released</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/01/linux-systemd-exploit.html">New Systemd Privilege Escalation Flaws Affect Most Linux Distributions</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/scp-implementations-impacted-by-36-years-old-security-flaws/">SCP implementations impacted by 36-years-old security flaws</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/adobe-patches-important-flaws-connect-digital-editions">Adobe Patches 'Important' Flaws in Connect, Digital Editions</a></li>
+              <li><a class="lnk-purple" href="https://gbhackers.com/oracle-released-security-updates-2/">Oracle Released Biggest Security Updates – 284 Vulnerabilities are Fixed that Affected Oracle Products</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.cncf.io/blog/2019/01/14/9-kubernetes-security-best-practices-everyone-must-follow/">9 Kubernetes Security Best Practices Everyone Must Follow</a></li>
+              <li><a class="lnk-pink" href="https://blog.filippo.io/mkcert-valid-https-certificates-for-localhost/">MKCert: Valid HTTPS certificates for localhost</a></li>
+              <li><a class="lnk-green" href="https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967">TLS Fingerprinting with JA3 and JA3S</a></li>
+              <li><a class="lnk-orange" href="https://hackertarget.com/ssh-examples-tunnels/">SSH Examples, Tips & Tunnels</a></li>
+              <li><a class="lnk-purple" href="https://smallstep.com/blog/everything-pki.html">Everything you should know about certificates and PKI but are too afraid to ask</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-launches-azure-devops-bounty-program/">Microsoft Launches Azure DevOps Bounty Program</a></li>
+              <li><a class="lnk-pink" href="https://sudo.pagerduty.com/for_engineers/">Security Training for Engineers</a></li>
+              <li><a class="lnk-green" href="URL">hassh: Network fingerprinting standard to identify specific Client and Server SSH implementations. </a></li>
+              <li><a class="lnk-orange" href="https://0x00sec.org/t/bypassing-crowdstrike-falcon-detection-from-phishing-email-to-reverse-shell/10802">Bypassing Crowdstrike Falcon detection, from phishing email to reverse shell</a></li>
+              <li><a class="lnk-purple" href="https://blog.rapid7.com/2019/01/10/metasploit-framework-5-0-released/">Metasploit Framework 5.0 Released!</a></li>
+              <li><a class="lnk-blue" href="https://github.com/ecthros/uncaptcha2">uncaptcha2: defeating the latest version of ReCaptcha with 91% accuracy</a></li>
+              <li><a class="lnk-pink" href="https://rhinosecuritylabs.com/aws/cloudgoat-vulnerable-design-aws-environment/">CloudGoat: The ‘Vulnerable-by-Design’ AWS Environment</a></li>
+              <li><a class="lnk-green" href="https://posts.specterops.io/subverting-x509certificate-equals-in-net-92b97d1ae59b">Subverting X509Certificate.Equals in .NET</a></li>
+              <li><a class="lnk-orange" href="https://koen.io/2019/01/17/a-tale-of-private-key-reuse/">A tale of private key reuse</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/@herrjemand/introduction-to-webauthn-api-5fd1fb46c285">Introduction to WebAuthn API</a></li>
+              <li><a class="lnk-blue" href="https://versprite.com/blog/mitm-dns-spoofing/">MiTM Attack Between Target Windows Machines and a DNS Server</a></li>
+              <li><a class="lnk-pink" href="https://alex.kaskaso.li/post/effective-security-pipeline">Effective Security Pipeline</a></li>
+              <li><a class="lnk-green" href="https://blog.wastedcake.com/social-engineering-impersonation-made-easy/">Social Engineering – Impersonation made easy</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

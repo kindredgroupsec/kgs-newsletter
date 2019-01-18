@@ -182,7 +182,7 @@
               <li><a class="lnk-orange" href="http://seclists.org/oss-sec/2018/q3/142">More Ghostscript Issues: Should we disable PS coders in policy.xml by default?</a></li>
               <li><a class="lnk-purple" href="https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/">Pacu: The Open Source AWS Exploitation Framework</a></li>
               <li><a class="lnk-blue" href="https://uselesscsp.com/">Useless CSP</a></li>
-              <li><a class="lnk-pink" href="http://pages.cs.wisc.edu/~liangw/pub/atc18-final298.pdf?utm_campaign=Serverless%2BDigest&utm_source=Serverless_Digest_44">Peeking Behind the Curtains of Serverless Platforms</a></li>
+              <li><a class="lnk-pink" href="http://pages.cs.wisc.edu/~liangw/pub/atc18-final298.pdf">Peeking Behind the Curtains of Serverless Platforms</a></li>
               <li><a class="lnk-green" href="https://hackerone.com/reports/386807">Account takeover due to blind MongoDB injection in password reset</a></li>
             </ul>
           </mj-text>
