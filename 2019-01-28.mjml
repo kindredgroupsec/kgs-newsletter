@@ -1,0 +1,208 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 28/01/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">28 January 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Online casino group leaks information on 108 million bets, including user details</mj-text>
+          <mj-image src="https://zdnet1.cbsistatic.com/hub/i/2019/01/21/f5e7f552-328c-4b92-b8fe-380bca270a9d/7508cb9112ed53bd7505ea47b8d886a1/casino-games.png"></mj-image>
+          <mj-text color="#fff">An online casino group has leaked information on over 108 million bets, including details about customers' personal information, deposits, and withdrawals, ZDNet has learned. The data leaked from an ElasticSearch server that was left exposed online without a password.</mj-text>
+          <mj-text color="#fff">ElasticSearch is a portable, high-grade search engine that companies install to improve their web apps' data indexing and search capabilities. Such servers are usually installed on internal networks and are not meant to be left exposed online, as they usually handle a company's most sensitive information.</mj-text>
+          <mj-text color="#fff">Despite being one server, the ElasticSearch instance handled a huge swathe of information that was aggregated from multiple web domains, most likely from some sort of affiliate scheme, or a larger company operating multiple betting portals. Some of the domains that Paine spotted in the leaky server are from Mountberg Limited, including kahunacasino.com, azur-casino.com, easybet.com, and viproomcasino.net, just to name a few.</mj-text>
+          <mj-text color="#fff">The user data that leaked from this common ElasticSearch server included a lot of sensitive information, such as real names, home addresses, phone numbers, email addresses, birth dates, site usernames, account balances, IP addresses, browser and OS details, last login information, and a list of played games. Furthermore, Paine also found roughly 108 million records containing information on current bets, wins, deposits, and withdrawals. Data on deposits and withdrawals also included payment card details.</mj-text>
+          <mj-text color="#fff">All of these exposed databases were found by independent researchers using tools anyone, including cybercriminals, can access. That is the important point – the problem of exposed Elasticsearch data is out of the bag and people are now looking for it.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/online-casino-group-leaks-information-on-108-million-bets-including-user-details/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2019/01/23/100-million-online-bets-exposed-by-leaky-database/">
+            Even More on NakedSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Can you spot when you’re being phished?</mj-text>
+          <mj-image src="https://cdn.vox-cdn.com/thumbor/QfaoGWFWUvGGPuHTbVW5YSL6A_0=/0x0:1919x939/920x613/filters:focal(807x317:1113x623):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/62886215/google_quiz.0.png"></mj-image>
+          <mj-text>Identifying phishing can be harder than you think. Phishing is an attempt to trick you into giving up your personal information by pretending to be someone you know. Can you tell what's fake?</mj-text>
+          <mj-text>On Tuesday, Google’s Jigsaw unit published a quiz that tests users’ abilities to identify phishing emails. The quiz tests you on a series of emails to see if you can distinguish telltale signs of phishing.</mj-text>
+          <mj-text>“Phishing is, by far, the most common form of cyberattack,” Jigsaw explains in a blog post. “One percent of emails sent today are phishing attempts.” According to the post, the quiz is based on trainings Jigsaw held with “10,000 journalists, activists, and political leaders.”</mj-text>
+          <mj-text>In total, there are eight examples that Google tests you on, some representing legitimate emails and others phishing scams. Many of the examples are actually based on real events, such as the massive phishing attempt that hit Google Doc users in 2017 or an email that Russian hackers sent to Hillary Clinton’s campaign manager in 2016.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://phishingquiz.withgoogle.com/">
+            Take the Quiz!
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.theverge.com/2019/1/22/18193107/google-phishing-emails-quiz-jigsaw-cyberattack">
+            Read More on TheVerge
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://gbhackers.com/google-gdpr-fine-50-million/">Google is hit With the Highest GDPR Fine of 50 Million Euros</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/01/linux-apt-http-hacking.html">Critical RCE Flaw in Linux APT Allows Remote Attackers to Hack Systems</a></li>
+              <li><a class="lnk-green" href="https://www.darkreading.com/attacks-breaches/the-fact-and-fiction-of-homomorphic-encryption/a/d-id/1333691">The Fact and Fiction of Homomorphic Encryption</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/chrome-extension-manifest-v3-may-break-ublock-origin-content-blocker/">Chrome Extension Manifest V3 May Break uBlock Origin Content Blocker</a></li>
+              <li><a class="lnk-purple" href="https://www.theregister.co.uk/2019/01/23/office_365_network_hole/">White-listing Azure cloud connections to grease your Office 365 wheels? About that...</a></li>
+              <li><a class="lnk-blue" href="https://www.dlapiperdataprotection.com">Compare data protection laws around the world</a></li>
+              <li><a class="lnk-pink" href="https://www.fastcompany.com/90290703/this-is-the-first-truly-great-amazon-alexa-and-google-home-hack">This is the first truly great Amazon Alexa and Google Home hack</a></li>
+              <li><a class="lnk-green" href="https://www.darkreading.com/risk/compliance/pci-council-releases-new-software-framework-for-devops-era/d/d-id/1333686">PCI Council Releases New Software Framework for DevOps Era</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/265-researchers-take-down-100-000-malware-distribution-websites/">265 Researchers Take Down 100,000 Malware Distribution Websites</a></li>
+              <li><a class="lnk-purple" href="https://www.csoonline.com/article/3335456/windows/center-for-internet-security-releases-microsoft-365-benchmarks.html">Center for Internet Security releases Microsoft 365 benchmarks</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/security-flaws-found-in-26-low-end-cryptocurrencies/">Security flaws found in 26 low-end cryptocurrencies</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/editorial/security/data-collected-from-old-breaches-is-not-a-new-data-breach/">Data Collected from Old Breaches Is Not a New Data Breach</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/vlc-responds-criticism-over-lack-https-updates">VLC Responds to Criticism Over Lack of HTTPS for Updates</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/google-chrome-adding-malicious-drive-by-downloads-protection/">Google Chrome Adding Malicious Drive-By-Downloads Protection</a></li>
+              <li><a class="lnk-purple" href="https://www.theregister.co.uk/2019/01/25/microsoft_exchange_hashed_passwords/">Microsoft Exchange zero-day and exploit</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/concerns-raised-about-wordpress-new-white-screen-of-death-protection-feature/">Concerns raised about WordPress' new 'White Screen Of Death' protection feature</a></li>
+              <li><a class="lnk-pink" href="https://www.csoonline.com/article/3336478/security/millions-of-financial-records-leaked-from-server-not-protected-by-password.html">Millions of financial records leaked from server not protected by password</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/2019/01/23/google_gdpr_probe_sweden/">The Swedish Data Protection Authority (Datainspektionen) announced investigation on Google</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/two-more-windows-zero-days-get-temporary-patches/">Two more Windows zero-days get temporary patches</a></li>
+              <li><a class="lnk-pink" href="https://gbhackers.com/cisco-released-security-updates-2/">Cisco Released Security Updates & Fixed Several Vulnerabilities that Affected Cisco Products</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/check-point-fixes-privilege-escalation-bug-in-zonealarm-free/">Check Point Fixes Privilege Escalation Bug in ZoneAlarm Free</a></li>
+              <li><a class="lnk-orange" href="https://www.theregister.co.uk/2019/01/24/pdf_ghostscript_vulnerability/">Ghostscript PDF interpreter needs patching</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/numpy-is-awaiting-fix-for-critical-remote-code-execution-bug/">NumPy Is Awaiting Fix for Critical Remote Code Execution Bug</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/running-sysmon-800-update-to-804-to-avoid-a-memory-leak/">Running Sysmon 8.0.0? Update to 8.0.4 to Avoid a Memory Leak</a></li>
+              <li><a class="lnk-green" href="https://www.nagios.com/products/security/">Upgrade to Nagios XI 5.5.8 or above</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.theregister.co.uk/2019/01/22/lets_encrypt_gives_admins_until_february_13_to_switch_off_tlssni/">Let's Encrypt gives admins until February 13 to switch off TLS-SNI-01</a></li>
+              <li><a class="lnk-pink" href="https://blogs.technet.microsoft.com/exchange/2019/01/04/contextualizing-attacker-activity-within-sessions-in-exchange-online/?WT.mc_id=TechNet-Reddit-tajanca">Contextualizing Attacker Activity within Sessions in Exchange Online</a></li>
+              <li><a class="lnk-green" href="https://github.com/ernw/hardening/blob/master/operating_system/osx/10.14/ERNW_Hardening_OS_X_Mojave.md">Hardening MacOS X Mojave</a></li>
+              <li><a class="lnk-orange" href="https://github.com/google/turbinia">Turbinia: Automation and Scaling of Digital Forensics Tools</a></li>
+              <li><a class="lnk-purple" href="https://blog.confiant.com/confiant-malwarebytes-uncover-steganography-based-ad-payload-that-drops-shlayer-trojan-on-mac-cd31e885c202">Confiant & Malwarebytes Uncover Steganography Based Ad Payload That Drops Shlayer Trojan On Mac Users</a></li>
+              <li><a class="lnk-blue" href="https://blog.sqreen.io/mongodb-will-not-prevent-nosql-injections-in-your-node-js-app/">MongoDB will not prevent NoSQL injections in your Node.js app</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/appsecengineer/dynamodb-injection-1db99c2454ac">DynamoDB Injection</a></li>
+              <li><a class="lnk-green" href="https://urlhaus.abuse.ch/">URLhaus: Malicious URLs that are being used for malware distribution.</a></li>
+              <li><a class="lnk-orange" href="https://www.digitalshadows.com/blog-and-research/security-practitioners-guide-to-email-spoofing-and-risk-reduction/">Security Practitioner’s Guide to Email Spoofing and Risk Reduction</a></li>
+              <li><a class="lnk-purple" href="https://dirkjanm.io/abusing-exchange-one-api-call-away-from-domain-admin/">Abusing Exchange: One API call away from Domain Admin</a></li>
+              <li><a class="lnk-blue" href="https://www.trustedsec.com/2019/01/local-admin-access-and-group-policy-dont-mix/">Local Admin Access and Group Policy don't mix</a></li>
+              <li><a class="lnk-pink" href="https://www.htbridge.com/blog/application-security-weekly-review-week-4-2019.html">Application Security Weekly Review, Week 4 2019</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@lukeberner/how-i-abused-2fa-to-maintain-persistence-after-a-password-change-google-microsoft-instagram-7e3f455b71a1">How I abused 2FA to maintain persistence after a password change </a></li>
+              <li><a class="lnk-orange" href="https://blog.doyensec.com/2019/01/24/electronegativity.html">Electronegativity: identifying misconfigurations and security anti-patterns in Electron-based applications.</a></li>
+              <li><a class="lnk-purple" href="https://blog.scrt.ch/2019/01/24/magento-rce-local-file-read-with-low-privilege-admin-rights/">Magento – RCE & Local File Read with low privilege admin rights</a></li>
+              <li><a class="lnk-blue" href="https://gist.github.com/sarazasasa/9450d63f96e7ff799824fc98fc7f3b43">Github: Maintaining access to repos after they kick you out</a></li>
+              <li><a class="lnk-pink" href="https://gist.github.com/mehaase/63e45c17bdbbd59e8e68d02ec58f4ca2">SSHtranger Things Exploit POC (CVE-2019-6111, CVE-2019-6110)</a></li>
+              <li><a class="lnk-green" href="https://medium.com/tenable-techblog/rooting-nagios-via-outdated-libraries-bb79427172">Rooting Nagios Via Outdated Libraries</a></li>
+              <li><a class="lnk-orange" href="https://github.com/itsKindred/PortPush">PortPush: pivoting into internal networks upon compromising a public-facing host.</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
