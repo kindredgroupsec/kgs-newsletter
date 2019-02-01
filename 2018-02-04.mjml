@@ -1,0 +1,179 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+      </mj-style>
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@kindredgroup" />
+      <meta name="twitter:title" content="Kindred Security Newsletter - 04/02/19" />
+      <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+      <meta name="twitter:image" content="https://sophosnews.files.wordpress.com/2019/01/ft-slider-640.png" />
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">4 February 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Disable FaceTime Now! Bug Lets Callers Snoop On You Without Permission</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2019/01/ft-slider-640.png"></mj-image>
+          <mj-text color="#fff">A serious Apple iOS bug has been discovered that allows FaceTime users to access the microphone and front facing camera of who they are calling even if the person does not answer the call. To use this bug, a caller would FaceTime another person who has an iOS device and before the recipient answers, add themselves as an additional contact to Group FaceTime. This will cause the microphone of the person you are calling to turn on and allow the caller to listen to what is happening in the room. Even worse, if the person that is being called presses the power button to mute the FaceTime call, the front facing camera would turn on as well.</mj-text>
+          <mj-text color="#fff">What this means, is if someone is calling you on FaceTime, they could be listening and seeing what you are doing without you even knowing. In the meantime, Apple has apparently disabled the Group Facetime feature entirely, preferring to inflict a service outage than to leave the exploitable privacy hole gaping open. For those who are rightfully concerned about this bug, suggestion is that you disable FaceTime immediately until Apple releases a patch. Otherwise, people can not only listen in on what you are doing, but in some cases also see what you are doing. This could allow people to take compromising videos and audio without your knowledge.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/disable-facetime-now-bug-lets-callers-snoop-on-you-without-permission/">
+            Read More on BleepingComputers
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2019/01/29/apple-facetime-eavesdropping-bug/">
+            Even More on NakedSecurity
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.macrumors.com/2019/01/29/apple-apparently-notified-on-facetime-bug/">
+            Apple Was Apparently Notified a week ago
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.theregister.co.uk/2019/01/30/facebook_apple_enterprise_certificate_revocation/">Apple revokes Facebook's enty app cert after they abused it to slurp private data</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/airbus-data-breach-exposes-employee-credentials-professional-contact-details/">Airbus Data Breach Exposes Employee Credentials, Professional Contact Details</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/google-chrome-72-removes-hpkp-deprecates-tls-1-0-and-tls-1-1/">Google Chrome 72 removes HPKP, deprecates TLS 1.0 and TLS 1.1</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/01/29/credential-stuffing-attack-prompts-dailymotion-password-reset/">Credential-stuffing attack prompts Dailymotion password reset</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/unsecured-mongodb-databases-expose-kremlins-backdoor-into-russian-businesses/">Unsecured MongoDB databases expose Kremlin's backdoor into Russian businesses</a></li>
+              <li><a class="lnk-blue" href="https://www.csoonline.com/article/3336068/hacking/oscp-cheating-allegations-a-reminder-to-verify-hacking-skills-when-hiring.html">OSCP cheating allegations: a reminder to verify hacking skills when hiring</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-new-privacy-and-compliance-features-to-microsoft-365/">Microsoft Adds New Privacy and Compliance Features to Microsoft 365</a></li>
+              <li><a class="lnk-green" href="https://aws.amazon.com/blogs/security/aws-achieves-hds-certification/">AWS achieves HDS certification</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/verymal-malvertiser-delivers-image-based-malware/">VeryMal Malvertiser Delivers Image-Based Malware</a></li>
+              <li><a class="lnk-purple" href="https://www.welivesecurity.com/2019/01/30/were-coming-global-police-tell-ddos-attack-buyers/">‘We’re coming for you’, global police warn DDoS attack buyers</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/02/mac-malware-cryptocurrency.html">New Mac Malware Targets Cookies to Steal From Cryptocurrency Wallets</a></li>
+              <li><a class="lnk-pink" href="https://www.welivesecurity.com/2019/02/01/four-new-caches-of-stolen-logins-put-collection-1-in-the-shade/">Four new caches of stolen logins put Collection #1 in the shade</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/spectre-and-meltdown-explained-a-comprehensive-guide-for-professionals/">Spectre and Meltdown explained: A comprehensive guide for professionals</a></li>
+              <li><a class="lnk-orange" href="https://gbhackers.com/sbi-data-leak/">State Bank of India Data Leak – Millions of Customers Data Leaked From Unsecured Server</a></li>
+              <li><a class="lnk-purple" href="https://www.scmagazine.com/home/security-news/data-breach/double-exposure-24-million-loan-records-also-exposed-on-open-amazon-s3-bucket/">Double exposure: 24 million loan records also exposed on open Amazon S3 bucket</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@malcomvetter/misconceptions-battle-scars-growth-40a540b073fa">Misconceptions, Battle Scars, & Growth</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://gbhackers.com/firefox-65-0-released/amp/">Firefox 65.0 Released with Critical Security Fixes & Enhanced Protection for macOS, Linux, and Android users</a></li>
+              <li><a class="lnk-pink" href="http://www.infosecisland.com/blogview/25167-Magento-Patches-Command-Execution-Local-File-Read-Flaws.html">Magento Patches Command Execution, Local File Read Flaws</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/ubuntu-18-04-needs-patching/">Ubuntu 18.04 needs patching</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/02/01/linux-user-check-those-patches-public-exploit-published-for-systemd-security-holes/">Public exploit published for systemd security holes…</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://medium.com/hashicorp-engineering/pki-as-a-service-with-hashicorp-vault-a8d075ece9a">PKI as a Service with HashiCorp Vault</a></li>
+              <li><a class="lnk-pink" href="https://blog.haschek.at/2018/the-curious-case-of-the-RasPi-in-our-network.html">The curious case of the Raspberry Pi in the network closet</a></li>
+              <li><a class="lnk-green" href="https://blog.own.sh/introduction-to-network-protocol-fuzzing-buffer-overflow-exploitation/">Introduction to Network Protocol Fuzzing & Buffer Overflow Exploitation</a></li>
+              <li><a class="lnk-orange" href="https://limitedresults.com/2019/01/pwn-the-lifx-mini-white/">Pwn the LIFX Mini white</a></li>
+              <li><a class="lnk-purple" href="https://insert-script.blogspot.com/2019/02/libreoffice-cve-2018-16858-remote-code.html">Libreoffice (CVE-2018-16858) - Remote Code Execution via Macro/Event execution</a></li>
+              <li><a class="lnk-blue" href="https://srcincite.io/blog/2019/02/01/activex-exploitation-in-2018-instantiation-is-not-scripting.html">ActiveX Exploitation in 2019 :: Instantiation is not Scripting</a></li>
+              <li><a class="lnk-pink" href="https://littlemaninmyhead.wordpress.com/2019/01/30/protecting-user-accounts-when-usability-matters/">Protecting user accounts when usability matters</a></li>
+              <li><a class="lnk-green" href="https://github.com/ctxis/beemka">BEEMKA: Electron Exploitation Toolkit</a></li>
+              <li><a class="lnk-orange" href="https://threadreaderapp.com/thread/1087848040583626753.html">Bad Crypto practices in 7zip AES</a></li>
+              <li><a class="lnk-purple" href="https://github.com/m1nl/pompa">pompa: Fully-featured spear-phishing toolkit - web front-end</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@malcomvetter/misconceptions-battle-scars-growth-40a540b073fa">Hardening Windows Server 101: Understanding Third Party Security Configuration Baselines  </a></li>
+              <li><a class="lnk-pink" href="https://techcommunity.microsoft.com/t5/ITOps-Talk-Blog/Hardening-Windows-Server-101-Understanding-Third-Party-Security/ba-p/315001?WT.mc_id=ITOPSTALK-reddit-abartolo">Windows Privilege Abuse: Auditing, Detection, and Defense</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@fsx30/bypass-edrs-memory-protection-introduction-to-hooking-2efb21acffd6">Bypass EDR’s memory protection, introduction to hooking</a></li>
+              <li><a class="lnk-orange" href="http://blog.sevagas.com/?Yet-another-sdclt-UAC-bypass">Yet another sdclt UAC bypass</a></li>
+              <li><a class="lnk-purple" href="https://www.hackingarticles.in/bypass-application-whitelisting-using-rundll32-exe-multiple-methods/">Bypass Application Whitelisting using rundll32.exe (Multiple Methods)</a></li>
+              <li><a class="lnk-blue" href="https://www.youtube.com/watch?v=B0EsL1j_-qw">PowerShell Basics for Security Professionals Part 1</a></li>
+              <li><a class="lnk-pink" href="https://rastamouse.me/2019/01/gpo-abuse-part-1/">GPO Abuse - Part 1</a></li>
+              <li><a class="lnk-green" href="https://www.bishopfox.com/blog/2018/07/a-primer-to-red-teaming/">A Primer to Red Teaming</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
