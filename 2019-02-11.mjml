@@ -1,0 +1,218 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 11/02/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-Evij4_OfnDs/XFnSwj6Q6DI/AAAAAAAAzP8/CkW7Hv4mjW06KVeHY837sf1h_MJI0Z6MgCLcBGAs/s728-e100/google-password-checkup.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">11 February 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">New Chrome extension warns users their login credentials have been breached</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-Evij4_OfnDs/XFnSwj6Q6DI/AAAAAAAAzP8/CkW7Hv4mjW06KVeHY837sf1h_MJI0Z6MgCLcBGAs/s728-e100/google-password-checkup.png"></mj-image>
+          <mj-text color="#fff">February 5, on Safer Internet Day, Google launched a new service that has been designed to alert users when they use an exact combination of username and password for any website that has previously been exposed in any third-party data breach.</mj-text>
+          <mj-text color="#fff">While Google already resets passwords of user accounts who might have been affected by third-party breaches as part of an effort to limit the potential security impact on its users' accounts, this feature is limited only to Google accounts.</mj-text>
+          <mj-text color="#fff">The new service, which has initially been made available as a free Chrome browser extension called Password Checkup, works by automatically comparing the user's entered credential on any site to an encrypted database that contains over 4 billion compromised credentials. If the credentials are found in the list of compromised ones, Password Checkup will prompt users to change their password.</mj-text>
+          <mj-text color="#fff">Wondering if Google can see your login credentials? No, the company has used a privacy-oriented implementation that keeps all your information private and anonymous by encrypting your credentials before checking them against its online database.</mj-text>
+          <mj-text  color="#fff">Moreover, it is not yet another "weak password warning tool" that alerts users whenever they use a commonly used or easily crackable password for any website. "We designed Password Checkup only to alert you when all of the information necessary to access your account has fallen into the hands of an attacker," Google says.</mj-text>
+          <mj-text  color="#fff">Google is not the first one to provide this kind of service. Mozilla introduced their Firefox Monitor platform on September 25, 2018, a service which uses Troy Hunt’s "Have I Been Pwned" database of email addresses affected by data breaches. The difference between Google's Password Checkup and Firefox Monitor is that the latter will notify you of a breach that contained your email if the website has been breached during the past 12 months. Therefore, you will not know your account has been part of a breach until you visit the affected website.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2019/02/google-password-checkup-breaches.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/google-launches-password-checkup-extension-to-alert-users-of-data-breaches/">
+            Even More on BleepingComputers
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Apple releases iOS 12.1.4, fixes iPhone FaceTime spying bug</mj-text>
+          <mj-image src="https://www.imore.com/sites/imore.com/files/styles/xlarge/public/field/image/2016/08/facetime-ios10-enable-facetime-screens-01.jpeg?itok=LEydXBlM"></mj-image>
+          <mj-text>Apple's promised patch for the iOS bug that allowed users to eavesdrop on others using group FaceTime calls has been released.</mj-text>
+          <mj-text>The recommended way to update your devices is to tap Settings > General > Software Update and carry out the update from there. You will need Wi-Fi access and your battery to be charged above 50 percent, or the device will need to be connected to a charger.</mj-text>
+          <mj-text>This bug, likely the most serious to hit iPhone and iPad users, has already resulted in at least one lawsuit.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/ios-12-1-4-fixes-iphone-facetime-spying-bug/">
+            Read More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Researcher Declines to Share macOS Keychain Exploit with Apple as There is No BugBounty</mj-text>
+          <mj-image src="https://venturebeat.com/wp-content/uploads/2019/02/AC628538-3FC9-49E0-80EB-F123585431D9-e1549461092403.png?zoom=2&resize=578%2C404&strip=all"></mj-image>
+          <mj-text>Security researcher Linus Henze demoed a zero-day macOS exploit impacting the Keychain password management system which can store passwords for applications, servers, and websites, as well as sensitive information related to banking accounts.</mj-text>
+          <mj-text>The vulnerability found by Henze in Apple's macOS operating system last week is present "in the keychain's access control" and it could allow a potential attacker to steal Keychain passwords from any local user account on the Mac, without the need of admin privileges nor the keychain master password. According to the researcher, the zero-day he found works "as long as the keychain is unlocked (which it usually is as long as you’re logged in), except for the System keychain - containing WiFi passwords etc. - which may be locked."</mj-text>
+          <mj-text>WNo fix is expected anytime soon. The researcher, Linus Henze, says he’s not sharing details with Apple – and yes, the company asked – in protest of the company’s invite-only/iOS-only bounties. "I won’t release this. The reason is simple: Apple still has no bug bounty program (for macOS), so blame them." The bug affects even the most recent MacOS, Mojave.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/researcher-declines-to-share-zero-day-macos-keychain-exploit-with-apple/">
+            Read More on BleepingComputers
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://nakedsecurity.sophos.com/2019/02/07/keysteal-could-allow-someone-to-steal-your-apple-keychain-passwords/">
+            Even More on NakedSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/firefox-to-get-a-site-isolation-feature-similar-to-chrome/">Firefox to get a 'site isolation' feature, similar to Chrome</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/new-phishing-attack-uses-google-translate-as-camouflage/">New Phishing Attack Uses Google Translate as Camouflage</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/2019/02/05/sony_tshirt_bounty/">I won't bother hunting and reporting more Sony zero-days, because all I'd get is a lousy t-shirt</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/google/google-introduces-adiantum-storage-encryption-to-low-end-android-devices/">Google Introduces Adiantum Storage Encryption to Low-End Android Devices</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/02/hack-android-with-image.html">Android Phones Can Get Hacked Just by Looking at a PNG Image</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/facebook-messenger-users-you-now-have-10-minutes-to-unsend-a-message/">Facebook Messenger users: You now have 10 minutes to unsend a message</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/business-email-compromise-attacks-see-almost-500-percent-increase/">Business Email Compromise Attacks See Almost 500% Increase</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/02/zcash-cryptocurrency-hack.html">Critical Zcash Bug Could Have Allowed 'Infinite Counterfeit' Cryptocurrency</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/power-company-has-security-breach-due-to-downloaded-game/">Power Company Has Security Breach Due to Downloaded Game</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/02/beauty-camera-android-apps.html">Several Popular Beauty Camera Apps Caught Stealing Users' Photos</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/02/05/cryptocurrency-exchange-in-limbo-after-founder-dies-with-password/">Crypto exchange in limbo after founder dies with password</a></li>
+              <li><a class="lnk-pink" href="https://www.post.ch/en/business/a-z-of-subjects/industry-solutions/swiss-post-e-voting/e-voting-source-code?shortcut=evoting-sourcecode">Swiss Post is disclosing his e-voting source code</a></li>
+              <li><a class="lnk-green" href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2wYd3">Top 10 security deployment actions with Microsoft 365</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/google-warns-about-two-ios-zero-days-exploited-in-the-wild/">Google warns about two iOS zero-days 'exploited in the wild'</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-provides-mitigations-workarounds-for-privexchange-vulnerability/">Microsoft Provides Mitigations, Workarounds for PrivExchange Vulnerability</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/02/remote-desktop-hacking.html">Flaws in Popular RDP Clients Allow Malicious Servers to Reverse Hack PCs</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/02/hacking-libreoffice-openoffice.html">Severe RCE Flaw Disclosed in Popular LibreOffice and OpenOffice Software</a></li>
+              <li><a class="lnk-purple" href="https://gbhackers.com/speakup-undetected-backdoor/">SpeakUp – A New Undetected Backdoor Exploiting Six Linux Distributions With Known Vulnerabilities</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/february/downgrade-attack-on-tls-1.3-and-vulnerabilities-in-major-tls-libraries/?Year=2019&Month=2">Downgrade Attack on TLS 1.3 and Vulnerabilities in Major TLS Libraries</a></li>
+              <li><a class="lnk-pink" href="https://isc.sans.edu/forums/diary/UAC+is+not+all+that+bad+really/24620/">UAC is not all that bad really</a></li>
+              <li><a class="lnk-green" href="https://aws.amazon.com/blogs/security/guidelines-for-protecting-your-aws-account-while-using-programmatic-access/">Guidelines for protecting your AWS account while using programmatic access</a></li>
+              <li><a class="lnk-orange" href="https://www.microsoft.com/en-us/securityengineering/devsecops">Secure DevOps</a></li>
+              <li><a class="lnk-purple" href="https://jlajara.gitlab.io/posts/2019/01/27/Mimikatz-AV-Evasion.html">Powershell AV Evasion. Running Mimikatz with PowerLine</a></li>
+              <li><a class="lnk-blue" href="https://hakin9.org/preventing-mimikatz-attacks/">Preventing Mimikatz Attacks</a></li>
+              <li><a class="lnk-pink" href="https://techcommunity.microsoft.com/t5/ITOps-Talk-Blog/Windows-Server-101-Hardening-IIS-via-Security-Control/ba-p/329979?WT.mc_id=ITOPSTALK-reddit-abartolo">Windows Server 101: Hardening IIS via Security Control Configuration</a></li>
+              <li><a class="lnk-green" href="https://google.github.io/clusterfuzz/">ClusterFuzz: scalable fuzzing infrastructure to find security and stability issues in software.</a></li>
+              <li><a class="lnk-orange" href="https://medium.freecodecamp.org/cache-deception-how-i-discovered-a-vulnerability-in-medium-and-helped-them-fix-it-31cec2a3938b">Cache Deception: How I discovered a vulnerability in Medium and helped them fix it</a></li>
+              <li><a class="lnk-purple" href="https://github.com/proabiral/inception">Inception: check for request responses against any number of hosts.</a></li>
+              <li><a class="lnk-blue" href="https://research.checkpoint.com/reverse-rdp-attack-code-execution-on-rdp-clients/">Reverse RDP Attack: Code Execution on RDP Clients</a></li>
+              <li><a class="lnk-pink" href="https://depthsecurity.com/blog/introducing-armory-external-pentesting-like-a-boss">Introducing Armory: External Pentesting Like A Boss</a></li>
+              <li><a class="lnk-green" href="https://research.digitalinterruption.com/2019/01/31/multiple-vulnerabilities-found-in-mobile-device-management-software/">Multiple Vulnerabilities Found in Mobile Device Management Software</a></li>
+              <li><a class="lnk-orange" href="http://ironmoon.net/2019/02/04/My-Forensic-and-Incident-Response-Note-Taking-Methodology.html">Why You Should Take Good Notes During Forensic and Incident Response</a></li>
+              <li><a class="lnk-purple" href="https://www.youtube.com/watch?v=rPTI9e-9tBE">Phishing U2F Protected Accounts</a></li>
+              <li><a class="lnk-blue" href="https://oddvar.moe/2019/02/01/bypassing-applocker-as-an-admin/">Bypassing AppLocker as an Admin</a></li>
+              <li><a class="lnk-pink" href="https://www.proofpoint.com/sites/default/files/proofpoint-obfuscation-techniques-phishing-attacks-threat-insight-en-v1.pdf">Hiding in plain sight - Obfuscation techniques in Phishing attacks</a></li>
+              <li><a class="lnk-green" href="http://blog.redxorblue.com/2019/01/red-teaming-made-easy-with-exchange.html">Red Teaming Made Easy with Exchange Privilege Escalation and PowerPriv</a></li>
+              <li><a class="lnk-orange" href="https://www.notsosecure.com/exploiting-ssrf-in-aws-elastic-beanstalk/">Exploiting SSRF in AWS Elastic Beanstalk</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
