@@ -1,0 +1,201 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 18/02/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-yPiZVO6M3og/XGKIqsgUb0I/AAAAAAAAzSY/gp4PJJU3-RA1YsD8NrTgc9r1AtbFt8ANQCLcBGAs/s728-e100/linux-container-runc-docker-hack.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">18 February 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">RunC Flaw Lets Attackers Escape Linux Containers to Gain Root on Hosts</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-yPiZVO6M3og/XGKIqsgUb0I/AAAAAAAAzSY/gp4PJJU3-RA1YsD8NrTgc9r1AtbFt8ANQCLcBGAs/s728-e100/linux-container-runc-docker-hack.png"></mj-image>
+          <mj-text color="#fff">A serious security vulnerability has been discovered in the core runC container code that affects several open-source container management systems, potentially allowing attackers to escape Linux container and obtain unauthorized, root-level access to the host operating system.</mj-text>
+          <mj-text color="#fff">The flaw resides in runC—a lightweight low-level command-line tool for spawning and running containers, an operating-system-level virtualization method for running multiple isolated systems on a host using a single kernel. Originally created by Docker, runC is the default container run-time for Docker, Kubernetes, ContainerD, CRI-O, and other container-dependent programs, and is widely being used by major cloud hosting and server providers.</mj-text>
+          <mj-text color="#fff">A specially-crafted malicious container or an attacker having root access to a container could exploit this flaw (with minimal user interaction) to gain administrative privileges on the host machine running the container, eventually compromising the hundreds-to-thousands of other containers running on it. According to Red Hat, the vulnerability can be mitigated if SELinux in targeted enforcing mode is enabled, which is default on RedHat Enterprise Linux, CentOS, and Fedora.The maintainers of runC have published a git commit to resolving the security flaw, but all the projects built atop runC need to incorporate the patches in their products.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/02/linux-container-runc-docker.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/major-flaw-found-in-open-source-container-runtime-a-12019">
+            Even More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">New Phishing Attack That Even Most Vigilant Users Could Fall For</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-r77WdhnGeFY/XGafkuXlb-I/AAAAAAAAzUw/AQTG_6pykIgkm44uRfNB4d7eN2DdeW-HQCLcBGAs/s728-e100/facebook-phishing-login.jpg"></mj-image>
+          <mj-text>How do you check if a website asking for your credentials is fake or legit to log in? By checking if the URL is correct? By checking if the website address is not a homograph? By checking if the site is using HTTPS? Or using software or browser extensions that detect phishing domains?</mj-text>
+          <mj-text>Well, if you, like most Internet users, are also relying on above basic security practices to spot if that "Facebook.com" or "Google.com" you have been served with is fake or not, you may still fall victim to a newly discovered creative phishing attack and end up in giving away your passwords to hackers.</mj-text>
+          <mj-text>Generally, when you click "log in with Facebook" button available on any website, you either get redirected to facebook.com or are served with facebook.com in a new pop-up browser window, asking you to enter your Facebook credentials to authenticate using OAuth and permitting the service to access your profile’s necessary information.  However, Vincent discovered that the malicious blogs and online services are serving users with a very realistic-looking fake Facebook login prompt after they click the login button which has been designed to capture users’ entered credentials, just like any phishing site.</mj-text>
+          <mj-text>As shown in the video demonstration, the fake pop-up login prompt, actually created with HTML and JavaScript, are perfectly reproduced to look and feel exactly like a legitimate browser window—a status bar, navigation bar, shadows and URL to the Facebook website with green lock pad indicating a valid HTTPS. The only way to protect yourself from this type of phishing attack "is to actually try to drag the prompt away from the window it is currently displayed in. If dragging it out fails (part of the popup disappears beyond the edge of the window), it's a definite sign that the popup is fake."</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2019/02/advance-phishing-login-page.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://myki.com/blog/facebook-login-phishing-campaign/">
+            Even More on Myki blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/microsoft-70-percent-of-all-security-bugs-are-memory-safety-issues/">Microsoft: 70 percent of all security bugs are memory safety issues</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/windows-malware-runs-on-macs-bypasses-gatekeeper-to-target-software-pirates/">Windows Malware Runs on Macs, Bypasses Gatekeeper to Target Software Pirates</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/02/vfemail-cyber-attack.html">Hackers Destroyed VFEmail Service – Deleted Its Entire Data and Backups</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/dunkin-donuts-accounts-compromised-in-second-credential-stuffing-attack-in-three-months/">Dunkin' Donuts accounts compromised in second credential stuffing attack in three months</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2019/02/11/what-comes-after-air-gaps-darpa-asks-world-for-ideas/">What comes after air gaps? DARPA asks world for ideas</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/02/data-breach-website.html">Hacker Breaches Dozens of Sites, Puts 127 Million New Records Up for Sale</a></li>
+              <li><a class="lnk-pink" href="https://www.troyhunt.com/the-race-to-the-bottom-of-credential-stuffing-lists-and-collections-2-through-5-and-more/">The Race to the Bottom of Credential Stuffing Lists; Collections #2 Through #5 (and More)</a></li>
+              <li><a class="lnk-green" href="https://www.hackread.com/hacked-versions-of-ios-games-on-app-store/">Hacked versions of popular iOS games available on App Store</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/have-tech-companies-taken-two-factor-authentication-too-far/">Have tech companies taken two-factor authentication too far?</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2019/02/11/get-rich-quick-social-media-scams-are-turning-teens-into-money-mules/">Get-rich-quick social media scams are turning teens into money mules</a></li>
+              <li><a class="lnk-blue" href="https://ar.al/2019/01/11/i-was-wrong-about-google-and-facebook-theres-nothing-wrong-with-them-so-say-we-all/">I was wrong about Google and Facebook: there’s nothing wrong with them (so say we all)</a></li>
+              <li><a class="lnk-pink" href="https://www.theregister.co.uk/2019/02/14/password_length/">Use an 8-char Windows NTLM password? Don't. Every single one can be cracked in under 2.5hrs</a></li>
+              <li><a class="lnk-green" href="https://support.500px.com/hc/en-us/articles/360017752493-Security-Issue-February-2019-FAQ">500px.com breached</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/canonical-snapd-vulnerability-gives-root-access-in-linux/">Canonical Snapd Vulnerability Gives Root Access in Linux</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/new-macos-security-flaw-lets-malicious-apps-steal-your-safari-browsing-history/">New macOS security flaw lets malicious apps steal your Safari browsing history</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/microsoft-patches-privexchange-vulnerability-in-february-quarterly-updates/">Microsoft Patches PrivExchange Vulnerability in February Quarterly Updates</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2019/02/patch-tuesday-february-2019-edition/">Patch Tuesday, February 2019 Edition</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/02/intel-sgx-malware-hacking.html">Researchers Implant "Protected" Malware On Intel SGX Enclaves</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/xiaomi-electric-scooters-vulnerable-to-remote-hijacking/">Xiaomi electric scooters vulnerable to remote hijacking</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/dirty-sock-vulnerability-lets-attackers-gain-root-access-on-linux-systems/">Dirty Sock vulnerability lets attackers gain root access on Linux systems</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/societe-generale/OCTANE">OCTANE: Securize the exposure of web applications through cloud service provider</a></li>
+              <li><a class="lnk-pink" href="https://blog.zimperium.com/dont-give-me-a-brake-xiaomi-scooter-hack-enables-dangerous-accelerations-and-stops-for-unsuspecting-riders/">Don’t Give Me a Brake – Xiaomi Scooter Hack Enables Dangerous Accelerations and Stops for Unsuspecting Riders</a></li>
+              <li><a class="lnk-green" href="https://webauthn.guide/">WebAuthn Development guide</a></li>
+              <li><a class="lnk-orange" href="https://rootsh3ll.com/evil-twin-attack/">Evil Twin Attack: The definitive guide</a></li>
+              <li><a class="lnk-pink" href="https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material">ENISA Training resources</a></li>
+
+              <li><a class="lnk-green" href="https://kubernetes.io/blog/2019/02/11/runc-and-cve-2019-5736/">Runc and CVE-2019-5736</a></li>
+              <li><a class="lnk-orange" href="https://drive.google.com/file/d/1AKPTpb1e2c7vZv0YNcxAz0EwCpyImvOh/view">Incident Response field manual</a></li>
+              <li><a class="lnk-green" href="https://ysamm.com/?p=185">Facebook CSRF protection bypass which leads to Account Takeover.</a></li>
+              <li><a class="lnk-orange" href="https://github.com/p3pperp0tts/leaks_parser">Leaks_parser: Parser for data dumps Collection #1 / Collection #2-5</a></li>
+              <li><a class="lnk-purple" href="https://www.evilsocket.net/2019/02/13/Pwning-WiFi-networks-with-bettercap-and-the-PMKID-client-less-attack/#.XGUsG5SMxYE.reddit">Pwning wpa/wpa2 networks with bettercap and the pmkid client-less attack</a></li>
+              <li><a class="lnk-blue" href="https://maxkersten.nl/binary-analysis-course/malware-analysis/lnk-isesteroids-powershell-dropper/">LNK & ISESteroids Powershell dropper</a></li>
+              <li><a class="lnk-pink" href="https://seclists.org/oss-sec/2019/q1/119">CVE-2019-5736: runc container breakout (all versions)</a></li>
+              <li><a class="lnk-green" href="https://github.com/V33RU/IoTSecurity101">IoT Pentesting 101 && IoT security 101</a></li>
+              <li><a class="lnk-orange" href="https://github.com/smallstep/certificates/blob/master/autocert/README.md">Autocert: Kubernetes automatic certificates</a></li>
+              <li><a class="lnk-purple" href="https://www.webarxsecurity.com/wordpress-plugin-simple-social-buttons/">WordPress Plugin ‘Simple Social Buttons’ Critical Security Bug</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
