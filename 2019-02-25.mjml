@@ -1,0 +1,199 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 25/02/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.svtstatic.se/image/wide/992/21147879/1550496135?quality=70&format=auto" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">25 February 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Drupal Fixes “Highly Critical” Vulnerability</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2018/04/25/drupal_logo.png"></mj-image>
+          <mj-text color="#fff">Administrators of websites running the Drupal content management software (CMS) are urged to take immediate action to mitigate a newly discovered a vulnerability that can lead to remote execution of PHP code under specific circumstances.</mj-text>
+          <mj-text color="#fff">If an update to the latest version o the CMS is not possible at the moment, the Drupal team offers alternative action to temporarily mitigate potential risk: disable all web services modules or configure the web server to reject PUT/PATCH/POST requests to web services resources.</mj-text>
+          <mj-text color="#fff">Drupal is the world's third most popular content management system, commanding 4 percent market share, after Joomla at 5 percent and CMS heavyweight WordPress, which owns 60 percent of the market, according to W3Techs.com. It is worth noting that releases prior to 8.5.x are have reached end-of-life and no longer receive security updates.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/drupal-fixes-highly-critical-vulnerability/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="Hackers Target Fresh Drupal CMS Flaw to Infiltrate Sites">
+            Even More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">2.7M recorded medical calls from 1177 Swedish Healthcare, audio files left unprotected on web</mj-text>
+          <mj-image src="https://www.svtstatic.se/image/wide/992/21147879/1550496135?quality=70&format=auto"></mj-image>
+          <mj-text>Every call made to 1177 Swedish Healthcare Guide service since 2013, and answered by the subcontractor Medicall, was stored as WAV or MP3 audio files on a server that had no encryption or authentication protection.</mj-text>
+          <mj-text>IDG’s Computer Sweden revealed that 2.7 million recorded calls made to the 1177 national health service were left completely unprotected on a server. Every call made to 1177 since 2013, and answered by the subcontractor Medicall, was stored as WAV or MP3 audio files on a server that had no encryption or authentication protection. That adds up to “170,000 hours of sensitive phone calls with symptoms, etc.,” which anyone with the right IP address could have accessed. Some of the audio files, which were marked with the callers’ telephone numbers, included the Social Security numbers of children and adults and specific health-related symptoms.</mj-text>
+          <mj-text>Tommy Ekstrom, CEO of Voice Integrate Nordic, told IDG, “This is catastrophic, It’s sensitive data. We had no idea that it was like this. We will, of course, review our systems and check out what may have happened.”</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.csoonline.com/article/3341379/security/27m-recorded-medical-calls-audio-files-left-unprotected-on-web.html">
+            Read More on CSOOnline
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://computersweden.idg.se/2.2683/1.714787/inspelade-samtal-1177-vardguiden-oskyddade-internet">
+            Original Source (Swedish)
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://amp.thehackernews.com/thn/2019/02/hack-facebook-account-password.html">How to Hack Facebook Accounts? Just Ask Your Targets to Open a Link</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/google-amp/article/a-third-of-all-chrome-extensions-request-access-to-user-data-on-any-site/">A third of all Chrome extensions request access to user data on any site</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/norelationship-attack-dances-around-office-365-email-filters/">NoRelationship phishing attack dances around Microsoft Office 365 email filters</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/the-windows-10-security-guide-how-to-safeguard-your-business/">The Windows 10 security guide: How to safeguard your business</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/microsoft-edge-secret-whitelist-allows-facebook-to-autorun-flash/">Microsoft Edge Secret Whitelist Allows Facebook to Autorun Flash</a></li>
+              <li><a class="lnk-blue" href="https://www.darkreading.com/threat-intelligence/why-cybersecurity-burnout-is-real-(and-what-to-do-about-it)/a/d-id/1333906">Why Cybersecurity Burnout Is Real (and What to Do About It)</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/whatsapp-flaw-could-allow-for-message-snooping-a-12039">WhatsApp Flaw Could Enable iOS Message Snooping</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/02/21/password-managers-leaking-data-in-memory-but-you-should-still-use-one/">Password managers leaking data in memory, but you should still use one</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/02/winrar-malware-exploit.html">Warning: Critical WinRAR Flaw Affects All Versions Released In Last 19 Years</a></li>
+              <li><a class="lnk-purple" href="https://www.schneier.com/blog/archives/2019/02/blockchain_and_.html">Blockchain and Trust</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/hijacking-bgp-dns-persists-despite-available-fixes-a-12028">Criminals, Nation-States Keep Hijacking BGP and DNS</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/02/indane-aadhaar-leak.html">LPG Gas Company Leaked Details, Aadhaar Numbers of 6.7 Million Indian Customers</a></li>
+              <li><a class="lnk-green" href="https://www.tomshardware.com/news/malicious-usb-cables-wi-fi-controller,38603.html">Here Come the Malicious USB Cables</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/google-working-on-new-chrome-security-feature-to-obliterate-dom-xss/">Google working on new Chrome security feature to 'obliterate DOM XSS'</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/fake-google-recaptcha-used-to-hide-bank-malware/">Fake Google reCAPTCHA used to hide Android banking malware</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/windows-servers-vulnerable-to-iis-resource-exhaustion-dos-attacks/">Windows Servers Vulnerable to IIS Resource Exhaustion DoS Attacks</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/02/wordpress-remote-code-execution.html">Critical Flaw Uncovered In WordPress That Remained Unpatched for 6 Years</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/adobe-patches-critical-information-disclosure-flaw-in-reader-again/">Adobe Patches Critical Information Disclosure Flaw in Reader, Again</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/cisco-patches-high-severity-flaws-hyperflex-prime-infrastructure">Cisco Patches High Severity Flaws in HyperFlex, Prime Infrastructure</a></li>
+              <li><a class="lnk-purple" href="https://www.drupal.org/sa-core-2019-003">Drupal core - Highly critical - Remote Code Execution - SA-CORE-2019-003</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/Yelp/elastalert">Easy & Flexible Alerting With ElasticSearch https://elastalert.readthedocs.org</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/02/kali-linux-hackers-os.html">Kali Linux 2019.1 Released with Metasploit 5.0</a></li>
+              <li><a class="lnk-green" href="https://www.first.org/education/csirt_service-framework_v1.1">FIRST CSIRT Framework</a></li>
+              <li><a class="lnk-orange" href="https://www.thesubtlety.com/post/patching-boto3-useragent/">Red teaming on AWS with GuardDuty</a></li>
+              <li><a class="lnk-purple" href="https://posts.specterops.io/putting-sysmon-v9-0-and-or-grouping-logic-to-the-test-c3ec27263df8">Putting Sysmon v9.0 AND/OR Grouping Logic to the Test</a></li>
+              <li><a class="lnk-blue" href="https://research.checkpoint.com/extracting-code-execution-from-winrar/">Extracting a 19 Year Old Code Execution from WinRAR</a></li>
+              <li><a class="lnk-pink" href="https://www.securityevaluators.com/casestudies/password-manager-hacking/">Password Managers: Under the Hood of Secrets Management</a></li>
+              <li><a class="lnk-green" href="https://medium.com/tenable-techblog/mikrotik-firewall-nat-bypass-b8d46398bf24">MikroTik Firewall & NAT Bypass</a></li>
+              <li><a class="lnk-orange" href="https://github.com/setuid0-sec/Swiss_E-Voting_Publications">Our publications of the Swiss E-Voting Public Intrusion Test (PIT)</a></li>
+              <li><a class="lnk-purple" href="https://www.twistlock.com/labs-blog/breaking-docker-via-runc-explaining-cve-2019-5736/">Breaking out of Docker via runC – Explaining CVE-2019-5736</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/intigriti/abusing-autoresponders-and-email-bounces-9b1995eb53c2">Abusing autoresponders and email bounces</a></li>
+              <li><a class="lnk-pink" href="https://devco.re/blog/2019/01/16/hacking-Jenkins-part1-play-with-dynamic-routing-en/">Hacking Jenkins Part 1 - Play with Dynamic Routing</a> <a class="lnk-green" href="https://devco.re/blog/2019/02/19/hacking-Jenkins-part2-abusing-meta-programming-for-unauthenticated-RCE-en/">(part 2)</a></li>
+              <li><a class="lnk-green" href="https://github.com/Dliv3/Venom/blob/master/README-en.md">Venom - A Multi-hop Proxy for Penetration Testers</a></li>
+              <li><a class="lnk-orange" href="https://blog.ripstech.com/2019/wordpress-image-remote-code-execution/">WordPress 5.0.0 Remote Code Execution - technical writeup</a></li>
+              <li><a class="lnk-purple" href="https://blog.sublimesecurity.com/red-team-techniques-gaining-access-on-an-external-engagement-through-spear-phishing/">Red Team Techniques: Gaining access on an external engagement through spear-phishing</a></li>
+              <li><a class="lnk-blue" href="https://blog.elearnsecurity.com/how-to-make-the-most-out-of-security-conferences.html">How To Make The Most Out Of Security Conferences</a></li>
+              <li><a class="lnk-pink" href="https://engineering.salesforce.com/test-out-bro-sysmon-a6fad1c8bb88">How to Test Bro-Sysmon</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
