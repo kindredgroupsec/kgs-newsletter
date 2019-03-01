@@ -1,0 +1,228 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 04/03/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://imgur.com/CjQtg3c.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">4 March 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Malspam Exploits WinRAR ACE Vulnerability to Install a Backdoor</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2019/02/25/winrar-header.jpg"></mj-image>
+          <mj-text color="#fff">Researchers have discovered a malspam campaign that is distributing a a malicious RAR archive that may be the first one to exploit the newly discovered WinRAR ACE vulnerability to install malware on a computer. </mj-text>
+          <mj-text color="#fff">It allows a specially crafted ACE archive to extract a file to the Window Startup folder when it is extracted. This allows the executable to gain persistence and launch automatically when the user next logs in to Windows. As the developers of WinRAR no longer have access to the source code for the vulnerable UNACEV2.DLL library, instead of fixing the bug, they removed the DLL and ACE support from the latest version of WinRAR 5.70 beta 1.  While this fixes the vulnerability, it also removes all ACE support from WinRAR.</mj-text>
+          <mj-text color="#fff">If UAC is running, when you attempt to extract the archive it will fail to place the malware in the C:\ProgramData folder due to lack of permissions. This will cause WinRAR to display an error stating "Access is denied" and "operation failed" as shown below. </mj-text>
+            <mj-text color="#fff">
+          If you are unable to upgrade for some reason, then you can use 0Patch's WinRAR micropatch to address this specific WinRAR bug. This micropatch will fix the vulnerability in all 32-bit and 64-bit versions of WinRAR versions using the UNACEV2.DLL since 2005.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/malspam-exploits-winrar-ace-vulnerability-to-install-a-backdoor/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.securityweek.com/winrar-vulnerability-exposes-millions-users-attacks">
+            Even More on SecurityWeek
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Chaos Monkey Guide for Engineers</mj-text>
+          <mj-image src="https://imgur.com/CjQtg3c.png"></mj-image>
+          <mj-text>In 2010 Netflix announced the existence and success of their custom resiliency tool called Chaos Monkey. Netflix designed Chaos Monkey to test system stability by enforcing failures via the pseudo-random termination of instances and services within Netflix's architecture. Following their migration to the cloud, Netflix's service was newly reliant upon Amazon Web Services and needed a technology that could show them how their system responded when critical components of their production service infrastructure were taken down. Intentionally causing this single failure would suss out any weaknesses in their systems and guide them towards automated solutions that gracefully handle future failures of this sort.</mj-text>
+          <mj-text>In 2011, Netflix announced the evolution of Chaos Monkey with a series of additional tools known as The Simian Army. Inspired by the success of their original Chaos Monkey tool aimed at randomly disabling production instances and services, the engineering team developed additional "simians" built to cause other types of failure and induce abnormal system conditions. For example, the Latency Monkey tool introduces artificial delays in RESTful client-server communication, allowing the team at Netflix to simulate service unavailability without actually taking down said service. This guide will cover all the details of these tools in The Simian Army chapter.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.gremlin.com/chaos-monkey/">
+            Read More on Gremlin.com
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">New Flaws Re-Enable DMA Attacks On Wide Range of Modern Computers</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-KQ1rUIKmJHM/XHZ-TFOu07I/AAAAAAAAzbA/BZL9AoZLTZMBf8qV-JwCA1LXUKuzg1dxwCLcBGAs/s728-e100/thunderbolt-dma-attack.png"></mj-image>
+          <mj-text>Security researchers have discovered a new class of security vulnerabilities that impacts all major operating systems, including Microsoft Windows, Apple macOS, Linux, and FreeBSD, allowing attackers to bypass protection mechanisms introduced to defend against DMA attacks.</mj-text>
+          <mj-text>Known for years, Direct memory access (DMA)-based attacks let an attacker compromise a targeted computer in a matter of seconds by plugging-in a malicious hot plug device—such as an external network card, mouse, keyboard, printer, storage, and graphics card—into Thunderbolt 3 port or the latest USB-C port.</mj-text>
+          <mj-text>Researchers have reported their findings to all major hardware and operating system vendors, and most of them have already shipped substantial mitigation to address the Thunderclap vulnerabilities. Though not all software patches can entirely block DMA attacks, users are still advised to install available security updates to reduce the attack surface. According to the researchers, the best way to fully protect yourself is to disable the Thunderbolt ports on your machine, if applicable.</mj-text>
+          <mj-button mj-class="bg-green" href="https://amp.thehackernews.com/thn/2019/02/thunderbolt-peripheral-dma-attacks.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-green" href="http://thunderclap.io/">
+            Even More on Thunderclap.io
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-purple" href="Top ten most popular docker images each contain at least 30 vulnerabilities/">Top ten most popular docker images each contain at least 30 vulnerabilities</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/02/drupal-hacking-exploit.html">Hackers Actively Exploiting Latest Drupal RCE Flaw Published Last Week</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/malvertising-attack-sneaks-javascript-payload-in-polyglot-images/">Malvertising Attack Sneaks JavaScript Payload in Polyglot Images</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/01/17/telltale-font-scuppers-bankruptcy-trust-claim/amp/?__twitter_impression=true">Microsoft font gives away forgery in bankruptcy case</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/less-than-one-in-10-americans-take-necessary-steps-to-prevent-identity-theft/">Less than one in 10 Americans take necessary steps to prevent identity theft</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2019/02/27/millions-of-utilities-customers-passwords-stored-in-plain-text/">Millions of utilities customers’ passwords stored in plain text</a></li>
+              <li><a class="lnk-blue" href="https://gbhackers.com/shareit-app-vulnerabilities-hackers-bypass/amp/">SHAREit App Vulnerabilities Allows Hackers to Bypass Android Device Authentication & Download Arbitrary Files Remotely</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/02/27/researchers-find-e-signature-flaw-in-pdf-viewers/">Researchers break e-signatures in 22 common PDF viewers</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/researchers-hide-malware-in-benign-apps-with-the-help-of-speculative-execution/">Researchers hide malware in benign apps with the help of speculative execution</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/inside-look-at-level-4-threat-hunting-program-a-12052">An Inside Look at a Level 4 Threat Hunting Program</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/new-thai-laws-allow-government-to-access-information-without-warrants-report/">New Thai laws allow government to access information without warrants: Report</a></li>
+              <li><a class="lnk-blue" href="https://www.darkreading.com/cloud/embracing-devsecops-5-processes-to-improve-devops-security/a/d-id/1333947">Embracing DevSecOps: 5 Processes to Improve DevOps Security</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/retailers-have-become-the-top-target-for-credential-stuffing-attacks/">Retailers have become the top target for credential stuffing attacks</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/altfs-fileless-file-system-aims-to-evade-detection-by-security-software/">AltFS Fileless File System Aims to Evade Detection by Security Software</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/magecart-group-evolves-tactics-to-better-steal-your-credit-cards/">MageCart Group Evolves Tactics To Better Steal Your Credit Cards</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/vulnerability-exposes-location-of-thousands-of-malware-c-c-servers/">Vulnerability exposes location of thousands of malware C&C servers</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/02/android-fido2-password-security.html">Android Gets FIDO2 Certification—Now Supports Secure Passwordless Logins</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/hackers-can-plant-backdoors-bare-metal-cloud-servers-researchers">Hackers Can Plant Backdoors on Bare Metal Cloud Servers: Researchers</a></li>
+              <li><a class="lnk-green" href="https://www.theregister.co.uk/2019/02/26/malware_ibm_powershell/">Most hackers just PowerShell through boxes now, leaving little in the way of footprints</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/02/26/mozilla-aussie-employees-could-pose-a-threat-under-anti-crypto-law/">Mozilla fears encryption law could turn its employees into insider threats</a></li>
+              <li><a class="lnk-purple" href="https://www.scmagazine.com/home/security-news/cybercriminals-are-promising-salaries-of-up-to-360000-a-year-to-accomplices-who-seek-to-extort-high-networth-individuals-such-as-c-level-executives-lawyers-and-doctors/">Digital extortionist offer high six-figure salaries to accomplices
+</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/cisco-patch-routers-now-against-massive-9-810-severity-security-hole/">Cisco: Patch routers now against massive 9.8/10-severity security hole</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/new-elevation-of-privilege-vulnerability-found-in-cisco-webex-meetings/">New Elevation of Privilege Vulnerability Found in Cisco WebEx Meetings</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/02/27/nvidia-patches-eight-security-flaws-in-graphics-products/">Nvidia patches eight security flaws in graphics products</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/02/25/adobe-patches-the-same-critical-reader-flaw-twice-in-one-week/amp/">Adobe patches the same critical Reader flaw twice in one week</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/google-chrome-zero-day-used-in-the-wild-to-collect-user-data-via-pdf-files/">Google Chrome zero-day used in the wild to collect user data via PDF files</a></li>
+              <li><a class="lnk-blue" href="http://thunderclap.io/">Thunderclap</a></li>
+              <li><a class="lnk-pink" href="https://research.checkpoint.com/extracting-code-execution-from-winrar/">Extracting a 19 Year Old Code Execution from WinRAR</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://rhinosecuritylabs.com/gcp/google-cloud-platform-gcp-bucket-enumeration/">Google Cloud Platform (GCP) Bucket Enumeration and Privilege Escalation</a></li>
+              <li><a class="lnk-pink" href="https://github.com/imthenachoman/How-To-Secure-A-Linux-Server">How To Secure A Linux Server</a></li>
+              <li><a class="lnk-green" href="http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/">Don’t get clever with login forms</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/software/wireshark-3-released-with-new-npcap-windows-packet-capturing-driver/">Wireshark 3 Released with New Npcap Windows Packet Capturing Driver</a></li>
+              <li><a class="lnk-purple" href="https://blog.edgespot.io/2019/02/edgespot-detects-pdf-zero-day-samples.html">EdgeSpot detects PDF samples tracking users who use Google Chrome as local PDF viewer</a></li>
+              <li><a class="lnk-blue" href="URL">cut1</a></li>
+              <li><a class="lnk-pink" href="https://blog.securityevaluators.com/recovering-the-master-password-from-a-locked-password-manager-1password-4-5d32cd569907">Recovering the Master Password from a Locked Password Manager (1Password)</a></li>
+              <li><a class="lnk-green" href="https://www.pdf-insecurity.org/">How to break PDF Signatures</a></li>
+              <li><a class="lnk-orange" href="https://xlab.tencent.com/en/2019/02/22/investigating-winrar-code-execution-vulnerability-cve-2018-20250-at-internet-scale/">Investigating WinRAR Code Execution Vulnerability (CVE-2018-20250) at Internet Scale</a></li>
+              <li><a class="lnk-purple" href="https://duo.com/blog/crxcavator">CRXcavator: Chrome extension security analysis</a></li>
+              <li><a class="lnk-blue" href="https://habr.com/en/company/qrator/blog/442264/">Eliminating opportunities for traffic hijacking</a></li>
+              <li><a class="lnk-pink" href="https://spyclub.tech/2019/02/26/horizontal-privilege-escalation-on-quora/">Horizontal Privilege Escalation which can compromise all users on Quora</a></li>
+              <li><a class="lnk-green" href="http://carnal0wnage.attackresearch.com/2019/02/abusing-docker-api-socket.html?m=1">Abusing Docker API | Socket</a></li>
+              <li><a class="lnk-orange" href="https://holdmybeersecurity.com/2019/02/27/sysinternals-for-windows-incident-response/">Tales of a blue teamer: detecting powershell empire shenanigans with sysinternals</a></li>
+              <li><a class="lnk-purple" href="https://labs.detectify.com/2019/02/28/thinking-outside-of-the-password-manager-box/">Thinking outside of the password manager box</a></li>
+              <li><a class="lnk-blue" href="https://github.com/SafeBreach-Labs/AltFS">cut1</a></li>
+              <li><a class="lnk-pink" href="URL">AltFS: The Alternative Fileless File System</a></li>
+              <li><a class="lnk-green" href="https://portswigger.net/blog/top-10-web-hacking-techniques-of-2018">Top 10 web hacking techniques of 2018</a></li>
+              <li><a class="lnk-orange" href="https://blog.redforce.io/shareit-vulnerabilities-enable-unrestricted-access-to-adjacent-devices-files/">SHAREit Multiple Vulnerabilities Enable Unrestricted Access to Adjacent Devices’ Files</a></li>
+              <li><a class="lnk-purple" href="http://carnal0wnage.attackresearch.com/2019/02/jenkins-decrypting-credentialsxml.html?m=1">Jenkins - decrypting credentials.xml</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
