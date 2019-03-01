@@ -192,7 +192,6 @@
               <li><a class="lnk-green" href="http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/">Don’t get clever with login forms</a></li>
               <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/software/wireshark-3-released-with-new-npcap-windows-packet-capturing-driver/">Wireshark 3 Released with New Npcap Windows Packet Capturing Driver</a></li>
               <li><a class="lnk-purple" href="https://blog.edgespot.io/2019/02/edgespot-detects-pdf-zero-day-samples.html">EdgeSpot detects PDF samples tracking users who use Google Chrome as local PDF viewer</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
               <li><a class="lnk-pink" href="https://blog.securityevaluators.com/recovering-the-master-password-from-a-locked-password-manager-1password-4-5d32cd569907">Recovering the Master Password from a Locked Password Manager (1Password)</a></li>
               <li><a class="lnk-green" href="https://www.pdf-insecurity.org/">How to break PDF Signatures</a></li>
               <li><a class="lnk-orange" href="https://xlab.tencent.com/en/2019/02/22/investigating-winrar-code-execution-vulnerability-cve-2018-20250-at-internet-scale/">Investigating WinRAR Code Execution Vulnerability (CVE-2018-20250) at Internet Scale</a></li>
@@ -202,8 +201,7 @@
               <li><a class="lnk-green" href="http://carnal0wnage.attackresearch.com/2019/02/abusing-docker-api-socket.html?m=1">Abusing Docker API | Socket</a></li>
               <li><a class="lnk-orange" href="https://holdmybeersecurity.com/2019/02/27/sysinternals-for-windows-incident-response/">Tales of a blue teamer: detecting powershell empire shenanigans with sysinternals</a></li>
               <li><a class="lnk-purple" href="https://labs.detectify.com/2019/02/28/thinking-outside-of-the-password-manager-box/">Thinking outside of the password manager box</a></li>
-              <li><a class="lnk-blue" href="https://github.com/SafeBreach-Labs/AltFS">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">AltFS: The Alternative Fileless File System</a></li>
+              <li><a class="lnk-blue" href="https://github.com/SafeBreach-Labs/AltFS">AltFS: The Alternative Fileless File System</a></li>
               <li><a class="lnk-green" href="https://portswigger.net/blog/top-10-web-hacking-techniques-of-2018">Top 10 web hacking techniques of 2018</a></li>
               <li><a class="lnk-orange" href="https://blog.redforce.io/shareit-vulnerabilities-enable-unrestricted-access-to-adjacent-devices-files/">SHAREit Multiple Vulnerabilities Enable Unrestricted Access to Adjacent Devices’ Files</a></li>
               <li><a class="lnk-purple" href="http://carnal0wnage.attackresearch.com/2019/02/jenkins-decrypting-credentialsxml.html?m=1">Jenkins - decrypting credentials.xml</a></li>
