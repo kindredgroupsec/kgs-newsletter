@@ -1,0 +1,209 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 11/03/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://sophosnews.files.wordpress.com/2019/03/eog.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">11 March 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Serious Chrome zero-day exploited in the wild, update “right this minute”</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2019/03/eog.jpg"></mj-image>
+          <mj-text color="#fff">You must update your Google Chrome immediately to the latest version of the web browsing application.</mj-text>
+          <mj-text color="#fff">Security researcher Clement Lecigne of Google's Threat Analysis Group discovered and reported a high severity vulnerability in Chrome late last month that could allow remote attackers to execute arbitrary code and take full control of the computers. The vulnerability, assigned as CVE-2019-5786, affects the web browsing software for all major operating systems including Microsoft Windows, Apple macOS, and Linux.</mj-text>
+          <mj-text color="#fff">What's more worrisome? Google warned that this zero-day RCE vulnerability is actively being exploited in the wild by attackers to target Chrome users. It appears to exploit this vulnerability, all an attacker needs to do is tricking victims into just opening, or redirecting them to, a specially-crafted webpage without requiring any further interaction.</mj-text>
+          <mj-text color="#fff">To check that you’re up-to-date, go to the About Google Chrome… window, accessible from the address bar by typing in the special URL chrome://settings/help. This will not only show the current version but also do an update check at the same time, just in case any recent auto-updates have failed or your computer hasn’t called home yet.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2019/03/06/serious-chrome-zero-day-google-says-update-right-this-minute/">
+            Read More on NakedSecurity
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2019/03/update-google-chrome-hack.html">
+            Even More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://security.googleblog.com/2019/03/disclosing-vulnerabilities-to-protect.html">
+            Official Google Statement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">W3C and FIDO Alliance Finalize Web Standard for Secure, Passwordless Logins</mj-text>
+          <mj-image src="https://www.w3.org/2018/04/fido2-graphic2-small.png"></mj-image>
+          <mj-text>Major browsers and platforms have built-in support for new web standard for easy and secure logins via biometrics, mobile devices and FIDO security keys.</mj-text>
+          <mj-text>The World Wide Web Consortium (W3C) and the FIDO Alliance today announced the Web Authentication (WebAuthn) specification is now an official web standard. This advancement is a major step forward in making the web more secure – and usable – for users around the world.</mj-text>
+          <mj-text>WebAuthn allows users to log into their internet accounts using their preferred device. Web services and apps can – and should – turn on this functionality to give their users the option to log in more easily via biometrics, mobile devices and/or FIDO security keys, and with much higher security over passwords alone. </mj-text>
+          <mj-button mj-class="bg-pink" href="https://fidoalliance.org/w3c-and-fido-alliance-finalize-web-standard-for-secure-passwordless-logins">
+            Read More on FidoAlliance
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">PCI DSS: Looking Ahead to Version 4.0</mj-text>
+          <mj-image src="https://blog.pcisecuritystandards.org/hs-fs/hubfs/2019_Blog%20Images/blog-pci-dss-4-0-goalsv-3.jpg?width=1600&name=blog-pci-dss-4-0-goalsv-3.jpg"></mj-image>
+          <mj-text>PCI SSC has begun efforts on PCI Data Security Standard version 4.0 (PCI DSS v4.0). PCI DSS v4.0 will incorporate input received from global PCI SSC stakeholders during the 2017 request for comments (RFC) period.</mj-text>
+          <mj-text>Some of the specific areas that stakeholders asked PCI SSC to review include: Authentication, specifically consideration for the NIST MFA/password guidance; Broader applicability for encrypting cardholder data on trusted networks; Monitoring requirements to consider technology advancement and Greater frequency of testing of critical controls.</mj-text>
+          <mj-text>PCI DSS v4.0 is not anticipated for release prior to late 2020. Specific timing on the release is dependent upon feedback received during the development period.</mj-text>
+          <mj-button mj-class="bg-green" href="https://blog.pcisecuritystandards.org/pci-dss-looking-ahead-to-version-4.0">
+            Read More on PCI Blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/slack-github-abused-new-slub-backdoor-targeted-attacks">Slack, GitHub Abused by New SLUB Backdoor in Targeted Attacks</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/google-amp/article/using-your-office-365-secure-score/">Using your Office 365 Secure Score</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/12-449-data-breaches-confirmed-in-2018-a-424-percent-increase-over-the-previous-year/">12,449 Data Breaches Confirmed in 2018, a 424% Increase Over the Previous Year</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/software/notepad-no-longer-code-signed-dev-wont-support-overpriced-cert-industry/">Notepad++ No Longer Code Signed, Dev Won't Support Overpriced Cert Industry</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/singapore-proposes-new-security-guidelines-to-beef-up-financial-resilience/">Singapore proposes new security guidelines to beef up financial resilience</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/opfail-phisher-attaches-powershell-exec-instead-of-malware/">#Opfail: Phisher Attaches Powershell Exec Instead of Malware</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/03/06/google-reveals-buggycow-macos-security-flaw/">Google reveals BuggyCow macOS security flaw</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/03/backstory-cybersecurity-software.html">Google Launches Backstory — A New Cyber Security Tool for Businesses</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/unpatched-upnp-enabled-devices-left-exposed-to-attacks/">Unpatched UPnP-Enabled Devices Left Exposed to Attacks</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/saudi-caller-id-app-leaves-data-of-5-million-users-in-unsecured-mongodb-server/">Saudi caller ID app leaves data of 5+ million users in unsecured MongoDB server</a></li>
+              <li><a class="lnk-purple" href="https://www.csoonline.com/article/3353416/what-is-mimikatz-and-how-to-defend-against-this-password-stealing-tool.html">What is Mimikatz? And how to defend against this password stealing tool</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/03/05/comcast-security-nightmare-default-0000-pin-on-everybodys-account/">Comcast security nightmare: default ‘0000’ PIN on everybody’s account</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/open-source-software-breaches-surge-in-the-past-12-months/">Open source software breaches surge in the past 12 months</a></li>
+              <li><a class="lnk-green" href="https://heimdalsecurity.com/blog/security-alert-malware-script-injection/">Security Alert: Malware Hides in Script Injection, Bypassing AV Detection</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/citrix-learns-about-internal-network-security-breach-from-fbi/">Citrix Learns About Internal Network Security Breach from FBI</a></li>
+              <li><a class="lnk-purple" href="https://www.adweek.com/programmatic/cybersecurity-firm-finds-increasingly-complex-and-common-malware-inside-of-ad-networks/">Cybersecurity Firm Finds Increasingly Complex and Common Malware Inside of Ad Networks</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/cisco-tells-nexus-switch-owners-to-disable-poap-feature-for-security-reasons/">Cisco tells Nexus switch owners to disable POAP feature for security reasons</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/03/05/update-now-critical-adobe-coldfusion-flaw-now-being-exploited/">Update now! Critical Adobe ColdFusion flaw now being exploited</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/windows-10-iot-core-test-interface-lets-attackers-take-over-devices/">Windows 10 IoT Core Test Interface Lets Attackers Take Over Devices</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/google-chrome-zero-day-was-used-together-with-a-windows-7-zero-day/">Google: Chrome zero-day was used together with a Windows 7 zero-day</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.nsa.gov/resources/everyone/ghidra/">Ghidra: Software reverse engineering (SRE) framework developed by NSA's Research Directorate</a></li>
+              <li><a class="lnk-pink" href="https://posts.specterops.io/the-hitchhikers-guide-to-initial-access-57b66aa80dd6">The Hitchhiker’s Guide To Initial Access</a></li>
+              <li><a class="lnk-green" href="https://github.com/SafeBreach-Labs/SirepRAT">SirepRAT: Remote Command Execution as SYSTEM on Windows IoT Core</a></li>
+              <li><a class="lnk-orange" href="https://github.com/EdOverflow/can-i-take-over-xyz/">"Can I take over XYZ?" — how to claim (sub)domains with dangling DNS records.</a></li>
+              <li><a class="lnk-purple" href="https://www.pentestpartners.com/security-blog/gone-in-six-seconds-exploiting-car-alarms/">Gone in six seconds? Exploiting car alarms</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@adam.toscher/top-5-ways-the-red-team-breached-and-assessed-the-physical-environment-fa567695b354">Top 5 Ways The Red Team breached and assessed the Physical Environment</a></li>
+              <li><a class="lnk-pink" href="https://hausec.com/2019/03/05/penetration-testing-active-directory-part-i/">Penetration Testing Active Directory, Part I</a></li>
+              <li><a class="lnk-green" href="https://jvn.jp/en/jp/JVN69181574/index.html">Windows 7 may insecurely load Dynamic Link Libraries</a></li>
+              <li><a class="lnk-orange" href="https://www.jimwilbur.com/2019/01/mousejack-from-mouse-to-shell-part-1/">MouseJack: From Mouse to Shell – Part 1</a></li>
+              <li><a class="lnk-purple" href="https://github.com/bitsadmin/wesng">Windows Exploit Suggester - Next Generation</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
