@@ -1,0 +1,221 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 18/03/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">18 March 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">New 'Creative' Phishing Attack You Really Should Pay Attention To</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-44UOno5Ez34/XIZ-sJ0pYnI/AAAAAAAAze4/AQdn1-h__KQoPuA60rqJLltcOzZunTFrACLcBGAs/s728-e100/mobile-phishing-attack.jpg"></mj-image>
+          <mj-text color="#fff">A cybersecurity researcher who last month warned of a creative phishing campaign has now shared details of a new but similar attack campaign with The Hacker News that has specifically been designed to target mobile users. Just like the previous campaign, the new phishing attack is also based on the idea that a malicious web page could mimic look and feel of the browser window to trick even the most vigilant users into giving away their login credentials to attackers.</mj-text>
+          <mj-text color="#fff">As you can see in the video, a malicious website that looks like Airbnb prompts users to authenticate using Facebook login, but upon clicking, the page displays a fake tab switching animation video aimed to trick users into thinking that their browsers are behaving normally. If users are not very attentive to details and fail to spot minor differences, they would eventually end up filling the username and password fields on the phishing page, resulting in giving away their social media credentials to the attackers.</mj-text>
+          <mj-text color="#fff">It should be noted that such advanced phishing attacks are not limited to Facebook, Safari browser or just to iOS mobile users only, but could very easily be adapted to target Android devices or any other social media site as well.</mj-text>
+          <mj-text color="#fff">Since there are no clear guidelines to spot such creative phishing attacks, users are highly recommended to 1/ Use password managers that only auto-fill credentials on legit domains, helping you avoid giving away credentials to fake websites. 2/ Enable two-factor authentication, wherever available, preventing hackers from accessing your online accounts even if they somehow manage to steal your credentials. 3/ Ssk themselves "Why am I asked to log in?" Or "Am I not already logged in to this?" </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2019/03/ios-mobile-phishing-attack.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://myki.com/blog/mobile-facebook-phishing-campaign/">
+            Even More on Myki's Blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">New WordPress Flaw Lets Unauthenticated Remote Attackers Hack Sites</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-YV90ZKWuy0I/XIohdMBQ3kI/AAAAAAAAzg4/6FHZxlaG4IYeoxPxlGexPYYsdMFARtyrgCLcBGAs/s728-e100/wordpress-hacking-exploit-min.jpg"></mj-image>
+          <mj-text>If for some reason your WordPress-based website has not yet been automatically updated to the latest version 5.1.1, it's highly recommended to immediately upgrade it before hackers could take advantage of a newly disclosed vulnerability to hack your website.</mj-text>
+          <mj-text>The flaw stems from a cross-site request forgery (CSRF) issue in the Wordpress' comment section, one of its core components that comes enabled by default and affects all WordPress installations prior to version 5.1.1. Unlike most of the previous attacks documented against WordPress, this new exploit allows even an "unauthenticated, remote attacker" to compromise and gain remote code execution on the vulnerable WordPress websites.</mj-text>
+          <mj-text>According to the researcher, the attacker can then even take complete control over the target WordPress websites remotely by injecting an XSS payload that can modify the WordPress template directly to include a malicious PHP backdoor—all in a single step without the administrator noticing. Since WordPress automatically installs security updates by default, you should already be running the latest version of the content management software. However, if the automatic updating of your CMS has been turned off, you are advised to temporarily disable comments and log out of your administrator session until the security patch is installed.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2019/03/hack-wordpress-websites.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/wordpress-511-fixes-xss-vulnerability-leading-to-website-takeovers/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">39% of All Counter-Strike 1.6 Servers Used to Infect Players</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2019/03/13/counter-strike.jpg"></mj-image>
+          <mj-text>When playing a video game, most people do not worry about getting infected by the their game client. New research, though, shows that's exactly what is happening when 39% of all existing Counter-Strike 1.6 game servers were trying to infect players through vulnerabilities in the game client.</mj-text>
+          <mj-text>Security researchers have discovered a network of malicious Counter-Strike 1.6 multiplayer servers that exploited remote code execution (RCE) vulnerabilities in users' gaming clients to infect them with a new malware strain named Belonard. The network has been shut down.</mj-text>
+          <mj-text>The person behind the botnet would then use the Belonard malware to make modifications to users' CS1.6 clients and show ads inside users' games. But above all, the trojan was primarily used to promote legitimate CS1.6 multiplayer servers by adding them to the users' available server list, which the Belonard developer would do for a fee.</mj-text>
+          <mj-text>Users can recognize Belonard's proxy servers because of a bug in its code that displayed the server game type as "Counter-Strike 1," "Counter-Strike 2," or ""Counter-Strike 3" instead of the standard "Counter-Strike 1.6." Unfortunately, the only way to prevent this botnet from being created again is to patch the vulnerabilities in the client. As Counter-Strike 1.6 was the last client to be released by Valve, a fix is not expected to be forthcoming.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/malicious-counter-strike-1-6-servers-used-zero-days-to-infect-users-with-malware/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/39-percent-of-all-counter-strike-16-servers-used-to-infect-players/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/03/citrix-data-breach.html">Citrix Data Breach – Iranian Hackers Stole 6TB of Sensitive Data</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/new-bitlocker-attack-puts-laptops-storing-sensitive-data-at-risk/">New BitLocker attack puts laptops storing sensitive data at risk</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/multiple-security-flaws-discovered-visitor-management-systems">Multiple Security Flaws Discovered in Visitor Management Systems, including Envoy</a></li>
+              <li><a class="lnk-green" href="https://www.darkreading.com/iot/gps-spoof-hits-geneva-motor-show/d/d-id/1334147">GPS Spoof Hits Geneva Motor Show</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/malicious-javascript-active-on-fila-uk-and-other-websites/">MageCart: Malicious Javascript Active on FILA UK and Other Websites</a></li>
+              <li><a class="lnk-purple" href="https://www.troyhunt.com/these-cookie-warning-shenanigans-have-got-to-stop/">These Cookie Warning Shenanigans Have Got to Stop</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/multi-factor-auth-bypassed-in-office-365-and-g-suite-imap-attacks/">Multi-Factor Auth Bypassed in Office 365 and G Suite IMAP Attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/google-amp/article/two-thirds-of-all-android-antivirus-apps-are-frauds/">Two-thirds of all Android antivirus apps are frauds</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/breach-verificationsio-exposes-763-million-records-a-12158">Breach of 'Verifications.io' Exposes 763 Million Records</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/unsecured-database-exposed-33-million-job-profiles-in-china/">Unsecured Database Exposed 33 Million Job Profiles in China</a></li>
+              <li><a class="lnk-purple" href="https://www.chromestatus.com/feature/6311883621531648">Deprecate download in ad frames without user gesture</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/google-now-lets-g-suite-admins-disable-insecure-phone-2fa/">Google Now Lets G Suite Admins Disable Insecure Phone 2FA</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/equifax-was-aware-cybersecurity-weaknesses-years-senate-report-says">Equifax Was Aware of Cybersecurity Weaknesses for Years, Senate Report Says</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/creepy-database-lists-breedready-status-for-18-million-women/">Creepy Database Lists 'BreedReady' Status for 1.8 Million Women</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/georgia-county-pays-400000-to-ransomware-attackers-a-12159">Georgia County Pays $400,000 to Ransomware Attackers</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/multi-factor-auth-bypassed-in-office-365-and-g-suite-imap-attacks/">Multi-Factor Auth Bypassed in Office 365 and G Suite IMAP Attacks</a></li>
+              <li><a class="lnk-blue" href="https://www.vpnmentor.com/blog/gearbest-hack/">Report – Gearbest Hack: Hundreds of Thousands Affected Daily by Huge Data Breach</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2019/03/patch-tuesday-march-2019-edition/">Patch Tuesday, March 2019 Edition</a></li>
+              <li><a class="lnk-pink" href="https://www.csoonline.com/article/3359447/windows-security-updates-that-require-new-registry-keys.html">Windows security updates that require new registry keys</a></li>
+              <li><a class="lnk-green" href="https://wordpress.org/news/2019/03/wordpress-5-1-1-security-and-maintenance-release/">WordPress 5.1.1 Security and Maintenance Release</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/03/stackstorm-security-vulnerability.html">Severe Flaw Disclosed In StackStorm DevOps Automation Software</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/03/adobe-software-updates.html">Adobe Releases Patches for Critical Flaws in Photoshop CC and Digital Edition</a></li>
+              <li><a class="lnk-blue" href="https://amp.thehackernews.com/thn/2019/03/windows-buggy-updates.html">Windows 10 Now Automatically Uninstalls Updates That Cause Problems</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/03/winrar-hacking-malware.html">Patched WinRAR Bug Still Under Active Attack—Thanks to No Auto-Updates</a></li>
+              <li><a class="lnk-green" href="https://blog.stealthbits.com/windows-file-activity-monitoring/">Windows file activity monitoring</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.cfptime.org/">Call For Papers (CFP) directory for Security Conferences</a></li>
+              <li><a class="lnk-pink" href="https://paragonie.com/blog/2019/03/definitive-2019-guide-cryptographic-key-sizes-and-algorithm-recommendations">The Definitive 2019 Guide to Cryptographic Key Sizes and Algorithm Recommendations</a></li>
+              <li><a class="lnk-green" href="https://blogs.technet.microsoft.com/srd/2019/03/14/local-privilege-escalation-via-the-windows-i-o-manager-a-variant-finding-collaboration/">Local privilege escalation via the Windows I/O Manager: a variant finding collaboration</a></li>
+              <li><a class="lnk-orange" href="https://github.com/shr3ddersec/Shr3dKit">Shr3dKit: Red Team Tool Kit</a></li>
+              <li><a class="lnk-purple" href="https://capsule8.com/blog/practical-container-escape-exercise/">An Exercise in Practical Container Escapology</a></li>
+
+              <li><a class="lnk-blue" href="https://pulsesecurity.co.nz/articles/TPM-sniffing">Extracting Bitlocker keys from a TPM</a></li>
+              <li><a class="lnk-pink" href="https://capsule8.com/blog/millions-of-binaries-later-a-look-into-linux-hardening-in-the-wild/">Millions of Binaries Later: a Look Into Linux Hardening in the Wild</a></li>
+              <li><a class="lnk-green" href="https://github.com/hubblestack/hubble">Hubble is a modular, open-source security compliance framework.</a></li>
+              <li><a class="lnk-orange" href="https://www.nongnu.org/tiger/">Tiger: The Unix security audit and intrusion detection tool</a></li>
+              <li><a class="lnk-purple" href="https://liberty-shell.com/sec/2019/03/12/dll-hijacking/">DLL Hijacking & Ghidra</a></li>
+              <li><a class="lnk-blue" href="https://hausec.com/2019/03/12/penetration-testing-active-directory-part-ii/">Penetration Testing Active Directory, Part II</a></li>
+              <li><a class="lnk-pink" href="https://www.mdsec.co.uk/2019/03/silencing-cylance-a-case-study-in-modern-edrs/">Silencing Cylance: A Case Study in Modern EDRs</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
