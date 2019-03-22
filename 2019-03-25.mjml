@@ -1,0 +1,204 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 25/03/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://krebsonsecurity.com/wp-content/uploads/2018/09/phonescam.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">25 March 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Facebook Mistakenly Stored Millions of Users' Passwords in Plaintext</mj-text>
+          <mj-image src="https://fbnewsroomus.files.wordpress.com/2019/03/newsroom-hero-image-password-security.png?w=960"></mj-image>
+          <mj-text color="#fff">Facebook is again at the center of a new privacy controversy after revealing today that its platform mistakenly kept a copy of passwords for "hundreds of millions" users in plaintext. What's more? Not just Facebook, Instagram users are also affected by the latest security incident. So, if you are one of the affected users, your Facebook or Instagram password was readable to some of the Facebook engineers who have internal access to the servers and the database.</mj-text>
+          <mj-text color="#fff">However, Facebook is not alone that exposed hundreds of millions of its users' passwords in plain text. Twitter last year also addressed a similar security incident that unintentionally exposed passwords for its 330 million users in readable text on its internal computer system.</mj-text>
+          <mj-text color="#fff">Facebook has now fixed this issue and recommended users to change their Facebook and Instagram passwords immediately.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/03/facebook-account-passwords.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://newsroom.fb.com/news/2019/03/keeping-passwords-secure/">
+            Official Statement from Facebook
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Why Phone Numbers Stink As Identity Proof</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2018/09/phonescam.png"></mj-image>
+          <mj-text>Phone numbers stink for security and authentication. They stink because most of us have so much invested in these digits that they’ve become de facto identities. At the same time, when you lose control over a phone number — maybe it’s hijacked by fraudsters, you got separated or divorced, or you were way late on your phone bill payments — whoever inherits that number can then be you in a lot of places online.</mj-text>
+          <mj-text>How exactly did we get to the point where a single, semi-public and occasionally transient data point like a phone number can unlock access to such a large part of our online experience? KrebsOnSecurity spoke about this at length with Allison Nixon, director of security research at New York City-based cyber intelligence firm Flashpoint.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://krebsonsecurity.com/2019/03/why-phone-numbers-stink-as-identity-proof/">
+            Read More on KrebsOnSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/over-100000-github-repos-have-leaked-api-or-cryptographic-keys/">Over 100,000 GitHub repos have leaked API or cryptographic keys</a></li>
+              <li><a class="lnk-pink" href="https://www.hackread.com/nsa-ghidra-flaw-remote-code-execution-attacks/">Flaw in NSA’s GHIDRA leads to remote code execution attacks</a></li>
+              <li><a class="lnk-green" href="https://searchcloudsecurity.techtarget.com/tip/The-security-implications-of-serverless-cloud-computing">The security implications of serverless cloud computing</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/03/magecart-ecommerce-hackers.html">New MageCart Attacks Target Bedding Retailers My Pillow and Amerisleep</a></li>
+              <li><a class="lnk-purple" href="https://www.darkreading.com/analytics/microsoft-brings-defender-security-tools-to-mac/d/d-id/1334220">Microsoft Brings Defender Security Tools to Mac</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/03/20/elsevier-exposes-users-emails-and-passwords-online/">Elsevier exposes users emails and passwords online/</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/vulnerability-in-android-instant-apps-can-be-used-to-steal-history-authentication-tokens/">Vulnerability in Android Instant Apps can be used to steal history, authentication tokens</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/03/mirai-botnet-enterprise-security.html">Mirai Variant Adds Dozen New Exploits to Target Enterprise IoT Devices</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/zero-day-in-wordpress-smtp-plugin-abused-by-two-hacker-groups/">Zero-day in WordPress SMTP plugin abused by two hacker groups</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/insecure-database-exposes-800-000-singapore-blood-donors/">Insecure Database Exposes 800,000 Singapore Blood Donors</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/03/21/researcher-finds-new-way-to-sniff-windows-bitlocker-encryption-keys/">Researcher finds new way to sniff Windows BitLocker encryption keys</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/google-open-sources-sandboxed-api">Google Open Sources Sandboxed API</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/windows-hello-support-added-firefox-66">Windows Hello Support Added to Firefox 66</a></li>
+              <li><a class="lnk-orange" href="https://blog.cloudflare.com/spectrum-for-udp-ddos-protection-and-firewalling-for-unreliable-protocols/">Spectrum for UDP: DDoS protection and firewalling for unreliable protocols</a></li>
+              <li><a class="lnk-purple" href="https://www.csoonline.com/article/3373647/what-is-malvertising-and-how-you-can-protect-against-it.html">What is malvertising? And how to protect against it</a></li>
+              <li><a class="lnk-blue" href="https://blog.cloudflare.com/monsters-in-the-middleboxes/">Monsters in the Middleboxes: Introducing Two New Tools for Detecting HTTPS Interception</a></li>
+              <li><a class="lnk-pink" href="https://www.inforisktoday.com/unsecure-fax-server-leaked-patient-data-a-12193">Unsecure Fax Server Leaked Patient Data</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/microsoft-releases-application-guard-extension-for-chrome-and-firefox/">Microsoft releases Application Guard extension for Chrome and Firefox</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/257k-legal-documents-leaked-by-unprotected-elasticsearch-server/">257K Legal Documents Leaked By Unprotected Elasticsearch Server</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/over-100-exploits-found-for-19-year-old-winrar-rce-bug/">Over 100 Exploits Found for 19-Year Old WinRAR RCE Bug</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/uncovering-data-security-triad">Uncovering the Data Security Triad</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/google-photos-bug-exposed-the-location-and-time-of-your-pictures/">Google Photos Bug Exposed the Location & Time of Your Pictures</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/03/20/google-researcher-discovers-new-type-of-windows-security-weakness/">Google researcher discovers new type of Windows security weakness</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/03/22/sacked-it-guy-annihilates-23-of-his-ex-employers-aws-servers/">Sacked IT guy annihilates 23 of his ex-employer’s AWS servers</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/2-million-emails-of-350k-clients-possibly-exposed-in-oregon-dhs-data-breach/">2 Million Emails of 350K+ Clients Possibly Exposed in Oregon DHS Data Breach</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cisco-fixes-high-severity-vulnerabilities-in-ip-phone-77800-8800/">Cisco Fixes High-Severity Vulnerabilities in IP Phone 77800, 8800</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/03/putty-software-hacking.html">PuTTY Releases Important Software Update to Patch 8 High-Severity Flaws</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/03/libssh2-vulnerabilities.html">Libssh Releases Update to Patch 9 New Security Vulnerabilities</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/facebook-pays-big-bounty-dos-flaw-fizz-tls-library">Facebook Pays Big Bounty for DoS Flaw in Fizz TLS Library</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2019/03/21/flaw-in-popular-pdf-creation-library-enabled-remote-code-execution/">Flaw in popular PDF creation library enabled remote code execution</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/kb4493132-update-notifies-windows-7-users-of-end-of-support-date/">KB4493132 Update Notifies Windows 7 Users of End of Support Date</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/03/18/intel-patches-a-gaggle-of-flaws-allowing-for-code-execution/">Intel releases patches for code execution vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/03/18/wordpress-5-1-1-patches-dangerous-xss-vulnerability/">WordPress 5.1.1 patches dangerous XSS vulnerability</a></li>
+              <li><a class="lnk-orange" href="https://www.schneier.com/blog/archives/2019/03/critical_flaw_i.html">Critical Flaw in Swiss Internet Voting System</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.rapid7.com/research/report/exploiting-jsos/">Java Serialization: A Practical Exploitation Guide</a></li>
+              <li><a class="lnk-pink" href="https://github.com/jondonas/linux-exploit-suggester-2">Linux Exploit Suggester 2</a></li>
+              <li><a class="lnk-green" href="https://www.tarlogic.com/en/blog/how-kerberos-works/">Kerberos (I): How does Kerberos work? – Theory</a></li>
+              <li><a class="lnk-orange" href="https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/">Fake or Fake: Keeping up with OceanLotus decoys</a></li>
+              <li><a class="lnk-purple" href="https://hackerone.com/reports/470520">RCE on Steam Client via buffer overflow in Server Info</a></li>
+              <li><a class="lnk-blue" href="https://chybeta.github.io/2019/03/16/Analysis-for%E3%80%90CVE-2019-5418%E3%80%91File-Content-Disclosure-on-Rails/">Analysis for【CVE-2019-5418】File Content Disclosure on Rails</a></li>
+              <li><a class="lnk-pink" href="https://habr.com/en/post/444048/">Digital Forensics Tips&Tricks: How to Detect an Intruder-driven Group Policy Changes</a></li>
+              <li><a class="lnk-green" href="https://www.criticalstart.com/2019/03/automated-tool-to-monitor-pastebin-for-interesting-information/">The pastebin treasure hunter</a></li>
+              <li><a class="lnk-orange" href="https://www.activecyber.us/activelabs/windows-uac-bypass">Fileless UAC Bypass in Windows Store Binary</a></li>
+              <li><a class="lnk-purple" href="https://github.com/AdrianVollmer/PowerHub">PowerHub: aids a pentester in transferring files bypassing AV</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
