@@ -1,0 +1,196 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 01/04/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">1 April 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Hackers Hijacked ASUS Software Updates to Install Backdoors on Thousands of Computers</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/5c95589b230c840007f72aca/lede/1553292021826-shutterstock_1153426579.jpeg?crop=1xw%3A0.8439609902475619xh%3Bcenter%2Ccenter&resize=2000%3A*"></mj-image>
+          <mj-text color="#fff">The Taiwan-based tech giant ASUS is believed to have pushed the malware to hundreds of thousands of customers through its trusted automatic software update tool after attackers compromised the company’s server and used it to push the malware to machines.</mj-text>
+          <mj-text color="#fff">Researchers at cybersecurity firm Kaspersky Lab say that ASUS, one of the world’s largest computer makers, was used to unwittingly install a malicious backdoor on thousands of its customers’ computers last year after attackers compromised a server for the company’s live software update tool. The malicious file was signed with legitimate ASUS digital certificates to make it appear to be an authentic software update from the company, Kaspersky Lab says.</mj-text>
+          <mj-text color="#fff">"A small number of devices have been implanted with malicious code through a sophisticated attack on our Live Update servers in an attempt to target a very small and specific user group," says ASUS. The company also said that "only the version of Live Update used for notebooks has been affected," with all other devices not being affected by the supply chain attack. "customer service has been reaching out to affected users and providing assistance to ensure that the security risks are removed." Customers who discover that their machines have been affected are advised to "Immediately run a backup of your files and restore your operating system to factory settings. This will completely remove the malware from your computer."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://motherboard.vice.com/en_us/article/pan9wn/hackers-hijacked-asus-software-updates-to-install-backdoors-on-thousands-of-computers">
+            Read More on MotherBoard
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/asus-admits-its-live-update-utility-was-backdoored-by-apt-group/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Magento's Latest Patches Should Be Applied Immediately</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-WfSxaS1-3Yg/XJ3XQTOz3gI/AAAAAAAAznA/quQ98xcfU9UTRyl8eOZNzwYCPE118mPLwCLcBGAs/s728-e100/Magento-website-security-vulnerability.jpg"></mj-image>
+          <mj-text>If your online e-commerce business is running over the Magento platform, you must pay attention to this information. Magento yesterday released new versions of its content management software to address a total of 37 newly-discovered security vulnerabilities. Owned by Adobe since mid-2018, Magento is one of the most popular content management system (CMS) platform that powers 28% of websites across the Internet with more than 250,000 merchants using the open source e-commerce platform.</mj-text>
+          <mj-text>Though most of the reported issues could only be exploited by authenticated users, one of the most severe flaws in Magento is an SQL Injection vulnerability which can be exploited by unauthenticated, remote attackers.</mj-text>
+          <mj-text>"Unauthenticated attacks, like the one seen in this particular SQL injection vulnerability, are very serious because they can be automated - making it easy for hackers to mount successful, widespread attacks against vulnerable websites," Montpas writes. "The number of active installs, the ease of exploitation and the effects of a successful attack are what makes this vulnerability particularly dangerous." The vulnerabilities are present within the open source and commercial versions of Magento. Magento advised that users should upgrade to versions 2.3.1 or 2.2.8.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bankinfosecurity.com/magentos-latest-patches-should-be-applied-immediately-a-12292">
+            Read More on BankInfoSecurity
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://amp.thehackernews.com/thn/2019/03/magento-website-security.html">
+            Even More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.welivesecurity.com/2019/03/28/man-jailed-destroying-exemployer-data/">Man jailed for destroying former employer’s data</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/03/microsoft-edge-ie-zero-days.html">Unpatched Zero-Days in Microsoft Edge and IE Browsers Disclosed Publicly</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/french-gas-stations-robbed-after-forgetting-to-change-gas-pump-pins/">French gas stations robbed after forgetting to change gas pump PINs</a></li>
+              <li><a class="lnk-orange" href="https://www.theregister.co.uk/2019/03/28/hcsec_huawei_oversight_board_savaging_annual_report/">Huawei savaged by Brit code review board over poor dev practices</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/toyota-security-breach-exposes-personal-info-of-31-million-clients/">Toyota Security Breach Exposes Personal Info of 3.1 Million Clients</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/fireeye-debuts-windows-commando-vm-as-rival-to-linux-kali/">FireEye debuts Windows Commando VM as Linux Kali rival</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/03/27/dragonex-exchange-hacked-smoking-ashes-being-raked-over/">DragonEx exchange hacked, smoking ashes being raked over</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/blogs/breach-bonanza-users-fail-to-wipe-usb-drives-p-2733">Security Nightmare: Users Fail to Wipe USB Drives</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/zero-day-tp-link-sr20-router-vulnerability-disclosed-by-google-dev/">Zero-Day TP-Link SR20 Router Vulnerability Disclosed by Google Dev</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/report-deems-russia-a-pioneer-in-gps-spoofing-attacks/">Report deems Russia a pioneer in GPS spoofing attacks</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/03/27/facebooks-whitehat-settings-lets-bug-hunters-dial-back-app-security/">Facebook’s Whitehat Settings lets bug-hunters dial back app security</a></li>
+              <li><a class="lnk-pink" href="https://blog.cloudflare.com/boringtun-userspace-wireguard-rust/">BoringTun, a userspace WireGuard implementation in Rust</a></li>
+              <li><a class="lnk-green" href="https://motherboard.vice.com/en_us/article/8xyj7g/ransomware-forces-two-chemical-companies-to-order-hundreds-of-new-computers">Ransomware Forces Two Chemical Companies to Order ‘Hundreds of New Computers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/mac-addresses-targeted-by-the-asus-supply-chain-attack-now-available/">MAC Addresses Targeted by the ASUS Supply Chain Attack Now Available</a></li>
+              <li><a class="lnk-pink" href="https://www.welivesecurity.com/2019/03/29/world-backup-day-data-safe-hands/">World Backup Day: Is your data in safe hands?</a></li>
+
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/90-of-large-tech-companies-vulnerable-to-email-spoofing/">90% of large tech companies vulnerable to email spoofing</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/vmware-fixes-critical-vulnerabilities-in-esxi-workstation-and-fusion/">VMware Fixes Critical Vulnerabilities in ESXi, Workstation and Fusion</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/cisco-improperly-patched-exploited-router-vulnerabilities">Cisco Improperly Patched Exploited Router Vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/apple-patches-vulnerabilities-ios-macos-safari">Apple Patches Vulnerabilities in iOS, macOS, Safari</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/nvidia-patches-code-execution-vulnerability-in-geforce-experience/">Nvidia patches code execution vulnerability in GeForce Experience</a></li>
+              <li><a class="lnk-purple" href="https://magento.com/security/patches/magento-2.3.1-2.2.8-and-2.1.17-security-update">Magento 2.3.1, 2.2.8 and 2.1.17 Security Update</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/angea/pocorgtfo/blob/master/README.md#0x19v">PoC || GTFO 0x19</a></li>
+              <li><a class="lnk-pink" href="https://www.twistlock.com/labs-blog/disclosing-directory-traversal-vulnerability-kubernetes-copy-cve-2019-1002101/">Disclosing a directory traversal vulnerability in Kubernetes copy – CVE-2019-1002101</a></li>
+              <li><a class="lnk-green" href="https://nullprogram.com/blog/2019/03/22/">Endlessh: an SSH Tarpit</a></li>
+              <li><a class="lnk-orange" href="https://www.sequoiacybersolutions.com/a-pentesters-guide-part-1-osint-passive-recon-and-discovery-of-assets/">A Pentester’s Guide – Part 1 (OSINT – Passive Recon and Discovery of Assets)</a></li>
+              <li><a class="lnk-purple" href="https://gbhackers.com/osmedeus-offensive-security-tool/">Osmedeus – Fully Automated Offensive Security Tool for Reconnaissance & Vulnerability Scanning</a></li>
+              <li><a class="lnk-blue" href="https://github.com/fireeye/commando-vm">commando-vm</a></li>
+              <li><a class="lnk-pink" href="https://securelist.com/operation-shadowhammer/89992/">Operation ShadowHammer</a></li>
+              <li><a class="lnk-green" href="https://badpackets.net/over-9000-cisco-rv320-rv325-routers-vulnerable-to-cve-2019-1653/#2019-03-28-update">Over 9,000 Cisco RV320/RV325 routers are vulnerable to CVE-2019-1653</a></li>
+              <li><a class="lnk-orange" href="https://maxkersten.nl/binary-analysis-course/malware-analysis/magecart/">In-depth analysis of MageCart skimming scripts</a></li>
+              <li><a class="lnk-purple" href="https://blog.fox-it.com/2019/03/28/mkyara-writing-yara-rules-for-the-lazy-analyst/">mkYARA – Writing YARA rules for the lazy analyst</a></li>
+              <li><a class="lnk-blue" href="https://www.ambionics.io/blog/magento-sqli">Magento 2.2.0 <= 2.3.0 Unauthenticated SQLi</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/tenable-techblog/owning-the-network-with-badusb-72daa45d1b00">Owning the Network with BadUSB</a></li>
+              <li><a class="lnk-green" href="https://www.synacktiv.com/posts/systems/icmp-reachable.html">ICMP-REACHABLE: Bypassing firewalls with ICMP error messages</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
