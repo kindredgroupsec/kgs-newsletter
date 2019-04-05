@@ -1,0 +1,193 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 08/04/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-99i41fJpq4g/XKOdiw0a9VI/AAAAAAAAzpg/5bsYZPt1gDEBoI8Y5nYy-GIPLhUF4EuxACLcBGAs/s728-e100/apache-web-server-security.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">8 April 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">540 Million Facebook User Records Found On Unprotected Amazon Servers because of a third party</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-6cLE64LqnhQ/XKUEoI8XUbI/AAAAAAAAzro/aNo0bfqxHbgdBeTtH0aS9RC7MnN63x31QCLcBGAs/s728-e100/facebook-app-database-leak.jpg"></mj-image>
+          <mj-text color="#fff">More than half a billion records of millions of Facebook users have been found exposed on unprotected Amazon cloud servers. The exposed datasets do not directly come from Facebook; instead, they were collected and unsecurely stored online by third-party Facebook app developers.</mj-text>
+          <mj-text color="#fff">Researchers at the cybersecurity firm UpGuard today revealed that they discovered two datasets—one from a Mexican media company called Cultura Colectiva and another from a Facebook-integrated app called "At the pool"—both left publicly accessible on the Internet.</mj-text>
+          <mj-text color="#fff">More than 146 GB of data collected by Cultura Colectiva contains over 540 million Facebook user records, including comments, likes, reactions, account names, Facebook user IDs, and more. The second dataset belonging to "At the Pool" app contains information about users' friends, likes, groups, and checked-in locations, as well as "names, plaintext passwords and email addresses for 22,000 people."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/04/facebook-app-database.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.securityweek.com/aws-s3-buckets-exposed-millions-facebook-records">
+            Even More on SecurityWeek
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">New Apache Web Server Bug Threatens Security of Shared Web Hosts</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-99i41fJpq4g/XKOdiw0a9VI/AAAAAAAAzpg/5bsYZPt1gDEBoI8Y5nYy-GIPLhUF4EuxACLcBGAs/s728-e100/apache-web-server-security.jpg"></mj-image>
+          <mj-text>Mark J Cox, one of the founding members of the Apache Software Foundation and the OpenSSL project, today posted a tweet warning users about a recently discovered important flaw in Apache HTTP Server software. The Apache web server is one of the most popular, widely used open-source web servers in the world that powers almost 40 percent of the whole Internet.</mj-text>
+          <mj-text>The flaw affects Apache HTTP Server versions 2.4.17 through 2.4.38 and could allow any less-privileged user to execute arbitrary code with root privileges on the targeted server. According to Cox, the vulnerability is more concerning for shared web hosting services, where malicious customers or a hacker with ability to execute PHP or CGI scripts on a website can make use of the flaw to gain root access on the server, eventually compromising all other websites hosted on the same server.</mj-text>
+          <mj-text>The vulnerability, identified as CVE-2019-0211, was discovered by Charles Fol, a security engineer at Ambionics Security firm, and patched by the Apache developers in the latest version 2.4.39 of its software released today.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2019/04/apache-web-server-security.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="#">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/facebook-demanded-user-email-passwords">Facebook Demanded User Email Passwords</a></li>
+              <li><a class="lnk-pink" href="https://www.nist.gov/news-events/news/2019/03/security-strategies-microservices-based-application-systems-draft-nist-sp">Security Strategies for Microservices-based Application Systems: Draft NIST SP 800-204 Available for Comment</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/04/xiaomi-browser-vulnerability.html">Unpatched Flaw in Xiaomi's Built-in Browser App Lets Hackers Spoof URLs</a></li>
+              <li><a class="lnk-orange" href="https://thenextweb.com/dd/2019/03/22/gitlab-now-automatically-warns-against-merging-api-keys-into-your-codebase/">GitLab now automatically warns against merging API keys into your codebase</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/financial-mobile-apps-fail-to-follow-proper-security-standards/">Financial Mobile Apps Fail to Follow Proper Security Standards</a></li>
+              <li><a class="lnk-blue" href="https://blog.cloudflare.com/1111-warp-better-vpn/">Introducing Warp: Fixing Mobile Internet Performance and Security</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/04/kibana-data-security.html">Thousands of Unprotected Kibana Instances Exposing Elasticsearch Databases</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/azure-ad-password-protection-available-lowers-spray-attack-risks/">Azure AD Password Protection Available, Lowers Spray Attack Risks</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/wordpress-ios-app-leaked-authentication-tokens/">WordPress iOS app leaked authentication tokens</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/04/js-sniffers-credit-card-hacking.html">In-Depth Analysis of JS Sniffers Uncovers New Families of Credit Card-Skimming Code</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/04/xiaomi-antivirus-app.html">Hackers Could Turn Pre-Installed Antivirus App on Xiaomi Phones Into Malware</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/samsung-galaxy-s10-fingerprint-scanner-tricked-with-3d-print/">Samsung Galaxy S10 Fingerprint Scanner Tricked with 3D Print</a></li>
+              <li><a class="lnk-orange" href="https://www.eff.org/wp/digital-privacy-us-border-2017">Digital Privacy at the U.S. Border: Protecting the Data On Your Devices</a></li>
+              <li><a class="lnk-purple" href="https://www.schneier.com/blog/archives/2009/07/laptop_security.html">Laptop Security while Crossing Borders</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/hacker-group-has-been-hijacking-dns-traffic-on-d-link-routers-for-three-months/">Hacker group has been hijacking DNS traffic on D-Link routers for three months</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/04/03/patch-android-now-april-updates-fixes-three-critical-flaws/">Patch Android now! April updates fixes three critical flaws</a></li>
+              <li><a class="lnk-pink" href="https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2019-0211">Apache HTTP Server 2.4 vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/microsoft-not-concerned-about-disclosed-edge-ie-flaws">Microsoft Not Concerned About Disclosed Edge, IE Flaws</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/researcher-publishes-google-chrome-exploit/">Researcher publishes Google Chrome exploit not yet patched in Stable</a></li>
+
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/backdoor-code-found-in-popular-bootstrap-sass-ruby-library/">Backdoor code found in popular Bootstrap-Sass Ruby library</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/NationalSecurityAgency/ghidra">Ghidra source code officially released</a></li>
+              <li><a class="lnk-pink" href="https://grsecurity.net/huawei_and_security_analysis.php">Huawei and Security Analysis</a></li>
+              <li><a class="lnk-green" href="https://github.com/clong/DetectionLab">DetectionLab: lab environment complete with security tooling and logging best practices</a></li>
+              <li><a class="lnk-orange" href="http://www.undeadly.org/cgi?action=article;sid=20190302235509">Using a Yubikey as smartcard for SSH public key authentication</a></li>
+              <li><a class="lnk-purple" href="https://posts.specterops.io/go-phishing-with-goreport-418294e8ee45">Go Phishing (and Reporting)</a></li>
+              <li><a class="lnk-blue" href="https://mahmoudsec.blogspot.com/2019/04/handlebars-template-injection-and-rce.html">Handlebars template injection and RCE in a Shopify app</a></li>
+              <li><a class="lnk-pink" href="https://aws.amazon.com/blogs/security/how-to-run-aws-cloudhsm-workloads-on-docker-containers/">How to run AWS CloudHSM workloads on Docker containers</a></li>
+              <li><a class="lnk-green" href="https://p16.praetorian.com/blog/active-directory-visualization-for-blue-teams-and-threat-hunters">Active Directory Visualization for Blue Teams and Threat Hunters</a></li>
+              <li><a class="lnk-orange" href="https://www.malwaretech.com/2019/04/analysis-of-a-vb-script-heap-overflow.html">Analysis of a VB Script Heap Overflow (CVE-2019-0666)</a></li>
+              <li><a class="lnk-purple" href="https://cfreal.github.io/carpe-diem-cve-2019-0211-apache-local-root.html">CARPE (DIEM): CVE-2019-0211 Apache Root Privilege Escalation</a></li>
+              <li><a class="lnk-pink" href="https://github.com/ustayready/fireprox">fireprox: on the fly HTTP pass-through proxies for unique IP rotation</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
