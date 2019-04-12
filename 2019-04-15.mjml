@@ -1,0 +1,243 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 15/04/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-B4wEa2f4EDw/XK8TqXncKhI/AAAAAAAAzvI/k6tLDrmVlaAgGz3A7_lpbmgQy-HlqLODACLcBGAs/s728-e100/WikiLeaks-Julian-Assange-Arrested.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">15 April 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Featured</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-B4wEa2f4EDw/XK8TqXncKhI/AAAAAAAAzvI/k6tLDrmVlaAgGz3A7_lpbmgQy-HlqLODACLcBGAs/s728-e100/WikiLeaks-Julian-Assange-Arrested.png"></mj-image>
+          <mj-text color="#fff">WikiLeaks founder Julian Assange has been arrested at the Ecuadorian Embassy in London—that's almost seven years after he took refuge in the embassy to avoid extradition to Sweden over a sexual assault case. According to a short note released by London's Metropolitan Police Service, Assange was arrested immediately after the Ecuadorian government today withdraws his political asylum.</mj-text>
+          <mj-text color="#fff">U.S. Department of Justice also confirmed today that Assange would face extradition proceedings for his alleged role in "one of the largest compromises of classified information in the history of the United States." Following his arrest on Thursday, Ecuadorian President Lenín Moreno tweeted, "In a sovereign decision, Ecuador withdrew the asylum status to Julian Assange after his repeated violations to international conventions and daily-life protocols."</mj-text>
+          <mj-text color="#fff">However, WikiLeaks said Ecuador had acted illegally in terminating Mr Assange's political asylum "in violation of international law." Assange's arrest comes a day after WikiLeaks editor Kristinn Hrafnsson accused the Ecuadorian government of an extensive spying operation against Julian Assange inside the Ecuadorian embassy. Assange, the 47-year-old Australian hacker, founded WikiLeaks in 2006 and has since made many high-profile revelations through the platform, exposing 'dirty' secrets of several political parties, individuals, and government organizations across the world.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/04/wikileaks-julian-assange-arrested.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.thelocal.se/20190411/swedish-prosecutor-urged-to-reopen-rape-investigation-into-julian-assange">
+            Swedish prosecutor urged to reopen rape investigation into Julian Assange
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.securityweek.com/julian-assange-decade-stunning-leaks-us-secrets">
+            Assange: A Decade of Stunning Leaks of U.S. Secrets
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Two Thirds of Hotel Sites Leak Guest Booking Info to Third-Parties</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2019/04/10/Lock-Data_headpic.jpg"></mj-image>
+          <mj-text>Third-party services running on most hotel websites have access to guest booking information, including personal data and payment card details. The data they're privy to also allows them to cancel reservations. Multiple websites for over 1,500 hotels in 54 countries fail to protect user information from partner services such as advertisers and analytics companies. In 67% of the studied cases, some level of personal information is leaked via booking reference codes.</mj-text>
+          <mj-text>The data exposed this way may include the guest's full name, email and physical address, phone number, the last four digits of the payment card as well as its type and expiration date, and the passport number.</mj-text>
+          <mj-text>Being in the referrer filed means that the booking reference code is passed along by the browser, potentially reaching over 30 service providers like social networks, search engines, and analytics services. However, bad this may sound, the third-party providers are not to blame for getting more information than they need to operate properly. 25% of the officers did not reply six weeks after being informed of the privacy risks. Those that responded needed an average of 10 days to issue a reply and said they would commit to fixing the problem.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/two-thirds-of-hotel-sites-leak-guest-booking-info-to-third-parties/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.symantec.com/blogs/threat-intelligence/hotel-websites-leak-guest-data">
+            Even More on Symantec Blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Dragonblood vulnerabilities disclosed in WiFi WPA3 standard</mj-text>
+          <mj-image src="https://zdnet3.cbsistatic.com/hub/i/2019/04/10/b7a5851c-7df4-428a-b7b4-f2ca69ec8e73/249ec52d5654ec6ab4531e5cee764ada/dragonblood-logo.jpg"></mj-image>
+          <mj-text>Two security researchers disclosed details today about a group of vulnerabilities collectively referred to as Dragonblood that impact the WiFi Alliance's recently launched WPA3 Wi-Fi security and authentication standard. If ever exploited, the vulnerabilities would allow an attacker within the range of a victim's network to recover the (weak) Wi-Fi password and infiltrate the target's network.</mj-text>
+          <mj-text>In total, five vulnerabilities are part of the Dragonblood ensemble --a denial of service attack, two downgrade attacks, and two side-channel information leaks. While the denial of service attack is somewhat unimportant as it only leads to crashing WPA3-compatible access points, the other four are the ones that can be used to recover user passwords.</mj-text>
+          <mj-text>The WiFi Alliance announced today a security update for the WPA3 standard following Vanhoef and Ronen's public disclosure of the Dragonblood flaws. "These issues can all be mitigated through software updates without any impact on devices' ability to work well together," the WiFi Alliance said today in a press release. Vendors of WiFi products will now have to integrate these changes into their products via firmware updates. Vanhoef is the same security researcher who in the fall of 2017 disclosed the KRACK attack on the WiFi WPA2 standard, which was the main reason the WiFi Alliance developed WPA3 in the first place.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/dragonblood-vulnerabilities-disclosed-in-wifi-wpa3-standard/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://thehackernews.com/2019/04/wpa3-hack-wifi-password.html">
+            Even More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/gmail-becomes-first-major-email-provider-to-support-mta-sts-and-tls-reporting/">Gmail becomes first major email provider to support MTA-STS and TLS Reporting</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/dark-patterns-how-weaponized-usability-hurts-users-a-12364">Dark Patterns: How Weaponized Usability Hurts Users</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/popular-yuzo-wordpress-plugin-exploited-to-redirect-users-to-scams/">Popular Yuzo WordPress Plugin Exploited to Redirect Users to Scams</a></li>
+              <li><a class="lnk-orange" href="https://www.inforisktoday.com/interviews/women-in-cybersecurity-progress-report-i-4288">Women in Cybersecurity: A Progress Report</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/threat-group-uses-pastebin-github-in-sneakypastes-operation/">Threat Group Uses Pastebin, GitHub In SneakyPastes Operation</a></li>
+              <li><a class="lnk-blue" href="https://www.akamai.com/us/en/multimedia/documents/state-of-the-internet/soti-security-credential-stuffing-attacks-and-economies-report-2019.pdf">Credential Stuffing: Volume 5, Special Media Edition Attacks and Economies (PDF)</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/04/10/two-teens-charged-with-jamming-school-wi-fi-to-get-out-of-exams/">Two teens charged with jamming school Wi-Fi to get out of exams</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/many-new-security-features-services-added-google-cloud">Many New Security Features, Services Added to Google Cloud</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/new-tajmahal-cyberespionage-kit-includes-80-malicious-modules/">New TajMahal Cyberespionage Kit Includes 80 Malicious Modules</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/emotet-hijacks-email-conversation-threads-to-insert-links-to-malware/">Emotet hijacks email conversation threads to insert links to malware</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/25-percent-of-phishing-emails-bypass-office-365-default-security/">25% of Phishing Emails Bypass Office 365 Default Security</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/04/09/airbnb-says-sorry-after-man-detects-hidden-camera-with-network-scan/">Airbnb says sorry after man detects hidden camera with network scan</a></li>
+              <li><a class="lnk-orange" href="https://sixfortwelve.wordpress.com/2019/04/06/how-to-increase-your-chances-of-finding-a-hidden-camera/">How to increase your chances of finding a hidden camera</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/mirai-botnet-variants-targeting-new-processors-and-architectures/">Mirai Botnet Variants Targeting New Processors and Architectures</a></li>
+
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/04/exodus-ios-malware.html">'Exodus' Surveillance Malware Found Targeting Apple iOS Users</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cyber-attack-shuts-down-hoya-corps-thailand-plant-for-three-days/">Cyber Attack Shuts Down Hoya Corp's Thailand Plant for Three Days
+</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/04/08/bootstrap-supply-chain-attack-is-another-attempt-to-poison-the-barrel/">Bootstrap supply chain attack is another attempt to poison the barrel
+</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2019/04/android-7-0-phones-can-now-double-as-google-security-keys/">Android 7.0+ Phones Can Now Double as Google Security Keys</a></li>
+              <li><a class="lnk-orange" href="https://support.google.com/accounts/answer/9289445">Use your Android phone's built-in security key</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/half-of-organizations-dont-test-their-incident-response-plans/">Half of organizations don't test their incident response plans</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/amazon-employees-are-listening-in-to-your-conversations-with-alexa/">Amazon employees listen in to your conversations with Alexa</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2019/04/patch-tuesday-lowdown-april-2019-edition/">Patch Tuesday Lowdown, April 2019 Edition</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/adobe-releases-april-2019-security-updates-for-flash-shockwave-and-more/">Adobe Releases April 2019 Security Updates for Flash, Shockwave, and More</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/demo-exploit-code-available-for-privilege-escalation-bug-in-windows/">Demo Exploit Code Available for Privilege Escalation Bug in Windows (CVE-2019-0841)</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/04/verizon-wifi-router-security.html">Researcher Reveals Multiple Flaws in Verizon Fios Routers — PoC Released</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/siemens-patches-serious-dos-flaws-many-industrial-products">Siemens Patches Serious DoS Flaws in Many Industrial Products</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/folder-actions-for-persistence-on-macos-8923f222343d">Folder Actions for Persistence on macOS</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/some-enterprise-vpn-apps-store-authentication-session-cookies-insecurely/">Some enterprise VPN apps store authentication/session cookies insecurely</a></li>
+              <li><a class="lnk-green" href="https://isc.sans.edu/forums/diary/A+few+Ghidra+tips+for+IDA+users+part+1+the+decompilerunreachable+code/24822/">A few Ghidra tips for IDA users, part 1 - the decompiler/unreachable code</a></li>
+              <li><a class="lnk-orange" href="https://dejandayoff.com/the-danger-of-exposing-docker.sock/">The danger of exposing docker.sock</a></li>
+              <li><a class="lnk-purple" href="https://habr.com/en/company/qrator/blog/447776/">New BGP hijack attack in the wild</a></li>
+              <li><a class="lnk-blue" href="https://delta.navisec.io/osint-for-pentesters-part-3-password-spraying-methodology/">A Pentester's Guide - Part 3 (OSINT, Breach Dumps, & Password Spraying)</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/tenable-techblog/verizon-fios-router-authenticated-command-injection-f6d2ddec30fd">Verizon Fios Router Authenticated Command Injection</a></li>
+              <li><a class="lnk-green" href="https://bytes.grubhub.com/why-we-use-crypto-when-generating-coupon-codes-at-scale-44dc737a52c9">Why Grubhub uses crypto when generating coupon codes at scale</a></li>
+              <li><a class="lnk-orange" href="https://github.com/cfreal/exploits/tree/master/CVE-2019-0211-apache">CARPE (DIEM): CVE-2019-0211 Apache Root Privilege Escalation PoC</a></li>
+              <li><a class="lnk-purple" href="https://github.com/needmorecowbell/Funnel">Funnel: lightweight yara-based feed scraper</a></li>
+              <li><a class="lnk-blue" href="https://github.com/leeberg/BlueHive">BlueHive: Active Directory Honey User Account Management </a></li>
+              <li><a class="lnk-pink" href="https://github.com/JavelinNetworks/HoneypotBuster">HoneypotBuster: find honeypots and honeytokens in the network or at the host.</a></li>
+              <li><a class="lnk-green" href="http://lockboxx.blogspot.com/2019/03/macos-red-teaming-201-introduction.html">MacOS Red Teaming 201: Introduction</a> <a href="http://lockboxx.blogspot.com/2019/03/macos-red-teaming-202-profiles.html?m=1" class="lnk-blue">(202: Profiles)</a></li>
+              <li><a class="lnk-orange" href="https://adsecurity.org/?p=4115">There’s Something About Service Accounts</a></li>
+              <li><a class="lnk-purple" href="https://blog.stealthbits.com/running-laps-in-the-race-to-security/">Running LAPS in the race to security</a></li>
+              <li><a class="lnk-blue" href="https://www.sans.org/reading-room/whitepapers/incident/disrupting-empire-identifying-powershell-empire-command-control-activity-38315">Disrupting the Empire: Identifying PowerShell Empire Command and Control Activity (PDF)</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>You're into identity and access management? We are looking for an <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-iam-cor0352/4711/description/" class="lnk-yellow" target="_blank">IAM Specialist</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
