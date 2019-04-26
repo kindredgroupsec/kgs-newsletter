@@ -1,0 +1,260 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 29/04/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://zdnet2.cbsistatic.com/hub/i/2019/04/25/5ca9c180-4765-4420-8213-5bb266d607ce/9853584dc7303bd64b045b513285ee27/credential-stuffing.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">29 April 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Breach at IT Outsourcing Giant Wipro</mj-text>
+          <mj-image src="https://i2.wp.com/gbhackers.com/wp-content/uploads/2019/04/Wipro.jpg?fit=728%2C380&ssl=1&resize=1280%2C720"></mj-image>
+          <mj-text color="#fff">Indian information technology (IT) outsourcing and consulting giant Wipro Ltd. is investigating reports that its own IT systems have been hacked and are being used to launch attacks against some of the company’s customers, multiple sources tell KrebsOnSecurity. Wipro has refused to respond to questions about the alleged incident.</mj-text>
+          <mj-text color="#fff">Both sources, who spoke on condition of anonymity, said Wipro’s systems were seen being used as jumping-off points for digital fishing expeditions targeting at least a dozen Wipro customer systems. The security experts said Wipro’s customers traced malicious and suspicious network reconnaissance activity back to partner systems that were communicating directly with Wipro’s network.</mj-text>
+          <mj-text color="#fff">One source familiar with the forensic investigation at a Wipro customer said it appears at least 11 other companies were attacked, as evidenced from file folders found on the intruders’ back-end infrastructure that were named after various Wipro clients. That source declined to name the other clients. The other source said Wipro is now in the process of building out a new private email network because the intruders were thought to have compromised Wipro’s corporate email system for some time. The source also said Wipro is now telling concerned clients about specific “indicators of compromise,” telltale clues about tactics, tools and procedures used by the bad guys that might signify an attempted or successful intrusion. Wipro says it has more than 170,000 employees helping clients across six continents with Fortune 500 customers in healthcare, banking, communications and other industries. In March 2018, Wipro said it passed the $8 billion mark in annual IT services revenue.
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2019/04/experts-breach-at-it-outsourcing-giant-wipro/">
+            Read More on KrebsOnSecurity
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2019/04/how-not-to-acknowledge-a-data-breach/">
+            How Not to Acknowledge a Data Breach
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">The Anatomy of Highly Profitable Credential Stuffing Attacks</mj-text>
+          <mj-image src="https://zdnet2.cbsistatic.com/hub/i/2019/04/25/5ca9c180-4765-4420-8213-5bb266d607ce/9853584dc7303bd64b045b513285ee27/credential-stuffing.png"></mj-image>
+          <mj-text>Credential stuffing attacks are one of today's most prevalent threats to online businesses everywhere. But despite this threat rising on everyone's radar in the infosec community, very little is known about how criminal groups are performing these attacks.</mj-text>
+          <mj-text>Credential stuffing is a term used by the cybersecurity industry to describe a particular type of automated attack against a website or application's login system. It relies on a hacker taking username-password combos that have been leaked via data breaches at other companies, and attempting to use these leaked credentials in the hope of gaining access to accounts on other sites -- exploiting users' habit of reusing usernames and passwords across multiple online services.</mj-text>
+          <mj-text>Credential stuffing is a relatively new attack vector and has been fueled by the huge leaks of user credentials that have taken place since 2016, after hacks at LinkedIn, VK.com, Tumblr, Twitter, and many other major platforms. Hundreds of millions of username and password credentials were dumped online in 2016, and other leaks have continued to pop up regularly since then, supplying fresh cannon fodder for criminal gangs to use for their attacks.</mj-text>
+          <mj-text>Organizations can protect their users by implementing multi-factor authentication (MFA) "which blocks the credential stuffing attack vector" but some of them already confirmed that they "may not be prepared to choose security over convenience." On the other hand, end users can do their part by never using the same password on more than one service, utilizing a password manager to safely store their credentials and generate more complex passwords, as well as turning on two-factor authentication (2FA) for all services that support it.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/an-inside-look-at-how-credential-stuffing-operations-work/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/the-anatomy-of-highly-profitable-credential-stuffing-attacks/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Facebook Could Be Fined Up To $5 Billion Over Privacy Violations</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-itW-XbJQexI/XMFOOi3VreI/AAAAAAAAz1M/EXbQk7XagKwhfGYTMvVx98LomdwQJlwmgCLcBGAs/s728-e100/facebook-fine-ftc-cambridge-analytica.png"></mj-image>
+          <mj-text>Facebook expects to face a massive fine of up to $5 billion from the Federal Trade Commission (FTC) as the result of an investigation into its privacy policies—that's about one month's revenue for the social media giant.</mj-text>
+          <mj-text>To be clear the amount of fine is not what the FTC has announced or hinted yet; instead, it's an estimated due that Facebook disclosed on Wednesday in its first quarter 2019 financial earnings report. In its earnings report, Facebook said the company had set $3 billion aside in anticipation of the settlement with the FTC, who launched a probe into Facebook following the Cambridge Analytica scandal.</mj-text>
+          <mj-text>The FTC launched an investigation into Facebook last year after it was revealed that the company allowed Cambridge Analytica access to the personal data of around 50 million Facebook users without their explicit consent.</mj-text>
+          <mj-button mj-class="bg-green" href="https://thehackernews.com/2019/04/facebook-ftc-fine-privacy.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://dayssincelastfacebookscandal.com/">
+            How many days since last Facebook Scandal?
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/former-student-destroys-59-university-computers-using-usb-killer-device/">Former student destroys 59 university computers using USB Killer device</a></li>
+              <li><a class="lnk-blue" href="https://www.golem.de/news/subdomain-takeover-microsoft-loses-control-over-windows-tiles-1904-140717.html">Microsoft loses control over Windows Tiles</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/04/25/atlanta-hawks-fall-prey-to-magecart-credit-card-skimming-group/">Atlanta Hawks fall prey to Magecart credit card skimming group</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/apple-updates-xprotect-to-block-windows-malware-on-macs/">Apple Updates XProtect to Block 'Windows' Malware on Macs</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/04/25/extrapulsar-backdoor-based-on-leaked-nsa-code-what-you-need-to-know/">ExtraPulsar backdoor based on leaked NSA code – what you need to know</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/malware-hosted-in-google-sites-sends-data-to-mysql-server/">Malware Hosted in Google Sites Sends Data to MySQL Server</a></li>
+              <li><a class="lnk-blue" href="https://www.inforisktoday.com/shadowhammer-spreads-across-online-gaming-supply-chain-a-12409">'ShadowHammer' Spreads Across Online Gaming Supply Chain</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/04/26/microsoft-drops-password-expiration-from-windows-10-security/">Microsoft drops password expiration from Windows 10 security</a></li>
+              <li><a class="lnk-green" href="https://www.darkreading.com/threat-intelligence/new-twist-in-the-stuxnet-story/d/d-id/1334511">New Twist in the Stuxnet Story</a></li>
+              <li><a class="lnk-orange" href="https://www.inforisktoday.com/virus-infection-prohibits-access-to-patient-records-a-12418">'Virus Infection' Prohibits Access to Patient Records</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2019/04/24/dns-over-https-is-coming-whether-isps-and-governments-like-it-or-not/">DNS over HTTPS is coming whether ISPs and governments like it or not</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/devious-chase-bank-phishing-scam-asks-for-selfies/">Devious Chase Bank Phishing Scam Asks For Selfies</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/04/karkoff-dnspionage-malware.html">'Karkoff' Is the New 'DNSpionage' With Selective Targeting Strategy</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2019/04/marcus-malwaretech-hutchins-pleads-guilty-to-writing-selling-banking-malware/">Marcus “MalwareTech” Hutchins Pleads Guilty to Writing, Selling Banking Malware</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/academics-hide-humans-from-surveillance-cameras-with-2d-prints/">Academics hide humans from surveillance cameras with 2D prints</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/kaspersky-70-percent-of-attacks-now-target-office-vulnerabilities/">70 percent of attacks now target Office vulnerabilities</a></li>
+              <li><a class="lnk-blue" href="https://www.inforisktoday.com/australian-child-tracking-smartwatch-vulnerable-to-hackers-a-12376">Australian Child-Tracking Smartwatch Vulnerable to Hackers</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/microsoft-introduces-security-configuration-framework">Microsoft Introduces Security Configuration Framework</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/adblock-plus-filters-can-be-abused-by-hackers-to-execute-malware/">Adblock Plus filters abused to execute code in browsing sessions (Use uBlock Origin instead)</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/new-microsoft-edge-to-warn-users-when-in-administrator-mode/">New Microsoft Edge to Warn Users When in Administrator Mode</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/office-365-custom-rules-to-block-azure-blob-storage-phishing-attacks/">Office 365 Custom Rules to Block Azure Blob Storage Phishing Attacks</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/04/scranos-rootkit-spyware.html">Scranos: New Rapidly Evolving Rootkit-Enabled Spyware Discovered</a></li>
+              <li><a class="lnk-pink" href="https://scotthelme.co.uk/lets-encrypt-to-transition-to-isrg-root/">Let's Encrypt to transition to ISRG root</a></li>
+              <li><a class="lnk-green" href="https://www.schneier.com/blog/archives/2019/04/vulnerabilities_7.html">Vulnerabilities in the WPA3 Wi-Fi Security Protocol</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/trojanized-teamviewer-used-in-government-political-attacks-across-europe/">Trojanized TeamViewer used in government, embassy attacks across Europe</a></li>
+              <li><a class="lnk-purple" href="https://www.nytimes.com/interactive/2019/04/13/us/google-location-tracking-police.html">Tracking Phones, Google Is a Dragnet for the Police</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/04/oracle-weblogic-hacking.html">'Highly Critical' Unpatched Zero-Day Flaw Discovered In Oracle WebLogic</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/oracle-gemalto-downplay-java-card-vulnerabilities">Oracle, Gemalto Downplay Java Card Vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/security-flaw-lets-attackers-recover-private-keys-from-qualcomm-chips/">Security flaw lets attackers recover private keys from Qualcomm chips</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/chrome-74-patches-39-vulnerabilities">Chrome 74 Patches 39 Vulnerabilities</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/windows-10-may-2019-update-to-be-blocked-if-using-usb-drives/">Windows 10 May 2019 Update to Be Blocked If Using USB Drives</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/04/wordpress-plugin-hacking.html">Hackers Actively Exploiting Widely-Used Social Share Plugin for WordPress</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/important-severity-remote-code-execution-vulnerability-patched-in-tomcat/">Important Severity Remote Code Execution Vulnerability Patched in Tomcat</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/04/15/flood-of-exploits-targetting-ancient-winrar-flaw-continues/">Flood of exploits targetting ancient WinRAR flaw continues</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/patched-windows-zero-day-provided-full-control-over-vulnerable-systems/">Patched Windows Zero-Day Provided Full Control Over Vulnerable Systems</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/multiple-enterprise-vpn-apps-allow-attackers-to-bypass-authentication/">Multiple Enterprise VPN Apps Allow Attackers to Bypass Authentication</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/04/scranos-rootkit-spyware.html">Scranos: New Rapidly Evolving Rootkit-Enabled Spyware Discovered</a></li>
+              <li><a class="lnk-pink" href="https://scotthelme.co.uk/lets-encrypt-to-transition-to-isrg-root/">Let's Encrypt to transition to ISRG root</a></li>
+              <li><a class="lnk-green" href="https://www.schneier.com/blog/archives/2019/04/vulnerabilities_7.html">Vulnerabilities in the WPA3 Wi-Fi Security Protocol</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/thousands-of-wordpress-sites-exposed-by-yellow-pencil-plugin-flaw/">Thousands of WordPress Sites Exposed by Yellow Pencil Plugin Flaw</a></li>
+
+              <li><a class="lnk-blue" href="https://www.zdnet.com/google-amp/article/popular-jquery-javascript-library-impacted-by-prototype-pollution-flaw/">Popular jQuery JavaScript library impacted by prototype pollution flaw</a></li>
+              <li><a class="lnk-pink" href="https://www.openssh.com/txt/release-8.0">OpenSSH 8.0 release</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/04/drupal-security-update.html">Drupal Releases Core CMS Updates to Patch Several Vulnerabilities</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/introducing-venator-a-macos-tool-for-proactive-detection-34055a017e56">Introducing Venator: A macOS tool for proactive detection</a></li>
+              <li><a class="lnk-pink" href="https://github.com/Ne0nd0g/merlin">Merlin is a cross-platform post-exploitation HTTP/2 C2 server and agent</a></li>
+              <li><a class="lnk-green" href="https://www.fireeye.com/blog/threat-research/2019/04/flashmingo-open-source-automatic-analysis-tool-for-flash.html">FLASHMINGO: The FireEye Open Source Automatic Analysis Tool for Flash</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/carbanak-source-code-discovered-virustotal">Carbanak Source Code Discovered on VirusTotal</a></li>
+              <li><a class="lnk-purple" href="https://edoverflow.com/2019/ci-knew-there-would-be-bugs-here/">“CI Knew There Would Be Bugs Here” — Exploring Continuous Integration Services as a Bug Bounty Hunter</a></li>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/case-study-password-analysis-with-bloodhound-a3d264736c7">Case Study: Password Analysis with BloodHound</a></li>
+              <li><a class="lnk-pink" href="https://www.trustedsec.com/2019/04/next-gen-phishing-leveraging-azure-information-protection/">Next Gen Phishing – Leveraging Azure Information Protection</a></li>
+              <li><a class="lnk-green" href="https://blog.redteam.pl/2019/04/dns-based-threat-hunting-and-doh.html">DNS based threat hunting and DoH (DNS over HTTPS)</a></li>
+              <li><a class="lnk-orange" href="https://habr.com/en/post/449182/">The most common OAuth 2.0 Hacks</a></li>
+              <li><a class="lnk-purple" href="https://termshark.io/">Termshark is a simple terminal user-interface for tshark.</a></li>
+              <li><a class="lnk-blue" href="https://github.com/JPCERTCC/MalConfScan-with-Cuckoo">MalConfScan for Cukcoo Sandbox</a></li>
+              <li><a class="lnk-orange" href="https://b4d.sablun.org/blog/2019-04-19-ignoring-atlassian-confluence-security-advisories/">Ignoring Atlassian Confluence Security Advisories?</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@adam.toscher/how-to-obtain-office-365-credentials-on-mac-os-275c1ea8c011">How to obtain Office 365 credentials on Mac OS</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@foospidy/simple-tool-for-testing-cve-mitigation-in-web-apps-f7fc03843b99">Simple Tool for Testing CVE Mitigation in Web Apps</a></li>
+              <li><a class="lnk-green" href="https://medium.com/jobteaser-dev-team/docker-user-best-practices-a8d2ca5205f4">User privileges in Docker containers</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/@adam.toscher/password-spraying-common-mistakes-and-how-to-avoid-them-3fd16b1a352b">Password Spraying- Common mistakes and how to avoid them</a></li>
+              <li><a class="lnk-purple" href="https://github.com/praetorian-code/purple-team-attack-automation">Praetorian's public release of our Metasploit automation of MITRE ATT&CK™ TTPs</a></li>
+              <li><a class="lnk-blue" href="https://www.sentinelone.com/blog/privacy-2019-tor-meek-rise-fall-domain-fronting/">Privacy 2019: TOR, MEEK & the rise and fall of domain fronting</a></li>
+              <li><a class="lnk-pink" href="https://github.com/orlikoski/CyLR">CyLR - Live Response Collection Tool</a></li>
+              <li><a class="lnk-green" href="https://www.zerodayinitiative.com/blog/2019/4/11/a-series-of-unfortunate-images-drupal-1-click-to-rce-exploit-chain-detailed">Drupal 1-click to RCE exploit chain detailed</a></li>
+              <li><a class="lnk-orange" href="https://github.com/InQuest/ThreatIngestor">ThreatIngestor: Extract and aggregate threat intelligence.</a></li>
+              <li><a class="lnk-purple" href="https://github.com/nongiach/sudo_inject">Two Privilege Escalation techniques abusing sudo token</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>You're into identity and access management? We are looking for an <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-iam-cor0352/4711/description/" class="lnk-yellow" target="_blank">IAM Specialist</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
