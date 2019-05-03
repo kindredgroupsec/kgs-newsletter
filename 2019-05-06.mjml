@@ -1,0 +1,185 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 06/05/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://sophosnews.files.wordpress.com/2019/04/docker.png?w=780&h=408&crop=1" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">6 May 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Docker breach of 190,000 users exposes lack of two-factor authentication</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2019/04/docker.png?w=780&h=408&crop=1"></mj-image>
+          <mj-text color="#fff">Docker Hub, one of the largest cloud-based library of Docker container images, has suffered a data breach after an unknown attacker gained access to the company's single Hub database. Docker Hub is an online repository service where users and partners can create, test, store and distribute Docker container images, both publicly and privately.</mj-text>
+          <mj-text color="#fff">According to an advisory on the company’s website, the incident happened on 25 April when for a “brief period” attackers accessed a single Docker Hub repository used to store the accounts. Exposed data included usernames, an unknown number of hashed passwords and, inconveniently, API tokens used by developers with GitHub and Bitbucket (which, when embedded in scripts, perform the same function as passwords for Docker autobuilds).</mj-text>
+          <mj-text color="#fff">Data breaches are always bad news but the possible compromise of 190,000 accounts (about 5% of the service’s user base) on a development system used by businesses heaps additional worries on top of the usual workload. And that's what makes the Docker Hub breach potentially so much more worrying: If tokens have been compromised, it gives attackers many more places to slip in malicious code.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2019/04/30/docker-breach-of-190000-users-exposes-lack-of-two-factor-authentication/">
+            Read More on Naked Security blog
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/04/docker-hub-data-breach.html">
+            Even more on The Hacker News
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.inforisktoday.com/docker-hub-breach-its-numbers-its-reach-a-12425">
+            Docker Hub Breach: It's Not the Numbers; It's the Reach
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/magecart-group-12-targets-opencart-websites/">Magecart Group 12 Targets OpenCart Websites</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/wikileaks-assange-signals-hell-fight-extradition-to-us-a-12440">WikiLeaks' Assange Signals He'll Fight Extradition to US</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/05/02/is-a-sticky-label-the-answer-to-the-iots-security-problems/">Is a sticky label the answer to the IoT’s security problems?</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/05/03/google-rolling-out-auto-delete-for-your-location-and-activity-history/">Google rolling out auto-delete for your location and activity history</a></li>
+              <li><a class="lnk-purple" href="https://www.schneier.com/blog/archives/2019/05/on_security_tok.html">On Security Tokens</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/coinhive-dead-but-browser-based-cryptomining-still-a-threat/">Coinhive Dead but Browser-Based Cryptomining Still a Threat</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2019/04/data-e-retail-hacks-more-lucrative-than-ever/">Data: E-Retail Hacks More Lucrative Than Ever</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/hackers-lurked-in-citrix-systems-for-six-months/">Hackers lurked in Citrix systems for six months</a></li>
+              <li><a class="lnk-orange" href="https://www.csoonline.com/article/3013033/security-recruiter-directory.html">Security Recruiter Directory</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-365-adds-more-control-over-encrypted-emails-increases-privacy/">Microsoft 365 Adds More Control Over Encrypted Emails, Increases Privacy</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/04/america-personal-data.html">Unprotected Database Exposes Personal Info of 80 Million American Households</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/mozilla-to-disable-firefox-add-ons-with-obfuscated-code/">Mozilla To Disable Firefox Add-Ons with Obfuscated Code</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/04/email-signature-spoofing.html">Over Dozen Popular Email Clients Found Vulnerable to Signature Spoofing Attacks</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/scammers-create-google-search-ads-to-lure-paypal-amazon-clients/">Scammers Create Google Search Ads to Lure PayPal, Amazon Clients</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/60-percent-of-codebases-contain-open-source-vulnerabilities/">60 percent of enterprise codebases contain open-source vulnerabilities</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+
+
+
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/05/dell-computer-hacking.html">Pre-Installed Software Flaw Exposes Most Dell Computers to Remote Hacking</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/50000-enterprise-firms-running-sap-software-vulnerable-to-attack/">50,000 enterprise firms running SAP software vulnerable to attack</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/cisco-patches-critical-vulnerability-data-center-switches">Cisco Patches Critical Vulnerability in Data Center Switches</a></li>
+              <li><a class="lnk-orange" href="https://www.careersinfosecurity.com/alerts-vulnerability-in-philips-records-system-a-12441">Alerts: Vulnerability in Philips Records System</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/recent-oracle-weblogic-zero-day-used-to-infect-servers-with-ransomware/">Recent Oracle WebLogic zero-day used to infect servers with ransomware</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/over-two-million-iot-devices-vulnerable-because-of-p2p-component-flaws/">Over two million IoT devices vulnerable because of P2P component flaws</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/vulnerable-confluence-servers-get-infected-with-ransomware-trojans/">Vulnerable Confluence Servers Get Infected with Ransomware, Trojans</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/cisco-finds-serious-flaws-sierra-wireless-airlink-devices">Cisco Finds Serious Flaws in Sierra Wireless AirLink Devices</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/04/wordpress-woocommerce-security.html">Critical Unpatched Flaw Disclosed in WordPress WooCommerce Extension</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://arnaudloos.com/2019/open-source-sirp-overview/">Open Source SIRP with Elasticsearch and TheHive - Overview</a></li>
+              <li><a class="lnk-pink" href="https://www.sentinelone.com/blog/how-to-reverse-macos-malware-part-one/">How to reverse malware on MacOS without getting infected | part 1</a></li>
+              <li><a class="lnk-green" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2019/may/story-of-a-hundred-vulnerable-jenkins-plugins/">Story of a Hundred Vulnerable Jenkins Plugins</a></li>
+              <li><a class="lnk-orange" href="https://d4stiny.github.io/Remote-Code-Execution-on-most-Dell-computers/">Remote Code Execution on most Dell computers</a></li>
+              <li><a class="lnk-purple" href="https://blog.nviso.be/2019/04/23/azure-security-logging-part-2-security-logging-capabilities-of-azure-resources/">Azure Security Logging – part 2: security-logging capabilities of Azure resources</a></li>
+              <li><a class="lnk-blue" href="https://asecure.cloud/">ASecure.Cloud: free repository of customizable AWS security configurations and best practices</a></li>
+              <li><a class="lnk-pink" href="https://isc.sans.edu/forums/diary/A+few+Ghidra+tips+for+IDA+users+part+3+conversion+labels+and+comments/24908/">A few Ghidra tips for IDA users, part 3 - conversion, labels, and comments</a></li>
+              <li><a class="lnk-green" href="https://securityriskadvisors.com/blog/aws-iam-exploitation/">AWS IAM exploitation techniques</a></li>
+              <li><a class="lnk-orange" href="https://www.crowdstrike.com/blog/automating-mac-forensic-triage/">AutoMacTC: Automating Mac Forensic Triage</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b">XSS-Auditor — the protector of unprotected</a></li>
+              <li><a class="lnk-blue" href="https://p16.praetorian.com/blog/red-team-supply-chain-attacks-in-modern-software-development-environments">Red Team Supply Chain Attacks in Modern Software Development Environments</a></li>
+              <li><a class="lnk-pink" href="https://ired.team/offensive-security/windows-namedpipes-privilege-escalation">Windows NamedPipes 101 + Privilege Escalation</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
