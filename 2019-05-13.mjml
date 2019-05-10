@@ -1,0 +1,200 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 13/05/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/posts/2019/05/08/AlpineLinux.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">13 May 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Bug in Alpine Linux Docker Image Leaves Root Account Unlocked</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2019/05/08/AlpineLinux.jpg"></mj-image>
+          <mj-text color="#fff">A security vulnerability in the Official Docker images based on the  Alpine Linux distribution allowed for more than three years logging into the root account using a blank password.</mj-text>
+          <mj-text color="#fff">Tracked as CVE-2019-5021, the vulnerability has a critical severity score of 9.8. It was initially reported in build 3.2 of Alpine Linux Docker image and patched in November 2015, with regression tests added to prevent it from occurring in the future. However, a new commit was pushed later that year to simplify the regression tests.</mj-text>
+          <mj-text color="#fff">A subsequent commit removed the "disable root by default" flag from the 'edge' build properties file, allowing the bug to regress in the next builds of the image, starting v3.3 to 3.9. The vulnerability was fixed and closed on March 8, 2019, but it could have been solved sooner as it was rediscovered and reported on Agust 5. It slipped through because it was not flagged as a security problem.</mj-text>
+            <mj-text color="#fff">To mitigate the issue on systems that still run vulnerable builds of the Alpine Linux container, Cisco Talos recommends disabling the root account.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/bug-in-alpine-linux-docker-image-leaves-root-account-unlocked/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.securityweek.com/hard-coded-credentials-found-alpine-linux-docker-images">
+            Even More on SecurityWeek
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+            <!-- Pink Articles -->
+            <mj-section background-color="#fff">
+              <mj-column>
+                <mj-spacer height="30px" />
+                <mj-text mj-class="pink h2">Windows 10 says Hello to no passwords with FIDO2 certification</mj-text>
+                <mj-image src="https://www.w3.org/2018/04/fido2-graphic2.png"></mj-image>
+                <mj-text>Microsoft has passed another milestone on its quest to kill off passwords. The company has now gained official FIDO2 certification for Windows Hello, the Windows 10 biometric authentication system. </mj-text>
+                <mj-text>The certification applies to Windows 10 version 1903, aka the May 2019 Update, which is scheduled to be released to the public in late May and means Windows Hello has been approved as a FIDO2 'authenticator'. Consumers can expect to start seeing FIDO Certified logos on new Windows 10 PCs, and they'll be able to sign in to online accounts using Windows Hello on all PCs upgraded to version 1903 using the FIDO2 standard. </mj-text>
+                <mj-text>The certification is part of an industry-wide push for passwordless sign-in, which includes the WebAuthn or Web Authentication WC3 standard that's supported by Mozilla Firefox, Microsoft Edge, and Google Chrome. The standard also has preview support in Apple Safari while Chrome on Android has been officially FIDO2 certificated.  The Windows 10 1903 FIDO2 certification extends beyond Microsoft's own software. For example, Windows 10 users who prefer Mozilla Firefox will be able to log into their Microsoft Account and other FIDO-supporting sites with Windows Hello. Additionally, users of Microsoft's Chromium-based Edge will be able to do the same soon. </mj-text>
+                <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/windows-10-says-hello-to-no-passwords-with-fido2-certification/">
+                  Read More on ZDNet
+                </mj-button>
+              </mj-column>
+            </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/05/08/researchers-cloak-malicious-office-macros-with-evil-clippy/">Researchers’ Evil Clippy cloaks malicious Office macros</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/05/09/css-tracking-trick-can-monitor-your-mouse-without-javascript/">CSS tracking trick can monitor your mouse without JavaScript</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/googles-web-packaging-standard-arises-as-a-new-tool-for-privacy-enthusiasts/">Google's Web Packaging standard arises as a new tool for privacy enthusiasts</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/firefox-may-add-some-tor-features-for-super-private-browsing-mode/">Firefox May Add Some Tor Features for Super Private Browsing Mode</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/javascript-sniffer-attacks-more-online-stores-targeted-a-12453">JavaScript Sniffer Attacks: More Online Stores Targeted</a></li>
+              <li><a class="lnk-blue" href="https://www.hackread.com/freedom-mobile-leaked-card-data-cvv-codes-plain-text/">Freedom Mobile leaked millions of card data with CVV codes in plain text</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/burger-kings-online-store-for-kids-exposes-customers-info/">Burger King's Online Store for Kids Exposes Customers’ Info</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/russian-cyberspies-are-using-one-hell-of-a-clever-microsoft-exchange-backdoor/">Russian cyberspies are using one hell of a clever Microsoft Exchange backdoor</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/wordpress-52-to-come-with-supply-chain-attack-protection/">WordPress 5.2 to Come with Supply-Chain Attack Protection</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/05/windows-10-linux-kernel.html">Microsoft Windows 10 will get a full built-in Linux Kernel for WSL 2</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/nist-working-industrial-iot-security-guide-energy-companies">NIST Working on Industrial IoT Security Guide for Energy Companies</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/amazon-to-disable-s3-path-style-access-used-to-bypass-censorship/">Amazon to Disable S3 Path-Style Access Used to Bypass Censorship</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/05/buckeye-nsa-hacking-tools.html">Chinese Hackers Used NSA Hacking Tools Before Shadow Brokers Leaked Them</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/05/10/chrome-browser-pushes-samesite-cookie-security-overhaul/">Chrome browser pushes SameSite cookie security overhaul</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/six-men-accused-of-stealing-over-24m-in-sim-swapping-attacks/">Six Men Accused of Stealing Over $2.4M in SIM Swapping Attacks</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/05/10/275m-indian-citizens-records-exposed-by-insecure-mongodb-database/">275m personal records swiped from exposed MongoDB database</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/us-government-details-electricfish-malware-used-north-korea">U.S. Government Details ELECTRICFISH Malware Used by North Korea</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/phar-vulnerabilities-patched-drupal-typo3">Phar Vulnerabilities Patched in Drupal, TYPO3</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/google-patches-remotely-exploitable-vulnerabilities-android">Google Patches Remotely Exploitable Vulnerabilities in Android</a></li>
+              <li><a class="lnk-green" href="https://github.com/gliderlabs/docker-alpine/issues/430">Default installation allows user to su to root without password after installing shadow-package</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/GoogleContainerTools/distroless/blob/master/README.md">"Distroless" Docker Images</a></li>
+              <li><a class="lnk-pink" href="https://github.com/containers/udica">Udica: SELinux security profile generator for containers</a></li>
+              <li><a class="lnk-green" href="https://onedrive.live.com/view.aspx?resid=F32A9F4F1477E49!122&ithint=file%2cpptx&authkey=!ACC5Ztb5uVED22k">Office365 Attacks</a></li>
+              <li><a class="lnk-orange" href="https://outflank.nl/blog/2019/05/05/evil-clippy-ms-office-maldoc-assistant/">Evil Clippy: MS Office maldoc assistant</a></li>
+              <li><a class="lnk-purple" href="https://scotthelme.co.uk/deprecating-tlsv1-0-and-tlsv1-1-with-cloudflare-workers/">Deprecating TLSv1.0 and TLSv1.1 gracefully with Cloudflare Workers</a></li>
+              <li><a class="lnk-blue" href="https://fidusinfosec.com/exploiting-10000-devices-used-by-britains-most-vulnerable/">Exploiting 10K+ devices used by britain's most vulnerable</a></li>
+              <li><a class="lnk-pink" href="https://blog.xpnsec.com/exploring-mimikatz-part-1/">Exploring Mimikatz - Part 1 - WDigest</a></li>
+              <li><a class="lnk-green" href="https://security.googleblog.com/2019/05/queue-hardening-enhancements.html">Queue the Hardening Enhancements</a></li>
+              <li><a class="lnk-orange" href="https://kulinacs.com/ssh-honey-keys/">SSH Honey Keys</a></li>
+              <li><a class="lnk-purple" href="https://utkusen.com/blog/why-you-shouldnt-use-password-manager-for-linode.html">Why You Shouldn't Use a Password Manager For Your Linode Account</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
