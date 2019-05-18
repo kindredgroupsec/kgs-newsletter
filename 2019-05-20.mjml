@@ -1,0 +1,223 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 20/05/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://4a7efb2d53317100f611-1d7064c4f7b6de25658a4199efb34975.ssl.cf1.rackcdn.com/cybersecuritys-week-from-hell-showcase_image-8-p-2746.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">20 May 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Cybersecurity's Week From Hell</mj-text>
+          <mj-image src="https://4a7efb2d53317100f611-1d7064c4f7b6de25658a4199efb34975.ssl.cf1.rackcdn.com/cybersecuritys-week-from-hell-showcase_image-8-p-2746.jpg"></mj-image>
+          <mj-text color="#fff">Two years after WannaCry ransomware was unleashed, the cybersecurity realm isn't any calmer. This week, multiple flaws - all serious, all exploitable and some already being actively exploited in the wild - have come to light. Big names - including Cisco, Facebook, Intel and Microsoft - build the software and hardware at risk. And fixes for some of the flaws are not yet available.</mj-text>
+          <mj-text color="#fff">A buffer overflow flaw in WhatsApp has been used to target individuals and apparently to install Pegasys spyware, built by Israel's NSO Group and sold to governments and law enforcement agencies.</mj-text>
+          <mj-text color="#fff">Side-channel speculative execution flaws continue to be discovered in CPUs. This week, a team of researchers as well as Intel confirmed that they'd found more flaws in processors along the lines of the Spectre and Meltdown flaws that came to light in early 2018. Dubbed ZombieLoad, the vulnerabilities would allow an attacker to retrieve private data from a processor's buffers.</mj-text>
+          <mj-text color="#fff">To block another WannaCry-type worm, Microsoft is urging many users to update Remote Desktop Services - formerly known as Terminal Services - to fix CVE-2019-0708 (see: To Prevent Another WannaCry, Microsoft Patches Old OSs).</mj-text>
+          <mj-text color="#fff">Thangrycat: Research published this week shows that secure boot functionality built into many Cisco devices isn't secure.</mj-text>
+          <mj-text color="#fff">Hence organizations will have to patch. But in the meantime, in some cases they're still waiting for patch release dates, and thus having to track when they might be able to start testing and then planning to roll out future fixes.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/blogs/cybersecuritys-week-from-hell-p-2746">
+            Read More BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Bluetooth Flaw Found in Google Titan Security Keys; Get Free Replacement</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-fFcRcJnOVQU/XN1BLjEsazI/AAAAAAAAz_4/eL4cCtb6_NAeOEIEEsrdOL-tUsS7UkV2ACLcBGAs/s728-e100/google-bluetooth-titan-security-key.jpg"></mj-image>
+          <mj-text>A team of security researchers at Microsoft discovered a potentially serious vulnerability in the Bluetooth-supported version of Google's Titan Security Keys that could not be patched with a software update. However, users do not need to worry as Google has announced to offer a free replacement for the affected Titan Security Key dongles.</mj-text>
+          <mj-text>In a security advisory published Wednesday, Google said a "misconfiguration in the Titan Security Keys Bluetooth pairing protocols" could allow an attacker who is physically close to your Security Key (~within 30 feet) to communicate with it or the device to which your key is paired. Launched by Google in August last year, Titan Security Key is a tiny low-cost USB device that offers hardware-based two-factor authentication (2FA) for online accounts with the highest level of protection against phishing attacks.</mj-text>
+          <mj-text>Microsoft originally discovered the vulnerability and disclosed it to Google, as well as Feitian, the company that makes Titan Keys for Google and also sells the same product (ePass) under its own brand. Feitian also made a coordinated disclosure about this vulnerability the same day as Google and is offering a free replacement program for its users. Google also says that the Bluetooth security key is still more secure than turning it off altogether or relying on other two-factor authentication methods like SMS or phone call.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2019/05/google-titan-security-key.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.ftsafe.com/replacement/">
+            Replacement programme for Feitian Keys
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/05/teamviewer-software-hacked.html">Report Reveals TeamViewer Was Breached By Chinese Hackers In 2016</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/fxmsp-chat-logs-reveal-the-hacked-antivirus-vendors-avs-respond/">Fxmsp Chat Logs Reveal the Hacked Antivirus Vendors, AVs Respond</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/us-govt-issues-microsoft-office-365-security-best-practices/">U.S. Govt Issues Microsoft Office 365 Security Best Practices</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/equifaxs-data-breach-costs-hit-14-billion-a-12473">Equifax's Data Breach Costs Hit $1.4 Billion</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/hackers-inject-magecart-card-skimmer-in-forbes-subscription-site/">Hackers Inject Magecart Card Skimmer in Forbes’ Subscription Site</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/hack-japanese-retailer-exposes-460000-customer-accounts-a-12482">Credential Stuffing attack on Uniqlo Exposes 460,000 Customer Accounts</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/google/google-payment-privacy-settings-hidden-behind-special-url/">Google Payment Privacy Settings Hidden Behind Special URL</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/gdpr-europe-counts-65000-data-breach-notifications-so-far-a-12489">GDPR: Europe Counts 65,000 Data Breach Notifications So Far</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/stack-overflow-hacker-went-undetected-for-a-week/">Stack Overflow hacker went undetected for a week</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/microsoft-tech-support-scams-invade-azure-cloud-services/">Microsoft Tech Support Scams Invade Azure Cloud Services</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/over-12-000-mongodb-databases-deleted-by-unistellar-attackers/">Over 12,000 MongoDB Databases Deleted by Unistellar Attackers</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/intel-mds-vulnerabilities-what-you-need-know">Intel MDS Vulnerabilities: What You Need to Know</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/google-starts-tracking-zero-days-exploited-wild">Google Starts Tracking Zero-Days Exploited in the Wild</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/list-of-mds-speculative-execution-vulnerability-advisories-and-updates/">List of MDS Speculative Execution Vulnerability Advisories & Updates</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsofts-may-2019-patch-tuesday-fixes-79-vulnerabilities/">Microsoft's May 2019 Patch Tuesday Fixes 79 Vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/linux-kernel-prior-to-508-vulnerable-to-remote-code-execution/">Linux Kernel Prior to 5.0.8 Vulnerable to Remote Code Execution in RDS</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/05/cisco-secure-boot-bypass.html">Thangrycat Flaw Affecting Millions of Cisco Devices Let Attackers Implant Persistent Backdoor</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/nvidia-patches-high-severity-bugs-gpu-display-driver">NVIDIA Patches High Severity Bugs in GPU Display Driver</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/sap-patches-multiple-missing-authorization-checks">SAP Patches Multiple Missing Authorization Checks</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/05/15/update-ios-and-mojave-now-apple-patches-are-out/">Update iOS and Mojave now! Apple patches are out</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/adobe-security-updates-released-for-critical-flash-acrobat-reader-bugs/">Adobe security update released for critical Flash, Acrobat, Reader bugs</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-may-2019-office-updates-with-security-fixes/">Microsoft Releases May 2019 Office Updates With Security Fixes</a></li>
+              <li><a class="lnk-purple" href="https://www.hackread.com/whatsapp-flaw-hackers-install-spyware-ios-android/">WhatsApp flaw lets hackers install spyware on iOS & Android devices</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/attackers-exploit-whatsapp-flaw-to-auto-install-spyware-a-12480">Attackers Exploit WhatsApp Flaw to Auto-Install Spyware</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/remote-code-execution-vulnerability-impacts-sqlite">Remote Code Execution Vulnerability Impacts SQLite</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/linksys-smart-wi-fi-routers-leak-info-of-connected-devices/">Linksys Smart Wi-Fi Routers Leak Info of Connected Devices</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/cisco-patches-critical-vulnerabilities-prime-infrastructure-pi-software">Cisco Patches Critical Vulnerabilities in Prime Infrastructure (PI) Software</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/bug-in-wordpress-live-chat-plugin-lets-hackers-inject-scripts/">Bug in WordPress Live Chat Plugin Lets Hackers Inject Scripts</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/faulty-database-script-brings-salesforce-to-its-knees/">Faulty database script brings Salesforce to its knees</a></li>
+              <li><a class="lnk-pink" href="http://www.infosecisland.com/blogview/25193-Privilege-Escalation-Flaws-Impact-Wacom-Update-Helper.html">Privilege Escalation Flaws Impact Wacom Update Helper</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/slack-flaw-allows-hackers-steal-manipulate-downloads">Slack Flaw Allows Hackers to Steal, Manipulate Downloads</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/05/17/google-recalls-titan-bluetooth-keys-after-finding-security-flaw/">Google recalls Titan Bluetooth keys after finding security flaw</a></li>
+              <li><a class="lnk-purple" href="https://www.scmagazineuk.com/ssl-tls-fingerprint-tampering-jumps-thousands-billions/article/1584850">SSL/TLS fingerprint tampering jumps from thousands to billions</a></li>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2019/05/microsoft-patches-wormable-flaw-in-windows-xp-7-and-windows-2003/">Microsoft Patches ‘Wormable’ Flaw in Windows XP, 7 and Windows 2003</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/knqyf263/trivy">Trivy: A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI</a></li>
+              <li><a class="lnk-pink" href="https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/htmlview?sle=true#">0day "In the Wild"</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/microsoft-releases-attack-surface-analyzer-20">Microsoft Releases Attack Surface Analyzer 2.0</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/tenable-techblog/stealing-downloads-from-slack-users-be6829a55f63">Stealing Downloads from Slack Users</a></li>
+              <li><a class="lnk-purple" href="https://github.com/pownjs/pown-cdb">Pown CDB: a Chrome Debug Protocol utility</a></li>
+              <li><a class="lnk-blue" href="https://wiki.mozilla.org/CA/Certinomis_Issues">CA/Certinomis Issues</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@jeanmichel.amblat/abusing-certificates-for-data-exfiltration-d6bff2533cd0">Exfiltration series: Certexfil</a></li>
+              <li><a class="lnk-green" href="https://thrangrycat.com/">Thrangrycat</a></li>
+              <li><a class="lnk-orange" href="https://research.checkpoint.com/the-nso-whatsapp-vulnerability-this-is-how-it-happened/">The NSO WhatsApp Vulnerability – This is How It Happened</a></li>
+              <li><a class="lnk-purple" href="https://frida.re/news/2019/05/15/frida-12-5-released/">Frida 12.5 Released</a></li>
+              <li><a class="lnk-blue" href="https://blog.cygenta.co.uk/ridl-fallout-and-zombieload/">RIDL, FALLOUT and ZombieLoad</a></li>
+              <li><a class="lnk-pink" href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor">Slicing onions: Part 1 – Myth-busting Tor.</a></li>
+              <li><a class="lnk-green" href="https://mzet-.github.io/2019/05/10/les-paper.html">LES: Linux privilege escalation auditing tool</a></li>
+              <li><a class="lnk-orange" href="https://github.com/p3nt4/Nuages">Nuages: A modular C2 framework</a></li>
+              <li><a class="lnk-purple" href="https://combolist.org/generate">Combolist Generator</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
