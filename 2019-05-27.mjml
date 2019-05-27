@@ -1,0 +1,198 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 27/05/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://github.blog/wp-content/uploads/2019/05/security-post.png?w=2401" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">27 May 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Github provides a new tool to secure your code</mj-text>
+          <mj-image src="https://github.blog/wp-content/uploads/2019/05/security-post.png?w=2401"></mj-image>
+          <mj-text color="#fff">According to GitHub, inety-nine percent of new software projects depend on open source code. This extensive code reuse helps everyone build better software faster than ever before, but it also puts us all at risk of distributing security vulnerabilities from our dependencies. It’s more important than ever that every developer becomes a security developer—that they responsibly disclose vulnerabilities and patch vulnerable code quickly.</mj-text>
+          <mj-text color="#fff">On the 23rd, GitHub announced several new security features designed to make it easier for developers to secure their code.</mj-text>
+          <mj-text color="#fff">Enhenced security vulnerability alerts: since GitHub sent almost 27 million security alerts for vulnerable dependencies in .NET, Java, JavaScript, Python and Ruby</mj-text>
+          <mj-text color="#fff">Dependency insights: a tool that gives an overview of the dependencies of the projects and their security state to assess your project exposure.</mj-text>
+          <mj-text color="#fff">Token scanning: scans your repository to find AWS, GCP, Twilio and other tokens to avoid data breaches.</mj-text>
+          <mj-text color="#fff">Automated security fixes: when your project uses an outdated and unsecured dependency, an automated pull request is created with the commit to update the version.</mj-text>
+          <mj-text color="#fff">A lot of good tools to implement internally to protect your company.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://github.blog/2019-05-23-introducing-new-ways-to-keep-your-code-secure/">
+            Read More on GitHub announce
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Massive leak of hundreds of millions of title insurance records</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2019/05/firstamericanfinancial.jpg"></mj-image>
+          <mj-text>On Friday, independent security journalist Brian Krebs revealed that the real estate and title insurance giant First American had 885 million sensitive customer financial records, going back to 2003, exposed on its website for anyone to access.</mj-text>
+          <mj-text>Krebs reports that the exposed records included Social Security numbers, driver's license images, bank account numbers and statements, mortgage and tax documents, and wire transaction receipts—an absolute treasure trove for any scammer or identity thief. </mj-text>
+          <mj-text>The hack was simple: an attacker who figured out the format of the company's document URLs could have input any "record number" they wanted—beginning with "000000075," according to Krebs—and pull up the documents associated with that customer case. First American took down the site that populated the records at 2 pm ET on Friday. </mj-text>
+          <mj-text>The First American exposure is a major incident, because it underscores just how little progress many institutions have made on locking down customer data. Perfect security is impossible, but the stakes are incredibly high and many large organizations still overlook basic errors.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.wired.com/story/first-american-data-exposed/">
+            Read More on Wired
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://krebsonsecurity.com/2019/05/first-american-financial-corp-leaked-hundreds-of-millions-of-title-insurance-records/">
+            Read more on Krebs on Security
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/05/google-gsuite-plaintext-password.html">Google Stored G Suite Users' Passwords in Plain-Text</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/coinmonks/the-most-expensive-lesson-of-my-life-details-of-sim-port-hack-35de11517124?sk=4c29b27bacb2eff038ec8fe4d40cd615">The Most Expensive Lesson Of My Life: Details of SIM port hack</a></li>
+              <li><a class="lnk-purple" href="https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/Microsoft-Defender-ATP-for-Mac-now-in-open-public-preview/ba-p/634603?utm_source=t.co&utm_medium=referral">Windows ATP For macOs</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/georgia-supreme-court-rules-state-has-no-obligation-protect-personal-information">Georgia Supreme Court Rules that State Has No Obligation to Protect Personal Information</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/microsoft-brings-hardware-based-isolation-chrome-firefox">Microsoft Brings Hardware-Based Isolation to Chrome, Firefox</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/researcher-drops-3-separate-0-day-windows-exploits-24-hours">Researcher Drops 3 Separate 0-Day Windows Exploits in 24 Hours</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/nato-warns-russia-full-range-responses-cyberattack">NATO Warns Russia of 'Full Range' of Responses to Cyberattack</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/comodo-issued-most-certificates-signed-malware-virustotal">Comodo Issued Most Certificates for Signed Malware on VirusTotal</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/authorities-take-down-cryptocurrency-mixing-service-bestmixerio">Authorities Take Down Cryptocurrency Mixing Service Bestmixer.io</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/mobile-chrome-safari-and-firefox-failed-to-show-phishing-warnings-for-more-than-a-year/">Mobile Chrome, Safari and Firefox failed to show phishing warnings for more than a year</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/poc-exploits-created-wormable-windows-rds-flaw">PoC Exploits Created for Wormable Windows RDS Flaw</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/linkedin-allowed-tls-certificate-expire%E2%80%94again">LinkedIn Allowed TLS Certificate to Expire—Again</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/magecart-skimmer-poses-payment-service-provider">Magecart Skimmer Poses as Payment Service Provider</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/one-year-eu-has-145000-data-law-complaints">One Year On, EU Has 145,000 Data Law Complaints</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-unpatched-macos-gatekeeper-bypass-published-online/">New unpatched macOS Gatekeeper Bypass Published Online</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.rapid7.com/2019/05/03/weblogic-deserialization-remote-code-execution-vulnerability-cve-2019-2725-what-you-need-to-know/">WebLogic Deserialization Remote Code Execution Vulnerability</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://portswigger.net/blog/xss-without-parentheses-and-semi-colons">XSS without parentheses and semi-colons</a></li>
+              <li><a class="lnk-pink" href="https://d1.awsstatic.com/whitepapers/aws_security_incident_response.pdf">AWS Security Incident Response</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/microsoft-brings-hardware-based-isolation-chrome-firefox">Microsoft Brings Hardware-Based Isolation to Chrome, Firefox and Edge</a></li>
+              <li><a class="lnk-orange" href="https://github.com/decalage2/oletools">New version of OLE Tools released</a></li>
+              <li><a class="lnk-purple" href="https://www.elastic.co/blog/security-for-elasticsearch-is-now-free">Security Features in Elasticsearch are now free</a></li>
+              <li><a class="lnk-blue" href="https://blogs.technet.microsoft.com/secguide/2019/05/23/security-baseline-final-for-windows-10-v1903-and-windows-server-v1903/">Security Baseline for Windows 10 v1903 and Windows Server v1903</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
