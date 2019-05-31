@@ -1,0 +1,188 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 03/06/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-9oUzG43bzn4/XO0jzvjNz8I/AAAAAAAA0Dk/NXw69Oa6z4kKWfSIH2wxuvUaMrbdiYZSwCLcBGAs/s728-e100/BlueKeep-RDP-vulnerability.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">03 June 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Almost one million Windows systems vulnerable to BlueKeep (CVE-2019-0708)</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-9oUzG43bzn4/XO0jzvjNz8I/AAAAAAAA0Dk/NXw69Oa6z4kKWfSIH2wxuvUaMrbdiYZSwCLcBGAs/s728-e100/BlueKeep-RDP-vulnerability.jpg"></mj-image>
+          <mj-text color="#fff">Nearly 1 million Windows systems are still unpatched and have been found vulnerable to a recently disclosed critical, wormable, remote code execution vulnerability in the Windows Remote Desktop Protocol (RDP) - two weeks after Microsoft released the security patch.</mj-text>
+          <mj-text color="#fff">Dubbed BlueKeep and tracked as CVE-2019-0708, the vulnerability could allow an unauthenticated, remote attacker to execute arbitrary code and take control of a computer without requiring any interaction from a user.</mj-text>
+          <mj-text color="#fff">An Internet scan performed a security researcher revealed that roughly 950,000 publicly accessible machines on the internet are still vulnerable to the BlueKeep bug. If exploited, the vulnerability could allow an attacker to cause havoc around the world, similar to what the WannaCry and NotPetya attacks did in 2017.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/05/bluekeep-rdp-vulnerability.html">
+            Read More on The Hacker News
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/microsoft-issues-second-warning-about-patching-bluekeep-as-poc-code-goes-public/">
+            Read More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">CI build logs continue to expose company secrets</mj-text>
+          <mj-image src="https://blog.testlodge.com/wp-content/uploads/2018/01/continuous-integration-1024x538.png"></mj-image>
+          <mj-text>Security researchers are still finding secrets hidden deep inside continuous integration (CI) services, years after the issue became common knowledge. The purpose of CI is to find bugs as early as possible in the coding process and detect them before they're too deeply embedded into the rest of the project, at which point it may require extensive rewrites.</mj-text>
+          <mj-text>The most famous and widely used of all CI services is one called Travis CI, loved primarily due to its GitHub integration. Travis CI keeps logs of everything that happens, and one of the most important of these are a project's build log, which can sometimes include passwords, SSH keys, or API tokens.</mj-text>
+          <mj-text>A few years back, security researchers realized that they could comb Travis CI logs for API keys and other secrets, and report these issues to companies to receive bug bounties. Besides good-willed security researchers, threat actors also realized they could do the same, and some of them even launched attacks against Travis CI to search build logs in bulk and extract some of these secrets.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/ci-build-logs-continue-to-expose-company-secrets/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://edoverflow.com/2019/ci-knew-there-would-be-bugs-here/">
+            Read More on edoverflow.com
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.npr.org/2019/05/21/725118702/ransomware-cyberattacks-on-baltimore-put-city-services-offline">Baltimore Still Crippled by Ransomware Attack After Weeks</a></li>
+              <li><a class="lnk-pink" href="https://blog.talosintelligence.com/2019/05/one-year-later-vpnfilter-catastrophe.html">One year later: The VPNFilter catastrophe that wasn't</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/unpatched-flaw-affects-all-docker-versions-exploits-ready/">Unpatched Flaw Affects All Docker Versions, Exploits Ready</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/google-researcher-finds-code-execution-vulnerability-notepad">Google Researcher Finds Code Execution Vulnerability in Notepad</a></li>
+              <li><a class="lnk-purple" href="https://threatpost.com/gatekeeper-bug-in-macos-mojave-allows-malware-to-execute/145124/">Gatekeeper Bug in MacOS Mojave Allows Malware to Execute</a></li>
+              <li><a class="lnk-blue" href="https://www.csoonline.com/article/3399000/privacy-by-design-cybersecurity-and-the-future-of-5g.html">Privacy by design: Cybersecurity and the future of 5G</a></li>
+              <li><a class="lnk-pink" href="https://www.scmagazine.com/home/security-news/malware/nansh0u-cryptomining-cryptomining-hit-50000-servers/">Nansh0u cryptomining cryptomining hit 50,000 servers</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/new-hiddenwasp-malware-found-targeting-linux-systems/">New HiddenWasp malware found targeting Linux systems</a></li>
+              <li><a class="lnk-orange" href="https://duo.com/decipher/docker-bug-allows-root-access-to-host-file-system">Docker Bug Allows Root Access to Host File System</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/microsoft-issues-second-warning-about-patching-bluekeep-as-poc-code-goes-public/">Microsoft issues second warning about patching BlueKeep</a></li>
+              <li><a class="lnk-pink" href="https://fortiguard.com/psirt/FG-IR-18-389">Upgrade FortiOS SSL VPN due to multiple critical vulnerabilities</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.thezdi.com/blog/2019/5/27/cve-2019-0708-a-comprehensive-analysis-of-a-remote-desktop-services-vulnerability">A Comprehensive Analysis of an RDS Vulnerability (CVE-2019-0708)</a></li>
+              <li><a class="lnk-pink" href="https://blog.adversary.io/whatsapp-hack/">Try it Yourself: Hack WhatsApp by Exploiting a Buffer Overflow Security Flaw</a></li>
+              <li><a class="lnk-green" href="https://www.komodosec.com/post/when-all-else-fails-find-a-0-day">When all else fails - find a 0-day</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
