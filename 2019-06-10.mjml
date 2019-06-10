@@ -61,7 +61,7 @@
         <meta name="twitter:site" content="@kindredgroup" />
         <meta name="twitter:title" content="Kindred Security Newsletter - 10/06/19" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
-        <meta name="twitter:image" content="https://1.bp.blogspot.com/-9oUzG43bzn4/XO0jzvjNz8I/AAAAAAAA0Dk/NXw69Oa6z4kKWfSIH2wxuvUaMrbdiYZSwCLcBGAs/s728-e100/BlueKeep-RDP-vulnerability.jpg" />
+        <meta name="twitter:image" content="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/goldbrute-botnet-brute-force-attacking-15m-rdp-servers-showcase_image-3-a-12595.jpg" />
       </mj-style>
   </mj-head>
   <mj-body>
@@ -85,31 +85,19 @@
         </mj-column>
       </mj-section>
       <!-- Featured (blue) Article -->
-      <mj-section background-color="#00a5de">
-        <mj-column>
-          <mj-text mj-class="white h2" align="center">Nearly 1 Million Computers Still Vulnerable to "Wormable" BlueKeep RDP Flaw</mj-text>
-          <mj-image src="https://1.bp.blogspot.com/-9oUzG43bzn4/XO0jzvjNz8I/AAAAAAAA0Dk/NXw69Oa6z4kKWfSIH2wxuvUaMrbdiYZSwCLcBGAs/s728-e100/BlueKeep-RDP-vulnerability.jpg"></mj-image>
-          <mj-text color="#fff">Nearly 1 million Windows systems are still unpatched and have been found vulnerable to a recently disclosed critical, wormable, remote code execution vulnerability in the Windows Remote Desktop Protocol (RDP)—two weeks after Microsoft releases the security patch. If exploited, the vulnerability could allow an attacker to easily cause havoc around the world, potentially much worse than what WannaCry and NotPetya like wormable attacks did in 2017.</mj-text>
-          <mj-text color="#fff">Dubbed BlueKeep and tracked as CVE-2019-0708, the vulnerability affects Windows 2003, XP, Windows 7, Windows Server 2008 and 2008 R2 editions and could spread automatically on unprotected systems. The BlueKeep vulnerability has so much potential to wreak havoc worldwide that it forced Microsoft to release patches for not only the supported Windows versions but also Windows XP, Windows Vista and Windows Server 2003, which no longer receive mainstream support from the company but are still widely used.</mj-text>
-          <mj-text color="#fff">If fixing the flaw in your organisation is not possible anytime sooner, then you can take these mitigations: Disable RDP services, if not required. Block port 3389 using a firewall or make it accessible only over a private VPN. Enable Network Level Authentication (NLA) – this is partial mitigation to prevent any unauthenticated attacker from exploiting this Wormable flaw.</mj-text>
-          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/05/bluekeep-rdp-vulnerability.html">
-            Read More on TheHackerNews
-          </mj-button>
-        </mj-column>
-      </mj-section>
 
 
 
       <!-- Pink Articles -->
-      <mj-section background-color="#fff">
+      <mj-section background-color="#00a5de">
         <mj-column>
           <mj-spacer height="30px" />
-          <mj-text mj-class="pink h2">GoldBrute Botnet Brute-Force Attacking 1.5M RDP Servers</mj-text>
+          <mj-text mj-class="white h2">GoldBrute Botnet Brute-Force Attacking 1.5M RDP Servers</mj-text>
           <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/goldbrute-botnet-brute-force-attacking-15m-rdp-servers-showcase_image-3-a-12595.jpg"></mj-image>
-          <mj-text>While the end-goal of the group controlling the botnet is not clear, it appears that GoldBrute is currently using brute-force methods to attack about 1.5 million Remote Desktop Protocol servers that have exposed connections to the open internet.</mj-text>
-          <mj-text>A scan using the Shodan search engine shows that there are at least 2.4 million of these exposed Remote Desktop Protocol servers throughout the world. GoldBrute, however, seems to use its own list as part of the attacks and keeps expanding as that list grows.</mj-text>
-          <mj-text>While there is not an immediate connection between BlueKeep and GoldBrute, it doesn't mean that the group controlling the botnet could not use that vulnerability in the future.</mj-text>
-          <mj-button mj-class="bg-pink" href="https://www.bankinfosecurity.com/goldbrute-botnet-brute-force-attacking-15m-rdp-servers-a-12595">
+          <mj-text color="#fff">While the end-goal of the group controlling the botnet is not clear, it appears that GoldBrute is currently using brute-force methods to attack about 1.5 million Remote Desktop Protocol servers that have exposed connections to the open internet.</mj-text>
+          <mj-text color="#fff">A scan using the Shodan search engine shows that there are at least 2.4 million of these exposed Remote Desktop Protocol servers throughout the world. GoldBrute, however, seems to use its own list as part of the attacks and keeps expanding as that list grows.</mj-text>
+          <mj-text color="#fff">While there is not an immediate connection between BlueKeep and GoldBrute, it doesn't mean that the group controlling the botnet could not use that vulnerability in the future.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/goldbrute-botnet-brute-force-attacking-15m-rdp-servers-a-12595">
             Read More on BankInfoSecurity
           </mj-button>
         </mj-column>
@@ -123,6 +111,8 @@
           <mj-text mj-class="h2">More #News</mj-text>
           <mj-text>
             <ul>
+              <li><a class="lnk-blue" href="https://www.inforisktoday.com/apple-emphasizes-privacy-single-sign-on-feature-a-12562">Apple Emphasizes Privacy With Single Sign-On Feature</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/only-5-5-of-all-vulnerabilities-are-ever-exploited-in-the-wild/">Only 5.5% of all vulnerabilities are ever exploited in the wild</a></li>
               <li><a class="lnk-pink" href="https://www.zdnet.com/article/for-two-hours-a-large-chunk-of-european-mobile-traffic-was-rerouted-through-china/">For two hours, a large chunk of European mobile traffic was rerouted through China</a></li>
               <li><a class="lnk-green" href="https://www.zdnet.com/article/microsoft-warns-about-email-spam-campaign-abusing-office-vulnerability/">Microsoft warns about email spam campaign abusing Office vulnerability</a></li>
               <li><a class="lnk-orange" href="https://www.csoonline.com/article/3400861/from-phish-to-network-compromise-in-two-hours-how-carbanak-operates.html">From phish to network compromise in two hours: How Carbanak operates</a></li>
@@ -152,7 +142,6 @@
               <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/06/05/patch-android-june-2019-update-fixes-eight-critical-flaws/">Patch Android! June 2019 update fixes eight critical flaws</a></li>
               <li><a class="lnk-orange" href="https://thehackernews.com/2019/06/rdp-windows-lock-screen.html">Unpatched Bug Let Attackers Bypass Windows Lock Screen On RDP Sessions</a></li>
               <li><a class="lnk-purple" href="https://thehackernews.com/2019/06/macOS-synthetic-click.html">macOS 0-Day Flaw Lets Hackers Bypass Security Features With Synthetic Clicks</a></li>
-              <li><a class="lnk-blue" href="https://www.inforisktoday.com/apple-emphasizes-privacy-single-sign-on-feature-a-12562">Apple Emphasizes Privacy With Single Sign-On Feature</a></li>
             </ul>
           </mj-text>
           <mj-spacer height="30px" />
@@ -205,7 +194,6 @@
           <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
           <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
           <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
-          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
         </mj-column>
       </mj-section>
     </mj-container>
