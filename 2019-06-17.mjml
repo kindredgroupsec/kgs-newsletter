@@ -1,0 +1,210 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 17/06/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://tr3.cbsistatic.com/hub/i/r/2018/06/13/aecac604-d600-484f-9c2a-d5f944c39ac7/resize/770x/1abe30a60060ead0915df99516f66da7/soccer.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">17 June 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">LaLiga facing €250k fine for GDPR violations in app used to spy on users</mj-text>
+          <mj-image src="https://tr3.cbsistatic.com/hub/i/r/2018/06/13/aecac604-d600-484f-9c2a-d5f944c39ac7/resize/770x/1abe30a60060ead0915df99516f66da7/soccer.jpg"></mj-image>
+          <mj-text color="#fff">Spanish soccer league LaLiga is facing a fine of €250,000 (approximately $283,000) for GDPR violations resulting from a convoluted wiretap in their smartphone app intended to curb piracy of soccer match broadcasts. The Spanish Agency for Data Protection (La Agencia de Protección de Datos, or AEPD) levied the fine this week due to the league's violation of consent-related clauses in the GDPR, as LaLiga did not properly disclose the nature of the microphone usage.</mj-text>
+          <mj-text color="#fff">LaLiga introduced a feature in the official Android app last year that activates the microphone and GPS functions when matches are being played, under the pretense of using the features to identify venues such as bars or restaurants that are broadcasting soccer games illegally.This functionality is not happening surreptitiously, as the app requests access to the microphone and geolocation service—it does not rely on a vulnerability to access these components without explicit permission—as TechRepublic reported a year ago. Despite this, users were not explicitly informed of the intended use of the microphone and geolocation permissions, which is central to the decision by AEPD to levy fines against LaLiga.</mj-text>
+          <mj-text color="#fff">According to the ABC report, LaLiga intends to appeal, stating that AEPD "has not made the necessary effort to understand how technology works." (Quote software translated.) Despite this, LaLiga will disable the listening function on June 30, the end of the season.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.techrepublic.com/article/laliga-facing-eur250k-fine-for-gdpr-violations-in-app-used-to-spy-on-users/">
+            Read More on TechRepublic
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Critical Flaw Reported in Popular Evernote Extension for Chrome Users</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-ihhigfVYexI/XQJH4cjvwYI/AAAAAAAA0N0/8ff3GWEUilULg4oucC4JKdRTmu6ldlyvwCLcBGAs/s728-e100/evernote-hacking.jpg"></mj-image>
+          <mj-text>Cybersecurity researchers discover a critical flaw in the popular Evernote Chrome extension that could have allowed hackers to hijack your browser and steal sensitive information from any website you accessed. Evernote is a popular service that helps people taking notes and organize their to-do task lists, and over 4,610,000 users have been using its Evernote Web Clipper Extension for Chrome browser.</mj-text>
+          <mj-text>According to researchers, the vulnerability could allow an attacker-controlled website to execute arbitrary code on the browser in the context of other domains on behalf of users, leading to a Universal Cross-site Scripting (UXSS or Universal XSS) issue.</mj-text>
+          <mj-text>Since Chrome Browser periodically, usually after every 5 hours, checks for new versions of installed extensions and updates them without requiring user intervention, you need to make sure your browser is running the latest Evernote version 7.11.1 or later.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2019/06/evernote-extension-hacking.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/critical-flaw-in-evernote-add-on-exposed-sensitive-data-of-millions/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/rambleed-attack-can-steal-sensitive-data-from-computer-memory/">RAMBleed Attack Can Steal Sensitive Data From Computer Memory</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/ransomware-halts-production-for-days-at-major-airplane-parts-manufacturer/">Ransomware halts production for days at major airplane parts manufacturer</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/06/android-security-key-ios.html">Android's Built-in Security Key Now Works With iOS Devices For Secure Login</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/06/12/radiohead-releases-ok-computer-sessions-that-hacker-tried-to-ransom/">Radiohead releases ‘OK Computer’ sessions that hacker tried to ransom</a></li>
+              <li><a class="lnk-purple" href="https://blog.cloudflare.com/project-galileo-fifth-anniversary/">Project Galileo: Lessons from 5 years of protecting the most vulnerable online</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/two-hacking-groups-responsible-for-huge-spike-in-hacked-magento-stores/">Two hacking groups responsible for huge spike in hacked Magento 2.x stores</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/06/12/fbi-warns-users-to-be-wary-of-phishing-sites-abusing-https/">FBI warns users to be wary of phishing sites abusing HTTPS</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/google-amp/article/this-is-how-scammers-abuse-google-calendar-to-slurp-up-your-data/">This is how scammers are now abusing Google Calendar to pillage your data</a></li>
+              <li><a class="lnk-orange" href="https://www.troyhunt.com/project-svalbard-the-future-of-have-i-been-pwned/">Project Svalbard: The Future of Have I Been Pwned</a></li>
+              <li><a class="lnk-purple" href="https://www.welivesecurity.com/2019/06/11/cyberattack-travelers-photos-usa-cbp/">Cyberattack exposes travelers’ photos, says US border agency</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/magecart-attack-what-it-is-how-it-works-and-how-to-prevent-it/">Magecart attack: What it is, how it works, and how to prevent it</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/windows-subsystem-for-linux-2-wsl-2-released-to-insiders/">Windows Subsystem for Linux 2 (WSL 2) Released to Insiders</a></li>
+              <li><a class="lnk-green" href="https://www.microsoft.com/security/blog/2019/06/10/advancing-windows-10-passwordless-platform/">Advancing Windows 10 as a passwordless platform</a></li>
+              <li><a class="lnk-orange" href="https://blog.mozilla.org/blog/2019/06/04/firefox-now-available-with-enhanced-tracking-protection-by-default/">Firefox Now Available with Enhanced Tracking Protection by Default</a></li>
+              <li><a class="lnk-purple" href="https://anildash.com/2019/06/04/can-you-trust-a-company-in-2019/">Can You Trust A Company In 2019?</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2019/06/microsoft-patch-tuesday-june-2019-edition/">Microsoft Patch Tuesday, June 2019 Edition</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/06/adobe-patch-june.html">Adobe Issues Critical Patches for ColdFusion, Flash Player, Campaign</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/mybb-forum-patches-vulnerabilities-that-allow-site-takeover/">MyBB Forum Patches Vulnerabilities That Allow Site Takeover</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/bad-cert-vulnerability-can-bring-down-any-windows-server/">Bad Cert Vulnerability Can Bring Down Any Windows Server</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/06/wordpress-live-chat-plugin.html">New Flaw in WordPress Live Chat Plugin Lets Hackers Steal and Hijack Sessions</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/06/linux-vim-vulnerability.html">Your Linux Can Get Hacked Just by Opening a File in Vim or Neovim Editor</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/yubico-replacing-yubikey-fips-devices-due-security-issue">Yubico Replacing YubiKey FIPS Devices Due to Security Issue</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/exim-email-servers-are-now-under-attack/">Exim email servers are now under attack</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/cisco-ios-xe-software-receives-fix-against-high-severity-flaw/">Cisco IOS XE Software Receives Fix Against High-Severity Flaw</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.doyensec.com/2019/06/11/electronegativity-1.3.html">Electronegativity 1.3.0 released!</a></li>
+              <li><a class="lnk-pink" href="https://posts.specterops.io/visualizing-bloodhound-data-with-powerbi-part-1-ba8ea4908422">Visualizing BloodHound Data with PowerBI — Part 1</a></li>
+              <li><a class="lnk-green" href="https://blog.cloudflare.com/protecting-galileo-websites/">Protecting Project Galileo websites from HTTP attacks</a></li>
+              <li><a class="lnk-orange" href="https://isc.sans.edu/forums/diary/A+few+Ghidra+tips+for+IDA+users+part+4+function+call+graphs/25032/">A few Ghidra tips for IDA users, part 4 - function call graphs</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@olafhartong/sysmon-10-0-new-features-and-changes-e82106f2e00">Sysmon 10.0 - New features and changes</a></li>
+              <li><a class="lnk-pink" href="https://www.cybereason.com/blog/new-pervasive-worm-exploiting-linux-exim-server-vulnerability">New pervasive worm exploiting linux exim server vulnerability</a></li>
+              <li><a class="lnk-green" href="https://dirkjanm.io/exploiting-CVE-2019-1040-relay-vulnerabilities-for-rce-and-domain-admin/">Exploiting CVE-2019-1040 - Combining relay vulnerabilities for RCE and Domain Admin</a></li>
+              <li><a class="lnk-orange" href="https://github.com/TheresAFewConors/Sooty">Sooty: SOC Analyst CLI</a></li>
+              <li><a class="lnk-purple" href="https://www.cryptomuseum.com/covert/bugs/selectric/">Operation GUNMAN - how the Soviets bugged IBM typewriters </a></li>
+              <li><a class="lnk-blue" href="https://blog.ripstech.com/2019/mybb-stored-xss-to-rce/">MyBB <= 1.8.20: From Stored XSS to RCE</a></li>
+              <li><a class="lnk-pink" href="https://rhinosecuritylabs.com/aws/s3-ransomware-part-2-prevention-and-defense/">S3 Ransomware Part 2: Prevention and Defense</a></li>
+              <li><a class="lnk-green" href="https://www.fugue.co/blog/addressing-cloud-security-with-infrastructure-baselines">Addressing Cloud Security with Infrastructure Baselines</a></li>
+              <li><a class="lnk-orange" href="https://webkit.org/blog/8943/privacy-preserving-ad-click-attribution-for-the-web/">Privacy Preserving Ad Click Attribution For the Web</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
