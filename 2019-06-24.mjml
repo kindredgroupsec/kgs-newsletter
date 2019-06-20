@@ -1,0 +1,203 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 24/06/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/posts/2019/06/17/BtcTurk-phish-abuse.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">24 June 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Mozilla patches Firefox zero-day abused in the wild</mj-text>
+          <mj-image src="https://zdnet1.cbsistatic.com/hub/i/2019/06/18/f9e39513-cfe9-4700-8730-4a6d4a0c3910/eb38d6ff05c383fe7bb503c4ed1780c2/firefox-logo.png"></mj-image>
+          <mj-text color="#fff">The Mozilla team has released earlier today version 67.0.3 of the Firefox browser to address a critical vulnerability that is currently being abused in the wild. Samuel Groß, a security researcher with Google Project Zero security team, and the Coinbase Security team were credited with discovering the Firefox zero-day -- tracked as CVE-2019-11707.</mj-text>
+          <mj-text color="#fff">Based on who reported the security flaw, we can safely assume the security flaw was being exploited in attacks aimed at cryptocurrency owners. Groß also said he did not have details about how the zero-day was used, and indicated that Coinbase Security may know more about the in-the-wild attacks.</mj-text>
+          <mj-text color="#fff">Firefox zero-days are quite rare. The last time the Mozilla team patched a Firefox zero-day was in December 2016, when they fixed a security flaw that was being abused at the time to expose and de-anonymize users of the privacy-first Tor Browser.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/mozilla-patches-firefox-zero-day-abused-in-the-wild/">
+            Read More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Android Malware Bypasses 2FA by Stealing One-Time Passwords</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2019/06/17/BtcTurk-phish-abuse.png"></mj-image>
+          <mj-text>Researchers monitoring malware that affects Android devices discovered malicious apps that can steal one-time passwords (OTP) from the notification system. This development bypasses Google's ban on apps that access SMS and call logs without justification. Google enforced the restriction earlier this year specifically to lower the risk of sensitive permissions where they are not necessary. Cybercriminals found a way around this limitation and instead tap into the notifications to obtain the sensitive information. This method also opens up the door to getting short-lived access codes that are delivered via email.</mj-text>
+          <mj-text>Multiple malicious apps impersonating the Turkish cryptocurrency exchange BtcTurk were uploaded to Google Play between June 7 and June 13.Their purpose was to steal the login credentials to the service, and most likely try them with other services where 2FA protection against unauthorized access may be available.</mj-text>
+          <mj-text>One drawback to this technique, Stefanko points out, is that it can steal only the text that fits in the notification. Anything outside it remains hidden to the attacker. While this may not always include the one-time access code, a hacker would be successful in most cases. It appears that this technique is actively tried on Turkish cryptocurrency users, as another app was discovered last week operating in the same way. </mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/android-malware-bypasses-2fa-by-stealing-one-time-passwords/">
+            Even More on BleepingComputer
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/info-stealing-android-apps-can-now-access-passwords-to-avoid-2fa-protections/">
+            Read More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.cloudflare.com/league-of-entropy/">League of Entropy: Not All Heroes Wear Capes</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/google/google-adds-deceptive-url-alerts-to-chrome-unsafe-url-report-add-on/">Google Adds Deceptive URL Alerts To Chrome, Unsafe URL Report Add-on</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-azure-bastion-preview-remote-vm-access-via-azure-portal/">Microsoft Azure Bastion Preview: Remote VM Access via Azure Portal</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/06/19/hospitals-are-being-suffocated-by-robocalls/">Hospitals are being suffocated by robocalls</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2019/06/19/popular-content-platforms-putting-passwords-at-risk/">Pass the salt! Popular CMSs aren’t securing passwords properly</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/echobot-botnet-spreads-via-26-exploits-targets-oracle-vmware-apps/">Echobot Botnet Spreads via 26 Exploits, Targets Oracle, VMware Apps</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/hacker-steals-customer-payment-info-in-eatstreet-data-breach/">Hacker Steals Customer Payment Info in EatStreet Data Breach</a></li>
+              <li><a class="lnk-green" href="https://www.darkreading.com/application-security/can-your-patching-strategy-keep-up-with-the-demands-of-open-source/a/d-id/1334947">Can Your Patching Strategy Keep Up with the Demands of Open Source?</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/06/gandcrab-ransomware-decryption-tool.html">GandCrab Ransomware Decryption Tool [All Versions] — Recover Files for Free</a></li>
+              <li><a class="lnk-purple" href="https://blog.cloudflare.com/welcome-to-crypto-week-2019/">Welcome to Crypto Week 2019</a></li>
+              <li><a class="lnk-blue" href="https://www.csoonline.com/article/3403676/new-mongodb-field-level-encryption-can-help-prevent-data-breaches.html">New MongoDB field-level encryption can help prevent data breaches</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/06/tor-browser-firefox-hack.html">Tor Browser 8.5.2 Released — Update to Fix Critical Firefox Vulnerability</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/samba-vulnerability-can-crash-active-directory-components/">Samba Vulnerability Can Crash Active Directory Components</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/06/oracle-weblogic-vulnerability.html">New Critical Oracle WebLogic Flaw Under Active Attack — Patch Now</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/06/19/netflix-researcher-spots-tcp-sack-flaws-in-linux-and-freebsd/">Netflix researcher spots TCP SACK flaws in Linux and FreeBSD</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/yubico-replacing-yubikey-fips-devices-due-security-issue">Yubico Replacing YubiKey FIPS Devices Due to Security Issue</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.cloudflare.com/introducing-circl/">Introducing CIRCL: An Advanced Cryptographic Library</a></li>
+              <li><a class="lnk-pink" href="https://github.com/PyCQA/bandit">Bandit is a tool designed to find common security issues in Python code.</a></li>
+              <li><a class="lnk-green" href="https://posts.specterops.io/visualizing-bloodhound-data-with-powerbi-part-2-3e1c521fb7ae">Visualizing BloodHound Data with PowerBI — Part 2</a></li>
+              <li><a class="lnk-orange" href="https://pyup.io/safety/">Safety checks your dependencies for known security vulnerabilities.</a></li>
+              <li><a class="lnk-purple" href="https://docs.microsoft.com/en-us/windows/release-information/">Windows 10 release information</a></li>
+              <li><a class="lnk-blue" href="https://blog.cloudflare.com/the-quantum-menace/">The Quantum Menace</a></li>
+              <li><a class="lnk-pink" href="https://www.coalfire.com/The-Coalfire-Blog/June-2019/Introducing-Slackor">Introducing Slackor, a Remote Access Tool Using Slack as a C2 Channel</a></li>
+              <li><a class="lnk-green" href="https://theofficialflow.github.io/2019/06/18/trinity.html">Trinity: PSP Emulator Escape</a></li>
+              <li><a class="lnk-orange" href="https://cpr-zero.checkpoint.com/">Check Point Research Vulnerability Repository</a></li>
+              <li><a class="lnk-purple" href="https://blog.xpnsec.com/evading-sysmon-dns-monitoring/">Evading Sysmon DNS Monitoring</a></li>
+              <li><a class="lnk-blue" href="https://voidsec.com/state-of-industrial-control-systems-ics-in-italy/">State of Industrial Control Systems (ICS) in Italy</a></li>
+              <li><a class="lnk-pink" href="https://rhinosecuritylabs.com/aws/escalating-aws-iam-privileges-undocumented-codestar-api/">Escalating AWS IAM Privileges with an Undocumented CodeStar API</a></li>
+              <li><a class="lnk-green" href="https://0x00sec.org/t/a-blue-team-guide-to-azure-office-365-monitoring/14411">A Blue Team guide to Azure & Office 365 monitoring</a></li>
+              <li><a class="lnk-orange" href="https://jpminty.github.io//cheatsheet/DFIR/">Digital Forensics and Incident Response</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/bugbountywriteup/antivirus-evasion-with-python-49185295caf1">Antivirus Evasion with Python</a></li>
+              <li><a class="lnk-blue" href="https://github.com/bishopfox/sliver">Sliver: general purpose cross-platform implant framework</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
