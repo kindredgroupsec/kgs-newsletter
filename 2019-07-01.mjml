@@ -1,0 +1,213 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 01/07/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://blog.mozilla.org/firefox/files/2019/06/Screenshot_2019-06-25-Track-This-A-new-kind-of-Incognito.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">01 July 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Hey advertisers, track THIS</mj-text>
+          <mj-image src="https://blog.mozilla.org/firefox/files/2019/06/Screenshot_2019-06-25-Track-This-A-new-kind-of-Incognito.png"></mj-image>
+          <mj-text color="#fff">If it feels like the ads chasing you across the internet know you a little too well, it’s because they do (unless you’re an avid user of ad blockers, in which case this is not for you). Earlier this month we announced Enhanced Tracking Protection on by default for new users in our flagship Firefox Quantum browser as a way to stop third-party cookies in their tracks. If you’re still not sure why you’d want to block cookies, today we’re launching a project called Track THIS to help you recognize what they do.</mj-text>
+          <mj-text color="#fff">You’re being followed across the web through cookies—small data files stored by your browser—that remember things like language preferences, sites you’ve visited, or what’s in your shopping cart. That might sound generally fine, but it gets shady when data brokers and advertising networks also use cookies to collect information about your internet habits without your consent. You should still have control over what advertisers know about you—if they know anything about you at all—which can be tough when web trackers operate out of sight.</mj-text>
+          <mj-text color="#fff">That’s why we made Track THIS: to bring that out-of-sight tracking front and center. Step into someone else’s shoe ads for a while by opening up 100 tabs at once.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://blog.mozilla.org/firefox/hey-advertisers-track-this/">
+            Read More on Mozilla Blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Ex-Equifax CIO Gets 4-Month Prison Term for Insider Trading</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/ex-equifax-cio-gets-4-month-prison-term-for-insider-trading-showcase_image-3-a-12704.jpg"></mj-image>
+          <mj-text>A former Equifax CIO who sold his stock in the company after learning about its 2017 data breach several months before the public and government agencies were informed has been sentenced to serve four months in federal prison for insider trading.</mj-text>
+          <mj-text>Jun Ying, 44, who worked as the CIO of Equifax U.S. Information Solutions, pleaded guilty to charges of insider trading in March. He was sentenced Thursday to four months in federal prison and ordered to pay more than $117,000 in restitution and fined $55,000. In July 2018, Sudhakar Reddy Bonthu, a former manager at Equifax, pleaded guilty to similar charges and received eight months of home confinement, federal prosecutors said.</mj-text>
+          <mj-text>The 2017 Equifax breach exposed the personal information of 148 million Americans as well as data on Canadian and U.K. citizens. The incident has spawned several investigations of the company, which found that Equifax's failure to patch a vulnerability in the Apache Struts open source web application framework allowed attackers to find their way into the network and steal personal data. Over the course of the last two years, the data breach has cost Atlanta-based Equifax $1.4 billion, which includes overhauling its information security program.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.inforisktoday.com/ex-equifax-cio-gets-4-month-prison-term-for-insider-trading-a-12704">
+            Read More on InfoRiskToday
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/netflix-ford-td-bank-data-exposed-by-open-amazon-s3-buckets/">Netflix, Ford, TD Bank Data Exposed by Open Amazon S3 Buckets</a></li>
+              <li><a class="lnk-pink" href="https://msrc-blog.microsoft.com/2019/06/27/inside-the-msrc-anatomy-of-a-ssirp-incident/">Inside the MSRC – Anatomy of a SSIRP incident</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/new-spelevo-exploit-kit-spreads-b2b-website">New Spelevo Exploit Kit Spreads via B2B Website</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/open-marketing-database-exposes-5-million-personal-records/">Open Marketing Database Exposes 5 Million Personal Records</a></li>
+              <li><a class="lnk-purple" href="https://www.darkreading.com/perimeter/inside-mls-the-new-protocol-for-secure-enterprise-messaging/d/d-id/1335075">Inside MLS, the New Protocol for Secure Enterprise Messaging</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/wipro-attack-tied-to-larger-phishing-campaign-analysis-a-12699">Wipro Attack Tied to Larger Phishing Campaign: Analysis</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2019/06/microsoft-to-require-multi-factor-authentication-for-cloud-solution-providers/">Microsoft to Require Multi-Factor Authentication for Cloud Solution Providers</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/firefox-to-get-a-random-password-generator-like-chrome/">Firefox to get a random password generator, like Chrome</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/insurer-breach-undetected-for-nine-years-a-12694">Insurer: Breach Undetected for Nine Years</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/microsoft-excel-power-query-feature-can-be-abused-for-malware-distribution/">Microsoft Excel Power Query feature can be abused for malware distribution</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/microsoft-teams-can-be-used-to-download-and-run-malicious-packages/">Microsoft Teams Can Be Used to Download and Run Malicious Packages</a></li>
+              <li><a class="lnk-pink" href="https://cloudsecurityalliance.org/articles/csa-releases-cloud-octagon-model-to-facilitate-cloud-computing-risk-assessment/?utm_source=twitter">Cloud Security Alliance Releases Cloud Octagon Model to Facilitate Cloud Computing Risk Assessment</a></li>
+              <li><a class="lnk-green" href="https://www.darkreading.com/perimeter/office-365-multifactor-authentication-done-right/a/d-id/1335039">Office 365 Multifactor Authentication Done Right</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/06/emulated-malware.html">This Cryptomining Malware Launches Linux VMs On Windows and macOS</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/06/openssh-side-channel-vulnerability.html">OpenSSH Now Encrypts Secret Keys in Memory Against Side-Channel Attacks</a></li>
+              <li><a class="lnk-blue" href="https://aws.amazon.com/blogs/security/introducing-the-aws-security-incident-response-whitepaper/">Introducing the AWS Security Incident Response Whitepaper</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/wetransfer-security-incident-file-transfer-emails-sent-wrong-people">WeTransfer Security Incident: File Transfer Emails Sent to Wrong People</a></li>
+              <li><a class="lnk-green" href="https://www.hackread.com/researchers-exploit-lte-flaws-to-send-fake-presidential-alerts/">Researchers exploit LTE flaws to send 50,000 fake presidential alerts</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/06/26/social-engineering-forum-hacked-user-data-dumped-on-rival-site/">Social engineering forum hacked, user data dumped on rival site</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/microsoft-onedrive-gets-a-new-encrypted-personal-vault/">Microsoft OneDrive Gets a New Encrypted 'Personal Vault'</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/healthcare-industry-falls-far-behind-in-secops-resources/">Healthcare industry falls far behind in SecOps resources</a></li>
+              <li><a class="lnk-pink" href="https://robertheaton.com/2019/06/24/i-was-7-words-away-from-being-spear-phished/">I was 7 words away from being spear-phished</a></li>
+              <li><a class="lnk-green" href="https://www.elastic.co/blog/introducing-elastic-siem">Introducing Elastic SIEM</a></li>
+              <li><a class="lnk-orange" href="https://blog.trailofbits.com/2019/06/20/getting-2fa-right-in-2019/">Getting 2FA Right in 2019</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cisco-patches-critical-flaws-in-data-center-network-manager/">Cisco Patches Critical Flaws in Data Center Network Manager</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/06/outlook-app-android.html">Important Flaw in Outlook App for Android Affects Over 100 Millions Users</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/06/24/mozilla-patched-two-firefox-zero-day-flaws-in-one-week/">Mozilla patched two Firefox zero-day flaws in one week</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/06/macos-malware-gatekeeper.html">New Mac Malware Exploits GateKeeper Bypass Bug that Apple Left Unpatched</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/ea-fixes-origin-game-platform-to-prevent-account-takeovers/">EA Fixes Origin Game Platform To Prevent Account Takeovers</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/docker-containers-are-filled-with-vulnerabilities-heres-how-the-top-1000-fared/">Docker containers are filled with vulnerabilities: Here's how the top 1,000 fared</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/google-amp/article/kubernetes-cli-tool-security-flaw-lets-attackers-run-code-on-host-machine/">Kubernetes CLI tool security flaw lets attackers run code on host machine</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/google/santa/">santa: A binary whitelisting/blacklisting system for macOS</a></li>
+              <li><a class="lnk-pink" href="https://github.com/zentralopensource/zentral">Zentral: gather, process, and monitor system events </a></li>
+              <li><a class="lnk-green" href="https://isc.sans.edu/diary/Verifying+Running+Processes+against+VirusTotal+-+Domain-Wide/25078">Verifying Running Processes against VirusTotal - Domain-Wide</a></li>
+              <li><a class="lnk-orange" href="https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f">SKS Keyserver Network Under Attack</a></li>
+              <li><a class="lnk-purple" href="https://wiki.mozilla.org/Security/Server_Side_TLS">Mozilla Security/Server Side TLS guide (updated)</a></li>
+              <li><a class="lnk-blue" href="https://www.researchgate.net/publication/288280540_Tell_Me_About_Yourself_The_Malicious_CAPTCHA_Attack">Tell Me About Yourself: The Malicious CAPTCHA Attack</a></li>
+              <li><a class="lnk-pink" href="https://habr.com/en/company/mailru/blog/456702/">Security of mobile OAuth 2.0</a></li>
+              <li><a class="lnk-green" href="https://github.com/anteater/anteater">Anteater - CI/CD Gate Check Framework</a></li>
+              <li><a class="lnk-orange" href="https://rhinosecuritylabs.com/aws/introducing-cloudgoat-2/">CloudGoat 2: The New & Improved “Vulnerable by Design”
+AWS Deployment Tool</a></li>
+              <li><a class="lnk-purple" href="https://github.com/InQuest/awesome-yara">A curated list of awesome YARA rules, tools, and people.</a></li>
+              <li><a class="lnk-blue" href="https://nytrosecurity.com/2019/06/30/writing-shellcodes-for-windows-x64/">Writing shellcodes for Windows x64</a></li>
+              <li><a class="lnk-pink" href="https://www.praetorian.com/blog/bypassing-google-santa-application-whitelisting-on-macos-part-1">Bypassing Google's Santa Application Whitelisting on macOS (Part 1 of 2)</a></li>
+              <li><a class="lnk-green" href="https://www.pentestpartners.com/security-blog/bloodhound-walkthrough-a-tool-for-many-tradecrafts/">A walkthrough on how to set up and use BloodHound</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
