@@ -2,4 +2,4 @@
 http://news.infosecgur.us/*   https:/news.infosecgur.us/:splat 301
 /2017-*                       /archives/2017-:splat 301
 /2018-*                       /archives/2018-:splat 301
-/latest                       /2019-07-01
+/latest                       /2019-07-08
