@@ -1,0 +1,229 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 15/07/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://www.coredna.com/web_images/blogs/71/885/GDPR-fines-title.png"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">15 July 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Dear BA and Marriott: Your GDPR Fines Are Important to Us</mj-text>
+          <mj-image src="https://www.coredna.com/web_images/blogs/71/885/GDPR-fines-title.png"></mj-image>
+          <mj-text mj-class="white h3" align="center">British Airways hit with £183M GDPR fine—could your business be next?</mj-text>
+          <mj-text color="#fff">The data protection gloves have finally come off in Europe after the EU's General Data Protection Regulation went into effect last May. Consider the tables now turned on organizations that fail to take their data protection responsibilities seriously.</mj-text>
+          <mj-text color="#fff">On Monday, Britain's data protection authority, the Information Commissioner's Office, announced a proposed fine of £184 million ($230 million) against British Airways after breaches last September and October enabled attackers to route customers to a fraudulent site, exposing 500,000 customers' personal details. On Tuesday, the ICO confirmed a proposed fine of £99 million ($125 million) against Marriott International for its failure to stop a four-year breach that globally exposed approximately 339 million customer records. Both fines are the first major, proposed sanctions - they are not yet final - over data breaches that have occurred since GDPR enforcement began on May 25, 2018. </mj-text>
+          <mj-text color="#fff">More GDPR fines are likely on the way, says Brian Honan, who heads Dublin-based cybersecurity consultancy BH Consulting. "Many GDPR breaches, especially the highly publicized ones, can take a long time for proper investigations by the supervisory authorities," Honan tells me. "What we are seeing now are the beginnings of the supervisory authorities issuing penalties under GDPR, and I expect we will see many more over the coming months." Already, both British Airways and Marriott are attempting to spin the proposed sanctions from the same playbook, using emotive language to stand in for inconvenient facts.</mj-text>
+          <mj-text color="#fff"> Marriott's fine was first revealed after the hotel giant warned investors that it might be on the hook, via a notice to the U.S. Securities and Exchange Commission. Investors will likely now be asking the company why it failed to spend a relatively small amount to protect its systems, versus the risk of incurring a much larger fine. The proposed $230 million fine against British Airways represents about $40 per record exposed in the breach, with the total equaling about 6 percent of airlines' 2018 profit. So, the total cost of this one incident is about $500 million, or over 10 percent of BA's 2018 profit.</mj-text>
+          <mj-text color="#fff">The message from regulators is clear: If you buy it, you own it. Also, any organization's ability to process customer data remains a privilege, not a right. Memo to all businesses that store Europeans' personal data: Act now to avoid disappointment.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/blogs/dear-ba-marriott-your-gdpr-fines-are-important-to-us-p-2770">
+            Read More on BankInfoSecurity
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.techrepublic.com/article/british-airways-hit-with-gbp183m-gdpr-fine-could-your-business-be-next/">
+            Even More on TechRepublic
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.coredna.com/blogs/gdpr-fines">
+            GDPR Fines: Everything You Need To Know
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Magecart Hackers Infect 17,000 Sites Through Misconfigured Amazon S3 Buckets</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-c_vHgtYA_G8/XSW1-1GGDLI/AAAAAAAA0aE/x-tPLospE9suAOY9jTAPfIwyXumLK3UcACLcBGAs/s728-e100/magecart-credit-card-skimming-hackers.jpg"></mj-image>
+          <mj-text> Cybersecurity researchers have identified yet another supply-chain attack carried out by payment card hackers against more than 17,000 web domains, which also include websites in the top 2,000 of Alexa rankings.  Since Magecart is neither a single group nor a specific malware instead an umbrella term given to all those cyber criminal groups and individuals who inject digital card skimmers on compromised websites, it is not necessary for every one of them to use similar techniques with the same sophistication.</mj-text>
+          <mj-text>Almost two months ago, security researchers from RiskIQ discovered supply-chain attacks involving credit card skimmers placed on several web-based suppliers, including AdMaxim, CloudCMS, and Picreel intending to infect as many websites as possible. However, upon continuous monitoring of their activities, researchers found that the actual scale of this campaign, which started in early April 2019, is much larger than previously reported.</mj-text>
+          <mj-text> According to the researchers, since the beginning of the campaign, this group of Magecart attackers has continuously been scanning the Internet for misconfigured Amazon S3 buckets, which allows anyone to view and edit files it contains, and injecting their digital card skimming code at the bottom of every JavaScript file they find.  Magecart made headlines last year after payment card hackers conducted several high-profile attacks against major international companies including British Airways, Ticketmaster, and Newegg.</mj-text>
+          <mj-button mj-class="bg-green" href="https://thehackernews.com/2019/07/magecart-amazon-s3-hacking.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/new-magecart-attacks-leverage-misconfigured-s3-buckets-to-infect-over-17k-sites/">
+            Even More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Microsoft Azure AD FIDO2 Passwordless Sign-In in Public Preview</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/u/1109292/July%202019/FIDO2%20passwordless%20sign-in.png"></mj-image>
+          <mj-text>Microsoft announced public preview support for FIDO2 security keys in Azure Active Directory (Azure AD) to provide users with passwordless authentication capabilities, eliminating passwords out of the logging in process.</mj-text>
+          <mj-text>With the help of a FIDO2 security key, as well as the Microsoft Authenticator app and Windows Hello, all Azure AD users can now log in without having to enter a password. "These strong authentication factors are based off the same world class, public key/private key encryption standards and protocols, which are protected by a biometric factor (fingerprint or facial recognition) or a PIN," added the Microsoft 365 team.</mj-text>
+          <mj-text>The end goal is to add support for the entire spectrum of available authentication factors, dramatically decrease the risk of account compromise by making the login process substantially more secure in the long term. Microsoft integrated the new public preview passwordless authentication solutions with the help of  Feitian Technologies, Yubico, and HID Global, which provide security keys and cards compatible with the new Azure AD FIDO2 support.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-azure-ad-fido2-passwordless-sign-in-in-public-preview/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.microsoft.com/en-us/security/technology/identity-access-management/passwordless">
+            Even More on Microsoft Security portal
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://boingboing.net/2019/07/03/nobus-r-us.html">Youtube's ban on "hacking techniques" threatens to shut down all of infosec Youtube</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/over-90-million-records-leaked-by-chinese-public-security-department/">Over 90 Million Records Leaked by Chinese Public Security Department</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/07/11/mozilla-arent-villains-after-all/">“Mozilla aren’t villains after all” – ISPs back down after public outcry</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/new-android-malware-replaces-legitimate-apps-with-ad-infested-doppelgangers/">New Android malware replaces legitimate apps with ad-infested doppelgangers</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/lawyer-lands-in-jail-for-extorting-porn-torrent-downloaders-to-settle-3k-copyright-claims/">Troll lawyer uploads porn to Pirate Bay, extorts downloaders to settle ‘copyright’ claims</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/chatops-your-bridge-true-devsecops-environment">ChatOps is Your Bridge to a True DevSecOps Environment</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/malwarebytes-is-now-enforcing-lifetime-licenses-to-one-pc/">Malwarebytes is Now Enforcing Lifetime Licenses to One PC</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/mozilla-bans-surveillance-vendor-from-firefox-certificate-whitelist//">Mozilla bans surveillance vendor from Firefox certificate whitelist</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/fake-deepnude-downloads-gives-you-malware-instead-of-nudes/">Fake DeepNude Downloads Gives You Malware Instead of Nudes</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/07/astaroth-fileless-malware.html">Watch Out! Microsoft Spotted Spike in Astaroth Fileless Malware Attacks</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/canonical-investigating-hack-its-github-page-a-12749">Canonical Investigating Hack of Its GitHub Page</a></li>
+              <li><a class="lnk-pink" href="https://www.csoonline.com/article/3406319/dark-web-takedowns-make-good-headlines-do-little-for-security.html">Dark web takedowns make good headlines, do little for security</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/blogs/leak-confirms-google-speakers-often-record-without-warning-p-2771">Leak Confirms Google Speakers Often Record Without Warning</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/07/best-cybersecurity-frameworks.html">Cybersecurity Frameworks — Types, Strategies, Implementation and Benefits</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/will-mobile-devices-replace-passwords/">Will mobile devices replace passwords?</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/mongodb-database-exposed-188-million-records-researchers-a-12769">MongoDB Database Exposed 188 Million Records</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/report-new-ransomware-targets-qnap-storage-devices-a-12774">Ransomware Targets QNAP Storage Devices</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2019/07/patch-tuesday-lowdown-july-2019-edition/">Patch Tuesday Lowdown, July 2019 Edition</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/jira-server-and-data-center-update-patches-critical-vulnerability/">Jira Server and Data Center Update Patches Critical Vulnerability</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/adobe-tackles-vulnerabilities-in-dreamweaver-experience-manager-bridge-cc/">Adobe tackles vulnerabilities in Dreamweaver, Experience Manager, Bridge</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/07/10/two-zero-days-and-15-critical-flaws-fixed-in-julys-patch-tuesday/">Two zero days and 15 critical flaws fixed in July’s Patch Tuesday</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/researchers-disclose-vulnerability-in-siemens-ics-software-a-12765">Researchers Disclose Vulnerability in Siemens' ICS Software</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/intel-fixes-priv-escalation-vulnerability-in-enterprise-ssd/">Intel Fixes Priv Escalation Vulnerability in Enterprise SSD</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/logitech-unifying-receivers-vulnerable-to-key-injection-attacks/">Logitech Unifying Receivers Vulnerable to Key Injection Attacks</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/07/lodash-prototype-pollution.html">Unpatched Prototype Pollution Flaw Affects All Versions of Popular Lodash Library</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/07/09/backdoor-discovered-in-ruby-strong_password-library/">Backdoor discovered in Ruby strong_password library</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/flaw-walkie-talkie-app-apple-watch-allows-spying">Flaw in Walkie-Talkie App on Apple Watch Allows Spying</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/sap-patches-critical-flaw-diagnostics-agent">SAP Patches Critical Flaw in Diagnostics Agent</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/07/webcam-hacking-video-conferencing.html">Flaw in Zoom Video Conferencing Software Lets Websites Hijack Mac Webcams</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+
+              <li><a class="lnk-pink" href="https://duo.com/labs/tech-notes/detecting-phishing-with-spf-macros">Detecting Phishing with SPF macros</a></li>
+              <li><a class="lnk-green" href="https://withatwist.dev/strong-password-rubygem-hijacked.html">strong_password v0.0.7 rubygem hijacked</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/linux/kali-linux-now-available-for-raspberry-pi-4/">Kali Linux Now Available for Raspberry Pi 4</a></li>
+              <li><a class="lnk-purple" href="https://securityboulevard.com/2019/07/detecting-the-impossible-serverless-c2-in-the-cloud/amp/">Office-Addin backdoor with C2 in Azure Cloud</a></li>
+              <li><a class="lnk-blue" href="https://github.com/swimlane/pyattck">Pyattck: A Python Module to interact with the Mitre ATT&CK Framework</a></li>
+              <li><a class="lnk-pink" href="https://github.com/W00t3k/Awesome-Cellular-Hacking">Cellular hacking compilation</a></li>
+              <li><a class="lnk-green" href="https://github.com/samanL33T/Awesome-Mainframe-Hacking/">Mainframe hacking cimpilation</a></li>
+              <li><a class="lnk-orange" href="https://blog.preempt.com/security-advisory-targeting-ad-fs-with-external-brute-force-attacks">Targeting AD FS With External Brute-Force Attacks</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/bugbountywriteup/zoom-zero-day-4-million-webcams-maybe-an-rce-just-get-them-to-visit-your-website-ac75c83f4ef5">Zoom Zero Day: 4+ Million Webcams & maybe an RCE? Just get them to visit your website!</a></li>
+              <li><a class="lnk-blue" href="https://github.com/teoseller/osquery-attck">Osquery-ATT&CK: map the MITRE ATT&CK with the Osquery for enterprise threat hunting</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/blue-team/preventing-mimikatz-attacks-ed283e7ebdd5">Preventing Mimikatz Attacks</a></li>
+              <li><a class="lnk-green" href="https://blog.stealthbits.com/how-to-secure-sharepoint/">How to Secure SharePoint</a></li>
+              <li><a class="lnk-orange" href="https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1561488231.pdf">Breach → ATT&CK →OSQUERY</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

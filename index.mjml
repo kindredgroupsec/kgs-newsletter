@@ -70,6 +70,7 @@
           <mj-spacer height="30px" />
           <mj-text mj-class="blue h2">2019</mj-text>
           <mj-list>
+            <li><a href="./2019-07-15.html" class="lnk-blue">15 July 2019</a>
             <li><a href="./2019-07-08.html" class="lnk-blue">08 July 2019</a> (<a href="./2019-07-08.pdf" class="lnk-green">PDF</a>)</li>
             <li><a href="./2019-07-01.html" class="lnk-blue">01 July 2019</a> (<a href="./2019-07-01.pdf" class="lnk-green">PDF</a>)</li>
             <li><a href="./2019-06-24.html" class="lnk-blue">24 June 2019</a> (<a href="./2019-06-24.pdf" class="lnk-green">PDF</a>)</li>
