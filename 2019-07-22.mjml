@@ -1,0 +1,248 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 22/07/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-VKB9KOJk8Zw/XSm5vndRgaI/AAAAAAAA0cg/UsBfUxUbWkoxdUHeOu0GbH-STQ1x9wXMACLcBGAs/s728-e100/Zoom-Video-Conferencing-Software-hacking.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">22 July 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Zoom Video Conferencing for macOS keeps a hidden web server when you remove it, vulnerable to Critical RCE Flaw. Apple reacts</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-VKB9KOJk8Zw/XSm5vndRgaI/AAAAAAAA0cg/UsBfUxUbWkoxdUHeOu0GbH-STQ1x9wXMACLcBGAs/s728-e100/Zoom-Video-Conferencing-Software-hacking.png"></mj-image>
+          <mj-text color="#fff">The chaos and panic that the disclosure of privacy vulnerability in the highly popular and widely-used Zoom video conferencing software created earlier last week is not over yet. As suspected, it turns out that the core issue—a locally installed web server by the software—was not just allowing any website to turn on your device webcam, but also could allow hackers to take complete control over your Apple's Mac computer remotely.</mj-text>
+
+          <mj-text color="#fff">Worryingly, according to an advisory published by National Vulnerability Database (NVD), the newly discovered RCE flaw also works against users who have already uninstalled the conferencing software, but its web server is still activated and listens on port 19421. "If you've ever installed the Zoom client and then uninstalled it, you still have a localhost web server on your machine that will happily re-install the Zoom client for you, without requiring any user interaction on your behalf besides visiting a webpage. This re-install 'feature' continues to work to this day."</mj-text>
+          <mj-text color="#fff">Immediately after receiving a high criticism from all sides, the company released an emergency update for its software to remove the vulnerable web server (ZoomOpener daemon) implementation altogether. However, the software update could not protect former customers who are not using the software anymore but have the vulnerable web-server still activated on their systems unknowingly. Apple has issued a ‘silent’ update that automatically removes the software’s hidden web server from Macs.</mj-text>
+          <mj-text color="#fff">Security researchers confirmed The Hacker News that RingCentral, used by over 350,000 businesses, and Zhumu, a Chinese version of Zoom, also runs a hidden local web server on users' computers, just like Zoom for macOS.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2019/07/zoom-video-conferencing-hacking.html">
+            Read More on HackerNewsletter
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2019/07/15/apple-quietly-removes-zooms-hidden-web-server-from-macs/">
+            Apple quietly removes Zoom’s hidden web server from Macs
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/07/zoom-ringcentral-vulnerabilities.html">
+            Zoom RCE Flaw Also Affects Its Rebranded Versions RingCentral and Zhumu
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">With FaceApp in the spotlight, autorities start to worry about personal data abuse. Meanwhile, new scams emerge</mj-text>
+          <mj-image src="https://www.welivesecurity.com/wp-content/uploads/2019/07/Figure1-1.png"></mj-image>
+          <mj-text>Poland and Lithuania said Thursday they were looking into the potential security risks of using a Russian-made face-editing app that has triggered a viral social media trend where users post "aged" selfies.</mj-text>
+          <mj-text>The chart-topping Russian-made FaceApp, which allows users to see how they will look as they age, also found itself in the eye of a political storm in the US Wednesday, with one senator urging an FBI investigation into its "national security and privacy risks".</mj-text>
+          <mj-text>Currently the most downloaded free app on Google Play with more than 100 million users, FaceApp was launched two years ago and went viral after its latest editing tool, an aging filter, sparked a flood of celebrity selfies. Its developers, Wireless Lab, are based in the Skolkovo high-tech hub near Moscow, often called Russia's Silicon Valley.</mj-text>
+          <mj-text>FaceApp CEO Yaroslav Goncharov told the Washington Post that Russian authorities did not have any access to any user data. Goncharov also told the Post that most photos are deleted from its servers within 48 hours and said the app did not use the pictures for any other purpose.</mj-text>
+          <mj-text>Stan Lowe, Zscaler global CISO, said, "companies should be concerned about users downloading these types of apps [...]. Any app that asks you to provide any data, biometric or otherwise, is going to use it for some reason. Companies and individuals should guard their privacy and data in all forms, including biometrics. We were all told not to tell strangers where we live—this holds true in an age where apps are collecting all kinds of data. Your privacy and data are valuable. As the old saying goes, beware of strangers bearing gifts."</mj-text>
+          <mj-text>The latest hype around the FaceApp application has attracted scammers who want to make a quick profit. Scammers have been trying, to various ends, to exploit this wave of interest, using a fake “Pro” – yet free – version of the application as a lure. The fraudsters have also made an effort to spread the word about this fictitious version of the currently-viral app – at the time of writing this blogpost, a Google search for “FaceApp Pro” returns some 200,000 articles. Regardless how exciting the topic is, avoid downloading apps from sources other than official app stores, and examine available information about the app (developer, rating, reviews, etc.).</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.securityweek.com/poland-lithuania-probe-russian-made-app-behind-viral-old-age-selfies">
+            Poland, Lithuania Probe Russian-made App Behind Viral Old Age Selfies
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.securityweek.com/us-senator-calls-investigation-russia-made-faceapp">
+            US Senator Calls for Investigation into Russia-made FaceApp
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.techrepublic.com/article/how-businesses-could-be-exposed-to-security-risks-from-employees-using-faceapp/">
+            How businesses could be exposed to security risks from employees using FaceApp
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.welivesecurity.com/2019/07/19/faceapp-spotlight-scams-emerge/">
+            With FaceApp in the spotlight, new scams emerge
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">California Consumer Privacy Act (CCPA): What you need to know to be compliant</mj-text>
+          <mj-image src="https://images.idgesg.net/images/article/2019/07/cso_california_consumer_privacy_act_ccpa_california_state_flag_by_veronaa_gettyimages-976644646_connected_locks_by_shulz_gettyimages-585148862_2400x1600-100801657-large.jpg"></mj-image>
+          <mj-text>In late June, 2018, California passed a consumer privacy act, AB 375, that could have more repercussions on U.S. companies than the European Union’s General Data Protection Regulation (GDPR) that went into effect this past spring. The California law doesn't have some of GDPR's most onerous requirements, such as the narrow 72-hour window in which a company must report a breach. In other respects, however, it goes even farther.</mj-text>
+          <mj-text>The California Consumer Privacy Act (CCPA) takes a broader view than the GDPR of what constitutes private data. The challenge for security, then, is to locate and secure that private data. AB 375 allows any California consumer to demand to see all the information a company has saved on them, as well as a full list of all the third parties that data is shared with. In addition, the California law allows consumers to sue companies if the privacy guidelines are violated, even if there is no breach.</mj-text>
+          <mj-text>All companies that serve California residents and have at least $25 million in annual revenue must comply with the law. In addition, companies of any size that have personal data on at least 50,000 people or that collect more than half of their revenues from the sale of personal data, also fall under the law. Companies don't have to be based in California or have a physical presence there to fall under the law. They don't even have to be based in the United States.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.csoonline.com/article/3292578/california-consumer-privacy-act-what-you-need-to-know-to-be-compliant.html">
+            Read More on CSOOnline
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">
+            California Consumer Privacy Act
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/07/kazakhstan-https-security-certificate.html">Kazakhstan Begins Intercepting HTTPS Internet Traffic Of All Citizens Forcefully</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/first-announces-cvss-version-31">FIRST Announces CVSS Version 3.1</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/07/linux-gnome-spyware.html">EvilGnome: A New Backdoor Implant Spies On Linux Desktop Users</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/endpoint-security-evolving-against-airport-searches-gdpr">Endpoint Security Evolving Against Airport Searches, GDPR</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/malware-framework-creates-one-billion-fake-google-adsense-ad-impressions-in-only-a-few-months/">Malware framework creates one billion fake Google Adsense ad impressions in only a few months</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cracked-tesla-3-windshield-leads-to-10-000-bug-bounty/">Cracked Tesla 3 Windshield Leads to $10,000 Bug Bounty</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/software/firefox-to-warn-when-saved-logins-are-found-in-data-breaches/">Firefox to Warn When Saved Logins are Found in Data Breaches</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/07/18/still-not-using-https-firefox-is-about-to-shame-you/">Still not using HTTPS? Firefox is about to shame you</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/07/bulgaria-nra-data-breach.html">Hacker Stole Data of Over 70% Bulgarian Citizens from Tax Agency Servers</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/security-flaw-exposed-valid-airline-boarding-passes-a-12783">Security Flaw Exposed Valid Airline Boarding Passes</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/google-to-remove-chromes-built-in-xss-protection-xss-auditor/">Google to remove Chrome's built-in XSS protection (XSS Auditor)</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/07/16/bluetooth-les-anti-tracking-technology-beaten/">Bluetooth LE’s anti-tracking technology beaten</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2019/07/meet-the-worlds-biggest-bulletproof-hoster/">Meet the World’s Biggest ‘Bulletproof’ Hoster</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/fbi-releases-master-decryption-keys-for-gandcrab-ransomware/">FBI Releases Master Decryption Keys for GandCrab Ransomware</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/07/media-files-whatsapp-telegram.html">Hackers Can Manipulate Media Files You Receive Via WhatsApp and Telegram</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/07/ios-custom-url-scheme.html">iOS URL Scheme Could Let App-in-the-Middle Attackers Hijack Your Accounts</a></li>
+              <li><a class="lnk-pink" href="https://www.schneier.com/blog/archives/2019/07/palantirs_surve.html">Palantir's Surveillance Service for Law Enforcement</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/07/hack-instagram-accounts.html">This Flaw Could Have Allowed Hackers to Hack Any Instagram Account</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/payment-fraud-criminals-enroll-stolen-cards-on-apple-pay-a-12779">Payment Fraud: Criminals Enroll Stolen Cards on Apple Pay</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/93-of-porn-sites-leak-data-to-a-third-party/">93% of porn sites leak data to a third-party</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/fake-office-365-site-pushes-trickbot-trojan-as-browser-update/">Fake Office 365 Site Pushes Trickbot Trojan as Browser Update</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/new-phishing-scheme-targets-amex-card-holders-a-12796">Phishing Scheme Targets Amex Cardholders</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/07/slack-password-data-breach.html">Slack Resets Passwords For Users Who Hadn't Changed It Since 2015 Breach</a></li>
+              <li><a class="lnk-orange" href="https://www.troyhunt.com/authentication-and-the-have-i-been-pwned-api/">Authentication and the Have I Been Pwned API</a></li>
+              <li><a class="lnk-purple" href="https://www.vice.com/en_ca/article/9kxp83/researchers-easily-trick-cylances-ai-based-antivirus-into-thinking-malware-is-goodware">Researchers Easily Trick Cylance's AI-Based Antivirus Into Thinking Malware Is 'Goodware'</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/drupal-patches-critical-bug-that-lets-hackers-take-over-sites/">Drupal Patches Critical Bug That Lets Hackers Take Over Sites</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-powershell-core-security-bug-to-fix-wdac-bypass/">Microsoft Patches PowerShell Core Security Bug to Fix WDAC Bypass</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/critical-bug-in-wordpress-plugin-lets-hackers-execute-code/">Critical Bug in WordPress Plugin Lets Hackers Execute Code</a></li>
+              <li><a class="lnk-orange" href="https://amp.thehackernews.com/thn/2019/07/zoom-video-conferencing-hacking.html">Zoom Video Conferencing for macOS Also Vulnerable to Critical RCE Flaw</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://isc.sans.edu/forums/diary/The+Other+Side+of+Critical+Control+1+8021x+Wired+Network+Access+Controls/25146/">The Other Side of Critical Control 1: 802.1x Wired Network Access Controls</a></li>
+              <li><a class="lnk-pink" href="https://duo.com/labs/tech-notes/how-security-keys-store-credentials">How security keys store credentials</a></li>
+              <li><a class="lnk-green" href="URL">Dlint: helping ensure we're writing secure Python code.</a></li>
+              <li><a class="lnk-orange" href="https://vscanapidoc.redlock.io/">Prisma Public Cloud Vulnerability Scan API (BETA)</a></li>
+              <li><a class="lnk-purple" href="https://www.hacktale.com/">HackTale: Blue team trainign game</a></li>
+              <li><a class="lnk-blue" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1567114">MITM on all HTTPS traffic in Kazakhstan</a></li>
+              <li><a class="lnk-pink" href="https://blog.ropnop.com/docker-for-pentesters/">Docker for Pentesters</a></li>
+              <li><a class="lnk-green" href="https://nullsweep.com/http-security-headers-a-complete-guide/">HTTP Security Headers - A Complete Guide</a></li>
+              <li><a class="lnk-orange" href="https://trustfoundry.net/basic-rop-techniques-and-tricks/">Basic ROP Techniques and Tricks</a></li>
+              <li><a class="lnk-purple" href="https://github.com/BishopFox/GitGot">GitGot: semi-automated tool to rapidly search through troves of public data on GitHub for sensitive secrets.</a></li>
+              <li><a class="lnk-blue" href="https://github.com/incredibleindishell/CORS-vulnerable-Lab">CORS misconfiguration vulnerable Lab</a></li>
+              <li><a class="lnk-pink" href="https://kindredsec.com/2019/07/17/oscp-blog-exam-attempt-review/">OSCP Blog: Exam Attempt Review</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
