@@ -1,0 +1,221 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 29/07/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-b3XoekL7RRU/XTh_0WAYHJI/AAAAAAAA0io/oDlvxkD8gaUwfjyWkfbKE4bB8gK-KlpPACLcBGAs/s728-e100/ftc-facebook.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">29 July 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">It's Official: FTC Fines Facebook $5 Billion</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-b3XoekL7RRU/XTh_0WAYHJI/AAAAAAAA0io/oDlvxkD8gaUwfjyWkfbKE4bB8gK-KlpPACLcBGAs/s728-e100/ftc-facebook.jpg"></mj-image>
+          <mj-text color="#fff">The Federal Trade Commission (FTC) today officially confirmed that Facebook has agreed to pay a record-breaking $5 billion fine over privacy violations surrounding the Cambridge Analytica scandal. Besides the multibillion-dollar penalty, the company has also accepted a 20-year-long agreement that enforces it to implement a new organizational framework designed to strengthen its data privacy practices and policies.</mj-text>
+          <mj-text color="#fff">"The order requires Facebook to restructure its approach to privacy from the corporate board-level down, and establishes strong new mechanisms to ensure that Facebook executives are accountable for the decisions they make about privacy and that those decisions are subject to meaningful oversight," the FTC said in a press release.</mj-text>
+          <mj-text color="#fff">In a blog post published today, Facebook said it is building a new privacy program in compliance with the latest FTC requirements which will change the way Facebook handles its users' data and helpful in "rebuilding trust with people."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/07/ftc-facebook-privacy-program.html">
+            Read More on HackerNewsletter
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/its-official-ftc-fines-facebook-5-billion-a-12823">
+            Even More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Equifax to Pay up to $700 Million in 2017 Data Breach Settlement</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-rQk00vQsNyI/XTa83EfEAqI/AAAAAAAA0g8/0HS9gsetfN8d-vz5cg3sArpXb7FEwC50ACLcBGAs/s728-e100/equifax-data-breach.png"></mj-image>
+          <mj-text>Equifax, one of the three largest credit-reporting firms in the United States, has to pay up to $700 million in fines to settle a series of state and federal investigations into the massive 2017 data breach that exposed the personal and financial data of nearly 150 million Americans—that's almost half the country.</mj-text>
+          <mj-text>Besides the penalty, the company has also been ordered to provide all American consumers with six free credit reports each year for seven years, along with the one free annual credit report, starting from January 2020. In September 2017, Equifax suffered a massive data breach that allowed hackers to steal personal information, including names, birth dates, addresses, social security numbers, and, in some cases, driver's license numbers, of as many as 147 million people.</mj-text>
+          <mj-text>The commission has even set up a dedicated email (equifax@ftc.gov), encouraging Equifax employees to mail FTC if they "believe the company is failing to adhere to its data security promises." The breach, which has been called one of the worst in American history, occurred due to failure of the company to patch a critical security vulnerability in its systems it was made aware of in March that year. </mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2019/07/equifax-data-breach-fine.html">
+            Read More on HackerNewsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Hackers Exploit Jira, Exim Linux Servers and add Cryptominers</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/u/1109292/July%202019/Watchbog.png"></mj-image>
+          <mj-text>Hackers are exploiting vulnerable Jira and Exim servers with the end goal of infecting them with a new Watchbog Linux Trojan variant and using the resulting botnet as part of a Monero cryptomining operation.</mj-text>
+          <mj-text>Watchbog's infection process is quite straightforward as it drops a Monero coinminer after exploiting the vulnerabilities it targets and it gains persistence to fend off the users' attempts of removing it. After getting a foothold on the vulnerable servers, Watchbog will download and execute malicious commands from pastebin that will eventually deploy and launch the final cryptocurrency miner payload on the compromised Linux boxes. The malware will also achieve persistence by adding itself to multiple crontab files to make sure that it can come back and reinfect the system if the user will not find all of the altered crontabs.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/hackers-exploit-jira-exim-linux-servers-to-keep-the-internet-safe/">
+            Read More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/07/android-media-framework-hack.html">Your Android Phone Can Get Hacked Just By Playing This Video</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/hackers-abuse-active-directory-a-12825">Why Hackers Abuse Active Directory</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-office-365-webmail-exposes-users-ip-address-in-emails/">Microsoft Office 365 Webmail Exposes User's IP Address in Emails</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/bluekeep-rce-exploit-module-added-to-penetration-testing-tool/">BlueKeep RCE Exploit Module Added to Penetration Testing Tool</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/no-love-lost-between-security-specialists-and-developers/">No love lost between security specialists and developers</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/robinhood-admits-to-storing-some-passwords-in-cleartext/">Robinhood discovered they stored some passwords in cleartext, prompts for reset</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/phishing-campaign-bypasses-email-gateways-via-wetransfer-alerts/">Phishing Campaign Bypasses Email Gateways via WeTransfer Alerts</a></li>
+              <li><a class="lnk-green" href="https://www.csoonline.com/article/3411139/equifax-s-billion-dollar-data-breach-disaster-will-it-change-executive-attitudes-toward-security.html">Equifax’s data breach disaster: Will it change executive attitudes toward security?</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/07/siemens-logic-bomb.html">Siemens Contractor Pleads Guilty to Planting 'Logic Bomb' in Spreadsheets</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/consumer-advocates-criticize-equifax-settlement-plan-a-12815">Consumer Advocates Criticize Equifax Settlement Plan</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/07/23/big-password-hole-in-ios-13-beta-spotted-by-testers/">Big password hole in iOS 13 beta spotted by testers</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/phishers-target-office-365-admins-with-fake-admin-alerts/">Phishers Target Office 365 Admins with Fake Admin Alerts</a></li>
+              <li><a class="lnk-green" href="https://msrc-blog.microsoft.com/2019/07/16/a-proactive-approach-to-more-secure-code/">A proactive approach to more secure code, looking into Rust</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/louisiana-declares-emergency-after-malware-attacks-a-12835">Louisiana Declares Emergency After Malware Attacks</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/active-directory-security-7-essential-defenses-a-12828">Essential Active Directory Security Defenses</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/keep-calm-carry-on-vlc-not-affected-by-critical-vulnerability/">Keep Calm, Carry On. VLC Not Affected by Critical Vulnerability</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/comodo-antivirus-subject-to-serious-unpatched-vulnerabilities/">Unpatched vulnerabilities lurk in Comodo Antivirus</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/proftpd-vulnerability-lets-users-copy-files-without-permission/">ProFTPD Vulnerability Lets Users Copy Files Without Permission</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/hackers-exploit-recent-wordpress-plugin-bugs-for-malvertising/">Hackers Exploit Recent WordPress Plugin Bugs for Malvertising</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/windows-10-1903-update-blocked-by-old-intel-rapid-storage-drivers/">Windows 10 1903 Update Blocked by Old Intel Rapid Storage Drivers</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://adsecurity.org/">Active Directory Security</a></li>
+              <li><a class="lnk-green" href="https://blogs.technet.microsoft.com/cloudready/2018/07/31/introduction-email-phishing-protection-guide-enhancing-your-organizations-security-posture/">Microsoft Email Phishing Protection Guide - Enhance Your Organization's Security Posture</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/@hungrybytes/8-methods-for-bypassing-cameras-and-facial-recognition-software-dcb6c958a78">8 methods for bypassing cameras and facial recognition software</a></li>
+              <li><a class="lnk-purple" href="https://latacora.micro.blog/2019/07/24/how-not-to.html">How (not) to sign a JSON object</a></li>
+              <li><a class="lnk-blue" href="https://github.com/BlackArch/wordlistctl/blob/master/README.md">wordlistctl: Script to fetch, install, update and search wordlist archives</a></li>
+              <li><a class="lnk-pink" href="https://delta.navisec.io/a-pentesters-guide-part-4-grabbing-hashes-and-forging-external-footholds/">Grabbing Hashes and Forging External Footholds</a></li>
+              <li><a class="lnk-green" href="https://lesspass.com/#/">Lesspass: Stateless Password Manager</a></li>
+              <li><a class="lnk-orange" href="https://www.synack.com/blog/a-deep-dive-into-xxe-injection/">A Deep Dive into XXE Injection</a></li>
+              <li><a class="lnk-purple" href="https://www.rapid7.com/research/report/under-the-hoodie-2019/">Under the Hoodie 2019</a></li>
+              <li><a class="lnk-blue" href="https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation-part-2/">AWS IAM Privilege Escalation – Methods and Mitigation – Part 2</a></li>
+              <li><a class="lnk-pink" href="https://www.microsoft.com/en-us/download/details.aspx?id=58495">Administrative Templates (.admx) for Windows 10 May 2019 Update (1903)</a></li>
+              <li><a class="lnk-green" href="https://github.com/quarkslab/irma">IRMA: Advanced Suspicious file Analysis</a></li>
+              <li><a class="lnk-orange" href="https://blog.trailofbits.com/2019/07/19/understanding-docker-container-escapes/">https://github.com/quarkslab/irma</a></li>
+              <li><a class="lnk-purple" href="https://diablohorn.com/2019/07/21/introduction-to-physical-penetration-tests/">Introduction to physical penetration tests</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
