@@ -70,14 +70,16 @@
           <mj-spacer height="30px" />
           <mj-text mj-class="blue h2">2019</mj-text>
           <mj-list>
+            <li><a href="./2019-08-05.html" class="lnk-blue">5 August 2019</a> (<a href="./2019-08-05.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2019-07-29.html" class="lnk-blue">29 July 2019</a> (<a href="./2019-07-29.pdf" class="lnk-green">PDF</a>)</li>
             <li><a href="./2019-07-22.html" class="lnk-blue">22 July 2019</a> (<a href="./2019-07-22.pdf" class="lnk-green">PDF</a>)</li>
             <li><a href="./2019-07-15.html" class="lnk-blue">15 July 2019</a> (<a href="./2019-07-15.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2019-07-08.html" class="lnk-blue">08 July 2019</a> (<a href="./2019-07-08.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2019-07-01.html" class="lnk-blue">01 July 2019</a> (<a href="./2019-07-01.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2019-07-08.html" class="lnk-blue">8 July 2019</a> (<a href="./2019-07-08.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2019-07-01.html" class="lnk-blue">1 July 2019</a> (<a href="./2019-07-01.pdf" class="lnk-green">PDF</a>)</li>
             <li><a href="./2019-06-24.html" class="lnk-blue">24 June 2019</a> (<a href="./2019-06-24.pdf" class="lnk-green">PDF</a>)</li>
             <li><a href="./2019-06-17.html" class="lnk-blue">17 June 2019</a> (<a href="./2019-06-17.pdf" class="lnk-green">PDF</a>)</li>
             <li><a href="./2019-06-10.html" class="lnk-blue">10 June 2019</a> (<a href="./2019-06-10.pdf" class="lnk-green">PDF</a>)</li>
-            <li><a href="./2019-06-03.html" class="lnk-blue">03 June 2019</a> (<a href="./2019-06-03.pdf" class="lnk-green">PDF</a>)</li>
+            <li><a href="./2019-06-03.html" class="lnk-blue">3 June 2019</a> (<a href="./2019-06-03.pdf" class="lnk-green">PDF</a>)</li>
             <li><a href="./2019-05-27.html" class="lnk-blue">27 May 2019</a> (<a href="./2019-05-27.pdf" class="lnk-green">PDF</a>)</li>
             <li><a href="./2019-05-20.html" class="lnk-blue">20 May 2019</a> (<a href="./2019-05-20.pdf" class="lnk-green">PDF</a>)</li>
             <li><a href="./2019-05-13.html" class="lnk-blue">13 May 2019</a> (<a href="./2019-05-13.pdf" class="lnk-green">PDF</a>)</li>

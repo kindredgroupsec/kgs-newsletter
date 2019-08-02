@@ -1,0 +1,206 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 05/08/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/urgent11-vulnerabilities-affect-many-embedded-systems-showcase_image-9-a-12851.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">5 August 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">'Urgent/11' Vulnerabilities Affect Many Embedded Systems</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/urgent11-vulnerabilities-affect-many-embedded-systems-showcase_image-9-a-12851.jpg"></mj-image>
+          <mj-text color="#fff">Security researchers with security vendor Armis have disclosed 11 different zero-day vulnerabilities within VxWorks, a real-time operating system used in some 2 billion embedded systems that include medical devices, routers, VOIP phones and even mission-critical infrastructure equipment, the company detailed on Monday. This collection of vulnerabilities, which Armis calls "Urgent//11," could lead to remote code execution and allow an attacker to take over a whole system without interacting with the user. Of the 11 flaws, six are deemed critical.</mj-text>
+          <mj-text color="#fff">VxWorks is a widely-used real-time operating system that is owned and maintained by Wind River, headquartered in California. Unlike Microsoft Windows or Linux, these types of operating systems are found in various embedded and internet of things systems and typically process data quickly and allow for a high-degree of reliability. VxWorks has been deployed across different markets for more than 30 years and is still used in numerous embedded systems and IoT devices, including mission critical supervisory control and data acquisition systems, such as elevator and industrial controllers, as well as patient monitors, MRI machines, firewalls, routers, modems, VOIP phones and printers.</mj-text>
+          <mj-text color="#fff">What also makes the vulnerabilities deemed critical a security concern is that the Armis researchers found that since flaws do not require user interaction, an exploit using remote code execution could spread malware from one vulnerable device to another within a network in the same way that the WannaCry ransomware and a newer Windows vulnerability called BlueKeep are both "wormable"</mj-text>
+          <mj-text color="#fff">The URGENT/11 vulnerabilities affect all versions of the VxWorks software starting with the 6.5 release. The flaws, however, do not affect products designed for certification - such as VxWorks 653 and VxWorks Cert Edition - which are used by selected industries such as transportation, according to Armis.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/urgent11-vulnerabilities-affect-many-embedded-systems-a-12851">
+            Read More on bankinfosecurity
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://armis.com/urgent11/">
+            Even More on ARMIS blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Capital One Data Breach Affects 106 Million People, Suspect Arrested</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2019/07/29/capital-one-header.jpg"></mj-image>
+          <mj-text>Capital One has announced a data breach that has exposed the personal information of 106 million people that includes transaction data, credit scores, payment history, balances, and for some, linked bank accounts and social security numbers. The data breach was discovered when a ethical hacker responsibly disclosed the vulnerability to Capital One on July 17th 2019. After performing an internal investigation of whether this vulnerability had been used in the past, Capital One discovered that an unauthorized used had access their systems and customer data between March 22nd and 23rd of 2019</mj-text>
+          <mj-text>Their investigation discovered that the unauthorized user was able to access the information for 100 million people in the United States and 6 million people in Canada.  After fixing the vulnerability used in the breach, they provided information to the FBI who arrested the suspected hacker.</mj-text>
+          <mj-text>Due to the amount of personal information that was exposed and how it can be used for identity theft, it is strongly advised that users monitor their credit reports for suspicious activity and immediately report anything detected to both the police, Capital One, and the credit agencies. It is also strongly suggested that you freeze your credit report if you were affected to make it more difficult for bad actors to fraudulently take out credit in your name.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/capital-one-data-breach-affects-106-million-people-suspect-arrested/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://krebsonsecurity.com/2019/07/capital-one-data-theft-impacts-106m-people/">
+            Even More on KrebsOnSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News and #Breaches</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="http://www.enforcementtracker.com/">GDPR Enforcement Tracker</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/breach-alert-in-south-korea-after-1m-card-details-were-put-up-for-sale-online/">Breach alert in South Korea after 1m card details were put up for sale online</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/researchers-replace-ip-camera-feed-fake-footage">Researchers Replace IP Camera Feed With Fake Footage</a></li>
+              <li><a class="lnk-orange" href="https://www.darkreading.com/attacks-breaches/pci-security-council-retail-isac-warn-retailers-on-magecart-attacks/d/d-id/1335420">PCI Security Council, Retail ISAC Warn Retailers on Magecart Attacks</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/visa-contactless-cards-vulnerable-to-fraudsters-report-a-12867">Visa Contactless Cards Vulnerable to Fraudsters: Report</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/crooks-sell-credentials-using-combolists-as-a-service-model/">Crooks Sell Credentials Using Combolists-as-a-Service Model</a></li>
+              <li><a class="lnk-pink" href="https://decisiondata.org/news/report-82-of-people-say-they-connect-to-any-free-wifi-thats-available-in-a-public-place/">REPORT: 82% of People Say They Connect to Any Free WiFi That’s Available in a Public Place</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/lapd-data-breach-exposes-personal-info-of-roughly-25k-officers/">LAPD Data Breach Exposes Personal Info of Roughly 2.5K Officers</a></li>
+              <li><a class="lnk-orange" href="https://www.darkreading.com/cloud/container-security-is-falling-behind-container-deployments/d/d-id/1335392">Container Security Is Falling Behind Container Deployments</a></li>
+              <li><a class="lnk-blue" href="https://scotthelme.co.uk/thinking-more-about-bots-and-whether-we-do-enough/">Thinking more about bots and whether we do enough</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/dmarcs-abysmal-adoption-explains-why-email-spoofing-is-still-a-thing/">DMARC's abysmal adoption explains why email spoofing is still a thing</a></li>
+              <li><a class="lnk-green" href="https://www.darkreading.com/threat-intelligence/sephora-offers-monitoring-services-in-wake-of-data-breach/d/d-id/1335373">Sephora Offers Monitoring Services in Wake of Data Breach</a></li>
+              <li><a class="lnk-orange" href="https://blogs.dropbox.com/tech/2019/03/towards-better-vendor-security-assessments/">Towards better vendor security assessments</a></li>
+              <li><a class="lnk-purple" href="https://www.microsoft.com/security/blog/2019/06/25/3-strategies-building-information-protection-program/">3 strategies for building an information protection program </a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/urgent11-security-flaws-impact-routers-printers-scada-and-many-iot-devices/">Urgent11 security flaws impact routers, firewalls, printers, SCADA, and many IoT devices</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/google-researchers-disclose-vulnerabilities-for-interactionless-ios-attacks/">Google researchers disclose vulnerabilities for 'interactionless' iOS attacks</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/authenticated-xss-found-wordpress-plugin-facebook-widget">Authenticated XSS Found in WordPress Plugin Facebook Widget</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://ejj.io/blog/capital-one">Preventing The Capital One Breach</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/powershell-empire-framework-is-no-longer-maintained/">PowerShell Empire Framework Is No Longer Maintained</a></li>
+              <li><a class="lnk-green" href="https://www.petri.com/identify-malicious-phishing-attacks-outlook-conditional-formatting">Identify Malicious Phishing Attacks with Outlook Conditional Formatting </a></li>
+              <li><a class="lnk-orange" href="https://github.com/nccgroup/phantap">PhanTap: Red team network tap</a></li>
+              <li><a class="lnk-purple" href="https://research.checkpoint.com/cryptographic-attacks-a-guide-for-the-perplexed/">Cryptographic Attacks: A Guide for the Perplexed</a></li>
+              <li><a class="lnk-blue" href="https://github.com/AdrianVollmer/PowerHub/">PowerHub: A post exploitation tool based on a web application</a></li>
+              <li><a class="lnk-pink" href="https://unit42.paloaltonetworks.com/unveiling-11-new-adversary-playbooks/">Unveiling 11 New Adversary Playbooks</a></li>
+              <li><a class="lnk-green" href="https://www.siriussecurity.nl/blog/2019/5/8/mapping-your-blue-team-to-mitre-attack">Mapping your Blue Team to MITRE ATT&CK™</a></li>
+              <li><a class="lnk-orange" href="https://www.bc-security.org/post/i-think-you-have-the-wrong-number-using-errant-callbacks-to-enumerate-and-evade-outlook-s-sandbox">Using Errant Callbacks to Enumerate and Evade Outlook's Sandbox</a></li>
+              <li><a class="lnk-purple" href="https://www.reddit.com/r/blueteamsec/comments/cks26u/12gb_of_powershell_malware/">1.2GB of PowerShell in the wild</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/cruise/container-platform-security-7a3057a27663">Container Platform Security at Cruise</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/cruise/secrets-management-3a7c47fe81b">Secrets Management in a Cloud Agnostic World</a></li>
+              <li><a class="lnk-green" href="https://blogs.technet.microsoft.com/cloudready/2018/07/31/introduction-email-phishing-protection-guide-enhancing-your-organizations-security-posture/">Email Phishing Protection Guide – Enhancing Your Organization’s Security Posture</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
