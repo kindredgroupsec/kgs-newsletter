@@ -1,0 +1,226 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 12/08/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://zdnet1.cbsistatic.com/hub/i/2017/12/12/fe3fed7e-5b6c-4ef2-873a-ddb9676046b1/fb3cedf578e3e52ffdf933e61bbe39dc/at-t-offices-photo-05b.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">12 August 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">AT&T employees took bribes to plant malware on the company's network</mj-text>
+          <mj-image src="https://zdnet1.cbsistatic.com/hub/i/2017/12/12/fe3fed7e-5b6c-4ef2-873a-ddb9676046b1/fb3cedf578e3e52ffdf933e61bbe39dc/at-t-offices-photo-05b.jpg"></mj-image>
+          <mj-text color="#fff">AT&T employees took bribes to unlock millions of smartphones, and to install malware and unauthorized hardware on the company's network, the Department of Justice said yesterday. These details come from a DOJ case opened against Muhammad Fahd, a 34-year-old man from Pakistan, and his co-conspirator, Ghulam Jiwani, believed to be deceased.</mj-text>
+          <mj-text color="#fff">The bribery scheme lasted from at least April 2012 until September 2017. Initially, the two Pakistani men bribed AT&T employees to unlock expensive iPhones so they could be used outside AT&T's network. The two recruited AT&T employees by approaching them in private via telephone or Facebook messages. Employees who agreed, received lists of IMEI phone codes which they had to unlock for sums of money. Employees would then receive bribes in their bank accounts, in shell companies they created, or as cash, from the two Pakistani men. This initial stage of the scheme lasted for about a year, until April 2013, when several employees left or were fired by AT&T.</mj-text>
+          <mj-text color="#fff">That's when Fahd changed tactics and bribed AT&T employees to install malware on AT&T's network at the Bothell call center. Between April and October 2013, this initial malware collected data on how AT&T infrastructure worked. In November 2014, as Fahd began having problems controlling this malware, the DOJ said he also bribed AT&T employees to install rogue wireless access points inside AT&T's Bothell call center. These devices helped Fahd with gaining access to AT&T internal apps and network, and continue the rogue phone unlocking scheme. Fahd was arrested in Hong Kong in February 2018, and extradited to the US on August 2, last week. He now faces a litany of charges that may send him behind bars for up to 20 years.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/at-t-employees-took-bribes-to-plant-malware-on-the-companys-network/">
+            Read More
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/doj-bribed-att-workers-planted-malware-on-carriers-network-a-12885">
+            Even More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">SWAPGS Attack — New Speculative Execution Flaw Affects All Modern Intel CPUs</mj-text>
+          <mj-image src="https://media.threatpost.com/wp-content/uploads/sites/103/2019/05/20093736/CPU_Microprocessor.jpg"></mj-image>
+          <mj-text> A new variant of the Spectre (Variant 1) side-channel vulnerability has been discovered that affects all modern Intel CPUs, and probably some AMD processors as well, which leverage speculative execution for high performance, Microsoft and Red Hat warned. Identified as CVE-2019-1125, the vulnerability could allow unprivileged local attackers to access sensitive information stored in the operating system privileged kernel memory, including passwords, tokens, and encryption keys, that would otherwise be inaccessible.</mj-text>
+          <mj-text> Speculative execution is a core component of modern microprocessor design that speculatively executes instructions based on assumptions that are considered likely to be true. If the assumptions come out to be valid, the execution continues, otherwise discarded.</mj-text>
+          <mj-text>Microsoft silently issued patches for the new speculative execution vulnerability in its July 2019 Patch Tuesday security update which was discovered and responsibly disclosed by researchers at security firm Bitdefender.  Since the attack can not be launched remotely, it is unlikely to cause mass malware infections, like EternalBlue was used for WannaCry; instead, it can be exploited as part of an extremely targeted attack.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2019/08/swapgs-speculative-execution.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/vulnerability-kubernetes-allows-access-custom-resources">Vulnerability in Kubernetes Allows Access to Custom Resources</a></li>
+              <li><a class="lnk-pink" href="https://securityintelligence.com/posts/package-delivery-cybercriminals-at-your-doorstep/">Package Delivery! Cybercriminals at Your Doorstep</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/baldr-credential-stealing-malware-targets-gamers-a-12892">Baldr Credential-Stealing Malware Targets Gamers</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/google-amp/article/three-ads-generate-5-5-times-more-revenue-than-a-web-based-cryptojacking-script/">Three ads generate 5.5 times more revenue than a web-based cryptojacking script</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/state-farm-investigates-credential-stuffing-attack-a-12893">State Farm Investigates Credential-Stuffing Attack</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/microsoft-to-disable-vbscript-by-default-on-august-13th/">Microsoft To Disable VBScript by Default on August 13th</a></li>
+              <li><a class="lnk-pink" href="https://www.schneier.com/blog/archives/2019/08/supply-chain_at.html">Supply-Chain Attack against the Electron Development Platform</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-trojan-records-your-screen-when-on-sex-related-sites/">New Trojan Records Your Screen When on Sex Related Sites</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/clever-amazon-phishing-scam-creates-login-prompts-in-pdf-docs/">Clever Amazon Phishing Scam Creates Login Prompts in PDF Docs</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2019/08/07/dont-let-the-crooks-borrow-your-home-router-as-a-hacking-server/">Don’t let the crooks ‘borrow’ your home router as a hacking server</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/fundamentals-developing-effective-devsecops">The Fundamentals of Developing Effective DevSecOps</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/08/android-qualcomm-vulnerability.html">New Flaws in Qualcomm Chips Expose Millions of Android Devices to Hacking</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/apple-expands-bug-bounty-to-macos-raises-bug-rewards/">Apple expands bug bounty to macOS, raises bug rewards</a></li>
+              <li><a class="lnk-orange" href="https://blog.cloudflare.com/introducing-certificate-transparency-monitoring/">Cloudflare Introduces Certificate Transparency Monitoring</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/democratic-campaign-group-left-6-million-emails-exposed-a-12895">Democratic Campaign Group Left 6 Million Emails Exposed</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/steam-zero-day-vulnerability-affects-over-100-million-users/">Steam Zero-Day Vulnerability Affects Over 100 Million Users</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/threesome-app-exposes-user-data-pics-from-london-to-the-white-house/">Threesome app exposes user data, locations from London to the White House</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/microsofts-new-vulnerability-tracking-service-is-about-it-productivity/">Microsoft releases new vulnerability tracking service</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/swapgs-vulnerability-in-modern-cpus-fixed-in-windows-linux-chromeos/">SWAPGS Vulnerability in Modern CPUs Fixed in Windows, Linux, ChromeOS</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/08/reverse-rdp-windows-hyper-v.html">Reverse RDP Attack Also Enables Guest-to-Host Escape in Microsoft Hyper-V</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/cisco-patches-critical-flaws-network-switches">Cisco Patches Critical Flaws in Network Switches</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/whatsapp-vulnerabilities-puts-words-in-your-mouth-lets-hackers-tamper-with-text/">WhatsApp vulnerabilities 'put words in your mouth,' lets hackers take over conversations</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2019/08/08/update-your-iphone-remote-control-holes-revealed/">Update your iPhone – remote control holes revealed by researchers</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/researchers-find-vulnerabilities-boeing-787-firmware">Researchers Find Vulnerabilities in Boeing 787 Firmware</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/unpatched-kde-vulnerability-disclosed-on-twitter/">Unpatched KDE vulnerability disclosed on Twitter</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/08/06/nvidia-patches-bugs-in-gpu-drivers-shield/">NVIDIA patches high-severity bugs in Windows GPUs and SHIELD</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/08/07/latest-android-patches-fix-critical-qualpwn-wi-fi-flaws/">Latest Android patches fix critical ‘QualPwn’ Wi-Fi flaws</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-pink" href="https://amonitoring.ru/article/steamclient-0day/">Steam Windows Client Local Privilege Escalation 0day</a></li>
+              <li><a class="lnk-blue" href="https://github.com/roflsandwich/Steam-EoP">Steam Escalation of Privileges PoC</a></li>
+              <li><a class="lnk-green" href="https://artificesecurity.com/blog/2019/8/6/how-to-build-your-own-penetration-testing-drop-box-using-a-raspberry-pi-4">How to Build Your Own Penetration Testing Dropbox Using a Raspberry Pi 4</a></li>
+              <li><a class="lnk-orange" href="https://github.com/miriamxyra/EventList">EventList:  Microsoft Security Baselines with MITRE ATT&CK</a></li>
+              <li><a class="lnk-purple" href="https://forensixchange.com/posts/19_05_07_dns_investigation/">DNS investigation on Windows</a></li>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/enter-mordor-pre-recorded-security-events-from-simulated-adversarial-techniques-fdf5555c9eb1">Enter Mordor: Pre-recorded Security Events from Simulated Adversarial Techniques</a></li>
+              <li><a class="lnk-pink" href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/august/tools-and-methods-for-auditing-kubernetes-rbac-policies/">Tools and Methods for Auditing Kubernetes RBAC Policies</a></li>
+              <li><a class="lnk-green" href="http://pentestit.com/list-of-open-source-c2-post-exploitation-frameworks/">List of Open Source C2 Post-Exploitation Frameworks</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/@0x4d31/rdp-client-fingerprinting-9e7ac219f7f4">Profiling RDP Clients with JA3 and RDFP</a></li>
+              <li><a class="lnk-purple" href="https://research.checkpoint.com/reverse-rdp-the-hyper-v-connection/">Reverse RDP Attack: The Hyper-V Connection</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@contrastcrypto/5-encrypted-messaging-apps-doing-a-better-job-than-whatsapp-7ab97235045a">5 Encrypted Messaging Apps Doing A Better Job Than WhatsApp</a></li>
+              <li><a class="lnk-pink" href="https://github.com/Greenwolf/social_attacker">social_attacker: Multi Site Automated Social Media Phishing Framework </a></li>
+              <li><a class="lnk-green" href="https://portswigger.net/blog/http-desync-attacks-request-smuggling-reborn">HTTP Desync Attacks: Request Smuggling Reborn</a></li>
+              <li><a class="lnk-orange" href="https://blog.sublimesecurity.com/emailrep-query-and-report/">EmailRep: Free API to query email reputation and report malicious senders</a></li>
+              <li><a class="lnk-purple" href="https://github.com/veeral-patel/incidents">Incident: web-based case management for incident response</a></li>
+              <li><a class="lnk-blue" href="https://nullprogram.com/blog/2019/07/10/">Predictable, Passphrase-Derived PGP Keys</a></li>
+              <li><a class="lnk-pink" href="https://tactifail.wordpress.com/2019/07/26/three-vulns-for-the-price-of-one/">Three (And A Half) Vulns For The Price of One!</a></li>
+              <li><a class="lnk-green" href="https://start.jcolemorrison.com/the-technical-side-of-the-capital-one-aws-security-breach/amp/?__twitter_impression=true">The Technical Side of the Capital One AWS Security Breach</a></li>
+              <li><a class="lnk-orange" href="https://rhinosecuritylabs.com/aws/capital-one-cloud_breach_s3-cloudgoat/">The Capital One Breach & “cloud_breach_s3” CloudGoat Scenario</a></li>
+              <li><a class="lnk-purple" href="https://blog.doyensec.com/2019/08/01/common-crypto-bugs.html">Lessons in auditing cryptocurrency wallets, systems, and infrastructures</a></li>
+              <li><a class="lnk-blue" href="https://capturethecoin.org/">CTF on blockchain security</a></li>
+              <li><a class="lnk-pink" href="https://m0chan.github.io/2019/07/31/How-To-Attack-Kerberos-101.html">How to Attack kerberos 101</a></li>
+              <li><a class="lnk-green" href="https://dirteam.com/sander/2012/09/05/new-features-in-active-directory-domain-services-in-windows-server-2012-part-11-kerberos-armoring-fast/">Kerberos Armoring (FAST)</a></li>
+              <li><a class="lnk-blue" href="https://eql.readthedocs.io/en/latest/">Event Query Language</a></li>
+              <li><a class="lnk-pink" href="https://atomicredteam.io/">Atomic Red Team</a></li>
+              <li><a class="lnk-green" href="https://i.blackhat.com/USA-19/Thursday/us-19-Smith-Fantastic-Red-Team-Attacks-And-How-To-Find-Them.pdf">Fantastic Red Team Attacks and how to find them</a></li>
+            </ul>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
