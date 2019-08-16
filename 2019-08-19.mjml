@@ -1,0 +1,214 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 19/08/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/--TuXhSjQJ4k/XVMGvLvxCaI/AAAAAAAA0uA/_sDfKuYdqNkDAq3WfH-f5q1ix9bmDqCOACLcBGAs/s728-e100/windows-rdp-wormable-flaws.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">19 August 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">4 New BlueKeep-like 'Wormable' Windows Remote Desktop Flaws Discovered</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/--TuXhSjQJ4k/XVMGvLvxCaI/AAAAAAAA0uA/_sDfKuYdqNkDAq3WfH-f5q1ix9bmDqCOACLcBGAs/s728-e100/windows-rdp-wormable-flaws.jpg"></mj-image>
+          <mj-text color="#fff">If you are using any supported version of the Windows operating system, stop everything and install the latest security updates from Microsoft immediately. Windows operating system contains four new critical wormable, remote code execution vulnerabilities in Remote Desktop Services, similar to the recently patched 'BlueKeep' RDP vulnerability.</mj-text>
+          <mj-text color="#fff">Discovered by Microsoft's security team itself, all four vulnerabilities, CVE-2019-1181, CVE-2019-1182, CVE-2019-1222, and CVE-2019-1226, can be exploited by unauthenticated, remote attackers to take control of an affected computer system without requiring any user interaction. Just like BlueKeep RDP flaw, all four newly discovered vulnerabilities are also wormable and could be exploited by potential malware to propagate itself from one vulnerable computer to another automatically.</mj-text>
+          <mj-text color="#fff">Besides these four critical security flaws, Microsoft has also patched 89 vulnerabilities as part of the company's monthly batch of software security updates for August, 25 of which are rated critical and 64 important in severity.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/08/windows-rdp-wormable-flaws.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">8 New HTTP/2 Implementation Flaws Expose Websites to DoS Attacks</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-eaftlW80dkA/XVPMSbDAjDI/AAAAAAAA0ug/pnRARMvH05Ywy8BK8RKTaatsq7eP3zh7QCLcBGAs/s728-e100/http2-dos-vulnerability.jpg"></mj-image>
+          <mj-text>Various implementations of HTTP/2, the latest version of the HTTP network protocol, have been found vulnerable to multiple security vulnerabilities affecting the most popular web server software, including Apache, Microsoft's IIS, and NGINX.</mj-text>
+          <mj-text>Launched in May 2015, HTTP/2 has been designed for better security and improved online experience by speeding up page loads. Today, over hundreds of millions of websites, or some 40 percent of all the sites on the Internet, are running using HTTP/2 protocol. A total of eight high-severity HTTP/2 vulnerabilities, seven discovered by Jonathan Looney of Netflix and one by Piotr Sikora of Google, exist due to resource exhaustion when handling malicious input, allowing a client to overload server's queue management code.</mj-text>
+          <mj-text>However, it should be noted that the vulnerabilities can only be used to cause a DoS condition and do not allow attackers to compromise the confidentiality or integrity of the data contained within the vulnerable servers. According to CERT, affected vendors include NGINX, Apache, H2O, Nghttp2, Microsoft (IIS), Cloudflare, Akamai, Apple (SwiftNIO), Amazon, Facebook (Proxygen), Node.js, and Envoy proxy, many of which have already released security patches and advisories.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2019/08/http2-dos-vulnerability.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/new-http-2-flaws-expose-unpatched-web-servers-to-dos-attacks/">
+            Even More on BleepingComputer
+                    </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/08/15/null-license-plate-gets-security-researcher-12k-in-tickets/">‘NULL’ license plate gets security researcher $12K in tickets</a></li>
+              <li><a class="lnk-pink" href="https://www.darkreading.com/edge/theedge/5-things-to-know-about-cyber-insurance-/b/d-id/1335526">5 Things to Know About Cyber Insurance</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2019/08/meet-bluetana-the-scourge-of-pump-skimmers/">Meet Bluetana, the Scourge of Pump Skimmers</a></li>
+              <li><a class="lnk-orange" href="https://www.troyhunt.com/extended-validation-certificates-are-really-really-dead/">Extended Validation Certificates are (Really, Really) Dead</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/choice-hotels-700000-guest-records-exposed-a-12913">Choice Hotels: 700,000 Guest Records Exposed</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/08/android-local-user-verification.html">Android Users Can Now Log in to Google Services Using Fingerprint</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/google/google-has-started-removing-ftp-support-from-chrome/">Google Has Started Removing FTP Support From Chrome</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/08/15/hacking-forum-spills-rivals-321000-member-database/">Hacking forum spills rival’s 321,000 member database</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/four-major-dating-apps-expose-precise-locations-of-10-million-users/">Four major dating apps expose precise locations of 10 million users</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/new-norman-cryptominer-uses-dynamic-dns-for-c2-communication/">New Norman Cryptominer Uses Dynamic DNS for C2 Communication</a></li>
+              <li><a class="lnk-blue" href="https://www.schneier.com/blog/archives/2019/08/exploiting_gdpr.html">Exploiting GDPR to Get Private Information</a></li>
+              <li><a class="lnk-pink" href="https://pwnies.com/winners/">Pwnie Awards 2019 Winners</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/free-manrs-tool-helps-improve-routing-security">Free MANRS Tool Helps Improve Routing Security</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/sqlite-vulnerability-permits-ios-hack-report-a-12911">SQLite Vulnerability Permits iOS Hack: Report</a></li>
+              <li><a class="lnk-purple" href="https://www.whitehatsec.com/news/annual-research-from-whitehat-security-says-remediation-rates-for-app-vulnerabilities-continue-to-fall/">Annual Research from WhiteHat Security Says Remediation Rates for App Vulnerabilities Continue to Fall</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-bluetooth-knob-attack-lets-attackers-manipulate-traffic/">New Bluetooth KNOB Attack Lets Attackers Manipulate Traffic</a></li>
+              <li><a class="lnk-pink" href="https://techcrunch.com/2019/08/09/aws-ebs-cloud-backups-leak/">Hundreds of exposed Amazon cloud backups found leaking sensitive data</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/repurposing-mac-malware-not-difficult-researcher-shows">Repurposing Mac Malware Not Difficult, Researcher Shows</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/hidden-injection-flaws-found-big-ip-load-balancers">Hidden Injection Flaws Found in BIG-IP Load Balancers</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/microsoft-office-phishers-move-to-enterprise-aws-landing-pages/">Microsoft Office Phishers Move to Enterprise AWS Landing Pages</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2019/08/patch-tuesday-august-2019-edition/">Patch Tuesday, August 2019 Edition</a></li>
+              <li><a class="lnk-pink" href="https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-002.md">HTTP/2 Denial of Service Advisory</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/windows-10-security-alert-vulnerabilities-found-in-over-40-drivers/">Windows 10 Security Alert: Vulnerabilities Found in Over 40 Drivers</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/08/libreoffice-patch-update.html">Patches for 2 Severe LibreOffice Flaws Bypassed — Update to Patch Again</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/many-apache-struts-security-advisories-updated-following-review">Many Apache Struts Security Advisories Updated Following Review</a></li>
+              <li><a class="lnk-blue" href="bleepingcomputer.com/news/microsoft/windows-ctf-flaws-enable-attackers-to-fully-compromise-systems/">Windows CTF Flaws Enable Attackers to Fully Compromise Systems</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/sap-patches-highest-number-critical-flaws-2014">SAP Patches Highest Number of Critical Flaws Since 2014</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/08/15/firefox-fixes-master-password-security-bypass-bug/">Firefox fixes “master password” security bypass bug</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/steam-security-vulnerability-fixed-researchers-dont-agree/">Steam Security Vulnerability Fixed, Researchers Don't Agree</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://resources.whitesourcesoftware.com/blog-whitesource/kubernetes-pod-security-policy">Kubernetes Pod Security Policy Best Practices</a></li>
+              <li><a class="lnk-pink" href="https://hausec.com/2019/08/12/offensive-lateral-movement/">Offensive Lateral Movement</a></li>
+              <li><a class="lnk-green" href="https://securityledger.com/2019/08/huge-survey-of-firmware-finds-no-security-gains-in-15-years/">Huge Survey of Firmware Finds No Security Gains in 15 Years</a></li>
+              <li><a class="lnk-orange" href="https://application.security/">SSRF (Server Side Request Forgery) interrative tutorial</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/how-to-change-a-root-password-in-a-docker-image/">How to change a root password in a Docker image</a></li>
+              <li><a class="lnk-blue" href="https://sploitus.com/rss">Public Exploits RSS Feed</a></li>
+              <li><a class="lnk-pink" href="https://googleprojectzero.blogspot.com/2019/08/down-rabbit-hole.html">Down the Rabbit-Hole...</a></li>
+              <li><a class="lnk-green" href="https://utkusen.com/blog/generating-personalized-wordlists.html">Generating Personalized Wordlists with NLP For Password Guessing Attacks</a></li>
+              <li><a class="lnk-orange" href="https://research.checkpoint.com/say-cheese-ransomware-ing-a-dslr-camera/">Say Cheese: Ransomware-ing a DSLR Camera</a></li>
+              <li><a class="lnk-purple" href="https://raesene.github.io/blog/2019/08/10/making-it-rain-shells-in-Kubernetes/">Making it Rain shells in Kubernetes
+</a></li>
+              <li><a class="lnk-blue" href="https://www.fireeye.com/blog/threat-research/2019/08/commando-vm-customization-containers-kali.html">Commando VM 2.0: Customization, Containers, and Kali, Oh My!</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@williambengtson/active-defense-dynamically-locking-aws-credentials-to-your-environment-47a9c920e704">Active Defense - Dynamically Locking AWS Credentials to Your Environment</a></li>
+              <li><a class="lnk-green" href="URL">SILENTTRINITY: multiserver/multiuser open source C2</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
