@@ -1,0 +1,210 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 26/08/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/posts/2019/08/20/magecart_poker.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">26 August 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">PokerTracker.com Hacked to Inject Payment Card Stealing Script</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2019/08/20/magecart_poker.jpg"></mj-image>
+          <mj-text color="#fff">A curious case of web-based card skimming activity revealed that the Poker Tracker website had been compromised and loaded a Magecart script - code that steals payment information from customers. Online poker enthusiasts use the Poker Tracker software suite to improve their winning chances by making decisions based on statistics compiled from the opponents' gameplay.</mj-text>
+          <mj-text color="#fff">One early theory was that the application had been compromised. This would have been an unusual development for web skimmers since their presence has been observed only on websites. However, a closer look at the software showed that it can load and display web pages from the PokerTracker subdomain 'pt4.pokertracker.com.' Both sources had been hacked and injected with the malicious code causing the software to load it at every launch. Any payment made through the application or its website would copy the attacker with the payment details.</mj-text>
+          <mj-text color="#fff">The compromise was possible because PokerTracker.com was running Drupal 6.3.x, an outdated version that has security vulnerabilities. The latest release for the platform is 8.6.17, available since June 17. Looking at the attacker's server, Segura found multiple skimmers all of them customized for each victim. The owners of PokerTracker have been contacted and they acted promptly to fix the problem. Malwarebytes was told that the site has improved the Content Security Policy (CSP), a web security standard that allows controlling the resources loaded for specific web pages.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/pokertrackercom-hacked-to-inject-payment-card-stealing-script/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://blog.malwarebytes.com/threat-analysis/2019/08/magecart-criminals-caught-stealing-poker-face/">
+            Even More from Malwarebytes Blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Forced Password Reset? Check Your Assumptions</mj-text>
+          <mj-image src="https://www.ancestrycdn.com/support/us/2019/02/reset-06.png"></mj-image>
+          <mj-text>Almost weekly now I hear from an indignant reader who suspects a data breach at a Web site they frequent that has just asked the reader to reset their password. Further investigation almost invariably reveals that the password reset demand was not the result of a breach but rather the site’s efforts to identify customers who are reusing passwords from other sites that have already been hacked. But ironically, many companies taking these proactive steps soon discover that their explanation as to why they’re doing it can get misinterpreted as more evidence of lax security. This post attempts to unravel what’s going on here.</mj-text>
+          <mj-text>The reality is Facebook, Netflix and a number of big-name companies are regularly combing through huge data leak troves for credentials that match those of their customers, and then forcing a password reset for those users. Some are even checking for password re-use on all new account signups. The idea here is to stymie a massively pervasive problem facing all companies that do business online today: Namely, “credential-stuffing attacks,” in which attackers take millions or even billions of email addresses and corresponding cracked passwords from compromised databases and see how many of them work at other online properties.</mj-text>
+          <mj-text>So how does the defense against this daily deluge of credential stuffing work? A company employing this strategy will first extract from these leaked credential lists any email addresses that correspond to their current user base. From there, the corresponding cracked (plain text) passwords are fed into the same process that the company relies upon when users log in: That is, the company feeds those plain text passwords through its own password “hashing” or scrambling routine. If a user’s plain text password from a hacked database matches the output of what a company would expect to see after running it through their own internal hashing process, that user is then prompted to change their password to something truly unique.</mj-text>
+          <mj-text>I can’t stress this enough: Do not re-use passwords. And don’t recycle them either. Recycling involves rather lame attempts to make a reused password unique by simply adding a digit or changing the capitalization of certain characters. Crooks who specialize in password attacks are wise to this approach as well.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://krebsonsecurity.com/2019/08/forced-password-reset-check-your-assumptions/">
+            Read More on KrebsOnSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/08/22/massive-moviepass-database-found-exposed-on-public-server/">Massive MoviePass database found exposed on public server</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2019/08/breach-at-hy-vee-supermarket-chain-tied-to-sale-of-5m-stolen-credit-debit-cards/">Breach at Hy-Vee Supermarket Chain Tied to Sale of 5M+ Stolen Credit, Debit Cards</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/employees-connect-nuclear-plant-to-the-internet-so-they-can-mine-cryptocurrency/">Employees connect nuclear plant to the internet so they can mine cryptocurrency</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/chrome-devs-propose-privacy-sandbox-to-balance-ad-targeting-user-privacy/">Chrome devs propose Privacy Sandbox to balance ad targeting and user privacy</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/uk-cybersecurity-agency-warns-devs-to-drop-python-2-due-to-looming-eol-security-risks/">UK cybersecurity agency warns devs to drop Python 2 due to looming EOL & security risks</a></li>
+              <li><a class="lnk-blue" href="https://citizenlab.ca/2019/08/canadas-new-and-irresponsible-encryption-policy-how-the-government-of-canadas-new-policy-threatens-charter-rights-cybersecurity-economic-growth-and-foreign-policy/">Canada’s New and Irresponsible Encryption Policy</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/apple-google-and-mozilla-block-kazakhstans-https-intercepting-certificate/">Apple, Google, and Mozilla block Kazakhstan's HTTPS intercepting certificate</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/visa-adds-new-threat-detection-to-prevent-payment-fraud/">Visa Adds New Threat Detection to Prevent Payment Fraud</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/blogs/apples-top-1m-bug-bounty-too-much-p-2783">Is Apple's Top $1 Million Bug Bounty Too Much?</a></li>
+              <li><a class="lnk-purple" href="https://www.microsoft.com/security/blog/2019/08/20/one-simple-action-you-can-take-to-prevent-99-9-percent-of-account-attacks/">One simple action you can take to prevent 99.9 percent of attacks on your accounts</a></li>
+              <li><a class="lnk-blue" href="https://www.welivesecurity.com/2019/08/23/cyberbullying-what-schools-teachers-can-do/">Cyberbullying: What schools and teachers can do</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/80-suspects-arrested-in-massive-business-email-scam-takedown/">80 suspects arrested in massive business email scam takedown</a></li>
+              <li><a class="lnk-green" href="https://www.youtube.com/watch?time_continue=76&v=hj3ZRv9cMBw">Thieves caught using keyless hack to steal £90,000 Tesla in 30 seconds.</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/unpatched-squid-servers-exposed-to-dos-code-execution-attacks/">Unpatched Squid Servers Exposed to DoS, Code Execution Attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/valve-patches-recent-steam-zero-days-calls-turning-away-researcher-a-mistake/">Valve patches recent Steam zero-days, calls turning away researcher 'a mistake'</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cisco-warns-of-public-exploit-code-for-critical-switch-flaws/">Cisco Warns of Public Exploit Code for Critical Switch Flaws</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/bitdefender-fixes-privilege-escalation-bug-in-free-antivirus-2020/">Bitdefender Fixes Privilege Escalation Bug in Free Antivirus 2020</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/second-steam-zero-day-impacts-over-96-million-windows-users/">Second Steam Zero-Day Impacts Over 96 Million Windows Users</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/microsoft-patches-vulnerable-android-remote-desktop-app/">Microsoft Patches Vulnerable Android Remote Desktop App</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/claroty-releases-free-diagnostic-tool-urgent11-vulnerabilities">Claroty Releases Free Diagnostic Tool for Urgent/11 Vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/08/23/bumper-cisco-patches-fix-four-new-critical-vulnerabilities/">Bumper Cisco patches fix four new ‘critical’ vulnerabilities</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/npm-pulls-malicious-package-that-stole-login-passwords/">npm Pulls Malicious Package that Stole Login Passwords</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/backdoor-code-found-in-11-ruby-libraries/">Backdoor code found in 11 Ruby libraries</a></li>
+              <li><a class="lnk-green" href="https://dttw.tech/posts/SJ40_7MNS">Here We Go Again: A DEF CON 2019 Retrospective</a></li>
+              <li><a class="lnk-orange" href="https://blog.doyensec.com/2019/08/22/modern-password-managers-flag-secure.html">One Bug To Rule Them All: Modern Android Password Managers and FLAG_SECURE Misuse</a></li>
+              <li><a class="lnk-purple" href="https://www.pwc.co.uk/issues/imitation-game-attacker-emulation.html">The Imitation Game: Attacker Emulation (Caldera)</a></li>
+              <li><a class="lnk-blue" href="https://www.onsecurity.co.uk/blog/gaining-persistent-access-to-burps-collaborator-sessions">Gaining persistent access to Burp Suite's Collaborator sessions - a step-by-step guide</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@d.bougioukas/blue-team-diary-entry-1-leveraging-osquery-for-enhanced-incident-response-threat-hunting-70935538c9c3">Entry #1: Leveraging Osquery For Enhanced Incident Response & Threat Hunting (Free Video Training)</a></li>
+              <li><a class="lnk-green" href="https://safebreach.com/Post/BitDefender-Antivirus-Free-2020-Privilege-Escalation-to-SYSTEM">BitDefender Antivirus Free 2020 - Privilege Escalation to SYSTEM</a></li>
+              <li><a class="lnk-orange" href="https://github.com/authcov/authcov">AuthCov: Web app authorization coverage scanning.</a></li>
+              <li><a class="lnk-purple" href="https://www.malwaretech.com/2019/08/dejablue-analyzing-a-rdp-heap-overflow.html">DejaBlue: Analyzing a RDP Heap Overflow</a></li>
+              <li><a class="lnk-blue" href="https://linkai.io/blog/managing-secrets/">Managing Secrets in AWS using Systems manager (SSM)</a></li>
+              <li><a class="lnk-pink" href="https://www.malwarearchaeology.com/cheat-sheets">Logging Cheat Sheets</a></li>
+              <li><a class="lnk-green" href="https://github.com/rabobank-cdc/DeTTECT/wiki">DeTT&CT: aims to assist blue teams in using ATT&CK to score and compare data log source </a></li>
+              <li><a class="lnk-orange" href="https://blog.trailofbits.com/2019/05/31/using-osquery-for-remote-forensics/">Using osquery for remote forensics</a></li>
+              <li><a class="lnk-purple" href="https://www.dactiv.llc/blog/defcon-deep-infrastructure-visibility/">Deep infrastructure visibility with OSquery and Fleet</a></li>
+              <li><a class="lnk-blue" href="https://github.com/miriamxyra/EventList">EventList: Combining Microsoft Security Baselines with MITRE ATT&CK and generating hunting queries for your SIEM system</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
