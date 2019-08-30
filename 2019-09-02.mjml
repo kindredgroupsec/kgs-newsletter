@@ -1,0 +1,238 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 02/09/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-J5n2iPQPiXc/XWjRQejM7wI/AAAAAAAA05g/LeC_7bUauFcYPizAq3Zzga22P95D1manwCLcBGAs/s728-e100/iphone-hacking-software.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">2 September 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Google Uncovers How Just Visiting Some Sites Were Secretly Hacking iPhones For Years</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-J5n2iPQPiXc/XWjRQejM7wI/AAAAAAAA05g/LeC_7bUauFcYPizAq3Zzga22P95D1manwCLcBGAs/s728-e100/iphone-hacking-software.jpg"></mj-image>
+          <mj-text color="#fff">Your iPhone can be hacked just by visiting an innocent-looking website, confirms a terrifying report Google researchers released earlier today. The story goes back to a widespread iPhone hacking campaign that cybersecurity researchers from Google's Project Zero discovered earlier this year in the wild, involving at least five unique iPhone exploit chains capable of remotely jailbreaking an iPhone and implanting spyware on it.</mj-text>
+          <mj-text color="#fff">Those iOS exploit chains were found exploiting a total of 14 separate vulnerabilities in Apple's iOS mobile operating system—of which 7 flaws resided in Safari web browser, 5 in the iOS kernel and 2 separate sandbox escape issues—targeting devices with almost every version in that time-frame from iOS 10 through to the latest version of iOS 12.</mj-text>
+          <mj-text color="#fff">Now, as Google researcher explained, the attack was being carried out through a small collection of hacked websites with thousands of visitors per week, targeting every iOS user landing on those websites without discrimination. The iPhone exploits were used to deploy an implant primarily designed to steal files like iMessages, photos, and live GPS location data of users, and upload them to an external server every 60 seconds. Takeaway: Since Apple already patched the majority of vulnerabilities exploited by the uncovered iPhone exploits, users are always recommended to keep their devices up-to-date to avoid becoming victims of such attack chains.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://amp.thehackernews.com/thn/2019/08/hacking-iphone-ios-exploits.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2019/08/30/sophisticated-iphone-hacking-went-unnoticed-for-over-two-years/">
+            Even More on NakedSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Cybersecurity Firm Imperva Discloses Breach</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2019/08/incapcloud.png"></mj-image>
+          <mj-text>Imperva, a leading provider of Internet firewall services that help Web sites block malicious cyberattacks, alerted customers on Tuesday that a recent data breach exposed email addresses, scrambled passwords, API keys and SSL certificates for a subset of its firewall users.</mj-text>
+          <mj-text>Redwood Shores, Calif.-based Imperva sells technology and services designed to detect and block various types of malicious Web traffic, from denial-of-service attacks to digital probes aimed at undermining the security of Web-based software applications.</mj-text>
+          <mj-text>“On August 20, 2019, we learned from a third party of a data exposure that impacts a subset of customers of our Cloud WAF product who had accounts through September 15, 2017,” wrote Heli Erickson, director of analyst relations at Imperva. We want to be very clear that this data exposure is limited to our Cloud WAF product. “The moral of the story here is that people need to be asking tough questions of software-as-a-service firms they rely upon, because those vendors are being trusted with the keys to the kingdom,” Knight said. “Even if the vendor in question is a cybersecurity company, it doesn’t necessarily mean they’re eating their own dog food.”"</mj-text>
+          <mj-button mj-class="bg-pink" href="https://krebsonsecurity.com/2019/08/cybersecurity-firm-imperva-discloses-breach/">
+            Read More on KrebsOnSecurity
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/imperva-discloses-security-incident-impacting-cloud-firewall-users/">
+            Even More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Facial Recognition Use in Swedish School Triggers GDPR Fine</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/facial-recognition-use-triggers-gdpr-fine-showcase_image-10-a-12991.jpg"></mj-image>
+          <mj-text>Sweden's Data Protection Authority has issued its first fine for violations of the European Union's General Data Protection regulation after a school launched a facial recognition pilot program to track students' attendance without proper consent.</mj-text>
+          <mj-text>The country's privacy authority issued a fine of 200,000 Swedish Krona ($20,700) to the municipality where the unnamed school is located for violating several of the privacy and biometrics provisions of GDPR, according to the European Data Protection Board. The municipality could have faced a €1 million ($1.1 million) penalty under GDPR, according to the privacy board.</mj-text>
+          <mj-text>Although municipal officials argued that the pilot program at the school was started with the students' consent, a spokesperson for the Swedish Data Protection Authority tells Information Security Media Group that the consent was not legally valid because "there is a clear imbalance between the data subject (the pupil) and the controller (the municipality)." The spokesperson added that it's waiting to hear if the municipality will appeal the fine.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bankinfosecurity.com/facial-recognition-use-triggers-gdpr-fine-a-12991">
+            Read More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/google-adds-all-android-apps-with-100m-installs-to-its-bug-bounty-program/">Google adds all Android apps with +100m installs to its bug bounty program</a></li>
+              <li><a class="lnk-pink" href="http://www.infosecisland.com/blogview/25219-Three-Strategies-to-Avoid-Becoming-the-Next-Capital-One.html">Three Strategies to Avoid Becoming the Next Capital One</a></li>
+              <li><a class="lnk-green" href="https://heimdalsecurity.com/blog/what-is-social-engineering-tactics/">What Is Social Engineering: The Tactics Used to Manipulate You</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/08/29/web-clickjacking-fraud-makes-a-comeback-thanks-to-javascript-tricks/">Web clickjacking fraud makes a comeback thanks to JavaScript tricks</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/08/magecart-hacking-credit-card.html">Magecart Hackers Compromise 80 More eCommerce Sites to Steal Credit Cards</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/08/retadup-botnet-malware.html">French Police Remotely Removed RETADUP Malware from 850,000 Infected PCs</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/microsoft-using-multi-factor-authentication-blocks-99-9-of-account-hacks/">Microsoft: Using multi-factor authentication blocks 99.9% of account hacks</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/more-than-half-of-login-attempts-on-social-media-accounts-are-fraudulent/">More than half of login attempts on social media accounts are fraudulent</a></li>
+              <li><a class="lnk-purple" href="https://www.schneier.com/blog/archives/2019/08/the_myth_of_con.html">The Myth of Consumer-Grade Security</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/08/28/android-q-to-hit-streets-sept-3/">Android 10 coming soon, with important privacy upgrades</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/08/27/github-joins-webauthn-club/">GitHub joins WebAuthn club</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/08/web-hosting-hostinger-breach.html">Hostinger Suffers Data Breach – Resets Password For 14 Million Users</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/starbucks-abandons-azure-site-exposed-subdomain-to-hijacking/">Starbucks Abandons Azure Site, Exposed Subdomain to Hijacking</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/08/binance-kyc-data-leak_26.html">Binance Confirms Hacker Obtained Its Users' KYC Data from 3rd-Party Vendor</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/windows-7-still-used-in-almost-50-percent-of-surveyed-businesses/">Windows 7 Still Used in Almost 50% of Surveyed Businesses</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/08/android-camscanner-malware.html">WARNING — Malware Found in CamScanner Android App With 100+ Million Users</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/company-behind-foxit-pdf-reader-announces-security-breach/">Company behind Foxit PDF Reader announces security breach</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/08/dds-safe-dental-ransomware-attack.html">Ransomware Hits Dental Data Backup Service Offering Ransomware Protection</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/russian-police-take-down-malware-gang-that-infected-800000-android-smartphones/">Russian police take down malware gang that infected 800,000+ Android smartphones</a></li>
+
+              <li><a class="lnk-purple" href="http://www.infosecisland.com/blogview/25218-Why-a-Business-Focused-Approach-to-Security-Assurance-Should-Be-an-Ongoing-Investment-.html">Why a Business-Focused Approach to Security Assurance Should Be an Ongoing Investment</a></li>
+              <li><a class="lnk-blue" href="https://securelist.com/incident-response-analytics-report-2018/92732/">Kaspersky Incident Response report 2018</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/code-execution-flaw-qemu-mostly-impacts-development-test-vms">Code Execution Flaw in QEMU Mostly Impacts Development, Test VMs</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/08/apple-ios-iphone-jailbreak.html">Apple Releases iOS 12.4.1 Emergency Update to Patch 'Jailbreak' Flaw</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/cisco-ucs-vulnerabilities-allow-complete-takeover-affected-systems">Cisco UCS Vulnerabilities Allow Complete Takeover of Affected Systems</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/cisco-fixes-critical-bug-in-virtual-service-container-for-ios-xe/">Cisco Fixes Critical Bug in Virtual Service Container for IOS XE</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/dll-hijacking-flaw-patched-check-point-endpoint-security">DLL Hijacking Flaw Patched in Check Point Endpoint Security</a></li>
+              <li><a class="lnk-blue" href="https://badpackets.net/over-14500-pulse-secure-vpn-endpoints-vulnerable-to-cve-2019-11510/">Over 14,500 pulse secure vpn endpoints vulnerable to cve-2019-11510</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/how-to-use-harbor-to-scan-docker-images-for-vulnerabilities/">How to use Harbor to scan Docker images for vulnerabilities</a></li>
+              <li><a class="lnk-pink" href="https://aws.amazon.com/blogs/security/nine-aws-security-hub-best-practices/">Nine AWS Security Hub best practices</a></li>
+              <li><a class="lnk-green" href="https://github.com/precurse/zeek-httpattacks">zeek-httpattacks: detects HTTP requests that are non RFC compliant and used for smuggling</a></li>
+              <li><a class="lnk-orange" href="https://enigma0x3.net/2019/08/29/avira-optimizer-local-privilege-escalation/">Avira optimizer local privilege escalation</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/@89berner/detecting-attacks-and-improving-response-through-the-use-of-security-features-23560689bba8">Detecting attacks and improving response through the use of real-time security features</a></li>
+              <li><a class="lnk-blue" href="https://rhinosecuritylabs.com/aws/cloud-container-attack-tool/">Exploiting AWS ECR and ECS with the Cloud Container Attack Tool (CCAT)</a></li>
+              <li><a class="lnk-pink" href="https://isc.sans.edu/forums/diary/Guest+Diary+Open+Redirect+A+Small+But+Very+Common+Vulnerability/25276/">Open Redirect: A Small But Very Common Vulnerability</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@javuto/introducing-osctrl-91583e3fa75d">osctrl: A fast and efficient osquery management solution</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/@ye.sunnia/an-analysis-of-chinese-passwords-e49b97b91919">A Study of Chinese Passwords</a></li>
+              <li><a class="lnk-purple" href="https://www.netmux.com/blog/survivor-password-hashes">Th3 L@s7 0f u$ - Analysis of Survival Password Genetics</a></li>
+              <li><a class="lnk-blue" href="https://www.twistlock.com/labs-blog/non-root-containers-kubernetes-cve-2019-11245-care/">Non-root containers, Kubernetes CVE-2019-11245 and why you should care</a></li>
+              <li><a class="lnk-pink" href="https://github.com/ForensicITGuy/libpreloadvaccine">Whitelisting LD_PRELOAD libraries using LD_AUDIT</a></li>
+              <li><a class="lnk-green" href="https://www.youtube.com/watch?v=o2dj2gnxjtU">The World's First Cyber Crime: The Morris Worm [KERNEL PANIC]</a></li>
+              <li><a class="lnk-orange" href="https://jordanpotti.com/2019/08/26/phishing-with-saml-and-sso-providers/">Phishing with SAML and SSO Providers</a></li>
+              <li><a class="lnk-purple" href="https://thezerohack.com/hack-instagram-again#articlescroll">How I Hacked Instagram Again</a></li>
+              <li><a class="lnk-blue" href="URL">Yar: Plundering organizations, users and/or repositories.</a></li>
+              <li><a class="lnk-pink" href="https://github.com/roflsandwich/Chrome-Password-Dumper">Chrome-Password-Dumper</a></li>
+              <li><a class="lnk-green" href="https://blog.digital-horror.com/setting-up-your-out-of-band-dns-resolver/">Setup up your Out-of-Band DNS Server</a></li>
+              <li><a class="lnk-orange" href="https://digital-forensics.sans.org/community/summits">DFIR Summit & Training 2019 (July 2019)</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
