@@ -1,0 +1,213 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 09/09/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">9 September 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Exim TLS Flaw Opens Email Servers to Remote 'Root' Code Execution Attacks</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-LF0wUlVHTPE/XXJVEaDaYZI/AAAAAAAA1AE/CYVf9bikZKUqkBq_hHWqYkCYDsOTZcsSACLcBGAs/s728-e100/exim-email-server-vulnerability.jpg"></mj-image>
+          <mj-text color="#fff">A critical remote code execution vulnerability has been discovered in the popular open-source Exim email server software, leaving at least over half a million email servers vulnerable to remote hackers. Exim is a widely used, open source mail transfer agent (MTA) software developed for Unix-like operating systems such as Linux, Mac OSX or Solaris, which runs almost 60% of the internet's email servers today for routing, delivering and receiving email messages.</mj-text>
+          <mj-text color="#fff">Exim maintainers today released Exim version 4.92.2 after publishing an early warning two days ago, giving system administrators a heads-up on its upcoming security patches that affect all versions of the email server software up to and including then-latest 4.92.1.</mj-text>
+          <mj-text color="#fff">Just three months ago, Exim also patched a severe remote command execution vulnerability, tracked as CVE-2019-10149, that was actively exploited in the wild by various groups of hackers to compromise vulnerable servers. The Exim advisory says that a rudimentary proof of concept (PoC) exists for this flaw, but currently there is no known exploit available to the public. Server administrators are highly recommended to install the latest Exim 4.92.2 version immediately, and if not possible, can mitigate the issue by not allowing unpatched Exim servers to accept TLS connections.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/09/exim-email-server-vulnerability.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/critical-exim-tls-flaw-lets-attackers-remotely-execute-commands-as-root/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Exploit Reseller Offering Up To $2.5 Million For Android Zero-Days</mj-text>
+          <mj-image src="https://zerodium.com/images/zerodium_prices_mobiles.png"></mj-image>
+          <mj-text>The zero-day buying and selling industry has recently taken a shift towards Android operating system, offering up to $2.5 million payouts to anyone who sells 'full chain, zero-click, with persistence' Android zero-days. Zerodium is a startup that buys zero-day exploits from hackers, and then probably sells them to law enforcement agencies and nation-sponsored spies around the world.</mj-text>
+          <mj-text>Just like other traditional markets, the zero-day market is also a game of supply, demand, and strategy, which suggests either the demand of Android zero-days has significantly increased or somehow Android OS is getting tougher to hack remotely, which is unlikely.</mj-text>
+          <mj-text>While the same type of zero-day exploits for iOS devices are worth $2 million, which is still double than what Apple has recently started offering to hackers to responsibly report severe deadly exploits, described as "a zero-click kernel code execution vulnerability that enables complete, persistent control of a device's kernel."</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2019/09/android-full-chain-zero-day-exploit.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://zerodium.com/program.html">
+            Zerodium Payouts
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2019/09/spam-in-your-calendar-heres-what-to-do/">Spam In your Calendar? Here’s What to Do.</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/09/xkcd-forum-hacked.html">XKCD Forum Hacked – Over 562,000 Users’ Account Details Leaked</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/android-sms-phishing-can-stealthily-enable-malicious-settings/">Android SMS Phishing Can Stealthily Enable Malicious Settings</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/over-47000-supermicro-servers-are-exposing-bmc-ports-on-the-internet/">Over 47,000 Supermicro servers are exposing BMC ports on the internet</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/hacked-sharepoint-sites-used-to-bypass-secure-email-gateways/">Hacked SharePoint Sites Used to Bypass Secure Email Gateways</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/08/foxit-pdf-reader-data-breach.html">Foxit PDF Software Company Suffers Data Breach—Asks Users to Reset Password</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/software/mozilla-will-support-existing-ad-blockers-in-extensions-manifest-v3/">Mozilla Will Support Existing Ad Blockers in Extensions Manifest v3</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/cisco-releases-guides-for-incident-responders-handling-hacked-cisco-gear/">Cisco releases guides for incident responders handling hacked Cisco gear</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/09/its-been-summer-of-ransomware-hold-ups.html">A Summer of Discontent: The Hottest Malware Hits</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2019/09/06/database-exposed-133-million-us-facebook-users-phone-numbers/">Database exposed 133 million US Facebook users’ phone numbers</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/windows-and-av-software-ignore-malware-in-virtual-disk-files/">Windows and AV Software Ignore Malware in Virtual Disk Files</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/a-chinese-apt-is-now-going-after-pulse-secure-and-fortinet-vpn-servers/">A Chinese APT is now going after Pulse Secure and Fortinet VPN servers</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/09/tweet-via-sms-text-message-hacking.html">Twitter temporarily disables 'Tweeting via SMS' after CEO gets hacked</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/google/google-chrome-starts-testing-third-party-cookie-blocking/">Google Chrome Starts Testing Third-Party Cookie Blocking</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/new-toolkit-pushes-malware-via-fake-program-update-alerts-in-30-languages/">New Toolkit Pushes Malware via Fake Program Update Alerts in 30 Languages</a></li>
+              <li><a class="lnk-blue" href="https://brave.com/google-gdpr-workaround/">Brave uncovers Google’s GDPR workaround</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://security-tracker.debian.org/tracker/CVE-2019-15846">Exim - CVE-2019-15846</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/firefox-69-patches-critical-code-execution-flaw">Firefox 69 Patches Critical Code Execution Flaw</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-september-2019-office-updates-with-fixes-improvements/">Microsoft Releases September 2019 Office Updates With Fixes, Improvements</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/09/php-programming-language.html">Multiple Code Execution Flaws Found In PHP Programming Language</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/cisco-patches-remote-command-execution-webex-teams-client">Cisco Patches Remote Command Execution in Webex Teams Client</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/wordpress-523-released-with-security-and-bug-fixes/">WordPress 5.2.3 Released with Security and Bug Fixes</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://scotthelme.co.uk/csrf-is-really-dead/">CSRF is (really) dead - SameSite default on Chrome</a></li>
+              <li><a class="lnk-pink" href="https://blog.aquasec.com/dns-spoofing-kubernetes-clusters">DNS Spoofing on Kubernetes Clusters</a></li>
+              <li><a class="lnk-green" href="https://research.securitum.com/security-analysis-of-portal-element/">Security analysis of portal element</a></li>
+              <li><a class="lnk-orange" href="https://www.shodan.io/report/vRKzLpdS">Exim servers - Shodan</a></li>
+              <li><a class="lnk-purple" href="https://store.steampowered.com/app/994670/ThreatGEN_Red_vs_Blue/">ThreatGEN: Red vs. Blue (VideoGame)</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@rvrsh3ll/hardening-your-azure-domain-front-7423b5ab4f64">Hardening Your Azure Domain Front</a></li>
+              <li><a class="lnk-pink" href="https://www.fireeye.com/blog/threat-research/2019/09/sharpersist-windows-persistence-toolkit.html">SharPersist: Windows Persistence Toolkit in C#</a></li>
+              <li><a class="lnk-green" href="https://github.com/obscuritylabs/HastySeries">ObscurityLabs RedTeam C# Toolkit</a></li>
+              <li><a class="lnk-orange" href="https://www.linkedin.com/pulse/how-restrict-rdp-access-ad-domain-controllers-via-ipsec-joel-m-leo/"> How To: Restrict RDP Access to AD Domain Controllers via IPSec, GPOs, and WFAS</a></li>
+              <li><a class="lnk-purple" href="https://sidechannel.tempestsi.com/a-brief-analysis-of-data-compression-security-issues-2d6368782e31?gi=402cb9d87602">A brief analysis of data compression security issues</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/bugbountywriteup/pulse-secure-ssl-vpn-post-auth-rce-to-ssh-shell-2b497d35c35b">Red Teamer’s Guide to Pulse Secure SSL VPN</a></li>
+              <li><a class="lnk-pink" href="https://blog.ripstech.com/2019/bitbucket-path-traversal-to-rce/">Bitbucket 6.1.1 Path Traversal to RCE</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@prsecurity_/how-to-build-an-internal-red-team-7957ec644695">How to build an internal red team?</a></li>
+              <li><a class="lnk-orange" href="https://www.twistlock.com/labs-blog/gaining-persistency-vulnerable-lambdas/">Gaining Persistency on Vulnerable Lambdas</a></li>
+              <li><a class="lnk-purple" href="https://blog.hackedu.io/analysis-of-common-federated-identity-protocols/">Analysis of Common Federated Identity Protocols</a></li>
+              <li><a class="lnk-blue" href="https://rastamouse.me/2019/09/mwr-labs-c3-first-look/"> MWR Labs: C3 - First Look </a></li>
+              <li><a class="lnk-pink" href="https://github.com/mwrlabs/C3">Custom Command and Control (C3)</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
