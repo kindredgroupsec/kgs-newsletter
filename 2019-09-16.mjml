@@ -1,0 +1,231 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 16/09/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-EEKE3f17krk/XXotdW7pwmI/AAAAAAAA1FE/cOSlECMbWG4ZG6LsPfpQ2cod91vHTmSWwCLcBGAsYHQ/s728-e100/simjacker-sim-card-hacking.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">16 September 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Business Email Compromise Is a $26 Billion Scam Says the FBI</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2019/04/23/FBI_IC3.jpg"></mj-image>
+          <mj-text color="#fff">FBI's Internet Crime Complaint Center (IC3) says that Business Email Compromise (BEC) scams are continuing to grow every year, with a 100% increase in the identified global exposed losses between May 2018 and July 2019. Also, between June 2016 and July 2019, IC3 received victim complaints regarding 166,349 domestic and international incidents, with a total exposed dollar loss of over $26 billion.</mj-text>
+          <mj-text color="#fff">BEC aka EAC (short for Email Account Compromise) fraud schemes are scams carried out by crooks who will wire out funds without authorization to bank accounts they control via computer intrusion or after tricking key employees into doing it using social engineering. This type of attack targets small, medium, and large businesses alike, as well as individuals, and it has a high success rate due to the fraudsters' choice to pose as someone that the employees trust like a CEO or a business partner.</mj-text>
+          <mj-text color="#fff">IC3 provides the following guidelines for employees containing both reactive measures and preventative strategies: Use secondary channels or two-factor authentication to verify requests for changes in account information. Ensure the URL in emails is associated with the business it claims to be from.Be alert to hyperlinks that may contain misspellings of the actual domain name. Refrain from supplying login credentials or PII in response to any emails. Monitor their personal financial accounts on a regular basis for irregularities, such as missing deposits. Keep all software patches on and all systems updated. Verify the email address used to send emails, especially when using a mobile or handheld device by ensuring the senders address email address appears to match who it is coming from. Ensure the settings the employees’ computer are enabled to allow full email extensions to be viewed.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/business-email-compromise-is-a-26-billion-scam-says-the-fbi/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.securityweek.com/loss-bec-fraud-now-claimed-be-26-billion">
+            Even More from SecurityWeek
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">New SIM Card Flaw Lets Hackers Hijack Any Phone Just By Sending SMS</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-EEKE3f17krk/XXotdW7pwmI/AAAAAAAA1FE/cOSlECMbWG4ZG6LsPfpQ2cod91vHTmSWwCLcBGAsYHQ/s728-e100/simjacker-sim-card-hacking.jpg"></mj-image>
+          <mj-text>Cybersecurity researchers today revealed the existence of a new and previously undetected critical vulnerability in SIM cards that could allow remote attackers to compromise targeted mobile phones and spy on victims just by sending an SMS.</mj-text>
+          <mj-text>What's worrisome? A specific private company that works with governments is actively exploiting the SimJacker vulnerability from at least the last two years to conduct targeted surveillance on mobile phone users across several countries. "During the attack, the user is completely unaware that they received the attack, that information was retrieved, and that it was successfully exfiltrated," researchers explain. "The location information of thousands of devices was obtained over time without the knowledge or consent of the targeted mobile phone users. However the Simjacker attack can, and has been extended further to perform additional types of attacks." According to the researchers, all manufacturers and mobile phone models are vulnerable to the SimJacker attack as the vulnerability exploits a legacy technology embedded on SIM cards, whose specification has not been updated since 2009, potentially putting over a billion people at risk.</mj-text>
+          <mj-text>Researchers have responsibly disclosed details of this vulnerability to the GSM Association, the trade body representing the mobile operator community, as well as the SIM alliance that represents the main SIM Card/UICC manufacturers. Mobile operators can also immediately mitigate this threat by setting up a process to analyze and block suspicious messages that contain S@T Browser commands. As a potential victim, it appears, there is nothing much a mobile device user can do if they are using a SIM card with S@T Browser technology deployed on it, except requesting for a replacement of their SIM that has proprietary security mechanisms in place.</mj-text>
+          <mj-button mj-class="bg-green" href="https://thehackernews.com/2019/09/simjacker-mobile-hacking.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/new-simjacker-attack-exploited-in-the-wild-to-track-users-for-at-least-two-years/">
+            Even More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Microsoft Teams Can Be Used To Execute Arbitrary Payloads</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2019/09/10/MicrosoftTeams.png"></mj-image>
+          <mj-text>Attackers can use genuine binaries from Microsoft Teams to execute a malicious payload using a mock installation folder for the collaboration software. The problem affects most Windows desktop apps that use the Squirrel installation and update framework, which uses NuGet packages. A list of impacted products, as tested by the security researcher that made the discovery, includes WhatsApp, Grammarly, GitHub, Slack, and Discord.</mj-text>
+          <mj-text>One notable aspect of the experiment is that no resources are required on the target system other than the minimum package created by the attacker. Microsoft is aware of the problem but decided not to address it. The researcher says that the reason the company gave him was that the glitch "did not meet the bar of security issue".</mj-text>
+          <mj-text>Microsoft Teams is becoming a popular choice as an alternative to Slack. Microsoft announced in mid-July that its business-oriented tool for unified communications had 13 million daily active users and more than 19 million on a weekly basis, which is more than what Slack can boast.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-teams-can-be-used-to-execute-arbitrary-payloads/">
+            Read More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/weaponized-bluekeep-exploit-released-a-13051">Weaponized BlueKeep Exploit Released</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/09/09/us-city-balks-at-paying-5-3-million-ransomware-demand/">US city balks at paying $5.3 million ransomware demand</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/09/09/wordpress-5-2-3-fixes-new-clutch-of-security-vulnerabilities/">WordPress 5.2.3 fixes new clutch of security vulnerabilities</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/281-arrested-in-worldwide-business-email-compromise-crackdown/">281 Arrested in Worldwide Business Email Compromise Crackdown</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/09/router-password-hacking.html">Some D-Link and Comba WiFi Routers Leak Their Passwords in Plaintext</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/09/11/wikipedia-fights-off-huge-ddos-attack/">Wikipedia fights off huge DDoS attack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-netcat-attack-can-leak-sensitive-data-from-intel-cpus/">New NetCAT Attack Can Leak Sensitive Data From Intel CPUs</a></li>
+              <li><a class="lnk-orange" href="https://scotthelme.co.uk/extended-validation-not-so-extended/">Extended Validation not so... extended? How I revoked $1,000,000 worth of EV certificates!</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/virtual-disk-attachments-can-bypass-gmail-and-chrome-security/">Virtual Disk Attachments Can Bypass Gmail and Chrome Security</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/09/12/google-experiments-with-dns-over-http-in-chrome/">Google experiments with DNS-over-HTTPS in Chrome</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/google-hopes-to-protect-users-with-open-source-differential-privacy-library/">Google hopes to protect users with open source differential privacy library</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/majority-of-consumers-will-not-work-with-an-enterprise-firm-that-wont-keep-their-data-secure/">Most consumers will refuse to work with enterprises that won’t keep their data secure</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/attack-traffic-caught-honeypots-triples-over-six-months">Attack Traffic Caught by Honeypots Triples Over Six Months</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/sophos-open-sources-sandboxie-an-utility-for-sandboxing-any-application/">Sophos open-sources Sandboxie, an utility for sandboxing any application</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/09/13/leaky-database-full-of-fake-groupon-emails-turns-out-to-belong-to-crooks/">Leaky database full of fake Groupon emails turns out to belong to crooks</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/phishing-scams-targeting-mac-users-on-the-rise-with-1-6-million-attacks-in-2019/">Phishing scams targeting Mac users on the rise with 1.6 million attacks in 2019</a></li>
+              <li><a class="lnk-green" href="https://dontduo.com/">DontDuo: Why you should remove phone calls from MFA options</a></li>
+              <li><a class="lnk-orange" href="https://blog.mozilla.org/futurereleases/2019/09/06/whats-next-in-making-dns-over-https-the-default/">Firefox: What’s next in making Encrypted DNS-over-HTTPS the Default</a></li>
+              <li><a class="lnk-purple" href="https://www.newamerica.org/weekly/edition-221/how-sci-fi-wargames-led-real-policy-during-reagan-administration/">How Sci-Fi Like 'WarGames' Led to Real Policy During the Reagan Administration</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/09/facebook-hhvm-vulnerability.html">Facebook Patches "Memory Disclosure Using JPEG Images" Flaws in HHVM Servers</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2019/09/patch-tuesday-september-2019-edition/">Patch Tuesday, September 2019 Edition</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/09/adobe-security-updates.html">Adobe Releases Security Patches For Critical Flash Player Vulnerabilities</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/09/microsoft-windows-update.html">Latest Microsoft Updates Patch 4 Critical Flaws In Windows RDP Client</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/chrome-77-released-52-security-fixes">Chrome 77 Released with 52 Security Fixes</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/google-discloses-vulnerability-in-chrome-os-built-in-security-key-feature/">Google discloses vulnerability in Chrome OS 'built-in security key' feature</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/dos-vulnerabilities-patched-netgear-n300-routers">DoS Vulnerabilities Patched in NETGEAR N300 Routers</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/NuID/nebulousAD">NebulousAD automated credential auditing tool using K-Anonymity</a></li>
+              <li><a class="lnk-pink" href="https://github.com/HunnicCyber/SharpSniper">SharpSniper: Find specific users in active directory via their username and logon IP address</a></li>
+              <li><a class="lnk-green" href="https://vavkamil.cz/2019/09/11/serverless-blind-xss-hunter-with-cloudflare-workers/">Serverless Blind XSS hunter with Cloudflare Workers</a></li>
+              <li><a class="lnk-orange" href="https://habr.com/en/post/466801/">Bypassing LinkedIn Search Limit by Playing With API</a></li>
+              <li><a class="lnk-purple" href="https://www.komodosec.com/post/an-accidental-ssrf-honeypot-in-google-calendar">An Accidental SSRF Honeypot in Google Calendar</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/bugbountywriteup/exploiting-jsonp-and-bypassing-referer-check-2d6e40dfa24">Exploiting JSONP and Bypassing Referer Check</a></li>
+              <li><a class="lnk-pink" href="https://www.cybertriage.com/2019/how-to-detect-running-malware-intro-to-incident-response-triage-part-7/">How to Detect Running Malware – Intro to Incident Response Triage (Part 7)</a></li>
+              <li><a class="lnk-green" href="https://www.reddit.com/r/netsec/comments/d1h9ag/whats_next_in_making_encrypted_dnsoverhttps_the/ezllgoy/">Tips to block DoH at your org</a></li>
+              <li><a class="lnk-orange" href="https://github.com/fireeye/stringsifter/">StringSifter: Ranks strings based on their relevance for malware analysis.</a></li>
+              <li><a class="lnk-purple" href="https://cheatsheetseries.owasp.org/">OWASP Cheat Sheet series Project</a></li>
+              <li><a class="lnk-blue" href="https://blog.rapid7.com/2019/09/06/initial-metasploit-exploit-module-for-bluekeep-cve-2019-0708/">Initial Metasploit Exploit Module for BlueKeep (CVE-2019-0708)</a></li>
+              <li><a class="lnk-pink" href="https://lockboxx.blogspot.com/2019/09/macos-red-teaming-208-macos-att.html">MacOS Red Teaming 208: macOS ATT&CK Techniques</a></li>
+              <li><a class="lnk-green" href="https://github.com/infosecn1nja/AD-Attack-Defense">Active Directory Kill Chain Attack & Defense</a></li>
+              <li><a class="lnk-orange" href="https://github.com/ION28/BLUESPAWN">BlueSpawn: Windows-based Active Defense and EDR tool to empower Blue Teams</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/@rvrsh3ll/hardening-your-azure-domain-front-7423b5ab4f64">Hardening Your Azure Domain Front</a></li>
+              <li><a class="lnk-blue" href="https://github.com/toniblyx/my-arsenal-of-aws-security-tools">AWS Security Tools curated list</a></li>
+              <li><a class="lnk-pink" href="https://labs.mwrinfosecurity.com/blog/hunting-for-c3/">Hunting for C3</a></li>
+              <li><a class="lnk-green" href="https://www.peerlyst.com/posts/using-powershell-in-windows-defender-eli-shlomo?trk=search_page_search_result">Using PowerShell in Windows Defender</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
