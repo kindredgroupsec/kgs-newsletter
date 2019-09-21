@@ -1,0 +1,212 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 23/09/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-fginCc4QY60/XX_1kr1Wr4I/AAAAAAAAA5o/R8603lQYhzIfVru5dba_fk0g3QqCN9VPwCNcBGAsYHQ/s400/beyondcorp1.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">23 September 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">NCSC Cyber Threat Trends Report: Analysis of Attacks Across UK Industries</mj-text>
+          <mj-image src="https://s3.eu-west-1.amazonaws.com/ncsc-content/images/incident%20trends%20report.jpg"></mj-image>
+          <mj-text color="#fff">The United Kingdom’s National Cyber Security Centre (NCSC) recently released their Incident trends report (October 2018 – April 2019) which highlights some of the trends seen across various UK government entities, organizations, and sectors.</mj-text>
+          <mj-text color="#fff">The first thing the NCSC chose to highlight in their report was the observed attacks against Office 365, Microsoft’s cloud services suite. According to Microsoft, there are over 155 million Office 365 business users as of 2018, a massive attack surface for a single service. When you combine that with the fact that passwords get reused all the time—maybe even for Active Directory integration (O365 makes this easy for Windows users for obvious reasons)—it’s no wonder threat actors see it as an appealing target.</mj-text>
+          <mj-text color="#fff">Ransomware isn’t going away. Seemingly every day, there’s a new report that a small municipality in the United States has been hit, with demands reaching the millions of dollars. The UK isn’t immune to this either. As the NCSC report points out, Ryuk, LockerGoga, and BitPaymer have all been fairly prevalent over the time period. Additionally, the Emotet, TrickBot, and Dridex botnets have all been seen being used as delivering ransomware once installed on the machines. If there was any doubt that botnets aren’t being used for MUCH more than denial of service attacks, rethink your assumptions.</mj-text>
+          <mj-text color="#fff">Last, supply chains are being attacked by nation-state threat actors such as APT10, as well as cybercriminals looking to monetize their attacks, like the operators of GandCrab. It’s important that supply chain partners are evaluated and held to the same security standards as the companies themselves. That partner’s access may make them an attractive target.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.digitalshadows.com/blog-and-research/ncsc-cyber-threat-trends-report-analysis-of-attacks-across-uk-industries/">
+            Read More on DigitalShadows
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.ncsc.gov.uk/report/incident-trends-report">
+            Incident trends report (October 2018 - April 2019)
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">How Google adopted BeyondCorp: Part 3 (tiered access)</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-fginCc4QY60/XX_1kr1Wr4I/AAAAAAAAA5o/R8603lQYhzIfVru5dba_fk0g3QqCN9VPwCNcBGAsYHQ/s400/beyondcorp1.png"></mj-image>
+          <mj-text>This is the third post in a series of four, in which we set out to revisit various BeyondCorp topics and share lessons that were learnt along the internal implementation path at Google.</mj-text>
+          <mj-text>By separating trust from identity, we can define infinite levels of trust, if we so desired. At any point in time, we can define a new trust level, or adjust existing trust level requirements, and reevaluate a device's compliance. This is the heart of the tiered access system. It provides us the flexibility to define different device trust criteria for low sensitivity applications from those used for high trusted applications.</mj-text>
+          <mj-text>At Google, we initially supported four distinct tiers ranging from Untrusted to Highly-Privileged Access. The extremes are easy to understand: Untrusted devices should only access data that is already public while Highly-Privileged Access devices have greater privilege internally. In our current model, the vast majority of devices fit in one of three distinct tiers: Untrusted, Basic Access, and Highly-Privileged Access. </mj-text>
+          <mj-text>In the next and final post in this series, we will discuss how we migrated services to be protected by the BeyondCorp architecture at Google.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://security.googleblog.com/2019/09/how-google-adopted-beyondcorp-part-3.html">
+            Read More on Google Security Blog
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://security.googleblog.com/2019/08/how-google-adopted-beyondcorp-part-2.html">
+            Read part 2 (devices)
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://security.googleblog.com/2019/06/how-google-adopted-beyondcorp.html">
+            Read part 1
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/09/browser-chrome-extension-adblock.html">Two Widely Used Ad Blocker Extensions for Chrome Caught in Ad Fraud Scheme</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/magecart-strikes-again-hotel-booking-websites-come-under-fire/">Magecart strikes again: hotel booking websites come under fire</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/ios-13-passcode-bypass-lets-you-view-contacts-on-locked-devices/">iOS 13 Passcode Bypass Lets You View Contacts on Locked Devices</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/eight-us-cities-see-payment-card-data-stolen-a-13127">Eight US Cities See Payment Card Data Stolen</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/phishing-attack-targets-the-guardians-whistleblowing-site/">Phishing Attack Targets The Guardian's Whistleblowing Site</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/misconfigured-google-calendars-share-events-with-the-world/">Misconfigured Google Calendars Share Events With the World</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/database-leaks-data-on-most-of-ecuadors-citizens-including-6-7-million-children/">Database leaks data on most of Ecuador's citizens, including 6.7 million children</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/github-becomes-cve-numbering-authority-acquires-semmle">GitHub Becomes CVE Numbering Authority, Acquires Semmle</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/snowden-says-he-would-return-us-if-he-can-get-fair-trial">Snowden Says He Would Return to US If He Can Get a Fair Trial</a></li>
+              <li><a class="lnk-purple" href="https://www.troyhunt.com/banks-arbitrary-password-restrictions-and-why-they-dont-matter/">Banks, Arbitrary Password Restrictions and Why They Don't Matter</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/millions-of-lion-air-passenger-records-exposed-and-exchanged-on-forums/">Millions of Lion Air Passenger Records Exposed and Exchanged on Forums</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/microsoft-phishing-page-sends-stolen-logins-using-javascript/">Microsoft Phishing Page Sends Stolen Logins Using JavaScript</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/200000-sign-petition-against-equifax-data-breach-settlement">200,000 Sign Petition Against Equifax Data Breach Settlement</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/400-million-medical-radiological-images-exposed-on-the-internet/">400 Million Medical Radiological Images Exposed on the Internet</a></li>
+
+              <li><a class="lnk-pink" href="https://www.securityweek.com/mitre-publishes-new-list-most-dangerous-software-weaknesses">MITRE Publishes New List of Most Dangerous Software Weaknesses</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/lastpass-patches-bug-leaking-last-used-credentials">LastPass Patches Bug Leaking Last-Used Credentials</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/vmware-patches-six-vulnerabilities-various-products">VMware Patches Six Vulnerabilities in Various Products</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/09/20/server-squashing-zero-day-published-for-phpmyadmin-tool/">Server-squashing zero-day published for phpMyAdmin tool</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/09/google-chrome-update.html">Update Google Chrome Browser to Patch New Critical Security Flaws</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/critical-bug-in-harbor-container-registry-gives-admin-access/">Critical Bug In Harbor Container Registry Gives Admin Access</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/windows-defender-malware-scans-are-failing-after-a-few-seconds/">Windows Defender malware scans are failing after a few seconds</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2019/09/before-he-spammed-you-this-sly-prince-stalked-your-mailbox/">Before He Spammed You, this Sly Prince Stalked Your Mailbox</a></li>
+              <li><a class="lnk-green" href="https://www.welivesecurity.com/2019/09/18/popular-routers-nas-devices-vulnerabilities/">Remote access flaws found in popular routers, NAS devices</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/code-execution-vulnerabilities-found-aspose-pdf-processing-product">Code Execution Vulnerabilities Found in Aspose PDF Processing Product</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/shhmon-silencing-sysmon-via-driver-unload-682b5be57650">Shhmon — Silencing Sysmon via Driver Unload</a></li>
+              <li><a class="lnk-pink" href="https://github.com/TheresAFewConors/Sooty">Sooty: The SOC Analysts all-in-one CLI tool to automate and speed up workflow.</a></li>
+              <li><a class="lnk-green" href="https://security.googleblog.com/2019/09/how-google-adopted-beyondcorp-part-3.html">How Google adopted BeyondCorp: Part 3 (tiered access)</a></li>
+              <li><a class="lnk-orange" href="https://objective-see.com/blog/blog_0x48.html">Writing a File Monitor with Apple's Endpoint Security Framework</a></li>
+              <li><a class="lnk-purple" href="https://safebreach.com/Post/Forcepoint-VPN-Client-for-Windows-Unquoted-Search-Path-and-Potential-Abuses-CVE-2019-6145">Forcepoint VPN Client for Windows - Unquoted Search Path and Potential Abuses (CVE-2019-6145)</a></li>
+              <li><a class="lnk-blue" href="https://regilero.github.io/english/security/2019/10/17/security_apache_traffic_server_http_smuggling/">Security: HTTP Smuggling, Apache Traffic Server</a></li>
+              <li><a class="lnk-pink" href="https://rhinosecuritylabs.com/aws/abusing-vpc-traffic-mirroring-in-aws/">Abusing VPC Traffic Mirroring in AWS</a></li>
+              <li><a class="lnk-green" href="https://github.com/dogangcr/vulnerable-sso">Vulnerable SSO Project</a></li>
+              <li><a class="lnk-orange" href="https://github.com/p3nt4/Invoke-SocksProxy/blob/master/README.md">Invoke-SocksProxy: local or "reverse" Socks proxy using powershell</a></li>
+              <li><a class="lnk-purple" href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1930">Lastpass: bypassing do_popupregister() leaks credentials from previous site</a></li>
+              <li><a class="lnk-blue" href="https://dualuse.io/blog/curryfinger/">CURRYFINGER - SNI & Host header spoofing utility</a></li>
+              <li><a class="lnk-pink" href="https://smallstep.com/blog/use-ssh-certificates/">If you’re not using SSH certificates you’re doing SSH wrong</a></li>
+              <li><a class="lnk-green" href="https://www.misp-project.org/2019/09/12/Decaying-Of-Indicators.html">MISP improved model to expire indicators based on custom models</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us.
+            Kindred is one of the largest online gambling companies in the world with over 26 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 26 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
