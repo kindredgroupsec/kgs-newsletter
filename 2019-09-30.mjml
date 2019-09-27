@@ -1,0 +1,229 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 30/09/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-xfpxTSQcn1M/XY4NRXGm3MI/AAAAAAAA1Os/Cyie0uU_suMpRdqeFOQX9ERF-V05iPNKACLcBGAsYHQ/s728-e100/ios-jailbreak-tool.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">30 September 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Anonymous researcher drops vBulletin zero-day impacting tens of thousands of sites</mj-text>
+          <mj-image src="https://zdnet1.cbsistatic.com/hub/i/2019/09/24/2b6903dc-3351-4dfa-98a5-6b2375b9eca9/e17eeb332d7794b166e344b52a09a522/vbulletin.png"></mj-image>
+          <mj-text color="#fff">An anonymous security researcher has published details about a zero-day in vBulletin. Despite being a commercial product, vBulletin is today's most popular web forum software package, with a larger market share than open-source solutions like phpBB, XenForo, Simple Machines Forum, MyBB, and others. According to W3Techs, around 0.1% of all internet sites run a vBulletin forum. The percentage looks small, but it actually impacts billions of internet users.</mj-text>
+          <mj-text color="#fff">This is a critical vulnerability as it allows an attacker to execute any command on the site, which could allow them to download malware, reverse shells, or tamper with the site's code. After news broke about this vulnerability, Chaouki Bekrar, the CEO of the Zerodium exploit acquisition company, tweeted that his company has known about this exploit for three years and that many researchers have been selling the exploit for some time. So while this public disclosure may have increased the uptick of attacks using this vulnerability, it has most likely been secretly used for some time.</mj-text>
+          <mj-text color="#fff">The vBulletin team has released a patch for this vulnerability, which is now tracked under the CVE-2019-16759. ZDNet has also confirmed with Bad Packets, BinaryEdge, and GeryNoise that hackers are now actively using this vulnerability to attack vulnerable forums.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/anonymous-researcher-drops-vbulletin-zero-day-impacting-tens-of-thousands-of-sites/">
+            Read More pm ZDNet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/vbulletin-zero-day-exploited-for-years-gets-unofficial-patch/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Hacker Releases 'Unpatchable' Jailbreak For All iOS Devices, iPhone 4s to iPhone X</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-xfpxTSQcn1M/XY4NRXGm3MI/AAAAAAAA1Os/Cyie0uU_suMpRdqeFOQX9ERF-V05iPNKACLcBGAsYHQ/s728-e100/ios-jailbreak-tool.png"></mj-image>
+          <mj-text>An iOS hacker and cybersecurity researcher today publicly released what he claimed to be a "permanent unpatchable bootrom exploit," in other words, an epic jailbreak that works on all iOS devices ranging from iPhone 4s (A5 chip) to iPhone 8 and iPhone X (A11 chip). Since the bootrom exploits are hardware-level issues and can not be patched without a hardware revision, a simple software update can't address the newly released bootrom exploit.</mj-text>
+          <mj-text>Dubbed Checkm8, the exploit leverages unpatchable security weaknesses in Apple's Bootrom (SecureROM), the first significant code that runs on an iPhone while booting, which, if exploited, provides greater system-level access. The new exploit came exactly a month after Apple released an emergency patch for another critical jailbreak vulnerability that works on Apple devices including the iPhone XS, XS Max, and XR and the 2019 iPad Mini and iPad Air, running iOS 12.4 and iOS 12.2 or earlier.</mj-text>
+          <mj-text>It should be noted that the Checkm8 exploit itself is not a full jailbreak with Cydia, instead, is just an exploit which researchers and jailbreak community can use to develop a fully working jailbreak tool. The jailbreak only works on iPhones running Apple's A5 and A11 chipsets and does not work on the latest two chipsets, i.e., A12 and A13.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2019/09/bootrom-jailbreak-ios-exploit.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Magecart skimmers seen targeting routers for customer Wi-Fi networks</mj-text>
+          <mj-image src="https://media.threatpost.com/wp-content/uploads/sites/103/2019/08/10111028/computer-code.jpg"></mj-image>
+          <mj-text>Threat researchers at IBM X-Force IRIS have spotted activity by a known group of criminal Web malware operators that appears to be targeting commercial layer 7 routers, the type typically associated with Wi-Fi networks that use "captive portals" to either charge for Internet access or require customers to sign in. In the past, Magecart attacks have focused on exploiting Web infrastructure components of victims' e-commerce sites.</mj-text>
+          <mj-text>The group, called "Magecart 5," is one of several factions of criminal groups originally associated with the Magecart "web-skimmer," a class of JavaScript-based payment card stealing malware that has been used in the past to target customers on e-commerce websites. Ticketmaster, British Airways, and NewEgg customers were just some of the victims in a rash of exploits by Magecart rings in 2018, and the malware operators have continued to be active in 2019. According to researchers, hundreds of thousands of merchant sites have been compromised through attacks on third-party services.</mj-text>
+          <mj-text>The researchers also found evidence that the group was making modifications to an open source mobile application library used to create touch "sliders" to allow users to swipe through galleries. "[Magecart 5] has likely infected this code, corrupting it at its source to ensure that every developer using the slider will end up serving the attackers’ malicious code, leading to the compromise of user data of those using the finished product." That matches with Magecart 5's modus operandi of compromising third-party resources to get a broader effect, the researchers noted.</mj-text>
+          <mj-button mj-class="bg-green" href="https://arstechnica.com/information-technology/2019/09/magecart-skimmers-seen-targeting-routers-for-customer-wi-fi-networks/">
+            Read More on ArsTechnica
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/hackers-looking-into-injecting-card-stealing-code-on-routers-rather-than-websites/">
+            Even More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/75-of-execs-cite-phishing-as-the-most-significant-security-threat-to-businesses/">75% of execs cite phishing as the most significant security threat to businesses</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/09/23/investors-accuse-fedex-of-lying-stock-dumping-after-notpetya-attack/">Investors accuse FedEx of lying, stock dumping after NotPetya attack</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/09/24/youtube-influencers-get-2fa-tokens-phished/">YouTube ‘influencers’ get 2FA tokens phished</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/carpet-bombing-ddos-attack-takes-down-south-african-isp-for-an-entire-day/">'Carpet-bombing' DDoS attack takes down South African ISP for an entire day</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/09/windows-fileless-malware-attack.html">Microsoft Warns of a New Rare Fileless Malware Hijacking Windows Computers</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/09/doordash-data-breach.html">DoorDash Breach Exposes 4.9 Million Users' Personal Data</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-explains-why-signed-powershell-cmdlets-may-run-slow/">Microsoft Explains Why Signed PowerShell Cmdlets May Run Slow</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/responding-to-email-based-attacks-takes-over-three-hours-on-average/">Responding to email-based attacks takes over three hours, on average</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/researchers-disclose-another-sim-card-attack-possibly-impacting-millions">Researchers Disclose Another SIM Card Attack Possibly Impacting Millions</a></li>
+              <li><a class="lnk-purple" href="https://www.welivesecurity.com/2019/09/27/wiped-hard-drives-properly/">Are you sure you wiped your hard drive properly?</a></li>
+
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/09/email-attachment-malware.html">Outlook for Web Bans 38 More File Extensions in Email Attachments</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/09/ios-13-keyboard-apps.html">iOS 13 Bug Lets 3rd-Party Keyboards Gain 'Full Access' — Even When You Deny</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/microsoft-to-extend-office-365-atp-safe-links-to-office-online/">Microsoft to Extend Office 365 ATP Safe Links to Office Online</a></li>
+              <li><a class="lnk-orange" href="https://blog.cloudflare.com/announcing-warp-plus/">WARP is here (sorry it took so long) - Wireguard based free VPN service</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/azure-sentinel-microsofts-cloud-based-siem-hits-general-availability/">Azure Sentinel, Microsoft's cloud-based SIEM, hits general availability</a></li>
+              <li><a class="lnk-blue" href="https://datadome.co/behind-the-scenes-of-a-massively-distributed-credential-stuffing-attack/">Behind the scenes of a massively distributed credential stuffing attack</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/09/24/jira-development-and-ticketing-software-hit-by-critical-flaws/">Jira development and ticketing software hit by critical flaws</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/09/windows-update-zero-day.html">Microsoft Releases Emergency Patches for IE 0-Day and Windows Defender Flaw</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/privilege-escalation-vulnerability-patched-in-forcepoint-vpn-for-windows/">Privilege escalation vulnerability patched in Forcepoint VPN for Windows</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/cisco-fixes-critical-iox-flaw-allowing-root-access-to-guest-os/">Cisco Fixes Critical IOx Flaw Allowing Root Access to Guest OS</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/vmware-patches-critical-harbor-vulnerability">VMware Patches Critical Harbor Vulnerability</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/09/27/apple-users-patch-now-the-bug-that-got-away-has-been-fixed/">Apple users, patch now! The ‘bug that got away’ has been fixed</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/09/26/hackers-are-infecting-wordpress-sites-via-a-defunct-plug-in/">Hackers are infecting WordPress sites via a defunct plug-in</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/09/26/update-coldfusion-now-emergency-patch-for-critical-flaws/">Update ColdFusion now! Emergency patch for critical flaws</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/vbulletin-patches-vulnerability-exploited-wild">vBulletin Patches Vulnerability Exploited in the Wild</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://vavkamil.cz/2019/09/15/how-to-bypass-android-certificate-pinning-and-intercept-ssl-traffic/">How to bypass Android certificate pinning and intercept SSL traffic</a></li>
+              <li><a class="lnk-pink" href="https://portswigger.net/web-security/cross-site-scripting/cheat-sheet">XSS cheat sheet - updated</a></li>
+              <li><a class="lnk-green" href="http://xip.io/">xip.io - Wildcard DNS for everyone</a></li>
+              <li><a class="lnk-orange" href="https://dualuse.io/blog/curryfinger/">CURRYFINGER - SNI & Host header spoofing utility</a></li>
+              <li><a class="lnk-purple" href="https://www.networkdefenseblog.com/post/5-easy-router-attacks-and-protections">5 Easy Router Protection Techniques - includes Attack and Packet Analysis</a></li>
+              <li><a class="lnk-blue" href="https://www.nccgroup.trust/us/our-research/sniffle-a-sniffer-for-bluetooth-5/?research=Public+tools">Sniffle: A Sniffer for Bluetooth 5</a></li>
+              <li>Tool lists, Awesome...<a class="lnk-pink" href="https://github.com/sbilly/awesome-security">Security</a> | <a class="lnk-pink" href="https://github.com/enaqx/awesome-pentest">Pentest</a> | <a class="lnk-pink" href="https://github.com/rshipp/awesome-malware-analysis">Malware analysis</a> | <a class="lnk-pink" href="https://github.com/hslatman/awesome-threat-intelligence">Threat Intel</a></li>
+              <li><a class="lnk-green" href="https://duo.com/labs/research/how-to-monitor-github-for-secrets">How to Monitor GitHub for Secrets</a></li>
+              <li><a class="lnk-orange" href="https://blog.hunniccyber.com/staging-over-https-and-dns-simultaneously-with-cobalt-strike-2/">Staging over HTTPS and DNS simultaneously with Cobalt Strike and Shellter</a></li>
+              <li><a class="lnk-purple" href="https://github.com/eth0izzle/shhgit/">shhgit: Find GitHub secrets in real time</a></li>
+              <li><a class="lnk-blue" href="https://nullsweep.com/pivot-cheatsheet-for-pentesters/">A Pivot Cheatsheet for Pentesters</a></li>
+              <li><a class="lnk-pink" href="https://github.com/secrary/Andromeda">Andromeda - Interactive Reverse Engineering Tool for Android Applications</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
