@@ -1,0 +1,246 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 07/10/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://zdnet3.cbsistatic.com/hub/i/2017/05/04/9c4b7d7e-ce34-4c37-ad6d-a6c299e92d91/4979edc14e1d7a457d30d5ee5c4361c8/two-factor-2.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">7 October 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">New 0-Day Flaw Affecting Most Android Phones Being Exploited in the Wild</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-2IKnV_yj8uM/XZcJVuI3cKI/AAAAAAAA1VQ/0fCNskUYN-0tpBkIQZxxz_1JOJDIER65ACLcBGAsYHQ/s728-e100/android-vulnerability.png"></mj-image>
+          <mj-text color="#fff">Another day, another revelation of a critical unpatched zero-day vulnerability, this time in the world's most widely used mobile operating system, Android. What's more? The Android zero-day vulnerability has also been found to be exploited in the wild by the Israeli surveillance vendor NSO Group—infamous for selling zero-day exploits to governments—or one of its customers, to gain control of their targets' Android devices.</mj-text>
+          <mj-text color="#fff">Discovered by Project Zero researcher Maddie Stone, the details and a proof-of-concept exploit for the high-severity security vulnerability, tracked as CVE-2019-2215, has been made public today—just seven days after reporting it to the Android security team.</mj-text>
+          <mj-text color="#fff">According to the researcher, since the issue is "accessible from inside the Chrome sandbox," the Android kernel zero-day vulnerability can also be exploited remotely by combining it with a separate Chrome rendering flaw. "The bug is a local privilege escalation vulnerability that allows for a full compromise of a vulnerable device. If the exploit is delivered via the Web, it only needs to be paired with a renderer exploit, as this vulnerability is accessible through the sandbox," Stone says in the Chromium blog.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/10/android-kernel-vulnerability.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/actively-exploited-android-zero-day-impacts-google-samsung-devices/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Microsoft: MFA bypass attacks are so rare we don't have good statistics on them</mj-text>
+          <mj-image src="https://zdnet3.cbsistatic.com/hub/i/2017/05/04/9c4b7d7e-ce34-4c37-ad6d-a6c299e92d91/4979edc14e1d7a457d30d5ee5c4361c8/two-factor-2.jpg"></mj-image>
+          <mj-text>Attacks on Microsoft user accounts that are capable of bypassing multi-factor authentication (MFA) protections are so rare that the Redmond-based company doesn't even have stats for them. "When we evaluate all the tokens issued with MFA claims, we see that less than 10% of users use MFA per month in our enterprise accounts (and that includes on premises and third party MFA)". The Microsoft security expert claims that this slow rate of adoption among Microsoft users is what's kept attackers from evolving and deploying tools that can intercept MFA operations.</mj-text>
+          <mj-text>But he also warns Microsoft users that tools and methods for bypassing multi-factor authentication exist. For example Modlishka or the educational tool EvilGinx. But the Microsoft security expert doesn't want users to get discouraged from enabling MFA for their accounts just because these tools and techniques exist. As he said before, these attacks are so rare that Microsoft barely sees any. Instead, he recommends that users enable MFA for their accounts, with the strongest authentication factor available, as detailed in the table above in this article.</mj-text>
+          <mj-text>The only solutions with no known real time hijacking capabilities are the use of smartcards, FIDO token (security keys) or Windows Hello.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/microsoft-mfa-bypass-attacks-are-so-rare-we-dont-have-good-statistics-on-them/">
+            Read More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Google’s Password Manager now checks for breached credentials</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2019/10/gpm.png"></mj-image>
+          <mj-text>Google launched today a new service called Password Checkup that will check a user's saved passwords if they've been leaked and compromised in breaches at other services. The service is currently available for the Google web dashboard and Android devices, but will also be added to the Chrome browser later this year.</mj-text>
+          <mj-text>On the web, Password Checkup will be available at passwords.google.com. If Chrome users ever choose to use a Google account with the Chrome browser and then saved passwords in Chrome, this is the website where those passwords are synced to.</mj-text>
+          <mj-text>To use the new feature, a new button that says "Check Passwords" will be available. Once pressed, Google will take all the user's passwords and check them against an internal database of over four billion user credentials that have been leaked online via breaches at other companies. If a username & password combo is found in this database, Google will warn the user that they need to change the password for that account, as they're at risk of having the account hijacked by hackers.</mj-text>
+          <mj-button mj-class="bg-green" href="https://nakedsecurity.sophos.com/2019/10/03/googles-password-manager-now-checks-for-breached-credentials/">
+            Read More on NakedSecurity
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/google-launches-password-checkup-feature-will-add-it-to-chrome-later-this-year/">
+            Even More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/minerva-attack-can-recover-private-keys-from-smart-cards-cryptographic-libraries/">Minerva attack can recover private keys from smart cards, cryptographic libraries</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/google-gets-tougher-on-https-with-ban-on-mixed-content/">Google gets tougher on HTTPS with ban on mixed content</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/10/03/pdf-encryption-standard-weaknesses-uncovered/">PDF encryption standard weaknesses uncovered</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/ea-to-give-users-a-free-month-of-origin-access-if-they-enable-2fa/">EA to give users a free month of Origin Access if they enable 2FA</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/lost-files-data-wiper-poses-as-a-windows-security-scanner/">'Lost Files' Data Wiper Poses as a Windows Security Scanner</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/10/whatsapp-rce-vulnerability.html">Just a GIF Image Could Have Hacked Your Android Phone Using WhatsApp</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-365-to-get-tenant-wide-feature-preventing-info-exposure/">Microsoft 365 To Get Tenant-Wide Feature Preventing Info Exposure</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/vendor-email-compromise-new-attack-twist-a-13170">'Vendor Email Compromise': A New Attack Twist</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/zendesk-discloses-old-data-breach-affecting-10000-accounts">Zendesk Discloses Old Data Breach From 2016 Affecting 10,000 Accounts</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/american-express-customer-info-accessed-by-employee-for-possible-fraud/">American Express Customer Info Accessed by Employee for Possible Fraud</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/10/yahoo-email-hacking.html">Former Yahoo Employee Admits Hacking into 6000 Accounts for Sexual Content</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/plaintext-tax-records-of-20-million-russians-leaked-online/">Tax and PII records of 20 million Russians stored without encryption, leaked online</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-to-offer-windows-7-extended-security-updates-to-smbs/">Microsoft To Offer Windows 7 Extended Security Updates to SMBs</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/academics-find-eight-vulnerabilities-in-androids-voip-components/">Academics find eight vulnerabilities in Android's VoIP components</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/data-breaches-now-cost-companies-an-average-of-1-41-million/">Data breaches now cost companies an average of $1.41 million</a></li>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2019/10/mariposa-botnet-author-darkcode-crime-forum-admin-arrested-in-germany/">Mariposa Botnet Author, Darkcode Crime Forum Admin Arrested in Germany</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/medical-practice-closing-permanently-after-ransomware-attack">Medical Practice Closing Permanently After Ransomware Attack</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/webex-zoom-meetings-exposed-snooping-enumeration-attacks">WebEx, Zoom Meetings Exposed to Snooping via Enumeration Attacks</a></li>
+              <li><a class="lnk-orange" href="https://www.schneier.com/blog/archives/2019/10/nsa_on_the_futu.html">NSA on the Future of National Cybersecurity</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/blogs/zyngas-breach-notification-how-to-inform-victims-p-2796">Zynga's Breach Notification: How Not to Inform Victims</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/users-need-consent-online-tracking-cookies-eu-court">Users Need to Consent to Online Tracking Cookies: EU Court</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/under-detected-odt-files-deliver-common-remote-access-trojans/">Under-Detected ODT Files Deliver Common Remote Access Trojans</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/blogs/psd2-authentication-deadline-needs-to-be-firmed-up-now-p-2794">PSD2 Authentication Deadline Needs to Be Firmed Up - Now</a></li>
+              <li><a class="lnk-orange" href="https://www.vice.com/en_us/article/3kx5y3/uzbekistan-hacking-operations-uncovered-due-to-spectacularly-bad-opsec">Researchers Say They Uncovered Uzbekistan Hacking Operations Due to Spectacularly Bad OPSEC</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/linux-to-get-kernel-lockdown-feature/">Linux to get kernel 'lockdown' feature</a></li>
+              <li><a class="lnk-blue" href="https://www.schneier.com/blog/archives/2019/09/supply-chain_se_1.html">Supply-Chain Security and Trust</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/russian-hacker-group-patches-chrome-and-firefox-to-fingerprint-tls-traffic/">Russian hacker group patches Chrome and Firefox to fingerprint TLS traffic</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/australian-govt-issues-android-and-ios-security-hardening-guides/">Australian Govt Issues Android and iOS Security Hardening Guides</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/magecart-impacts-hundreds-of-thousands-of-websites-still-growing/">Magecart Impacts Hundreds of Thousands of Websites, Still Growing</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/four-us-food-chains-disclose-payment-card-theft-via-pos-malware/">Four U.S. Food Chains Disclose Payment Card Theft via PoS Malware</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/09/exim-email-security-vulnerability.html">New Critical Exim Flaw Exposes Email Servers to Remote Attacks — Patch Released</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/urgent11-flaws-impact-more-rtos-used-medical-industrial-devices">Urgent/11 Flaws Impact More RTOS Used by Medical, Industrial Devices</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-pink" href="https://github.com/bishopfox/eyeballer">Eyeballer: Convolutional neural network for analyzing pentest screenshots</a></li>
+              <li><a class="lnk-green" href="https://posts.specterops.io/introducing-venator-a-macos-tool-for-proactive-detection-34055a017e56">Introducing Venator: A macOS tool for proactive detection</a></li>
+              <li><a class="lnk-orange" href="https://posts.specterops.io/understanding-and-defending-against-access-token-theft-finding-alternatives-to-winlogon-exe-80696c8a73b">Understanding and Defending Against Access Token Theft: Finding Alternatives to winlogon.exe</a></li>
+              <li><a class="lnk-purple" href="https://techcommunity.microsoft.com/t5/Microsoft-Security-Baselines/Security-baseline-Sept2019Update-for-Windows-10-v1903-and/ba-p/890940">Security baseline (Sept2019Update) for Windows 10 v1903 and Windows Server v1903</a></li>
+              <li><a class="lnk-blue" href="https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Security-Policy-Advisor-for-Office-365-ProPlus-is-now-Generally/ba-p/835778">Security Policy Advisor for Office 365 ProPlus is now Generally Available!</a></li>
+              <li><a class="lnk-pink" href="https://github.com/globocom/huskyCI">huskyCI - Performing security tests inside your CI</a></li>
+              <li><a class="lnk-green" href="https://portswigger.net/research/http-desync-attacks-what-happened-next">HTTP Desync Attacks: what happened next</a></li>
+              <li><a class="lnk-orange" href="https://www.crowdstrike.com/blog/reconstructing-command-line-activity-on-macos/">Saved by the Shell: Reconstructing Command-Line Activity on MacOS</a></li>
+              <li><a class="lnk-purple" href="https://www.trenchesofit.com/2019/10/01/how-i-passed-aws-security/">How I Passed the AWS Certified Security – Specialty</a></li>
+              <li><a class="lnk-pink" href="https://j.vehent.org/blog/index.php?post/2019/09/25/Beyond-The-Security-Team">Beyond The Security Team</a></li>
+
+              <li><a class="lnk-orange" href="https://blog.acolyer.org/2019/10/04/lateral-phishing-at-scale/">Detecting and characterizing lateral phishing at scale</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/bugbountywriteup/pushing-left-like-a-boss-table-of-contents-42fd063a75bb">Pushing Left, Like a Boss: Table of Contents</a></li>
+              <li><a class="lnk-blue" href="https://theappanalyst.com/bird.html">App Analysis: Bird</a></li>
+              <li><a class="lnk-pink" href="https://web.archive.org/web/20190928130035/https://fant.io/p/hacking-voi/">Hacking Voi Scooters: How I Created $100k Worth Of Free Rides</a></li>
+              <li><a class="lnk-green" href="https://blog.zsec.uk/redteam-intro/">So you want to learn [Red] teaming?</a></li>
+              <li><a class="lnk-orange" href="https://threat.tevora.com/smoke-and-mirrors-red-teaming-with-physical-penetration-testing-and-social-engineering/">Red Teaming with Physical Penetration Testing and Social Engineering</a></li>
+              <li><a class="lnk-purple" href="https://github.com/axi0mX/ipwndfu/blob/master/README.md">Checkm8 exploit</a></li>
+              <li><a class="lnk-blue" href="https://www.blackhillsinfosec.com/webcast-implementing-sysmon-and-applocker/">Webcast: Implementing Sysmon and Applocker</a></li>
+              <li><a class="lnk-pink" href="https://www.youtube.com/watch?v=T2KnY_2Oo2Y">Webcast: The Frugal Girl’s Guide to Threat Intelligence</a></li>
+              <li><a class="lnk-green" href="https://srlabs.de/bites/sim_attacks_demystified/">New SIM attacks de-mystified, protection tools now available</a></li>
+              <li><a class="lnk-orange" href="https://www.nist.gov/news-events/news/2019/09/zero-trust-architecture-draft-nist-sp-800-207-available-comment">Zero Trust Architecture: Draft NIST SP 800-207 Available for Comment</a></li>
+              <li><a class="lnk-purple" href="https://www.vdalabs.com/2019/10/01/phishing-users-using-evilginx-and-bypassing-2fa/?fbclid=IwAR1xYC8CovAkc-ff7Vj03rxji8aSrUBd05cETbfQOWGJqkKGZVP2EfQ_kO0">Phishing users using EvilGinx and bypassing 2FA</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
