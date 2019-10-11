@@ -1,0 +1,244 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 14/10/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/hl-images/2019/10/09/iTerm2.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">14 October 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">C is for Credit Card: MageCart Hits Volusion E-Commerce Sites</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2019/10/08/Volusion_Magecart.jpg"></mj-image>
+          <mj-text color="#fff">Hackers compromised the infrastructure of Volusion cloud-based e-commerce platform to inject customer checkout pages with malicious JavaScript code that steals payment card data. The attackers added code for dynamic injection of the card data thieving script to a JavaScript that is part of the Volusion e-commerce software. Thousands of websites are likely loading the attackers' script and sending payment information to their server. Some may have been compromised as early as September 12.</mj-text>
+          <mj-text color="#fff">Check Point security researcher Marcel Afrahim discovered the compromise while shopping on Sesame Street Live Store, a website from Feld Entertainment that sells official Sesame Street merchandise. The store is built with Volusion, who even provides the nameservers. On the checkout page, Afrahim noticed JavaScript code loading from Google Cloud Storage (storage.googleapis.com), a file storage web service for storing and accessing data on Google Cloud Platform infrastructure. The oddity was that this was the only resource loaded from a source other than 'sesamestreetlivestore.com' or 'volusion.com' affiliated websites.</mj-text>
+          <mj-text color="#fff">On the company page, Volusion boasts 30,000 merchants actively using the platform. They are from a variety of fields and the dedicated page shows merchants selling products in the apparel, home and garden, health and beauty, auto and industry, and electronics categories. From our checks, not all of them are still in business. Following reports from news outlets and security researchers, Volusion addressed the issue a few hours ago. Before that, Google took steps and displayed the red 'malware danger' warning when visiting websites loading the malicious JavaScript.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/c-is-for-credit-card-magecart-hits-volusion-e-commerce-sites/">
+            Read More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">You Gave Your Phone Number to Twitter for Security and Twitter Used it for Ads</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2019/10/shutterstock_1412370347.jpg"></mj-image>
+          <mj-text>Twitter announced that the phone numbers and email addresses of some users provided for two-factor authentication (2FA) protection had been used for targeted advertising purposes—though the company said it was 'unintentional.'</mj-text>
+          <mj-text>In a blog post, the company said an 'error' in its 'Tailored Audiences and Partner Audiences advertising system' inadvertently used the information provided by users for security reasons to run targeted ads based on the advertisers' own marketing lists. However, Twitter assured that no personal data was ever shared externally with its advertising partners or any other third-parties that used the Tailored Audiences feature.</mj-text>
+          <mj-text>The social networking company also said that it does not know how many users were impacted by this error. Last year, Facebook was also caught using phone numbers provided by its users for 2FA protection; however, in that case, the FTC accused the company of intentionally using that data for advertising purposes—which became one of the reasons FTC issued a $5 billion fine against Facebook in July this year.</mj-text>
+          <mj-text>The involvement of mobile numbers entered by users to enable security is unfortunate, but we wouldn’t advise removing this data in case it proves useful should an account recovery become necessary. <span class="lnk-blue">Note from KSN: Keep in mind that alternative 2FA exist, such as OTP or security keys. On top of being more secure than SMS verification, they don't force you to share additional PII with the provider.</span></mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2019/10/twitter-advertising-privacy.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2019/10/10/twitter-used-2fa-phone-numbers-for-targeted-advertising/">
+            Even More on NakedSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">iTerm2 Patches Critical Vulnerability Active for 7 Years</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2019/10/09/iTerm2.jpg"></mj-image>
+          <mj-text>The most popular terminal emulator for macOS, iTerm2, has been updated to fix a critical security issue that survived undisclosed for at least seven years. Attackers can achieve remote command execution on systems with a vulnerable iTerm2 version when the application is used to connect to a malicious source.</mj-text>
+          <mj-text>Tracked as CVE-2019-9535, the vulnerability was discovered following a security audit from Radically Open Security, sponsored by the Mozilla Open Source Support (MOSS) program. Mozilla published a proof-of-concept video showing how connecting to a malicious SSH server resulted in running an arbitrary command (calculator app for demo purposes) on an affected system.</mj-text>
+          <mj-text>"Typically, this vulnerability would require some degree of user interaction or trickery; but because it can be exploited via commands generally considered safe, there is a high degree of concern about the potential impact," Mozilla warns. George Nachman, iTerm2's developer, today announced patches that fix the vulnerability. Users are encouraged to update to version 3.3.6 or 3.3.7beta1 version.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/iterm2-patches-critical-vulnerability-active-for-7-years/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://thehackernews.com/2019/10/iterm2-macos-terminal-rce.html">
+            Even More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="URL">cut1</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/reel-her-in-what-happens-when-tech-journalists-fall-prey-to-spear-phishing-campaigns/">Hook, line and sinker: How I fell victim to phishing attacks - again and again</a></li>
+
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/10/apple-bonjour-ransomware.html">Apple iTunes and iCloud for Windows 0-Day Exploited in Ransomware Attacks</a></li>
+              <li><a class="lnk-orange" href="https://www.schneier.com/blog/archives/2019/10/cheating_at_pro_1.html">Cheating at Professional Poker</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/phishing-incident-exposes-medical-personal-info-of-60k-patients/">Phishing Incident Exposes Medical, Personal Info of 60K Patients</a></li>
+              <li><a class="lnk-blue" href="https://www.welivesecurity.com/2019/10/10/eset-discovers-attor-spy-platform/">Attor, a spy platform with curious GSM fingerprinting</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/most-americans-cant-recognize-2fa-https-or-private-browsing/">Most Americans can't recognize 2FA, HTTPS, or private browsing</a></li>
+              <li><a class="lnk-green" href="https://www.microsoft.com/security/blog/2019/10/09/patching-social-responsibility/">Patching as a social responsibility</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/10/09/toms-hacker-tells-people-to-log-off-and-enjoy-a-screenless-day/">TOMS hacker tells people to log off and enjoy a screenless day</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/only-1-in-5-enterprises-have-dmarc-records-set-up-with-an-enforcement-policy/">Only 1 in 5 enterprises have DMARC records set up with an enforcement policy</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/thunderbird-to-add-built-in-support-for-openpgp-email-encryption-standard/">Thunderbird to add built-in support for OpenPGP email encryption standard</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/researcher-adds-100-000-worth-of-credit-to-voi-e-scooter-app/">Researcher Adds $100,000 Worth of Credit to Voi E-Scooter App</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/blogs/developers-code-reuse-security-conundrum-cut-paste-fail-p-2798">Developers' Code Reuse Security Conundrum: Cut, Paste, Fail</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/imperva-blames-data-breach-on-stolen-aws-api-key/">Imperva blames data breach on stolen AWS API key</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/hacker-selling-user-info-stolen-from-prostitution-forums/">Hacker Selling User Info Stolen From Prostitution Forums</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/10/08/nationwide-facial-recognition-program-underway-in-france/">Nationwide facial recognition ID program underway in France</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/1-million-people-had-their-medical-data-exposed-in-t-ora-breach/">1 Million People Had Their Medical Data Exposed in Tū Ora Breach</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/nists-zero-trust-taxonomy-introduces-components-threats-and-migration-routes">NIST's Zero Trust Taxonomy Introduces Components, Threats and Migration Routes</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/fbi-warns-about-attacks-that-bypass-multi-factor-authentication-mfa/">FBI warns about attacks that bypass multi-factor authentication (MFA)</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/unpatched-vpn-servers-targeted-by-nation-state-attackers-a-13202">Unpatched VPN Servers Targeted by Nation-State Attackers</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2019/10/patch-tuesday-lowdown-october-2019-edition/">Patch Tuesday Lowdown, October 2019 Edition</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/sap-patches-critical-vulnerabilities-october-2019-security-updates">SAP Patches Critical Vulnerabilities With October 2019 Security Updates</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-microsoft-ntlm-flaws-may-allow-full-domain-compromise/">New Microsoft NTLM Flaws May Allow Full Domain Compromise</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/10/09/microsoft-fixes-critical-remote-desktop-bug-on-patch-tuesday/">Microsoft fixes critical remote desktop bug</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/these-are-the-macos-catalina-10-15-security-updates-you-need-to-know-about/">These are the Apple macOS Catalina 10.15 security updates you need to know about</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/no-patch-critical-code-execution-flaw-affecting-d-link-routers">No Patch for Critical Code Execution Flaw Affecting D-Link Routers</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-the-october-2019-security-updates-for-office/">Microsoft Releases the October 2019 Security Updates for Office</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/google-patches-remote-code-execution-bugs-android-10">Google Patches Remote Code Execution Bugs in Android 10</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/10/vBulletin-hacking-exploit.html">vBulletin Releases Patch Update for New RCE and SQLi Vulnerabilities</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/zero-day-published-for-old-joomla-cms-versions/">Zero-day published for old Joomla CMS versions</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/signal-rushes-patch-serious-eavesdropping-vulnerability">Signal Rushes to Patch Serious Eavesdropping Vulnerability</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/how-to-prioritize-vulnerability-patching-a-13200">How to Prioritize Vulnerability Patching</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="http://fraudfox.net/">VM based solution to beat browser fingerprinting</a></li>
+              <li><a class="lnk-pink" href="https://github.com/salesforce/policy_sentry">IAM Least Privilege Policy Generator </a></li>
+              <li><a class="lnk-green" href="https://posts.specterops.io/uncovering-the-unknowns-a47c93bb6971">Mapping Windows API’s to Sysmon Events</a></li>
+              <li><a class="lnk-orange" href="https://apisecurity.io/tools/audit/">API Security Tools</a></li>
+              <li><a class="lnk-purple" href="https://support.google.com/chrome/a/answer/2941083?hl=en">Chrome Enterprise</a> / <a class="lnk-purple" href="https://support.google.com/chrome/a/answer/3538894?hl=en">Ephemeral mode</a> / <a class="lnk-purple" href="https://support.google.com/accounts/answer/6206323"></a>Password Alert</li>
+              <li><a class="lnk-blue" href="https://www.imperva.com/blog/ceoblog/">Imperva Security Update</a></li>
+              <li><a class="lnk-pink" href="https://github.com/secrary/DrSemu">DrSemu - Malware Detection and Classification Tool Based on Dynamic Behavior </a></li>
+              <li><a class="lnk-green" href="https://portswigger.net/research/xs-leak-leaking-ids-using-focus">XS-Leak: Leaking IDs using focus</a></li>
+              <li><a class="lnk-orange" href="https://secrary.com/Random/RedTeamTrick/">Simple Trick For Red Teams</a></li>
+              <li><a class="lnk-purple" href="https://research.kudelskisecurity.com/2019/10/08/fido2-solving-the-password-problem/">FIDO2: solving the password problem</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/bugbountywriteup/foss-a-poor-mans-security-analysis-architecture-9c03899b5933">FOSS : A poor man’s security analysis architecture.</a></li>
+              <li><a class="lnk-pink" href="https://alex.kaskaso.li/post/revisiting-email-spoofing">Revisiting Email Spoofing</a></li>
+              <li><a class="lnk-green" href="https://securecloud.blog/2019/10/08/advisories-1-2-azure-ad-and-common-ws-trust-mfa-bypass-explained/">Advisories 1-2: Azure AD and Common WS-Trust MFA Bypass explained</a></li>
+              <li><a class="lnk-orange" href="https://arkadiyt.com/2019/10/07/pair-locking-your-iphone-with-configurator-2/">Pair Locking your iPhone with Configurator 2</a></li>
+              <li><a class="lnk-purple" href="https://nightowl131.github.io/AAPG/">AAPG: [A]ndroid [A]pplication [P]entest [G]uide</a></li>
+              <li><a class="lnk-blue" href="https://offsec.almond.consulting/super-magic-hash.html">(Super) Magic Hashes</a></li>
+              <li><a class="lnk-pink" href="https://www.commoncriteriaportal.org/news/">UK - Change of CCRA Status</a></li>
+              <li><a class="lnk-green" href="https://iwantmore.pizza/posts/meterpreter-shellcode-inject.html">Meterpreter + Donut = Reflectively and Interactively Executing Arbitrary Executables via Shellcode Injection</a></li>
+              <li><a class="lnk-orange" href="https://www.group-ib.com/blog/windows10_timeline_for_forensics">No Time to Waste: How Windows 10 Timeline Can Help Forensic Experts</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
