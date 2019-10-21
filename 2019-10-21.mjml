@@ -1,0 +1,229 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 21/10/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepingcomputer.com/news/security/samsung-galaxy-s10-fingerprint-reader-defeated-by-silicone-case/" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">21 October 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Samsung Galaxy S10 Fingerprint Reader Defeated by Silicone Case</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2019/10/14/SamsungGalaxyS10.jpg"></mj-image>
+          <mj-text color="#fff">A couple in the UK experienced a weird bug on their Samsung Galaxy S10 that allows bypassing the fingerprint reader to unlock the phone regardless of the biometric data registered in the device.</mj-text>
+          <mj-text color="#fff">Lisa got the phone as a gift from her husband and decided to put it in a protective case. She soon discovered that even if only her own fingerprint was registered in the biometric settings of the device, the phone unlocked no matter what finger was used for the process. The culprit seems to be the the silicone case, which somehow confuses Samsung Galaxy S10's fingerprint reader and allows any fingerprint to unlock the device.</mj-text>
+          <mj-text color="#fff">Both Galaxy S10 and S10+ create a 3D map of the fingerprint using ultrasounds, with the reader being embedded under the display. These devices were the first phones to use this technology for fingerprint scanning. Also worrying is the fact that many banking apps adopted biometric authentication, so bypassing the fingerprint reader on a phone also allows executing financial operations. Following media reports that the fingerprint reader in Samsung Galaxy S10 phones unlocks the device when scanning unregistered fingerprints through a silicone case, the South Korean company informs that it will release a patch to correct the problem.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/samsung-galaxy-s10-fingerprint-reader-defeated-by-silicone-case/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/samsung-to-patch-fingerprint-scanner-against-silicone-case-unlock-bug/">
+            Samsung to Patch Fingerprint Scanner
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">'Graboid' Cryptojacking Worm Spreads Through Containers</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/graboid-crytopjacking-worm-spreads-through-containers-showcase_image-6-a-13256.jpg"></mj-image>
+          <mj-text>Attackers are using Docker containers to spread a cryptojacking worm in a campaign dubbed "Graboid," according to researchers at Palo Alto Network's Unit 42 threat research unit. Although the researchers describe the campaign as "relatively inept," they says it has the potential to become much more dangerous.</mj-text>
+          <mj-text>This is the first time the researchers have seen a cryptojacking worm spread through containers in the Docker Engine (Community Edition). While the worm isn't sophisticated in its tactics, techniques or procedures, it can be repurposed by the command-and-control server to run ransomware or other malware, the researchers warn.</mj-text>
+          <mj-text>Researchers say that organizations can take several steps to protect containers from attack. Those include ensuring that Docker daemons are not exposed to the internet unless they have a proper authentication method, using Unix socket to communicate with the daemon locally or Secure Shell to connect to a remote daemon, and using firewalls to whitelist incoming traffic.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bankinfosecurity.com/graboid-crytopjacking-worm-spreads-through-containers-a-13256">
+            Read More BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">What Your Personal Information is Worth to Cybercriminals</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2019/10/15/money.jpg"></mj-image>
+          <mj-text>Cybercriminals have multiple markets to get illicit goods and prices on these underground forums are likely driven by supply and demand, just like in the legal economy. Offerings found on deep and dark web (DDW) markets include anything that can be monetized in one way or another. Common goods cover any financial information that can be used for bank fraud.</mj-text>
+          <mj-text>A typical assortment of products and services comprises personally-identifiable information, payment card data, credentials, access to compromised systems, distributed denial-of-service, forged documents, credentials, and access to compromised services. Full packages of data that can be used to steal a US victim's identity sell for $4-$10, the researchers say. These are called 'fullz' and include at least the name, Social Security number, date of birth, and account numbers.</mj-text>
+          <mj-text>Flashpoint estimates "with a moderate degree of confidence in 2019 that the price of cards in card shops likely often ranges between $2 and $20 USD" but it may go as high as $200 in some cases. Although the prices above seem low, one must consider that the seller expects to deliver them in bulk. For instance, someone is offering a huge database of 90 million Brazilian citizens, while others provide entire collections of credentials, suitable for account takeover attacks via credential stuffing.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/what-your-personal-information-is-worth-to-cybercriminals/">
+            Read More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.microsoft.com/security/blog/2019/10/16/guarding-against-supply-chain-attacks-part-1-big-picture/">Guarding against supply chain attacks—Part 1: The big picture</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-azure-ad-sign-in-history-to-detect-unusual-activity/">Microsoft Adds Azure AD Sign-In History to Detect Unusual Activity</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/yubico-security-keys-can-now-be-used-to-log-into-windows-computers/">Yubico security keys can now be used to log into Windows computers</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/zappos-data-breach-settlement-users-get-10-store-discount-lawyers-get-1-6m/">Zappos data breach settlement: users get 10% store discount, lawyers get $1.6m</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/hundreds-fake-election-domains-target-democrats-republicans">Hundreds of Fake Election Domains Target Democrats, Republicans</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/500-million-uc-browser-android-users-exposed-to-mitm-attacks-again/">500+ Million UC Browser Android Users Exposed to MiTM Attacks. Again.</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/10/facebook-apps-bug-bounty.html">Facebook Now Pays Hackers for Reporting Security Bugs in 3rd-Party Apps</a></li>
+              <li><a class="lnk-green" href="https://www.schneier.com/blog/archives/2019/10/cracking_the_pa.html">Cracking the Passwords of Early Internet Pioneers</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/10/15/facebooks-libra-cryptocurrency-loses-all-but-one-payment-company/">Facebook’s Libra cryptocurrency loses all but one payment company</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/wav-audio-files-are-now-being-used-to-hide-malicious-code/">WAV audio files are now being used to hide malicious code</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/10/firefox-javascript-injection.html">Firefox Blocks Inline and Eval JavaScript on Internal Pages to Prevent Injection Attacks</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/m6-one-of-frances-biggest-tv-channels-hit-by-ransomware/">M6, one of France's biggest TV channels, hit by ransomware</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/linux/linux-sudo-bug-lets-you-run-commands-as-root-most-installs-unaffected/">Linux SUDO Bug Lets You Run Commands as Root, Most Installs Unaffected</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/microsoft-defender-tamper-protection-reaches-general-availability/">Microsoft Defender 'Tamper Protection' reaches general availability</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/fbi-urges-businesses-to-use-biometric-factors-to-mitigate-multi-factor-authentication-risk/">FBI urges businesses to use biometric factors to mitigate multi-factor authentication risk</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/10/simjacker-vulnerability-exploit.html">SIM Cards in 29 Countries Vulnerable to Remote Simjacker Attacks</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/microsoft-and-nist-partner-to-create-enterprise-patching-guide/">Microsoft and NIST partner to create enterprise patching guide</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-improves-azure-active-directory-security-with-new-roles/">Microsoft Improves Azure Active Directory Security with New Roles</a></li>
+              <li><a class="lnk-purple" href="https://www.macobserver.com/news/nordvpn-was-hacked/">NordVPN was Hacked. Here’s What We Know</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/adobe-fixes-45-critical-vulnerabilities-in-acrobat-and-reader/">Adobe Fixes 45 Critical Vulnerabilities in Acrobat and Reader</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/wordpress-524-patches-six-vulnerabilities">WordPress 5.2.4 Patches Six Vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/10/adobe-software-patches.html">Adobe Releases Out-of-Band Security Patches for 82 Flaws in Various Products</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/critical-flaw-sophos-cyberoam-appliances-allows-remote-code-execution">Critical Flaw in Sophos Cyberoam Appliances Allows Remote Code Execution</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/nitro-pdf-pro-to-get-micropatches-for-7-potential-rce-bugs/">Nitro PDF Pro to Get Micropatches for 7 Potential RCE Bugs</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/google-patches-8-vulnerabilities-chrome-77">Google Patches 8 Vulnerabilities in Chrome 77</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://developer.okta.com/blog/2019/10/17/a-thorough-introduction-to-paseto">A Thorough Introduction to PASETO (JWT secure alternative)</a></li>
+              <li><a class="lnk-pink" href="https://github.com/VirusTotal/yara/releases/tag/v3.11.0">YARA v3.11.0</a></li>
+              <li><a class="lnk-green" href="https://isc.sans.edu/forums/diary/Phishing+email+spoofing+SPFenabled+domain/25426/">Phishing e-mail spoofing SPF-enabled domain</a></li>
+              <li><a class="lnk-orange" href="https://blog.silentsignal.eu/2019/10/21/patching-android-apps-what-could-possibly-go-wrong/">Patching Android apps: what could possibly go wrong</a></li>
+              <li><a class="lnk-purple" href="https://x-c3ll.github.io/posts/CSS-Injection-Primitives/">CSS Injection Primitives</a></li>
+              <li><a class="lnk-blue" href="https://www.evilsocket.net/2019/10/19/Weaponizing-and-Gamifying-AI-for-WiFi-Hacking-Presenting-Pwnagotchi-1-0-0/#.Xas1JEBAewV.reddit">Weaponizing and gamifying ai for wifi hacking: presenting pwnagotchi 1.0.0</a></li>
+              <li><a class="lnk-pink" href="https://github.com/fcavallarin/domdig">DOMDig: DOM XSS scanner for Single Page Applications</a></li>
+              <li><a class="lnk-green" href="https://darkport.co.uk/blog/ahh-shhgit!/">Ahh shhgit!</a></li>
+              <li><a class="lnk-orange" href="http://ghostlulz.com/xml-external-entityxxe/">XML External Entity(XXE)</a></li>
+              <li><a class="lnk-purple" href="https://www.bc-security.org/post/ja3-s-signatures-and-how-to-avoid-them">JA3/S Signatures and How to Avoid Them</a></li>
+              <li><a class="lnk-blue" href="https://www.wilbursecurity.com/2019/10/rdp-honeypotting/">RDP Honeypotting</a></li>
+              <li><a class="lnk-pink" href="https://blog.paloaltonetworks.com/2019/10/cloud-kubernetes-vulnerabilities/">Analysis of Two Newly Patched Kubernetes Vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://0x00sec.org/t/securing-docker-containers/16913">Securing Docker Containers</a></li>
+              <li><a class="lnk-orange" href="https://github.com/Keramas/Blowhole">Blowhole: Docker auditing and enumeration script.</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/@woj_ciech/fun-with-amazon-s3-leaks-and-bucket-takeover-attack-ddb17da1c431">Fun with Amazon S3— Leaks and bucket takeover attack</a></li>
+              <li><a class="lnk-blue" href="https://riccardoancarani.github.io/2019-10-19-hunting-for-domain-enumeration/">Hunting for Suspicious LDAP Activity with SilkETW and Yara</a></li>
+              <li><a class="lnk-pink" href="https://insinuator.net/2019/10/blue-hands-on-bloodhound/">Blue Hands On Bloodhound</a></li>
+              <li><a class="lnk-green" href="https://adsecurity.org/wp-content/uploads/2019/09/2019-DerbyCon-ActiveDirectorySecurity-BeyondTheEasyButton-Metcalf.pdf">Active Directory Security: Beyond the Easy Button</a></li>
+              <li><a class="lnk-orange" href="https://riccardoancarani.github.io/2019-10-19-hunting-covenant-msbuild/">Hunting for Anomalous Usage of MSBuild and Covenant</a></li>
+              <li><a class="lnk-purple" href="https://wiki.sans.blue/#!index.md">SANS Blue Team Wiki</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/palantir/assessing-the-effectiveness-of-a-new-security-data-source-windows-defender-exploit-guard-860b69db2ad2">Assessing the effectiveness of a new security data source: Windows Defender Exploit Guard</a></li>
+              <li><a class="lnk-pink" href="https://outflank.nl/blog/2019/10/20/red-team-tactics-active-directory-recon-using-adsi-and-reflective-dlls/">Red Team Tactics: Active Directory Recon using ADSI and Reflective DLLs</a></li>
+              <li><a class="lnk-green" href="https://dirkjanm.io/office-365-network-attacks-via-insecure-reply-url/">Office 365 network attacks - Gaining access to emails and files via an insecure Reply URL</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
