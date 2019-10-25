@@ -1,0 +1,193 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 28/10/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-VpIzIXnr6Nc/XbAJseFx07I/AAAAAAAA1ec/Qnh5aiPdiCQlHbBgTV9PXYNq9lXX5-VhwCLcBGAsYHQ/s728-e100/cdn-cache-poisoning-dos-attack.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">28 October 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">New Cache Poisoning Attack Lets Attackers Target CDN Protected Sites</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-VpIzIXnr6Nc/XbAJseFx07I/AAAAAAAA1ec/Qnh5aiPdiCQlHbBgTV9PXYNq9lXX5-VhwCLcBGAsYHQ/s728-e100/cdn-cache-poisoning-dos-attack.png"></mj-image>
+          <mj-text color="#fff">A team of German cybersecurity researchers has discovered a new cache poisoning attack against web caching systems that could be used by an attacker to force a targeted website into delivering error pages to most of its visitors instead of legitimate content or resources. The issue could affect sites running behind reverse proxy cache systems like Varnish and some widely-used Content Distribution Networks (CDNs) services, including Amazon CloudFront, Cloudflare, Fastly, Akamai, and CDN77. In brief, a Content Distribution Network (CDN) is a geographically distributed group of servers that sit between the origin server of a website and its visitors to optimize the performance of the website.</mj-text>
+          <mj-text color="#fff">Dubbed CPDoS, short for Cache Poisoned Denial of Service, the attack resides in the way intermediate CDN servers are incorrectly configured to cache web resources or pages with error responses returned by the origin server. "The problem arises when an attacker can generate an HTTP request for a cacheable resource where the request contains inaccurate fields that are ignored by the caching system but raise an error while processed by the origin server."</mj-text>
+          <mj-text color="#fff">With CPDoS, a malicious client can block any web resource that is distributed via Content Distribution Networks (CDNs) or hosted on proxy caches. Note, that a single crafted request is sufficient to restrain all subsequent requests from accessing the targeted content.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/10/cdn-cache-poisoning-dos-attack.html">
+            Read More TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://cpdos.org">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Swedish police cleared to deploy spyware against crime suspects</mj-text>
+          <mj-image src="https://zdnet1.cbsistatic.com/hub/i/2019/10/23/3616ce5a-08dd-4fd2-b461-0b86b4ed8355/2eb6fff774b80f7970beed5df6ebd0a7/sweden.jpg"></mj-image>
+          <mj-text>Sweden's police force has been granted new powers this week, including the ability to deploy spyware on suspects' devices to intercept encrypted communications and turn on microphones and cameras. The new technical capabilities granted to Swedish police are part of a 34-point plan to upgrade law enforcement powers when investigating gang or violent crimes.</mj-text>
+          <mj-text>Damberg said that granting police the legal and technical capabilities to intercept encrypted communications was a top priority, as they were being left behind by criminal groups who now often use services like Signal and WhatsApp to coordinate operations. The minister told local press [1, 2, 3, 4] that 90% of all the communications police have intercepted for investigations in recent years have been encrypted.</mj-text>
+          <mj-text>But unlike countries like Australia, where the local government has passed a law forcing tech companies to introduce encryption backdoors, Swedish police will take the sensible route -- aka the German route. More than a decade ago, German authorities began deploying a malware strain named the Bundestrojaner (Federal Trojan) as part of their investigations. How Swedish authorities will do this is unclear, but there are at least two routes. They can create the malware themselves, or they can buy it from contractors. The last option has been popular with law enforcement agencies across the world, and there's now a booming market for companies that sell hacking tools and exploits (also referred to as lawful intercept tools) to law enforcement agencies. The new rules and capabilities are set to enter into effect on March 1, 2020. According to Damberg, police can only use these new capabilities if the crime someone is suspected is punishable by a penalty of four years or higher.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/swedish-police-cleared-to-deploy-spyware-against-crime-suspects/">
+            Read More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.microsoft.com/security/blog/2019/10/23/perimeter-based-network-defense-transform-zero-trust-model/">Traditional perimeter-based network defense is obsolete—transform to a Zero Trust model</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/hacker-plants-keylogger-devices-on-company-systems-faces-12yr-in-jail/">Hacker Plants Keylogger Devices on Company Systems Faces 12yr in Jail</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/fbi-issues-warning-about-e-skimming-magecart-attacks/">FBI issues warning about e-skimming (Magecart) attacks</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2019/10/cachet-financial-reeling-from-mypayrollhr-fraud/">Cachet Financial Reeling from MyPayrollHR Fraud</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/vietnamese-student-behind-android-adware-strain-that-infected-millions/">Vietnamese student behind Android adware strain that infected millions</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/ftc-issues-guidance-on-protecting-against-sim-swap-attacks/">FTC Issues Guidance On Protecting Against SIM Swap Attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/psd2-authentication-deadline-extended-heres-whats-next-a-13284">PSD2 Authentication Deadline Extended: Here's What's Next</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/10/23/alexa-and-google-home-phishing-apps-demonstrated-by-researchers/">Alexa and Google Home phishing apps demonstrated by researchers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/scammers-behind-10-million-bec-fraud-arrested-in-spain/">Scammers Behind €10 Million BEC Fraud Arrested in Spain</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/10/mssql-server-backdoor.html">Stealthy Microsoft SQL Server Backdoor Malware Spotted in the Wild</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/ransomware-attack-shuts-down-city-of-johannesburgs-systems/">Ransomware Attack Shuts Down City of Johannesburg's Systems</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/major-german-manufacturer-still-down-a-week-after-getting-hit-by-ransomware/">Major German manufacturer still down a week after getting hit by ransomware</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/hacker-breached-servers-belonging-to-multiple-vpn-providers/">Hacker Breached Servers Belonging to Multiple VPN Providers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/office-365-now-warns-about-suspicious-emails-with-unverified-senders/">Office 365 Now Warns About Suspicious Emails with Unverified Senders</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/zappos-offer-to-breach-victims-10-percent-discount-a-13274">Zappos' Offer to Breach Victims: A 10 Percent Discount</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/10/21/dont-look-now-but-pixel-4s-face-unlock-works-with-eyes-closed/">Don’t look now, but Pixel 4’s Face Unlock works with eyes closed</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2019/10/avast-nordvpn-breaches-tied-to-phantom-user-accounts/">Avast, NordVPN Breaches Tied to Phantom User Accounts</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/chrome-78-released-doh-37-security-patches">Chrome 78 Released With DoH, 37 Security Patches</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.cloudflare.com/public-keys-are-not-enough-for-ssh-security/">Public keys are not enough for SSH security</a></li>
+              <li><a class="lnk-pink" href="https://github.com/Invoke-IR/PowerForensics">PowerForensics: provides an all in one platform for live disk forensic analysis</a></li>
+              <li><a class="lnk-green" href="https://portswigger.net/research/responsible-denial-of-service-with-web-cache-poisoning">Responsible denial of service with web cache poisoning</a></li>
+              <li><a class="lnk-orange" href="https://cloudplatform.googleblog.com/2018/07/introducing-jib-build-java-docker-images-better.html">Introducing Jib — build Java Docker images better</a></li>
+              <li><a class="lnk-purple" href="https://falco.org/">Falco: Container Native Runtime Security</a></li>
+              <li><a class="lnk-blue" href="https://www.shielder.it/blog/dont-open-that-xml-xxe-to-rce-in-xml-plugins-for-vs-code-eclipse-theia/?preview=true">Don’t open that XML: XXE to RCE in XML plugins for VS Code, Eclipse, Theia, …</a></li>
+              <li><a class="lnk-pink" href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/october/bypassing-authentication-on-ssh-bastion-hosts/">Bypassing Authentication on SSH Bastion Hosts</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@d.bougioukas/red-team-diary-entry-2-stealthily-backdooring-cms-through-redis-memory-space-5813c62f8add">Stealthily Backdooring CMS Through Redis’ Memory Space</a></li>
+              <li><a class="lnk-orange" href="https://versprite.com/blog/application-security/reverse-proxy-attack/">Utilizing Reverse Proxies to Inject Malicious Code & Extract Sensitive Information</a></li>
+              <li><a class="lnk-purple" href="https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/securing-privileged-access-reference-material">Active Directory administrative tier model</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
