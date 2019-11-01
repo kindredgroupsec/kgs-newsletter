@@ -1,0 +1,232 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 04/11/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-8TToLzyT0AM/XbnkJlYpLvI/AAAAAAAA1jU/tKjF7KAhh0MKkwbpoAYoOqYjBuDUE6BrQCLcBGAsYHQ/s728-e100/cyberattack-indian-nuclear-power-plant.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">4 November 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Hackers Target Indian Nuclear Power Plant – What We Know So Far</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-8TToLzyT0AM/XbnkJlYpLvI/AAAAAAAA1jU/tKjF7KAhh0MKkwbpoAYoOqYjBuDUE6BrQCLcBGAsYHQ/s728-e100/cyberattack-indian-nuclear-power-plant.png"></mj-image>
+          <mj-text color="#fff">Due to some experts commentary on social media even after lack of information about the event and overreactions by many, the incident received factually incorrect coverage widely suggesting a piece of malware has compromised "mission-critical systems" at the Kudankulam Nuclear Power Plant. That's not what happened. The attack only infected a system that was not connected to any critical controls in the nuclear facility.</mj-text>
+          <mj-text color="#fff">The story started when Indian security researcher Pukhraj Singh tweeted that he informed Indian authorities a few months ago about an information-stealing malware, dubbed Dtrack. According to a previous report published by researchers at Kaspersky, Dtrack is a remote access Trojan (RAT) intended to spy on its victims and install various malicious modules on the targeted computers, including: keylogger, browser history stealer, functions that collect host IP address, etc.</mj-text>
+          <mj-text color="#fff">Immediately after Pukhraj's tweet, many Twitter users and Indian opposition politicians, including Congress MP Shashi Tharoor, demanded an explanation from the Indian Government about the alleged cyberattack — which it never disclosed to the public. In response to the initial media reports, the Nuclear Power Corporation of India (NPCIL), a government-owned entity, on Tuesday released an official statement, denying any cyber attack on the control system of the nuclear power plant. Though North Korean hackers developed the malware, the Indian Government has not yet attributed the attack to any group or country.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/10/nuclear-power-plant-cyberattack.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/confirmed-north-korean-malware-found-on-indian-nuclear-plants-network/">
+            Even More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">New PHP Flaw Could Let Attackers Hack Sites Running On Nginx Servers</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-8n7xadw2lZ0/XbSVeRSVJjI/AAAAAAAA1gw/mioKr8xD2zss8Xp1sCkDuDffPjd9NyuJgCLcBGAsYHQ/s728-e100/nginx-php-fpm-hacking-exploit.jpg"></mj-image>
+          <mj-text>If you're running any PHP based website on NGINX server and have PHP-FPM feature enabled for better performance, then beware of a newly disclosed vulnerability that could allow unauthorized attackers to hack your website server remotely. PHP-FPM is an alternative PHP FastCGI implementation that offers advanced and highly-efficient processing for scripts written in PHP programming language.</mj-text>
+          <mj-text>The vulnerability, tracked as CVE-2019-11043, affects websites with certain configurations of PHP-FPM that is reportedly not uncommon in the wild and could be exploited easily as a proof-of-concept (PoC) exploit for the flaw has already been released publicly. Though the publicly released PoC exploit is designed to specifically target vulnerable servers running PHP 7+ versions, the PHP-FPM underflow bug also affects earlier PHP versions and could be weaponized in a different way.</mj-text>
+          <mj-text>A Patch for this vulnerability was released just yesterday, almost a month after researchers reported it to the PHP developer team. Since the PoC exploit is already available and the patch released just yesterday, it's likely possible that hackers might have already started scanning the Internet in search for vulnerable websites. So, users are strongly advised to update PHP to the latest PHP 7.3.11 and PHP 7.2.24. Just do it, even if you are not using the vulnerable configuration.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2019/10/nginx-php-fpm-hacking.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/nasty-php7-remote-code-execution-bug-exploited-in-the-wild/">
+            Even More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Researchers find hole in EU-wide identity system</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2019/10/shutterstock_1048820645-compressor.png"></mj-image>
+          <mj-text>A flaw in a cross-border EU electronic identity system could have allowed anyone to impersonate someone else, a security consulting company has warned. SEC Consult issued an advisory warning people of the flaw this week. It demonstrated the problem in the electronic identification, authentication and trust services (eIDAS) system by authenticating as 16th-century German writer, Johann Wolfgang von Goethe.</mj-text>
+          <mj-text>eIDAS came about because of a 2014 EU regulation that laid out the rules for electronic identification in Europe. The regulation, which came into effect in 2016, made it compulsory for EU countries to identify each other’s electronic IDs by the middle of last year. It covered a range of identification assets like electronic signatures and website authentication. The problem is that there’s a flaw in the software used to manage this cross-border identification process, known as eIDAS-Node. Each country has to run a copy of this software to connect its own national identity management systems to others in the EU, creating a cross-border ID gateway. Using this gateway, citizens in the UK, say, could identify themselves to use electronic services in Germany, such as enrolling in a university or opening a bank account.</mj-text>
+          <mj-text>Luckily, the EU fixed the problem after SEC Consult contacted the relevant authorities on 4 July this year. It updated the software and released it for general download on Wednesday 28 October.mExploiting the vulnerability would have required an attacker to have control of the eIDAS node or impersonate one, and the researchers point out that another study of eIDAS security last year didn’t pick up the bug. That makes it highly possible that it was only recently introduced, they concluded.</mj-text>
+          <mj-button mj-class="bg-green" href="https://nakedsecurity.sophos.com/2019/10/31/researchers-find-hole-in-eu-identity-system/">
+            Read More at NakedSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/ubisoft-reports-93-drop-in-ddos-attacks-after-pushing-back-against-attackers/">Ubisoft reports 93% drop in DDoS attacks after pushing back against attackers</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/10/30/facebook-launches-2m-suit-against-alleged-phishing-hacking-sites/">Facebook launches $2m suit against alleged phishing, hacking sites</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2019/10/takeaways-from-the-566m-briansclub-breach/">Takeaways from the $566M BriansClub breach</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/new-office-365-phishing-scams-using-audio-voicemail-recordings/">New Office 365 Phishing Scams Using Audio Voicemail Recordings</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/10/sms-spying-malware.html">Chinese Hackers Compromise Telecom Servers to Spy on SMS Messages</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/10/domain-name-registrars-hacked.html">Leading Web Domain Name Registrars Disclose Data Breach</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/10/hacking-data-breach-protection.html">5 Places Where Hackers Are Stealthily Stealing Your Data In 2019</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/skimming-malware-found-on-american-cancer-society-webstore-a-13321">Skimming Malware Found on American Cancer Society Webstore</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/bed-bath-and-beyond-discloses-customer-login-credentials-breach/">Bed Bath & Beyond Discloses Customer Login Credentials Breach</a></li>
+              <li><a class="lnk-blue" href="https://www.digitalshadows.com/blog-and-research/australia-cyber-threat-landscape-report-h1-2019/">Australia Cyber Threat Landscape report (H1 2019)</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/office-365-enables-arc-for-enhanced-anti-spoofing-detection/">Office 365 Enables ARC for Enhanced Anti-Spoofing Detection</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/adobe-left-7-5-million-creative-cloud-user-records-exposed-online/">Adobe left 7.5 million Creative Cloud user records exposed online</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/unicredit-reveals-data-breach-exposing-3-million-customer-records/">UniCredit reveals data breach exposing 3 million customer records</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/pwn2own-hacking-event-expands-to-industrial-control-systems/">Pwn2Own Hacking Event Expands to Industrial Control Systems</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/sixth-june-fashion-site-hacked-to-steal-credit-cards/">Sixth June Fashion Site Hacked to Steal Credit Cards</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/jokers-stash-lists-13-million-stolen-indian-payment-cards-a-13302">Joker's Stash Lists 1.3 Million Stolen Indian Payment Cards</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/fast-food-chain-krystal-investigates-card-security-incident-a-13301">Fast-Food Chain Krystal Investigates Card 'Security Incident'</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/new-unremovable-xhelper-malware-has-infected-45000-android-devices/">New 'unremovable' xHelper malware has infected 45,000 Android devices</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/microsoft-russian-hackers-are-targeting-sporting-organizations-ahead-of-tokyo-olympics/">Microsoft: Russian hackers are targeting sporting organizations ahead of Tokyo Olympics</a></li>
+              <li><a class="lnk-blue" href="https://techcommunity.microsoft.com/t5/Azure-Active-Directory-Identity/Assessing-your-Zero-Trust-readiness-with-the-Microsoft-Maturity/ba-p/938452">Assessing your Zero Trust readiness with the Microsoft Maturity Model</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/20-companies-pledge-support-for-the-hack-right-program/">20 Companies Pledge Support for the Hack_Right Program</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/marriott-reports-exposure-of-associates-social-security-numbers/">Marriott Reports Exposure of Associates' Social Security Numbers</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/whatsapp-launches-fingerprint-security-lock-support-for-android-devices/">WhatsApp launches fingerprint security lock support for Android devices</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/10/29/php-team-fixes-nasty-site-owning-remote-execution-bug/">PHP team fixes nasty site-owning remote execution bug</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/11/chrome-zero-day-update.html">New Chrome 0-day Bug Under Active Attacks – Update Your Browser Now!</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.virusbulletin.com/blog/2019/10/vb2019-paper-inside-magecart-history-behind-covert-card-skimming-assault-e-commerce-industry/">VB2019 paper: Inside Magecart: the history behind the covert card-skimming assault on the e-commerce industry</a></li>
+              <li><a class="lnk-pink" href="https://ghidra-sre.org/releaseNotes_9.1_final.html">Ghidra 9.1 is out</a></li>
+              <li><a class="lnk-green" href="https://blog.cloudflare.com/announcing-cfnts/">Announcing cfnts: Cloudflare's implementation of NTS in Rust</a></li>
+              <li><a class="lnk-orange" href="https://blog.aquasec.com/istio-kubernetes-security-zero-trust-networking">Istio Security: Zero-Trust Networking</a></li>
+              <li><a class="lnk-purple" href="https://blog.cloudflare.com/public-keys-are-not-enough-for-ssh-security/">Public keys are not enough for SSH security</a></li>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/covenant-developing-custom-c2-communication-protocols-895587e7f325">Covenant: Developing Custom C2 Communication Protocols</a></li>
+              <li><a class="lnk-pink" href="https://blog.cloudflare.com/dns-encryption-explained/">DNS Encryption Explained</a></li>
+              <li><a class="lnk-green" href="https://nathandavison.com/blog/abusing-http-hop-by-hop-request-headers">Abusing HTTP hop-by-hop request headers</a></li>
+              <li><a class="lnk-orange" href="https://github.com/jordanpotti/OffensiveCloudDistribution">OffensiveCloudDistribution: Terraform and AWS to distribute large security scans across numerous cloud instances.</a></li>
+              <li><a class="lnk-purple" href="https://lab.wallarm.com/race-condition-in-web-applications/">Race Condition in Web Applications</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@ScatteredSecrets/hookers-nl-breach-cracking-57-of-the-passwords-in-three-days-da613bbac32b">Hookers.nl breach: cracking 57% of the passwords in three days</a></li>
+              <li><a class="lnk-pink" href="https://research.securitum.com/prototype-pollution-rce-kibana-cve-2019-7609/">Exploiting prototype pollution – RCE in Kibana (CVE-2019-7609)</a></li>
+              <li><a class="lnk-green" href="https://wwws.nightwatchcybersecurity.com/2019/10/24/nfc-beaming-bypasses-security-controls-in-android-cve-2019-2114/">NFC Beaming Bypasses Security Controls in Android [CVE-2019-2114]</a></li>
+              <li><a class="lnk-orange" href="https://csper.io/">Introducing Csper!: simple report-only CSP policy (HTTP Header) on your website.</a></li>
+              <li><a class="lnk-purple" href="https://github.com/s0md3v/Arjun">Arjun: HTTP parameter discovery suite.</a></li>
+              <li><a class="lnk-blue" href="https://github.com/lowleveldesign/concerto">concerto: create TLS certificates for development purposes (C#).</a></li>
+              <li><a class="lnk-pink" href="https://mazinahmed.net/blog/breaking-jwt/">Practical Approaches for Testing and Breaking JWT Authentication</a></li>
+              <li><a class="lnk-green" href="https://twilio-labs.github.io/socless/">SOCless: SOCless is a serverless framework built to automate incident response and operations processes.</a></li>
+              <li><a class="lnk-orange" href="https://github.com/nccgroup/sadcloud">sadcloud: standing up (and tearing down!) purposefully insecure cloud infrastructure</a></li>
+              <li><a class="lnk-purple" href="https://outflank.nl/blog/2019/10/30/abusing-the-sylk-file-format/">Abusing the SYLK file format</a></li>
+              <li><a class="lnk-blue" href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/october/bypassing-authentication-on-ssh-bastion-hosts/">Bypassing Authentication on SSH Bastion Hosts</a></li>
+              <li><a class="lnk-pink" href="https://pentestlab.blog/2019/10/28/persistence-port-monitors/">Persistence – Port Monitors</a></li>
+              <li><a class="lnk-green" href="https://www.peerlyst.com/posts/the-path-to-ciso-there-are-many-levels-to-walk-if-one-wants-to-be-a-ciso-gary-hayslip-cissp-cisa-crisc-ccsk?trk=search_page_search_result">The Path to CISO</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
