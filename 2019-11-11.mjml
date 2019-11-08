@@ -1,0 +1,185 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - DD/MM/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">11 November 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Insider Threats: Trend Micro Employee Sold Consumer Data to Scammers; Feds Allege Saudi Spies Infiltrated Twitter</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-RM8Cugydn9o/XcP_3PmixHI/AAAAAAAA1oc/OGSD4Ea2UNAqdcdcqcnYqiIl-yJ25PmqQCLcBGAsYHQ/s728-e100/trend-micro-insider-data-breach.jpg"></mj-image>
+          <mj-text color="#fff">While companies do much to protect themselves from external threats, insiders always pose the highest risk to a company's data. Cybersecurity firm Trend Micro has disclosed a security incident this week carried out by an employee who improperly accessed the personal data of thousands of its customers with a "clear criminal intent" and then sold it to a malicious third-party tech support scammers earlier this year. According to the security company, an estimated number of customers affected by the breach is 68,000, which is less than one percent of the company's 12 million customer base. The stolen database contained Trend Micro consumer customers' names, email addresses, Trend Micro support ticket numbers, and in some instances, phone numbers.</mj-text>
+          <mj-text color="#fff">A separate data breach incident also caused due to an insider threat, where two former Twitter employees have been charged with accessing information on thousands of Twitter user accounts on behalf of the Saudi Arabian government. According to an indictment filed on November 5 and unsealed just yesterday, one of the charged Twitter employees, American citizen Ahmad Abouammo, left the company in May 2015 and the other, Saudi citizen Ali Alzabarah, left the company in December 2015.</mj-text>
+          <mj-text color="#fff">The information Abouammo and Alzabarah illegally accessed about Twitter users include their email addresses, devices used, browser information, user-provided biographical information, birthdates, and other info that can be used to know a user's location, like IP addresses associated with the accounts and phone numbers. Alzabarah, who joined Twitter in August 2013 as a "site reliability engineer," worked with the Saudi officials between May 21 and November 18, 2015, and allegedly accessed the private data on more than 6,000 Twitter accounts. Twitter acknowledged that the company has cooperated in this investigation and that it limits access to sensitive account information "to a limited group of trained and vetted employees."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/11/insider-threat-data-breach.html">
+            Rogue TrendMicro Employee Sold Customer Data to Tech Support Scammers
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/11/twitter-spying-saudi-arabia.html">
+            Two Former Twitter Employees Caught Spying On Users For Saudi Arabia
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/11/delegated-credentials-for-tls.html">Explained: How New 'Delegated Credentials' Boosts TLS Protocol Security</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/google-asks-three-mobile-security-firms-to-help-scan-play-store-apps/">Google asks three mobile security firms to help scan Play Store apps</a></li>
+              <li><a class="lnk-green" href="https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/Expanding-Azure-Active-Directory-support-for-FIDO2-preview-to/ba-p/981894">Expanding Azure Active Directory support for FIDO2 preview to hybrid environments</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/11/ring-doorbell-wifi-password.html">Amazon's Ring Video Doorbell Lets Attackers Steal Your Wi-Fi Password</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2019/11/08/leak-of-4000-facebook-documents-heaps-more-trouble-on-internet-giant/">Leak of 4,000 Facebook documents heaps more trouble on internet giant</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/dns-over-https-will-eventually-roll-out-in-all-major-browsers-despite-isp-opposition/">DNS-over-HTTPS will eventually roll out in all major browsers, despite ISP opposition</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/11/network-security-sase.html">Gartner Says the Future of Network Security Lies with SASE</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/11/07/warrant-let-police-search-online-dna-database/">Warrant let police search online DNA database</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/how-do-we-get-passwordless-world-one-step-time">How Do We Get to a Passwordless World? One Step at a Time.</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/facebook-portal-survives-pwn2own-hacking-contest-amazon-echo-got-hacked/">Facebook Portal survives Pwn2Own hacking contest, Amazon Echo got hacked</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/11/06/smartphone-and-speaker-voice-assistants-can-be-hacked-using-lasers/">Smartphone and speaker voice assistants can be abused using lasers</a></li>
+              <li><a class="lnk-pink" href="https://www.microsoft.com/security/blog/2019/11/05/balance-compliance-security-vodafone/">Thinking about the balance between compliance and security</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/specially-crafted-zip-files-used-to-bypass-secure-email-gateways/">Specially Crafted ZIP Files Used to Bypass Secure Email Gateways</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/nvidia-patches-severe-geforce-gpu-vulnerabilities/">Nvidia patches severe GeForce, GPU vulnerabilities</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-issues-november-2019-office-updates-with-memory-leak-fix/">Microsoft Issues November 2019 Office Updates With Memory Leak Fix</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/cisco-patches-vulnerabilities-small-business-routers-roomos-software">Cisco Patches Vulnerabilities in Small Business Routers, RoomOS Software</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/between-200000-and-240000-magento-online-stores-will-reach-eol-next-year/">Between 200,000 and 240,000 Magento online stores will reach EOL next year</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/libarchive-vulnerability-can-lead-to-code-execution-on-linux-freebsd-netbsd/">Libarchive vulnerability can lead to code execution on Linux, FreeBSD, NetBSD</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/wordpress-admins-infect-their-sites-with-wp-vcd-via-pirated-plugins/">WordPress Admins Infect Their Sites With WP-VCD via Pirated Plugins</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-warns-of-more-harmful-windows-bluekeep-attacks-patch-now/">Microsoft Warns of More Harmful Windows BlueKeep Attacks, Patch Now</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/11/rConfig-network-vulnerability.html">Watch Out IT Admins! Two Unpatched Critical RCE Flaws Disclosed in rConfig</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/11/04/apple-developers-get-this-update-to-protect-the-rest-of-us/">Apple developers – get this update to protect the rest of us</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-purple" href="https://about.gitlab.com/blog/2019/04/01/evolution-of-zero-trust/">The evolution of Zero Trust</a></li>
+              <li><a class="lnk-blue" href="https://www.altoros.com/blog/integrating-calico-and-istio-to-secure-zero-trust-networks-on-kubernetes/">Integrating Calico and Istio to Secure Zero-Trust Networks on Kubernetes</a></li>
+              <li><a class="lnk-pink" href="https://monzo.com/blog/we-built-network-isolation-for-1-500-services">We built network isolation for 1,500 services to make Monzo more secure</a></li>
+              <li><a class="lnk-green" href="https://research.securitum.com/jwt-json-web-token-security/">JWT (JSON Web Token) (in)security</a></li>
+              <li><a class="lnk-orange" href="https://github.com/palantir/exploitguard">Documentation and supporting script sample for Windows Exploit Guard</a></li>
+              <li><a class="lnk-purple" href="https://blog.xpnsec.com/protecting-your-malware/">Protecting Your Malware with blockdlls and ACG</a></li>
+              <li><a class="lnk-blue" href="https://github.com/mitre/caldera">CALDERA: automated adversary emulation system, using MITRE ATT&CK™ framework.</a></li>
+              <li><a class="lnk-pink" href="https://apt29a.blogspot.com/2019/11/deploying-honeytokens-in-active.html">Deploying honeytokens in Active Directory & How to trick attackers with deceptive BloodHound paths</a></li>
+              <li><a class="lnk-green" href="https://www.projectcalico.org/">Calico: simplify, scale, and secure cloud networks</a></li>
+              <li><a class="lnk-orange" href="https://about.gitlab.com/handbook/engineering/security/red-team/">Gitlab's red team operations documentation</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@woj_ciech/hack-the-planet-with-%EA%93%98amerka-gui-ultimate-internet-of-things-industrial-control-systems-5ff7d9686b29">ꓘamerka GUI — IoT/Industrial Control Systems reconnaissance tool</a></li>
+              <li><a class="lnk-pink" href="https://blog.hackedu.io/same-origin-policy-and-cross-origin-resource-sharing/">Same-Origin Policy And Cross-Origin Resource Sharing (CORS)</a></li>
+              <li><a class="lnk-green" href="https://asecure.cloud/g/strategy_ec2_security/">EC2 Security Strategy</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/swlh/hacking-json-web-tokens-jwts-9122efe91e4a">Hacking JSON Web Tokens (JWTs)</a></li>
+              <li><a class="lnk-purple" href="https://www.troyhunt.com/hsts-from-top-to-bottom-or-gtfo/">HSTS From Top to Bottom or GTFO</a></li>
+              <li><a class="lnk-pink" href="https://apisecurity.io/encyclopedia/content/owasp/owasp-api-security-top-10-cheat-sheet.htm">OWASP API Security Top 10 cheat sheet</a></li>
+              <li><a class="lnk-green" href="https://blog.cloudflare.com/going-keyless-everywhere/">Going Keyless Everywhere</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
