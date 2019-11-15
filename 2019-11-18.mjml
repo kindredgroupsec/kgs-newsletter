@@ -1,0 +1,225 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 18/11/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://zdnet3.cbsistatic.com/hub/i/2019/11/12/bc7b1e54-c0e3-41e0-b212-b08b54578ea4/492cff1f11f09f52baa4a9057f49a9aa/tpm-fail.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">18 November 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">TPM-FAIL vulnerabilities impact TPM chips in desktops, laptops, servers</mj-text>
+          <mj-image src="https://zdnet3.cbsistatic.com/hub/i/2019/11/12/bc7b1e54-c0e3-41e0-b212-b08b54578ea4/492cff1f11f09f52baa4a9057f49a9aa/tpm-fail.png"></mj-image>
+          <mj-text color="#fff">A team of academics has disclosed today two vulnerabilities known collectively as TPM-FAIL that could allow an attacker to retrieve cryptographic keys stored inside TPMs. TPM stands for Trusted Platform Module. In the early days of computing, TPMs were separate chips added to a motherboard were a CPU would store and manage sensitive information such as cryptographic keys. These keys were used to ensure hardware integrity during the boot-up process or to attest various cryptographic operations, such as handling digital certificates, ensuring HTTPS connections on servers, or verifying authentication-related processes.</mj-text>
+          <mj-text color="#fff">The actual attacks on these two TPM technologies is what security researcher call a "timing leakage." An external observer can record the time differences when the TPM is performing repetative operations and infer the data being processed inside the secure chip -- all based on the amount of time the TPM takes to do the same thing over and over again. The research team says the "timing leakage" they discovered can be used to extract 256-bit private keys that are being stored inside the TPM. </mj-text>
+          <mj-text color="#fff">Both companies issued patches for the TPM-FAIL vulnerabilities, either by releasing security patches or by issuing new TPM chips. Intel upgraded their fTPM firmware to fix the security issue tracked as CVE-2019-11090 and STMicroelectronics issuing a new TPM chip to address the CVE-2019-16863 vulnerability, chips resistant against TPM-FAIL exploitation as the research team confirmed.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/tpm-fail-vulnerabilities-impact-tpm-chips-in-desktops-laptops-servers/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/tpm-fail-security-flaws-impact-modern-devices-with-intel-cpus/">
+            Even More on Bleeping Computer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Officials warn about the dangers of using public USB charging stations</mj-text>
+          <mj-image src="https://zdnet2.cbsistatic.com/hub/i/2019/11/14/f9ff0e79-b651-4665-8562-5e472deabdd4/fa50423f0b623a95ddfbabece923b45b/charge-defender.png"></mj-image>
+          <mj-text>Travelers are advised to avoid using public USB power charging stations in airports, hotels, and other locations because they may contain dangerous malware, the Los Angeles District Attorney said in a security alert published last week. USB connections were designed to work as both data and power transfer mediums, with no strict barrier between the two. As smartphones became more popular in the past decade, security researchers figured out they could abuse USB connections that a user might think was only transferring electrical power to hide and deliver secret data payloads. This type of attack received its own name, as "juice jacking."</mj-text>
+          <mj-text>The LA District Attorney's warning [PDF] covers many attack vectors, because there's different ways that criminals can abuse USB wall chargers.The most common way is via "pluggable" USB wall chargers. These are portable USB charging devices that can be plugged into an AC socket, and criminals can easily leave some of these behind "by accident" in public places, at public charging stations. There are also USB chargers encased directly inside power charging stations installed in public places, were the user only has access to a USB port. However, LA officials say criminals can load malware onto public charging stations, so users should avoid using the USB port, and stick to using the AC charging port instead.</mj-text>
+          <mj-text>Taking all these into account, LA officials recommend that travelers: Use an AC power outlet, not a USB charging station.
+Take AC and car chargers for your devices when traveling. Consider buying a portable charger for emergencies. But there are also other countermeasures that users can deploy. One of them is that device owners can buy USB "no-data transfer" cables, where the USB pins responsible for the data transfer channel have been removed, leaving only the power transfer circuit in place. Such cables can be found on Amazon and other online stores.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/google-amp/article/officials-warn-about-the-dangers-of-using-public-usb-charging-stations/">
+            Read More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">PureLocker Ransomware Can Lock Files on Windows, Linux, and macOS</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2019/11/13/0_PureLocker.jpg"></mj-image>
+          <mj-text>Cybercriminals have developed ransomware that can be ported to all major operating systems and is currently used in targeted attacks against production servers. The new name is PureLocker. Malware researchers analyzed samples for Windows but a Linux variant is also being used in attacks. The name of the ransomware derives from the programming language it's written in, PureBasic, an unusual choice that provides some benefits, "AV vendors have trouble generating reliable detection signatures for PureBasic binaries. In addition, PureBasic code is portable between Windows, Linux, and OS-X, making targeting different platforms easier."</mj-text>
+          <mj-text>The malware is carefully designed to evade detection, hiding malicious or dubious behavior in sandbox environments, posing as the Crypto++ cryptographic library, and using functions normally seen in libraries for music playback. For instance, if the malware determines that it's running in a debugger environment, it exits straight away. Furthermore, the payload deletes itself after execution. This and more allowed PureLocker to stay under the radar for months in a row. For the past three weeks, PureLocker evaded the detection of antivirus engines on VirusTotal almost entirely.</mj-text>
+          <mj-text>Reusing code from other malware is what helped this ransomware keep a low profile and not trigger antivirus alerts all this time. Details about its victims and the ransom demands are unknown at this time but now that it made it on researchers' radar, PureLocker will definitely get more attention from the infosec community.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/purelocker-ransomware-can-lock-files-on-windows-linux-and-macos/">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="URL">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.microsoft.com/security/blog/2019/11/11/zero-trust-strategy-what-good-looks-like/">Zero Trust strategy—what good looks like</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/github-launches-security-lab-to-help-secure-open-source-ecosystem/">GitHub launches 'Security Lab' to help secure open source ecosystem</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/two-charged-over-crypto-theft-via-sim-swapping-death-threats/">Two Charged Over Crypto Theft via SIM Swapping, Death Threats</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/telegram-mtproxy-servers-used-to-ddos-iranian-cloud-provider/">Telegram MTProxy Servers Used to DDoS Iranian Cloud Provider</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/mexicos-pemex-oil-suffers-ransomware-attack-49-million-demanded/">Mexico's Pemex Oil Suffers Ransomware Attack, $4.9 Million Demanded</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/pci-dss-compliance-between-audits-declining-verizon">PCI DSS Compliance Between Audits is Declining: Verizon</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2019/11/12/asp-net-hosting-provider-recovering-from-ransomware-attack/">ASP.NET hosting provider recovering from ransomware attack</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/new-mitre-foundation-aims-boost-critical-infrastructure">New MITRE Foundation Aims to Boost Critical Infrastructure</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2019/11/14/alleged-mastermind-behind-20m-stolen-card-site-extradited-to-us/">Alleged mastermind behind $20m stolen-card site extradited to US</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/how-to-manage-siri-privacy-settings-in-ios-13-2/">How to manage Siri privacy settings in iOS 13.2</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/visa-warns-new-javascript-skimmer-pipka">Visa Warns of New JavaScript Skimmer 'Pipka'</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/11/hacking-file-storage.html">Company Detected Years-Long Breach Only After Hacker Maxed Out Servers' Storage</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2019/11/zombieload-cpu-vulnerability.html">New ZombieLoad v2 Attack Affects Intel's Latest Cascade Lake CPUs</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/over-100000-fake-domains-valid-tls-certificates-target-major-retailers">Over 100,000 Fake Domains With Valid TLS Certificates Target Major Retailers</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2019/11/patch-tuesday-november-2019-edition/">Patch Tuesday, November 2019 Edition</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-issues-guidance-for-intel-cpu-driver-security-flaws/">Microsoft Issues Guidance for Intel CPU Driver Security Flaws</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/intel-patched-77-vulnerabilities-in-november-2019-platform-update/">Intel Patched 77 Vulnerabilities in November 2019 Platform Update</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/mcafee-patches-privilege-escalation-flaw-in-antivirus-software/">McAfee Patches Privilege Escalation Flaw in Antivirus Software</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2019/11/12/macos-personalization-tech-leaves-secrets-in-plain-view/">Apple to fix Siri bug that exposed parts of encrypted emails</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-the-november-2019-security-updates-for-office/">Microsoft Releases the November 2019 Security Updates for Office</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/adobe-squashes-critical-vulnerabilities-in-illustrator-media-encoder/">Adobe squashes critical vulnerabilities in Illustrator CC, Media Encoder</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/qualcomm-bug-exposes-critical-data-on-samsung-lg-phones/">Qualcomm Bug Exposes Critical Data on Samsung, LG Phones</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/dll-hijacking-flaw-impacts-symantec-endpoint-protection">DLL Hijacking Flaw Impacts Symantec Endpoint Protection</a></li>
+              <li><a class="lnk-pink" href="https://www.welivesecurity.com/2019/11/14/microsoft-patch-internet-explorer-zero-day/">Microsoft issues patch for Internet Explorer zero‑day</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/ticarpi/jwt_tool/wiki">JWT Attack playbook with jwt_tool</a></li>
+              <li><a class="lnk-pink" href="https://github.com/liamg/tfsec">TFSec: Static analysis powered security scanner for your terraform code</a></li>
+              <li><a class="lnk-green" href="https://github.com/gtworek/PSBits/blob/master/WinDefend/README.md">Bypass MS Defender on-diskwrite detection by renaming your malware</a></li>
+              <li><a class="lnk-orange" href="https://blog.trailofbits.com/2019/11/14/introducing-iverify-the-security-toolkit-for-iphone-users/">Introducing iVerify, the security toolkit for iPhone users</a></li>
+              <li><a class="lnk-purple" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2019/november/cve-2019-1405-and-cve-2019-1322-elevation-to-system-via-the-upnp-device-host-service-and-the-update-orchestrator-service/">CVE-2019-1405 and CVE-2019-1322 – Elevation to SYSTEM via the UPnP Device Host Service and the Update Orchestrator Service</a></li>
+              <li><a class="lnk-blue" href="https://blog.talosintelligence.com/2019/11/hunting-for-lolbins.html">Hunting for LoLBins</a></li>
+              <li><a class="lnk-pink" href="https://shenaniganslabs.io/2019/11/12/Ghost-Potato.html">Ghost Potato: NTLM Reflection Attack</a></li>
+              <li><a class="lnk-green" href="https://fletchto99.dev/2019/november/slack-vulnerability/">Keylogging users via Slack themes</a></li>
+              <li><a class="lnk-orange" href="https://victorzhou.com/blog/sendy-recaptcha-security/">How Not to Implement reCAPTCHA</a></li>
+              <li><a class="lnk-purple" href="https://github.com/AbGuthrie/goquery">GoQuery: Provide a shell like interface by utilizing osquery's distributed API</a></li>
+              <li><a class="lnk-blue" href="https://in.security/using-kibana-and-packetbeat-to-map-dns-queries/">Using Kibana and Packetbeat to map DNS queries</a></li>
+              <li><a class="lnk-purple" href="https://www.mdsec.co.uk/2019/11/rdpthief-extracting-clear-text-credentials-from-remote-desktop-clients/">RdpThief: Extracting Clear-text Credentials from Remote Desktop Clients</a></li>
+              <li><a class="lnk-pink" href="https://arkadiyt.com/2019/11/12/detecting-manual-aws-console-actions/">Detecting Manual AWS Console Actions</a></li>
+              <li><a class="lnk-blue" href="https://github.com/hmaverickadams/Beginner-Network-Pentesting/blob/master/Readme.md">Beginner Network Pentesting course</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/threat-hunters-forge/automate-the-creation-of-att-ck-navigator-group-layer-files-with-python-3b16a11a47cf">Automate the Creation of ATT&CK Navigator Group Layer Files with Python</a></li>
+              <li><a class="lnk-green" href="https://github.com/Mr-Un1k0d3r/SCShell">SCShell: Fileless lateral movement tool that relies on ChangeServiceConfigA to run command</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
