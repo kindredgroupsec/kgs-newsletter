@@ -1,0 +1,213 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 25/11/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-8RWwWf2M7Jw/XdTTTRTY2FI/AAAAAAAA1zA/NCBIhsUKNZQsdXIoXqnVj2X3j3fpYXs9gCLcBGAsYHQ/s728-e100/android-camera-apps.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">25 November 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">New Flaw Lets Rogue Android Apps Access Camera Without Permission</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-8RWwWf2M7Jw/XdTTTRTY2FI/AAAAAAAA1zA/NCBIhsUKNZQsdXIoXqnVj2X3j3fpYXs9gCLcBGAsYHQ/s728-e100/android-camera-apps.jpg"></mj-image>
+          <mj-text color="#fff">An alarming security vulnerability has been discovered in several models of Android smartphones manufactured by Google, Samsung, and others that could allow malicious apps to secretly take pictures and record videos — even when they don't have specific device permissions to do so.</mj-text>
+          <mj-text color="#fff">The attack scenario involves a rogue app that only needs access to device storage (i.e., SD card), which is one of the most common requested permissions and does not raise any suspicion. According to researchers, by merely manipulating specific "actions and intents," a malicious app can trick vulnerable camera apps into performing actions on behalf of the attacker, who can then steal photos and videos from the device storage after being taken. Since smartphone camera apps already have access to required permissions, the flaw could allow attackers to indirectly and surreptitiously take photos, record videos, eavesdrop on conversations, and track location — even if the phone is locked, the screen is off, or the app is closed.</mj-text>
+          <mj-text color="#fff">The Checkmarx research team responsibly reported their findings to Google in early July with the PoC app and a video demonstrating an attack scenario. Google confirmed and addressed the vulnerability in its Pixel line of devices with a camera update that became available in July, and contacted other Android-based smartphone OEMs in late August to inform them about the issue, which the company rated as "High" in severity.
+However, Google did not disclose the names of the affected manufacturers and models.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/11/android-camera-hacking.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Macy's Customer Payment Info Stolen in Magecart Data Breach</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/macys-hacked-by-attackers-wielding-magecart-scripts-showcase_image-4-a-13417.jpg"></mj-image>
+          <mj-text>Macy's has announced that they have suffered a data breach due to their web site being hacked with malicious scripts that steal customer's payment information. This type of compromise is called MageCart attack and consists of hackers compromising a web site so that they can inject malicious JavaScript scripts into various sections of the web site. These scripts then steal payment information that is submitted by a customer.</mj-text>
+          <mj-text>According to a 'Notice of Data Breach' issued by Macy's, their web site was hacked on October 7th, 2019 and a malicious script was added to the 'Checkout' and 'My Wallet' pages. If any payment information was submitted on these pages while they were compromised, the credit card details and customer information was sent to a remote site under the attacker's control. As part of this breach, attackers were able to access customer information and credit card information that includes the customer's first name, last name, address, city, state,zip, phone number, email address, payment card number, payment card security code, and payment card month/year of expiration if submitted on a compromised page.</mj-text>
+          <mj-text>Macy's has started sending out emails to those who were affected and advise them to monitor their credit card statement for suspicious or fraudulent activity. If anything is detected, consumers should immediately contact their credit card company and dispute the charge. This isn't the first data breach notification to have been issued by Macy's. In June 2018, for example, Macy's notified customers that it had detected fraudulent attempts to use legitimate usernames and passwords to access customer accounts, also called Credential-Stuffing.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bankinfosecurity.com/macys-hacked-by-attackers-wielding-magecart-scripts-a-13417">
+            Read More on BankInfoSecurity
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/macys-customer-payment-info-stolen-in-magecart-data-breach/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/11/t-mobile-prepaid-data-breach.html">T-Mobile Suffers Data Breach Affecting Prepaid Wireless Customers</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/ublock-origin-now-blocks-sneaky-first-party-trackers-in-firefox/">cuuBlock Origin Now Blocks Sneaky First-Party Trackers in Firefoxt2</a></li>
+              <li><a class="lnk-green" href="https://medium.com/insiden26/n26-security-3-0-81a4e85c5fe8">N26 Security 3.0</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2019/11/google-pixel-titan-m-chip.html">Google offers up to $1.5 million bounty for remotely hacking Titan M chip</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/edenred-payment-solutions-giant-announces-malware-incident/">Edenred Payment Solutions Giant Announces Malware Incident</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/card-skimmer-group-replaces-checkout-page-to-steal-payment-info/">Card Skimmer Group Replaces Checkout Page to Steal Payment Info</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/microsoft-debunks-dopplepaymer-ransomware-rumors-a-13427">Microsoft Debunks Dopplepaymer Ransomware Rumors</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/undocumented-access-feature-exposes-siemens-plcs-attacks">Undocumented Access Feature Exposes Siemens PLCs to Attacks</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/chrome-edge-safari-hacked-at-elite-chinese-hacking-contest/">Chrome, Edge, Safari hacked at elite Chinese hacking contest</a></li>
+              <li><a class="lnk-purple" href="https://www.digitalshadows.com/blog-and-research/black-friday-deals-on-the-dark-web-a-cybercriminal-shopper-paradise/">Black Friday Deals on the Dark Web: A cybercriminal shopper’s paradise</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/new-github-security-lab-aims-secure-open-source-software">New GitHub Security Lab Aims to Secure Open Source Software</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/meet-phoenix-keylogger-new-malware-service-product-gaining-traction">Meet Phoenix Keylogger, a New Malware-as-a-Service Product Gaining Traction</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/new-roboto-botnet-emerges-targeting-linux-servers-running-webmin/">New Roboto botnet emerges targeting Linux servers running Webmin</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2019/11/ddos-for-hire-boss-gets-13-months-jail-time/">DDoS-for-Hire Boss Gets 13 Months Jail Time</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/11/hacking-monero-cryptocurrency.html">Official Monero Site Hacked to Distribute Cryptocurrency Stealing Malware</a></li>
+              <li><a class="lnk-blue" href="Uhttps://krebsonsecurity.com/2019/11/why-were-the-russians-so-set-against-this-hacker-being-extradited/RL">Why Were the Russians So Set Against This Hacker Being Extradited?</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/compromised-website-led-to-aussie-parliament-hack-a-13412">Compromised Website Led to Australia Parliament Hack</a></li>
+              <li><a class="lnk-green" href="https://www.dataviper.io/blog/2019/pdl-data-exposure-billion-people/">Personal And Social Information Of 1.2 Billion People Discovered In Massive Data Leak from data enrichment firm</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/millions-of-sites-exposed-by-flaw-in-jetpack-wordpress-plugin/">Millions of Sites Exposed by Flaw in Jetpack WordPress Plugin</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/adobe-announces-end-of-support-for-acrobat-reader-2015/">Adobe announces end of support for Acrobat, Reader 2015</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/">Attackers using WhatsApp MP4 video files vulnerability can remotely execute code</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://medium.com/@inonst/a-deep-dive-on-the-most-critical-api-vulnerability-bola-1342224ec3f2">A Deep Dive On The Most Critical API Vulnerability — BOLA</a></li>
+              <li><a class="lnk-pink" href="https://aws.amazon.com/blogs/security/how-use-ci-cd-deploy-configure-aws-security-services-terraform/">How to use CI/CD to deploy and configure AWS security services with Terraform</a></li>
+              <li><a class="lnk-green" href="https://blog.cloudflare.com/introducing-flan-scan/">Introducing Flan Scan: Cloudflare’s Lightweight Network Vulnerability Scanner</a></li>
+              <li><a class="lnk-orange" href="https://appsecure.security/blog/security-checklist-for-web-developers">Security Checklist for Web Developers</a></li>
+              <li><a class="lnk-purple" href="https://aws.amazon.com/blogs/security/continuously-monitor-unused-iam-roles-aws-config/">Continuously monitor unused IAM roles with AWS Config</a></li>
+              <li><a class="lnk-blue" href="https://www.peerlyst.com/posts/sysmon-deep-dive-part-1-eventid-1-process-create-lee-archinal?trk=search_page_search_result">Sysmon Deep Dive Part 1: Process Create</a> | <a class="lnk-blue" href="https://www.peerlyst.com/posts/sysmon-deep-dive-part-2-eventid-2-file-creation-time-changed-lee-archinal">Part 2: File Creation Time Changed</a></li>
+              <li><a class="lnk-pink" href="https://tyranidslair.blogspot.com/2019/11/the-internals-of-applocker-part-1.html">The Internals of AppLocker - Part 1 - Overview and Setup</a> | <a class="lnk-pink" href="https://tyranidslair.blogspot.com/2019/11/the-internals-of-applocker-part-2.html">Part 2 - Blocking Process Creation</a></li>
+              <li><a class="lnk-green" href="https://security.googleblog.com/2019/10/how-google-adopted-beyondcorp-part-4.html">How Google adopted BeyondCorp: Part 4 (services)</a></li>
+              <li><a class="lnk-orange" href="https://capsule8.com/blog/dont-get-kicked-out-a-tale-of-rootkits-and-other-backdoors/">Don’t Get Kicked Out! A Tale of Rootkits and Other Backdoors</a></li>
+              <li><a class="lnk-purple" href="https://geleta.eu/2019/my-first-ssrf-using-dns-rebinfing/">My First SSRF Using DNS Rebinding</a></li>
+              <li><a class="lnk-blue" href="https://pankajupadhyay.in/2019/11/17/command-execution-in-security-portal/">Remote Code Execution via Struts devMode</a></li>
+              <li><a class="lnk-pink" href="https://www.fugue.co/blog/network-security-vpc-endpoints-101">Cloud Network Security 101: AWS VPC Endpoints</a> | <a class="lnk-pink" href="https://www.fugue.co/blog/cloud-network-security-101-aws-security-groups-vs-nacls">AWS Security Groups vs NACLs</a></li>
+              <li><a class="lnk-green" href="https://nullsweep.com/subdomain-recon-a-subdomain-reconnaissance-tool/">Subdomain_recon.py: A SubDomain Reconnaissance Tool</a></li>
+              <li><a class="lnk-orange" href="https://github.com/gnebbia/pdlist">pdlist: A passive subdomain finder</a></li>
+              <li><a class="lnk-purple" href="https://github.com/arkadiyt/bounty-targets-data">bounty-targets-data: hourly-updated data dumps of bug bounty platform scopes (like Hackerone/Bugcrowd/etc) that are eligible for reports</a></li>
+              <li><a class="lnk-blue" href="https://github.com/thisislibra/genesis">Genesis: framework to generate unique test cases based on code snippets to test techniques</a></li>
+              <li><a class="lnk-pink" href="https://github.com/fuzzitdev/javafuzz">JavaFuzz: coverage guided fuzz testing for java </a></li>
+              <li><a class="lnk-green" href="https://portswigger.net/research/cracking-recaptcha-turbo-intruder-style">Cracking reCAPTCHA, Turbo Intruder style</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/@tomac/building-up-a-basic-physical-red-team-toolkit-and-skillset-81670a2dd454">Building up a basic Physical Red Team toolkit and skillset.</a></li>
+              <li><a class="lnk-purple" href="https://know.bishopfox.com/research/reasonably-secure-electron">Reasonably Secure Electron</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
