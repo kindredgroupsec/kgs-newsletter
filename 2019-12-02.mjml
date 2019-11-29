@@ -1,0 +1,211 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 02/12/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-FnOZ5JMQfTQ/Xd81pVfjuiI/AAAAAAAA13Y/eaVU-aq_O5EGiNWlw_r4Ob-bE62iA8h0wCLcBGAsYHQ/s728-e100/magento-marketplace-data-breach-hack.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">2 December 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Magento Marketplace Suffers Data Breach Exposing Users' Account Info</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-FnOZ5JMQfTQ/Xd81pVfjuiI/AAAAAAAA13Y/eaVU-aq_O5EGiNWlw_r4Ob-bE62iA8h0wCLcBGAsYHQ/s728-e100/magento-marketplace-data-breach-hack.png"></mj-image>
+          <mj-text color="#fff">If you have ever registered an account with the official Magento marketplace to bought or sold any extension, plugin, or e-commerce website theme, you must change your password immediately.</mj-text>
+          <mj-text color="#fff">Adobe—the company owning Magento e-commerce platform—today disclosed a new data breach incident that exposed account information of Magento marketplace users to an unknown group of hackers or individuals. According to the company, the hacker exploited an undisclosed vulnerability in its marketplace website that allowed him to gain unauthorized third-party access to the database of registered users — both customers (buyers) as well as the developers (sellers). The leaked database includes affected users' names, email addresses, MageID, billing and shipping address information, and some limited commercial information.</mj-text>
+          <mj-text color="#fff">Though Adobe hasn't explicitly mentioned that the account passwords were also leaked, users are still recommended to change it, and do the same for any other website where you are using the same password.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/11/magento-marketplace-data-breach.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/magento-marketplace-suffers-data-breach-adobe-warns-a-13452">
+            Even More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Dozens of Severe Flaws Found in 4 Popular Open Source VNC Software</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-1avlqCocU2c/Xdj55qMwh3I/AAAAAAAA110/xiSW1yTDL-8SGmL7W4mek7JHBBCfR1PlwCLcBGAsYHQ/s728-e100/vnc-software-hacking.jpg"></mj-image>
+          <mj-text>Four popular open-source VNC remote desktop applications have been found vulnerable to a total of 37 security vulnerabilities, many of which went unnoticed for the last 20 years and most severe could allow remote attackers to compromise a targeted system.</mj-text>
+          <mj-text>There are numerous VNC applications, both free and commercial, compatible with widely used operating systems like Linux, macOS, Windows, and Android. Considering that there are currently over 600,000 VNC servers accessible remotely over the Internet and nearly 32% of which are connected to industrial automation systems, cybersecurity researchers at Kaspersky audited four widely used open source implementation of VNC, including LibVNC, UltraVNC, TightVNC and TurboVNC.</mj-text>
+          <mj-text>But, exploiting this flaw requires authentication credentials to connect to the VNC server or control over the client before the connection is established. Therefore, as a safeguard against attacks exploiting server-side vulnerabilities, clients are recommended not to connect to untrusted or untested VNC servers, and administrators are required to protect their VNC servers with a unique, strong password. Kaspersky reported the vulnerabilities to the affected developers, all of which have issued patches for their supported products, except TightVNC 1.x that is no longer supported by its creators. So, users are recommended to switch to version 2.x.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2019/11/vnc-remote-software-hacking.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">A decade of hacking: The most notable cyber-security events of the 2010s</mj-text>
+          <mj-image src="https://zdnet1.cbsistatic.com/hub/i/2019/05/07/db25a4bf-5180-45dc-a520-6fa2224b17fb/34a36f505920a673163e7d8543faaba2/wordpress-security.jpg"></mj-image>
+          <mj-text>The 2010s decade is drawing to a close and ZDNet is looking back at the most important cyber-security events that have taken place during the past ten years. Over the past decade, we've seen it all. We've had monstrous data breaches, years of prolific hacktivism, plenty of nation-state cyber-espionage operations, almost non-stop financially-motivated cybercrime, and destructive malware that has rendered systems unusable.</mj-text>
+          <mj-text>Below is a summary of the most important events of the 2010s, ordered by year. We didn't necessarily look at the biggest breaches or the most extensive hacking operations but instead focused on hacks and techniques that gave birth to a new cyber-security trend or were a paradigm shift in how experts looked at the entire field of cyber-security.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/a-decade-of-hacking-the-most-notable-cyber-security-events-of-the-2010s/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/how-cyber-insurance-works-to-protect-companies-in-case-of-a-breach/">How cyberinsurance works to protect companies in case of a security breach</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/11/oneplus-store-data-breach.html">OnePlus Suffers New Data Breach Impacting Its Online Store Customers</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/new-bypass-disclosed-in-microsoft-patchguard-kpp/">New bypass disclosed in Microsoft PatchGuard (KPP)</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/cheap-kids-smartwatch-exposes-the-location-of-5000-children/">Cheap kids smartwatch exposes the location of 5,000+ children</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/google-amp/article/a-hacking-group-is-hijacking-docker-systems-with-exposed-api-endpoints/">A hacking group is hijacking Docker systems with exposed API endpoints</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/11/27/firefox-gets-tough-on-tracking-tricks-that-sneakily-sap-your-privacy/">Firefox gets tough on tracking tricks that sneakily sap your privacy</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/ransomware-locks-medical-records-at-great-plains-health/">Ransomware Locks Medical Records at Great Plains Health</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/restaurant-chain-malware-infected-pos-devices-a-13449">Restaurant Chain: Malware Infected PoS Devices</a></li>
+              <li><a class="lnk-orange" href="https://blog.cloudflare.com/cloudflare-security-awareness-month-design-challenge/">Harnessing the Power of the People: Cloudflare’s First Security Awareness Month Design Challenge Winners</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/jokers-stash-advertises-more-stolen-payment-card-data-a-13451">Joker's Stash Advertises More Stolen Payment Card Data</a></li>
+              <li><a class="lnk-blue" href="https://www.bbc.com/news/stories-50435014?utm_source=hackernewsletter&utm_medium=email&utm_term=longreads">Cryptoqueen: How this woman scammed the world, then vanished</a></li>
+              <li><a class="lnk-pink" href="https://trackingthetrackers.com/">TrackingTheTrackers: check if a website is disguising third-party trackers as first-party trackers.</a></li>
+              <li><a class="lnk-green" href="https://www.ncsc.gov.uk/blog-post/zero-trust-architecture-design-principles">Zero trust architecture design principles</a></li>
+              <li><a class="lnk-orange" href="https://www.pandasecurity.com/mediacenter/malware/malvertising/">Malvertising: What It Is and How to Protect Yourself</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2019/11/29/netflix-account-freeze-dont-click-its-a-scam/">Netflix account freeze – don’t click, it’s a scam!</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/11/27/splunk-customers-should-update-now-to-dodge-y2k-style-bug/">Splunk customers should update now to dodge Y2K-style bug</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/kaspersky-patches-several-vulnerabilities-web-protection-features">Kaspersky Patches Several Vulnerabilities in Web Protection Features</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/11/28/hpe-warns-of-impending-ssd-disk-doom/">HPE warns of impending SSD disk doom</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/dozens-of-vnc-vulnerabilities-found-in-linux-windows-solutions/">Dozens of VNC Vulnerabilities Found in Linux, Windows Solutions</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/skelsec/jackdaw">Jackdaw: Domain information collection & visualisation</a></li>
+              <li><a class="lnk-pink" href="https://rushter.com/blog/public-ssh-keys/">Public SSH keys can leak your private infrastructure</a></li>
+              <li><a class="lnk-green" href="https://www.networkdefenseblog.com/post/wireshark-tcp-challenge-ack">Troubleshooting with Wireshark: The Case of the TCP Challenge ACK</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2019/11/kali-linux-undercover-mode.html">Latest Kali Linux OS Added Windows-Style Undercover Theme for Hackers</a></li>
+              <li><a class="lnk-blue" href="https://aws.amazon.com/blogs/security/attribute-based-access-control-ad-fs-simplify-iam-permissions-management/">Use attribute-based access control with AD FS to simplify IAM permissions management</a></li>
+              <li><a class="lnk-pink" href="https://research.kudelskisecurity.com/2019/11/25/forget-homomorphic-encryption-here-comes-functional-encryption/">Forget homomorphic encryption, here comes functional encryption</a></li>
+              <li><a class="lnk-green" href="http://ghostlulz.com/google-exposed-firebase-database/">Google Exposed Firebase Database</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/@Ne0nd0g/introducing-merlin-645da3c635a">Merlin: A cross-platform post-exploitation HTTP/2 Command & Control Tool</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/cu-cyber/impersonating-ja3-fingerprints-b9f555880e42">Impersonating JA3 Fingerprints</a></li>
+              <li><a class="lnk-blue" href="https://github.com/cucyber/JA3Transport">JA3Transport Go Library</a></li>
+              <li><a class="lnk-pink" href="https://tyranidslair.blogspot.com/2019/11/the-internals-of-applocker-part-3.html">AppLocker Internal Part 3 - Access Tokens and Access Checking</a></li>
+              <li><a class="lnk-green" href="https://tyranidslair.blogspot.com/2019/11/the-internals-of-applocker-part-4.html">Applocker Internals Part 4 - Blocking DLL Loading</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
