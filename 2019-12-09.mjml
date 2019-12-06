@@ -1,0 +1,213 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 09/12/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-VLJQ3UAFLhE/XeVZ-lht9OI/AAAAAAAA140/8tOoq4y_ilID4K2zj72gb332jkdVlSRYACLcBGAsYHQ/s728-e100/android-task-hijacking-attacks.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">9 December 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Unpatched Strandhogg Android Vulnerability Actively Exploited in the Wild</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-VLJQ3UAFLhE/XeVZ-lht9OI/AAAAAAAA140/8tOoq4y_ilID4K2zj72gb332jkdVlSRYACLcBGAsYHQ/s728-e100/android-task-hijacking-attacks.png"></mj-image>
+          <mj-text color="#fff">Cybersecurity researchers have discovered a new unpatched vulnerability in the Android operating system that dozens of malicious mobile apps are already exploiting in the wild to steal users' banking and other login credentials and spy on their activities. Dubbed Strandhogg, the vulnerability resides in the multitasking feature of Android that can be exploited by a malicious app installed on a device to masquerade as any other app on it, including any privileged system app.</mj-text>
+          <mj-text color="#fff">In other words, when a user taps the icon of a legitimate app, the malware exploiting the Strandhogg vulnerability can intercept and hijack this task to display a fake interface to the user instead of launching the legitimate application. By tricking users into thinking they are using a legitimate app, the vulnerability makes it possible for malicious apps to conveniently steal users' credentials using fake login screens.</mj-text>
+          <mj-text color="#fff">Promon reported the Strandhogg vulnerability to the Google security team this summer and disclosed details today when the tech giant failed to patch the issue even after a 90-day disclosure timeline.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2019/12/strandhogg-android-vulnerability.html">
+            Read More on TheHacker News
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/android-new-strandhogg-vulnerability-is-being-exploited-in-the-wild/">
+            Even More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Iranian hackers deploy new ZeroCleare data-wiping malware</mj-text>
+          <mj-image src="https://zdnet2.cbsistatic.com/hub/i/2019/12/04/693fbe49-f259-4831-ae2c-3489758a5edd/94351e9cbe3a522c3451f87b472ecc9b/hdd-destroyed.jpg"></mj-image>
+          <mj-text>Security researchers from IBM said today they identified a new strain of destructive data-wiping malware that was developed by Iranian state-sponsored hackers and deployed in cyber-attacks against energy companies active in the Middle East. IBM did not name the companies that have been targeted and had data wiped in recent attacks. Instead, IBM's X-Force security team focused on analyzing the malware itself, which they named ZeroCleare.</mj-text>
+          <mj-text>Unlike many cyber-security firms, IBM's X-Force team did not shy away from attributing the malware and the attacks to a specific country -- in this case, Iran. But unlike many previous cyber-attacks, which are usually carried out by one single group, IBM said this malware and the attacks behind appear to be the efforts of a collaboration between two of Iran's top-tier government-backed hacking units.</mj-text>
+          <mj-text>As for the malware itself, ZeroCleare is your classic "wiper," a strain of malware designed to delete as much data as possible from an infected host. Wiper malware is usually used in two scenarios. It's either used to mask intrusions by deleting crucial forensic evidence or it's used to damage a victim's ability to carry out its normal business activity -- as was the case of attacks like Shamoon, NotPetya, or Bad Rabbit. IBM said that none of the ZeroCleare attacks were opportunistic and appeared to be targeted against very specific organizations. Past Shamoon attacks targeted companies in the energy sector that were active in the Middle East region, companies that were either Saudi-based or known partners for Saudi-based oil & gas enterprises.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/iranian-hackers-deploy-new-zerocleare-data-wiping-malware/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/new-iranian-zerocleare-data-wiper-malware-used-in-targeted-attacks/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/12/03/sms-company-exposes-millions-of-text-messages-credentials-online/">SMS company exposes millions of text messages, credentials online</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/12/dridex-russian-hackers-wanted-by-fbi.html">FBI Puts $5 Million Bounty On Russian Hackers Behind Dridex Banking Malware</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/61-of-malicious-ads-target-windows-users/">61% of malicious ads target Windows users</a></li>
+              <li><a class="lnk-orange" href="https://blog.zimperium.com/privacy-and-security-issues-found-in-popular-shopping-apps/">Privacy and Security Issues Found in Popular Shopping Apps</a></li>
+              <li><a class="lnk-purple" href="https://krebsonsecurity.com/2019/12/apple-explains-mysterious-iphone-11-location-requests/">Apple Explains Mysterious iPhone 11 Location Requests</a></li>
+              <li><a class="lnk-blue" href="https://www.microsoft.com/security/blog/2019/12/02/spear-phishing-campaigns-sharper-than-you-think/">Spear phishing campaigns—they’re sharper than you think</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/over-30-500-online-piracy-sites-shut-down-in-global-operation/">Over 30,500 Online Piracy Sites Shut Down in Global Operation</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2019/12/02/convicted-murderer-wins-right-to-be-forgotten-case/">Convicted murderer wins ‘right to be forgotten’ case</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/fake-steam-skin-giveaway-site-steals-your-login-credentials/">Fake Steam Skin Giveaway Site Steals your Login Credentials</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/data-of-21-million-mixcloud-users-put-up-for-sale-on-the-dark-web/">Data of 21 million Mixcloud users put up for sale on the dark web</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/12/facebook-account-hacking.html">Facebook Sued Hong Kong Firm for Hacking Users and Ad Fraud Scheme</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/microsoft-warns-persistent-windows-hello-business-orphaned-keys">Microsoft Warns of Persistent Windows Hello for Business Orphaned Keys</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/salesforce-s-heroku-used-to-host-magecart-skimmers-stolen-cards/">Salesforce’s Heroku Used to Host Magecart Skimmers, Stolen Cards</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/malicious-python-package-available-in-pypi-repo-for-a-year/">Malicious Python Package Available in PyPI Repo for a Year</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/google-80-android-apps-encrypt-traffic-default">Google: 80% of Android Apps Encrypt Traffic by Default</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/12/avast-and-avg-browser-plugins.html">Avast and AVG Browser Extensions Spying On Chrome and Firefox Users</a></li>
+              <li><a class="lnk-pink" href="https://www.enisa.europa.eu/news/enisa-news/enisa-proposes-best-practices-and-techniques-for-pseudonymisation">ENISA proposes Best Practices and Techniques for Pseudonymisation</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/44-million-microsoft-users-reused-passwords-in-the-first-three-months-of-2019/">44 million Microsoft users reused passwords in the first three months of 2019</a></li>
+              <li><a class="lnk-orange" href="https://security.christmas/2019/6">Here, have my biometric data, I don´t care.</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-linux-vulnerability-lets-attackers-hijack-vpn-connections/">New Linux Vulnerability Lets Attackers Hijack VPN Connections</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/microsoft-patches-vulnerability-leading-azure-account-takeover">Microsoft Patches Vulnerability Leading to Azure Account Takeover</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/vulnerabilities-disclosed-kaspersky-trend-micro-products">Vulnerabilities Disclosed in Kaspersky, Trend Micro Products</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/vulnerability-allows-hackers-take-control-abb-substation-protection-devices">Vulnerability Allows Hackers to Take Control of ABB Substation Protection Devices</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/openbsd-patches-severe-authentication-bypass-privilege-escalation-vulnerabilities/">OpenBSD patches authentication bypass, privilege escalation vulnerabilities</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/google-patches-critical-dos-flaw-android-10">Google Patches Critical DoS Flaw in Android 10</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/12/goahead-web-server-hacking.html">Critical Flaw in GoAhead Web Server Could Affect Wide Range of IoT Devices</a></li>
+              <li><a class="lnk-green" href="https://certbot.eff.org/">EFF CertBot 1.0 is live (Let's Encrypt)</a></li>
+              <li><a class="lnk-orange" href="https://www.cyberark.com/threat-research-blog/blackdirect-microsoft-azure-account-takeover/">BlackDirect: Microsoft Azure Account Takeover</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/kindredgroup/paf-credentials-checker">PAF Credentials Checker: Proactively fight against Credential Stuffing</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/researcher-unveils-crackq-new-password-cracking-manager">Researcher Unveils CrackQ, a New Password Cracking Manager (HashCat GUI)</a></li>
+              <li><a class="lnk-green" href="https://blog.clamav.net/2019/12/introducing-mussels-application.html">Introducing Mussels, an application dependency build automation tool</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/two-malicious-python-libraries-removed-from-pypi/">Two malicious Python libraries caught stealing SSH and GPG keys</a></li>
+              <li><a class="lnk-purple" href="https://h0mbre.github.io/Learn-C-By-Creating-A-Rootkit/">Creating a Rootkit to Learn C</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@dmrickert/software-libraries-are-terrifying-4875b6a74be6">Software Libraries Are Terrifying - Package typosquatting</a></li>
+              <li><a class="lnk-pink" href="https://seclists.org/oss-sec/2019/q4/122">Inferring and hijacking VPN-tunneled TCP connections.</a></li>
+              <li><a class="lnk-green" href="https://github.com/sachinkamath/ntlmrecon">NTLMRecon: A fast NTLM reconnaissance and information gathering tool without external dependencies.</a></li>
+              <li><a class="lnk-orange" href="https://drive.google.com/file/d/1CaRz41bEwWsDZ9bPgdcatcesloxTF6Kv/view">First Contact: New Vulnerabilities in Contactless Payment</a></li>
+              <li><a class="lnk-purple" href="https://github.com/pomerium/awesome-security-audits">A collection of public security audits.</a></li>
+              <li><a class="lnk-blue" href="https://github.com/BC-SECURITY/Empire/blob/dev/README.md">Empire Beta 3.0</a></li>
+              <li><a class="lnk-pink" href="https://blog.jonlu.ca/posts/spf-dkim?ref=netsec">Email authentication: SPF, DKIM and DMARC out in the wild</a></li>
+              <li><a class="lnk-green" href="https://www.ripstech.com/java-security-calendar-2019/">Java security calendar 2019</a></li>
+              <li><a class="lnk-orange" href="https://michaelhendrickx.com/201911-certgraph-visualizing-the-distribution-of-trusted-cas.html">CertGraph: visualizing the distribution of trusted CA’s</a></li>
+              <li><a class="lnk-purple" href="https://github.com/JYVSECTEC/PHR-model">Prepare, Hunt, and Respond concept model</a></li>
+              <li><a class="lnk-blue" href="https://www.microsoft.com/security/blog/2019/11/26/insights-from-one-year-of-tracking-a-polymorphic-threat/">Insights from one year of tracking a polymorphic threat</a></li>
+              <li><a class="lnk-pink" href="https://blog.cobaltstrike.com/2019/12/05/cobalt-strike-4-0-bring-your-own-weaponization/">Cobalt Strike 4.0 – Bring Your Own Weaponization</a></li>
+              <li><a class="lnk-green" href="https://before-you-ship.18f.gov/security/frameworks/">Framework-Specific Security Guidelines</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
