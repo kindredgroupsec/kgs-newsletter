@@ -1,0 +1,217 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 16/12/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-HjmKZtag5f8/XfCy90oCdUI/AAAAAAAA19E/jvij94raQM0jFJgZYCW0glWH2u8d3DypgCLcBGAsYHQ/s728-e100/intel-sgx-attack.png" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">16 December 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">GDPR: German Privacy Regulator Fines 1&1 Telecom 9.55M EUR for insufficient user verification at Customer Services</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/gdpr-breach-german-privacy-regulator-fines-11-telecom-showcase_image-10-a-13482.jpg"></mj-image>
+          <mj-text color="#fff">On Monday, 1 & 1 Telecommunications was fined €9.55 million ($10.6 million) by Germany's Federal Commissioner for Data Protection and Freedom of Information, or BfDI, for its failure to put in place "sufficient technical and organizational measures" to protect customer data in its call center environments. The company has said it will appeal the fine.</mj-text>
+          <mj-text color="#fff">The BfDI says it fined 1 & 1 Telecom after discovering that callers to its call center could retrieve customer information simply by giving their name and date of birth, which it said was an insufficient level of authentication for protecting customer data.  "In this authentication procedure, the BfDI sees a violation of Article 32 of GDPR , according to which the company is obliged to take appropriate technical and organizational measures to systematically protect the processing of personal data."</mj-text>
+          <mj-text color="#fff">BfDI said that after it "criticized the inadequate data protection, 1 & 1 Telecom GmbH was transparent and very cooperative," adding an extra step to require additional information, which the regulator said was a significant improvement both in terms of the technology applied as well as the resulting data protection improvement. The regulator said it applied a relatively low fine, based on 1 & 1 Telecom's cooperation and move to rapidly fix the problem.</mj-text>
+          <mj-text color="#fff">We have had cases on authentication in the past including from a U.K. financial services regulator. Organizations need to check that they are dealing with the right people and that they are not giving data away unnecessarily. When they do spot a possible security vulnerability organizations need to deal with it quickly and efficiently. "Since then, 1 & 1 has continued to evolve its security requirements," the company says. "For example, since then a three-level authentication system has been introduced, and in the next few days 1 & 1 - being one of the first companies in its sector to do so - will provide each customer with a personal service PIN." </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/gdpr-breach-german-privacy-regulator-fines-11-telecom-a-13482">
+            Read More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">The quiet evolution of phishing</mj-text>
+          <mj-image src="https://www.microsoft.com/security/blog/wp-content/uploads/2019/12/fig4-phishing-404-Not-Found-error-page.png"></mj-image>
+          <mj-text>Earlier this month, Microsoft released a report on this year's malware and cyber-security trends. Among the few trends highlighted in the report was that phishing was one of the few attack vectors that saw a rise in activity over the past two years. Microsoft said that phishing attempts grew from under 0.2% in January 2018 to around 0.6% in October 2019, where 0.6% represented the percentage of phishing emails detected out of the total volume of emails the company analyzed.</mj-text>
+          <mj-text>Over the years, phishers have become better at evading detection by hiding malicious artifacts behind benign ones. This tactic manifests in, among many others, the use of URLs that point to legitimate but compromised websites or multiple harmless-looking redirectors that eventually lead to phishing. The other way that phishers evade detection is to use multiple URLs and sometimes even multiple domains for their campaigns. They use techniques like subdomain generation algorithms to try and always get ahead of solutions, which, without the right dynamic technologies, will be forced continually catch up as phishers generate more and more domains and URLs. Phishers have also been getting better at impersonation: the more legitimate the phishing emails looked, the better their chances at tricking recipients. Countless brands both big and small have been targets of spoofing by phishers.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.microsoft.com/security/blog/2019/12/11/the-quiet-evolution-of-phishing/">
+            Read More at Microsoft Security Blog
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/microsoft-details-the-most-clever-phishing-techniques-it-saw-in-2019/">
+            Summary on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">New Plundervolt attack impacts Intel CPUs</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-HjmKZtag5f8/XfCy90oCdUI/AAAAAAAA19E/jvij94raQM0jFJgZYCW0glWH2u8d3DypgCLcBGAsYHQ/s728-e100/intel-sgx-attack.png"></mj-image>
+          <mj-text>A team of cybersecurity researchers demonstrated a novel yet another technique to hijack Intel SGX, a hardware-isolated trusted space on modern Intel CPUs that encrypts extremely sensitive data to shield it from attackers even when a system gets compromised. Dubbed Plundervolt and tracked as CVE-2019-11157, the attack relies on the fact that modern processors allow frequency and voltage to be adjusted when needed, which, according to researchers, can be modified in a controlled way to induce errors in the memory by flipping bits.</mj-text>
+          <mj-text>"We demonstrate the effectiveness of our attacks by injecting faults into Intel's RSA-CRT and AES-NI implementations running in an SGX enclave, and we reconstruct full cryptographic keys with negligible computational efforts," the researchers said.</mj-text>
+          <mj-text>"Intel has worked with system vendors to develop a microcode update that mitigates the issue by locking voltage to the default settings," Intel's blog post published today reads. "We are not aware of any of these issues being used in the wild, but as always, we recommend installing security updates as soon as possible."</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/new-plundervolt-attack-impacts-intel-cpus/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://thehackernews.com/2019/12/intel-sgx-voltage-attack.html">
+            Even More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.adversary.io/your-developers-should-be-your-sdlc-immune-systemURL">Your Developers Should be Your SDLC Immune System</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2019/12/zeppelin-ransomware-attacks.html">New Zeppelin Ransomware Targeting Tech and Health Companies</a></li>
+              <li><a class="lnk-green" href="https://www.welivesecurity.com/2019/12/10/data-leak-exposes-750000-birth-certificate-applications/">Data leak exposes 750,000 birth certificate applications</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-office-365-to-add-message-recall-in-exchange-online/">Microsoft Office 365 to Add Message Recall in Exchange Online</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2019/12/10/snatch-ransomware-pwns-security-using-sneaky-safe-mode-reboot/">Snatch ransomware pwns security using sneaky ‘safe mode’ reboot</a></li>
+              <li><a class="lnk-blue" href="https://www.welivesecurity.com/2019/12/12/chrome-warnings-password-stolen/">Chrome now warns you if your password has been stolen</a></li>
+              <li><a class="lnk-pink" href="https://www.microsoft.com/security/blog/2019/12/11/go-passwordless-strengthen-security-reduce-costs/">Go passwordless to strengthen security and reduce costs</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/google-rolls-out-verified-sms-and-spam-protection-in-android/">Google rolls out Verified SMS and Spam Protection in Android</a></li>
+              <li><a class="lnk-orange" href="https://www.digitalshadows.com/blog-and-research/threat-intelligence-a-deep-dive/">Threat Intelligence: A Deep Dive</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/visa-warns-of-ongoing-cyber-attacks-on-gas-pump-pos-systems/">VISA Warns of Ongoing Cyber Attacks on Gas Pump PoS Systems</a></li>
+              <li><a class="lnk-blue" href="https://www.troyhunt.com/generated-passwords-ux-and-security-absolutism/">Generated Passwords, UX and Security Absolutism</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/blunt-effect-two-edged-sword-vulnerability-disclosures">Blunt the Effect of the Two-Edged Sword of Vulnerability Disclosures</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2019/12/patch-tuesday-december-2019-edition/">Patch Tuesday, December 2019 Edition</a></li>
+              <li><a class="lnk-pink" href="https://www.zerodayinitiative.com/blog/2019/12/10/the-december-2019-security-update-review">The december 2019 security update review by ZDI</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/openbsd-patches-severe-authentication-bypass-privilege-escalation-vulnerabilities/">OpenBSD patches authentication bypass, privilege escalation vulnerabilities</a></li>
+              <li><a class="lnk-orange" href="https://www.qualys.com/2019/12/04/cve-2019-19521/authentication-vulnerabilities-openbsd.txt">Qualys advisory on the OpenBSD vulnerability</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/adobe-patches-17-critical-code-execution-bugs-in-photoshop-reader-brackets/">Adobe patches 17 critical code execution bugs in Photoshop, Reader, Brackets</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/nvidia-patches-high-severity-flaws-in-tegra-linux-driver-package/">NVIDIA Patches High Severity Flaws in Tegra Linux Driver Package</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/vulnerabilities-found-aviatrix-enterprise-vpn">Vulnerabilities Found in Aviatrix Enterprise VPN</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/weidmueller-patches-critical-vulnerabilities-industrial-switches">Weidmueller Patches Critical Vulnerabilities in Industrial Switches</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/vmware-patches-esxi-vulnerability-earned-hacker-200000">VMware Patches ESXi RCE Vulnerability That Earned Hacker $200,000</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/apple-patches-over-50-vulnerabilities-macos-catalina">Apple Patches Over 50 Vulnerabilities in macOS Catalina</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/chrome-79-patches-critical-vulnerabilities">Chrome 79 Patches Critical Vulnerabilities</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.mdsec.co.uk/2019/12/macos-filename-homoglyphs-revisited/">MacOS Filename Homoglyphs Revisited</a></li>
+              <li><a class="lnk-pink" href="https://diverto.github.io/2019/11/18/Cracking-LUKS-passphrases">Cracking LUKS/dm-crypt passphrases</a></li>
+              <li><a class="lnk-green" href="https://github.com/delvelabs/batea">batea: AI-based, context-driven network device ranking</a></li>
+              <li><a class="lnk-orange" href="https://vavkamil.cz/wp-content/uploads/2019/12/an-introduction-to-the-router-exploit-kits.pdf">Introduction to router exploit kits</a></li>
+              <li><a class="lnk-purple" href="https://www.fugue.co/blog/cloud-network-security-101-aws-security-groups-vs-nacls">Cloud Network Security 101: AWS Security Groups vs NACLs</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@aseem.shrey/mind-your-logs-how-a-build-log-from-a-jenkins-leaked-everything-603cf07fa85">Mind your Logs : How a build log from a Jenkins leaked everything</a></li>
+              <li><a class="lnk-pink" href="https://auth0.com/blog/how-auth0-automates-phishing-response/">How Auth0 Automates Phishing Response</a></li>
+              <li><a class="lnk-green" href="https://github.com/sailay1996/UAC_Bypass_In_The_Wild">Windows 10 UAC bypass for all executable files which are autoelevate true .</a></li>
+              <li><a class="lnk-orange" href="https://www.sentinelone.com/blog/macos-red-team-calling-apple-apis-without-building-binaries/">MacOS red team: calling apple apis without building binaries</a></li>
+              <li><a class="lnk-purple" href="https://github.com/leo-lb/wpbrute-rs">wpbrute-rs: High perf Wordpress bruteforcer</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
