@@ -62,6 +62,7 @@
         <meta name="twitter:title" content="Kindred Security Newsletter - DD/MM/19" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
         <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
       </mj-style>
   </mj-head>
   <mj-body>

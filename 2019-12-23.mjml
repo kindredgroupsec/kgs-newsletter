@@ -1,0 +1,230 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 23/12/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/blogpost-vSMS_lrHnVV4.max-1000x1000.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">23 December 2019</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">On the importance of Full Disk Encryption: Payroll Data of 29,000 Facebook Employees Stolen</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/payroll-data-29000-facebook-employees-stolen-report-showcase_image-6-a-13509.jpg"></mj-image>
+          <mj-text color="#fff">The payroll data of 29,000 current and former Facebook employees was potentially exposed in November when several unencrypted hard disk drives were stolen. The data included U.S. employees' names, bank account numbers and the last four digits of some workers' Social Security numbers, according to an email sent to Facebook employees on Friday, Bloomberg reports. The drives also included some employees' compensation information, including salary and bonus details, according to the news service's report.</mj-text>
+          <mj-text color="#fff">In the email to employees, Facebook noted that on Nov.17, someone broke into an employee's car and took the hard disk drives containing the data. It's not clear why the unnamed employee, who works in Facebook's payroll department, had the hard disk drives in their car or why those devices weren't encrypted.</mj-text>
+          <mj-text color="#fff">"Out of an abundance of caution, we have notified the current and former employees whose information we believe was stored on the equipment - people who were on our U.S. payroll in 2018 - and are offering them free identity theft and credit monitoring services," the Facebook spokesperson told ISMG. "This theft impacts current and former Facebook employees only, and no Facebook user data was involved."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/payroll-data-29000-facebook-employees-stolen-report-a-13509">
+            Read More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Google adds Verified SMS and anti-spam feature to Messages app</mj-text>
+          <mj-image src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/blogpost-vSMS_lrHnVV4.max-1000x1000.png"></mj-image>
+          <mj-text>Google announced new security tweaks designed to make old-fashioned SMS communication more appealing to both companies and consumers alike. The first of these is Verified SMS for Messages, which as its name suggests works with the company’s Android messaging app. Available in the US, the UK, Canada, Mexico, India, Brazil, France, the Philippines, and Spain, this allows users to verify that text messages sent by companies are genuine and not fakes or scams.
+          </mj-text>
+          <mj-text>From Google’s brief description, every text sent to the Messages app by a participating company embeds a hash-based message authentication code (HMAC) which is compared with an equivalent hash sent to Google. This is unique to each person’s device rather than the company itself, which should make it impossible to spoof. As well as being specific to the Messages app, companies must also be part of the Verified SMS system for it to work. So far, that only runs to 1-800-Flowers, Banco Bradesco, Kayak, Payback, and SoFi.          </mj-text>
+          <mj-text>Verified SMS will only authenticate known good senders rather than stopping unknown bad ones. This might explain why Google has added a second feature to Messages, Spam protection for Messages. With this feature in use, any message arriving or leaving from a number not in the user’s contacts list is temporarily stored and checked against the numbers of any known spammers If it’s suspect, it blocks the message. It’s not crystal clear whether this is done automatically or if the user is asked before it is blocked. It’s also possible to manually report spam.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2019/12/16/google-adds-verified-sms-and-anti-spam-feature-to-messages-app/">
+            Read More on Naked Security
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.blog.google/products/messages/safer-conversations-messages-verified-sms-and-spam-protection/">
+            Official Google communication
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">New Orleans hit by ransomware, city employees told to turn off computers          </mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2019/12/new-orleans-press-conference.jpg"></mj-image>
+          <mj-text>The City of New Orleans, Louisiana has suffered a ransomware attack that has led to the shut down of the city's servers and computer, but the city states emergency services remain intact. In response to the attack, Nola.com reports that the City told employees to turn off and unplug their computers over the City Hall's public address system. The servers for the city were also shutdown.
+          </mj-text>
+          <mj-text>According to reports from local media outlets, to make sure employees powered down computers as soon as possible, officials used the city hall's public loudspeakers systems to alert employees of the cyber-attack. Besides city hall, the incident also affected the New Orleans Police Department, which shut down its IT network in entirety as well.
+          </mj-text>
+          <mj-text>This incident marks the third ransomware incident reported in the state of Louisiana. In August, three school districts were hit by ransomware, prompting the Louisiana governor to declare a state emergency, the first one in the state's history caused by a cyber-attack, rather than a natural disaster. A second incident took place last month when a second ransomware attack encrypted data on the Louisiana state government's IT network. Weeks after the attack, some state agencies are still having difficulties with accessing state data, although these are expected t be resolved by the end of the year.
+          </mj-text>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/new-orleans-hit-by-ransomware-city-employees-told-to-turn-off-computers/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/new-orleans-suffers-ransomware-attack-emergency-services-intact/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#d42426">
+        <mj-column>
+          <mj-text mj-class="white h3" align="center">This is the last Kindred Security Newsletter for 2019</mj-text>
+          <mj-image src="https://news.infosecgur.us/assets/christmas-2.png"></mj-image>
+
+          <mj-text mj-class="white">It's time for the Kindred Group Security team to take some holiday. The newsletter will be off for a few weeks during Christmas and New Year's Eve. But don't worry, we'll be back. See you soon for some awesome infosec news!</mj-text>
+
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/apple-opens-public-bug-bounty-program-publishes-official-rules/">Apple opens public bug bounty program, publishes official rule </a></li>
+              <li><a class="lnk-pink" href="https://www.welivesecurity.com/2019/12/20/scam-wants-more-than-paypal-logins/">Ambitious scam wants far more than just PayPal logins</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/google-amp/article/more-than-38000-people-will-stand-in-line-this-week-to-get-a-new-password/">More than 38,000 people will stand in line this week to get a new password</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/identifying-dns-over-https-traffic-without-decryption-possible-researcher">Identifying DNS-Over-HTTPS Traffic Without Decryption Possible: Researche </a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/google-to-force-oauth-in-g-suite-to-increase-security/">Google to Force OAuth in G Suite to Increase Securit </a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/12/google-open-source-projects.html">Google Offers Financial Support to Open Source Projects for Cybersecurity</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/over-435k-security-certs-can-be-compromised-with-less-than-3-000/">Over 435K Security Certs Can Be Compromised With Less Than $3,000              </a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/former-siemens-contractor-sentenced-prison-planting-logic-bombs">Former Siemens Contractor Sentenced to Prison for Planting Logic Bomb </a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2019/12/inside-evil-corp-a-100m-cybercrime-menace/">Inside ‘Evil Corp,’ a $100M Cybercrime Menac </a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/mozilla-firefox-add-on-developers-must-use-2fa-a-13511">Mozilla: Firefox Add-On Developers Must Use 2F </a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/credit-card-data-exposed-online-is-tested-within-2-hours/">Credit Card Data Exposed Online Is Tested Within 2 Hour </a></li>
+              <li><a class="lnk-pink" href="https://gizmodo.com/ring-s-hidden-data-let-us-map-amazons-sprawling-home-su-1840312279">Ring’s Hidden Data Let Us Map Amazon's Sprawling Home Surveillance Network</a></li>
+              <li><a class="lnk-green" href="https://gadgets.ndtv.com/internet/news/droom-security-flaw-exposed-user-detail-phone-number-bank-aadhaar-pan-fixed-2146420?utm_campaign=APISecurity%20newsletter&utm_source=hs_email&utm_medium=email&utm_content=81007817&_hsenc=p2ANqtz-_GENzC1k77LVLC56mJufB7WPW-Q7qGTkc-Fk7Weq__WmiQ-N8HJYrr90OAiwO7RDvcOY4HwQiCVwh0ckqv-U0jeB86Zw&_hsmi=81007817">Droom Fixes Security Flaw That Exposed Private Data, Banking Details of Million </a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/new-legion-loader-delivers-variety-malware">New Legion Loader Delivers a Variety of Malware</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/who-else-in-that-video-meeting-maybe-hacker-a-13517">Who Else Is in That Video Meeting? Maybe a Hacker</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2019/12/17/dont-fall-for-this-porn-scam-even-if-your-passwords-in-the-subject/">Don’t fall for this porn scam – even if your password’s in the subject!</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2019/12/nuclear-bot-author-arrested-in-sextortion-case/">Nuclear Bot Author Arrested in Sextortion Case</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/attackers-steal-credit-cards-in-rooster-teeth-data-breach/">Attackers Steal Credit Cards in Rooster Teeth Data Breach</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/exposed-database-stored-information-267-million-facebook-users">267 Million Facebook Users Exposed in Accessible Database</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/12/drupal-website-hacking.html">Drupal Warns Web Admins to Update CMS Sites to Patch a Critical Flaw</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/npm-team-warns-of-new-binary-planting-bug/">Npm team warns of new 'binary planting' bugs</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/tp-link-router-bug-lets-attackers-login-without-passwords/">TP-Link Router Bug Lets Attackers Login Without Password </a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/update-intels-rapid-storage-app-to-fix-bug-letting-malware-evade-av/">Update Intel's Rapid Storage App to Fix Bug Letting Malware Evade A </a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2019/12/19/chrome-79-patched-after-android-webview-app-chaos/">Chrome 79 patched after Android WebView app chaos</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2019/12/wordpress-elementor-beaver.html">Flaw in Elementor and Beaver Addons Let Anyone Hack WordPress Sites</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/schneider-electric-patches-vulnerabilities-modicon-ecostruxure-products">Schneider Electric Patches Vulnerabilities in Modicon, EcoStruxure Products</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cisco-security-appliances-targeted-for-dos-attacks-via-old-bug/">Cisco Security Appliances Targeted for DoS Attacks via Old Bug </a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/anyone-can-check-for-magecart-with-just-the-browser/">Check for Magecart with the Browser
+              </a></li>
+              <li><a class="lnk-pink" href="https://cloud.google.com/security/beyondprod/">BeyondProd: A new approach to cloud-native security</a></li>
+              <li><a class="lnk-green" href="https://thenewstack.io/the-apis-malicious-hackers-love-to-exploit/">The APIs Malicious Hackers Love to Exploit</a></li>
+              <li><a class="lnk-orange" href="https://eng.getwisdom.io/hacking-github-with-unicode-dotless-i/">Hacking GitHub with Unicode's dotless 'i'.</a></li>
+              <li><a class="lnk-purple" href="https://know.bishopfox.com/research/privilege-escalation-in-aws">Investigating PrivEsc Methods in AWS              </a></li>
+              <li><a class="lnk-blue" href="https://omercitak.com/out-of-band-attacks-en/">Out-of-band Attacks</a></li>
+              <li><a class="lnk-pink" href="https://decoder.cloud/2019/12/18/from-dropboxupdater-to-nt-authoritysystem/">From dropbox(updater) to NT AUTHORITY\SYSTEM
+              </a></li>
+              <li><a class="lnk-green" href="https://research.nccgroup.com/2019/12/18/demystifying-aws-assumerole-and-stsexternalid/">Demystifying AWS' AssumeRole and sts:ExternalId              </a></li>
+              <li><a class="lnk-orange" href="https://www.reddit.com/r/netsec/comments/ecalcq/canarytail_a_proposed_warrant_canary_standard_for/">CanaryTail — a proposed warrant canary standard for automated canary validation</a></li>
+              <li><a class="lnk-purple" href="https://pentestlab.blog/2019/12/16/persistence-application-shimming/">Persistence – Application Shimming</a></li>
+              <li><a class="lnk-blue" href="https://www.reddit.com/r/blueteamsec/comments/edmahl/2_newly_introducted_ms_security_eventid_4799_4798/">2 New MS security capture any local group/user discovery attempts</a></li>
+              <li><a class="lnk-pink" href="https://security.christmas/">Security Christmas Advent Calendar</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@weizmangal/javascript-anti-debugging-some-next-level-sh-t-part-1-abusing-sourcemappingurl-da91ff948e66">Javascript Anti Debugging — Abusing SourceMappingURL</a></li>
+              <li><a class="lnk-orange" href="https://github.com/baronpan/SysmonHunter">SysmonHunter: An easy ATT&CK-based Sysmon hunting tool</a></li>
+              <li><a class="lnk-purple" href="https://github.com/MHaggis/sysmon-dfir/blob/master/README.md">Sysmon Learning Resources</a></li>
+              <li><a class="lnk-blue" href="https://www.uptycs.com/blog/infographic-macos-best-practices">macOS Native Security Configurations and osquery</a></li>
+              <li><a class="lnk-pink" href="https://security.googleblog.com/2019/12/detecting-unsafe-path-access-patterns.html">Detecting unsafe path access patterns with PathAuditor</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      
+      <!-- footer -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

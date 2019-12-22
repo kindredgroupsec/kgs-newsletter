@@ -45,6 +45,7 @@
         <meta name="twitter:title" content="Kindred Security Newsletter" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
         <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
       </mj-style>
   </mj-head>
   <mj-body>
@@ -70,6 +71,8 @@
           <mj-spacer height="30px" />
           <mj-text mj-class="blue h2">2019</mj-text>
           <mj-list>
+            <li><a href="./2019-12-23.html" class="lnk-blue">23 December 2019</a> (<a href="./2019-12-23.pdf" class="lnk-green">PDF</a>)</li>
+
             <li><a href="./2019-12-16.html" class="lnk-blue">16 December 2019</a> (<a href="./2019-12-16.pdf" class="lnk-green">PDF</a>)</li>
 
             <li><a href="./2019-12-09.html" class="lnk-blue">9 December 2019</a> (<a href="./2019-12-09.pdf" class="lnk-green">PDF</a>)</li>
