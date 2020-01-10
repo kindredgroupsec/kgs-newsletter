@@ -1,0 +1,195 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 13/01/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.usaonlinecasino.com/wp-content/uploads/2018/08/best-country-to-operate-an-online-gambling-company.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">13 January 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">The Difficulty of Disclosure, Surebet247 and the Streisand Effect</mj-text>
+          <mj-image src="https://www.usaonlinecasino.com/wp-content/uploads/2018/08/best-country-to-operate-an-online-gambling-company.jpg"></mj-image>
+          
+          <mj-text color="#fff">SureBet247, a popular sport betting company based in Nigeria was victim of an incident related to the data protection of its users that would have put thousands of records stored by the company at risk. An anonymous user discovered the information exposed on the public Internet, who reported the find to Troy Hunt, a security researcher and founder of the Have I Been Pwned platform. After attempting to contact SureBet247 without success, the researcher decided to share the find with the cybersecurity community.</mj-text>
+          <mj-text color="#fff">This incident has been particularly frustrating for both Hunt and the anonymous informant, who have repeatedly tried to contact the company; on the other hand, SureBet247 has not commented on the incident in any way, so investigators ignore whether the company was even aware of this serious breach of the data protection of its users. Based on Hunt’s reporting, the International Institute of Cyber Security (IICS) finds it unlikely that the company will implement an appropriate security incident management process or even notify all potentially exposed users. Given the company’s irresponsibility, customers are advised to reset their access passwords to the SureBet247 platform, in addition to monitoring their bank accounts for any suspicious activity.</mj-text>
+          <mj-text color="#fff">"This is a blog post about disclosure, specifically the difficulty with doing it in a responsible fashion as the reporter whilst also ensuring the impacted organisation behaves responsibly themselves. It's not a discussion we should be having in 2020, a time of unprecedented regulatory provisions designed to prevent precisely the sort of behaviour I'm going to describe in this post. Here you're going to see - blow by blow - just how hard it is for those of us with the best of intentions to deal with organisations who have a very different set of priorities. This is a post about how hard disclosure remains and how Surebet247's behaviour now has them experiencing the full blown Streisand effect."</mj-text>
+          
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.troyhunt.com/the-difficulty-of-disclosure-surebet247-and-the-streisand-effect/">
+            Read More on Troy Hunt's blog
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.securitynewspaper.com/2020/01/03/surebet247-suffers-data-breach-and-leaks-customers-gambling-information/">
+            Even More on SecurityNewspaper
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/tiktok-flaws-allowed-hackers-to-delete-videos-steal-user-info/">TikTok Flaws Allowed Hackers to Delete Videos, Steal User Info</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/magecart-attackers-steal-card-info-from-focus-camera-shoppers/">MageCart Attackers Steal Card Info from Focus Camera Shoppers</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2020/01/07/google-suspends-xiaomi-from-home-hub-over-camera-privacy-glitch/">Google suspends Xiaomi from Home Hub over camera privacy glitch</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/only-9-27-of-all-npm-developers-use-2fa/">Only 9.27% of all npm developers use 2FA</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2020/01/09/googles-project-zero-highlights-patch-quality-with-policy-tweak/">Google’s Project Zero highlights patch quality with policy tweak</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/infotrax-gets-slap-on-the-wrist-after-being-breached-20-times/">InfoTrax Gets Slap on The Wrist After Being Breached 20+ Times</a></li>
+              <li><a class="lnk-pink" href="https://blog.cloudflare.com/introducing-cloudflare-for-teams/">Introducing Cloudflare for Teams              </a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/it-executive-steals-6-million-busted-by-word-doc-metadata/">IT Executive Steals $6 Million, Busted by Word Doc Metadata</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/ransomware-attackers-offer-holiday-discounts-and-greetings/">Ransomware Attackers Offer Holiday Discounts and Greetings</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/starbucks-devs-leave-api-key-in-github-public-repo/">Starbucks Devs Leave API Key in GitHub Public Repo</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/chinese-hacker-group-caught-bypassing-2fa/">Chinese hacker group caught bypassing 2FA</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/google-removed-over-17k-joker-malware-infected-apps-from-play-store/">Google Removed Over 1.7K Joker Malware Infected Apps from Play Store</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/unremovable-malware-found-preinstalled-on-low-end-smartphone-sold-in-the-us/">Unremovable malware found preinstalled on low-end smartphone sold in the US</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/paypal-patches-vulnerability-exposed-user-passwords">PayPal Patches Vulnerability That Exposed User Passwords</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2020/01/10/hackers-use-system-weakness-to-rattle-doors-on-citrix-systems/">Hackers use system weakness to rattle doors on Citrix systems
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/uk-fines-dixons-carphone-for-massive-breach-a-13595">UK Fines Dixons Carphone for Massive Breach</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/01/firefox-cyberattack.html">Critical Firefox 0-Day Under Active Attacks – Update Your Browser Now!</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/critical-citrix-flaw-may-expose-thousands-of-firms-to-attacks/">Critical Citrix Flaw May Expose Thousands of Firms to Attacks</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-magellan-20-sqlite-vulnerabilities-affect-many-programs/">New Magellan 2.0 SQLite Vulnerabilities Affect Many Programs</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://en.hackndo.com/remote-lsass-dump-passwords/">Extract credentials from lsass remotely              </a></li>
+              <li><a class="lnk-pink" href="https://www.schneier.com/blog/archives/2020/01/new_sha-1_attac.html">New SHA-1 Attack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/linux/kali-linux-to-default-to-non-root-user-with-20201-release/">Kali Linux to Default to Non-Root User With 2020.1 Release</a></li>
+              <li><a class="lnk-orange" href="https://www.troyhunt.com/promiscuous-cookies-and-their-impending-death-via-the-samesite-policy/">Promiscuous Cookies and Their Impending Death via the SameSite Policy</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/how-to-install-and-use-git-secret/">How to install and use git-secret</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/resurrected-powershell-empire-framework-converted-to-python-3/">Resurrected PowerShell Empire Framework Converted to Python 3</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@alex.birsan/the-bug-that-exposed-your-paypal-password-539fc2896da9">The Bug That Exposed Your PayPal Password</a></li>
+              <li><a class="lnk-green" href="https://kindredsec.com/2020/01/07/the-basics-of-packed-malware-manually-unpacking-upx-executables/">The Basics of Packed Malware: Manually Unpacking UPX Executables</a></li>
+              <li><a class="lnk-orange" href="https://www.positronsecurity.com/blog/2020-01-07-ssh-client-auditing-and-hardening/">SSH Client Auditing & Hardening</a></li>
+              <li><a class="lnk-purple" href="https://hipotermia.pw/bb/http-desync-account-takeover">Account takeover via HTTP Request Smuggling</a></li>
+              <li><a class="lnk-blue" href="https://jyx.github.io/alert-alarm-exploit.html">Alert Alarm SMS exploit - English version</a></li>
+              <li><a class="lnk-pink" href="https://github.com/skeeto/endlessh">Endlessh: SSH tarpit that slowly sends an endless banner
+              </a></li>
+              <li><a class="lnk-green" href="https://github.com/cve-search/git-vuln-finder">git-vuln-finder: Finding potential software vulnerabilities from git commit messages </a></li>
+              <li><a class="lnk-orange" href="https://github.com/cncf/sig-security/tree/master/supply-chain-security/compromises">Catalog of supply chain compromises</a></li>
+              <li><a class="lnk-purple" href="https://github.com/BinaryDefense/artillery">Artillery: combination of a honeypot, monitoring tool, and alerting system.
+              </a></li>
+              <li><a class="lnk-blue" href="https://github.com/outflanknl/Spray-AD">Spray-AD: Cobalt Strike tool to audit Active Directory user accounts for well known or easy guessable passwords.
+              </a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@dmchell/what-ive-learned-in-over-a-decade-of-red-teaming-5c0b685c67a2">What I’ve Learned in Over a Decade of “Red Teaming”
+              </a></li>
+              <li><a class="lnk-green" href="https://captmeelo.com/pentest/2019/12/30/lesser-known-tools-for-android-pentest.html">Lesser-known Tools for Android Application PenTesting              </a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

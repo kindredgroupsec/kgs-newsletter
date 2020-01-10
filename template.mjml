@@ -59,7 +59,7 @@
       </style>
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@kindredgroup" />
-        <meta name="twitter:title" content="Kindred Security Newsletter - DD/MM/19" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - DD/MM/20" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
         <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
         <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
@@ -73,7 +73,7 @@
           <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
 
           <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
-          <mj-text mj-class="grey h2" align="center">DATE 2019</mj-text>
+          <mj-text mj-class="grey h2" align="center">DATE 2020</mj-text>
 
         </mj-column>
       </mj-section>
