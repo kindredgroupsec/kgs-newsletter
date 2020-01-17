@@ -1,0 +1,189 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 20/01/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://i2.wp.com/1.bp.blogspot.com/-SwxCD6NYfBo/XiEEvX9HYNI/AAAAAAAAHC4/WjiOVkk7Xlcgd-5M1eZqN5ryE0aSYgRrQCLcBGAsYHQ/s1600/Poc%2B-%2BWindows%2BCrypto%2BExploit.png?ssl=1" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">20 January 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Critical Windows Vulnerability Discovered by NSA</mj-text>
+          <mj-image src="https://i2.wp.com/1.bp.blogspot.com/-SwxCD6NYfBo/XiEEvX9HYNI/AAAAAAAAHC4/WjiOVkk7Xlcgd-5M1eZqN5ryE0aSYgRrQCLcBGAsYHQ/s1600/Poc%2B-%2BWindows%2BCrypto%2BExploit.png?ssl=1"></mj-image>
+          <mj-text color="#fff">Yesterday's Microsoft Windows patches included a fix for a critical vulnerability in the system's crypto library. An attacker could exploit the vulnerability by using a spoofed code-signing certificate to sign a malicious executable, making it appear the file was from a trusted, legitimate source. The user would have no way of knowing the file was malicious, because the digital signature would appear to be from a trusted provider.</mj-text>
+          <mj-text color="#fff">That's really bad, and you should all patch your system as soon as possible. This is a zero-day vulnerability, meaning that it was not detected in the wild before the patch was released. It was discovered by security researchers. Interestingly, it was discovered by NSA security researchers, and the NSA security advisory gives a lot more information about it than the Microsoft advisory does.</mj-text>
+          <mj-text color="#fff">Two of the critical issues affect Windows Remote Desktop Gateway (RD Gateway), tracked as CVE-2020-0609 and CVE-2020-0610, that can be exploited by unauthenticated attackers to execute malicious code on targeted systems just by sending a specially crafted request via RDP. Fortunately, none of the flaws addressed this month by Microsoft were publicly disclosed or found being exploited in the wild.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.schneier.com/blog/archives/2020/01/critical_window.html">
+            Read More on Schneier on Security
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/01/warning-quickly-patch-new-critical.html">
+            Even More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/01/14/lottery-hacker-gets-9-months-for-his-5-cut-of-the-loot/">Lottery hacker gets 9 months for his £5 cut of the loot</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/tinder-grindr-accused-illegally-sharing-user-data">Tinder, Grindr Accused of Illegally Sharing User Data</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-security-defaults-in-azure-active-directory/">Microsoft Enables Security Defaults in Azure Active Directory</a></li>
+              <li><a class="lnk-orange" href="https://www.welivesecurity.com/2020/01/13/major-us-wireless-carriers-vulnerable-sim-swap-scams/">5 major US wireless carriers vulnerable to SIM swapping attacks</a></li>
+              <li><a class="lnk-purple" href="https://krebsonsecurity.com/2020/01/phishing-for-apples-bobbing-for-links/">Phishing for Apples, Bobbing for Links</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/01/13/powerful-gpg-collision-attack-spells-the-end-for-sha-1/">Powerful GPG collision attack spells the end for SHA-1</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/australia-bushfire-donors-affected-by-credit-card-skimming-attack/">Australia Bushfire Donors Affected by Credit Card Skimming Attack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/google/google-chrome-aims-to-make-browser-user-agents-obsolete/">Google Chrome Aims to Make Browser User-Agents Obsolete</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2020/01/14/google-tests-biometric-authentication-for-android-autofill/">Google tests biometric authentication for Android autofill</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2020/01/17/google-will-now-accept-your-iphone-as-an-authentication-key/">Google will now accept your iPhone as an authentication key
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/facebook-to-notify-users-of-third-party-app-logins/">Facebook to notify users of third-party app logins</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/these-subject-lines-are-the-most-clicked-for-phishing/">These subject lines are the most clicked for phishing</a></li>
+              <li><a class="lnk-green" href="https://blog.cloudflare.com/announcing-the-cloudflare-access-app-launch/">Announcing the Cloudflare Access App Launch</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/customer-owned-bank-informs-100k-of-breach-exposing-account-balance-pii/">Customer-Owned Bank Informs 100k of Breach Exposing Account Balance, PII</a></li>
+              <li><a class="lnk-purple" href="https://www.microsoft.com/security/blog/2020/01/16/introducing-microsoft-application-inspector/">Introducing Microsoft Application Inspector</a></li>
+              <li><a class="lnk-blue" href="https://www.digitalshadows.com/blog-and-research/nsa-vulnerability-disclosure-pros-and-cons/">NSA Vulnerability Disclosure: Pros and Cons</a></li>
+              <li><a class="lnk-pink" href="http://www.infosecisland.com/blogview/25243-Password-Shaming-Isnt-Productive--Passwords-Are-Scary-Business.html">Password Shaming Isn’t Productive – Passwords Are Scary Business</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/public-bug-bounty-program-launched-kubernetes">Public Bug Bounty Program Launched for Kubernetes</a></li>
+              <li><a class="lnk-orange" href="https://www.microsoft.com/security/blog/2020/01/15/how-to-implement-multi-factor-authentication/">How to implement Multi-Factor Authentication (MFA)</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/court-approves-equifax-data-breach-settlement">Equifax Ordered to Spend $1 Billion on Data Security Under Data Breach Settlement</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2020/01/patch-tuesday-january-2020-edition/">Patch Tuesday, January 2020 Edition</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/adobes-first-2020-security-patch-update-fixes-code-execution-vulnerabilities/">Adobe’s first 2020 security patch update fixes code execution vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/citrix-adc-cve-2019-19781-exploits-released-fix-now/">Citrix ADC CVE-2019-19781 Exploits Released, Fix Now!</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/cisa-releases-test-tool-for-citrix-adc-cve-2019-19781-vulnerability/">CISA Releases Test Tool for Citrix ADC CVE-2019-19781 Vulnerability</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/google-researchers-detail-critical-imessage-vulnerability">Google Researchers Detail Critical iMessage Vulnerability</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/critical-wordpress-plugin-bug-allows-admin-logins-without-password/">Critical WordPress Plugin Bug Allows Admin Logins Without Password</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/windows-7-microsoft-ceases-free-security-updates-a-13604">Windows 7: Microsoft Ceases Free Security Updates</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2020/01/17/oracles-january-2020-update-patches-334-security-flaws/">Oracle’s January 2020 update patches 334 security flaws</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/microsoft-office-january-security-updates-fix-code-execution-bugs/">Microsoft Office January Security Updates Fix Code Execution Bugs</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/PaperMtn/lil-pwny">lil-pwny: Auditing Active Directory passwords using multiprocessing in Python.</a></li>
+              <li><a class="lnk-pink" href="https://tldrsec.com/blog/appsec-cali-2019/">What I Learned Watching All 44 AppSec Cali 2019 Talks</a></li>
+              <li><a class="lnk-green" href="https://www.slideshare.net/morganroman/banfootguns-devseccon-2019">Ban footguns: How to standardize how devs use dangerous aspects of your framework</a></li>
+              <li><a class="lnk-orange" href="https://www.blackhat.com/docs/us-17/thursday/us-17-Lackey-Practical%20Tips-for-Defending-Web-Applications-in-the-Age-of-DevOps.pdf">Practical tips for defending web
+                applications in the age of agile/DevOps</a></li>
+              <li><a class="lnk-purple" href="https://www.ncsc.gov.uk/whitepaper/security-architecture-anti-patterns">Security architecture anti-patterns</a></li>
+              <li><a class="lnk-blue" href="https://www.perimeterx.com/blog/analyzing_magecart_malware_from_zero_to_hero/">Analyzing Magecart Malware – From Zero to Hero</a></li>
+              <li><a class="lnk-pink" href="https://blog.nviso.eu/2020/01/13/creating-responders-in-the-hive/">Creating Responders in The Hive</a></li>
+              <li><a class="lnk-green" href="https://blog.redteam.pl/2020/01/deceiving-blue-teams-anti-forensic.html">Deceiving blue teams using anti-forensic techniques</a></li>
+              <li><a class="lnk-orange" href="https://www.bluepanda.no/2020/01/encrypted-malware/">Encrypted Malware</a></li>
+              <li><a class="lnk-purple" href="https://seclists.org/fulldisclosure/2020/Jan/10">Fortinet FortiSIEM Hardcoded SSH Key</a></li>
+              <li><a class="lnk-blue" href="https://www.issms2fasecure.com/?utm_source=hackernewsletter&utm_medium=email&utm_term=fav">An Empirical Study of Wireless Carrier Authentication for SIM Swaps</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
