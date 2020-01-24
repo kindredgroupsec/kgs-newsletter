@@ -1,0 +1,211 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 27/01/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">27 January 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Saudi Prince Allegedly Hacked World's Richest Man Jeff Bezos Using WhatsApp</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-OB4HwLvE40M/XihMF3UoohI/AAAAAAAA2M0/3r6ehfrJnTc7gL4Csu1658XrsHlH5lR7ACLcBGAsYHQ/s728-e100/Jeff-Bezos-Mohammed-bin-Salman-hacking.jpg"></mj-image>
+          <mj-text color="#fff">The iPhone of Amazon founder Jeff Bezos, CEO of Amazon, was reportedly hacked in May 2018 after receiving a WhatsApp message from the personal account of Saudi crown prince Mohammed bin Salman, the Guardian newspaper revealed today. Citing unnamed sources familiar with digital forensic analysis of the breach, the newspaper claimed that a massive amount of data was exfiltrated from Bezos's phone within hours after he received a malicious video file from the Saudi prince.</mj-text>
+          <mj-text color="#fff">The mysterious file was sent when crown prince Salman and Bezos were having a friendly WhatsApp conversation, and it's 'highly probable' that it exploited an undisclosed zero-day vulnerability of WhatsApp messenger to install malware on Bezos's iPhone. The Guardian said it didn't know what data was extracted from the phone, but the hack happened almost 9 months before an American tabloid newspaper published intimate photos and messages sent by Bezos, disclosing his extramarital affair that leads to a divorce from his wife of 25 years.</mj-text>
+          <mj-text color="#fff">At that time, Jeff Bezos pointed out the business relationship between the tabloid newspaper and Saudi Arabia and also hinted that how furious the Saudis were with him for the Washington Post's coverage of the murder of its journalist Jamal Khashoggi, a strong critic of the Kingdom's rulers. Since Bezos also owns the Washington Post and the CIA claimed that Salman ordered Khashoggi's assassination, the relationship between the Amazon chief executive and the Saudi government soured immediately after that. The Saudi Arabia's U.S. Embassy, in a tweet, dismissed the Guardian report by calling it "absurd" and asked for an investigation.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/01/saudi-prince-allegedly-hacked-worlds.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/a-timeline-of-events-surrounding-the-bezos-phone-hack/">
+            A timeline of events surrounding the Bezos phone hack
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Microsoft Exposed 250M Customer Support Records on Leaky Servers</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-fmXPlx5osJs/XihwLHSDhcI/AAAAAAAAAu8/X9qGWHKvgFo45CoPfSljYX0smtq_r6XewCLcBGAsYHQ/s728-e100/microsoft-customer-support-min.jpg"></mj-image>
+          <mj-text>Microsoft disclosed a security breach caused by a misconfigured internal customer support database that led to the accidental exposure of roughly 250 million customer support and service records, some of them containing personally identifiable information. Microsoft confirmed that due to misconfigured security rules added to the server in question on December 5, 2019, enabled exposure of the data, which remained the same until engineers remediated the configuration on December 31, 2019.
+          <mj-text>Microsoft didn't get into details such as the number of records exposed, the type of database that was left unprotected, or the type of personal information that was left in the open, only that data in the support case analytics database was "redacted using automated tools to remove personal information." While most of the records stored within the heavily-redacted internal customer support database used for support case analytics did not contain personal information, some non-standard PII wasn't anonymized. For instance, email addresses separated with spaces like 'username @ domain.com' instead of 'username@domain.com' were left untouched by Microsoft's automated PII redaction tools.
+          </mj-text>
+          <mj-text>As a result of the incident, Microsoft says it is taking steps to better lock down its use of cloud-based databases. For example, the company has pledged to improve auditing of its security rules for internal resources as well as to expand the scope of tools it uses to search for any security rule misconfigurations. The company says it will also expand its alerting systems to try and sound red alerts whenever security rule misconfigurations occur.
+          </mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-exposes-250m-customer-support-records-on-leaky-servers/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bankinfosecurity.com/microsoft-error-exposed-250-million-elasticsearch-records-a-13639">
+            Even More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/euro-cup-and-olympics-ticket-reseller-hit-by-magecart/">Euro Cup and Olympics Ticket Reseller Hit by MageCart</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2020/01/22/nists-new-privacy-rules-what-you-need-to-know/">NIST’s new privacy rules – what you need to know</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2020/01/22/regus-spills-data-of-900-staff-on-trello-board-set-to-public/">Regus spills data of 900 staff on Trello board set to ‘public’</a></li>
+              <li><a class="lnk-orange" href="URL">Maze Ransomware Not Getting Paid, Leaks Data Left and Right</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/phishing-incident-at-ups-store-chain-exposes-customer-info/">Phishing Incident at UPS Store Chain Exposes Customer Info</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/this-citibank-phishing-scam-could-trick-many-people/">This Citibank Phishing Scam Could Trick Many People</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2020/01/22/ubisoft-sues-ddos-for-hire-operators-for-ruining-game-play/">Ubisoft sues DDoS-for-hire operators for ruining game play</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/thousands-of-wordpress-sites-hacked-to-fuel-scam-campaign/">Thousands of WordPress Sites Hacked to Fuel Scam Campaign</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2020/01/apple-addresses-iphone-11-location-privacy-concern/">Apple Addresses iPhone 11 Location Privacy Concern</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/maze-ransomware-not-getting-paid-leaks-data-left-and-right/">Maze Ransomware Not Getting Paid, Leaks Data Left and Right</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/how-to-use-a-physical-security-key-to-sign-into-supported-websites/">How to use a physical security key to sign into supported websites</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/actively-exploited-ie-11-zero-day-bug-gets-temporary-patch/">Actively Exploited IE 11 Zero-Day Bug Gets Temporary Patch</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/card-stealing-scripts-infect-perricones-european-skin-care-sites/">Card-Stealing Scripts Infect Perricone's European Skin Care Sites</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/visas-plan-against-magecart-attacks-devalue-and-disrupt/">Visa's plan against Magecart attacks: Devalue and disrupt</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/mitsubishi-electric-discloses-security-breach-china-is-main-suspect/">Mitsubishi Electric discloses security breach, China is main suspect</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/serious-vulnerabilities-expose-honeywell-surveillance-systems-attacks">
+                Serious Vulnerabilities Expose Honeywell Surveillance Systems to Attacks</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/cisco-patches-critical-vulnerability-network-security-tool">Cisco Patches Critical Vulnerability in Network Security Tool</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/citrix-releases-scanner-to-detect-hacked-citrix-adc-appliances/">Citrix Releases Scanner to Detect Hacked Citrix ADC Appliances</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/unofficial-patch-released-recently-disclosed-internet-explorer-zero-day">Unofficial Patch Released for Recently Disclosed Internet Explorer Zero-Day</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/german-government-to-pay-eur800000-in-windows-7-esu-fees-this-year/">German government to pay €800,000 in Windows 7 ESU fees this year</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/multiple-vulnerabilities-found-amd-ati-radeon-graphics-cards">Multiple Vulnerabilities Found in AMD ATI Radeon Graphics Cards</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/siemens-warns-security-risks-associated-use-activex">
+                Siemens Warns of Security Risks Associated With Use of ActiveX</a></li>
+              <li><a class="lnk-pink" href="https://scotthelme.co.uk/legacy-tls-is-on-the-way-out/">Legacy TLS is on the way out: Start deprecating TLSv1.0 and TLSv1.1 now</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://slack.engineering/moving-fast-and-securing-things-540e6c5ae58a">Moving Fast and Securing Things</a></li>
+              <li><a class="lnk-pink" href="https://posts.specterops.io/revisiting-remote-desktop-lateral-movement-8fb905cb46c3">Revisiting Remote Desktop Lateral Movement</a></li>
+              <li><a class="lnk-green" href="https://scotthelme.co.uk/hpkp-is-no-more/">HPKP is no more!</a></li>
+              <li><a class="lnk-orange" href="https://www.blog.google/products/android-enterprise/security-whitepaper/">Android Enterprise security whitepaper details defenses</a></li>
+              <li><a class="lnk-purple" href="https://www.microsoft.com/security/blog/2020/01/23/azure-security-benchmark-90-security-compliance-best-practices-azure-workloads/">Azure Security Benchmark—90 security and compliance best practices for your workloads in Azure</a></li>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/satellite-a-payload-and-proxy-service-for-red-team-operations-aa4500d3d970">Satellite: A Payload and Proxy Service for Red Team Operations</a></li>
+              <li><a class="lnk-pink" href="https://www.fireeye.com/blog/threat-research/2020/01/vigilante-deploying-mitigation-for-citrix-netscaler-vulnerability-while-maintaining-backdoor.html">Attacker Deploying Mitigation for Citrix NetScaler Vulnerability While Maintaining Backdoor</a></li>
+              <li><a class="lnk-green" href="https://thiebaut.dev/articles/automated-anomaly-detection-in-dns-records/">Automated Anomaly-Detection in DNS Zones</a></li>
+              <li><a class="lnk-orange" href="https://github.com/hunters-forge/ThreatHunter-Playbook">
+                ThreatHunter Playbook</a></li>
+              <li><a class="lnk-purple" href="https://github.com/cugu/awesome-forensics/blob/master/README.md">Awesome Forensics tools curated list</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/maverislabs/virustotal-is-not-an-incident-responder-80a6bb687eb9">VirusTotal is not an Incident Responder</a></li>
+              <li><a class="lnk-pink" href="https://github.com/hackerschoice/thc-1001-tips-and-tricks/blob/master/README.md">THC tips and tricks</a></li>
+              <li><a class="lnk-green" href="https://www.nagarrosecurity.com/blog/adding-owasp-dependency-check-to-jenkins">Sec in your DevOps: Adding the OWASP Dependency Check to your Jenkins pipeline</a></li>
+              <li><a class="lnk-orange" href="https://github.com/specterops/at-ps">Adversary Tactics - PowerShell Training</a></li>
+              <li><a class="lnk-purple" href="https://www.ohchr.org/Documents/Issues/Expression/SRsSumexFreedexAnnexes.pdf">Analysis of the Evidence of Surveillance of Mr. Bezos’ personal phone - Key Technical Elements -</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
