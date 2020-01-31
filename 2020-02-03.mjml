@@ -1,0 +1,189 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 03/02/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://sophosnews.files.wordpress.com/2020/01/locked-1200.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">3 February 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">5 ways to be a bit safer this Data Privacy Day</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2020/01/locked-1200.jpg"></mj-image>
+          <mj-text color="#fff">As we say every year, Data Privacy Day is more than just a 24-hour period when you try to keep safe online. It’s a day to think about changes you can make in your digital life that will keep you safer today, and tomorrow, and the day after, and the day after that. So here are five things you can start doing today for your own and for everyone else’s good.</mj-text>
+          <mj-text color="#fff">Pick proper passwords and turn on 2FA: A password manager makes it easy to change your tired old passwords, to replace them with decently chosen ones, and to have a different password for every site.Password managers also protect you against fake sites – if you visit a bogus bank login page, your password manager won’t recognise it so it won’t have any password to put in at all. 2FA, short for two-factor authentication, generally refers to those one-time codes that you receive to your phone via text message, or that you generate via an app. They’re a tiny bit of extra hassle for you, but a lot of extra effort for the crooks.</mj-text>
+          <mj-text color="#fff">Review your privacy settings: Most operating systems, apps and online accounts allow you to choose how much you want to share with them, and when, and how. Make today the day you go and review those settings.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2020/01/28/5-ways-to-be-a-bit-safer-this-data-privacy-day/">
+            Read More on NakedSecurity
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.youtube.com/watch?v=MG0-5WppfFk">
+            When in doubt, don't give it out
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/01/30/facebook-knows-a-lot-about-your-online-habits-heres-how-to-stop-it/">Facebook knows a lot about your online habits – here’s how to stop it</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/google-open-sources-the-firmware-needed-to-build-hardware-security-keys/">Google open-sources the firmware needed to build hardware security keys</a></li>
+              <li><a class="lnk-green" href="https://www.immuniweb.com/blog/state-of-cybersecurity-top-100-airports.html">State of Cybersecurity at Top 100 Global Airports</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/russia-blocks-protonmail-and-protonvpn-tor-to-the-rescue/">Russia Blocks ProtonMail and ProtonVPN, Tor to the Rescue</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/apple-wants-to-standardize-the-format-of-sms-otps-one-time-passcodes/">Apple wants to standardize the format of SMS OTPs (one-time passcodes)</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/google-pays-65-million-to-hackers-for-reporting-security-bugs/">Bug Bounty: Google Pays $6.5 Million to Hackers for Reporting Security Bugs</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-detects-new-evil-corp-malware-attacks-after-short-break/">Microsoft Detects New Evil Corp Malware Attacks After Short Break</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/top-10-tech-policy-trends-to-watch-in-2020/">10 tech policy trends to watch in 2020</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/trickbot-uses-a-new-windows-10-uac-bypass-to-launch-quietly/">TrickBot Uses a New Windows 10 UAC Bypass to Launch Quietly</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/microsoft-launches-xbox-bug-bounty-program-with-rewards-of-up-to-20000/">Microsoft launches Xbox bug bounty program with rewards of up to $20,000</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/emotet-uses-coronavirus-scare-to-infect-japanese-targets/">Emotet Uses Coronavirus Scare to Infect Japanese Targets</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2020/01/28/facial-recognition-firm-sued-for-scraping-3-billion-faceprints/">Facial recognition firm sued for scraping 3 billion faceprints</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-i-got-phished-service-alerts-companies-of-phished-employees/">New 'I Got Phished' Service Alerts Companies of Phished Employees</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/avast-shuts-down-jumpshot-after-getting-caught-selling-users-data/">Avast Shuts Down Jumpshot After Getting Caught Selling User's Data</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2020/01/30/trello-exposed-search-turns-up-huge-trove-of-private-data/">Trello exposed! Search turns up huge trove of private data</a></li>
+              <li><a class="lnk-blue" href="https://www.welivesecurity.com/2020/01/24/google-flaws-in-apples-privacy-tool-could-enable-tracking/">Google: Flaws in Safari’s privacy tool could enable tracking</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/more-authentication-methods-merrier">The More Authentication Methods, the Merrier</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/trend-micro-antivirus-zero-day-used-in-mitsubishi-electric-hack/">Trend Micro antivirus zero-day used in Mitsubishi Electric hack</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/magecart-gang-arrested-in-indonesia/">Magecart gang arrested in Indonesia</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/01/29/apple-patches-critical-bugs-on-iphone-and-mac-update-now/">Apple patches critical bugs on iPhone and Mac – update now!</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/zoom-fixes-flaw-that-could-allow-strangers-into-meetings-a-13665">Zoom Fixes Flaw That Could Allow Strangers Into Meetings</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/01/openbsd-opensmtpd-hacking.html">Critical OpenSMTPD Bug Opens Linux and OpenBSD Mail Servers to Hackers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/200k-wordpress-sites-exposed-to-takeover-attacks-by-plugin-bug/">200K WordPress Sites Exposed to Takeover Attacks by Plugin Bug</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/magento-234-patches-critical-code-execution-vulnerabilities">Magento 2.3.4 Patches Critical Code Execution Vulnerabilities</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/01/28/cisco-patches-bugs-in-security-admin-center-and-webex/">Cisco patches bugs in security admin center and Webex</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://research.checkpoint.com/2020/remote-cloud-execution-critical-vulnerabilities-in-azure-cloud-infrastructure-part-i/">Remote Cloud Execution – Critical Vulnerabilities in Azure Cloud Infrastructure (Part I)</a></li>
+              <li><a class="lnk-pink" href="https://github.com/Neo23x0/sigma/wiki/Rule-Creation-Guide">SIGMA Rule Creation Guide</a></li>
+              <li><a class="lnk-green" href="https://research.nccgroup.com/2020/01/28/tool-release-collaborator/">Tool Release – Collaborator++              </a></li>
+              <li><a class="lnk-orange" href="https://www.spiderfoot.net/spiderfoot-3-0-open-source-release/">OSINT tool SpiderFoot 3.0 Open Source Release</a></li>
+              <li><a class="lnk-purple" href="https://blog.reversinglabs.com/blog/hunting-for-ransomware">Hunting for Ransomware</a></li>
+              <li><a class="lnk-blue" href="https://www.onsecurity.co.uk/blog/abusing-kerberos-from-linux">(Ab)using Kerberos from Linux</a></li>
+              <li><a class="lnk-pink" href="https://blog.silentsignal.eu/2020/01/27/wide-open-banking-psd2-and-us/">Wide open banking: PSD2 and us</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@SkyscannerEng/kubernetes-security-monitoring-at-scale-with-sysdig-falco-a60cfdb0f67a">Kubernetes Security monitoring at scale with Sysdig Falco</a></li>
+              <li><a class="lnk-orange" href="https://www.shorebreaksecurity.com/blog/have-you-configured-nessus-to-betray-you/">Have you configured Nessus to betray you?</a></li>
+              <li><a class="lnk-purple" href="https://github.com/jokezone/Update-Sysmon">Update-Sysmon tool</a></li>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/detection-engineering-using-apples-endpoint-security-framework-affdbcb18b02">Detection Engineering using Apple’s Endpoint Security Framework</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/linux-kernel-56-source-tree-includes-wireguard-vpn/">Linux Kernel 5.6 Source Tree Includes WireGuard VPN</a></li>
+              <li><a class="lnk-green" href="https://posts.specterops.io/attacking-azure-azure-ad-and-introducing-powerzure-ca70b330511a">Attacking Azure, Azure AD, and Introducing PowerZure</a></li>
+              <li><a class="lnk-orange" href="https://kubernetes-security.info/">Kubernetes Security: Operating Kubernetes Clusters and Applications Safely</a></li>
+              <li><a class="lnk-purple" href="https://igotphished.abuse.ch/">I Got Phished</a></li>
+              <li><a class="lnk-blue" href="https://blog.cloudflare.com/javascript-libraries-are-almost-never-updated/">JavaScript Libraries Are Almost Never Updated Once Installed</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kindred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
