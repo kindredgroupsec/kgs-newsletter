@@ -61,7 +61,7 @@
         <meta name="twitter:site" content="@kindredgroup" />
         <meta name="twitter:title" content="Kindred Security Newsletter - 10/02/20" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
-        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <meta name="twitter:image" content="https://sophosnews.files.wordpress.com/2020/02/ncov-1200-2.jpg" />
         <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
       </mj-style>
   </mj-head>
@@ -70,7 +70,7 @@
       <mj-section background-color="#fff">
         <mj-column>
           <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
-          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-image src="https://sophosnews.files.wordpress.com/2020/02/ncov-1200-2.jpg"></mj-image>
 
           <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
           <mj-text mj-class="grey h2" align="center">10 February 2020</mj-text>
