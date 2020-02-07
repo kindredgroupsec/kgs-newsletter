@@ -1,0 +1,207 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 10/02/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">10 February 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Bitbucket cloud Abused to Infect 500,000+ Hosts with Malware Cocktail</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2020/02/04/Bitbucket.jpg"></mj-image>
+          <mj-text color="#fff">Attackers are abusing the Bitbucket code hosting service to store seven types of malware threats used in an ongoing campaign that has already claimed more than 500,000 business computers across the world. Systems falling victim to this attack would get infected with multiple payloads that steal data, mine for cryptocurrency, and culminate with delivering STOP ransomware.
+          </mj-text>
+          <mj-text color="#fff">According to research Cybereason published today, the targets are users looking for cracked versions of commercial software, "Adobe Photoshop, Microsoft Office, and others." The bait programs include Azorult and Predator the Thief infostealers, with the former collecting the data it was built to loot and the latter establishing a connection to Bitbucket to funnel in more malware. </mj-text>
+          <mj-text color="#fff">Exhausting all money-making opportunities from a compromised host is a practice cybercriminals have exercised for a long time. Information can be sold on underground forums, cryptocurrency wallets can be depleted, and miners can mint digital coins. When there is nothing to steal from the infected system, attackers deploy ransomware for one last attempt to make a profit. In this case, however, STOP ransomware can also download other malware, prolonging the compromise. Attribution, as in many cases, is a difficult proposition, but the team continues to actively track the operators. Cybereason reached out to Bitbucket with the firm's findings and the company is investigating. </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/malware-stew-cooked-up-on-bitbucket-deployed-in-attacks-worldwide/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/bitbucket-abused-to-infect-500-000-hosts-with-malware-cocktail/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Coronavirus “safety measures” email is a phishing scam</mj-text>
+          <mj-image src="https://sophosnews.files.wordpress.com/2020/02/ncov-1200-2.jpg"></mj-image>
+          <mj-text>Sadly, cybercrooks love a crisis, because it gives them a believable reason to contact you with a phishing scam. Fortunately, at least for fluent speakers of English, the criminals have made numerous spelling and grammatical mistakes that act as warning signs that this is not what it seems.</mj-text>
+          <mj-text>Never let yourself feel pressured into clicking a link in an email. Most importantly, don’t act on advice you didn’t ask for and weren’t expecting. If you are genuinely seeking advice about the coronavirus, do your own research and make your own choice about where to look.</mj-text>
+          <mj-text>Don’t be taken in by the sender’s name. This scam says it’s from “World Health Organization”, but the sender can put any name they like in the From: field. If you realise you just revealed your password to imposters, change it as soon as you can. The crooks who run phishing sites typically try out stolen passwords immediately (this process can often be done automatically), so the sooner you react, the more likely you will beat them to it. Never use the same password on more than one site and turn on two-factor authentication (2FA) if you can.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://nakedsecurity.sophos.com/2020/02/05/coronavirus-safety-measures-email-is-a-phishing-scam/">
+            Read More on NakedSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/magecart-group-jumps-from-olympic-ticket-website-to-new-wave-of-e-commerce-shops/">Magecart group jumps from Olympic ticket website to new wave of e-commerce shops</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/nist-drafts-guidelines-for-coping-ransomware-a-13679">NIST Drafts Guidelines for Coping With Ransomware</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2020/02/05/paypal-sms-scams-dont-fall-for-them/">PayPal SMS scams – don’t fall for them!</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2020/02/google-photos-videos.html">Google Accidentally Shared Private Videos of Some Users With Others</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2020/02/03/google-launches-open-source-security-key-project-opensk/">Google launches open-source security key project, OpenSK</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/tech-support-scam-hitting-microsoft-edge-start-page-takes-a-break/">Tech Support Scam Hitting Microsoft Edge Start Page Takes a Break</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/ashley-madison-breach-victims-have-more-to-worry-about/">Ashley Madison breach victims have more to worry about</a></li>
+              <li><a class="lnk-green" href="https://www.schneier.com/blog/archives/2020/01/nsa_security_aw.html">NSA Security Awareness Posters</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/how-to-change-ios-13-settings-for-better-security/">How to change iOS 13 settings for better security</a></li>
+              <li><a class="lnk-purple" href="https://www.bluepanda.no/2020/02/am-i-a-target/">Am I a target?</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/google-to-block-some-http-file-downloads-starting-with-chrome-83/">Google to block some HTTP file downloads starting with Chrome 83</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/02/sudo-linux-vulnerability.html">Sudo Bug Lets Non-Privileged Linux and macOS Users Run Commands as Root</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/google/chrome-80-released-with-56-security-fixes-cookie-changes-more/">Chrome 80 Released With 56 Security Fixes, Cookie Changes, More</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2020/02/05/critical-android-flaws-patched-in-february-bulletin/">Critical Android flaws patched in February bulletin</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html">5 High Impact Flaws Affect Cisco Routers, Switches, IP Phones and Cameras</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/researcher-finds-over-60-vulnerabilities-physical-security-systems">Researcher Finds Over 60 Vulnerabilities in Physical Security Systems</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cisco-patches-critical-cdp-flaws-affecting-millions-of-devices/">Cisco Patches Critical CDP Flaws Affecting Millions of Devices</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/vulnerability-whatsapp-desktop-app-exposed-user-files">Vulnerability in WhatsApp Desktop Exposed User Files</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/medtronic-releases-patches-cardiac-device-flaws-disclosed-2018-2019">Medtronic Releases Patches for Cardiac Device Flaws Disclosed in 2018, 2019</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/trend-micro-patches-more-vulnerabilities-anti-threat-toolkit">Trend Micro Patches More Vulnerabilities in Anti-Threat Toolkit</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2020/02/philips-smart-light-bulb-hacking.html">Flaw in Philips Smart Light Bulbs Exposes Your WiFi Network to Hackers</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/critical-android-bluetooth-flaw-exploitable-without-user-interaction/">Critical Android Bluetooth Flaw Exploitable without User Interaction</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/theupdateframework/tuf">TUF: A framework for securing software update systems</a></li>
+              <li><a class="lnk-pink" href="https://scotthelme.co.uk/improving-email-security-with-mta-sts/">Improving email security with MTA-STS</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@schirrmacher/analyzing-whatsapp-calls-176a9e776213">Analyzing WhatsApp Calls with Wireshark, radare2 and Frida</a></li>
+              <li><a class="lnk-orange" href="https://github.com/llamasoft/polyshell">Polyshell: A Bash/Batch/PowerShell polyglot</a></li>
+              <li><a class="lnk-purple" href="https://resources.whitesourcesoftware.com/blog-whitesource/understanding-cvss-v3-1">Understanding CVSS v3.1</a></li>
+              <li><a class="lnk-blue" href="https://know.bishopfox.com/research/dufflebag-uncovering-exposed-ebs">Dufflebag: Uncovering Secrets in Exposed EBS Volumes</a></li>
+              <li><a class="lnk-pink" href="http://securityviacode.in/view_article/Codict:+Source+Code+Assessment+and+Programming+references,Learning+Framework">Codict: Source Code Assessment and Programming references,Learning Framework</a></li>
+              <li><a class="lnk-green" href="https://csper.io/#/evaluator">CSP (Content Security policy) evaluator</a></li>
+              <li><a class="lnk-orange" href="https://techblog.mediaservice.net/2020/01/ok-google-bypass-the-authentication/">OK Google: bypass the authentication!</a></li>
+              <li><a class="lnk-purple" href="https://techcommunity.microsoft.com/t5/azure-active-directory-identity/introducing-conditional-access-for-the-office-365-suite/ba-p/1131979">Introducing Conditional Access for the Office 365 suite!</a></li>
+              <li><a class="lnk-blue" href="https://uncoder.io/">Uncoder.io: SIGMA to SIEM Query translator</a></li>
+              <li><a class="lnk-pink" href="https://redteam.guide/docs/">Red Team Operations guide</a></li>
+              <li><a class="lnk-green" href="https://posts.specterops.io/move-faster-stay-longer-6b4efab9c644">Move faster, Stay longer</a></li>
+              <li><a class="lnk-orange" href="https://coreos.com/os/eol/">End-of-life announcement for CoreOS Container Linux</a></li>
+              <li><a class="lnk-purple" href="https://www.armis.com/cdpwn/">CDP0wn: 5 0-days vulnerabilities in Cisco Discoveries Protocol</a></li>
+              <li><a class="lnk-blue" href="https://www.trustedsec.com/blog/why-we-are-launching-the-trustedsec-sysmon-community-guide/">Sysmon Community Guide Released</a></li>
+              <li><a class="lnk-pink" href="https://github.com/Elemental-attack/Elemental">Elemental - An ATT&CK Threat Library</a></li>
+              <li><a class="lnk-green" href="https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/using-the-office-365-management-activity-api-and-power-bi-for/ba-p/189086">Using Office 365 Activity API and Power BI for security analysis (Part 1)</a></li>
+              <li><a class="lnk-orange" href="https://www.digitalshadows.com/blog-and-research/red-team-blues-a-10-step-security-program-for-windows-active-directory-environments/">Red Team Blues: A 10 step security program for Windows Active Directory environments</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kindred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
