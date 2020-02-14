@@ -1,0 +1,209 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 17/02/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://dd80b675424c132b90b3-e48385e382d2e5d17821a5e1d8e4c86b.ssl.cf1.rackcdn.com/files/images_articles/equifaxexploitedgaosept2018.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">17 Februari 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Learn From How Others Get Breached: Equifax Edition</mj-text>
+          <mj-image src="https://dd80b675424c132b90b3-e48385e382d2e5d17821a5e1d8e4c86b.ssl.cf1.rackcdn.com/files/images_articles/equifaxexploitedgaosept2018.jpg"></mj-image>
+          <mj-text color="#fff">The goal here is not blame, but rather to highlight specific missteps by an organization so that others can avoid making the same mistakes, hopefully making them less likely to fall victim to attacks. On to Equifax, which suffered a breach in 2017 that U.S. prosecutors say resulted in the theft of personally identifiable information for 145 million Americans. On Monday, the Justice Department unsealed an indictment charging four officers of the Chinese People's Liberation
+          </mj-text>
+          <mj-text color="#fff">The short version of what went wrong is that beginning in March 2017, hackers found and then exploited an unpatched, critical Apache Struts flaw, using it to gain a beachhead inside Equifax's network. Along the way, they found plaintext credentials being stored in text files, giving them administrator-level access to numerous databases. Over the course of 76 days, attackers ran 9,000 queries against 51 databases, using encrypted communications to exfiltrate data, as well as their own remote desktop protocol and web shell software, together with leased Swiss servers as a staging area so that IP addresses didn't trace back to China.</mj-text>
+          <mj-text color="#fff">Before the breach began, Equifax had allowed eight SSL certificates to expire, meaning that a tool it had for analyzing encrypted communications was not working. Once the security team renewed the certificates in August 2017, alarms began sounding, highlighting the malicious activity. If there's one thing that every organization should learn from the Equifax breach, it's about patching.
+          </mj-text>
+
+            <mj-text color="#fff">
+            Continuous vulnerability assessment and remediation is one of the cornerstones of the top 20 critical security control areas identified by the SANS Institute. "And for good reason, as unpatched critical flaws often offer a malicious actor a trivial route to gain a foothold," Stubley tells me. "Without assurance activity focused on ensuring that patches have been applied in a timely manner, organizations are leaving themselves open and increasing the likelihood of a successful breach."
+          </mj-text>
+          
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/blogs/learn-from-how-others-get-breached-equifax-edition-p-2870">
+            Read More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Apple joins FIDO Alliance, commits to getting rid of passwords</mj-text>
+          <mj-image src="https://zdnet2.cbsistatic.com/hub/i/r/2020/02/04/9f9d004f-ed8c-46dd-9428-e53982a72917/thumbnail/1200x675/096f9fc6dea69a21b0798e77f7372ff1/apple-wants-to-standardize-the-format-of-5e383d486b967a000102d073-1-feb-04-2020-13-28-46-poster.jpg"></mj-image>
+          <mj-text>We all use passwords. We also all suck at using them. 81% of all hacking-based security breaches can be traced back to poor passwords. So, it is that the FIDO Alliance has been seeking to replace password-only logins with secure and fast login experiences across websites and apps using the emerging standard WebAuthn Their efforts have been supported by nearly all major technology and e-commerce companies with one major exception: Apple. Now, Apple has joined FIDO.
+          </mj-text>
+          <mj-text>Currently, there is full FIDO support in three major platforms: Google Android and Chrome, Microsoft Windows and Edge, and Mozilla Firefox." While third-party security and authentication programs, such as the Nok Nok S3 Suite, supported WebAuthn logins on mobile Apps on iOS and Apple Watch Apps, "some organizations have been hesitant to deploy FIDO because there was no [major] public commitment from Apple to FIDO. Now with the addition of Apple, all major platform vendors in the FIDO Alliance prove that the world is finally ready for this technology.</mj-text>
+          <mj-text>Hopefully, now that Apple, a major player in the mobile space, has committed publicly to supporting FIDO and WebAuthn, we can finally start taking a step forward in putting passwords into the grave. Their day as a serious way of securing your information is long done.
+
+          </mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/google-amp/article/apple-joins-fido-alliance-commits-to-getting-rid-of-passwords/">
+            Read More on ZDNet
+          </mj-button>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://apnews.com/e03bea7e491b9c95350887880376562f">Official: Puerto Rico govt loses $2.6M in phishing scam</a></li>
+              <li><a class="lnk-pink" href="https://sso.tax/">The SSO Wall of Shame</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/us-store-chain-rutter-s-hit-by-credit-card-stealing-malware/">U.S. Store Chain Rutter’s Hit by Credit Card Stealing Malware</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2020/02/13/google-to-force-nest-users-to-turn-on-2fa/">Google to force Nest users to turn on 2FA</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-urges-exchange-admins-to-disable-smbv1-to-block-malware/">Microsoft Urges Exchange Admins to Disable SMBv1 to Block Malware</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/google-removes-500-malicious-chrome-extensions-from-the-web-store/">Google removes 500+ malicious Chrome extensions from the Web Store</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/fbi-bec-losses-totaled-17-billion-in-2019-a-13717">FBI: BEC Losses Totaled $1.7 Billion in 2019</a></li>
+              <li><a class="lnk-green" href="https://www.welivesecurity.com/2020/02/13/fbi-cybercrime-losses-tripled-last-5-years/">FBI: Cybercrime losses tripled over the last 5 years</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/coding-flaw-exposes-voter-details-for-65-million-israelis-a-13708">Coding Flaw Exposes Voter Details for 6.5 Million Israelis</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/software-error-exposes-the-id-numbers-for-1-26-million-danish-citizens/">Software error exposes the ID numbers for 1.26 million Danish citizens</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/enterprise-companies-struggle-to-control-digital-certificates-public-key-infrastructure/">Enterprise companies struggle to control security certificates, cryptographic keys</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/emotet-trojan-evolves-to-spread-via-a-wifi-connection/">Emotet trojan evolves to spread via WiFi connections</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2020/02/microsoft-patch-tuesday-february-2020-edition/">Microsoft Patch Tuesday, February 2020 Edition</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/adobe-releases-the-february-2020-security-updates/">Adobe Releases the February 2020 Security Updates</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/sweyntooth-bug-collection-affects-hundreds-of-bluetooth-products/">SweynTooth Bug Collection Affects Hundreds of Bluetooth Products</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/siemens-patches-serious-dos-vulnerabilities-several-products">Siemens Patches Serious DoS Vulnerabilities in Several Products</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/wordpress-cookie-consent-plugin-fixes-critical-flaw-for-700k-users/">WordPress Cookie Consent Plugin Fixes Critical XSS Flaw for 700K Users</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/02/13/ie-zero-day-and-heap-of-rdp-flaws-fixed-in-february-patch-tuesday/">IE zero day and heap of RDP flaws fixed in February Patch Tuesday</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/software/firefox-73-released-with-security-fixes-new-doh-provider-more/">Firefox 73 Released With Security Fixes, New DoH Provider, Mor</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/rhaidiz/broxy">Broxy: An HTTP/HTTPS intercept proxy written in Go.</a></li>
+              <li><a class="lnk-pink" href="https://posts.specterops.io/introducing-bloodhound-3-0-c00e77ff0aa6">Introducing BloodHound 3.0</a></li>
+              <li><a class="lnk-green" href="https://research.nccgroup.com/2020/02/12/command-and-kubectl-talk-follow-up/">Deep Dive into Real-World Kubernetes Threats</a></li>
+              <li><a class="lnk-orange" href="https://research.kudelskisecurity.com/2020/02/12/fido2-deep-dive-attestations-trust-model-and-security/">FIDO2 deep dive: attestations, trust model and security</a></li>
+              <li><a class="lnk-purple" href="https://singer.cloud/anecdotal/intro-to-shell-strategy/">Episode 3-Defeating IDS and Firewalls: An Intro to Shell Strategy</a></li>
+              <li><a class="lnk-blue" href="https://labs.f-secure.com/blog/forging-swift-mt-payment-messages">
+                Forging SWIFT MT Payment Messages for fun and pr... research!</a></li>
+              <li><a class="lnk-pink" href="http://blog.ant0i.net/2020/02/down-rabbit-hole-of-harvested-personal.html">Down the Rabbit Hole of Harvested Personal Data</a></li>
+              <li><a class="lnk-green" href="https://www.redpacketsecurity.com/pytm-a-pythonic-framework-for-threat-modeling/">Pytm – A Pythonic Framework For Threat Modeling</a></li>
+              <li><a class="lnk-orange" href="https://github.com/malrev/ABD/blob/master/README.md">Advanced Binary Deobfuscation course</a></li>
+              <li><a class="lnk-purple" href="https://astrix.co.uk/news/2020/1/31/how-to-set-up-secure-ldap-for-active-directory">How to set up secure ldap for active directory</a></li>
+              <li><a class="lnk-blue" href="https://about.gitlab.com/blog/2020/02/12/plundering-gcp-escalating-privileges-in-google-cloud-platform/?utm_medium=social&utm_source=twitter&utm_campaign=blog">Tutorial on privilege escalation and post exploitation tactics in Google Cloud Platform environments </a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/jenkins-servers-can-be-abused-for-ddos-attacks/">Jenkins servers can be abused for DDoS attacks</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/kubernetes-rollouts-5-security-best-practices/">Kubernetes rollouts: 5 security best practices</a></li>
+              <li><a class="lnk-orange" href="https://blog.trendmicro.com/trendlabs-security-intelligence/an-in-depth-technical-analysis-of-curveball-cve-2020-0601/">An In-Depth Technical Analysis of CurveBall (CVE-2020-0601)</a></li>
+
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kindred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
