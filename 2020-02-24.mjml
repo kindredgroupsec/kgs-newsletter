@@ -1,0 +1,209 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 24/02/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/new-hacking-group-targets-gambling-firms-report-showcase_image-10-a-13744.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">24 February 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">New Hacking Group Targets Gambling Firms</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/new-hacking-group-targets-gambling-firms-report-showcase_image-10-a-13744.jpg"></mj-image>
+          <mj-text color="#fff">A newly identified hacking group has been targeting gambling companies in Asia, the Middle East and Europe, using backdoors to steal source code and other data, according to new research from security firm Trend Micro. They call this newly discovered advanced persistent threat group "DRBControl."</mj-text>
+          <mj-text color="#fff">The exfiltrated data was mostly composed of databases and source codes, which leads us to believe that the campaign is used for cyberespionage or gaining competitive intelligence. The attacks associated with DRBControl start with a spear-phishing email that targets individuals or departments within a company, according to the report. In several cases, it appears the hacking group targeted companies' customer support team. The phishing emails that Trend Micro examined came with attached Microsoft Word documents that also contained screenshots meant to show a problem to customer support. Once the attachments were opened, executable files began installing malicious software in the background, the report notes.The Trend Micro researchers also noticed that there were different versions of this backdoor, including one that used Dropbox, a cloud-based file and hosting service, to connect to the command-and-control server. The DRBControl hackers also used Dropbox files to store any stolen data as well as information about the devices targeted in the attack, the report finds.
+          </mj-text>
+          <mj-text color="#fff">The researchers at Trend Micro note that some of the malicious tools used by DRBControl are the same as those deployed by other advanced persistent threat groups that have been linked to China's government. But they acknowledge that there's not enough evidence to establish a definitive link between these groups.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/new-hacking-group-targets-gambling-firms-report-a-13744">
+            Read More on BankInfoSecrity
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/operation-drbcontrol-uncovering-a-cyberespionage-campaign-targeting-gambling-companies-in-southeast-asia">
+            Even More on TrendMicro
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Apple drops a bomb on long-life HTTPS certificates: Safari to snub new security certs valid for more than 13 months</mj-text>
+          <mj-image src="https://www-static.cdn-one.com/cmsimages/en_ssl-header.png"></mj-image>
+          <mj-text>Safari will, on September 1st this year, no longer accept new HTTPS certificates that expire more than 13 months from their creation date. That means websites using long-life SSL/TLS certs issued after the cut-off point will throw up privacy errors in Apple's browser. Older certs, issued prior to the deadline, are unaffected by this rule.</mj-text>
+          <mj-text>By implementing the policy in Safari, Apple will, by extension, enforce it on all iOS and macOS devices. This will put pressure on website admins and developers to make sure their certs meet Apple's requirements – or risk breaking pages on a billion-plus devices and computers. The aim of the move is to improve website security by making sure devs use certs with the latest cryptographic standards, and to reduce the number of old, neglected certificates that could potentially be stolen and re-used for phishing and drive-by malware attacks. If boffins or miscreants are able to break the cryptography in a SSL/TLS standard, short-lived certificates will ensure people migrate to more secure certs within roughly a year.</mj-text>
+          <mj-text>Companies need to look to automation to assist with certificate deployment, renewal, and lifecycle management to reduce human overhead and the risk of error as the frequency of certificate replacement increase. Let's Encrypt issues free HTTPS certificates that expire after 90 days, and provides tools to automate renewals.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.theregister.co.uk/AMP/2020/02/20/apple_shorter_cert_lifetime/">
+            Read More on TheRegister
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/02/20/ring-makes-2fa-mandatory-to-keep-hackers-out-of-your-doorbell-account/">Ring makes 2FA mandatory to keep hackers out of your doorbell account</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/credit-card-skimmer-found-on-nine-sites-researchers-ignored/">Credit Card Skimmer Found on Nine Sites, Researchers Ignored</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-actors-attack-industrial-control-systems-old-ones-mature/"> New Actors Attack Industrial Control Systems, Old Ones Mature</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/whatsapp-phishing-urls-skyrocket-with-over-13-000-percent-surge/">WhatsApp Phishing URLs Skyrocket With Over 13,000% Surge</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-atp-for-linux-now-in-public-preview/">Microsoft Defender ATP for Linux Now In Public Preview</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/tesla-pays-10k-for-microsoft-sql-server-reporting-services-bug/">Tesla Pays $10K for Microsoft SQL Server Reporting Services Bug</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2020/02/hackers-were-inside-citrix-for-five-months/">Hackers Were Inside Citrix for Five Months</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/canadian-government-breaches-exposed-citizens-data-report-a-13739">Canadian Government Breaches Exposed Citizens' Data</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2020/02/encoding-stolen-credit-card-data-on-barcodes/">Encoding Stolen Credit Card Data on Barcodes </a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/us-govt-warns-of-ransomware-attacks-on-pipeline-operations/">US Govt Warns of Ransomware Attacks on Pipeline Operations</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/microsoft-has-a-subdomain-hijacking-problem/">Microsoft has a subdomain hijacking problem</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2020/02/pay-up-or-well-make-google-ban-your-ads/">Pay Up, Or We’ll Make Google Ban Your Ads</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/israeli-military-tricked-into-installing-malware-by-hamas-agents-posing-as-women/">Israeli soldiers tricked into installing malware by Hamas agents posing as women</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/irs-urges-taxpayers-to-enable-multi-factor-authentication/">IRS Urges Taxpayers to Enable Multi-Factor Authentication</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/unpatched-vpn-servers-hit-by-apparent-iranian-apt-groups-a-13733">Unpatched VPN Servers Hit by Apparent Iranian APT Groups</a></li>
+              <li><a class="lnk-blue" href="https://www.vice.com/en_au/article/4agvdw/mcdonalds-hack-free-food">These Guys Figured Out a Way to Get Endless Free McDonald's</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/windows-linux-devices-at-risk-due-to-unsigned-peripheral-firmware/">Windows, Linux Devices at Risk Due to Unsigned Peripheral Firmware</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/nedbank-says-1-7-million-customers-impacted-by-breach-at-third-party-provider/">Nedbank says 1.7 million customers impacted by breach at third-party provider</a></li>
+              <li><a class="lnk-orange" href="https://www.schneier.com/blog/archives/2020/02/dnssec_keysigni.html">DNSSEC Keysigning Ceremony Postponed Because of Locked Safe</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2020/02/18/malware-and-https-a-growing-love-affair/">Malware and HTTPS – a growing love affair</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/02/14/suspect-who-refused-to-decrypt-hard-drives-released-after-four-years/">Suspect who refused to decrypt hard drives released after four years</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/exclusive-details-of-10-6-million-of-mgm-hotel-guests-posted-on-a-hacking-forum/">Details of 10.6 million MGM hotel guests posted on a hacking forum</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/adobe-releases-out-of-schedule-fixes-for-critical-vulnerabilities/">Adobe releases out-of-band patch for critical code execution vulnerabilities</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/serious-vulnerabilities-expose-sonicwall-sma-appliances-remote-attacks">Serious Vulnerabilities Expose SonicWall SMA Appliances to Remote Attacks</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/over-400-ics-vulnerabilities-disclosed-2019-report">Over 400 ICS Vulnerabilities Disclosed in 2019</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/over-20-000-wordpress-sites-run-trojanized-premium-themes/">Over 20,000 WordPress Sites Run Trojanized Premium Themes</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/over-22000-vulnerabilities-disclosed-2019-report">
+                Over 22,000 Vulnerabilities Disclosed in 2019</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://medium.com/tenable-techblog/exploiting-jira-for-host-discovery-43be3cddf023">Exploiting Jira for Host Discovery</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/tenable-techblog/bypass-windows-10-user-group-policy-and-more-with-this-one-weird-trick-552d4bc5cc1b">Bypass Windows 10 User Group Policy (and more) with this One Weird Trick</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/02/openssh-fido-security-keys.html">OpenSSH now supports FIDO U2F security keys for 2-factor authentication</a></li>
+              <li><a class="lnk-orange" href="https://vdalabs.com/2020/02/20/no-more-secrets-logging-made-easy-through-graylog-part-1/">Logging Made Easy Through Graylog Part 1</a></li>
+              <li><a class="lnk-purple" href="https://khast3x.club/posts/2020-02-14-Intro-Modern-Routing-Traefik-Metasploit-Docker/">Modern Routing For Red Team Infrastructure - using Traefik, Metasploit, Covenant and Docker</a></li>
+              <li><a class="lnk-blue" href="https://github.com/BishopFox/GadgetProbe">GadgetProbe: Probe endpoints consuming Java serialized objects </a></li>
+              <li><a class="lnk-pink" href="https://portswigger.net/research/top-10-web-hacking-techniques-of-2019">Top 10 web hacking techniques of 2019</a></li>
+              <li><a class="lnk-green" href="https://github.com/TheSecondSun/VTSCAN">VirusTotal API script</a></li>
+              <li><a class="lnk-orange" href="http://ghostlulz.com/content-security-policy-csp-bypasses/">Content Security Policy (CSP) Bypasses</a></li>
+              <li><a class="lnk-purple" href="https://community.turgensec.com/shodan-pentesting-guide/">Shodan Pentesting Guide</a></li>
+              <li><a class="lnk-blue" href="http://www.talent-jump.com/article/2020/02/17/CLAMBLING-A-New-Backdoor-Base-On-Dropbox-en/">CLAMBLING - A New Backdoor Base On Dropbox</a></li>
+              <li><a class="lnk-pink" href="https://www.fortinet.com/blog/threat-research/vipersoftx-new-javascript-threat.html">ViperSoftX - New JavaScript Threat</a></li>
+              <li><a class="lnk-green" href="https://www.mdsec.co.uk/2020/02/iis-raid-backdooring-iis-using-native-modules/">IIS Raid – Backdooring IIS Using Native Modules</a></li>
+              <li><a class="lnk-orange" href="https://www.mdsec.co.uk/2020/02/testing-your-redteam-infrastructure/">Testing your RedTeam Infrastructure</a></li>
+              <li><a class="lnk-purple" href="https://about.gitlab.com/blog/2020/02/12/plundering-gcp-escalating-privileges-in-google-cloud-platform/?">Privilege escalation and post exploitation tactics in GCP environments</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-text color="#fff">Kindred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
