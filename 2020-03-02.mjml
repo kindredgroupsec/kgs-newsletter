@@ -1,0 +1,192 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 02/03/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-aeX8eEZCz-Q/XllZy1vQI5I/AAAAAAAA2ck/fVnFtP0pFzMsdpuXB3cbWKSSLZuzXdhcQCLcBGAsYHQ/s728-e100/apache-tomcat-security.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">2 March 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">GhostCat: New High-Risk Vulnerability Affects Servers Running Apache Tomcat</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-aeX8eEZCz-Q/XllZy1vQI5I/AAAAAAAA2ck/fVnFtP0pFzMsdpuXB3cbWKSSLZuzXdhcQCLcBGAsYHQ/s728-e100/apache-tomcat-security.png"></mj-image>
+          <mj-text color="#fff">If your web server is running on Apache Tomcat, you should immediately install the latest available version of the server application to prevent hackers from taking unauthorized control over it. Yes, that's possible because all versions (9.x/8.x/7.x/6.x) of the Apache Tomcat released in the past 13 years have been found vulnerable to a new high-severity (CVSS 9.8) 'file read and inclusion bug'—which can be exploited in the default configuration.</mj-text>
+          <mj-text color="#fff">But it's more concerning because several proof-of-concept exploits for this vulnerability have also been surfaced on the Internet, making it easy for anyone to hack into publicly accessible vulnerable web servers. Dubbed 'Ghostcat' and tracked as CVE-2020-1938, the flaw could let unauthenticated, remote attackers read the content of any file on a vulnerable web server and obtain sensitive configuration files or source code, or execute arbitrary code if the server allows file upload, as shown in a demo below.</mj-text>
+          <mj-text color="#fff">Chaitin researchers found and reported this flaw last month to the Apache Tomcat project, who has now released Apache Tomcat 9.0.31, 8.5.51, and 7.0.100 versions to patch the issue. Web administrators are strongly recommended to apply the software updates as soon as possible and advised to never expose AJP port to untrusted clients because it communicates over the insecure channel and meant to be used within a trusted network. However, if, for some reason, you can't upgrade your affected web server immediately, you can also disable the AJP Connector directly, or change its listening address to the localhost.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/02/ghostcat-new-high-risk-vulnerability.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">FBI recommends passphrases over password complexity</mj-text>
+          <mj-image src="https://zdnet3.cbsistatic.com/hub/i/2020/02/21/2c9a846f-89a6-4ef4-b753-9738d2f31d64/password-strength.png"></mj-image>
+          <mj-text>"Instead of using a short, complex password that is hard to remember, consider using a longer passphrase," the FBI said. "This involves combining multiple words into a long string of at least 15 characters," it added. "The extra length of a passphrase makes it harder to crack while also making it easier for you to remember."</mj-text>
+          <mj-text>The idea behind the FBI's advice is that a longer password, even if relying on simpler words and no special characters, will take longer to crack and require more computational resources. Even if hackers steal your encrypted password from a hacked company, they won't have the computing power and time needed to crack the password. Academic research published in 2015 supports this argument, explaining that "the effect of increasing the length dwarfs the effect of extending the alphabet [adding complexity]."</mj-text>
+          <mj-text>Furthermore, NIST password recommendations issued in 2017 have also urged websites and web services to accommodate longer password fields of up to 64 characters for this same reason -- to let users choose passphrases instead of short passwords. The same NIST guideline also recommended using passphrases over passwords when possible.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/fbi-recommends-passphrases-over-password-complexity/">
+            Read More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/02/lets-encrypt-ssl-certificate.html">Let's Encrypt Issued A Billion Free SSL Certificates in the Last 4 Years</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/fbi-says-140-million-paid-to-ransomware-offers-defense-tips/">FBI Says $140+ Million Paid to Ransomware, Offers Defense Tips</a></li>
+              <li><a class="lnk-green" href="https://www.welivesecurity.com/2020/02/27/facial-recognition-company-clearviewai-data-breach/">Facial recognition company Clearview AI hit by data theft</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/92-of-americans-would-delete-an-app-that-sold-their-personal-information/">92% of Americans would delete an app that sold their personal information</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/hackers-use-windows-10-rdp-activex-control-to-run-griffon-backdoor/">Hackers Use Windows 10 RDP ActiveX Control to Run Griffon Backdoor</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/49-million-unique-emails-exposed-due-to-mishandled-credentials/">49 Million Unique Emails Exposed Due to Mishandled Credentials</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-edge-now-lets-you-block-potentially-unwanted-programs/">Microsoft Edge Now Lets You Block Potentially Unwanted Programs</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/11-things-you-might-not-know-about-security-operations-center-burnout/">11 things you might not know about security operations center burnout</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2020/02/27/slickwraps-data-breach-earns-scorn-for-all/">Slickwraps data breach earns scorn for all</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/android-malware-can-steal-google-authenticator-2fa-codes/">Android malware can steal Google Authenticator 2FA codes</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/credit-card-skimmer-uses-fake-cdns-to-evade-detection/">Credit Card Skimmer Uses Fake CDNs To Evade Detection</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/02/lte-network-4g-vulnerability.html">New LTE Network Flaw Could Let Attackers Impersonate 4G Mobile Users</a></li>
+              <li><a class="lnk-green" href="https://www.schneier.com/blog/archives/2020/02/newly_declassif.html">Newly Declassified Study Demonstrates Uselessness of NSA's Phone Metadata Program</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/18-sniffers-steal-payment-card-data-from-print-store-customers/">18 Sniffers Steal Payment Card Data from Print Store Customers</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/ublock-origin-125-now-blocks-cloaked-first-party-scripts-firefox-only/">uBlock Origin 1.25 Now Blocks Cloaked First-Party Scripts, Firefox Only</a></li>
+              <li><a class="lnk-blue" href="https://www.welivesecurity.com/2020/02/26/krook-serious-vulnerability-affected-encryption-billion-wifi-devices/">KrØØk: Serious vulnerability affected encryption of billion+ Wi‑Fi devices</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/02/25/mystery-zero-day-in-chrome-update-now/">Mystery zero-day in Chrome – update now!</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/cisco-working-on-patches-for-new-kr00k-wifi-vulnerability/">Cisco Working on Patches for New Kr00k WiFi Vulnerability</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2020/02/21/adobe-fixes-critical-flaws-in-media-encoder-and-after-effects/">Adobe fixes critical flaws in Media Encoder and After Effects</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/nvidia-fixes-high-severity-flaw-in-windows-gpu-display-driver/">NVIDIA Fixes High Severity Flaw in Windows GPU Display Driver</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/critical-bugs-in-wordpress-plugins-let-hackers-take-over-sites/">Critical Bugs in WordPress Plugins Let Hackers Take Over Sites</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/hackers-scanning-for-vulnerable-microsoft-exchange-servers-patch-now/">Hackers Scanning for Vulnerable Microsoft Exchange Servers, Patch Now!</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.chaitin.cn/en/ghostcat">CVE-2020-1938: GhostCat</a></li>
+              <li><a class="lnk-pink" href="https://posts.specterops.io/detection-spectrum-198a0bfb9302">The Detection Spectrum</a></li>
+              <li><a class="lnk-green" href="https://blog.cloudflare.com/using-your-devices-as-the-key-to-your-apps/">Using your devices as the key to your apps</a></li>
+              <li><a class="lnk-orange" href="https://liberty-shell.com/sec/2020/02/25/shim-persistence/">Windows persistence via shims</a></li>
+              <li><a class="lnk-purple" href="https://44con.com/2020/02/25/finding-pwned-passwords-in-active-directory/">Finding Pwned Passwords in Active Directory</a></li>
+              <li><a class="lnk-blue" href="https://utkusen.com/blog/torture-proof-authentication.html">Torture-Proof Authentication</a></li>
+              <li><a class="lnk-pink" href="https://en.hackndo.com/kerberos-silver-golden-tickets/">Silver & Golden Tickets</a></li>
+              <li><a class="lnk-green" href="https://csper.io/blog/other-csp-security">Other Security Features of Content Security Policy</a></li>
+              <li><a class="lnk-orange" href="https://github.com/Neo23x0/sigma">Sigma: Generic Signature Format for SIEM Systems</a></li>
+              <li><a class="lnk-purple" href="https://github.com/skysafe/reblog/blob/master/0000-defeating-a-laptops-bios-password/README.md">Defeating a Laptop's BIOS Password</a></li>
+              <li><a class="lnk-blue" href="https://en.hackndo.com/pass-the-hash/">Pass the Hash</a></li>
+              <li><a class="lnk-pink" href="https://github.com/securisec/chepy">Chepy: Python lib/cli equivalent of the awesome CyberChef tool</a></li>
+              <li><a class="lnk-green" href="https://www.mdsec.co.uk/2020/02/getting-what-youre-entitled-to-a-journey-in-to-macos-stored-credentials/">Getting What You’re Entitled To: A Journey Into MacOS Stored Credentials</a></li>
+              <li><a class="lnk-orange" href="https://github.com/outflanknl/RedELK">RedELK: Red Team's SIEM - tracking and alarming about Blue Team activities</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
