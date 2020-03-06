@@ -1,0 +1,186 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 09/03/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://krebsonsecurity.com/wp-content/uploads/2018/05/locationtracking.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">9 March 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">FCC Proposes to Fine Wireless Carriers $200M for Selling Customer Location Data</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2018/05/locationtracking.jpg"></mj-image>
+          <mj-text color="#fff">The U.S. Federal Communications Commission (FCC) today proposed fines of more than $200 million against the nation’s four largest wireless carriers for selling access to their customers’ location information without taking adequate precautions to prevent unauthorized access to that data. While the fines would be among the largest the FCC has ever levied, critics say the penalties don’t go far enough to deter wireless carriers from continuing to sell customer location data.
+          </mj-text>
+          <mj-text color="#fff">The FCC proposed fining T-Mobile $91 million; AT&T faces more than $57 million in fines; Verizon is looking at more than $48 million in penalties; and the FCC said Sprint should pay more than $12 million. An FCC statement (PDF) said “the size of the proposed fines for the four wireless carriers differs based on the length of time each carrier apparently continued to sell access to its customer location information without reasonable safeguards and the number of entities to which each carrier continued to sell such access.”</mj-text>
+          <mj-text color="#fff">“Time and again, from Facebook to Equifax, massive companies take reckless disregard for Americans’ personal information, knowing they can write off comparatively tiny fines as the cost of doing business,” Wyden said in a written statement. “The only way to truly protect Americans’ personal information is to pass strong privacy legislation like my Mind Your Own Business Act to put teeth into privacy laws and hold CEOs personally responsible for lying about protecting Americans’ privacy.”
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2020/02/fcc-proposes-to-fine-wireless-carriers-200m-for-selling-customer-location-data/">
+            Read More on KrebsOnSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/03/03/why-free-wi-fi-isnt-really-free/">Why ‘free’ Wi-Fi isn’t really free</a></li>
+              
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/crowdstrikes-2020-threat-report-spammers-finetune-email-thread-hijacking/">CrowdStrike's 2020 Threat Report: Spammers fine-tune email thread hijacking</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/us-drugstore-giant-walgreens-leaked-users-sensitive-info/">US Drugstore Giant Walgreens Leaked Users' Sensitive Info</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2020/03/03/xss-plugin-vulnerabilities-plague-wordpress-users/">XSS plugin vulnerabilities plague WordPress users</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/03/03/digital-piggy-bank-sevice-broken-into-by-cybercrooks/">Digital piggy bank sevice broken into by cybercrooks</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/virgin-media-exposes-data-of-900000-users-via-unprotected-marketing-database/">Virgin Media exposes data of 900,000 users via unprotected marketing database</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/microsoft-99-9-of-compromised-accounts-did-not-use-multi-factor-authentication/">Microsoft: 99.9% of compromised accounts did not use multi-factor authentication</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/nearly-1-million-domains-use-dmarc-only-13-prevent-email-spoofing">Nearly 1 Million Domains Use DMARC, but Only 13% Prevent Email Spoofing</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/t-mobile-data-breach-exposes-customer-personal-financial-info/">T-Mobile Data Breach Exposes Customer's Personal, Financial Info</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/03/install-android-on-iphone.html">You Can Now Run Android on an iPhone With 'Project Sandcastle'</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/carnival-cruise-line-operator-discloses-potential-data-breach/">Carnival Cruise Line Operator Discloses Potential Data Breach</a></li>
+              <li><a class="lnk-green" href="https://www.troyhunt.com/enhancing-pwned-passwords-privacy-with-padding/">Enhancing Pwned Passwords Privacy with Padding</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/jcrew-disables-user-accounts-after-credential-stuffing-attack/">J.Crew Disables User Accounts After Credential Stuffing Attack</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2020/03/04/why-3-million-lets-encrypt-certificates-are-being-killed-off-today/">Why 3 million Let’s Encrypt certificates have been killed off </a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/browsers-to-block-access-to-https-sites-using-tls-1-0-and-1-1-starting-this-month/">Browsers to block access to HTTPS sites using TLS 1.0 and 1.1 starting this month</a></li>
+              <li><a class="lnk-pink" href="https://www.microsoft.com/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/">Human-operated ransomware attacks: A preventable disaster </a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/03/ppp-daemon-vulnerability.html">Critical PPP Daemon Flaw Opens Most Linux Systems to Remote Hackers</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/hackers-scanning-apache-tomcat-servers-vulnerable-ghostcat-attacks">Hackers Scanning for Apache Tomcat Servers Vulnerable to Ghostcat Attacks</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2020/03/03/nvidia-patches-severe-flaws-affecting-geforce-quadro-nvs-and-tesla/">Nvidia patches severe flaws affecting GeForce, Quadro NVS and Tesla</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/cisco-patches-remote-code-execution-flaws-webex-player">Cisco Patches Remote Code Execution Flaws in Webex Player</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/03/04/google-fixes-mediatek-bug-in-android-march-patches/">Google fixes MediaTek bug in Android March patches</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://pragmaticwebsecurity.com/talks/commonapisecuritypitfalls">Common API security pitfalls</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/bugbountywriteup/31-tips-api-security-pentesting-480b5998b765">31 API security tips - chronological order, raw format</a></li>
+              <li><a class="lnk-green" href="https://devops.com/breaking-down-the-owasp-api-security-top-10-part-1/">Best of 2019: Breaking Down the OWASP API Security Top 10, Part 1</a> | <a class="lnk-blue" href="https://devops.com/breaking-down-the-owasp-api-security-top-10-part-2/"> (Part 2)</a></li>
+              <li><a class="lnk-orange" href="https://engineeringblog.yelp.com/2020/01/automated-idor-discovery-through-stateful-swagger-fuzzing.html?utm_campaign=APISecurity%20newsletter&utm_source=hs_email&utm_medium=email&utm_content=82973785&_hsenc=p2ANqtz-_k6SGQBwcR2H2uOpVMkQvKtxP9mHa8H9O_zgjCpISrbrYW4ac41cWT75hrOVtod2sY32iDOqDmvhpmpDzeShi6HlouJw&_hsmi=82975146">Automated IDOR Discovery through Stateful Swagger Fuzzing</a></li>
+              <li><a class="lnk-purple" href="https://github.com/0xsha/florentino">Florentino:  Fast Static File Analysis Framework</a></li>
+              <li><a class="lnk-blue" href="https://dnstwister.report/">dnstwister: Check potential phishing with domain name permutation engine</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/a-bugz-life/exploiting-an-ssrf-trials-and-tribulations-14c5d8dbd69a">Exploiting an SSRF: Trials and Tribulations</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/how-to-scan-your-wordpress-sites-for-vulnerabilities/">How to scan your WordPress sites for vulnerabilities</a></li>
+              <li><a class="lnk-orange" href="https://www.vanimpe.eu/2019/12/02/use-sysmon-dns-data-for-incident-response/">Use Sysmon DNS data for incident response</a></li>
+              <li><a class="lnk-purple" href="https://scotthelme.co.uk/crlite-finally-a-fix-for-broken-revocation/">CRLite: Finally a fix for broken revocation?</a></li>
+              <li><a class="lnk-blue" href="https://blog.cloudflare.com/addressing-the-webs-client-side-security-challenge/">Addressing the Web’s Client-Side Security Challenge</a></li>
+              <li><a class="lnk-pink" href="https://github.com/threat-hunting/awesome_Threat-Hunting/blob/master/Threat%20Intelligence/Files/Threat%20Intelligence%20Handbook-THlink.pdf">The threat intelligence handbook</a></li>
+              <li><a class="lnk-green" href="https://evasions.checkpoint.com/">Malware evasion techniques handbook</a></li>
+              <li><a class="lnk-orange" href="https://github.com/Recruit-CSIRT/macOSTriageTool">macOS Triage Tool: A DFIR tool to collect artifacts on macOS</a></li>
+              <li><a class="lnk-purple" href="https://github.com/activecm/rita">Rita: Real Intelligence Threat Analytics</a></li>
+              <li><a class="lnk-blue" href="https://www.kazamiya.net/mssql_4n6-01">MSSQL forensics (1) - MDF fundamentals</a></li>
+              <li><a class="lnk-pink" href="https://blog.aquasec.com/threat-alert-cloud-computing-security">New Attack Vector Targeting Cloud Environment</a></li>
+              <li><a class="lnk-green" href="https://github.com/mike-goodwin/owasp-threat-dragon-desktop">ThreatDragon: cross-platform threat modeling application</a></li>
+              <li><a class="lnk-orange" href="https://github.com/ANSSI-FR/ADTimeline">ADTimeline: Timeline of Active Directory changes with replication metadata</a></li>
+              <li><a class="lnk-purple" href="https://class.malware.re/">CS6038/CS5138 Malware Analysis - free course</a></li>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/abusing-slack-for-offensive-operations-2343237b9282">Abusing Slack for Offensive Operations</a></li>
+              <li><a class="lnk-blue" href="https://www.hurricanelabs.com/splunk-tutorials/using-splunk-as-an-offensive-security-tool">Using Splunk as an Offensive Security Tool</a></li>
+              <li><a class="lnk-pink" href="https://github.com/dxa4481/AttackingAndDefendingTheGCPMetadataAPI/blob/master/README.md">Attacking And Defending The GCPMetadata API</a></li>
+              <li><a class="lnk-green" href="https://getsec.github.io/2020/02/aws-remedy-2/">AWS Automated Remediation - Part 2: S3 Buckets</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
