@@ -1,0 +1,199 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 16/03/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://1.bp.blogspot.com/-RY0EC1C-hAM/Xmj2cwUwa6I/AAAAAAAAAwo/-UxF_c0fkX8aByddP3txIcDyPe1R0aB5QCLcBGAsYHQ/s728-e100/Coronavirus-hacking.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">16 March 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">How cybercriminals are taking advantage of COVID-19: Scams, fraud, and misinformation</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-RY0EC1C-hAM/Xmj2cwUwa6I/AAAAAAAAAwo/-UxF_c0fkX8aByddP3txIcDyPe1R0aB5QCLcBGAsYHQ/s728-e100/Coronavirus-hacking.jpg"></mj-image>
+          <mj-text color="#fff">Cybercriminals will stop at nothing to exploit every chance to prey on internet users. Even the disastrous spread of SARS-COV-II (the virus), which causes COVID-19 (the disease), is becoming an opportunity for them to likewise spread malware or launch cyber attacks.</mj-text>
+          <mj-text color="#fff"> These scams aim to exploit people’s fear and uncertainty concerning the disease’s spread. These can be broadly split into the following three categories: Phishing and social engineering scams; Sale of fraudulent or counterfeit goods; Misinformation.</mj-text>
+          <mj-text color="#fff">To help prevent the spread of misinformation, individuals should ensure that they only follow guidance from official national health institutions like the CDC and NHS, as well as international organizations like the WHO. Use fact-checking tools to challenge potentially dubious claims on social media. Be wary of unsolicited correspondances that contain alarmist messaging and/or impersonate official health and safety institutions. Grammatical and formatting errors can help you identify malicious phishing emails. Be wary of emails soliciting charitable donations. Do not download files or visit unknown websites linked in unsolicited emails. Do not purchase medical equipment from unofficial third-party vendors (particularly on the dark web!). If a deal seems too good to be true, then it probably is.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.digitalshadows.com/blog-and-research/how-cybercriminals-are-taking-advantage-of-covid-19-scams-fraud-misinformation/">
+            Read More on DigitalShadows
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/03/coronavirus-maps-covid-19.html">
+            Even More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Critical Patch Released for 'Wormable' SMBv3 Vulnerability</mj-text>
+          <mj-image src="https://1.bp.blogspot.com/-5ab1xlAFvIs/XmprBKhq5MI/AAAAAAAA2hk/2zyiQtK0qLk65nIPuJSj39T5x7IgNWU8QCLcBGAsYHQ/s728-e100/windows-update-smb-flaw.jpg"></mj-image>
+          <mj-text>Microsoft released an emergency software update to patch the recently disclosed very dangerous vulnerability in SMBv3 protocol that could let attackers launch wormable malware, which can propagate itself from one vulnerable computer to another automatically.</mj-text>
+          <mj-text>The vulnerability, tracked as CVE-2020-0796, in question is a remote code execution flaw that impacts Windows 10 version 1903 and 1909, and Windows Server version 1903 and 1909. Server Message Block (SMB), which runs over TCP port 445, is a network protocol that has been designed to enable file sharing, network browsing, printing services, and interprocess communication over a network.</mj-text>
+          <mj-text>Earlier this week, due to what looks like a miscommunication between Microsoft and some antivirus vendors, details about this bug leaked online. At the time of writing, there is only one known PoC exploit that exists for this critical remotely exploitable flaw, but reverse engineering new patches could now also help hackers find possible attack vectors to develop fully weaponized self-propagating malware. While Microsoft was not initially planning to release fixes this month, the company was eventually forced to push today's patch after the cat was out of the bag. As of today, there are nearly 48,000 Windows systems vulnerable to the latest SMB compression vulnerability and accessible over the Internet.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2020/03/patch-wormable-smb-vulnerability.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/microsoft-patches-smbv3-wormable-bug-that-leaked-earlier-this-week/">
+            Even More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-lvi-intel-cpu-data-theft-vulnerability-requires-hardware-fix/">New LVI Intel CPU Data Theft Vulnerability Requires Hardware Fix</a></li>
+              <li><a class="lnk-pink" href="https://www.welivesecurity.com/2020/03/10/flaw-popular-vpn-service-customer-data/">Flaw in popular VPN service may have exposed customer data</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2020/03/10/ex-inspector-general-indicted-for-stealing-data-on-250k-govt-colleagues/">Ex-Inspector General indicted for stealing data on 250k govt colleagues</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/google-play-protect-miserably-fails-android-protection-tests/">Google Play Protect Miserably Fails Android Protection Tests</a></li>
+              <li><a class="lnk-purple" href="https://www.microsoft.com/security/blog/2020/03/09/real-life-cybercrime-stories-dart-microsoft-detection-and-response-team/">Real-life cybercrime stories from DART, the Microsoft Detection and Response Team</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/entercom-radio-giant-says-data-breach-exposed-user-credentials/">Entercom Radio Giant Says Data Breach Exposed User Credentials</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/03/intel-csme-vulnerability.html">This Unpatchable Flaw Affects All Intel CPUs Released in Last 5 Years</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/03/virgin-media-data-breach.html">Virgin Media Data Leak Exposes Details of 900,000 Customers</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/nearly-300-cybersecurity-incidents-impacted-supply-chain-entities-in-2019/">Nearly 300 cybersecurity incidents impacted supply chain entities in 2019</a></li>
+              <li><a class="lnk-purple" href="https://www.microsoft.com/security/blog/2020/03/12/empower-firstline-workers-azure-ad-yubikey-passwordless-authentication/">Empower Firstline Workers with Azure AD and YubiKey passwordless authentication</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/hackers-get-16-million-for-card-data-from-breached-online-shops/">Hackers Get $1.6 Million for Card Data from Breached Online Shops</a></li>
+              <li><a class="lnk-pink" href="https://duo.com/labs/tech-notes/protecting-accounts-from-credential-stuffing">Protecting Accounts from Credential Stuffing</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/ddr4-memory-still-at-rowhammer-risk-new-method-bypasses-fixes/">DDR4 Memory Still At Rowhammer Risk, New Method Bypasses Fixes</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/us-senators-seek-ban-tiktok-government-devices">
+                U.S. Senators Seek to Ban TikTok on Government Devices</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2020/03/13/earn-it-act-threatens-end-to-end-encryption/">EARN IT Act threatens end-to-end encryption</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/03/13/confessions-app-whisper-spills-almost-a-billion-records/">Confessions app Whisper spills almost a billion records</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/03/android-cookies-malware-hacking.html">New Android Cookie-Stealing Malware Found Hijacking Facebook Accounts</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/03/microsoft-patch-tuesday-march-2020.html">Microsoft Issues March 2020 Updates to Patch 115 Security Flaws</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/03/amd-processors-vulnerability.html">9 Years of AMD Processors Vulnerable to 2 New Side-Channel Attacks</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/intel-patches-high-severity-flaws-in-windows-graphics-drivers/">Intel Patches High Severity Flaws in Windows Graphics Drivers</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/multiple-nation-state-groups-are-hacking-microsoft-exchange-servers/">Multiple nation-state groups are hacking Microsoft Exchange servers</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bc-security.org/post/an-introduction-to-starkiller">An Introduction to Starkiller, a GUI for Empire</a></li>
+              <li><a class="lnk-pink" href="https://github.com/utkusen/jeopardize">Jeopardize: threat intelligence&response tool against phishing domains</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/office-365-atp-to-block-email-domains-that-fail-authentication/">Office 365 ATP To Block Email Domains That Fail Authentication</a></li>
+              <li><a class="lnk-orange" href="https://posts.specterops.io/through-the-looking-glass-part-1-f539ae308512">Understanding AWS Traffic Mirroring and Malicious Use</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/fraktal/cloud-waf-comparison-using-real-world-attacks-acb21d37805e">Cloud WAF Comparison Using Real-World Attacks</a></li>
+              <li><a class="lnk-blue" href="https://research.kudelskisecurity.com/2020/03/11/differential-privacy-a-comparison-of-libraries/">Differential privacy: a comparison of libraries</a></li>
+              <li><a class="lnk-pink" href="https://github.com/hlldz/pickl3">Pickl3: Windows active user credential phishing tool</a></li>
+              <li><a class="lnk-green" href="https://bugs.xdavidhu.me/google/2020/03/08/the-unexpected-google-wide-domain-check-bypass/">The unexpected Google wide domain check bypass</a></li>
+              <li><a class="lnk-orange" href="https://diablohorn.com/2020/03/04/lessons-learned-on-written-social-engineering-attacks/">Lessons learned on written social engineering attacks</a></li>
+              <li><a class="lnk-purple" href="https://github.com/six2dez/wahh_extras">The Web Application Hacker's Handbook - Extra Content</a></li>
+              <li><a class="lnk-blue" href="https://malshare.com/">Malshare: Malware repo. providing access to samples, feeds, and Yara results.</a></li>
+              <li><a class="lnk-pink" href="https://outflank.nl/blog/2020/03/11/red-team-tactics-advanced-process-monitoring-techniques-in-offensive-operations/">Red Team Tactics: Advanced process monitoring techniques in offensive operations</a></li>
+              <li><a class="lnk-green" href="https://github.com/saferwall/saferwall">saferwall: Multi-AV Malware sandbox</a></li>
+              <li><a class="lnk-orange" href="https://github.com/SuprHackerSteve/Crescendo">Crescendo: real time event viewer for macOS using Apple's Endpoint Security Framework.</a></li>
+              <li><a class="lnk-purple" href="https://github.com/facebook/IT-CPE/blob/master/itchef/cookbooks/cpe_applocker/README.md">Facebook's AppLocker cookbook</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
