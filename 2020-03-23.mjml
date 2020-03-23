@@ -1,0 +1,222 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 23/03/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">23 March 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Mukashi: Mirai botnets are back for DDoS</mj-text>
+          <mj-image src="https://zdnet3.cbsistatic.com/hub/i/2020/03/20/f5e13081-922f-4ca7-90bf-2b21e2ac3e41/world-map.png"></mj-image>
+          <mj-text color="#fff">A new version of the infamous Mirai botnet is exploiting a recently uncovered critical vulnerability in network-attached storage (NAS) devices in an attempt to remotely infect and control vulnerable machines. Called "Mukashi," the new variant of the malware employs brute-force attacks using different combinations of default credentials to log into Zyxel NAS, UTM, ATP, and VPN firewall products to take control of the devices and add them to a network of infected bots that can be used to carry out Distributed Denial of Service (DDoS) attacks.</mj-text>
+          <mj-text color="#fff">The Mirai botnet, since its discovery in 2016, has been linked to a string of large-scale DDoS attacks, including one against DNS service provider Dyn in October 2016, causing major internet platforms and services to remain inaccessible to users in Europe and North America. Just like other Mirai variants, Mukashi operates by scanning the Internet for vulnerable IoT devices like routers, NAS devices, security cameras, and digital video recorders (DVRs), looking for potential hosts that are protected only by factory-default credentials or commonly-used passwords to co-opt them into the botnet.</mj-text>
+          <mj-text color="#fff">Meanwhile, at least three botnet operators have secretly exploited three zero-day vulnerabilities in LILIN digital video recorders (DVRs) for more than six months before the vendor finally patched the bugs last month, in February 2020. It will most likely take months -- if not years -- for the patch to make it to some devices. If there's an Achilles' heel to today's IoT landscape then it's the fact that there's no easy one-button-push to update firmware on most devices. Once shipped to customers, the vast majority of these systems remain unpatched until decommissioned.
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/03/zyxel-mukashi-mirai-iot-botnet.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/ddos-botnets-have-abused-three-zero-days-in-lilin-video-recorders-for-months/">
+            DDoS botnets abusing zero-days in LILIN video recorders
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">US, Israel, South Korea, and China look at intrusive surveillance solutions for tracking COVID-19</mj-text>
+          <mj-image src="https://i.guim.co.uk/img/media/70f1935921eafaade7903b462f6814bd331e52d3/0_155_3500_2101/master/3500.jpg?width=700&quality=85&auto=format&fit=max&s=1202f246d09457a6b8b63ab9034350f3"></mj-image>
+          <mj-text>As the global coronavirus (COVID-19) outbreak is leaving its mark across the world, at least four governments are deploying or at looking at implementing privacy-intrusive surveillance systems to track citizens and the disease's spread. Countries like China and South Korea have already deployed extensive citizen tracking systems, while Israel and the US are preparing similar surveillance measures.</mj-text>
+          <mj-text> For example, the chinese government has introduced a new scheme called Health Code, which, according to the Guardian, is currently being deployed in over 100 cities. Chinese citizens can sign up for a Health Code account using their Alipay or WeChat profiles. Once they have a Health Code account, they will be assigned a color code -- red for infected, yellow for quarantined, and green for healthy. The system allegedly works by taking a user's Alipay or WeChat account history and mapping their travel history. It then weighs other factors like the time spent in outbreak hotspots and if the user had contact with other citizens deemed potential carriers of the virus, and then assigns a health color code.</mj-text>
+          <mj-text>The system leverages the vasts quantities of mobile data and geo-location points Chinese tech companies have been collecting to map infection hotspots and then triage China's population based on their previous interactions. But if this system seems intrusive, Chinese authorities are taking it one step further in Hong Kong, where they have been using wristbands to track infected locals.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/us-israel-south-korea-and-china-look-at-intrusive-surveillance-solutions-for-tracking-covid-19/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">WordPress to add auto-update feature for themes and plugins</mj-text>
+          <mj-image src="https://zdnet2.cbsistatic.com/hub/i/2020/03/16/c4838bdf-4b0b-4546-ace7-ec2fed1817ba/wp-autoupdates-screenshot-2.png"></mj-image>
+          <mj-text>The WordPress developer team is working on adding an auto-update mechanism to themes and plugins, a common source of website hacks, primarily because site owners usually install themes and plugins, and then forget to update them.</mj-text>
+          <mj-text>Currently, the auto-update feature is already implemented for plugins, and work is underway on adding it to WordPress' themes feature. Once the auto-update option rolls out for the stable versions of the WordPress content management system (CMS), site owners will be able to configure themes and plugins to update themselves by checking an option in their site's admin panels.</mj-text>
+          <mj-text>Cyber-security firms like Sucuri, Wordfence, WebARX, and NinTechNet have often pointed out that a vast majority of today's hacked WordPress sites are being compromised after hackers exploit vulnerabilities in out-of-date plugins and themes. This feature is expected to reduce the number of hacked WordPress sites, once it rolls out with the upcoming WordPress 5.5 release.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/wordpress-to-add-auto-update-feature-for-themes-and-plugins/">
+            Read More o ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/wordpress-and-apache-struts-account-for-55-of-all-weaponized-vulnerabilities/">WordPress and Apache Struts account for 55% of all weaponized vulnerabilities</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/nist-updates-flagship-sp-800-53-security-and-privacy-controls">NIST Updates Flagship SP 800-53 Security and Privacy Controls</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/researcher-microsoft-edge-least-private-6-browsers-a-13972">Researcher: Microsoft Edge Least Private of 6 Browsers</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/software/firefox-password-manager-to-be-secured-with-windows-10-credentials/">Firefox Password Manager To Be Secured With Windows 10 Credentials</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/rogers-data-breach-exposed-customer-info-in-unsecured-database/">Rogers Data Breach Exposed Customer Info in Unsecured Database</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/hackers-hide-malware-c2-communication-by-faking-news-site-traffic/">Hackers Hide Malware C2 Communication By Faking News Site Traffic
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/food-delivery-service-in-germany-under-ddos-attack/">Food Delivery Service in Germany Under DDoS Attack</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2020/03/19/nist-shared-dataset-of-tattoos-thats-been-used-to-identify-prisoners/amp/">NIST shared dataset of tattoos that’s been used to identify prisoners</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/fintech-company-finastra-hit-by-ransomware/">Fintech company Finastra hit by ransomware</a></li>
+              <li><a class="lnk-orange" href="https://this-pin-can-be-easily-guessed.github.io/">This PIN Can Be Easily Guessed</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/financial-apps-leak-425gb-in-company-data-through-open-database/">Financial companies leak 425GB in company, client data through open database</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/covid-19-testing-center-hit-by-cyberattack/">COVID-19 Testing Center Hit By Cyberattack</a></li>
+              <li><a class="lnk-pink" href="https://www.welivesecurity.com/2020/03/19/security-flaws-found-in-popular-password-managers/">Security flaws found in popular password managers</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/europol-dismantles-sim-swap-criminal-groups-that-stole-millions/">Europol Dismantles SIM Swap Criminal Groups That Stole Millions</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/browser-vendor-leaks-data-via-open-server/">Browser vendor leaks data via open server</a></li>
+              <li><a class="lnk-purple" href="https://www.troyhunt.com/there-is-a-serious-lack-of-corporate-responsibility-during-breach-disclosures/">There is a Serious Lack of Corporate Responsibility During Breach Disclosures</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/most-ransomware-attacks-take-place-during-the-night-or-the-weekend/">Most ransomware attacks take place during the night or over the weekend</a></li>
+              
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/adobe-fixes-nine-critical-vulnerabilities-in-reader-acrobat/">Adobe Fixes Nine Critical Vulnerabilities in Reader, Acrobat</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/vmware-patches-privilege-escalation-vulnerability-in-workstation-fusion-horizon/">VMware patches privilege escalation vulnerability in Fusion, Horizon</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/two-trend-micro-zero-days-exploited-in-the-wild-by-hackers/">Two Trend Micro zero-days exploited in the wild by hackers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/critical-rce-bug-in-windows-7-and-server-2008-gets-micropatch/">Critical RCE Bug in Windows 7 and Server 2008 Gets Micropatch</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/cisco-tackles-root-privilege-vulnerability-in-sd-wan-software/">Cisco tackles root privilege vulnerability in SD-WAN software</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/drupal-updates-ckeditor-patch-xss-vulnerabilities">Drupal Updates CKEditor to Patch XSS Vulnerabilities</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/intel-cpus-vulnerable-to-new-snoop-attack/">Intel CPUs vulnerable to new 'Snoop' attack</a></li>
+
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2020/03/17/slack-fixes-account-stealing-bug/">Slack fixes account-stealing bug</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://medium.com/@woj_ciech/leaklooker-gui-discover-browse-and-monitor-database-source-code-leaks-f4b82bbb48fe">LeakLooker GUI — Discover, browse and monitor database/source code leaks.</a></li>
+              <li><a class="lnk-pink" href="https://lukasstefanko.com/2020/03/android-coronavirus-malware.html">Android – Coronavirus – related malware tracker</a></li>
+              <li><a class="lnk-green" href="https://scotthelme.co.uk/revocation-checking-is-pointless/">Demonstrating that revocation checking is pointless!</a></li>
+              <li><a class="lnk-orange" href="https://hackarandas.com/blog/2020/03/17/hacking-docker-remotely/">Hacking Docker Remotely</a></li>
+              <li><a class="lnk-purple" href="https://www.bored-nerds.com/reversing/radare/automotive/2019/07/07/reversing-firmware-with-radare.html">Reversing Firmware With Radare</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@emilefugulin/http-desync-attacks-with-python-and-aws-1ba07d2c860f">HTTP Desync Attacks with Python and AWS</a></li>
+              <li><a class="lnk-pink" href="https://github.com/Quitten/Autorize">Authorize: Automatic authorization enforcement detection extension for burp suite </a></li>
+              <li><a class="lnk-green" href="https://csper.io/blog/multiple-policies">
+                Using Content-Security-Policy with multiple policies</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/fraktal/cloud-waf-comparison-using-real-world-attacks-acb21d37805e">Cloud WAF Comparison Using Real-World Attacks</a></li>
+              <li><a class="lnk-purple" href="https://outflank.nl/blog/2020/03/11/red-team-tactics-advanced-process-monitoring-techniques-in-offensive-operations/">Red Team Tactics: Advanced process monitoring techniques in offensive operations</a></li>
+              <li><a class="lnk-blue" href="https://www.mdsec.co.uk/2020/03/hiding-your-net-etw/">Hiding Your .NET – ETW</a></li>
+              <li><a class="lnk-pink" href="https://research.nccgroup.com/2020/03/19/ldapfragger-bypassing-network-restrictions-using-ldap-attributes/">LDAPFragger: Bypassing network restrictions using LDAP attributes</a></li>
+              <li><a class="lnk-green" href="https://blog.redteam.pl/2020/03/dns-c2-rebinding-fast-flux.html">DNS for red team purposes</a></li>
+              <li><a class="lnk-orange" href="https://blog.rothe.uk/network-ids-azure-sentinel/">Network IDS & Azure Sentinel</a></li>
+              <li><a class="lnk-purple" href="https://www.microsoft.com/security/blog/2020/01/23/azure-security-benchmark-90-security-compliance-best-practices-azure-workloads/">Azure Security Benchmark—90 security and compliance best practices for your workloads in Azure</a></li>
+              <li><a class="lnk-blue" href="https://engineering.avast.io/yaramod-inspect-analyze-and-modify-your-yara-rules-with-ease/">Yaramod: Inspect, Analyze and Modify your YARA rules with ease</a></li>
+              <li><a class="lnk-pink" href="https://securitybytes.io/blue-team-fundamentals-part-two-windows-processes-759fe15965e2">Blue Team fundamentals Part Two: Windows Processes.</a></li>
+              <li><a class="lnk-green" href="https://github.com/ninoseki/ukemi">Ukemi: A CLI tool for querying passive DNS services</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
