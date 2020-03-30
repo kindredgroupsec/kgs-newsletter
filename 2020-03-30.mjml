@@ -1,0 +1,189 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 30/03/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://zdnet4.cbsistatic.com/hub/i/2020/03/26/2c7f0a45-c3c0-44a0-a02a-7220ca7b884e/google-app.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">30 March 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Warning — Two Unpatched Critical 0-Day RCE Flaws Affect All Windows Versions</mj-text>
+          <mj-image src="https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2020/03/shutterstock_1450286750-compressor.jpg"></mj-image>
+          <mj-text color="#fff">Microsoft today issued a new security advisory warning billions of Windows users of two new critical, unpatched zero-day vulnerabilities that could let hackers remotely take complete control over targeted computers.</mj-text>
+          <mj-text color="#fff">Microsoft today issued a new security advisory warning billions of Windows users of two new critical, unpatched zero-day vulnerabilities that could let hackers remotely take complete control over targeted computers. At this moment, though it's not clear if the flaws can also be triggered remotely over a web browser by convincing a user to visit a web-page containing specially-crafted malicious OTF fonts, there are multiple other ways an attacker could exploit the vulnerability, such as through the Web Distributed Authoring and Versioning (WebDAV) client service.</mj-text>
+          <mj-text color="#fff">Microsoft said it's aware of the issue and working on a patch, which the company would release to all Windows users as part of its next Patch Tuesday updates, on 14th April. Meanwhile, all Windows users are highly recommended to disable the Preview Pane and Details Pane feature in Windows Explorer as a workaround to reduce the risk of getting hacked by opportunistic attacks. Besides this, it is also advised to disable Windows WebClient service to prevent cyberattacks through the WebDAV client service. Microsoft is also urging users to rename Adobe Type Manager Font Driver (ATMFD.dll) file to temporarily disable the embedded font technology, which could cause certain 3rd-party apps to stop working.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/03/windows-adobe-font-vulnerability.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2020/03/25/windows-has-a-zero-day-that-wont-be-patched-for-weeks/">
+            Even More on NakedSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Google says no APP users have been phished to date</mj-text>
+          <mj-image src="https://zdnet4.cbsistatic.com/hub/i/2020/03/26/2c7f0a45-c3c0-44a0-a02a-7220ca7b884e/google-app.png"></mj-image>
+          <mj-text>Google touted today the impressive features of its Advanced Protection Program (APP), revealing that no user who signed up for the program has been phished to date, even if repeatedly targeted. The Advanced Protection Program (APP) is a special (free) program offered by Google that includes extra security protections that are not available to regular Gmail users.</mj-text>
+          <mj-text>The program was launched in the fall of 2017, and it was initially made available to high-risk users, such as politicians, journalists, activists, or known business people. Since its launch, the program has been made broadly available, and any Google user can sign up for APP today. The only condition is that users own a hardware security key or a modern smartphone, which Google will enroll in its APP program and use to cryptographically verify and authenticate all login operations.</mj-text>          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/google-says-no-app-users-have-been-phished-to-date/">
+            Read More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/would-you-exchange-your-security-for-a-gift-card/">Would You Exchange Your Security for a Gift Card?</a></li>
+              <li><a class="lnk-pink" href="https://www.sentinelone.com/blog/working-from-home-how-to-use-zoom-slack-and-other-remote-software-safely/">Working From Home | How to Use Zoom, Slack and Other Remote Software Safely</a></li>
+              <li><a class="lnk-green" href="https://github.blog/2020-03-25-six-years-of-the-github-security-bug-bounty-program/">Six years of the GitHub Security Bug Bounty program</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/667-spike-in-email-phishing-attacks-due-to-coronavirus-fears/">667% spike in email phishing attacks due to coronavirus fears</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/unpatched-ios-bug-blocks-vpns-from-encrypting-all-traffic/">Unpatched iOS Bug Blocks VPNs From Encrypting All Traffic</a></li>
+              <li><a class="lnk-blue" href="https://www.fireeye.com/blog/threat-research/2020/03/apt41-initiates-global-intrusion-campaign-using-multiple-exploits.html">This Is Not a Test: APT41 Initiates Global Intrusion Campaign Using Multiple Exploits</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2020/03/26/watch-out-scummy-scammers-target-home-deliveries/">Watch out! Scummy scammers target home deliveries</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/credit-card-skimmer-found-tupperware-website">Credit Card Skimmer Found on Tupperware Website</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/chinese-hackers-use-cisco-citrix-zoho-exploits-in-targeted-attacks/">Chinese Hackers Use Cisco, Citrix, Zoho Exploits In Targeted Attacks</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/wordpress-malware-distributed-via-pirated-coronavirus-plugins/">WordPress Malware Distributed via Pirated Coronavirus Plugins</a></li>
+              
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/03/trickbot-two-factor-mobile-malware.html">TrickBot Mobile App Bypasses 2‐Factor Authentication for Net Banking Services</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/hardware/hpe-warns-of-new-bug-that-kills-ssd-drives-after-40-000-hours/">HPE Warns of New Bug That Kills SSD Drives After 40,000 Hours</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2020/03/27/firefox-76-will-have-option-to-enforce-https-only-connections/">Firefox 76 will have option to enforce HTTPS-only connections</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2020/03/iphone-iOS-spyware.html">Hackers Used Local News Sites to Install Spyware On iPhones</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/russian-speaking-hackers-attack-pharma-manufacturing-companies-in-europe/">Russian-Speaking Hackers Attack Pharma, Manufacturing Companies in Europe</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/03/26/apple-ios-13-4-offers-fixes-for-30-vulnerabilities/">Apple iOS 13.4 offers fixes for 30 vulnerabilities</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-vulnerability-in-creative-cloud-application/">Adobe Fixes Critical Vulnerability in Creative Cloud Application</a></li>
+              <li><a class="lnk-green" href="https://www.webarxsecurity.com/vulnerability-in-wpvivid-backup-plugin-can-lead-to-database-leak/">Vulnerability In WPvivid Backup Plugin Can Lead To Database Leak</a></li>
+              
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/microsoft-to-pause-non-essential-software-updates-a-14013">Microsoft to Pause Non-Essential Software Updates</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2020/03/openwrt-rce-vulnerability.html">Critical RCE Bug Affects Millions of OpenWrt-based Network Devices</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.hunniccyber.com/password-hunting-with-ml-in-active-directory/">Password Hunting with Machine Learning in Active Directory</a></li>
+              <li><a class="lnk-pink" href="https://csper.io/docs/generating-content-security-policy">Automatically Generating Content Security Policy</a></li>
+              <li><a class="lnk-green" href="https://coffeegist.com/security/changeling-a-feature-morphing-creature/">Changeling - A Feature Morphing Creature</a></li>
+              <li><a class="lnk-orange" href="https://0xsha.io/posts/exploiting-magic-links-critical-bugs-are-one-line-away">Exploiting magic links, critical bugs are one line away</a></li>
+              <li><a class="lnk-purple" href="https://blog.silentsignal.eu/2020/03/27/unix-style-approach-to-web-application-testing/">Unix-style approach to web application testing</a></li>
+              <li><a class="lnk-blue" href="https://blog.0patch.com/2020/03/micropatching-unknown-0days-in-windows.html">Micropatching Unknown 0days in Windows Type 1 Font Parsing</a></li>
+              <li><a class="lnk-pink" href="https://blog.doyensec.com/2020/03/26/graphql-scanner.html">InQL Scanner</a></li>
+              <li><a class="lnk-green" href="https://sysdogs.com/en/on-docker-image-security/">On container image security</a></li>
+              <li><a class="lnk-orange" href="https://summitroute.com/blog/2020/03/25/aws_scp_best_practices/">AWS SCP Best Practices</a></li>
+              <li><a class="lnk-purple" href="https://github.com/panther-labs/panther">Panther: Cloud-native SIEM</a></li>
+              <li><a class="lnk-blue" href="https://github.com/swimlane/deepdive-domain-data">coronavirus & COVID-19 based phishing domains identified</a></li>
+              <li><a class="lnk-pink" href="https://defensivedepth.com/2020/03/22/osquery-for-security-analysis-q1-2020-update/">Osquery For Security Analysis – Q1 2020 Update</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
