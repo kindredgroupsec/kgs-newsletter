@@ -1,0 +1,195 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 06/04/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-yEdv4-r_GCU/XoWjJRMXVeI/AAAAAAAA2nc/z1aSxCSBjJQ1ooqCHbvx7Y4vpNVTkl6cgCLcBGAsYHQ/s728-e100/zoom-hacking.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">06 April 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">New Zoom Hack Lets Hackers Compromise Windows and Its Login Password, Contacts Feature Leaks Email Addresses and Photos</mj-text>
+          <mj-image src="https://thehackernews.com/images/-yEdv4-r_GCU/XoWjJRMXVeI/AAAAAAAA2nc/z1aSxCSBjJQ1ooqCHbvx7Y4vpNVTkl6cgCLcBGAsYHQ/s728-e100/zoom-hacking.jpg"></mj-image>
+          <mj-text color="#fff">Zoom has been there for nine years, but the immediate requirement of an easy-to-use video conferencing app during the coronavirus pandemic overnight made it one of the most favorite communication tool for millions of people around the globe. No doubt, Zoom is an efficient online video meeting solution that's helping people stay socially connected during these unprecedented times, but it's still not the best choice for everyone—especially those who really care about their privacy and security.</mj-text>
+          <mj-text color="#fff">The Zoom video conferencing software for Windows has shown vulnerable to a classic 'UNC path injection' vulnerability that could allow remote attackers to steal victims' Windows login credentials and even execute arbitrary commands on their systems.</mj-text>
+          <mj-text color="#fff">Zoom has already been notified of this bug and released an updated version if it software to patch recently reported multiple security issues, including UNC path injection.</mj-text>
+          <mj-text color="#fff">This is not the only issue to have been uncovered in Zoom video conferencing software over the past couple of days, raising privacy and security concerns among millions of users. The FBI is warning zoom users of the "Zoom-Bombing" attack after some people find a way to sneak their way into unsuspecting meetings and online gatherings and bombarded them with pornographic images or racist comments.</mj-text>
+          <mj-text color="#fff">Earlier this year, Zoom also patched another privacy bug in its software that could have let uninvited people join private meetings and remotely eavesdrop on private audio, video, and documents shared throughout the session. Last week, Zoom updated its iOS app after it was caught sharing users' device information with Facebook, raising legitimate concerns over app users' privacy.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/04/zoom-windows-password.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/zoom-contacts-feature-leaks-email-addresses-photos-a-14039">
+            Zoom Contacts Feature Leaks Email Addresses, Photos
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">New Marriott Data Breach Affecting Up to 5.2 Million Guests</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2020/03/31/Marriott.jpg"></mj-image>
+          <mj-text>Marriott International today revealed that the personal information of roughly 5.2 million hotel guests was impacted in a data breach incident detected at the end of February 2020.</mj-text>
+          <mj-text>"At the end of February 2020, we noticed that an unexpected amount of guest information may have been accessed using the login credentials of two employees at a franchise property," the company said in a statement. "We believe this activity started in mid-January 2020. Upon discovery, we immediately ensured the login credentials were disabled, began an investigation, implemented heightened monitoring, and arranged resources to inform and assist guests."</mj-text>
+          <mj-text>Although an investigation of this incident is ongoing, Marriott says that currently there is no "reason to believe that the information involved included Marriott Bonvoy account passwords or PINs, payment card information, passport information, national IDs, or driver’s license numbers." What it might include is contact details (name, email, mailing address, phone number), loyalty account information, additional PII (company, gender, birthday), partnerships and preferences.</mj-text>
+          <mj-text>This is the second data breach Marriott has reported in the last two years as the company also announced in November 2018 that its Starwood Hotels booking database was breached.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/marriott-reports-data-breach-affecting-up-to-52-million-guests/">
+            Read More on BleepingComputer
+          </mj-button>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/fbi-cybercrime-gang-mailing-badusb-devices-to-targets-a-14029">FBI: Cybercrime Gang Mailing 'BadUSB' Devices to Targets</a></li>
+              <li><a class="lnk-pink" href="https://blog.shodan.io/trends-in-internet-exposure/">Trends in Internet Exposure</a></li>
+              <li><a class="lnk-green" href="https://www.ryanpickren.com/webcam-hacking-overview">Apple Camera Hack: a vulnerability in Safari that allowed unauthorized
+                websites to access your camera on iOS and macOS </a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/a-mysterious-hacker-group-is-eavesdropping-on-corporate-ftp-and-email-traffic/">A mysterious hacker group is eavesdropping on corporate email and FTP traffic</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-warn-of-credentials-leaked-in-data-breaches/">Microsoft Edge to Warn Of Credentials Leaked in Data Breaches</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/03/31/data-on-almost-every-citizen-of-georgia-posted-on-hacker-forum/">Data on almost every citizen of Georgia posted on hacker forum</a></li>
+              <li><a class="lnk-pink" href="Coronavirus-themed spam surged 14,000% in two weeks says IBM">Coronavirus-themed spam surged 14,000% in two weeks says IBM</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/a-hacker-has-wiped-defaced-more-than-15000-elasticsearch-servers/">A hacker has wiped, defaced more than 15,000 Elasticsearch servers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/irs-warns-of-surge-in-economic-stimulus-payment-scams/">IRS Warns of Surge in Economic Stimulus Payment Scams</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/targeted-cyberattacks-surpass-mass-attacks-for-2019/">Targeted cyberattacks surpass mass attacks for 2019</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/office-365-phishing-uses-css-tricks-to-bypass-email-gateways/">Office 365 Phishing Uses CSS Tricks to Bypass Email Gateways</a></li>
+              <li><a class="lnk-pink" href="‘War Dialing’ Tool Exposes Zoom’s Password Problems">‘War Dialing’ Tool Exposes Zoom’s Password Problems</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2020/04/02/covid-19-forces-browser-makers-to-continue-supporting-tls-1-0/">COVID-19 forces browser makers to continue supporting TLS 1.0</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2020/04/magecart-digital-skimmer.html">Magecart Hackers Inject iFrame Skimmers in 19 Sites to Steal Payment Data</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2020/04/backdoor-.html">WARNING: Hackers Install Secret Backdoor on Thousands of Microsoft SQL Servers</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/keep-these-privacy-considerations-in-mind-when-using-zoom-at-home-for-work-collaboration/">Keep these privacy considerations in mind when using Zoom at home for work collaboration</a></li>
+              <li><a class="lnk-pink" href="https://jordanpotti.com/2018/10/03/violating-your-personal-space-with-webex/">Violating Your Personal Space with Webex</a></li>
+            </ul>
+          
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/wordpress-plugin-bug-can-be-exploited-to-create-rogue-admins/">WordPress Plugin Bug Can Be Exploited to Create Rogue Admins</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/zoom-rushes-patches-for-zero-day-vulnerabilities-a-14049">Zoom Rushes Patches for Zero-Day Vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/microsoft-is-working-on-mitigating-an-entire-windows-bug-class/">Microsoft is working on mitigating an entire Windows bug class</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/CybercentreCanada/CCCS-Yara">CCCS-Yara: YARA rule metadata specification and validation utility</a></li>
+              <li><a class="lnk-pink" href="https://scriptingxss.gitbook.io/firmware-security-testing-methodology/">OWASP Firmware Security Testing Methodology</a></li>
+              <li><a class="lnk-green" href="https://vulners.blog/2020/04/02/hidden-threat-vulnerability-analysis-using-the-news-graph/">Hidden Threat – Vulnerability analysis using the news graph</a></li>
+              <li><a class="lnk-orange" href="https://blog.shodan.io/trends-in-internet-exposure/">Trends in Internet Exposure</a></li>
+              <li><a class="lnk-purple" href="https://github.com/veeral-patel/awesome-risk-quantification">Awesome Risk Quantification</a></li>
+              <li><a class="lnk-blue" href="https://www.perimeterx.com/resources/blog/2020/skimming-as-a-service-anatomy-of-a-magecart-attack-toolkit/">Skimming-as-a-Service: Anatomy of a Magecart Attack Toolkit</a></li>
+              <li><a class="lnk-pink" href="https://github.com/G123N1NJ4/c2hack">C2Hack, sharing tips and tricks for pentesters</a></li>
+              <li><a class="lnk-green" href="https://latacora.micro.blog/2020/03/12/the-soc-starting.html">The SOC2 Starting Seven</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/@vartaisecurity/lab-building-guide-virtual-active-directory-5f0d0c8eb907">Lab Building Guide: Virtual Active Directory</a></li>
+              <li><a class="lnk-purple" href="https://opentip.kaspersky.com/">Kaspersk OpenTIP: Virus total alternative</a></li>
+              <li><a class="lnk-blue" href="https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/">Attack matrix for Kubernetes</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
