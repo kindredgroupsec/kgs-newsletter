@@ -1,0 +1,199 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 20/04/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-Dfb2TrPnbfI/XosdY30PiQI/AAAAAAAAAME/V27tlwF5xnwcvENmQW54CjEekflzLMlLgCLcBGAsYHQ/s728-e100/zoom-malware.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">20 April 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Zoom Caught in Cybersecurity Debate — Here's Everything You Need To Know</mj-text>
+          <mj-image src="https://thehackernews.com/images/-Dfb2TrPnbfI/XosdY30PiQI/AAAAAAAAAME/V27tlwF5xnwcvENmQW54CjEekflzLMlLgCLcBGAsYHQ/s728-e100/zoom-malware.jpg"></mj-image>
+          <mj-text color="#fff">Over the past few weeks, the use of Zoom video conferencing software has exploded ever since it emerged the platform of choice to host everything from cabinet meetings to yoga classes amidst the ongoing coronavirus outbreak and work from home became the new normal.</mj-text>
+          <mj-text color="#fff">Zoom's rapid sudden ascendance as a critical communications service has led to it drowning in a sea of privacy and security flaws. But is Zoom a malware? As the Guardian reported, some experts believe so. But no, Zoom is not malware. Rather, it's a piece of legitimate software that's, unfortunately, just full of security vulnerabilities and we're just now getting to know about it as the app was never scrutinized this thoroughly before</mj-text>
+          <mj-text color="#fff">To give credit where it's due, Zoom largely responded to these disclosures swiftly and transparently, and it has already patched a number of issues highlighted by the security community. </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/04/zoom-cybersecurity-hacking.html">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Gambling company to set aside $30 million to deal with cyber-attack fallout</mj-text>
+          <mj-image src="https://zdnet4.cbsistatic.com/hub/i/2020/04/10/078b631a-39b7-4d18-9d0f-f32e243b8751/sports-betting-casino.jpg"></mj-image>
+          <mj-text>Online betting company SBTech will have to place $30 million in escrow as insurance for covering the fallout from a cybersecurity incident that took place last month. The company agreed to do so as part of re-negotiated acquisition terms with Diamond Eagle Acquisition Corporation (DEAC), a blank-check company that acquired SBTech and rival platform DraftKings and is planning on merging the two later this year.</mj-text>
+          <mj-text>The funds will be used to deal with any expenses caused by a "cybersecurity incident" that took place on March 27. The SBTech was down for almost a week before it resumed service with international partners, but not with its US customers. The company is still waiting for approval from US gambling regulators before returning service to US partners.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/gambling-company-to-set-aside-30-million-to-deal-with-cyber-attack-fallout/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/balancing-public-safety-and-privacy-during-covid-19-the-rise-of-mass-surveillance/">Balancing public safety and privacy during COVID-19: The rise of mass surveillance</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2020/04/15/wordpress-woocommerce-sites-targeted-by-card-skimming-attacks/">WordPress WooCommerce sites targeted by card swiper attacks</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/04/iphone-android-coronavirus-tracing.html">Google and Apple Plan to Turn Phones into COVID-19 Contact-Tracking Devices</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2020/04/14/microsoft-and-google-delay-online-authentication-change/">Microsoft and Google delay online authentication change</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/google/google-reenables-ftp-support-in-chrome-due-to-pandemic/">Google reenables FTP support in Chrome due to pandemic</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/us-offers-5-million-reward-for-n-korea-hacker-information-a-14134">US Offers $5 Million Reward for N. Korea Hacker Information</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-office-security-updates-may-break-vba-programs-how-to-fix/">Microsoft Office security updates may break VBA programs, how to fix</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/rapid7-launches-attackerkb-a-service-for-crowdsourcing-vulnerability-assessments/">Rapid7 launches AttackerKB, a service for crowdsourcing vulnerability assessments</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/over-500-000-zoom-accounts-sold-on-hacker-forums-the-dark-web/">Over 500,000 Zoom accounts sold on hacker forums, the dark web</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/exclusive-google-removes-49-chrome-extensions-caught-stealing-crypto-wallet-keys/">Google removes 49 Chrome extensions caught stealing crypto-wallet keys</a></li>
+              <li><a class="lnk-blue" href="https://www.schneier.com/blog/archives/2020/04/bug_bounty_prog.html">Some Bug Bounty Programs Are Being Used to Buy Silence</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/discord-turned-into-an-account-stealer-by-updated-malware/">Discord Turned Into an Account Stealer by Updated Malware</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/microsoft-launches-free-zero-trust-assessment-tool">Microsoft Launches Free Zero Trust Assessment Tool</a></li>
+              <li><a class="lnk-orange" href="https://www.welivesecurity.com/2020/04/07/600000-people-affected-email-provider-breach/">600,000 people affected in email provider breach</a></li>
+              <li><a class="lnk-purple" href="https://javvadmalik.com/2020/04/08/tech-debt-of-remote-working/">Tech debt of remote working</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/04/windows-patch-update.html">Microsoft Issues Patches for 3 Bugs Exploited as Zero-Day in the Wild</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-office-april-security-updates-fix-critical-rce-bugs/">Microsoft Office April security updates fix critical RCE bugs</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/visa-urges-merchants-to-migrate-e-commerce-sites-to-magento-2x/">Visa urges merchants to migrate e-commerce sites to Magento 2.x</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-delays-end-of-support-for-older-windows-software-versions/">Microsoft delays end of support for older Windows, software versions</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/adobe-patches-flaws-coldfusion-after-effects-digital-editions">Adobe Patches Flaws in ColdFusion, After Effects, Digital Editions</a></li>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2020/04/microsoft-patch-tuesday-april-2020-edition/">Microsoft Patch Tuesday, April 2020 Edition</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/firefox-gets-fixes-for-two-zero-days-exploited-in-the-wild/">Firefox gets fixes for two zero-days exploited in the wild</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/80-percent-of-all-exposed-exchange-servers-still-unpatched-for-critical-flaw/">80% of all exposed Exchange servers still unpatched for critical flaw</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/google-patches-critical-rce-vulnerabilities-androids-system-component">Google Patches Critical RCE Vulnerabilities in Android's System Component</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite">PEASS - Privilege Escalation Awesome Scripts SUITE</a></li>
+              <li><a class="lnk-pink" href="https://insomniasec.com/blog/auth0-jwt-validation-bypass">JSON Web Token Validation Bypass in Auth0 Authentication API</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/04/rubygem-typosquatting-malware.html">Over 700 Malicious Typosquatted Libraries Found On RubyGems Repository</a></li>
+              <li><a class="lnk-orange" href="https://defensivedepth.com/2020/04/14/osquery-performance-tuning-monitoring/">Osquery Handout – Query Performance</a></li>
+              <li><a class="lnk-purple" href="https://blog.elcomsoft.com/2020/04/breaking-lastpass-instant-unlock-of-the-password-vault/">Breaking LastPass: Instant Unlock of the Password Vault</a></li>
+              <li><a class="lnk-blue" href="https://github.com/tanrax/maza-ad-blocking?utm_source=hackernewsletter&utm_medium=email&utm_term=fav">Maza ad blocking - Like Pi-hole but local and using your operating system</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/software/the-sandboxie-windows-sandbox-isolation-tool-is-now-open-source/">The Sandboxie Windows sandbox isolation tool is now open-source!</a></li>
+              <li><a class="lnk-green" href="https://www.perimeterx.com/resources/blog/2020/new-stealth-magecart-attack-bypasses-payment-services-using-iframes/">New Stealth Magecart Attack Bypasses Payment Services Using Iframes</a></li>
+              <li><a class="lnk-orange" href="https://citizenlab.ca/2020/04/move-fast-roll-your-own-crypto-a-quick-look-at-the-confidentiality-of-zoom-meetings/">A Quick Look at the Confidentiality of Zoom Meetings</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/falconforce/the-att-ck-rainbow-of-tactics-5eb6f0bddebe">The ATT&CK Rainbow of Tactics</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@sshell_/bypassing-av-detections-the-dumb-way-part-1-4e13cc973390">Bypassing AV Detections: The Dumb Way (Part 1)</a></li>
+              <li><a class="lnk-pink" href="https://blog.dylan.codes/evading-sysmon-and-windows-event-logging/">Universally Evading Sysmon and ETW</a></li>
+              <li><a class="lnk-green" href="https://www.autopsy.com/support/training/covid-19-free-autopsy-training/">COVID-19 Free Autopsy Training</a></li>
+              <li><a class="lnk-orange" href="https://blog.cm2.pw/xssi-exploiting-the-unexploitable/">XSSI - Exploiting the unexploitable</a></li>
+              <li><a class="lnk-purple" href="https://static.googleusercontent.com/media/landing.google.com/en//sre/static/pdf/SRS.pdf">Building Secure & Reliable Systems - PDF eBook</a></li>
+              <li><a class="lnk-blue" href="https://www.reddit.com/r/netsec/comments/g2ia8z/vulnfanatic_binary_ninja_plugin_for_vulnerability/">VulnFanatic: Binary Ninja plugin for vulnerability research</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/tenable-techblog/targeting-a-macos-application-update-your-path-traversal-lists-a1055959a75a">Targeting a macOS Application? Update Your Path Traversal Lists</a></li>
+              <li><a class="lnk-green" href="https://www.trenchesofit.com/2020/04/14/building-a-splunk-dashboard-for-pfsense/">Building a Splunk Dashboard for pfSense</a></li>
+              <li><a class="lnk-orange" href="https://breakdev.org/pwndrop/">Pwndrop - Self-hosting Your Red Team Payloads</a></li>
+              <li><a class="lnk-purple" href="https://outflank.nl/blog/2020/04/07/redelk-part-3-achieving-operational-oversight/">RedELK – Achieving operational oversight</a></li>
+              <li><a class="lnk-blue" href="https://github.com/deepfence/ThreatMapper">ThreatMapper: Identify vulnerabilities in running containers, images, hosts and repositories </a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
