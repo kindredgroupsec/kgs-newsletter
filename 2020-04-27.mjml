@@ -1,0 +1,167 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 27/04/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://krebsonsecurity.com/wp-content/uploads/2018/09/phonescam.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">27 Avril 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">When in Doubt: Hang Up, Look Up, & Call Back</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2018/09/phonescam.png"></mj-image>
+          <mj-text color="#fff">Many security-conscious people probably think they’d never fall for a phone-based phishing scam. But if your response to such a scam involves anything other than hanging up and calling back the entity that claims to be calling, you may be in for a rude awakening. Here’s how one security and tech-savvy reader got taken for more than $10,000 in an elaborate, weeks-long ruse.</mj-text>
+          <mj-text color="#fff">Mitch’s bank managed to reverse the unauthorized wire transfer before it could complete, and they’ve since put all the stolen funds back into his account and issued a new card. But he said he still feels like a chump for not observing the golden rule: If someone calls saying they’re from your bank, just hang up and call them back — ideally using a phone number that came from the bank’s Web site or from the back of your payment card. As it happened, Mitch only followed half of that advice</mj-text>
+          <mj-text color="#fff">As Mitch’s experience shows, many security-conscious people tend to focus on protecting their online selves, while perhaps discounting the threat from less technically sophisticated phone-based scams. In this case, Mitch and his bank determined that his assailants never once tried to log in to his account online. “What’s interesting here is the entirety of the fraud was completed over the phone, and at no time did the scammers compromise my account online,” Mitch said. “I absolutely should have hung up and initiated the call myself. And as a security professional, that’s part of the shame that I will bear for a long time.”</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2020/04/when-in-doubt-hang-up-look-up-call-back/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/04/22/309-million-facebook-users-phone-numbers-and-more-found-online/">309 million Facebook users’ phone numbers found online</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/04/iphone-zero-day-exploit.html">Chinese Hackers Using New iPhone Hack to Spy On Uyghur Muslims</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/nintendo-says-160000-users-impacted-in-recent-account-hacks/">Nintendo says 160,000 users impacted in recent account hacks</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/267-million-facebook-profiles-sold-for-600-on-the-dark-web/">267 million Facebook profiles sold for $600 on the dark web</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/phishing-uses-lay-off-zoom-meeting-alerts-to-steal-credentials/">Phishing uses lay-off Zoom meeting alerts to steal credentials</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/phishing-attacks-target-us-payroll-protection-program-loans/">Phishing attacks target US Payroll Protection Program Loans</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/04/usb-drive-botnet-malware.html">Malicious USB Drives Infect 35,000 Computers With Crypto-Mining Botnet</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/this-is-how-viewing-a-gif-in-microsoft-teams-triggers-account-hijacking-bug/">This is how viewing a GIF in Microsoft Teams triggered account hijacking bug</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/new-greynoise-free-service-alerts-you-when-your-devices-get-hacked/">New GreyNoise free service alerts you when your devices get hacked</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/apple-rushes-to-patch-ios-zero-day-flaws-a-14170">Apple Rushes to Patch iOS Zero-Day Flaws</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-teams-patched-against-image-based-account-takeover/">Microsoft Teams patched against image-based account takeover</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2020/04/17/critical-bug-in-google-chrome-get-your-update-now/">Critical bug in Google Chrome – get your update now</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2020/04/24/patch-now-microsoft-issues-unexpected-office-fix/">Patch now! Microsoft issues unexpected Office fix</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/hackers-exploit-zero-day-in-sophos-xg-firewall-fix-released/">Hackers exploit zero-day in Sophos XG Firewall, fix released</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.zecops.com/vulnerabilities/youve-got-0-click-mail/">You’ve Got (0-click) Mail! - iOS exploit write-up</a></li>
+              <li><a class="lnk-pink" href="https://wunderwuzzi23.github.io/blog/posts/2020/hunting-for-credentials/">Hunting for credentials and building a credential type reference catalog</a></li>
+              <li><a class="lnk-green" href="https://research.nccgroup.com/2020/04/24/the-extended-aws-security-ramp-up-guide/">The Extended AWS Security Ramp-Up Guide</a></li>
+              <li><a class="lnk-orange" href="https://www.synacktiv.com/posts/pentest/azure-ad-introduction-for-red-teamers.html">Azure AD Introduction for Red Teamers</a></li>
+              <li><a class="lnk-purple" href="https://0xpat.github.io/Malware_development_part_1/">Malware development part 1</a></li>
+              <li><a class="lnk-blue" href="https://github.com/OWASP/wstg/releases/download/v4.1/wstg-v4.1.pdf">OWASP Web Security Testing Guide v4.1 release</a></li>
+              <li><a class="lnk-pink" href="https://github.com/rsrdesarrollo/generator-burp-extension">Burp extension generator</a></li>
+              <li><a class="lnk-green" href="https://jhalon.github.io/utilizing-syscalls-in-csharp-1/">Red Team Tactics: Utilizing Syscalls in C# - Prerequisite Knowledge</a></li>
+              <li><a class="lnk-orange" href="https://www.mdsec.co.uk/2020/04/abusing-firefox-in-enterprise-environments/">Abusing Firefox in Enterprise Environments</a></li>
+              <li><a class="lnk-purple" href="https://0xnanda.github.io/Open-Redirects-Everything-That-You-Should-Know/">Open Redirects - Everything That You Should Know</a></li>
+              <li><a class="lnk-blue" href="https://www.linkedin.com/pulse/anatomy-automated-account-takeovers-tal-eliyahu/">Anatomy of Automated Account Takeovers</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@aysebilgegunduz/everything-you-need-to-know-about-idor-insecure-direct-object-references-375f83e03a87">Everything You Need to Know About IDOR (Insecure Direct Object References)</a></li>
+              <li><a class="lnk-green" href="https://sorsnce.com/2020/04/09/open-source-soar-solution-part-1/">Open-Source SOAR Solution : Part 1</a></li>
+              <li><a class="lnk-orange" href="https://labs.jumpsec.com/2020/04/20/a-defenders-guide-for-rootkit-detection-episode-1-kernel-drivers/?preview=true">A Defender’s Guide For Rootkit Detection: Episode 1 – Kernel Drivers</a></li>
+              <li><a class="lnk-purple" href="https://labs.f-secure.com/blog/jamfing-for-joy-attacking-macos-in-enterprise">Jamfing for Joy: Attacking macOS in Enterprise</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
