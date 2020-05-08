@@ -1,0 +1,183 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 11/05/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-QFI5pQTBAm4/Xq_m167flHI/AAAAAAAAASw/6k68kbyVKkMF27nKUuZ-tsrwehX-N5saACLcBGAsYHQ/s728-e100/saltstack-salt-rce-vulnerability.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">11 May 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Hackers Breach LineageOS, Ghost, DigiCert Servers Using SaltStack Vulnerability</mj-text>
+          <mj-image src="https://thehackernews.com/images/-QFI5pQTBAm4/Xq_m167flHI/AAAAAAAAASw/6k68kbyVKkMF27nKUuZ-tsrwehX-N5saACLcBGAsYHQ/s728-e100/saltstack-salt-rce-vulnerability.jpg"></mj-image>
+          <mj-text color="#fff">Days after cybersecurity researchers sounded the alarm over two critical vulnerabilities in the SaltStack configuration framework, a hacking campaign has already begun exploiting the flaws to breach servers of LineageOS, Ghost, and DigiCert. Tracked as CVE-2020-11651 and CVE-2020-11652, the disclosed flaws could allow an adversary to execute arbitrary code on remote servers deployed in data centers and cloud environments. The issues were fixed by SaltStack in a release published on April 29th.</mj-text>
+          <mj-text color="#fff">Salt versions before 3000.2 and 2019.2.4 are vulnerable to CVE-2020-11651 and CVE-2020-11652. F-Secure disclosed the two vulnerabilities last week saying that “any competent hacker” would need less than 24 hours to develop a 100% reliable exploit. These organizations above are just a few examples of victims of the two Salt vulnerabilities published by F-Secure. Coin mining seems to be the main goal of the threat actor but more insidious payloads could be used instead. </mj-text>
+          <mj-text color="#fff">With F-Secure's alert revealing more than 6,000 Salt vulnerable servers that can be exploited via this vulnerability, if left unpatched, companies are advised to update the Salt software packages to the latest version to resolve the flaws.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/05/saltstack-rce-exploit.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/hackers-exploit-salt-rce-bugs-in-widespread-attacks-pocs-public/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/search-provider-algolia-discloses-security-incident-due-to-salt-vulnerability/">Search provider Algolia discloses security incident due to Salt vulnerability</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/apple-and-google-to-prevent-contact-tracing-apps-from-tracking-your-location/">Apple and Google to prevent contact tracing apps from tracking your location</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/hacker-sells-22-million-unacademy-user-records-after-data-breach/">Hacker sells 22 million Unacademy user records after data breach</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/large-scale-snake-ransomware-campaign-targets-healthcare-more/">Large scale Snake Ransomware campaign targets healthcare, more</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2020/05/05/godaddy-unauthorized-individual-had-access-to-login-info/">GoDaddy – “unauthorized individual” had access to login info</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/microsoft-launches-iot-focused-bounty-program-with-100k-awards/">Microsoft launches IoT-focused bounty program with $100K awards</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/cisco-webex-phishing-uses-fake-cert-errors-to-steal-credentials/">Cisco Webex phishing uses fake cert errors to steal credentials</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/05/asia-pacific-cyber-espionage.html">Aria-body: This Asia-Pacific Cyber Espionage Campaign Went Undetected for 5 Years</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/credit-card-skimmer-caught-hiding-behind-website-favicon/">Credit card skimmer caught hiding behind website favico</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/microsoft-150-million-people-are-using-passwordless-logins-each-month/">Microsoft: 150 million people are using passwordless logins each month</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/hacker-gains-access-to-a-small-number-of-microsofts-private-github-repos/">Hacker gains access to a small number of Microsoft's private GitHub repos</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2020/05/05/firefoxs-private-relay-service-tests-anonymous-email-alias-feature/">Firefox’s Private Relay service tests anonymous email alias feature</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/office-365-to-stop-data-theft-by-disabling-external-forwarding/">Office 365 to stop data theft by disabling external forwarding</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/blogs/forget-whitelists-blacklists-go-for-allow-or-deny-p-2898">Forget Whitelists and Blacklists: Go for 'Allow' or 'Deny'</a></li>
+              <li><a class="lnk-purple" href="https://www.schneier.com/blog/archives/2020/05/denmark_sweden_.html">Denmark, Sweden, Germany, the Netherlands and France SIGINT Alliance</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/05/air-gap-malware-power-speaker.html">Research Project: Malware Jumps Air-Gapped Devices by Turning Power-Supplies into Speakers</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2020/05/04/iloveyou-the-love-bug-virus-20-years-on-could-it-happen-again/">ILOVEYOU: The Love Bug virus 20 years on – could it happen again?</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/nintendo-source-code-for-n64-wii-gamecube-leaked-a-14220">Nintendo Source Code for N64, Wii and GameCube Leaked</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/cam4-adult-cam-site-exposes-11-million-emails-private-chats/">CAM4 adult cam site exposes 11 million emails, private chats</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://saltexploit.com/">SaltStack CVE-2020-11651 and CVE-2020-11652 Attack</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-may-office-updates-with-fixes-for-auth-issues/">Microsoft releases May Office updates with fixes for auth issues</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2020/05/06/firefox-76-0-released-with-critical-security-patches-update-now/">Firefox 76.0 released with critical security patches – update now</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/critical-citrix-sharefile-bugs-could-give-access-to-private-files/">Critical Citrix ShareFile bugs could give access to private files</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/critical-wordpress-plugin-bug-lets-hackers-take-over-1m-sites/">Critical WordPress plugin bug lets hackers take over 1M sites</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/cisco-patches-high-severity-vulnerabilities-security-products">Cisco Patches High Severity Vulnerabilities in Security Products</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/tp-link-patches-multiple-vulnerabilities-nc-cloud-cameras">TP-Link Patches Multiple Vulnerabilities in NC Cloud Cameras</a></li>
+              <li><a class="lnk-green" href="https://fortiguard.com/psirt/FG-IR-20-045">Authentication bypass in FortiMail and FortiVoiceEntreprise</a></li>
+              <li><a class="lnk-orange" href="https://community.sophos.com/kb/en-us/135412">Fixing SQL injection vulnerability and malicious code execution in XG Firewall/SFOS</a></li>
+              <li><a class="lnk-purple" href="https://support.f5.com/csp/article/K37130415">BIG-IQ Grafana vulnerability CVE-2020-5868</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://csper.io/blog/csper-csp">
+                Csper's Content Security Policy Journey</a></li>
+              <li><a class="lnk-pink" href="https://www.helpnetsecurity.com/2020/04/28/ransomware-lessons/">The battle against ransomware: Lessons from the front lines</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@talthemaor/moving-laterally-between-azure-ad-joined-machines-ed1f8871da56">Moving laterally between Azure AD joined machines</a></li>
+              <li><a class="lnk-orange" href="https://github.com/bridgecrewio/AirIAM">AirIAM: Least privilege AWS IAM Terraformer</a></li>
+              <li><a class="lnk-purple" href="https://www.fireeye.com/blog/threat-research/2020/05/tactics-techniques-procedures-associated-with-maze-ransomware-incidents.html">Tactics, Techniques and Procedures Associated With MAZE Ransomware Incidents</a></li>
+              <li><a class="lnk-blue" href="https://docs.google.com/spreadsheets/d/1RTcZsRbDsjxwmKpe3FIvSKUjBk5pR2Dlzj71QTnxAK0/edit#gid=0">Splunk ES/Crowdstrike Threat Hunting Searches</a></li>
+              <li><a class="lnk-pink" href="https://zeroinformationsecurity.wordpress.com/2020/05/07/the-only-way-to-bypass-ssl-pinning-on-ios-13/">Bypass SSL Pinning on iOS 13 with FRIDA</a></li>
+              <li><a class="lnk-green" href="https://slaeryan.github.io/posts/falcon-zero-alpha.html">FalconZero v1.0 - a stealthy Windows Loader to deliver shellcode undetected</a></li>
+              <li><a class="lnk-orange" href="https://rhinosecuritylabs.com/gcp/privilege-escalation-google-cloud-platform-part-1/">Introduction to GCP Privilege Escalation</a></li>
+              <li><a class="lnk-purple" href="https://rhinosecuritylabs.com/cloud-security/privilege-escalation-google-cloud-platform-part-2/">Intro to GCP Privilege Escalation (Continued)</a></li>
+              <li><a class="lnk-blue" href="https://github.com/TheSecondSun/YAS">YAS: Yet Another Sniffer</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
