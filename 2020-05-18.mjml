@@ -1,0 +1,198 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 18/05/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://media.wired.com/photos/5eb33b09c8897781bab6e20e/master/w_2560%2Cc_limit/RROSALES_WIRED_MARCUS_HUTCHINS_0288-Web-Size.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">18 May 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">The Confessions of Marcus Hutchins, the Hacker Who "Saved" the Internet</mj-text>
+          <mj-image src="https://media.wired.com/photos/5eb33b09c8897781bab6e20e/master/w_2560%2Cc_limit/RROSALES_WIRED_MARCUS_HUTCHINS_0288-Web-Size.jpg"></mj-image>
+          <mj-text color="#fff">At 22, he single-handedly put a stop to the worst cyberattack the world had ever seen. Then he was arrested by the FBI. This is his untold story.</mj-text>
+          <mj-text color="#fff">At around 7 am on a quiet Wednesday in August 2017, Marcus Hutchins walked out the front door of the Airbnb mansion in Las Vegas where he had been partying for the past week and a half. A gangly, 6'4", 23-year-old hacker with an explosion of blond-brown curls, Hutchins had emerged to retrieve his order of a Big Mac and fries from an Uber Eats deliveryman. But as he stood barefoot on the mansion's driveway wearing only a T-shirt and jeans, Hutchins noticed a black SUV parked on the street—one that looked very much like an FBI stakeout. He stared at the vehicle blankly, his mind still hazed from sleep deprivation and stoned from the legalized Nevada weed he'd been smoking all night. For a fleeting moment, he wondered: Is this finally it?</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.wired.com/story/confessions-marcus-hutchins-hacker-who-saved-the-internet/">
+            Read More on Wired
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Improper Microsoft Patch for Reverse RDP Attacks Leaves 3rd-Party RDP Clients Vulnerable</mj-text>
+          <mj-image src="https://thehackernews.com/images/-nGi9j7Al83s/Xr0ZrvMm9EI/AAAAAAAAAVw/X9PneGcnn8YnvsGtZewTKmu_l5x2VEpUACLcBGAsYHQ/s728-e100/reverse-rdp-attack.jpg"></mj-image>
+          <mj-text>Remember the Reverse RDP Attack—wherein a client system vulnerable to a path traversal vulnerability could get compromised when remotely accessing a server over Microsoft's Remote Desktop Protocol? Though Microsoft had patched the vulnerability (CVE-2019-0887) as part of its July 2019 Patch Tuesday update, it turns out researchers were able to bypass the patch just by replacing the backward slashes in paths with forward slashes. Microsoft acknowledged the improper fix and re-patched the flaw in its February 2020 Patch Tuesday update earlier this year, now tracked as CVE-2020-0655.</mj-text>
+          <mj-text>Apparently, the workaround works fine for the built-in RDP client in Windows operating systems, but the patch is not fool-proof enough to protect other third-party RDP clients against the same attack that relies on the vulnerable sanitization function developed by Microsoft. "We want developers to be aware of this threat so that they could go over their programs and manually apply a patch against it."</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2020/05/reverse-rdp-attack-patch.html">
+            Read More on Bleeping Computer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">New Thunderbolt security flaws affect systems shipped before 2019</mj-text>
+                <mj-image src="https://www.bleepstatic.com/content/posts/2020/05/11/Thunderspy.jpg"></mj-image>
+                <mj-text>Attackers who gain physical access to Windows, Linux, or macOS devices can access and steal data from their hard drives by exploiting 7 vulnerabilities found in Intel's Thunderbolt hardware interface and collectively known as Thunderspy.</mj-text>
+                <mj-text>Thunderbolt is a hardware interface designed by Intel and Apple in collaboration to help connect external peripherals that need high-speed connections (RAID arrays, network interface, video capture devices, and others) to a computer. The new attack, discovered by Eindhoven University of Technology researcher Björn Ruytenberg, is designed to break Thunderbolt's security, making it possible for attackers to steal information from any vulnerable Thunderbolt-enabled device.</mj-text>
+                <mj-text>For Linux and Windows users, all systems purchased before 2019 are vulnerable to Thunderspy attacks according to Ruytenberg, while devices bought during and after 2019 might come with support for Kernel DMA Protection which protects against drive-by Direct Memory Access attacks. Similarly, Macs from 2011 and older, except for Retina MacBooks, are all impacted by Thunderspy as they all provide users with Thunderbolt connectivity. Intel confirmed that the vulnerabilities are valid but will not mitigate the Thunderspy vulnerabilities by issuing a patch to already sold and known to be vulnerable devices as they would require a silicon redesign.</mj-text>
+                <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/new-thunderbolt-security-flaws-affect-systems-shipped-before-2019/">
+                  Read More on BleepingComputer
+                </mj-button>
+              </mj-column>
+            </mj-section>
+      
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/researcher-finds-1-236-websites-infected-with-credit-card-stealers/">Researcher finds 1,236 websites infected with credit card stealers</a></li>
+              <li><a class="lnk-pink" href="https://www.microsoft.com/security/blog/2020/05/13/empowering-remote-workforce-security-training/">Empowering your remote workforce with end-user security awareness</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/a-cybercrime-store-is-selling-access-to-more-than-43000-hacked-servers/">A cybercrime store is selling access to more than 43,000 hacked servers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/microsoft-office-365-atp-getting-malware-campaign-analysis/">Microsoft Office 365 ATP getting malware campaign analysis</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/blogs/ransomware-reminder-paying-ransoms-doesnt-pay-p-2901">Ransomware Reminder: Paying Ransoms Doesn't Pay</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/ransomware-now-demands-extra-payment-to-delete-stolen-files/">Ransomware now demands extra payment to delete stolen files</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/windows-10-to-get-puapup-protection-feature/">Windows 10 to get PUA/PUP protection feature</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/05/android-firebase-database-security.html">Over 4000 Android Apps Expose Users' Data via Misconfigured Firebase Databases</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/digitalocean-inadvertently-exposed-customer-data">DigitalOcean Inadvertently Exposed Customer Data</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/microsoft-and-intel-project-converts-malware-into-images-before-analyzing-it/">Microsoft and Intel project converts malware into images before analyzing it</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/chatbooks-discloses-data-breach-after-data-sold-on-dark-web/">ChatBooks discloses data breach after data sold on dark web</a></li>
+              <li><a class="lnk-pink" href="https://www.wired.com/story/confessions-marcus-hutchins-hacker-who-saved-the-internet/">The Confessions of Marcus Hutchins, the Hacker Who "Saved" the Internet</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/sap-may-2020-security-patch-day-delivers-critical-updates/">SAP May 2020 Security Patch Day delivers critical updates</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/adobe-issues-patches-for-36-vulnerabilities-in-dng-reader-acrobat/">Adobe issues patches for 36 vulnerabilities in DNG, Reader, Acrobat</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/huawei-denies-involvement-in-buggy-linux-kernel-patch-proposal/">Huawei denies involvement in buggy Linux kernel patch proposal</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2020/05/microsoft-patch-tuesday-may-2020-edition/">Microsoft Patch Tuesday, May 2020 Edition</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2020/05/vBulletin-access-vulnerability.html">An Undisclosed Critical Vulnerability Affect vBulletin Forums — Patch Now</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://research.nccgroup.com/2020/05/14/using-sharepoint-as-a-phishing-platform/">Using SharePoint as a Phishing Platform</a></li>
+              <li><a class="lnk-pink" href="https://www.troyhunt.com/the-unattributable-db8151dd-data-breach/">The Unattributable "db8151dd" Data Breach</a></li>
+              <li><a class="lnk-green" href="https://rekken.github.io/2020/05/14/Security-Flaws-in-Adobe-Acrobat-Reader-Allow-Malicious-Program-to-Gain-Root-on-macOS-Silently/">Security Flaws in Adobe Acrobat Reader Allow Malicious Program to Gain Root on macOS Silently</a></li>
+              <li><a class="lnk-orange" href="https://github.com/deadjakk/reg1c1de">Reg1c1de: Registry permission scanner for finding potential privesc avenues</a></li>
+              <li><a class="lnk-purple" href="https://rhinosecuritylabs.com/cloud-security/cloudgoat-aws-scenario-ec2_ssrf/">Introduction: Cloudgoat to Learn Cloud Security</a></li>
+              <li><a class="lnk-blue" href="https://victorzhou.com/blog/csrf/">Web Security 101: An Interactive Cross-Site Request Forgery (CSRF) Demo</a></li>
+              <li><a class="lnk-pink" href="https://www.cyclon3.com/bypass-instagram-ssl-certificate-pinning-for-ios">Bypass Instagram SSL Certificate Pinning for iOS</a></li>
+              <li><a class="lnk-green" href="https://maxfieldchen.com/posts/2020-05-07-Attacking-NFC-and-RFID.html">Attacking NFC and RFID</a></li>
+              <li><a class="lnk-orange" href="https://soatok.blog/2020/05/05/putting-the-fun-in-hash-function/">Putting the “Fun” in “Hash Function”</a></li>
+              <li><a class="lnk-purple" href="https://github.com/Azure/Stormspotter">Stormspotter: Azure Red Team tool for graphing Azure and Azure Active Directory objects</a></li>
+              <li><a class="lnk-blue" href="https://www.microsoft.com/security/blog/2020/05/14/open-sourcing-covid-threat-intelligence/">Open-sourcing new COVID-19 threat intelligence</a></li>
+              <li><a class="lnk-pink" href="https://www.trustedsec.com/blog/breaking-typical-windows-hardening-implementations/">Breaking typical Windows hardening implementations</a></li>
+              <li><a class="lnk-green" href="https://fortynorthsecurity.com/blog/introducing-c2concealer/">Introducing C2concealer: a C2 Malleable Profile Generator for Cobalt Strike</a></li>
+              <li><a class="lnk-orange" href="https://www.kitploit.com/2020/05/powerob-on-fly-powershell-script.html">Powerob - An On-The-Fly Powershell Script Obfuscator Meant For Red Team Engagements</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
