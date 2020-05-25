@@ -1,0 +1,163 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 25/05/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-6Otjc0K81YI/XsURC2K9ILI/AAAAAAAAAWk/ZEwHO_G_M44DRlxyIjuMdBu0qhni6LYugCLcBGAsYHQ/s728-e100/dns-server-ddos-attack.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">25 May 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">New DNS Vulnerability Lets Attackers Launch Large-Scale DDoS Attacks</mj-text>
+          <mj-image src="https://thehackernews.com/images/-6Otjc0K81YI/XsURC2K9ILI/AAAAAAAAAWk/ZEwHO_G_M44DRlxyIjuMdBu0qhni6LYugCLcBGAsYHQ/s728-e100/dns-server-ddos-attack.jpg"></mj-image>
+          <mj-text color="#fff">Israeli cybersecurity researchers have disclosed details about a new flaw impacting DNS protocol that can be exploited to launch amplified, large-scale distributed denial-of-service (DDoS) attacks to takedown targeted websites. Called NXNSAttack, the flaw hinges on the DNS delegation mechanism to force DNS resolvers to generate more DNS queries to authoritative servers of attacker's choice, potentially causing a botnet-scale disruption to online services.</mj-text>
+          <mj-text color="#fff">Following responsible disclosure of NXNSAttack, several of the companies in charge of the internet infrastructure, including PowerDNS (CVE-2020-10995), CZ.NIC (CVE-2020-12667), Cloudflare, Google, Amazon, Microsoft, Oracle-owned Dyn, Verisign, and IBM Quad9, have patched their software to address the problem. The DNS infrastructure has been previously at the receiving end of a rash of DDoS attacks through the infamous Mirai botnet, including those against Dyn DNS service in 2016, crippling some of the world's biggest sites, including Twitter, Netflix, Amazon, and Spotify.</mj-text>
+          <mj-text color="#fff">The researchers said the attack can amplify the number of packets exchanged by the recursive resolver by as much as a factor of more than 1,620, thereby overwhelming not only the DNS resolvers with more requests they can handle, but also flood the target domain with superfluous requests and take it down. What's more, using a botnet such as the Mirai as a DNS client can further augment the scale of the attack. It's highly recommended that network administrators who run their own DNS servers update their DNS resolver software to the latest version.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/05/dns-server-ddos-attack.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/05/iphone-ios-jailbreak-tools.html">New Tool Can Jailbreak Any iPhone and iPad Using An Unpatched 0-Day Bug</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/hackers-leak-credit-card-info-from-costa-ricas-state-bank/">Hackers leak credit card info from Costa Rica's state bank</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/discord-client-turned-into-a-password-stealer-by-updated-malware/">Discord client turned into a password stealer by updated malware</a></li>
+              <li><a class="lnk-orange" href="https://www.welivesecurity.com/2020/05/21/chrome-83-arrives-revamped-security-privacy-controls/">Chrome 83 arrives with enhanced security and privacy controls</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/phishing-attack-bypassed-office-365-multifactor-protections-a-14310">Phishing Attack Bypassed Office 365 MFA through custom app permissions</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/signal-to-move-away-from-phone-numbers-as-user-ids/">Signal to move away from using phone numbers as user IDs</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/home-chef-announces-data-breach-after-hacker-sells-8m-user-records/">Home Chef announces data breach after hacker sells 8M user records</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2020/05/ukraine-nabs-suspect-in-773m-password-megabreach/">Ukraine Nabs Suspect in 773M Password ‘Megabreach’</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/new-spectra-attack-breaks-the-separation-between-wi-fi-and-bluetooth/">New Spectra attack breaks the separation between Wi-Fi and Bluetooth</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/05/21/adobe-out-of-band-critical-patch-get-your-update-now/">Adobe “out of band” critical patch – get your update now!</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/05/hacking-bluetooth-vulnerability.html">New Bluetooth Vulnerability Exposes Billions of Devices to Hackers</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://medium.com/devops-dudes/api-management-and-devops-1ffd1b5b88ae">API Management and DevOps</a></li>
+              <li><a class="lnk-pink" href="https://github.com/bridgecrewio/terragoat/">terragoat: Vulnerable by design Terraform environment (education purpose)</a></li>
+              <li><a class="lnk-green" href="https://owasp.org/2020/05/22/AppSecDaysSoS.html">Virtual AppSec Days Summer of Security 2020</a></li>
+              <li><a class="lnk-orange" href="https://github.com/utkusen/shotlooter">shotlooter: finds sensitive data inside the screenshots uploaded to prnt.sc</a></li>
+              <li><a class="lnk-purple" href="https://github.com/sysdream/ligolo">Ligolo : Reverse Tunneling made easy for pentesters, by pentesters</a></li>
+              <li><a class="lnk-blue" href="https://www.infosecmatter.com/pentesting-101-working-with-exploits/">Pentesting 101: Working With Exploits</a></li>
+              <li><a class="lnk-pink" href="https://soluble-ai.github.io/kubetap/">Kubetap Documentation</a></li>
+              <li><a class="lnk-green" href="https://medium.com/security-operation-capybara/introducing-shuffle-an-open-source-soar-platform-part-1-58a529de7d12">Introducing Shuffle — an Open Source SOAR platform part 1</a></li>
+              <li><a class="lnk-orange" href="https://github.com/google/fuzzing/tree/master/dictionaries">Google fuzzing dictionaries</a></li>
+              <li><a class="lnk-purple" href="https://www.zscaler.com/blogs/research/update-javascript-skimmer-enhancements">Update on JavaScript Skimmer Enhancements</a></li>
+              <li><a class="lnk-blue" href="https://github.com/mvelazc0/Oriana">Oriana: threat hunting tool leveraging Windows events to build relationships</a></li>
+              <li><a class="lnk-pink" href="https://gitlab.com/gitlab-com/gl-security/gl-redteam/red-team-tech-notes/-/tree/master/RT-011%20-%20Phishing%20Campaign?fbclid=IwAR3zz5aybegzjBn2bMzReWKhvtVzsip2viJEcbJJR506RIV6Y3ez0dnjMKc">Red Team Attack Operation RT-011 - Phishing - Fake Laptop Upgrade</a></li>
+              <li><a class="lnk-green" href="https://scotthelme.co.uk/running-dodgy-programs-safely-with-windows-sandbox/">Running dodgy programs safely with Windows Sandbox</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
