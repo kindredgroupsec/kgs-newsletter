@@ -1,0 +1,166 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 01/06/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-4W_v98_MyWI/Xs0pJlZpQWI/AAAAAAAA21A/EksI1f-zwfwnRpXs-de_cLsat4GLcCZogCLcBGAsYHQ/s728-e100/android-malware.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">1 June 2020</mj-text>
+
+        </mj-column>§
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">New Android Flaw Affecting Over 1 Billion Phones Let Attackers Hijack Apps</mj-text>
+          <mj-image src="https://thehackernews.com/images/-4W_v98_MyWI/Xs0pJlZpQWI/AAAAAAAA21A/EksI1f-zwfwnRpXs-de_cLsat4GLcCZogCLcBGAsYHQ/s728-e100/android-malware.png"></mj-image>
+          <mj-text color="#fff">A security vulnerability affecting Android that malicious apps can exploit to masquerade as any other app installed on a targeted device to display fake interfaces to the users, tricking them into giving away sensitive information. The same team of Norwegian cybersecurity researchers today unveiled details of a new critical vulnerability (CVE-2020-0096) affecting the Android operating system that could allow attackers to carry out a much more sophisticated version of Strandhogg attack.</mj-text>
+          <mj-text color="#fff">Dubbed 'Strandhogg 2.0,' the new vulnerability affects all Android devices, except those running the latest version, Android Q / 10, of the mobile operating system—which, unfortunately, is running on only 15-20% of the total Android-powered devices, leaving billions of rest of the smartphones vulnerable to the attackers. However, unlike StrandHogg 1.0 that can only attack apps one at a time, the latest flaw could let attackers "dynamically attack nearly any app on a given device simultaneously at the touch of a button," all without requiring a pre-configuration for each targeted app</mj-text>
+          <mj-text color="#fff">Security researchers responsibly reported the new vulnerability to Google in December last year. After that, Google prepared a patch and shared it with smartphone manufacturing companies in April 2020, who have now started rolling out software updates to their respective users from this month.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/05/stranhogg-android-vulnerability.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/capital-one-must-turn-over-mandiants-forensics-report-a-14352">Capital One Must Turn Over Mandiant's Forensics Report</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/github-warns-java-developers-of-new-malware-poisoning-netbeans-projects/">GitHub warns Java developers of new malware poisoning NetBeans projects</a></li>
+              <li><a class="lnk-green" href="https://www.schneier.com/blog/archives/2020/05/facebook_announ.html">Facebook Announces Messenger Security Features that Don't Compromise Privacy</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/fake-valorant-mobile-app-pushes-scams-on-eager-gamers/">Fake Valorant Mobile app pushes scams on eager gamers</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/200k-sites-with-buggy-wordpress-plugin-exposed-to-wipe-attacks/">200K sites with buggy WordPress plugin exposed to wipe attacks</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/minted-discloses-data-breach-after-5m-user-records-sold-online/">Minted discloses data breach after 5M user records sold online</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/even-the-most-tech-savvy-americans-have-bad-online-safety-habits/">Even tech-savvy Americans have bad online safety habits</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/05/brazilian-hacker-vandathegod.html">Researchers Uncover Brazilian Hacktivist's Identity Who Defaced Over 4800 Sites</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/100-million-in-bounties-paid-via-hackerone-to-ethical-hackers/">$100 million in bounties paid via HackerOne to ethical hackers</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/arbonne-mlm-data-breach-exposes-user-passwords-personal-info/">Arbonne MLM data breach exposes user passwords, personal info</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-octopus-scanner-malware-spreads-via-github-supply-chain-attack/">New Octopus Scanner malware spreads via GitHub supply chain attack</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/cisco-hacked-by-exploiting-vulnerable-saltstack-servers/">Cisco hacked by exploiting vulnerable SaltStack servers</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/german-govt-urges-ios-users-to-patch-critical-mail-app-flaws/">German govt urges iOS users to patch critical Mail app flaws</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2020/05/27/apple-sends-out-11-security-alerts-get-your-fixes-now/">Apple sends out 11 security alerts – get your fixes now!</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/openssh-to-deprecate-sha-1-logins-due-to-security-risk/">OpenSSH to deprecate SHA-1 logins due to security risk</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2020/05/26/docker-desktop-danger-discovered-patch-now/">Docker Desktop danger discovered, patch now</a></li>
+        
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://wunderwuzzi23.github.io/blog/posts/2020/phishing-stats/">Phishing metrics - what to track?</a></li>
+              <li><a class="lnk-pink" href="https://volatility-labs.blogspot.com/2020/05/when-anti-virus-engines-look-like.html">When Anti-Virus Engines Look Like Kernel Rootkits</a></li>
+              <li><a class="lnk-green" href="https://sploitus.com/">Sploitus. Vulnerability search engine</a></li>
+              <li><a class="lnk-orange" href="https://pberba.github.io/security/2020/05/28/lastpass-phishing/">Bypassing LastPass’s “Advanced” YubiKey MFA: A MITM Phishing Attack</a></li>
+              <li><a class="lnk-purple" href="https://github.com/appsecco/attacking-cloudgoat2/"> step-by-step walkthrough of CloudGoat 2.0 scenarios.</a></li>
+              <li><a class="lnk-blue" href="https://www.ghacks.net/2020/05/25/ebay-is-port-scanning-your-system-when-you-load-the-webpage/">eBay is port scanning your system when you load the webpage</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@curtbraz/these-arent-the-phish-you-re-looking-for-7374c3986af5">These Aren’t the Phish You’re Looking For</a></li>
+              <li><a class="lnk-green" href="https://www.linkedin.com/pulse/oscp-crte-which-one-should-you-take-valentin-giraud/">OSCP, CRTE … Which one should you take?</a></li>
+              <li><a class="lnk-orange" href="https://www.microsoft.com/security/blog/2020/05/26/zero-trust-deployment-guide-for-devices/">Zero Trust Deployment Guide for devices</a></li>
+              
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
