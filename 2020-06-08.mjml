@@ -1,0 +1,192 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 08/06/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">8 June 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Critical 'Sign in with Apple' Bug Could Have Let Attackers Hijack Anyone's Account</mj-text>
+          <mj-image src="https://thehackernews.com/images/-TvLsYY1ViZo/XtJ9rsBySSI/AAAAAAAA22Y/HPUE-dTSYYwGTguy3Wk5Fg3ai_Y22_fNACLcBGAsYHQ/s728-e100/sign-in-with-apple.jpg"></mj-image>
+          <mj-text color="#fff">Apple recently paid Indian vulnerability researcher Bhavuk Jain a huge $100,000 bug bounty for reporting a highly critical vulnerability affecting its 'Sign in with Apple' system. The now-patched vulnerability could have allowed remote attackers to bypass authentication and take over targeted users' accounts on third-party services and apps that have been registered using 'Sign in with Apple' option.</mj-text>
+          <mj-text color="#fff">Launched last year at Apple's WWDC conference, 'Sign in with Apple' feature was introduced to the world as a privacy-preserving login mechanism that allows users to sign up an account with 3rd-party apps without disclosing their actual email addresses (also used as Apple IDs). "The impact of this vulnerability was quite critical as it could have allowed a full account takeover. Many developers have integrated Sign in with Apple since it is mandatory for applications that support other social logins. To name a few that use Sign in with Apple - Dropbox, Spotify, Airbnb, Giphy (now acquired by Facebook)," Bhavuk added.</mj-text>
+          <mj-text color="#fff">The researcher responsibly reported the issue to the Apple security team last month, and the company has now patched the vulnerability. Besides paying bug bounty to the researcher, in response, the company also confirmed that it did an investigation of their server logs and found the flaw was not exploited to compromise any account.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/05/sign-in-with-apple-hacking.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.welivesecurity.com/2020/06/01/bug-sign-in-apple-account-hijacking/">
+            Even More on WeLiveSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">48% of employees are less likely to follow safe data practices when working from home</mj-text>
+          <mj-image src="https://cdn.psychologytoday.com/sites/default/files/styles/amp_metadata_content_image_min_1200px_wide/public/blogs/59000/2011/07/68929-59493.jpg?itok=U9ccymuF"></mj-image>
+          <mj-text>In a survey of 1,000 people from the US and 1,000 from the UK, Tessian researchers found that 48% are less likely to follow safe data practices when working from home and 84% of IT leaders surveyed said data loss prevention is more challenging when employees are working from home.</mj-text>
+          <mj-text>When asked why they put their company and its data at risk, employees gave a variety of answers, with half saying "not being watched by IT" was their main reason for not following safe data practices. Another 47% said distractions at home caused them to take more chances and 51% say security policies impeded their productivity while 40% cited the pressure to get work done quickly as a reason. Of those surveyed, 54% said they would find workarounds if security policies stop them from doing their jobs.</mj-text>
+          <mj-text>A recent report on data breaches from Verizon found that 30% of breaches involve internal actors exposing company information as a result of negligent or malicious acts and the Tessian study confirms many of Verizon's findin</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.techrepublic.com/article/48-of-employees-are-less-likely-to-follow-safe-data-practices-when-working-from-home/">
+            Read More on TechRepublic
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-tycoon-ransomware-targets-both-windows-and-linux-systems/">New Tycoon ransomware targets both Windows and Linux systems<</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/06/aadhar-digilocker-hacked.html">Any Indian DigiLocker Account Could've Been Accessed Without Password</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/fitness-depot-hit-by-data-breach-after-isp-fails-to-activate-the-antivirus/">Fitness Depot hit by data breach after ISP fails to 'activate the antivirus'</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/ublock-origin-ad-blocker-now-blocks-port-scans-on-most-sites/">uBlock Origin ad blocker now blocks port scans on most sites</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/critical-vulnerability-could-have-allowed-hackers-disrupt-traffic-lights">Critical Vulnerability Could Have Allowed Hackers to Disrupt Traffic Lights</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/bruteforce-malware-probes-login-for-popular-web-platforms/">Bruteforce malware probes login for popular web platforms</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/here-are-the-new-security-features-in-windows-10-2004/">Here are the new security features in Windows 10 2004</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/phishers-use-fake-vpn-alerts-to-steal-office-365-passwords-a-14382">Phishers Use Fake VPN Alerts to Steal Office 365 Passwords</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/hackers-tried-to-steal-database-logins-from-13m-wordpress-sites/">Hackers tried to steal database logins from 1.3M WordPress sites</a></li>
+              
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/big-gdpr-fines-in-uk-ireland-whats-holdup-a-14361">Big GDPR Fines in UK and Ireland: What's the Holdup?</a></li>
+              <li><a class="lnk-pink" href="https://www.schneier.com/blog/archives/2020/06/password_changi.html">(Bad) Password Changing Habits After a Breach</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/thousands-exim-servers-vulnerable-to-critical-flaw-report-a-14377">Thousands of Exim Servers Vulnerable to Critical Flaw: Report</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/cisco-patches-dozen-vulnerabilities-industrial-routers">Cisco Patches Dozen Vulnerabilities in Industrial Routers</a></li>
+              <li><a class="lnk-green" href="https://grafana.com/blog/2020/06/03/grafana-6.7.4-and-7.0.2-released-with-important-security-fix/">Grafana 6.7.4 and 7.0.2 released with important security fix</a></li>
+              <li><a class="lnk-orange" href="https://www.welivesecurity.com/2020/06/04/mozilla-fixes-five-high-risk-firefox-flaws-dns-over-https/">Mozilla fixes five high‑risk Firefox flaws, bug in DoH feature</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2020/06/newly-patched-sap-ase-flaws-could-let.html">Newly Patched SAP ASE Flaws Could Let Attackers Hack Database Servers</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/06/vmware-cloud-director-exploit.html">Critical VMware Cloud Director Flaw Lets Hackers Take Over Corporate Servers</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.cert.ssi.gouv.fr/uploads/guide-ad.html">Active Directory Security Assessment Checklist</a></li>
+              
+              <li><a class="lnk-pink" href="https://bbva.github.io/apicheck/">APICheck - The DevSecOps toolset for HTTP APIs</a></li>
+              <li><a class="lnk-green" href="https://www.redtimmy.com/java-hacking/apache-tomcat-rce-by-deserialization-cve-2020-9484-write-up-and-exploit/">Apache Tomcat RCE by deserialization (CVE-2020-9484) – write-up and exploit</a></li>
+              <li><a class="lnk-orange" href="https://littlemaninmyhead.wordpress.com/2020/06/08/understanding-certificate-pinning/">Understanding Certificate Pinning/a></li>
+              <li><a class="lnk-purple" href="https://blog.rothe.uk/analysing-honeypot-data/">Analyzing Honeypot Data with Sentinel</a></li>
+              <li><a class="lnk-blue" href="https://www.padok.fr/en/blog/ssh-bastion-aws-terraform">Set up an SSH bastion on AWS with Terraform modules in few minutes</a></li>
+              <li><a class="lnk-pink" href="https://github.com/ninoseki/shodan-dojo">shodan-dojo: Learning Shodan through katas</a></li>
+              <li><a class="lnk-green" href="https://bhavukjain.com/blog/2020/05/30/zeroday-signin-with-apple/">Zero-day in Sign in with Apple</a></li>
+              <li><a class="lnk-orange" href="https://securitylab.github.com/research/octopus-scanner-malware-open-source-supply-chain">The Octopus Scanner Malware: Attacking the open source supply chain</a></li>
+              <li><a class="lnk-purple" href="https://www.lastline.com/labsblog/evolution-of-excel-4-0-macro-weaponization/">Evolution of Excel 4.0 Macro Weaponization</a></li>
+              <li><a class="lnk-blue" href="https://github.com/projectdiscovery/nuclei">nuclei: configurable targeted security scanner based on templates</a></li>
+              <li><a class="lnk-pink" href="https://www.elastic.co/pdf/elastic-guide-to-threat-hunting">The Elastic Guide to Threat Hunting</a></li>
+              <li><a class="lnk-green" href="https://posts.specterops.io/covenant-v0-5-eee0507b85ba">Covenant v0.5 released</a></li>
+              <li><a class="lnk-orange" href="https://b4rtik.github.io/posts/evading-windefender-atp-credential-theft-kernel-version/">Evading WinDefender ATP credential-theft: kernel version</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
