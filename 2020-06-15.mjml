@@ -1,0 +1,177 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 15/06/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">15 June 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">SMBleed: A New Critical Vulnerability Affects Windows SMB Protocol</mj-text>
+          <mj-image src="https://thehackernews.com/images/-31RfzSS3xQM/Xt-9Ggf-iMI/AAAAAAAAAbo/CAzBcgrMaUkcozaX_3-vN2Kqw-vCruNKwCLcBGAsYHQ/s728-e100/SMBleed-smb-vulnerability.jpg"></mj-image>
+          <mj-text color="#fff">Cybersecurity researchers today uncovered a new critical vulnerability affecting the Server Message Block (SMB) protocol that could allow attackers to leak kernel memory remotely, and when combined with a previously disclosed "wormable" bug, the flaw can be exploited to achieve remote code execution attacks.</mj-text>
+          <mj-text color="#fff">Dubbed "SMBleed" (CVE-2020-1206) by cybersecurity firm ZecOps, the flaw resides in SMB's decompression function — the same function as with SMBGhost or EternalDarkness bug (CVE-2020-0796), which came to light three months ago, potentially opening vulnerable Windows systems to malware attacks that can propagate across networks. The newly discovered vulnerability impacts Windows 10 versions 1903 and 1909, for which Microsoft today released security patches as part of its monthly Patch Tuesday updates for June.</mj-text>
+          <mj-text color="#fff">To mitigate the vulnerability, it's recommended that home and business users install the latest Windows updates as soon as possible. For systems where the patch is not applicable, it's advised to block port 445 to prevent lateral movement and remote exploitation.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/06/SMBleed-smb-vulnerability.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/new-windows-10-smbv3-flaw-can-be-used-for-data-theft-rce-attacks/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/jenkins-team-avoids-security-disaster-after-partial-user-database-loss/">Jenkins team avoids security disaster after partial user database loss</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/gamaredon-hackers-use-outlook-macros-to-spread-malware-to-contacts/">Gamaredon hackers use Outlook macros to spread malware to contacts</a></li>
+              <li><a class="lnk-green" href="https://www.vice.com/en_us/article/v7gd9b/facebook-helped-fbi-hack-child-predator-buster-hernandez">Facebook Helped the FBI Hack a Child Predator</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/live-event-solutions-leader-tait-discloses-data-breach/">Live event solutions leader TAIT discloses data breach</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/fortune-500-insurance-firm-genworth-discloses-data-breach/">Fortune 500 insurance firm Genworth discloses data breach</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/microsoft-discovers-cryptomining-gang-hijacking-ml-focused-kubernetes-clusters/">Microsoft discovers cryptomining gang hijacking Kubernetes clusters</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/fbi-warns-of-increased-hacking-risk-if-using-mobile-banking-apps/">FBI warns of increased hacking risk if using mobile banking apps
+              </a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/honda-confirms-cyberattack-affecting-global-production-a-14410">Honda Confirms Hack Attack Disrupted Global Production</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/nintendo-says-300000-accounts-breached-after-hack">Nintendo Says 300,000 Accounts Breached After Hack</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/windows-group-policy-flaw-lets-attackers-gain-admin-privileges/">Windows Group Policy flaw lets attackers gain admin privileges
+              </a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/06/security-drift-silent-killer.html">Security Drift – The Silent Killer</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/06/magecart-skimmer-amazon.html">Magecart Targets Emergency Services-related Sites via Insecure S3 Buckets</a></li>
+              <li><a class="lnk-green" href="https://www.welivesecurity.com/2020/06/08/apple-password-security-open-source-project/">Apple hopes to bolster password security with open source project</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/hackers-are-attacking-the-german-ppe-supply-chain/">Hackers are attacking the German PPE supply chain</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/callstranger-vulnerability-lets-attacks-bypass-security-systems-and-scan-lans/#ftag=RSSbaffb68">CallStranger vulnerability lets attacks bypass security systems and scan LANs</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/cyber-incidents-at-nasa-spiked-366-in-2019/#ftag=RSS56d97e7">Cyber incidents at NASA spiked 366% in 2019</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2020/06/microsoft-patch-tuesday-june-2020-edition/">Microsoft Patch Tuesday, June 2020 Edition</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/vulnerabilities-in-popular-open-source-projects-doubled-in-2019/">Vulnerabilities in popular open source projects doubled in 2019</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/google-researcher-finds-vulnerability-vmware-virtualization-products">Google Researcher Finds Vulnerability in VMware Virtualization Products</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2020/06/10/billions-of-devices-affected-by-upnp-vulnerability/">Billions of devices affected by UPnP vulnerability</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/intel-patched-22-vulnerabilities-in-the-june-2020-platform-update/">Intel patched 22 vulnerabilities in the June 2020 Platform Update</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-remote-code-execution-bug-in-flash-player/">Adobe fixes critical remote code execution bug in Flash Player</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.loginradius.com/engineering/blog/is-your-database-secured-think-again/">Is Your Database Secured? Think Again</a></li>
+              <li><a class="lnk-pink" href="https://blog.mozilla.org/attack-and-defense/2020/06/10/understanding-web-security-checks-in-firefox-part-1/">Understanding Web Security Checks in Firefox (Part 1)</a></li>
+              <li><a class="lnk-green" href="https://www.linkedin.com/pulse/anatomy-automated-account-takeovers-tal-eliyahu/">Anatomy of Automated Account Takeovers</a></li>
+              <li><a class="lnk-orange" href="https://www.loginradius.com/engineering/blog/introduction-to-cross-site-request-forgery-csrf/">Introduction to Cross-Site Request Forgery (CSRF)</a></li>
+              <li><a class="lnk-purple" href="https://www.cyberark.com/resources/threat-research-blog/group-policies-going-rogue">Group Policies Going Rogue</a></li>
+              <li><a class="lnk-blue" href="https://github.com/deadjakk/patch-checker">PatchChecker: Web-based check for Windows privesc vulnerabilities</a></li>
+              <li><a class="lnk-pink" href="https://www.trustedsec.com/blog/abusing-windows-telemetry-for-persistence/">Abusing Windows telemetry for persistence</a></li>
+              <li><a class="lnk-green" href="https://docs.microsoft.com/en-us/cloud-app-security/investigate-anomaly-alerts">How to investigate anomaly detection alerts</a></li>
+              <li><a class="lnk-purple" href="https://github.com/DefensiveOrigins/APT06202001">Applied Purple Teaming - Infrastructure, Threat Optics, and Continuous Improvement </a></li>
+              <li><a class="lnk-blue" href="https://blog.christophetd.fr/automating-the-provisioning-of-active-directory-labs-in-azure/">Automating the provisioning of Active Directory labs in Azure</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@shantanukhande/red-team-using-sharpchisel-to-exfil-internal-network-e1b07ed9b49">Red Team: Using SharpChisel to exfil internal networ</a></li>
+              <li><a class="lnk-green" href="https://scotthelme.co.uk/impending-doom-root-ca-expiring-legacy-clients/">The Impending Doom of Expiring Root CAs and Legacy Clients</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
