@@ -1,0 +1,210 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 29/06/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">29 June 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Over 100 New Chrome Browser Extensions Caught Spying On Users</mj-text>
+          <mj-image src="https://thehackernews.com/images/-U1_y9-stF7A/XvCDiYiEggI/AAAAAAAAAeo/UJyXT2zVUXYSH7hkgkKv3LKQw8o6LsaUQCLcBGAsYHQ/s728-e100/chrome.jpg"></mj-image>
+          <mj-text color="#fff">Google recently removed 106 more extensions from its Chrome Web Store after they were found illegally collecting sensitive user data as part of a "massive global surveillance campaign" targeting oil and gas, finance, and healthcare sectors. "This campaign and the Chrome extensions involved performed operations such as taking screenshots of the victim device, loading malware, reading the clipboard, and actively harvesting tokens and user input," Awake Security said.</mj-text>
+          <mj-text color="#fff">The extensions in question posed as utilities offering capabilities to convert files from one format to the other, among other tools for secure browsing, while relying on thousands of fake reviews to trick unsuspecting users into installing them. In total, the extensions were downloaded nearly 33 million times over the course of three months before Awake Security reached out to Google in May.</mj-text>
+          <mj-text color="#fff">Telemetry data has revealed that some of these extensions were active on the networks of "financial services, oil and gas, media and entertainment, healthcare and pharmaceuticals, retail, high-tech, higher education, and government organizations," although there's no evidence that they were actually used to collect sensitive data. It's recommended that users review extension permissions by visiting "chrome://extensions" on the Chrome browser, consider uninstalling those that are rarely used, or switch to other software alternatives that don't require invasive access to browser activity.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/06/chrome-browser-extensions-spying.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Turn on MFA Before Crooks Do It For You</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2020/06/mfa.jpg"></mj-image>
+          <mj-text>Hundreds of popular websites now offer some form of multi-factor authentication (MFA), which can help users safeguard access to accounts when their password is breached or stolen. But people who don’t take advantage of these added safeguards may find it far more difficult to regain access when their account gets hacked, because increasingly thieves will enable multi-factor options and tie the account to a device they control. Here’s the story of one such incident.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://krebsonsecurity.com/2020/06/turn-on-mfa-before-crooks-do-it-for-you/">
+            Read More on KrebsOnSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">When Security Takes a Backseat to Productivity</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2020/06/intelbrief.png"></mj-image>
+          <mj-text>So ends a key section of a report the U.S. Central Intelligence Agency produced in the wake of a mammoth data breach in 2016 that led to Wikileaks publishing thousands of classified documents stolen from the agency’s offensive cyber operations division. The analysis highlights a shocking series of security failures at one of the world’s most secretive entities, but the underlying weaknesses that gave rise to the breach also unfortunately are all too common in many organizations today.</mj-text>
+          <mj-text>The CIA acknowledged its security processes were so “woefully lax” that the agency probably would never have known about the data theft had Wikileaks not published the stolen documents online. What kind of security failures created an environment that allegedly allowed a former CIA employee to exfiltrate so much sensitive data? Here are a few, in no particular order: Failing to rapidly detect security incidents; Moving too slowly to enact key security safeguards; No effective removable media controls.
+            No single person empowered to ensure IT systems are built and maintained securely throughout their lifecycle ...</mj-text>
+          <mj-text>A key phrase in the CIA’s report references deficiencies in “compartmentalizing” cybersecurity risk. At a high level (not necessarily specific to the CIA), compartmentalizing IT environments involves important concepts such as: Segmenting one’s network so that malware infections or breaches in one part of the network can’t spill over into other areas; Not allowing multiple users to share administrative-level passwords, etc.</mj-text>
+          <mj-button mj-class="bg-green" href="https://krebsonsecurity.com/2020/06/when-security-takes-a-backseat-to-productivity/">
+            Read More on KrebsOnSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://news.softpedia.com/news/how-apple-resolves-the-problem-of-apps-secretly-accessing-your-clipboard-530351.shtml">How Apple Resolves the Problem of Apps Secretly Accessing Your Clipboard</a></li>
+              <li><a class="lnk-pink" href="https://gvnshtn.com/maersk-me-notpetya/">Maersk, me & notPetya</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/ddos-botnet-coder-gets-13-months-in-prison/">DDoS botnet coder gets 13 months in prison</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/apple-adds-support-for-encrypted-dns-doh-and-dot/">Apple adds support for encrypted DNS (DoH and DoT)</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/chinese-bank-forced-western-companies-to-install-malware-laced-tax-software/">Chinese bank forced western companies to install malware-laced tax software</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-lucifer-ddos-malware-creates-a-legion-of-windows-minions/">New Lucifer DDoS malware creates a legion of Windows minions</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/us-now-accuses-assange-conspiring-hacking-groups-a-14502">US Now Accuses Assange of Conspiring With Hacking Groups</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/06/cryptocurrency-docker-image.html">Docker Images Containing Cryptojacking Malware Distributed via Docker Hub</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/sony-launches-playstation-bug-bounty-program-with-50k-rewards/">Sony launches PlayStation bug bounty program with $50K+ rewards</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/microsoft-releases-first-public-preview-of-its-defender-antivirus-on-android/">Microsoft releases first public preview of its Defender antivirus on Android</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/80000-printers-are-exposing-their-ipp-port-online/">80,000 printers are exposing their IPP port online</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/office-365-now-checks-docs-for-known-threats-before-editing/">Office 365 now checks docs for known threats before editing</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/blueleaks-data-dump-exposes-over-24-years-of-police-records/">BlueLeaks data dump exposes over 24 years of police records</a></li>
+              <li><a class="lnk-orange" href="https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.17171.html">Visa Introduces Advanced Identity Score to Help Financial Institutions Prevent New Account Fraud</a></li>
+              <li><a class="lnk-purple" href="https://www.troyhunt.com/pwned-passwords-version-6/">Pwned Passwords, Version 6</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/more-than-75-of-all-vulnerabilities-reside-in-indirect-dependencies/">More than 75% of all vulnerabilities reside in indirect dependencies</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/dropbox-adds-password-manager-vault-and-other-security-features/">Dropbox adds password manager, vault, and other security features</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2020/06/25/patch-time-nvidia-fixes-kernel-driver-holes-on-windows-and-linux/">NVIDIA fixes kernel driver holes on Windows and Linux</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/adobe-wants-users-to-uninstall-flash-player-by-the-end-of-the-year/">Adobe wants users to uninstall Flash Player by the end of the year</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/amd-says-it-will-fix-new-cpu-bug-by-the-end-of-june-2020/">AMD says it will fix new CPU bugs by the end of June 2020</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/79-netgear-router-models-risk-full-takeover-due-to-unpatched-bug/">79 Netgear router models risk full takeover due to unpatched bug</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/cisco-adds-new-security-features-webex-patches-serious-vulnerabilities">Cisco Adds New Security Features to Webex, Patches Serious Vulnerabilities</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/drupal-patches-code-execution-flaw-most-likely-impact-windows-servers">Drupal Patches Code Execution Flaw Most Likely to Impact Windows Servers</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/plex-fixes-media-server-bugs-allowing-full-system-takeover/">Plex fixes Media Server bugs allowing full system takeover</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/vlc-media-player-3011-fixes-severe-remote-code-execution-flaw/">VLC Media Player 3.0.11 fixes severe remote code execution flaw</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/adobe-patches-18-critical-code-execution-flaws-across-five-products">Adobe Patches 18 Critical Code Execution Flaws Across Five Products</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/pavel-odintsov/fastnetmon">astNetMon - A high performance DoS/DDoS load analyzer</a></li>
+              <li><a class="lnk-pink" href="https://github.com/mindedsecurity/behave">Behave!:  monitoring browser extension for pages acting as bad boys.</a></li>
+              <li><a class="lnk-green" href="https://psalm.dev/articles/detect-security-vulnerabilities-with-psalm">Detect PHP security vulnerabilities with Psalm</a></li>
+              <li><a class="lnk-orange" href="https://r2c.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/">Hardcoded secrets, unverified tokens, and other common JWT mistakes</a></li>
+              <li><a class="lnk-purple" href="https://www.reddit.com/r/netsec/comments/hbigl1/red_team_techniques_june_2020/">Red Team Techniques - June 2020</a></li>
+              <li><a class="lnk-blue" href="https://hashcat.net/forum/thread-9303.html">Hashcat 6.0 released: 45% performance improvement on Bcrypt (among others)</a></li>
+              <li><a class="lnk-pink" href="https://github.com/madhuakula/kubernetes-goat">kubernetes-goat: learn and practice Kubernetes security.</a></li>
+              <li><a class="lnk-green" href="https://www.cyberark.com/resources/threat-research-blog/introducing-evasor-a-new-pen-test-tool-for-windowapplocker">Evasor: A New Pen Test Tool for WindowAppLocker</a></li>
+              <li><a class="lnk-orange" href="https://github.com/0xThiebaut/sigmai">Sigma Importer: convert specific data sources into the Sigma generic and open signature format.</a></li>
+              <li><a class="lnk-purple" href="https://ired.team/">Red Teaming Experiments</a></li>
+              <li><a class="lnk-blue" href="https://4sysops.com/archives/applocker-best-practices/">AppLocker best practices</a></li>
+              <li><a class="lnk-pink" href="https://www.microsoft.com/security/blog/2020/06/25/zen-and-the-art-of-threat-hunting/">Lessons learned from the Microsoft SOC—Part 3d: Zen and the art of threat hunting</a></li>
+              <li><a class="lnk-green" href="https://isc.sans.edu/forums/diary/Sigma+rules+The+generic+signature+format+for+SIEM+systems/26258/">Sigma rules! The generic signature format for SIEM systems.</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
