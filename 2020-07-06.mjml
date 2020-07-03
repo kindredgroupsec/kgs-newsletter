@@ -1,0 +1,219 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 06/07/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://i.dailymail.co.uk/1s/2020/06/29/19/30193388-8471191-image-a-2_1593455035977.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">6 July 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">iOS 14 flags TikTok, 53 other apps spying on iPhone clipboards</mj-text>
+          <mj-image src="https://i.dailymail.co.uk/1s/2020/06/29/19/30193388-8471191-image-a-2_1593455035977.jpg"></mj-image>
+          <mj-text color="#fff">Sexy selfies? Passwords copied from your password manager? Bank account information? Bitcoin addresses? Yes, yes, scary yes, yes. Anything you’ve copied recently, they’ll paste it into themselves. Such data is typically used for advertising and tracking purposes.</mj-text>
+          <mj-text color="#fff">The covert content copying is possible not only for a device’s local data, but also on nearby devices, as long as the devices share the same Apple ID and are within about 10 feet of each other. That’s enabled by Apple’s universal clipboard: a clipboard that enables content to be copied on one device and then pasted into an app running on a separate device.</mj-text>
+          <mj-text color="#fff">The iOS 14 developer beta release – which you can download and install now to get an eyeful of this behavior – comes with a feature that’s custom-tailored to spotlight this kind of thing: namely, a banner warning that pops up every time an app reads clipboard contents. How many apps snoop on clipboards, and how often? A whole lot, and quite frequently, as was discovered by many of the people who began testing the beta release. A video, posted on 23 June, had been viewed by over 118,000 people as of Tuesday, 30th June and demonstrates apps getting flagged by iOS 14 as they read content.</mj-text>
+          <mj-text color="#fff">All these apps copying clipboard content have been doing so surreptitiously. They’ve been tough to spot. The issue underscores what an important update the new warning in iOS 14 is, and Apple plans to credit the researchers for being the impetus for the new notification. The scenario is worse on Android than it is on iOS, given that Android APIs are far more lenient. For example, Android allowed apps running in the background to read the clipboard up until Version 10, as opposed to iOS apps, which can do so only when they’re active, as in, running in the foreground.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nakedsecurity.sophos.com/2020/06/30/ios-14-flags-tiktok-53-other-apps-spying-on-iphone-clipboards/">
+            Read More on NakedSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Hacker ransoms 23k MongoDB databases and threatens to contact GDPR authorities</mj-text>
+          <mj-image src="https://zdnet2.cbsistatic.com/hub/i/2020/07/01/15682b00-63d3-4e6e-979e-3fcd983ba16f/mongodb.png"></mj-image>
+          <mj-text>A hacker has uploaded ransom notes on 22,900 MongoDB databases left exposed online without a password, a number that accounts for roughly 47% of all MongoDB databases accessible online. The hacker is using an automated script to scan for misconfigured MongoDB databases, wiping their content, and leaving a ransom note behind asking for a 0.015 bitcoin (~$140) payment. The attacker is giving companies two days to pay, and threatens to leak their data and then contact the victim's local General Data Protection Regulation (GDPR) enforcement authority to report their data leak.</mj-text>
+          <mj-text>These "MongoDB wiping & ransom" attacks aren't new, per-se. The attacks Gevers spotted today are just the latest phase of a series of attacks that started back in December 2016, when hackers realized they could make serious money by wiping MongoDB servers and leaving a ransom demand behind, tricking server owners desperate to get their files back. More than 28,000 servers were ransomed in a series of attacks in January 2017, another 26,000 in September 2017, and then another 3,000 in February 2019.</mj-text>
+          <mj-text>The default MongoDB database setup today comes with secure defaults out of the box, but despite this, we still have tens of thousands of servers that get exposed online on a daily basis for one reason or another. For server admins looking to secure their MongoDB servers the proper way, the MongoDB Security page is the best place to start for getting the right advice.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/hacker-ransoms-23k-mongodb-databases-and-threatens-to-contact-gdpr-authorities/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.welivesecurity.com/2020/07/02/thousands-mongodb-databases-ransacked-held-ransom/">
+            Even More on WeLiveSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">EvilQuest: Ransomware Targets Mac Users</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2017/02/15/Mac-malware.jpg"></mj-image>
+          <mj-text>A ransomware strain targeting Mac users is spreading via a fake installer for Little Snitch - a host-based application firewall for macOS. So far, only those who download Mac apps via Torrent are at risk, Reed says, but he suspects there are other points of distribution.</mj-text>
+          <mj-text>In addition to installing Little Snitch, the fake installer also installs an executable named "patch." A postinstall shell script is downloaded and executes after installation is complete. Having such a postinstall script is normal for this type of app, but in this case it is used to load the malware, according to the report.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bankinfosecurity.com/ransomware-targets-mac-users-a-14534">
+            Read More BankInfoSecurity
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/thiefquest-ransomware-is-a-file-stealing-mac-wiper-in-disguise/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/goldenspy-backdoor-installed-by-tax-software-gets-remotely-removed/">GoldenSpy backdoor installed by tax software gets remotely removed</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/the-next-cybersecurity-headache-employees-know-the-rules-but-just-dont-care/">Employees know the rules but just don't care</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/developer-of-mirai-qbot-based-ddos-botnets-jailed-for-13-months/">Developer of Mirai, Qbot-based DDoS botnets jailed for 13 months</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-created-a-windows-10-file-recovery-tool-how-to-use/">Microsoft quietly created a Windows 10 File Recovery tool, how to use</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/apple-declined-to-implement-16-web-apis-in-safari-due-to-privacy-concerns/">Apple declined to implement 16 Web APIs in Safari due to privacy concerns</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/apple-strong-arms-entire-ca-industry-into-one-year-certificate-lifespans/">Apple strong-arms entire CA industry into one-year certificate lifespans</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/06/russian-credit-card-hacker.html">Russian Hacker Gets 9-Year Jail for Running Online Shop of Stolen Credit Cards</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/magecart-card-skimmer-hidden-in-images-exif-metadata-a-14520">Magecart Card Skimmer Hidden in Image's EXIF Metadata</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/2020-sees-rise-in-invoice-and-payment-fraud-bec-attacks/">2020 sees rise in invoice and payment fraud BEC attacks
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/ucsf-med-school-pays-11-million-ransom-a-14526">UCSF Med School Pays $1.1 Million Ransom</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/hundreds-arrested-after-encrypted-messaging-network-takeover/">Hundreds arrested after encrypted messaging network takeover</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/cisco-discloses-details-chrome-firefox-vulnerabilities">Cisco Discloses Details of Chrome, Firefox Vulnerabilities</a></li>
+              <li><a class="lnk-blue" href="https://www.welivesecurity.com/2020/07/01/microsoft-releases-emergency-update-two-serious-windows-flaws/">Microsoft releases emergency update to fix two serious Windows flaws</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/software/mozilla-rolls-out-emergency-firefox-update-to-fix-search-issues/">Mozilla rolls out emergency Firefox update to fix search issues</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/adobe-mastercard-visa-warn-online-store-owners-of-magento-1-x-eol/">Adobe, Mastercard, Visa warn online store owners of Magento 1.x EOL</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/palo-alto-networks-patches-critical-vulnerability-in-firewall-os/">Palo Alto Networks patches critical vulnerability in firewall OS</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://full-disclosure.eu/reports/2019/FDEU-CVE-2019-10222-telia-savitarna-backdoor.html">Major vulnerability in Telia routers (FDEU-CVE-2019-10222)</a></li>
+              <li><a class="lnk-pink" href="https://github.com/fsecurelabs/leonidas">Leonidas: framework for executing attacker actions in the cloud</a></li>
+              <li><a class="lnk-green" href="https://www.padok.fr/en/blog/machine-to-machine-auth-azure">Machine to machine authentication on Azure</a></li>
+              <li><a class="lnk-orange" href="https://zolder.io/2020/07/01/using-a-firewall-and-sentinel-to-detect-lateral-movement/?a=q">Detect lateral movement with Azure Sentinel</a></li>
+              <li><a class="lnk-purple" href="https://github.com/dariusztytko/progress-burp">progress-burp: track vulnerability assessment progress in Burp</a></li>
+              <li><a class="lnk-blue" href="https://smallstep.com/blog/ssh-emergency-access/">SSH Emergency Access</a></li>
+              <li><a class="lnk-pink" href="https://security.googleblog.com/2020/06/system-hardening-in-android-11.html">System hardening in Android 11</a></li>
+              <li><a class="lnk-green" href="https://github.com/FlameOfIgnis/Pwdb-Public">PWDB - New generation of Password Mass-Analysis</a></li>
+              <li><a class="lnk-orange" href="https://github.com/golem445/Corporate_Masks">Corporate_Masks: 8-14 character Hashcat masks for corporate accounts</a></li>
+              <li><a class="lnk-purple" href="https://www.elastic.co/blog/elastic-security-opens-public-detection-rules-repo">Elastic Security opens public detection rules repo</a></li>
+              <li><a class="lnk-blue" href="https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet">Active Directory Exploitation Cheat Sheet</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/bugbountywriteup/from-recon-to-bypassing-mfa-implementation-in-owa-by-using-ews-misconfiguration-b6a3518b0a63">Bypassing MFA Implementation in OWA</a></li>
+              <li><a class="lnk-green" href="https://www.microsoft.com/security/blog/2020/06/10/the-science-behind-microsoft-threat-protection-attack-modeling-for-finding-and-stopping-evasive-ransomware/">Inside Microsoft Threat Protection: Attack modeling for finding and stopping lateral movement</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+       <mj-section background-color="#F39000">
+              <mj-column>
+                <mj-text mj-class="white h3" align="center">Summer break!</mj-text>
+                <mj-image src="https://news.infosecgur.us/assets/summer2.png"></mj-image>
+
+                <mj-text mj-class="white">It's time for the Kindred Group Security team to take some holiday. The newsletter will be off for a few weeks but don't worry, we'll be back. See you soon for some awesome infosec news!</mj-text>
+
+              </mj-column>
+            </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
