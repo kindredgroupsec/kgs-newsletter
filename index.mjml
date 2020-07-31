@@ -67,10 +67,11 @@
       <mj-section background-color="#fff">
         <mj-column>
           <mj-text>A weekly newsletter of the best articles on cybersecurity, privacy, security awareness, and more. All links are curated by hand from Kindred Group's security team.</mj-text>
-          <mj-text><strong>Don't forget to <a class="lnk-pink" href="https://kindred-newsletter.infosecgur.us/register">register</a> if you want to receive this newsletter directly to your email address.</strong></mj-text>
+          <mj-text><strong>Don't forget to <a class="lnk-pink" href="https://news.infosecgur.us/register.html">register</a> if you want to receive this newsletter directly to your email address.</strong></mj-text>
           <mj-spacer height="30px" />
           <mj-text mj-class="green h2">2020</mj-text>
           <mj-list>
+          <li><a href="./2020-08-03.html" class="lnk-blue">3 August 2020</a> (<a href="./2020-08-03.pdf" class="lnk-green">PDF</a>)</li>
            <li><a href="./2020-07-06.html" class="lnk-blue">6 July 2020</a> (<a href="./2020-07-06.pdf" class="lnk-green">PDF</a>)</li>
           <li><a href="./2020-06-29.html" class="lnk-blue">29 June 2020</a> (<a href="./2020-06-29.pdf" class="lnk-green">PDF</a>)</li>
 

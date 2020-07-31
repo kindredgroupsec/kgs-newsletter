@@ -1,0 +1,234 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 03/08/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-Ok4t1sseT8s/XyKVWWeeJpI/AAAAAAAAAms/zhMVRzL4240kXdFJXaPjNMFW5Db2Kk0JgCLcBGAsYHQ/s728-e100/zoom-meeting-password-cracking.gif" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">3 August 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Garmin confirms ransomware attack</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2020/07/27/garmin-connect-header.jpg"></mj-image>
+          <mj-text color="#fff">Garmin broke its silence Monday, acknowledging that a hack attack that encrypted several of its systems last week led to outages that affected several of the company's fitness and aviation products along with knocking its homepage and customer service centers offline, confirming a ransomware attack. Last week, Garmin suffered a worldwide outage that affected their Garmin Connect, Strava, inReach, and flyGarmin services.</mj-text>
+          <mj-text color="#fff">It is common for companies not to mention the ransomware family used in an attack while law enforcement is conducting an investigation.The WastedLocker Ransomware is attributed to the Evil Corp cybercrime group who is best known for their use of the Dridex banking and downloader trojan in hacking operations. After the indictment of Evil Corp members by the USA, the hacking group restructured their tactics and techniques to include a new ransomware called WastedLocker that is used to target and extort enterprise organizations.</mj-text>
+          <mj-text color="#fff">Garmin reiterated that it doesn't believe hackers exfiltrated any data from its network. </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/garmin-confirms-ransomware-attack-services-coming-back-online/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/garmin-confirms-hackers-encrypted-several-systems-a-14713">
+            Even More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Zoom Bug Allowed Snoopers Crack Private Meeting Passwords in Minutes</mj-text>
+          <mj-image src="https://thehackernews.com/images/-Ok4t1sseT8s/XyKVWWeeJpI/AAAAAAAAAms/zhMVRzL4240kXdFJXaPjNMFW5Db2Kk0JgCLcBGAsYHQ/s728-e100/zoom-meeting-password-cracking.gif"></mj-image>
+          <mj-text>Popular video conferencing app Zoom recently fixed a new security flaw that could have allowed potential attackers to crack the numeric passcode used to secure private meetings on the platform and snoop on participants. Zoom meetings are by default protected by a six-digit numeric password, but the lack of rate limiting enabled "an attacker to attempt all 1 million passwords in a matter of minutes and gain access to other people's private (password protected) Zoom meetings."</mj-text>
+          <mj-text>It's worth noting that Zoom began requiring a passcode for all meetings back in April as a preventive measure to combat Zoom-bombing attacks, which refers to the act of disrupting and hijacking Zoom meetings uninvited to share obscene and racist content.</mj-text>
+          <mj-text>The researcher also found that the same procedure could be repeated even with scheduled meetings, which have the option to override the default passcode with a longer alphanumeric variant, and run it against a list of top 10 million passwords to brute-force a login. Following the findings, Zoom took the web client offline to mitigate the issues on April 2 before issuing a fix a week later. Just earlier this month, the company addressed a zero-day vulnerability in its Windows app that could allow an attacker to execute arbitrary code on a victim's computer running Windows 7 or older.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2020/07/zoom-meeting-password-hacking.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">No More Ransom turns 4: Saves $632 million in ransomware payments</mj-text>
+          <mj-image src="https://www.bleepstatic.com/images/news/ransomware/n/no-more-ransom/fourth-anniversary/tools.jpg"></mj-image>
+          <mj-text>The No More Ransom Project celebrates its fourth anniversary today after helping over 4.2 million visitors recover from a ransomware infection and saving an estimated $632 million in ransom payments. Over the past four years, The No More Ransom project estimates that they have saved $632 million in ransom payments through its partners' cooperation and the decryptors that were released.</mj-text>
+          <mj-text>No More Ransom was created in 2016 through an alliance between Europol’s European Cybercrime Centre, the National High Tech Crime Unit of the Netherlands’ police, McAfee, and Kaspersky to battle ransomware and provide free decryption services and support to victims.</mj-text>
+          <mj-text>The amount of money saved is probably far more significant as it is common for other sites to host partner's decryptors, which would not allow the Project to keep track of their usage. Furthermore, as most decryptors do not include telemetry, they may have been used in far higher amounts than we know.</mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/no-more-ransom-turns-4-saves-632-million-in-ransomware-payments/">
+            Read More on BleepingComputer
+          </mj-button>
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/hacker-gang-behind-garmin-attack-doesnt-have-a-history-of-stealing-user-data/">Hacker gang behind Garmin attack doesn't have a history of stealing user data</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2020/07/grub2-bootloader-vulnerability.html">Critical GRUB2 Bootloader Bug Affects Billions of Linux and Windows Systems</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/keeper-group-targeted-payment-card-data-on-570-sites-a-14580">'Keeper' Group Targeted Payment Card Data on 570 Sites</a></li>
+              <li><a class="lnk-blue" href="https://isc.sans.edu/forums/diary/Consumer+VPNs+You+May+Be+Fine+Without/26404/">Consumer VPNs: You May Be Fine Without</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/the-irs-asks-tax-professionals-to-enable-multi-factor-authentication/">The IRS asks tax professionals to enable multi-factor authentication</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/t-mobile-announces-free-scam-shield-robocall-and-scam-protection/">T-Mobile announces free Scam Shield robocall and scam protection</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/magento-adds-2fa-to-protect-against-card-skimming-attacks/">Magento adds 2FA to protect against card skimming attacks</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2020/07/hacking-okcupid-account.html">OkCupid Dating App Flaws Could've Let Hackers Read Your Private Messages</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/07/industrial-vpn-security.html">Industrial VPN Flaws Could Let Attackers Target Critical Infrastructures</a></li>
+              <li><a class="lnk-pink" href="https://heimdalsecurity.com/blog/privileged-access-management/">What is Privileged Access Management (PAM)?</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/microsoft-double-key-encryption-enters-public-preview/#ftag=RSSbaffb68">Microsoft Double Key Encryption enters public preview</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-365-adds-endpoint-data-leak-protection-in-public-preview/">Microsoft 365 adds endpoint data leak protection in public preview</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/blogs/crypto-scammers-werent-first-to-crack-twitter-p-2918">'Crypto' Scammers Weren't the First to Crack Twitter</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/couchsurfing-investigates-data-breach-after-17m-user-records-appear-on-hacking-forum/#ftag=RSSbaffb68">CouchSurfing investigates data breach after 17m user records appear on hacking forum</a></li>
+              <li><a class="lnk-pink" href="https://www.welivesecurity.com/2020/07/23/google-adds-security-enhancements-gmail-meet-chat/">Google adds security enhancements to Gmail, Meet and Chat</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/apple-sued-for-not-taking-action-against-itunes-gift-card-scams/#ftag=RSSbaffb68">Apple sued for not taking action against iTunes gift card scams</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/source-code-from-dozens-of-companies-leaked-online/">Source code from dozens of companies leaked online</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/hacker-battle-for-home-routers-a-14706">The Hacker Battle for Home Routers</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/netflix-credential-phishing-hides-behind-working-captcha/">Netflix credential phishing hides behind working CAPTCHA</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/why-security-professionals-are-facing-more-work-stress/#ftag=RSS56d97e7">Why security professionals are facing more work stress</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/07/docker-linux-malware.html">Linux Malware Targeting Docker Servers With Exposed APIs</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/how-to-add-fingerprint-authentication-to-your-windows-10-computer/#ftag=RSS56d97e7">How to add fingerprint authentication to your Windows 10 computer</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/fbi-warns-of-new-ddos-attack-vectors-coap-ws-dd-arms-and-jenkins/#ftag=RSSbaffb68">FBI warns of new DDoS attack vectors: CoAP, WS-DD, ARMS, and Jenkins</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/adobe-issues-emergency-fixes-for-vulnerabilities-in-photoshop-prelude/#ftag=RSSbaffb68">Adobe issues emergency fixes for critical vulnerabilities in Photoshop, Bridge, Prelude</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/critical-wordpress-plugin-bug-lets-hackers-take-over-hosting-account/">Critical Wordpress plugin bug lets hackers take over hosting account</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/poc-exploits-released-for-sap-recon-vulnerabilities-patch-now/">PoC exploits released for SAP Recon vulnerabilities, patch now!</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/cisco-releases-fixes-for-critical-vpn-router-vulnerabilities/#ftag=RSSbaffb68">Cisco releases security fixes for critical VPN, router vulnerabilities</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2020/07/28/firefox-79-is-out-its-a-double-update-month-so-patch-now/">Firefox 79 is out – it’s a double-update month so patch now!</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/magento-gets-security-updates-for-severe-code-execution-bugs/">Magento gets security updates for severe code execution bugs</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/critical-sharepoint-flaw-dissected-rce-details-now-available/">Critical SharePoint flaw dissected, RCE details now available</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2020/07/24/asus-routers-could-be-reflashed-with-malware-patch-now/">ASUS routers could be reflashed with malware – patch now!</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/5-severe-d-link-router-vulnerabilities-disclosed-patch-now/">5 severe D-Link router vulnerabilities disclosed, patch now</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/multiple-tor-security-issues-disclosed-more-to-come/#ftag=RSSbaffb68">Multiple Tor security issues disclosed, more to come</a></li>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2020/07/heres-why-credit-card-fraud-is-still-a-thing/">Here’s Why Credit Card Fraud is Still a Thing</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/8-tips-for-crafting-ransomware-defenses-responses-a-14724">8 Tips for Crafting Ransomware Defenses and Responses</a></li>
+              <li><a class="lnk-green" href="https://www.welivesecurity.com/2020/07/13/zoom-patches-zero-day-flaw-windows-client/">Zoom patches zero‑day flaw in Windows client</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.cyborgsecurity.com/python-malware-on-the-rise/">Python Malware On The Rise</a></li>
+              <li><a class="lnk-pink" href="https://blog.mozilla.org/security/2020/07/09/reducing-tls-certificate-lifespans-to-398-days/">Reducing TLS Certificate Lifespans to 398 Days </a></li>
+              <li><a class="lnk-green" href="https://blog.zsec.uk/cve-2020-1350-honeypoc/">HoneyPoC: The fallout data after I trolled the Internet...</a></li>
+              <li><a class="lnk-orange" href="https://palone.blog/#post-the-story-of-my-first-incident-response-106">The Story of my first “Incident Response”</a></li>
+              <li><a class="lnk-purple" href="https://unit42.paloaltonetworks.com/cve-2020-8558/">Kubernetes Vulnerability Puts Clusters at Risk of Takeover (CVE-2020-8558)</a></li>
+              <li><a class="lnk-blue" href="https://eclypsium.com/2020/07/29/theres-a-hole-in-the-boot/">There’s a Hole in the Boot</a></li>
+              <li><a class="lnk-pink" href="https://github.com/cyberark/SkyArk">SkyArk: detects shadow admin accounts in AWS and Azure environments</a></li>
+              <li><a class="lnk-green" href="https://opnsense.org/opnsense-20-7/">OPNsense® 20.7 "Legendary Lion" released</a></li>
+              <li><a class="lnk-orange" href="https://www.virtuesecurity.com/pentesting-user-interfaces/">Pentesting User Interfaces: Tips to Phish  Chrome, Outlook, or Thunderbird User</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/version-1/protecting-your-serverless-solution-cd5d4247e27c">Protecting Your Serverless Solution</a></li>
+              <li><a class="lnk-blue" href="https://application.security/free-application-security-training">OWASP TOP 10 interractive training</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/swlh/all-your-spf-are-belong-to-us-exploring-trust-relationships-through-global-scale-spf-mining-a666c7a7d368">All Your SPF Belong to us: Exploring Trust Relationships Through Global Scale SPF Mining</a></li>
+              <li><a class="lnk-green" href="https://krisk.io/post/cti/">What's wrong with Cyber Threat Intelligence</a></li>
+              <li><a class="lnk-orange" href="https://github.com/BlueTeamLabs/sentinel-attack">Sentinel ATT&CK: leverages Sysmon and MITRE ATT&CK on Azure Sentinel</a></li>
+              <li><a class="lnk-purple" href="https://www.sentinelone.com/blog/evilquest-a-new-macos-malware-rolls-ransomware-spyware-and-data-theft-into-one/">“EvilQuest” Rolls Ransomware, Spyware & Data Theft Into One</a></li>
+              <li><a class="lnk-blue" href="http://jackson-t.ca/edr-reversing-evading-01.html">Reversing and Evading EDRs: Part 1</a></li>
+              <li><a class="lnk-pink" href="https://www.infosecmatter.com/top-16-active-directory-vulnerabilities/">Top 16 Active Directory Vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://github.com/jfmaes/TrustJack">TrustJack - A UAC bypass based on Trusted folder abuse</a></li>
+              <li><a class="lnk-orange" href="https://github.com/nshalabi/SysmonTools">Sysmon Tools</a></li>
+              <li><a class="lnk-purple" href="https://www.cyberguider.com/bypassing-av-cat-vs-mouse/">Bypassing AV (Windows Defender) … Cat vs. Mouse</a></li>
+              <li><a class="lnk-blue" href="https://www.tomanthony.co.uk/blog/zoom-security-exploit-crack-private-meeting-passwords/">Zoom Security Exploit – Cracking private meeting passwords</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/offensive-security-acquires-cybersecurity-training-project-vulnhub">Offensive Security Acquires Cybersecurity Training Project VulnHub</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
