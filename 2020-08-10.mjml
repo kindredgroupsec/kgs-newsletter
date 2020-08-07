@@ -1,0 +1,185 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 10/08/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-aYFBuOlcksU/Xy1KE_VwKzI/AAAAAAAA3KM/12kxwkyaR2kq0pNR-oM41HcEHffZ5NCvQCLcBGAsYHQ/s728-e100/capital-one-data-breach.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">10 August 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Capital One Fined $80 Million for 2019 Data Breach Affecting 106 Million Users
+          </mj-text>
+          <mj-image src="https://thehackernews.com/images/-aYFBuOlcksU/Xy1KE_VwKzI/AAAAAAAA3KM/12kxwkyaR2kq0pNR-oM41HcEHffZ5NCvQCLcBGAsYHQ/s728-e100/capital-one-data-breach.jpg"></mj-image>
+          <mj-text color="#fff">A United States regulator has fined the credit card provider Capital One Financial Corp with $80 million over last year's data breach that exposed the personal information of more than 100 million credit card applicants of Americans.</mj-text>
+          <mj-text color="#fff">According to a press release published by the OCC on Thursday, Capital One failed to establish appropriate risk management before migrating its IT operations to a public cloud-based service, which included appropriate design and implementation of certain network security controls, adequate data loss prevention controls, and effective dispositioning of alerts. The OCC also said that the credit card provider also left numerous weaknesses in its cloud-based data storage in an internal audit in 2015 as well as failed to patch security vulnerabilities, violating the "Interagency Guidelines Establishing Information Security Standards," that all US banks must comply with.</mj-text>
+          <mj-text color="#fff">Besides credit card information, the hacker also managed to steal approx 140,000 Social Security numbers and 80,000 bank account numbers linked to US customers, and 1 million Canadian Social Insurance numbers. In addition to the civil money penalty of 80 million dollars, the OCC also ordered Capital One Finance to enhance its cybersecurity security defenses and submit a plan to the OCC within 90 days outlining how it intends to do so.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/08/capital-one-data-breach.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/capital-one-fined-80-million-for-2019-hack/">
+            Even More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Canon USA Websites Offline Following Cyber Incident, internal memo confirms ransomware attack</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/canon-usa-websites-offline-following-cyber-incident-showcase_image-6-a-14777.jpg"></mj-image>
+          <mj-text>The website outage began Wednesday, two days after the imaging company issued a statement reporting that user data was missing from a cloud storage database. Brett Callow, a threat analyst with the security firm Emsisoft, says the ransomware group Maze has claimed responsibility for the security incident. So far, however, Maze has not posted to its website any exfiltrated data or updates on the attack, he adds.</mj-text>
+          <mj-text>Although there's no evidence connecting the website outages with the missing data, exfiltration of data is common Maze tactic, security experts note. Maze Group ransomware operators use 'name and shame' tactics whereby victims' data is exfiltrated prior to encryption and used to leverage ransomware payments," Walmsley says. "The bullying tactics used by such ransomware groups are making attacks even more expensive, and they are not going to stop any time soon, particularly within the current climate. These attackers will attempt to exploit, coerce and capitalize on organizations' valuable digital assets."</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bankinfosecurity.com/canon-usa-websites-offline-following-cyber-incident-a-14777">
+            Read More on BankInfoSecurity
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/canon-confirms-ransomware-attack-in-internal-memo/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href=" 
+ 
+ 
+                Zello resets all user passwords after data breach">https://www.bleepingcomputer.com/news/security/zello-resets-all-user-passwords-after-data-breach/</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/microsoft-paid-out-nearly-14-million-bug-bounty-programs-past-year">Microsoft Paid Out Nearly $14 Million via Bug Bounty Programs in Past Year</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/hacker-leaks-passwords-for-900-enterprise-vpn-servers/#ftag=RSSbaffb68">Hacker leaks passwords for 900+ enterprise VPN servers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/hackers-can-abuse-microsoft-teams-updater-to-install-malware/">Hackers can abuse Microsoft Teams updater to install malware</a></li>
+              <li><a class="lnk-purple" href="https://www.troyhunt.com/im-open-sourcing-the-have-i-been-pwned-code-base/">I'm Open Sourcing the Have I Been Pwned Code Base</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/08/magecart-homograph-phishing.html">Evasive Credit Card Skimmers Using Homograph Domains and Infected Favicon</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/intel-leak-20gb-of-source-code-internal-docs-from-alleged-breach/">Intel leak: 20GB of source code, internal docs from alleged breach</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/garmin-reportedly-paid-ransom-a-14773">Garmin Reportedly Paid a Ransom</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/new-etheroops-attack-takes-advantage-of-faulty-ethernet-cables/">New EtherOops attack takes advantage of faulty Ethernet cables</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/08/foreshadow-processor-vulnerability.html">Intel, ARM, IBM, AMD Processors Vulnerable to New Side-Channel Attacks</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.cloudflare.com/network-layer-ddos-attack-trends-for-q2-2020/">Network-layer DDoS attack trends for Q2 2020</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-releases-windows-10-version-2004-security-baseline/">Microsoft releases Windows 10 Version 2004 security baseline</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/twitter-rushes-to-fix-flaw-in-android-version-a-14776">Twitter Rushes to Fix Flaw in Android Version</a></li>
+              <li><a class="lnk-orange" href="https://weaklayer.com/2020/06/28/Getting-Started/">Weaklayer: Browser Detection & Response</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/@securityshenaningans/the-danger-of-world-writable-nfs-shares-39ecfe868468">The danger of world writable NFS shares</a></li>
+              <li><a class="lnk-blue" href="https://github.com/Manticore-Platform/manticore-cli">Manticore Adversary Emulation Client Tool</a></li>
+              <li><a class="lnk-pink" href="https://github.com/jstrieb/link-lock">Link Lock: Password-protect URLs using AES in the browser.</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@fs0c131y/tiktok-logs-logs-logs-e93e8162647a">TikTok: Logs, Logs, Logs</a></li>
+              <li><a class="lnk-orange" href="https://delta.navisec.io/a-pentesters-guide-part-5-unmasking-wafs-and-finding-the-source/">A Pentesters Guide - Part 5 (Unmasking WAFs and Finding the Source)</a></li>
+              <li><a class="lnk-purple" href="https://emilymstark.com/2020/07/20/certificate-transparency-a-birds-eye-view.html">Certificate Transparency: a bird's-eye view</a></li>
+              <li><a class="lnk-blue" href="https://www.f-secure.com/en/consulting/events/attack-detection-fundamentals-workshops">Attack Detection Fundamentals</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
