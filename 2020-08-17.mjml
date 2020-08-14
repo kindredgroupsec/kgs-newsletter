@@ -1,0 +1,173 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 17/08/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://tr1.cbsistatic.com/hub/i/r/2020/08/13/037cd79f-0faa-4fab-804c-f2cd09765a9a/resize/770x/527a407e47b7356fcb2080a7a55fb8e4/what-zt-tech-do-you-use-today.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">17 August 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">NIST Issues Final Guidance on 'Zero Trust' Architecture</mj-text>
+          <mj-image src="https://tr1.cbsistatic.com/hub/i/r/2020/08/13/037cd79f-0faa-4fab-804c-f2cd09765a9a/resize/770x/527a407e47b7356fcb2080a7a55fb8e4/what-zt-tech-do-you-use-today.jpg"></mj-image>
+          <mj-text color="#fff">NIST Special Publication 800-207 is designed to help CISOs, security professionals and network administrators gain a better understanding of the zero trust concept. By adopting a zero trust strategy, organizations can help prevent data breaches and limit attackers' lateral movement, the NIST guidance states.</mj-text>
+          <mj-text color="#fff">"Perimeter-based network security has also been shown to be insufficient, since once attackers breach the perimeter, further lateral movement is unhindered," the guidance notes.</mj-text>
+          <mj-text color="#fff">The publication states that any organization in the private sector or the government can adopt the zero trust guidelines. In fact, most organizations already have some elements of zero trust in their enterprise infrastructure, NIST notes. But enterprises that are geographically dispersed or have a large mobile workforce are more likely to benefit from deploying the latest zero trust guidance. These include enterprises with satellite facilities, those using multi-cloud or cloud-to-cloud approaches, organizations that rely on contracted services and enterprises with public- or customer-facing services.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/nist-issues-final-guidance-on-zero-trust-architecture-a-14820">
+            Read More on BankInfoSecurity
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.techrepublic.com/article/zero-trust-is-critical-but-very-underused/#ftag=RSS56d97e7">
+            Zero Trust is critical, but very underused (TechRepublic)
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/security-in-the-new-normal-passwordless-is-the-way-forward/#ftag=RSS56d97e7">Security in the 'new normal': Passwordless is the way forward</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/08/samsung-find-my-phone-hacking.html">Flaws in Samsung Phones Exposed Android Users to Remote Attacks</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/08/microsoft-software-patches.html">Microsoft Reveals New Innocent Ways Windows Users Can Get Hacked</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/def-con-new-tool-brings-back-domain-fronting-as-domain-hiding/">DEF CON: New tool brings back 'domain fronting' as 'domain hiding'</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/">China is now blocking all encrypted HTTPS traffic that uses TLS 1.3 and ESNI</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/08/chrome-csp-bypass.html">Google Chrome Bug Could Let Hackers Bypass CSP Protection; Update Web Browsers</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/sans-infosec-training-org-suffers-data-breach-after-phishing-attack/">SANS infosec training org suffers data breach after phishing attack</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@veeralpatel/if-your-email-is-hacked-everything-is-47544aeee699">Your digital security is as strong as your weakest recovery email</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/signal-adds-message-requests-to-stop-spam-and-protect-user-privacy/">Signal adds message requests to stop spam and protect user privacy</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2020/08/amazon-alexa-hacking-skills.html">Amazon Alexa Bugs Allowed Hackers to Install Malicious Skills Remotely</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/08/a-team-of-academic-researcherswho.html">New Attack Lets Hackers Decrypt VoLTE Encryption to Spy on Phone Calls</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/microsoft-august-2020-patch-tuesday-fixes-120-vulnerabilities-two-zero-days/">Microsoft August 2020 Patch Tuesday fixes 120 vulnerabilities, two zero-days</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-code-execution-bugs-in-acrobat-and-reader/">Adobe fixes critical code execution bugs in Acrobat and Reader</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/teamviewer-fixes-bug-that-lets-attackers-access-your-pc/">TeamViewer fixes bug that lets attackers access your PC</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2020/08/citrix-endpoint-management.html">Critical Flaws Affect Citrix Endpoint Management (XenMobile Servers)</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/sap-updates-security-note-for-critical-recon-vulnerability/">SAP updates security note for critical RECON vulnerability</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/08/vBulletin-vulnerability-exploit.html">A New vBulletin 0-Day RCE Vulnerability and Exploit Disclosed Publicly</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/citrix-fixes-critical-bugs-allowing-takeover-of-xenmobile-servers/">Citrix fixes critical bugs allowing takeover of XenMobile Servers</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/microsofts-patch-lsass-flaw-incomplete-google-researcher-says">Microsoft's Patch for LSASS Flaw Incomplete, Google Researcher Says</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/potentially-serious-vulnerability-found-popular-wysiwyg-editor-tinymce">Potentially Serious Vulnerability Found in Popular WYSIWYG Editor TinyMCE</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://engineering.fb.com/security/pysa/">Pysa: An open source static analysis tool to detect and prevent security issues in Python code</a></li>
+              <li><a class="lnk-pink" href="https://github.com/felixweyne/ProcessSpawnControl">Process Spawn Control: Powershell tool for behavioral analysis of malware.</a></li>
+              <li><a class="lnk-green" href="https://github.com/intelowlproject/IntelOwl">Intel Owl: Open source threat intelligence solution</a></li>
+              <li><a class="lnk-orange" href="https://medium.com/@nusenu/how-malicious-tor-relays-are-exploiting-users-in-2020-part-i-1097575c0cac">How Malicious Tor Relays are Exploiting Users in 2020</a></li>
+              <li><a class="lnk-purple" href="https://posts.specterops.io/a-change-of-mythic-proportions-21debeb03617">A Change of Mythic Proportions: Apfell C2 update</a></li>
+              <li><a class="lnk-blue" href="https://vulners.blog/2020/08/12/game-changing-plugin-for-your-splunk-try-out-new/">Splunk Vulnerability Scanner plugin</a></li>
+              <li><a class="lnk-pink" href="https://www.mnemonic.no/blog/introducing-snicat">SNIcat: Circumventing the guardians</a></li>
+              <li><a class="lnk-green" href="https://blog.exploitee.rs/2020/exploiting-vbulletin-a-tale-of-patch-fail/">Exploiting vBulletin: “A Tale of a Patch Fail”</a></li>
+              <li><a class="lnk-orange" href="https://hwsecurity.dev/2020/08/webauthn-pin-bypass/">PIN Bypass in Passwordless WebAuthn</a></li>
+              <li><a class="lnk-purple" href="https://geneva.cs.umd.edu/posts/china-censors-esni/esni/">Exposing and Circumventing China's Censorship of ESNI</a></li>
+              <li><a class="lnk-blue" href="https://blog.dylan.codes/defending-your-malware/">Defending Your Malware</a></li>
+              <li><a class="lnk-pink" href="https://techcommunity.microsoft.com/t5/windows-it-pro-blog/security-best-practices-for-windows-server-update-services-wsus/ba-p/1587536?WT.mc_id=modinfra-0000-abartolo">Security best practices for Windows Server Update Services (WSUS)</a></li>
+              <li><a class="lnk-green" href="URL">SysmonTools: Sysmon utility toolbox</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
