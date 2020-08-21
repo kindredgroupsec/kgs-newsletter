@@ -1,0 +1,195 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 24/08/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-B95K4F3yALA/Xz7sm4T0uCI/AAAAAAAA3N0/OV3Fc0QjLGMoe9CDlHsFFlMXrGn9bt73QCLcBGAsYHQ/s728-e100/uber-hack.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">24 August 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Former Uber Security Chief Charged Over Covering Up 2016 Data Breach</mj-text>
+          <mj-image src="https://thehackernews.com/images/-B95K4F3yALA/Xz7sm4T0uCI/AAAAAAAA3N0/OV3Fc0QjLGMoe9CDlHsFFlMXrGn9bt73QCLcBGAsYHQ/s728-e100/uber-hack.jpg"></mj-image>
+          <mj-text color="#fff">The federal prosecutors in the United States have charged Uber's former chief security officer, Joe Sullivan, for covering up a massive data breach that the ride-hailing company suffered in 2016. According to the press release published by the U.S. Department of Justice, Sullivan "took deliberate steps to conceal, deflect, and mislead the Federal Trade Commission about the breach" that also involved paying hackers $100,000 ransom to keep the incident secret.</mj-text>
+          <mj-text color="#fff">The 2016 Uber's data breach exposed names, email addresses, phone numbers of 57 million Uber riders and drivers, and driver license numbers of around 600,000 drivers. The company revealed this information to the public almost a year later in 2017, immediately after Sullivan left his job at Uber in November. Later it was reported that two hackers, Brandon Charles Glover of Florida and Vasile Mereacre of Toronto, were behind the incident to whom Sullivan approved paying money in exchange for promises to delete data of customers they had stolen.</mj-text>
+          <mj-text color="#fff">In 2018, British and Dutch data protection regulators also fined Uber with $1.1 million for failing to protect its customers' personal information during a 2016 cyber attack. Now, if Sullivan found guilty of cover-up charges, he could face up to eight years in prison, as well as potential fines of up to $500,000.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/08/uber-data-breach-cover-ups.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/former-uber-cso-charged-covering-up-2016-data-breach-a-14866">
+            Even More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Marriott Faces Another Data Breach Lawsuit</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/marriott-hit-class-action-data-breach-lawsuit-showcase_image-5-a-14850.jpg"></mj-image>
+          <mj-text>Marriott faces another lawsuit, filed in Britain, over the hotel giant experiencing one of the worst data breaches in history. The breach of the Starwood guest reservation system ran from July 2014 to September 2018 - Marriott acquired Starwood in 2016 - and exposed personal information for approximately 339 million customers worldwide. The breach led the ICO - Britain's privacy watchdog - to propose in July 2019 that Marriott be fined £99 million ($131 million) under the EU's General Data Protection Regulation.</mj-text>
+          <mj-text>"I have filed a data breach group action in the High Court of England and Wales against Marriott International," Bryant says in a Wednesday LinkedIn post. "The action seeks compensation on behalf of millions of hotel guests who made reservations at hotel brands within the Starwood group. This action follows the data breach of hundreds of millions of guest records between July 2014 and September 2018." Marriott already faces class action lawsuits filed in other countries, including lawsuits in Canada. In the United States, a judge combined 11 class action lawsuits into a single one in early 2019. In February, a judge ruled that the lawsuit against Marriott should proceed.</mj-text>
+          <mj-text>The full amount of damages that Marriott potentially faces is not clear; it will be up to the court to set the per capita sum - should the case go ahead - based on evidence submitted by the hotel chain. In the meantime, British Airways - owned by IAG, for International Airlines Group - also is facing a lawsuit, which was launched in September 2018 by SPG Law, the U.K. branch of U.S. law giant Sanders Phillips Grossman. SPG Law said it was seeking £500 million ($661 million) via its group action. It's not clear what level of compensation victims might receive, although various attorneys have suggested it could be anywhere from £3,000 ($4,000) to £6,000 ($8,000) per victim, or in cases of extreme impact, up to £16,000 ($21,500). Whether any such penalty levels would be approved, however, remains for the court to decide.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bankinfosecurity.com/marriott-faces-another-data-breach-lawsuit-a-14850">
+            Read More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+  
+            <ul>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/university-cisos-say-zero-trust-is-the-best-defense-against-the-existential-threat-of-phishing/">University CISOs say zero trust is the best defense against the existential threat of phishing</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/worlds-largest-cruise-line-operator-discloses-ransomware-attack/">World's largest cruise line operator discloses ransomware attack</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/canada-suffers-cyberattack-used-to-steal-covid-19-relief-payments/">Canada suffers cyberattack used to steal COVID-19 relief payments
+              </a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/us-spirits-and-wine-giant-hit-by-cyberattack-1tb-of-data-stolen/">U.S. spirits and wine giant hit by cyberattack, 1TB of data stolen</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/google-chrome-will-warn-users-when-submitting-insecure-forms/">Google Chrome will warn users when submitting insecure forms</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/crypto-mining-worm-steal-aws-credentials/">Crypto-mining worm steals AWS credentials</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/sans-shares-details-on-attack-that-led-to-their-data-breach/">SANS shares details on attack that led to their data breach</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/memory-leak-in-ibm-db2-gives-access-to-sensitive-data-causes-dos/">Memory leak in IBM DB2 gives access to sensitive data, causes DoS</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/over-70-ics-vulnerabilities-disclosed-first-half-2020-remotely-exploitable">Over 70% of ICS Vulnerabilities Disclosed in First Half of 2020 Remotely Exploitable</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/technology/spotify-hit-with-outage-after-forgetting-to-renew-a-certifficate/">Spotify hit with outage after forgetting to renew a certifficate</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/instacart-discloses-security-incident-caused-by-two-contractors/">Instacart discloses security incident caused by two contractors</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/university-of-utah-pays-457000-to-ransomware-gang/">University of Utah pays $457,000 to ransomware gang</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/08/job-offer-hackers.html">Hackers Target Defense Contractors' Employees By Posing as Recruiters</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/08/experian-data-breach-attack.html">Experian South Africa Suffers Data Breach Affecting Millions; Attacker Identified</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/mitre-shares-this-years-top-25-most-dangerous-software-bugs/">MITRE shares this year's top 25 most dangerous software bugs</a></li>
+              
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/how-the-shift-to-remote-working-has-impacted-cybersecurity/">How the shift to remote working has impacted cybersecurity
+              </a></li>
+              <li><a class="lnk-pink" href="https://techcommunity.microsoft.com/t5/microsoft-defender-atp/introducing-edr-in-block-mode-stopping-attacks-in-their-tracks/ba-p/1596617">Introducing EDR in block mode: Stopping attacks in their tracks</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2020/08/microsoft-put-off-fixing-zero-day-for-2-years/">Microsoft Put Off Fixing Zero Day for 2 Years</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/08/windows-update-download.html">Microsoft Issues Emergency Security Updates for Windows 8.1 and Server 2012 R2</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/08/jenkins-server-vulnerability.html">Critical Jenkins Server Vulnerability Could Leak Sensitive Information</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/google-fixes-major-gmail-bug-seven-hours-after-exploit-details-go-public/">Google fixes major Gmail bug seven hours after exploit details go public</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/death-from-above-lateral-movement-from-azure-to-on-prem-ad-d18cb3959d4d">Death from Above: Lateral Movement from Azure to On-Prem AD</a></li>
+              <li><a class="lnk-pink" href="https://posts.specterops.io/attacking-azure-azure-ad-part-ii-5f336f36697d">Attacking Azure & Azure AD, Part II</a></li>
+              <li><a class="lnk-green" href="https://medium.com/bugbountywriteup/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727">Why you should always scan UDP ports (part 1/2)</a></li>
+              <li><a class="lnk-orange" href="https://www.loginradius.com/engineering/blog/cross-domain-security/">Cross Domain Security</a></li>
+              <li><a class="lnk-purple" href="https://www.guardicore.com/2020/08/fritzfrog-p2p-botnet-infects-ssh-servers/">FritzFrog: A New Generation of Peer-to-Peer Botnets</a></li>
+              <li><a class="lnk-blue" href="https://github.com/freddiebarrsmith/Buffer-Overflow-Exploit-Development-Practice">Buffer-Overflow Exploit Development Practice</a></li>
+              <li><a class="lnk-pink" href="https://blog.redteam.pl/2020/08/rocket-chat-xss-rce-cve-2020-15926.html">Rocket.Chat Cross-Site Scripting leading to Remote Code Execution CVE-2020-15926</a></li>
+              <li><a class="lnk-green" href="https://github.com/nicolas-carolo/houndsploit">HoundSPloit - Search engine for Exploit-DB</a></li>
+              <li><a class="lnk-orange" href="https://github.com/spacesiren/spacesiren">SpaceSiren - Honey Token Manager for AWS</a></li>
+              <li><a class="lnk-purple" href="https://www.securityinbits.com/incident-response/powershell-commands-for-incident-response/">PowerShell Commands for Incident Response</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/maverislabs/tip-use-edr-to-help-eliminate-the-use-of-password-documents-in-your-organizations-f61cfaa3b3de">Tip: Use EDR to help eliminate the use of password documents in your organizations</a></li>
+              <li><a class="lnk-pink" href="https://www.securecoding.com/understanding-and-preventing-ldap-injection/">Understanding and Preventing LDAP Injection</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
