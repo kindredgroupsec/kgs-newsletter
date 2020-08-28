@@ -1,0 +1,186 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 31/08/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://zdnet2.cbsistatic.com/hub/i/2020/07/27/09376b6a-a21e-458a-a6e6-5cdbbb9912e4/ddos.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">31 August 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Advanced DDoS extortionists target NZX, Moneygram, Braintree, and other financial services</mj-text>
+          <mj-image src="https://zdnet2.cbsistatic.com/hub/i/2020/07/27/09376b6a-a21e-458a-a6e6-5cdbbb9912e4/ddos.png"></mj-image>
+          <mj-text color="#fff">For the past weeks, a criminal gang has launched DDoS attacks against some of the world's biggest financial service providers and demanded Bitcoin payments as extortion fees to stop their attacks. One of the victims, the New Zealand stock exchange (NZX), has halted trading for the third day in a row following the attacks. Just this week, the group has attacked money transfer service MoneyGram, YesBank India, Worldpay, PayPal, Braintree, and Venmo, a source involved in the DDoS mitigation field has told ZDNet.</mj-text>
+          <mj-text color="#fff">The attackers have been identified as the same hacker group mentioned in an Akamai report published on August 17, last week. The group uses names like Armada Collective and Fancy Bear — both borrowed from more famous hacker groups — to email companies and threaten DDoS attacks that can cripple operations and infer huge downtime and financial costs for the targets unless the victims pay a huge ransom demand in Bitcoin. Such types of attacks are called "DDoS extortions" or "DDoS-for-Bitcoin" and have first been seen in the summer of 2016.</mj-text>
+          <mj-text color="#fff">In an update to its report added this Monday, on August 24, Akamai confirmed that the group launched complex DDoS attacks that, in some cases, peaked at almost 200 Gb/sec. The source also described the group as having "above-average DDoS skills." While previous DDoS extortionists would often target their victims' public websites, this new group has repeatedly targeted backend infrastructure, API endpoints, and DNS servers -- which explains why some of the DDoS attacks this week have resulted in severe and prolonged outages at some of their targets.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/ddos-extortionists-target-nzx-moneygram-braintree-and-other-financial-services/">
+            Read More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Popular iOS SDK Accused of Spying on Billions of Users and Committing Ad Fraud</mj-text>
+          <mj-image src="https://thehackernews.com/images/-FQThdSh2kvU/X0Tq2XaYWrI/AAAAAAAAAsQ/jETs_K6Hn9gL-bxM-Vfr1HiSVUqv4NqSgCLcBGAsYHQ/s728-e100/ios-ad-fraud.jpg"></mj-image>
+          <mj-text>Mintegral,  popular iOS software development kit (SDK) used by over 1,200 apps—with a total of more than a billion mobile users—is said to contain malicious code with the goal of perpetrating mobile ad-click fraud and capturing sensitive information. Mintegral includes an SDK component that allows it to collect URLs, device identifiers, IP Address, operating system version, and other user sensitive data from compromised apps to a remote logging server.</mj-text>
+          <mj-text>Although the names of the compromised apps using the SDK have not been disclosed, the code was uncovered in the iOS version of the Mintegral SDK (6.3.5.0), with the first version of the malicious SDK dating back to July 17, 2019 (5.5.1). The Android version of the SDK, however, doesn't appear to be affected.</mj-text>
+          <mj-text>Stating that the SDK contains several anti-debug protection intending to hide the actual behavior of the application, Snyk uncovered evidence that Mintegral SDK not only intercepts all the ad clicks within an app but also use this information to fraudulently attribute the click to its ad network even in cases where a competing ad network has served the ad. In other words, Mintegral has been stealing ad revenues from other advertising networks by claiming the ads from a different ad network as its own, in addition to robbing developers off their revenues even when the platform isn't being used to serve ads.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2020/08/ios-sdk-ad-fraud.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/implications-for-csos-charges-against-joe-sullivan-a-14900">Implications for CSOs of Charges Against Joe Sullivan</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/2-atm-manufacturers-patch-vulnerabilities-a-14870">2 ATM Manufacturers Patch Vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/elon-musk-confirms-russian-hacking-plot-targeted-tesla-factory/">Elon Musk confirms Russian hacking plot targeted Tesla factory</a></li>
+              <li><a class="lnk-orange" href="https://www.schneier.com/blog/archives/2020/08/amazon_supplier.html">Amazon Supplier Fraud</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/academics-bypass-pins-for-visa-contactless-payments/">Academics bypass PINs for Visa contactless payments</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/mercenary-hacker-group-targets-companies-with-3ds-max-malware/">Mercenary hacker group targets companies with 3Ds Max malware</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/free-photos-graphics-site-freepik-discloses-data-breach-impacting-8-3m-users/">Free photos, graphics site Freepik discloses data breach impacting 8.3M users</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/microsoft-announces-public-preview-application-guard-office">Microsoft Announces Public Preview of Application Guard for Office</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/ultrarank-group-stole-card-data-hundreds-sites-using-js-sniffers">UltraRank Group Stole Card Data From Hundreds of Sites Using JS Sniffers</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.welivesecurity.com/2020/08/26/new-chrome-firefox-versions-fix-security-bugs-bring-productivity-tools/">New Chrome, Firefox versions fix security bugs, bring productivity features</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/security-researcher-discloses-safari-bug-after-apple-delays-patch/">Security researcher discloses Safari bug after Apple delays patch</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/wordpress-sites-targeted-vulnerabilities-woocommerce-discounts-plugin">WordPress Sites Targeted via Vulnerabilities in WooCommerce Discounts Plugin</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-delays-windows-10-1803-end-of-service-due-to-pandemic/">Microsoft delays Windows 10 1803 end of service due to pandemic</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2020/08/apache-webserver-security.html">Google Researcher Reported 3 Flaws in Apache Web Server Software</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.microsoft.com/security/blog/2020/08/27/zero-trust-deployment-guide-microsoft-applications/">Microsoft Zero Trust deployment guide for your applications</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/how-to-install-infection-monkey-for-breach-and-attack-simulations-on-your-network/">How to install Infection Monkey for breach and attack simulations on your network
+              </a></li>
+              <li><a class="lnk-green" href="https://github.com/rgeoghan/app-password-persistence/blob/master/README.md">Beware of O365 App Password Persistence</a></li>
+              <li><a class="lnk-orange" href="https://github.com/ph4ntonn/Stowaway/blob/master/README_EN.md">Stowaway: Multi-hop proxy tool</a></li>
+              <li><a class="lnk-purple" href="https://www.trustedsec.com/blog/red-teaming-with-cobalt-strike-not-so-obvious-features/">Red teaming with cobalt strike – not so obvious features</a></li>
+              <li><a class="lnk-blue" href="https://soatok.blog/2020/08/27/soatoks-guide-to-side-channel-attacks/">Guide to Side-Channel Attacks</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/bugbountywriteup/building-a-siem-combining-elk-wazuh-hids-and-elastalert-for-optimal-performance-f1706c2b73c6">Building a SIEM: combining ELK, Wazuh HIDS and Elastalert for optimal performance</a></li>
+              <li><a class="lnk-green" href="https://medium.com/python-in-plain-english/python-basics-packet-crafting-with-scapy-b3e4ea5c8111">Python Basics: Packet Crafting With Scapy</a></li>
+              <li><a class="lnk-orange" href="https://github.com/dirtyfilthy/siem-from-scratch">SIEM from scratch vagrant</a></li>
+              <li><a class="lnk-purple" href="https://blog.xpnsec.com/evading-sysmon-dns-monitoring/">Evading Sysmon DNS Monitoring</a></li>
+              <li><a class="lnk-blue" href="https://github.com/microsoft/DefendTheFlag">Defend the Flag: Test Microsoft Security products</a></li>
+              <li><a class="lnk-pink" href="https://www.secjuice.com/xss-arithmetic-operators-chaining-bypass-sanitization/">XSS: Arithmetic Operators & Optional Chaining To Bypass Filters & Sanitization</a></li>
+              <li><a class="lnk-green" href="https://github.com/LogoiLab/urlsafe">URLSafe: Escape malicious url (or re-arm them)</a></li>
+              <li><a class="lnk-orange" href="https://www.elastic.co/blog/introduction-to-windows-tokens-for-security-practitioners">Introduction to Windows tokens for security practitioners</a></li>
+              <li><a class="lnk-purple" href="https://github.com/drduh/macOS-Security-and-Privacy-Guide">MacOS Security & Privacy guide</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
