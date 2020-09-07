@@ -1,0 +1,187 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - DD/MM/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://krebsonsecurity.com/wp-content/uploads/2020/08/sendgrid-768x503.png />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">7 September 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Sendgrid Under Siege from Hacked Accounts, rushes to enforce MFA</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2020/08/sendgrid-768x503.png"></mj-image>
+          <mj-text color="#fff">Email service provider Sendgrid is grappling with an unusually large number of customer accounts whose passwords have been cracked, sold to spammers, and abused for sending phishing and email malware attacks. Sendgrid’s parent company Twilio says it is working on a plan to require multi-factor authentication for all of its customers, but that solution may not come fast enough for organizations having trouble dealing with the fallout in the meantime.</mj-text>
+          <mj-text color="#fff">Many companies use Sendgrid to communicate with their customers via email, or else pay marketing firms to do that on their behalf using Sendgrid’s systems. Sendgrid takes steps to validate that new customers are legitimate businesses, and that emails sent through its platform carry the proper digital signatures that other companies can use to validate that the messages have been authorized by its customers. But this also means when a Sendgrid customer account gets hacked and used to send malware or phishing scams, the threat is particularly acute because a large number of organizations allow email from Sendgrid’s systems to sail through their spam-filtering systems.</mj-text>
+          <mj-text color="#fff">In an interview with KrebsOnSecurity, Sendgrid parent firm Twilio acknowledged the company had recently seen an increase in compromised customer accounts being abused for spam. While Sendgrid does allow customers to use multi-factor authentication (also known as two-factor authentication or 2FA), this protection is not mandatory.</mj-text>
+          <mj-text color="#fff">Neil Schwartzman, executive director of the anti-spam group CAUCE, said Sendgrid’s 2FA plans are long overdue, noting that the company bought Authy back in 2015. “Single-factor authentication for a company like this in 2020 is just ludicrous given the potential damage and malicious content we’re seeing,” Schwartzman said. “I understand that it’s a task to invoke 2FA, and given the volume of customers Sendgrid has that’s something to consider because there’s going to be a lot of customer overhead involved,” he continued. “But it’s not like your bank, social media account, email and plenty of other places online don’t already insist on it.” </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2020/08/sendgrid-under-siege-from-hacked-accounts/">
+            Read More on KrebsOnSecurity
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/lack-mfa-may-have-enabled-sendgrid-account-compromise-a-14916">
+            Even More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Morgan Stanley Hit With $5 Million Data Breach Suit</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/morgan-stanley-hit-5-million-data-breach-suit-showcase_image-3-a-14927.jpg"></mj-image>
+          <mj-text>A $5 million lawsuit seeking class action status has been filed against Morgan Stanley, claiming the financial organization failed to properly safeguard personally identifiable information when the company discarded old computer equipment.</mj-text>
+          <mj-text>The suit is being brought by Morgan Stanley customer Timothy Smith in the U.S. District Court for the Southern District of New York on behalf of about 100 other customers affected by the data breach. The case is tied to incidents in 2016 and 2019 when the firm decommissioned several pieces of computer equipment without properly scrubbing the personal data. The data exposed may have included account names and numbers (at Morgan Stanley and any linked bank accounts), Social Security number, passport number, contact information, date of birth, asset value and holdings data. Morgan Stanley offered victims two years of prepaid credit monitoring services. The lawsuit claims that if criminals obtained access to the devices involved, they could use the customer data they contained to steal identities or sell it to other criminals or use it to make fraudulent purchases.</mj-text>
+          <mj-text>"In 2016, Morgan Stanley closed two data centers and decommissioned the computer equipment in both locations. As is customary, we contracted with a vendor to remove the data from the devices," the letter notes. "We subsequently learned that certain devices believed to have been wiped of all information still contained some unencrypted data."</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bankinfosecurity.com/morgan-stanley-hit-5-million-data-breach-suit-a-14927">
+            Read More BankInfoSec
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/online-voting-startup-wants-to-limit-some-security-research-a-14953">Online Voting Startup Wants to Limit Some Security Research</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-to-finally-kill-adobe-flash-support-by-january-2021/">Microsoft to finally kill Adobe Flash support by January 2021</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/09/ssl-tls-certificate-validity-398.html">Maximum Lifespan of SSL/TLS Certificates is 398 Days Starting Today</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/microsoft-oracle-and-google-top-list-of-companies-with-most-vulnerabilities-disclosed-in-q2/">Microsoft, Oracle, and Google top list of companies with most vulnerabilities disclosed in Q2</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/millions-of-wordpress-sites-are-being-probed-attacked-with-recent-plugin-bug/">Millions of WordPress sites are being probed & attacked with recent plugin bug</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/new-attacks-allow-bypassing-emv-card-pin-verification">New Attacks Allow Bypassing EMV Card PIN Verification</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2020/08/28/fake-android-notifications-first-google-then-microsoft-affected/">Fake Android notifications – first Google, then Microsoft affected</a></li>
+              <li><a class="lnk-green" href="https://www.troyhunt.com/we-didnt-encrypt-your-password-we-hashed-it-heres-what-that-means/">We Didn't Encrypt Your Password, We Hashed It. Here's What That Means:</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/firefox-will-add-a-new-drive-by-download-protection/">Firefox will add a new drive-by-download protection</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/facebook-explains-how-it-will-notify-third-parties-about-bugs-in-their-products/">Facebook explains how it will notify third-parties about bugs in their products</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cnn-news18-allegedly-hacked-to-deny-paytm-hack-claims/">CNN-News18 allegedly hacked to deny PayTM hack claims</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2020/09/03/vishing-scams-use-amazon-and-prime-as-lures-dont-get-caught/">Vishing scams use Amazon and Prime as lures – don’t get caught!</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/european-isps-report-mysterious-wave-of-ddos-attacks/">European ISPs report mysterious wave of DDoS attacks</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2020/09/04/phishing-tricks-the-top-ten-treacheries-of-2020/">Phishing tricks – the Top Ten Treacheries of 2020</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/cisco-fixes-critical-code-execution-bug-in-jabber-for-windows/">Cisco fixes critical code execution bug in Jabber for Windows</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/magento-plugin-magmi-vulnerable-to-hijacking-admin-sessions/">Magento plugin Magmi vulnerable to hijacking admin sessions</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/cisco-warns-of-actively-exploited-ios-xr-zero-days/">Cisco warns of actively exploited IOS XR zero-days</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2020/09/cisco-jabber-hacking.html">Cisco Jabber Bug Could Let Hackers Target Windows Systems Remotely</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material/technical-operational">ENISA Blue Team training courses</a></li>
+              <li><a class="lnk-pink" href="https://0xbanana.com/blog/one-click-forensics-lab-in-the-cloud/">One click forensics lab in the cloud</a></li>
+              <li><a class="lnk-green" href="https://clglavan.github.io/nvd-scrapper/">Vulns - Open Source Scrapper Project - National Vulnerability Database</a></li>
+              <li><a class="lnk-orange" href="https://systemoverlord.com/2020/09/04/lessons-learned-from-ssh-credential-honeypots.html">Lessons Learned from SSH Credential Honeypots</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/@matuzg/testing-docker-cve-scanners-part-2-5-exploiting-cve-scanners-b37766f73005">Testing docker CVE scanners. Part 2.5 — Exploiting CVE scanners</a></li>
+              <li><a class="lnk-blue" href="https://habr.com/en/company/mailru/blog/517544/">Dive into Email Security: MTA-STS Policies</a></li>
+              <li><a class="lnk-pink" href="https://github.com/Ciphey/Ciphey">Ciphey: Automated decoding/weak encryption cracking tool</a></li>
+              <li><a class="lnk-green" href="https://docs.google.com/document/d/1S4jU7knBG_Km_AdHXf8JyE8zl0SOxQ9VvYFPanQy1g8/edit#heading=h.uqom8ty4aoh7">Lock screen/Bitlocker bypass/elevation of privilege in Bitlocker </a></li>
+              <li><a class="lnk-orange" href="https://blog.menasec.net/2020/08/new-trick-to-detect-lateral-movement.html">Detect Lateral Movement via Network File Shares</a></li>
+              <li><a class="lnk-purple" href="https://github.com/softrams/bulwark">Bulwark: asset and vulnerability management tool, with Jira integration, for app security reports</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
