@@ -1,0 +1,195 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - DD/MM/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-thAMpcqNwSM/X1qZhjL1xlI/AAAAAAAA3Sw/v0btKQ_mHQQudTn-juKYqX675Vk4qhkRwCLcBGAsYHQ/s728-e100/Blutooth-attack.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">14 September 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">New Unpatched Bluetooth Flaw Lets Hackers Easily Target Nearby Devices</mj-text>
+          <mj-image src="https://thehackernews.com/images/-thAMpcqNwSM/X1qZhjL1xlI/AAAAAAAA3Sw/v0btKQ_mHQQudTn-juKYqX675Vk4qhkRwCLcBGAsYHQ/s728-e100/Blutooth-attack.jpg"></mj-image>
+          <mj-text color="#fff">Bluetooth SIG—an organization that oversees the development of Bluetooth standards—today issued a statement informing users and vendors of a newly reported unpatched vulnerability that potentially affects hundreds of millions of devices worldwide.</mj-text>
+          <mj-text color="#fff">Dubbed 'BLURtooth' and tracked as CVE-2020-15802, the flaw exposes devices powered with Bluetooth 4.0 or 5.0 technology, allowing attackers to unauthorizedly connect to a targeted nearby device by overwriting the authenticated key or reducing the encryption key strength. In other words, the flaw leverage ability under specific implementations of the pairing process that could allow devices to overwrite authorization keys when the transport enforces a higher level of security.
+          </mj-text>
+          <mj-text color="#fff">"This may permit a Man In The Middle (MITM) attack between devices previously bonded using authenticated pairing when those peer devices are both vulnerable. The Bluetooth SIG further recommends that devices restrict when they are pairable on either transport to times when user interaction places the device into a pairable mode or when the device has no bonds or existing connections to a paired device," the researchers said.
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/09/new-bluetooth-vulnerability.html">
+            Read More on TheHackersNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/blurtooth-vulnerability-lets-attackers-defeat-bluetooth-encryption/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Data center giant Equinix discloses ransomware incident</mj-text>
+          <mj-image src="https://zdnet2.cbsistatic.com/hub/i/2020/09/10/dc50ec6a-a38a-4864-8068-fff27558632b/equinix.png"></mj-image>
+          <mj-text>Equinix, one of the world's largest providers of on-demand colocation data centers, has disclosed today a security breach.Equinix says ransomware hit internal systems but that data centers are OK.</mj-text>
+          <mj-text>Equinix is just the latest in a long list of ransomware incidents that have impacted web hosting and data center providers. The list also includes CyrusOne, Cognizant, A2 Hosting, SmarterASP.NET, Dataresolution.net,  and Internet Nayana. Such companies are ripe targets for cyber-criminals, and especially for ransomware gangs. The reasons are simple and involve the immediate effect of their attacks, which often bring down services for impacted companies, but also for their respective customers, all of whom are expecting near-perfect uptime.</mj-text>
+          <mj-text>There is no suggestion that the company is downplaying the incident, with no major outages being reported at the time of writing, and no wave of customer complaints flooding social media.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/data-center-giant-equinix-discloses-ransomware-incident/">
+            Read More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-green" href="https://www.securityweek.com/why-companies-need-cisos-and-cios-board-members">Why Companies Need CISOs and CIOs as Board Members</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/us-election-hack-attacks-traced-to-russia-china-iran-a-14979">US Election Hack Attacks Traced to Russia, China, Iran</a></li>
+              <li><a class="lnk-pink" href="https://www.welivesecurity.com/2020/09/10/portland-facial-recognition-ban/">Portland passes the strictest facial recognition technology ban in the US yet </a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/raccoon-attack-allows-hackers-to-break-tls-encryption-under-certain-conditions/">Raccoon attack allows hackers to break TLS encryption 'under certain conditions'</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/microsoft-state-backed-hackers-are-targeting-the-2020-us-elections/">Microsoft: State-backed hackers are targeting the 2020 US elections</a></li>
+              
+              <li><a class="lnk-purple" href="https://thehackernews.com/2020/09/hackers-stole-cryptocurrencies.html">Hackers Stole $5.4 Million From Eterbase Cryptocurrency Exchange</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/money-from-bank-hacks-rarely-gets-laundered-through-cryptocurrencies/">Money from bank hacks rarely gets laundered through cryptocurrencies</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/chilean-bank-shuts-down-all-branches-following-ransomware-attack/">Chilean bank shuts down all branches following ransomware attack</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2020/09/microsoft-patch-tuesday-sept-2020-edition/">Microsoft Patch Tuesday, Sept. 2020 Edition</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-office-september-security-updates-fix-critical-rce-bugs/">Microsoft Office September security updates fix critical RCE bugs</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/adobe-experience-manager-indesign-framemaker-receive-fixes-for-critical-bugs-in-new-update/">Adobe Experience Manager, InDesign, Framemaker receive fixes for critical bugs in new update</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/vulnerabilities-codemeter-licensing-product-expose-ics-remote-attacks">Vulnerabilities in CodeMeter Licensing Product Expose ICS to Remote Attacks</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/intel-fixes-critical-flaw-in-corporate-remote-management-platform/">Intel fixes critical flaw in corporate remote management platform</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/androids-september-2020-patches-fix-critical-system-vulnerabilities">Android's September 2020 Patches Fix Critical System Vulnerabilities</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/critical-access-control-vulnerability-patched-sap-marketing">Critical Access Control Vulnerability Patched in SAP Marketing</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/samsung-fixes-critical-android-flaws-with-september-updates/">Samsung fixes critical Android flaws with September updates</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/hackers-are-fighting-a-war-over-300k-vulnerable-wordpress-sites/">Hackers are fighting a war over 300K vulnerable WordPress sites</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/palo-alto-networks-patches-6-firewall-vulnerabilities-a-14977">Palo Alto Networks Patches 6 Firewall Vulnerabilities</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/microsoft-oracle-and-google-top-list-of-companies-with-most-vulnerabilities-disclosed-in-q2/">Microsoft, Oracle, and Google top list of companies with most vulnerabilities disclosed in Q2</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.fugue.co/blog/building-a-secure-amazon-s3-bucket-aws">Building a Secure Amazon S3 Bucket (AWS)</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/azure-now-installs-security-updates-on-windows-vms-automatically/">Azure can now install security updates on Windows VMs automatically</a></li>
+              <li><a class="lnk-green" href="https://techcommunity.microsoft.com/t5/azure-security-center/security-controls-in-azure-security-center-enable-endpoint/ba-p/1624653?WT.mc_id=modinfra-8176-abartolo">Security Controls in Azure Security Center: Enable Endpoint Protection</a></li>
+              <li><a class="lnk-orange" href="https://kripken.github.io/blog/wasm/2020/07/27/wasmboxc.html">WasmBoxC: Simple, Easy, and Fast VM-less Sandboxing</a></li>
+              <li><a class="lnk-purple" href="https://github.com/fastlorenzo/osintct">OSINT Certificate Transparency Search</a></li>
+              <li><a class="lnk-blue" href="https://raccoon-attack.com/">Raccoon Attack</a></li>
+              <li><a class="lnk-pink" href="https://geneva.cs.umd.edu/posts/server-side/">Evading Censorship from the Server-side</a></li>
+              <li><a class="lnk-green" href="https://utkusen.com/blog/security-by-obscurity-is-underrated.html">Security by Obscurity is Underrated</a></li>
+              <li><a class="lnk-orange" href="https://www.mnemonic.no/blog/abusing-dynamic-groups-in-azure/">Abusing dynamic groups in Azure AD for privilege escalation</a></li>
+              <li><a class="lnk-purple" href="https://www.padok.fr/en/blog/sg-nacl-eks">Security Group (SG) and Network Access Control List (NACL) configurations for Elastic Kubernetes Service (EKS)</a></li>
+              <li><a class="lnk-blue" href="https://github.com/blacklanternsecurity/TREVORspray">TREVORspray - O365 password sprayer</a></li>
+              <li><a class="lnk-pink" href="https://syfuhs.net/what-happens-when-you-type-your-password-into-windows">What Happens When you Type Your Password into Windows?</a></li>
+              <li><a class="lnk-green" href="https://www.guidepointsecurity.com/2020/08/31/introducing-red-commander-a-guidepoint-security-open-source-project/">Introducing Red Commander: A Guidepoint Security Open Source Project</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
