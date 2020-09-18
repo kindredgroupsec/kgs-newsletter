@@ -1,0 +1,197 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 21/09/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2020/09/zlo-1200.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">21 September 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Zerologon attack lets hackers take over enterprise networks: Patch now</mj-text>
+          <mj-image src="https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2020/09/zlo-1200.png"></mj-image>
+          <mj-text color="#fff">Last month Microsoft patched one of the most severe bugs ever reported to the company, an issue that could be abused to easily take over Windows Servers running as domain controllers in enterprise networks.</mj-text>
+          <mj-text color="#fff">The bug was patched in the August 2020 Patch Tuesday under the identifier of CVE-2020-1472. It was described as an elevation of privilege in Netlogon, the protocol that authenticates users against domain controllers. The vulnerability received the maximum severity rating of 10, but details were never made public, until now. The entire attack is very fast and can last up to three seconds, at most.There are limitations to how a Zerologon attack can be used. For starters, it cannot be used to take over Windows Servers from outside the network. An attacker first needs a foothold inside a network. However, when this condition is met, it's literally game over for the attacked company. Furthermore, this bug is also a boon for malware and ransomware gangs, which often rely on infecting one computer inside a company's network and then spreading to multiple others. With Zerologon, this task has been considerably simplified.</mj-text>
+          <mj-text color="#fff">Attacks using Zerologon are a given, primarily due to the bug's severity, wide impact, and benefits for attackers.
+
+            Since the release of Secura's writeup, numerous researchers have released proof-of-concept exploits that allow a user to gain domain administrator privileges on a vulnerable network. As fixing the Zerologon vulnerability can cause some devices to not properly authenticate, Microsoft is rolling out the fix in two stages.
+
+            The first stage was released on August 11th in the form of a security update that will prevent Windows Active Directory Domain controllers from using unsecured RPC communication.  On February 9th, 2021, as part of the Patch Tuesday updates, Microsoft will release a second update that will enter the enforcement phase that requires all devices on the network to use secure-RPC, unless specifically allowed by an administrator.         </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/zerologon-attack-lets-hackers-take-over-enterprise-networks/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/microsoft/windows-zerologon-poc-exploits-allow-domain-takeover-patch-now/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">First death reported following a ransomware attack on a German hospital</mj-text>
+          <mj-image src="https://zdnet4.cbsistatic.com/hub/i/2020/09/17/c2347b8b-a37f-46f1-b8e9-dee91dba3ccc/ambulance-hospital.jpg"></mj-image>
+          <mj-text>On September 10th, the University Hospital Düsseldorf (UKD) in Germany suffered a ransomware attack. The patient, identified only as a woman who needed urgent medical care, died after being re-routed to a hospital in the city of Wuppertal, more than 30 km away from her initial intended destination, the Duesseldorf University Hospital.
+          The threat actors compromised the hospital's network through a known software vulnerability in Citrix ADC. Patches for the Citrix ADC vulnerability have been available since January 2020.</mj-text>
+          <mj-text>With their IT systems disrupted, the hospital announced that planned and outpatient treatments and emergency care could not occur at the hospital. Those seeking emergency care were instead redirected to more distant hospitals for treatment. A patient in a life-threatening condition was redirected to a more distant hospital in Wuppertal after University Hospital Düsseldorf deregistered its emergency services. This disruption led to the patient receiving care an hour later, which may have led to her death.</mj-text>
+          <mj-text>German media reports that the police contacted the ransomware operators via the ransom note instructions and explained that their target was a hospital. The ransom notes left on the hospital's encrypted servers were incorrectly addressed to Heinrich Heine University, rather than the hospital itself. After the police contacted the threat actors and explained that they encrypted a hospital, the ransomware operators withdrew the ransom demand and provided a decryption key.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/first-death-reported-following-a-ransomware-attack-on-a-german-hospital/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/ransomware-attack-at-german-hospital-leads-to-death-of-patient/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/dunkin-data-breach-settlement-paves-way-for-more-suits-a-15012">Dunkin' Data Breach Settlement Paves the Way for More Suits</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/09/android-11-security-privacy.html">Android 11 — 5 New Security and Privacy Features, including One-time permissions</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/apple/hands-on-with-ios-14s-new-data-breach-notification-feature/">
+                Hands on with iOS 14's new data breach notification feature</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/zoom-adds-two-factor-authentication-2fa-support-to-all-accounts/">Zoom adds two-factor authentication (2FA) support to all accounts</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/more-details-emerge-operations-members-chinese-group-apt41">
+                More Details Emerge on Operations, Members of Chinese Group APT41</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/mozilla-shuts-down-firefox-send-and-firefox-notes-services/">Mozilla shuts down Firefox Send and Firefox Notes services</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/how-ransomware-operators-are-joining-forces-to-carry-out-attacks/">How ransomware operators are joining forces to carry out attacks</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/payment-card-skimming-hits-2000-e-commerce-sites-a-15000">Payment Card Skimming Hits 2,000 E-Commerce Site</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/billions-of-devices-vulnerable-to-new-blesa-bluetooth-security-flaw/">New 'BLESA' Bluetooth security flaw</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.rapid7.com/2020/09/14/cve-2020-1472-zerologon-critical-privilege-escalation/">CVE-2020-1472 "Zerologon" Critical Privilege Escalation: What You Need To Know</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/how-to-patch-centos-against-boothole/">How to patch CentOS against BootHole</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/adobe-out-of-band-patch-released-to-tackle-media-encoder-vulnerabilities/">Adobe out-of-band patch released to tackle Media Encoder vulnerabilities</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/information-disclosure-xss-vulnerabilities-patched-drupal">Information Disclosure, XSS Vulnerabilities Patched in Drupal</a></li>
+
+              
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2020/09/17/zerologon-hacking-windows-servers-with-a-bunch-of-zeros/">Zerologon – hacking Windows servers with a bunch of zeros</a></li>
+              <li><a class="lnk-blue" href="https://blog.assetnote.io/2020/09/15/hacking-on-bug-bounties-for-four-years/">Hacking on Bug Bounties for Four Years</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/@andy.c.piazza/quantifying-threat-actors-with-threat-box-e6b641109b11">Quantifying Threat Actors with Threat Box</a></li>
+              <li><a class="lnk-green" href="https://labs.f-secure.com/blog/application-level-purple-teaming">
+                Application-level Purple Teaming: A case study</a></li>
+              <li><a class="lnk-orange" href="https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020OverWatchNowheretoHide.pdf">CrowdStrike's 2020 threat report</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/jw-player-engineering/how-a-cryptocurrency-miner-made-its-way-onto-our-internal-kubernetes-clusters-9b09c4704205">How A Cryptocurrency Miner Made Its Way onto Our Internal Kubernetes Clusters</a></li>
+              <li><a class="lnk-blue" href="https://www.mdsec.co.uk/2020/09/i-like-to-move-it-windows-lateral-movement-part-2-dcom/">Windows Lateral Movement Part 2 – DCOM</a></li>
+              <li><a class="lnk-pink" href="https://github.com/360-Linton-Lab/WMIHACKER">WMIHACKER:  lateral movement command execution test tool</a></li>
+              <li><a class="lnk-green" href="https://letsdefend.io/blog/attacking-siem-with-fake-logs/">Attacking SIEM with Fake Logs</a></li>
+              <li><a class="lnk-orange" href="https://github.com/SecuraBV/CVE-2020-1472">ZeroLogon testing script</a></li>
+              <li><a class="lnk-purple" href="https://about.misakey.com/cryptography/white-paper.html?pk_campaign=reddit_cedric">A Year and a Half of End-to-End Encryption at Misakey</a></li>
+              <li><a class="lnk-blue" href="o/detections-of-past-present-and-future-26af95517e77">Detections of Past, Present, and Future</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/microsoft-releases-open-source-fuzzing-framework-azure">Microsoft Releases Open Source Fuzzing Framework for Azure</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
