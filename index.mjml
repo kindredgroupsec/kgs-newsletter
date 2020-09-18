@@ -48,7 +48,7 @@
         <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
         <link rel="alternate" type="application/rss+xml" 
   title="RSS Feed for Kindred Group's Security Newsletter" 
-  href="/feed.rss" />
+  href="/rss.xml" />
       </mj-style>
       
   </mj-head>
