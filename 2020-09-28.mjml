@@ -1,0 +1,179 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 28/09/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://zdnet3.cbsistatic.com/hub/i/2020/09/18/ddf9ad8a-0a63-4361-b1ca-7e1ef6f468f1/firefox-android-bug.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">29 September 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Firefox bug lets you hijack nearby mobile browsers via Wi-Fi</mj-text>
+          <mj-image src="https://zdnet3.cbsistatic.com/hub/i/2020/09/18/ddf9ad8a-0a63-4361-b1ca-7e1ef6f468f1/firefox-android-bug.jpg"></mj-image>
+          <mj-text color="#fff">Mozilla has fixed a bug that can be abused to hijack all the Firefox for Android browsers on the same Wi-Fi network and force users to access malicious sites, such as phishing pages.</mj-text>
+          <mj-text color="#fff">The actual vulnerability resides in the Firefox SSDP component. SSDP stands for Simple Service Discovery Protocol and is the mechanism through which Firefox finds other devices on the same network in order to share or receive content (i.e., such as sharing video streams with a Roku device). To better understand how this bug could be weaponized, imagine a scenario where a hacker walks into an airport or mall, connects to the Wi-Fi network, and then launches a script on their laptop that spams the network with malformed SSDP packets. Another scenario is if an attacker targets vulnerable Wi-Fi routers. Attackers could leverage exploits to take over outdated routers, and then spam a company's internal network and force employees to re-authenticate on phishing pages.</mj-text>
+          <mj-text color="#fff">Moberly said he reported the bug to Mozilla earlier this summer.  The bug was fixed in Firefox 79; however, many users may not be running the latest release. Firefox for desktop versions were not impacted. Reached for comment, a Mozilla spokesperson recommended that users upgrade to the latest version of Firefox for Android to be safe.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/firefox-bug-lets-you-hijack-nearby-mobile-browsers-via-wifi/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://gitlab.com/gitlab-com/gl-security/security-operations/gl-redteam/red-team-tech-notes/-/tree/master/firefox-android-2020">
+            Proof of Concept code and description
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="Uhttps://krebsonsecurity.com/2020/09/microsoft-attackers-exploiting-zerologon-windows-flaw/RL">Microsoft: Attackers Exploiting ‘ZeroLogon’ Windows Flaw</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/09/bing-search-hacking.html">Unsecured Microsoft Bing Server Exposed Users' Search Queries and Location</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/strava-app-shows-your-info-to-nearby-users-unless-this-setting-is-disabled/">Strava app shows your info to nearby users unless this setting is disabled</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/">Russia wants to ban the use of secure protocols such as TLS 1.3, DoH, DoT, ESNI
+              </a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2020/09/fortigate-vpn-security.html">Fortinet VPN with Default Settings Leave 200,000 Businesses Open to Hackers</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/nist-unveils-updated-guide-to-privacy-security-controls-a-15057">NIST Unveils Updated Guide to Privacy, Security Controls</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/phishing-awareness-training-wears-off-after-a-few-months/">Phishing awareness training wears off after a few months</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/scammers-drain-bank-accounts-using-anydesk-and-sim-swapping/">Scammers drain bank accounts using AnyDesk and SIM-swapping</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/spammers-use-hexadecimal-ip-addresses-to-evade-detection/">Spammers use hexadecimal IP addresses to evade detection
+              </a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/pandemic-leads-rise-industrial-systems-targeted-rdp-report?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">Pandemic Leads to Rise in Industrial Systems Targeted Via RDP: Report</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/police-crack-sms-phishing-operation-a-15049">Police Crack SMS Phishing Operation</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/ransomware-gang-targets-russian-businesses-in-rare-coordinated-attacks/">Ransomware gang targets Russian businesses in rare coordinated attacks</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/airbnb-accounts-exposed-hijacking-due-phone-number-recycling?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">Airbnb Accounts Exposed to Hijacking Due to Phone Number Recycling</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/ray-ban-owner-luxottica-confirms-ransomware-attack-work-disrupted/">Ray-Ban owner Luxottica confirms ransomware attack, work disrupted</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/healthcare-lags-behind-in-vulnerability-management-banks-are-holding-their-ground/">Healthcare lags behind in critical vulnerability management, banks hold their ground</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/hackers-sell-access-to-your-network-via-remote-management-apps/">Hackers sell access to your network via remote management apps</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/lessons-to-learn-from-shopify-data-breach-a-15055">Lessons to Learn From Shopify Data Breach</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/google-patches-privilege-escalation-vulnerability-cloud-service?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">
+                Google Patches Privilege Escalation Vulnerability in Cloud Service</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/cisco-patches-34-high-severity-vulnerabilities-ios-software?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">
+                Cisco Patches 34 High-Severity Vulnerabilities in IOS Software</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-orange" href="https://research.nccgroup.com/2020/09/18/online-casino-roulette-a-guideline-for-penetration-testers-and-security-researchers/">Online Casino Roulette – A guideline for penetration testers and security researchers</a></li>
+              <li><a class="lnk-blue" href="https://blog.zsec.uk/zerologon-attacking-defending/">ZeroLogon(CVE-2020-1472) - Attacking & Defending
+              </a></li>
+              <li><a class="lnk-pink" href="https://dirkjanm.io/a-different-way-of-abusing-zerologon/">A different way of abusing Zerologon (CVE-2020-1472)</a></li>
+              <li><a class="lnk-green" href="https://medium.com/bugbountywriteup/aws-iam-explained-for-red-and-blue-teams-2dda8b20fbf7">AWS IAM explained for Red and Blue teams</a></li>
+              <li><a class="lnk-orange" href="https://posts.specterops.io/are-you-docking-kidding-me-9aa79c24bdc1">Are You Docking Kidding Me?</a></li>
+              <li><a class="lnk-purple" href="https://www.fugue.co/blog/cloud-network-security-101-azure-virtual-network-service-endpoints">Cloud Network Security 101: Azure Virtual Network Service Endpoints</a></li>
+              <li><a class="lnk-blue" href="https://portswigger.net/research/redefining-impossible-xss-without-arbitrary-javascript">Redefining Impossible: XSS without arbitrary JavaScript</a></li>
+              <li><a class="lnk-pink" href="https://github.com/crowdsecurity/crowdsec/">Crowdsec: modern collaborative behavior detection system following fail2ban philosophy</a></li>
+              <li><a class="lnk-green" href="https://academic.oup.com/cybersecurity/article/6/1/tyaa009/5905453">Categorizing human phishing difficulty: a Phish Scale</a></li>
+              
+              <li><a class="lnk-purple" href="https://github.com/google/gke-auditor">GKE Auditor: Audit for common Google Kubernetes Engine misconfigurations</a></li>
+              <li><a class="lnk-blue" href="https://blog.talosintelligence.com/2020/09/coverage-strikes-back-cobalt-strike-paper.html">New Snort, ClamAV coverage strikes back against Cobalt Strike</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
