@@ -1,0 +1,196 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 10/05/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://zdnet1.cbsistatic.com/hub/i/r/2020/09/29/60c656dc-4257-4c27-9dc9-80d72342955a/resize/1200xauto/623bf3b4b0db2cbb0c771863837f69e6/msft-ddr.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">5 October 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Microsoft Digital Defense Report 2020: Cyber Threat Sophistication on the Rise</mj-text>
+          <mj-image src="https://zdnet1.cbsistatic.com/hub/i/r/2020/09/29/60c656dc-4257-4c27-9dc9-80d72342955a/resize/1200xauto/623bf3b4b0db2cbb0c771863837f69e6/msft-ddr.png"></mj-image>
+          <mj-text color="#fff">Microsoft is releasing a new annual report, called the Digital Defense Report, covering cybersecurity trends from the past year. This report makes it clear that threat actors have rapidly increased in sophistication over the past year, using techniques that make them harder to spot and that threaten even the savviest targets.</mj-text>
+          <mj-text color="#fff">n addition to attacks becoming more sophisticated, threat actors are showing clear preferences for certain techniques, with notable shifts towards credential harvesting and ransomware, as well as an increasing focus on Internet of Things (IoT) devices. Among the most significant statistics on these trends: In 2019 we blocked over 13 billion malicious and suspicious mails, out of which more than 1 billion were URLs set up for the explicit purpose of launching a phishing credential attack. Ransomware is the most common reason behind our incident response engagements from October 2019 through July 2020. The most common attack techniques used by nation-state actors in the past year are reconnaissance, credential harvesting, malware, and Virtual Private Network (VPN) exploits. IoT threats are constantly expanding and evolving. The first half of 2020 saw an approximate 35% increase in total attack volume compared to the second half of 2019.
+            </mj-text>
+          <mj-text color="#fff">All in all, Microsoft concludes that criminal groups have evolved their techniques over the past year to increase the success rates of their campaigns, as defenses have gotten better at blocking their past attacks.
+
+            Just like in years prior, the entire cybersecurity landscape appears to be sitting on a giant merry-go-round, and constant learning and monitoring is required from defenders to keep up with the ever-evolving attackers, may them be financially-motivated or nation-sponsored groups.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/microsoft-some-ransomware-attacks-take-less-than-45-minutes/#ftag=RSSbaffb68">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.microsoft.com/security/blog/2020/09/29/microsoft-digital-defense-report-2020-cyber-threat-sophistication-rise/">
+          Microsoft Digital Defense Report 2020
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Anthem Hit With $48 Million in Additional Breach Penalties</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/anthem-settlements-showcase_image-10-a-15091.jpg"></mj-image>
+          <mj-text>The attorneys general of 41 states, plus Washington, D.C., have slapped health insurer Anthem Inc. with a $39.5 million settlement in the wake of a 2014 cyberattack that affected nearly 79 million individuals. Meanwhile, the attorney general of California signed a separate but similar $8.7 million settlement with the health insurer. The settlements announced Wednesday follow a $115 million settlement Anthem signed in 2018 to resolve a consolidated class action lawsuit, plus a record $16 million HIPAA settlement that same year with the Department of Health and Human Services' Office for Civil Rights.</mj-text>
+          <mj-text>In 2015, Anthem revealed a data breach exposing the personal information of 78 million consumers, including over 13.5 million Californians, the California statement notes.
+
+            The data included names, addresses, email addresses, Social Security numbers, healthcare identification numbers and dates of birth. Hackers sent targeted phishing emails containing malware to Anthem's employees to steal credentials so they could access the insurance company's network, and then they spent months stealing information from Anthem's most sensitive database containing consumers' personal information, the California statement notes. </mj-text>
+          <mj-text>According to the California attorney general, an investigation into the incident found Anthem had numerous security deficiencies, including the failure to limit access to computers holding sensitive information, protect account credentials and passwords from unauthorized use, update security tools and adequately log and monitor network activity to detect malicious activity.
+            
+            "When consumers must disclose confidential personal information to health insurers, these companies owe their customers the duty to protect their private data," Becerra said. "Anthem failed in that duty to its customers. Anthem's lax security and oversight hit millions of Americans. Now Anthem gets hit with a penalty, in the millions, in return." Under the settlement with California, as well as the multistate settlement, Anthem has agreed to take a number of corrective actions to improve its data security practices.
+
+            In its statement, the New York attorney general's office says Anthem's corrective actions include     Implementing a comprehensive information security program that incorporates principles of "zero trust" architecture and includes regular security reporting to the board of directors and prompt notice of significant security events to the CEO.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bankinfosecurity.com/anthem-hit-48-million-in-additional-breach-penalties-a-15091">
+            Read More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/09/windows-xp-source-code.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Microsoft Windows XP Source Code Reportedly Leaked Online</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/pastebin-adds-burn-after-read-and-password-protected-pastes-to-the-dismay-of-the-infosec-community/#ftag=RSSbaffb68">Pastebin adds 'Burn After Read' and 'Password Protected Pastes' to the dismay of the infosec community</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/kucoin-cryptocurrency-exchange-hacked-for-150-million/#ftag=RSSbaffb68">KuCoin cryptocurrency exchange hacked for $150 million</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/louis-vuitton-fixes-data-leak-and-account-takeover-vulnerability/">Louis Vuitton fixes data leak and account takeover vulnerability</a></li>
+              <li><a class="lnk-purple" href="https://www.microsoft.com/security/blog/2020/09/29/microsoft-advanced-compliance-solutions-zero-trust-architecture/">Microsoft Advanced Compliance Solutions in Zero Trust Architecture</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/all-four-of-the-worlds-largest-shipping-companies-have-now-been-hit-by-cyber-attacks/#ftag=RSSbaffb68">All four of the world's largest shipping companies have now been hit by cyber-attacks</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/09/red-team-penetration-test.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Red Team — Automation or Simulation?</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/eset-discovers-a-rare-apt-that-stayed-undetected-for-nine-years/#ftag=RSSbaffb68">ESET discovers a rare APT that stayed undetected for nine years</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2020/10/02/serious-security-phishing-without-links-when-phishers-bring-along-their-own-web-pages/">Serious Security: Phishing without links – when phishers bring along their own web pages</a></li>
+              <li><a class="lnk-purple" href="https://www.welivesecurity.com/2020/10/01/national-cyber-security-awareness-month-is-here/">Cyber Security Awareness Month is here!</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/with-api-attacks-rising-cloudflare-launches-a-free-api-security-tool/#ftag=RSSbaffb68">With API attacks rising, Cloudflare launches a free API security tool</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/account-takeover-fraud-rates-skyrocketed-282-over-last-year/#ftag=RSS56d97e7">Account takeover fraud rates skyrocketed 282% over last year</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/github-rolls-out-new-code-scanning-security-feature-to-all-users/#ftag=RSSbaffb68">GitHub rolls out new Code Scanning security feature to all users</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/10/industrial-remote-access.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Critical Flaws Discovered in Popular Industrial Remote Access Systems</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/nvidia-fixes-high-severity-flaws-in-windows-display-driver/">NVIDIA fixes high severity flaws in Windows display driver</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/microsoft-issues-updated-patching-directions-for-zerologon-a-15090">Microsoft Issues Updated Patching Directions for 'Zerologon'</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2020/09/cisco.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Cisco Issues Patches For 2 High-Severity IOS XR Flaws Under Active Attacks</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/over-247k-exchange-servers-unpatched-for-actively-exploited-flaw/">Over 247K Exchange servers unpatched for actively exploited flaw</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://medium.com/@ricardoiramar/the-powerful-http-request-smuggling-af208fafa142">The Powerful HTTP Request Smuggling</a></li>
+              <li><a class="lnk-pink" href="https://www.certalert.net/">CertAlert: Get warned when a certificate is due to expire</a></li>
+              <li><a class="lnk-green" href="https://research.checkpoint.com/2020/graphology-of-an-exploit-volodya/">Graphology of an Exploit – Hunting for exploits by looking for the author’s fingerprints</a></li>
+              <li><a class="lnk-orange" href="https://github.com/mxrch/ghunt">GHunt: OSINT tool to extract informations Google Account email.</a></li>
+              <li><a class="lnk-purple" href="https://attackerkb.com/">AttackerKB: short description and value/ease of use assessment of new CVEs</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@prizmant/hacking-punkbuster-e22e6cf2f36e">Hacking Punkbuster</a></li>
+              <li><a class="lnk-pink" href="https://github.com/seknox/trasa">Trasa: Open Source Identity Aware proxy</a></li>
+              <li><a class="lnk-green" href="https://github.com/nccgroup/SFPolDevChk">Salesforce Policy Deviation Checker</a></li>
+              <li><a class="lnk-orange" href="https://owasp.org/www-project-apicheck/">OWASP APICheck: DevSecOps toolset for HTTP APIs</a></li>
+              <li><a class="lnk-purple" href="https://posts.specterops.io/updates-to-ghostwriter-ui-and-operation-logs-d6b3bc3d3fbd">Updates to Ghostwriter: UI and Operation Logs</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
