@@ -1,0 +1,169 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 12/10/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://4a7efb2d53317100f611-1d7064c4f7b6de25658a4199efb34975.ssl.cf1.rackcdn.com/ransomware-cybercrime-public-enemy-no-1-showcase_image-7-p-2952.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">12 October 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Ransomware: Cybercrime Public Enemy No. 1</mj-text>
+          <mj-image src="https://4a7efb2d53317100f611-1d7064c4f7b6de25658a4199efb34975.ssl.cf1.rackcdn.com/ransomware-cybercrime-public-enemy-no-1-showcase_image-7-p-2952.jpg"></mj-image>
+          <mj-text color="#fff">Ransomware continues to solidify its position as the No. 1 online threat targeting public and private organizations. Seeking maximum returns, more gangs have moved beyond opportunistic attacks to target organizations with what experts call "post-intrusion ransomware." Meanwhile, many victims fail to report such crimes to police, hampering their ability to disrupt these attacks.          </mj-text>
+          <mj-text color="#fff">This week, incident response firm Kroll said that, so far this year, of the many security incidents it has investigated for clients, ransomware has been the leading cause, accounting for 35% of incidents. Last year, for example, an attack against Eurofins Scientific, one of the largest forensic labs in the U.K., created a backlog of 20,000 forensic samples - including DNA and blood samples - that needed analyzing as part of ongoing criminal cases. Even after the lab paid a ransom to its Ryuk-wielding attackers, getting its systems restored and the backlog cleared led to months of delays.
+          </mj-text>
+          <mj-text color="#fff">You don't need an MBA to divine the driver for attackers: Ransomware continues to generate massive revenue, thanks to many organizations opting to pay a ransom in return for a decryption tool or a promise from attackers to destroy stolen data or to not leak it. Thus, an illicit business model continues to be validated and to draw new adherents. The highest-impact threat we're seeing is what we'd call post-intrusion ransomware. Post-intrusion ransomware is distinct from more opportunistic crypto-locking malware attacks, in which individual users might open an attachment that would encrypt everything on their PC, delete the originals and then flash a ransom note. Instead, they're following what we would class as APT-style tactics that we used to attribute to nation-states, to do things to get into environments, get complete control of the environment and then take it over.</mj-text>
+          <mj-text color="#fff">Another innovation has been to steal data before crypto-locking systems and then threaten to leak the stolen data unless victims pay. Ransomware incident response firm Coveware has reported that, from April to June, based on the thousands of incidents it investigated for clients, 22% of ransomware cases involved data exfiltration.</mj-text>
+          <mj-text color="#fff">More than a dozen ransomware operators now have name-and-shame sites or use leaking or auction sites to try and pressure victims into paying. These include Maze - which kicked off the trend - as well as Sodinokibi, Ryuk and Egregor. As ransomware attacks continue to surge, then, here's the message from law enforcement agencies to ransomware victims: Please come forward.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/blogs/ransomware-cybercrime-public-enemy-no-1-p-2952">
+            Read More on BankInfoSecurity
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.sophos.com/en-us/medialibrary/Gated-Assets/white-papers/sophos-the-state-of-ransomware-2020-wp.pdf">
+            The State of Ransomware 2020 - Sophos
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/microsoft-iranian-hackers-actively-exploiting-windows-zerologon-flaw/">Microsoft: Iranian hackers actively exploiting Windows Zerologon flaw</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/four-npm-packages-found-uploading-user-details-on-a-github-page/#ftag=RSSbaffb68">Four npm packages found uploading user details on a GitHub page</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/chowbus-delivery-service-breached-hacker-emails-data-to-users/">Chowbus delivery service breached, hacker emails data to users</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/boom-mobile-falls-prey-to-magecart-card-skimming-attack/#ftag=RSSbaffb68">Boom! Mobile falls prey to Magecart card-skimming attack</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2020/10/microsoft-azure-vulnerability.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Researchers Find Vulnerabilities in Microsoft Azure Cloud Service</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/waterbear-malware-used-in-attack-wave-against-government-agencies/#ftag=RSSbaffb68">Waterbear malware used in attack wave against government agencies</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/tesla-accuses-employee-of-californian-factory-sabotage/#ftag=RSSbaffb68">Tesla accuses employee of Californian factory sabotage</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/ransomware-attack-hits-clinical-trial-software-vendor-a-15125">Ransomware Attack Hits Clinical Trial Software Vendor</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/wi-fi-security-fbi-warns-of-risks-of-using-wireless-hotel-networks/#ftag=RSS56d97e7">Wi-Fi security: FBI warns of risks of using wireless hotel networks</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/ransomware-threat-surge-ryuk-attacks-about-20-orgs-per-week/">Ransomware threat surge, Ryuk attacks about 20 orgs per week</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/sams-club-customer-accounts-hacked-in-credential-stuffing-attacks/">Sam's Club customer accounts hacked in credential stuffing attacks</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2020/10/amid-an-embarrassment-of-riches-ransom-gangs-increasingly-outsource-their-work/">Amid an Embarrassment of Riches, Ransom Gangs Increasingly Outsource Their Work</a></li>
+              <li><a class="lnk-green" href="https://www.microsoft.com/security/blog/2020/10/08/sophisticated-new-android-malware-marks-the-latest-evolution-of-mobile-ransomware/">Sophisticated new Android malware marks the latest evolution of mobile ransomware</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/androids-october-2020-security-update-patches-48-vulnerabilities?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">
+                Android's October 2020 Security Update Patches 48 Vulnerabilities</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/chrome-86-released-with-password-related-security-improvements/#ftag=RSSbaffb68">Chrome 86 released with password-related security improvements</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://samcurry.net/hacking-apple/">We Hacked Apple for 3 Months: Here’s What We Found</a></li>
+              <li><a class="lnk-pink" href="https://www.microsoft.com/security/blog/2020/10/07/best-practices-for-defending-azure-virtual-machines/">Best practices for defending Azure Virtual Machines</a></li>
+              <li><a class="lnk-green" href="https://thedfirreport.com/2020/10/08/ryuks-return/">Ryuk ransomware: went from an email to domain wide ransomware in 29 hours, asked for over $6 million USD</a></li>
+              <li><a class="lnk-orange" href="https://www.ietf.org/id/draft-ietf-oauth-security-topics-16.html">OAuth 2.0 Security Best Current Practice</a></li>
+              <li><a class="lnk-purple" href="https://googleprojectzero.blogspot.com/2020/10/enter-the-vault-auth-issues-hashicorp-vault.html">Enter the Vault: Authentication Issues in HashiCorp Vault              </a></li>
+              <li><a class="lnk-blue" href="https://btlr.dev/blog/how-to-find-vulnerabilities-in-code-bad-words">How to Find Vulnerabilities in Code: Bad Words</a></li>
+              <li><a class="lnk-pink" href="https://papermtn.co.uk/gitlab-github-watchman/">Keeping the sauce secret – Introducing GitLab Watchman and GitHub Watchman</a></li>
+              <li><a class="lnk-green" href="https://github.com/Neo23x0/Raccine">Raccine -  A Simple Ransomware Protection</a></li>
+              <li><a class="lnk-orange" href="https://techcommunity.microsoft.com/t5/microsoft-security-and/find-your-unscanned-and-overexposed-shares-on-premises-with-an/ba-p/1744783?WT.mc_id=modinfra-0000-abartolo">Find your unscanned and overexposed shares on-premises with an on-premises scanner</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
