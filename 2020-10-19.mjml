@@ -1,0 +1,252 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter -19/10/19" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-V-rRs3EWSDU/X4c6pm2c3LI/AAAAAAAA3YQ/aNMNzTjC0lYIRWb_TuB8FW5vh4goMFDgACLcBGAsYHQ/s728-e1000/FinFisher-spyware.jpg" />
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">19 October 2019</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">German authorities raid FinFisher office</mj-text>
+          <mj-image src="https://thehackernews.com/images/-V-rRs3EWSDU/X4c6pm2c3LI/AAAAAAAA3YQ/aNMNzTjC0lYIRWb_TuB8FW5vh4goMFDgACLcBGAsYHQ/s728-e1000/FinFisher-spyware.jpg"></mj-image>
+          <mj-text color="#fff">German authorities have raided the offices of FinFisher, a German software company that makes surveillance tools, accused in the past of providing software to oppressive regimes.</mj-text>
+          <mj-text color="#fff">The signatories argued that FinFisher's malware had been installed on the devices of activists, political dissidents, and regular citizens in countries with oppressive regimes, countries to which FinFisher would have been prohibited from selling its software.</mj-text>
+          <mj-text color="#fff">The company's products are usually detected as malware by most antivirus products, including major products like Windows Defender.
+
+            FinFisher surveillance tools are available for Windows, iOS, and Android. In the past, cyber-security firms have spotted FinFisher infections in more than 20 countries. FinFisher markets its tools as meant for law enforcement investigations and intelligence agencies. Known customers include the German federal police and Berlin police. However, the company's tools have also been found on the devices of government critics and journalists in countries like Ethiopia, Bahrain, Egypt, and Turkey — countries where surveillance tools exports are prohibited.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/german-authorities-raid-finfisher-offices/#ftag=RSSbaffb68">
+            Read More on BleepingComputers
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/10/finfisher-spyware-raid.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">
+            Even More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Microsoft, Others Dismantle Trickbot Botnet, Will Takedown Impact Be Temporary?</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/analysis-will-trickbot-takedown-impact-be-temporary-showcase_image-6-a-15167.jpg"></mj-image>
+          <mj-text>Microsoft collaborated with cybersecurity companies and government agencies to take down the million-device Trickbot botnet in an effort to help protect the Nov. 3 U.S. election and stop the global spread of ransomware and other malware. The botnet has been used to distribute a variety of malicious code, including the Ryuk ransomware variant, which the U.S. government has cited as a potential threat vector against the election. Microsoft says the malicious operators behind Trickbot will immediately attempt to recover.          </mj-text>
+          <mj-text>Burt notes Microsoft was able to determine how the Trickbot botnet operated - including the infrastructure the malware used to communicate with and control victim computers, the way infected computers talk with each other and the botnet's mechanisms to evade detection and attempts to disrupt its operation. Microsoft's Digital Crimes Unit used a new legal weapon against Trickbot.
+
+            "Our case includes copyright claims against Trickbot's malicious use of our software code. This approach is an important development in our efforts to stop the spread of malware, allowing us to take civil action to protect customers in the large number of countries around the world that have these laws in place," Burt says.</mj-text>
+          <mj-text>Despite the takedown of the Trickbot botnet by Microsoft and others Monday, the malware is still functioning, and its operators retain the tools needed to rebuild their malicious network, some cybersecurity experts say. So, the impact, while significant, could prove to be temporary. Microsoft has used the U.S. court system to disrupt many illegal activities in the last year, including a move in March to disrupt the Necurs botnet.
+
+          </mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bankinfosecurity.com/microsoft-others-dismantle-trickbot-botnet-a-15156">
+            Read More on BankInfoSecurity
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/trickbot-botnet-targeted-in-takedown-operations-little-impact-seen/">
+            Even More on BleepingComputers
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">News3</mj-text>
+          <mj-image src="PIC"></mj-image>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-text>text</mj-text>
+          <mj-button mj-class="bg-green" href="URL">
+            Read More
+          </mj-button>
+          <mj-button mj-class="bg-green" href="URL">
+            Even More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/facebook-launches-bug-bounty-loyalty-program/#ftag=RSSbaffb68">Facebook launches bug bounty 'loyalty program'</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/document-signing-service-docsketch-discloses-security-breach/#ftag=RSSbaffb68">Document-signing service Docsketch discloses security breach</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/largest-cruise-line-operator-carnival-confirms-ransomware-data-theft/">Largest cruise line operator Carnival confirms ransomware data theft</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/video-conference-firm-targeted-for-payment-card-skimming-a-15150">Video Conference Firm Targeted for Payment Card Skimming</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/software-ag-it-giant-hit-with-23-million-ransom-by-clop-ransomware/">Software AG IT giant hit with $23 million ransom by Clop ransomware</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/network-access-sold-on-hacker-forums-estimated-at-500000-in-september-2020/#ftag=RSSbaffb68">'Network access' sold on hacker forums estimated at $500,000 in September 2020</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/international-law-firm-seyfarth-discloses-ransomware-attack/">International law firm Seyfarth discloses ransomware attack</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/morgan-stanley-fined-60-million-for-data-protection-mishaps-a-15158">Morgan Stanley Fined $60 Million for Data Protection Mishaps</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2020/10/android-ransomware-lock.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Microsoft Warns Android Users About A New Ransomware</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/card-details-for-3-million-dickeys-customers-posted-on-carding-forum/#ftag=RSSbaffb68">Card details for 3 million Dickey's customers posted on carding forum</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/barnes-and-noble-hit-by-cyberattack-that-exposed-customer-data/">Barnes & Noble hit by cyberattack that exposed customer data</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/preparing-for-better-payment-card-security-pci-dss-40-a-15181">Preparing for Better Payment Card Security With PCI DSS 4.0</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/blogs/criminals-still-going-crazy-for-cryptocurrency-p-2955">Criminals Still Going Crazy for Cryptocurrency</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2020/10/linux-Bluetooth-hacking.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Google Warns of Zero-Click Bluetooth Flaws in Linux-based Devices</a></li>
+              <li><a class="lnk-purple" href="URL">cut5</a></li>
+                            <li><a class="lnk-blue" href="URL">cut1</a></li>
+              <li><a class="lnk-pink" href="URL">cut2</a></li>
+              <li><a class="lnk-green" href="URL">cut3</a></li>
+              <li><a class="lnk-orange" href="URL">cut4</a></li>
+              <li><a class="lnk-purple" href="URL">cut5</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2020/10/microsoft-patch-tuesday-october-2020-edition/">Microsoft Patch Tuesday, October 2020 Edition</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/adobe-patches-magento-bugs-that-lead-to-code-execution-customer-list-tampering/#ftag=RSSbaffb68">Adobe patches Magento bugs that lead to code execution, customer list tampering</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2020/10/apple-security.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">55 New Security Flaws Reported in Apple Software and Services</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/foxit-patches-code-execution-vulnerabilities-pdf-software?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">Foxit Patches Code Execution Vulnerabilities in PDF Software</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/remotely-exploitable-dos-vulnerabilities-found-allen-bradley-adapter?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">
+Remotely Exploitable DoS Vulnerabilities Found in Allen-Bradley Adapter</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/800000-sonicwall-vpns-vulnerable-to-new-remote-code-execution-bug/#ftag=RSSbaffb68">800,000 SonicWall VPNs vulnerable to new remote code execution bug</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/sap-patches-critical-vulnerability-ca-introscope-enterprise-manager?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">
+                SAP Patches Critical Vulnerability in CA Introscope Enterprise Manager</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/adobe-patches-critical-code-execution-vulnerability-flash-player?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">Adobe Patches Critical Code Execution Vulnerability in Flash Player</a></li>
+              <li><a class="lnk-orange" href="URL">cut4</a></li>
+              <li><a class="lnk-purple" href="URL">cut5</a></li>
+              <li><a class="lnk-blue" href="URL">cut1</a></li>
+              <li><a class="lnk-pink" href="URL">cut2</a></li>
+              <li><a class="lnk-green" href="URL">cut3</a></li>
+              <li><a class="lnk-orange" href="URL">cut4</a></li>
+              <li><a class="lnk-purple" href="URL">cut5</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.hashicorp.com/blog/hashicorp-boundary">Announcing HashiCorp Boundary - Open source secure remote access solution</a></li>
+              <li><a class="lnk-pink" href="https://briantracy.xyz/writing/copy-paste-shell.html">Don't Copy Paste Into A Shell</a></li>
+              <li><a class="lnk-green" href="https://blog.cloudflare.com/warp-for-desktop/">Introducing WARP for Desktop and Cloudflare for Teams</a></li>
+              <li><a class="lnk-orange" href="https://github.com/doyensec/burpdeveltraining">Developing Burp Suite Extensions - Free training</a></li>
+              <li><a class="lnk-purple" href="https://natanyellin.com/posts/tracking-running-processes-on-linux/">The Difficulties of Tracking Running Processes on Linux</a></li>
+              <li><a class="lnk-blue" href="https://cloudberry.engineering/article/dockerfile-security-best-practices/">Dockerfile Security Best Practices</a></li>
+              <li><a class="lnk-pink" href="https://docs.microsoft.com/en-us/microsoft-365/compliance/endpoint-dlp-learn-about?view=o365-worldwide">Microsoft Rolling out OS-wide Endpoint DLP feature</a></li>
+              <li><a class="lnk-green" href="https://docs.microsoft.com/en-us/security/zero-trust/">Microsoft Zero Trust Deployment Center</a></li>
+              <li><a class="lnk-orange" href="https://www.cisa.gov/publication/rva-mapped-mitre-attck-framework-infographic">RVA mapped to the mitre ATT&CK framework infographic</a></li>
+              <li><a class="lnk-purple" href="https://zolder.io/2020/10/15/honeytokens-azure-keyvaults/">Honeytokens using Azure keyvaults</a></li>
+              <li><a class="lnk-blue" href="https://github.com/moloch--/burp-multiplayer">Burp Multiplayer - Sync's in-scope requests/responses, comments, and highlights in realtime.</a></li>
+              <li><a class="lnk-pink" href="https://oscd.community/sprints/sprint_2.html">OSCD Sprint #2: Simulation, Detection & Response</a></li>
+              <li><a class="lnk-green" href="https://www.reddit.com/r/blueteamsec/comments/j9bbc0/moneta_is_a_live_usermode_memory_analysis_tool/">Moneta - Windows Usermode live memory analysis tool</a></li>
+              <li><a class="lnk-orange" href="URL">cut4</a></li>
+              <li><a class="lnk-purple" href="URL">cut5</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>You like to break things, then explain how to fix it? Be part of our <a href="https://careers.kindredgroup.com/vacancy/cyber-security-specialist-stockholm/5769/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+                <li>You prefer the blue team side? Check out our <a href="https://careers.kindredgroup.com/vacancy/security-analyst-stockholm/5795/description/" class="lnk-yellow" target="_blank">Security analyst position</a></li>
+                <li>Interested in Governance, Risk and Compliance? Apply for our <a href="https://careers.kindredgroup.com/vacancy/information-security-specialist-stockholm/5634/description/" class="lnk-yellow" target="_blank">Information Security Specialist role</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. You can find all our open vacancies on our <a href="http://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- footer -->
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with over 24 million customers across 100 markets. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and as an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
