@@ -1,0 +1,210 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 26/10/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-xZzCUwzBVrc/X5BgBpam4II/AAAAAAAA3Yw/vJtLuVzSt8AFXoZyGKSmcxHJtXC6fxv1QCLcBGAsYHQ/s728-e1000/chrome-zero-day-vulnerability.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">26 October 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">New Chrome 0-day Under Active Attacks – Update Your Browser Now</mj-text>
+          <mj-image src="https://thehackernews.com/images/-xZzCUwzBVrc/X5BgBpam4II/AAAAAAAA3Yw/vJtLuVzSt8AFXoZyGKSmcxHJtXC6fxv1QCLcBGAsYHQ/s728-e1000/chrome-zero-day-vulnerability.jpg"></mj-image>
+          <mj-text color="#fff">Attention readers, if you are using Google Chrome browser on your Windows, Mac, or Linux computers, you need to update your web browsing software immediately to the latest version. Google released Chrome version 86.0.4240.111 to patch several security high-severity issues, including a zero-day vulnerability that has been exploited in the wild by attackers to hijack targeted computers.</mj-text>
+          <mj-text color="#fff">Hawkes now urged other app vendors who use the same FreeType library to update their software as well, in case the threat actor decides to shift attacks against other apps.
+
+          </mj-text>
+          <mj-text color="#fff">Although the Chrome web browser automatically notifies users about the latest available version, users are recommended to manually trigger the update process by going to "Help → About Google Chrome" from the menu. The finer details about CVE-2020-15999 active exploitation attempts have not been made public. Google usually sits on technical details for months to give users enough time to update and keep even the smallest clues from falling into attackers' hands. However, since the patch for this zero-day is visible in the source code of FreeType, an open source project, it's expected that threat actors will be able to reverse-engineer the zero-day and come up with their own exploits within days or weeks.
+
+
+
+
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/10/chrome-zeroday-attacks.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/google-releases-chrome-security-update-to-patch-actively-exploited-zero-day/#ftag=RSSbaffb68">
+            Even More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">French IT giant Sopra Steria hit by Ryuk ransomware</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2020/10/22/header.jpg"></mj-image>
+          <mj-text>French IT services giant Sopra Steria suffered a cyberattack on October 20th, 2020, that reportedly encrypted portions of their network with the Ryuk ransomware. Sopra Steria is a European information technology company with 46,000 employees in 25 countries worldwide. The company provides a wide range of IT services, including consulting, systems integration, and software development.          </mj-text>
+          <mj-text>A source familiar with the attack has told BleepingComputer that the Sopra Steria network was encrypted by Ryuk ransomware, the same group that infected the Universal Health Services.</mj-text>
+          <mj-text>This hacking group is known for its TrickBot and BazarLoader infections that allow threat actors to access a compromised network and deploy the Ryuk or Conti ransomware infections.
+
+            BazarLoader is increasingly being used in Ryuk attacks against high-value targets due to its stealthy nature and is less detected than TrickBot by security software.
+            
+            When installed, BazarLoader will allow threat actors to remotely access the victim's computer and use it to compromise the rest of the network. After gaining access to a Windows domain controller, the attackers then deploy the Ryuk ransomware on the network to encrypt all of its devices. Those kind of attacks can be conducted swiftly and go from a single compromised machine to full company takeover in just a few hours</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/french-it-giant-sopra-steria-hit-by-ryuk-ransomware/">
+            Read More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.enisa.europa.eu/news/enisa-news/enisa-threat-landscape-2020">ENISA Threat Landscape 2020: Cyber Attacks Becoming More Sophisticated, Targeted, Widespread and Undetected</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/dickeys-barbecue-pit-investigating-possible-breach-affecting-3m-payment-cards?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">Dickey's Barbecue Pit Investigating Possible Breach Affecting 3M Payment Cards</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/google-amp/article/nsa-publishes-list-of-top-25-vulnerabilities-currently-targeted-by-chinese-hackers/">NSA publishes list of top vulnerabilities currently targeted by Chinese hackers</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/npm-nukes-nodejs-malware-opening-windows-linux-reverse-shells/">NPM nukes NodeJS malware opening Windows, Linux reverse shells</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/blogs/elite-russian-sandworm-hackers-epic-opsec-problem-p-2960">Elite Russian Sandworm Hackers' Epic OPSEC Problem</a></li>
+              <li><a class="lnk-pink" href="https://www.welivesecurity.com/2020/10/22/fraudsters-target-loyalty-points-covid19/">Fraudsters crave loyalty points amid COVID‑19</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/coinbase-phishing-hijacks-microsoft-365-accounts-via-oauth-app/">Coinbase phishing hijacks Microsoft 365 accounts via OAuth app</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/albion-online-game-maker-discloses-data-breach/#ftag=RSSbaffb68">
+                Albion Online game maker discloses data breach</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/berlin-give-secret-services-access-encrypted-conversations?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">Berlin to Give Secret Services Access to Encrypted Conversations</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/eu-sanctions-russia-over-2015-german-parliament-hack/#ftag=RSSbaffb68">EU sanctions Russia over 2015 German Parliament hack</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/new-york-financial-watchdog-calls-for-social-media-cybersecurity-regulator-after-twitter-hack-of-biden-and-obama/#ftag=RSS56d97e7">New York financial watchdog calls for social media cybersecurity regulator after Twitter hack of Biden and Obama accounts</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/how-to-protect-your-privacy-when-selling-your-phone/#ftag=RSS56d97e7">How to protect your privacy when selling your phone</a></li>
+              <li><a class="lnk-orange" href="http://www.infosecisland.com/blogview/25277-BSIMM11-Observes-the-Cutting-Edge-of-Software-Security-Initiatives.html">BSIMM11 Observes the Cutting Edge of Software Security Initiatives</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/mobileiron-enterprise-mdm-servers-under-attack-from-ddos-gangs-nation-states/#ftag=RSSbaffb68">MobileIron enterprise MDM servers under attack from DDoS gangs, nation-states</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/fbi-cisa-russian-hackers-breached-us-government-networks-exfiltrated-data/#ftag=RSSbaffb68">FBI, CISA: Russian hackers breached US government networks, exfiltrated data</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/google-says-it-mitigated-a-2-54-tbps-ddos-attack-in-2017-largest-known-to-date/#ftag=RSSbaffb68">Google says it mitigated a 2.54 Tbps DDoS attack in 2017, largest known to date</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/wordpress-deploys-forced-security-update-for-dangerous-bug-in-popular-plugin/#ftag=RSSbaffb68">WordPress deploys forced security update for dangerous bug in popular plugin</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/nvidia-patches-high-severity-geforce-experience-vulnerabilities/">NVIDIA patches high severity GeForce Experience vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/adobe-patches-9-vulnerabilities-magento?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">Adobe Patches 9 Vulnerabilities in Magento</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/active-threat-warning-patch-serious-sharepoint-flaw-now-a-15200">'Active Threat' Warning: Patch Serious SharePoint Flaw Now</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/cisco-patches-17-high-severity-vulnerabilities-security-appliances?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">Cisco Patches 17 High-Severity Vulnerabilities in Security Appliances</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/oracles-october-2020-cpu-contains-402-new-security-patches?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">Oracle's October 2020 CPU Contains 402 New Security Patches</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/vmware-patches-critical-code-execution-vulnerability-esxi?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">VMware Patches Critical Code Execution Vulnerability in ESXi</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/adobe-releases-another-out-of-band-patch-to-squash-critical-bugs-across-creative-software/#ftag=RSSbaffb68">Adobe releases another out-of-band patch, squashing critical bugs across creative software</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/bunkerity/bunkerized-nginx">bunkerized-nginx: nginx Docker image secure by default.              </a></li>
+              <li><a class="lnk-pink" href="https://www.blacklanternsecurity.com/2020-10-19-Enter-The-Matrix/">Enter The Matrix: NIST 800-30 Threat Matrix Generation tool</a></li>
+              <li><a class="lnk-green" href="https://catharsis.net.au/blog/basic-buffer-overflow-guide/">Basic Buffer Overflow Guide</a></li>
+              <li><a class="lnk-orange" href="https://thedfirreport.com/2020/10/18/ryuk-in-5-hours/">DFIR Report - Ryuk From a phishing email to domain wide ransomware in 5 hours.</a></li>
+              <li><a class="lnk-purple" href="https://www.securityartwork.es/2020/10/19/how-they-steal-e100000-without-blinking-i/">How they swindle $100K without blinking an eye – Forensic Analysis of a BEC (Business Email Compromise)</a></li>
+              <li><a class="lnk-blue" href="https://cloudberry.engineering/tool/">Cloud Security Tools list</a></li>
+              <li><a class="lnk-pink" href="https://cloudsecdocs.com/">CloudSecDocs: collecting technical notes, how-tos to cloud-native technologies</a></li>
+              <li><a class="lnk-green" href="https://blog.soykaf.com/post/encryption/">Lain Thought on End-To-End Encryption with AP Characteristics for a New Era</a></li>
+              <li><a class="lnk-orange" href="https://www.fsb.org/wp-content/uploads/P191020-1.pdf">Effective Practices for Cyber Incident
+                Response and Recovery</a></li>
+              <li><a class="lnk-purple" href="https://mordordatasets.com/introduction.html">Project Mordor:  provides pre-recorded security events to test your correlation capabilities</a></li>
+              <li><a class="lnk-blue" href="https://slaeryan.github.io/posts/midnighttrain.html">MidnightTrain - Red team Persistence Framework weaponizing UEFI</a></li>
+              <li><a class="lnk-pink" href="https://github.com/TheresAFewConors/Sooty">SOOTY: SOC Analysts Al-in-One Tool</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/microsoft-says-it-took-down-94-of-trickbots-command-and-control-servers/#ftag=RSSbaffb68">Microsoft says it took down 94% of TrickBot's command and control servers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/barnes-and-noble-hit-by-egregor-ransomware-strange-data-leaked/">Barnes & Noble hit by Egregor ransomware, strange data leaked</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/google-removes-two-chrome-ad-blockers-caught-collecting-user-data/#ftag=RSSbaffb68">Google removes two Chrome ad blockers caught collecting user data</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/seven-mobile-browsers-vulnerable-to-address-bar-spoofing-attacks/#ftag=RSSbaffb68">Seven mobile browsers vulnerable to address bar spoofing attacks</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
