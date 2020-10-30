@@ -1,0 +1,203 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-attributes>
+      <mj-class name="white" color="#fff" />
+      <mj-class name="blue" color="#00a5de" />
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de" />
+      <mj-class name="pink" color="#E72B78" />
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78" />
+      <mj-class name="green" color="#2ea836" />
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836" />
+      <mj-class name="orange" color="#F39000" />
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000" />
+      <mj-class name="purple" color="#992785" />
+      <mj-class name="bg-purple" color="#fff" background-color="#992785" />
+      <mj-class name="grey" color="#777" />
+      <mj-class name="bg-grey" color="#fff" background-color="#777" />
+      <mj-class name="black" color="#222" />
+      <mj-class name="headline" font-family="factoria" />
+      <mj-class name="h1" font-size="35" font-family="factoria" />
+      <mj-class name="h2" font-size="25" font-family="factoria" />
+      <mj-class name="h3" font-size="18" font-family="factoria" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+    <mj-style>
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+      </style>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 02/11/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thumbor.forbes.com/thumbor/711x474/https://blogs-images.forbes.com/sap/files/2017/04/Cybersecurity-and-Sustainability-04-24-2017-A-1200x801.jpg?width=960" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">2 November 2020</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Enterprises confident Chief Sustainability Officer (CSO) will improve cybersecurity</mj-text>
+          <mj-image src="https://thumbor.forbes.com/thumbor/711x474/https://blogs-images.forbes.com/sap/files/2017/04/Cybersecurity-and-Sustainability-04-24-2017-A-1200x801.jpg?width=960"></mj-image>
+          <mj-text color="#fff">As the move to quell the spreading coronavirus, business made a quick switch--an office overhaul--and sent its workforce to do their duties remotely, which presented an entirely new series of security challenges. Nearly all (98%) enterprises believe cybersecurity will improve a sustainable development strategy and the specific role of a Chief Sustainability Officer (CSO), according to new research from Kaspersky's latest, "The State of Industrial Cybersecurity in the Era of Digitalization." </mj-text>
+          <mj-text color="#fff">Because of the unprecedented track of businesses during the COVID-19 pandemic, industrial companies were forced to prioritize cybersecurity. In 2019, 40% of large enterprises planned to report on cybersecurity risks to boards of directors annually, but this year, according to a Gartner report, 100% will do so. 
+          </mj-text>
+          <mj-text color="#fff">Major challenges found are "damage of service quality, "loss of confidential information" and "mitigation costs." The last major challenge, "mitigation costs," was less of a critical issue in previous years, and it now requires special and occasionally expensive resources.  Respondents (24%) found internal security practices need to be revisited during the pandemic, but only 15% suggested employees need special security training, as they work from home during the pandemic. The report recommends better preparation for lockdown working conditions, access of corporate networks limited to the use of company-owned devices only.
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.techrepublic.com/article/enterprises-confident-chief-sustainability-officer-cso-will-improve-cybersecurity/#ftag=RSS56d97e7">
+            Read More on TechRepublic
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://ics.kaspersky.com/media/Kaspersky_ARC_ICS-2020-Trend-Report.pdf">
+            Kaspersky Report
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">FBI, DHS, HHS Warn of Imminent, Credible Ransomware Threat Against U.S. Hospitals
+          </mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2020/10/28/ryuk-hospital-header.jpg"></mj-image>
+          <mj-text>On Monday, Oct. 26, KrebsOnSecurity began following up on a tip from a reliable source that an aggressive Russian cybercriminal gang known for deploying ransomware was preparing to disrupt information technology systems at hundreds of hospitals, clinics and medical care facilities across the United States. Today, officials from the FBI and the U.S. Department of Homeland Security hastily assembled a conference call with healthcare industry executives warning about an “imminent cybercrime threat to U.S. hospitals and healthcare providers.”
+          </mj-text>
+          <mj-text>The agencies said they were sharing the information “to provide warning to healthcare providers to ensure that they take timely and reasonable precautions to protect their networks from these threats.” One participant on the government conference call today said the agencies offered few concrete details of how healthcare organizations might better protect themselves against this threat actor or purported malware campaign. “They didn’t share any IoCs [indicators of compromise], so it’s just been ‘patch your systems and report anything suspicious’,” said a healthcare industry veteran who sat in on the discussion.
+            However, others on the call said IoCs may be of little help for hospitals that have already been infiltrated by Ryuk. That’s because the malware infrastructure used by the Ryuk gang is often unique to each victim, including everything from the Microsoft Windows executable files that get dropped on the infected hosts to the so-called “command and control” servers used to transmit data between and among compromised systems.
+          </mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/hacking-group-is-targeting-us-hospitals-with-ryuk-ransomware/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://krebsonsecurity.com/2020/10/fbi-dhs-hhs-warn-of-imminent-credible-ransomware-threat-against-u-s-hospitals/">
+            Even More on KrebsOnSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Amazon sacks insiders over data leak, alerts customers</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2020/10/27/amazon2_lq.jpg"></mj-image>
+          <mj-text>Amazon has recently terminated employees responsible for leaking customer data, including their email addresses, to an unaffiliated third-party in violation of company policies.
+            The company has sent out an email announcement to affected customers following the incident. </mj-text>
+          <mj-text>"We are writing to let you know that your e-mail address was disclosed by an Amazon employee to a third-party in violation of our policies. As a result, we have fired the employee, referred them to law enforcement, and are supporting law enforcement’s criminal prosecution."
+            "No other information related to your account was shared. This is not a result of anything you have done and there is no need for you to take any action. We apologize for this incident."</mj-text>
+          <mj-text>Although the email notification pins blame for the incident on "an Amazon employee," a company statement shared by Motherboard implies multiple insiders could be to blame. Insider threats, not all of which may be malicious, continue to pose a risk to tech organizations.
+            Just last month, as reported by BleepingComputer, Shopify had suffered from a data breach impacting 200 merchants, because of some company team members going "rogue." 
+            
+            August this year, a Russian national tried to recruit a Tesla subsidiary employee in an extortion effort, "to convince him to deploy an unknown malware strain on the company’s computer network." The company did not answer how many customers were impacted.
+          </mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/amazon-sacks-insiders-over-data-leak-alerts-customers/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/the-10-vulnerabilities-most-commonly-discovered-by-bug-bounty-hunters-in-2020/#ftag=RSS56d97e7">The 10 vulnerabilities most commonly discovered by bug bounty hunters in 2020</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/dont-wait-for-a-breach-before-implementing-cybersecurity-expert-says/#ftag=RSS56d97e7">Don't wait for a breach before implementing cybersecurity</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/home-depot-blunder-emails-customer-order-info-to-strangers/">Home Depot blunder emails customer order info to strangers</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/aetna-fined-1-million-after-3-data-breaches-a-15264">Aetna Fined $1 Million After 3 Data Breaches</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/exclusive-medical-records-35-million-us-patients-can-be-accessed-and-manipulated-anyone">Medical Records of 3.5 Million U.S. Patients Can be Accessed and Manipulated by Anyone</a></li>
+              <li><a class="lnk-blue" href="https://www.troyhunt.com/humans-are-bad-at-urls-and-fonts-dont-matter/">Humans are Bad at URLs and Fonts Don’t Matter</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-disposable-emails-now-available-in-exchange-online/">Microsoft: Disposable emails now available in Exchange Online</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/french-services-firm-confirms-ryuk-ransomware-attack-a-15252">French IT Services Firm Sopra-Steria Confirms Ryuk Ransomware Attack</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/fbi-hackers-stole-government-source-code-via-sonarqube-instances/">FBI: Hackers stole government source code via SonarQube instances</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/finnish-psychotherapy-clinic-discloses-data-breach-victims-extorted/">Finnish psychotherapy clinic discloses data breach, victims extorted</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/massive-nitro-data-breach-impacts-microsoft-google-apple-more/">Massive Nitro data breach impacts Microsoft, Google, Apple, more</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/phishing-campaign-mimics-microsoft-teams-alerts-a-15238">Phishing Campaign Mimics Microsoft Teams Alerts</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/cybersecurity-policy-is-a-must-in-government/#ftag=RSS56d97e7">Cybersecurity policy is a must in government
+              </a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/phishing-scam-costs-wisconsin-gop-23-million-a-15275">Phishing Scam Costs Wisconsin GOP $2.3 Million
+              </a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/critical-oracle-weblogic-flaw-actively-targeted-in-attacks/">Critical Oracle WebLogic flaw actively targeted in attacks</a></li>
+              <li><a class="lnk-pink" href="https://isc.sans.edu/forums/diary/SMBGhost+the+critical+vulnerability+many+seem+to+have+forgotten+to+patch/26732/">SMBGhost - the critical vulnerability many seem to have forgotten to patch</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://catharsis.net.au/blog/network-pivoting-and-tunneling-guide/">Network Pivoting and Tunneling Guide</a></li>
+              <li><a class="lnk-pink" href="https://rushter.com/blog/python-code-isolation/">On code isolation in Python</a></li>
+              <li><a class="lnk-green" href="https://blog.securityinnovation.com/repo-jacking-exploiting-the-dependency-supply-chain">Repo Jacking: Exploiting the Dependency Supply Chain</a></li>
+              <li><a class="lnk-orange" href="https://devcraft.io/2020/10/20/github-pages-multiple-rces-via-kramdown-config.html">GitHub Pages - Multiple RCEs via insecure Kramdown configuration - $25,000 Bounty</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/threat-hunters-forge/mapping-att-ck-data-sources-to-security-events-via-ossem-%EF%B8%8F-b606d99e738c">Mapping ATT&CK Data Sources to Security Events via OSSEM</a></li>
+              <li><a class="lnk-blue" href="https://www.fireeye.com/blog/threat-research/2020/10/threatpursuit-vm-threat-intelligence-and-hunting-virtual-machine.html">ThreatPursuit VM: A Threat Intelligence and Hunting Virtual Machine</a></li>
+              <li><a class="lnk-pink" href="https://github.com/spaceraccoon/manuka">Manuka: Modular OSINT HoneyPot for recon techniques</a></li>
+              <li><a class="lnk-green" href="https://ethicsfirst.org/ethics-first-20191202.pdf">FIRST: Ethics for Incident Response and Security</a></li>
+              <li><a class="lnk-orange" href="https://github.com/PlumHound/PlumHound">PlumHound - BloodHoundAD Report Engine for Security Teams</a></li>
+              <li><a class="lnk-purple" href="https://github.com/LloydLabs/wsb-detect">wsb-detect: detects if you are running in Windows Sandbox ("WSB")</a></li>
+              <li><a class="lnk-blue" href="https://labs.bishopfox.com/industry-blog/cheating-at-online-video-games-part-1">Cheating at Online Video Games and What It Can Teach Us About AppSec (Part 1)</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
