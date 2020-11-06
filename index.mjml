@@ -18,7 +18,7 @@
       <mj-class name="h3" font-size="18" font-family="factoria" />
       <mj-all font-family="Roboto" />
     </mj-attributes>
-    <mj-style>
+    <mj-style inline="inline">
       .lnk-pink {
       color: #df247a;
       text-decoration: none;
@@ -39,7 +39,6 @@
       color: #00a5de;
       text-decoration: none;
       }
-      </style>
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@kindredgroup" />
       <meta name="twitter:title" content="Kindred Security Newsletter" />
