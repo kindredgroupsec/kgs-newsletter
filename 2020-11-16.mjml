@@ -1,0 +1,208 @@
+<mjml>
+<mj-head>
+<mj-title>Kindred Security Newsletter</mj-title>
+<mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+<mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+<mj-attributes>
+<mj-class name="white" color="#fff"></mj-class>
+<mj-class name="blue" color="#00a5de"></mj-class>
+<mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+<mj-class name="pink" color="#E72B78"></mj-class>
+<mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+<mj-class name="green" color="#2ea836"></mj-class>
+<mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+<mj-class name="orange" color="#F39000"></mj-class>
+<mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+<mj-class name="purple" color="#992785"></mj-class>
+<mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+<mj-class name="grey" color="#777"></mj-class>
+<mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+<mj-class name="black" color="#222"></mj-class>
+<mj-class name="headline" font-family="factoria"></mj-class>
+<mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+<mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+<mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+<mj-all font-family="Roboto"></mj-all>
+</mj-attributes>
+<mj-style inline="inline">
+.lnk-pink {
+color: #df247a;
+text-decoration: none;
+}
+.lnk-purple {
+color: #992785;
+text-decoration: none;
+}
+.lnk-green {
+color: #2ea836;
+text-decoration: none;
+}
+.lnk-orange {
+color: #F39000;
+text-decoration: none;
+}
+.lnk-blue {
+color: #00a5de;
+text-decoration: none;
+}
+.lnk-white {
+color: #fff;
+text-decoration: none;
+}.lnk-yellow {
+color: #ffff00;
+text-decoration: none;
+}
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@kindredgroup" />
+<meta name="twitter:title" content="Kindred Security Newsletter - 16/11/20" />
+<meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+<meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+<link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+</mj-style></mj-head>
+<mj-body>
+<mj-container background-color="#222">
+<mj-section background-color="#fff">
+<mj-column>
+<mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+<mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image><mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+<mj-text mj-class="grey h2" align="center">16 November 2020</mj-text></mj-column>
+</mj-section><mj-section background-color="#fff">
+<mj-column>
+<mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+Subscribe to this newsletter
+</mj-button>
+</mj-column>
+</mj-section>
+<!-- Featured (blue) Article -->
+<mj-section background-color="#00a5de">
+<mj-column>
+<mj-text mj-class="white h2" align="center">FTC Settlement With Zoom Sets Security Requirements</mj-text>
+<mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/ftc-settlement-zoom-sets-security-requirements-showcase_image-9-a-15335.jpg"></mj-image>
+<mj-text color="#fff">As part of a settlement of allegations that Zoom "engaged in a series of deceptive and unfair practices that undermined the security of its users," the U.S. Federal Trade Commission is requiring video conferencing provider to implement and maintain a comprehensive security program within the next 60 days. The 17-page agreement announced Monday comes after allegations that Zoom did not maintain a high level of cybersecurity and misled its customers concerning the level of encryption provided for meetings, saying it was AES 256 when it was actually AES 128.</mj-text>
+<mj-text color="#fff">The FTC settlement describes the steps Zoom must take, including: <ul>
+<li>Assess and document on an annual basis any potential internal and external security risks and develop ways to safeguard against such risks;
+</li>
+<li>Implement a vulnerability management program;
+</li>
+<li>Deploy safeguards such as multifactor authentication to protect against unauthorized access to its network, institute data deletion controls and take steps to prevent the use of known compromised user credentials;
+</li>
+<li>Require Zoom personnel to review any software updates for security flaws and ensure the updates will not hamper third-party security features.
+</li>
+</ul>Although no financial penalties were issued with the settlement, the FTC says any future violations could cost Zoom up to $43,280 for each.       </mj-text>
+<mj-text color="#fff">As part of the New York settlement, Zoom agreed to implement "reasonable encryption and security protocols," for customer and corporate data. This includes the use of end-to-end encryption for all data as well as deploying industry-standard AES-256 encryption.</mj-text>
+<mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/ftc-settlement-zoom-sets-security-requirements-a-15335">
+Read More on BankInfoSecurity
+</mj-button>
+</mj-column>
+</mj-section><!-- Pink Articles -->
+<mj-section background-color="#fff">
+<mj-column>
+<mj-spacer height="30px" />
+<mj-text mj-class="pink h2">New ModPipe Point of Sale (POS) Malware Targeting Restaurants, Hotels</mj-text>
+<mj-image src="https://thehackernews.com/images/-iB4A1N5UeBc/X60NU76ECYI/AAAAAAAABAs/YE2QY8sdBv8y-vgyX0lVKs-xMV1ozB6owCLcBGAsYHQ/s0/pos-malware.jpg"></mj-image>
+<mj-text>Cybersecurity researchers today disclosed a new kind of modular backdoor that targets point-of-sale (POS) restaurant management software from Oracle in an attempt to pilfer sensitive payment information stored in the devices. The backdoor — dubbed "ModPipe" — impacts Oracle MICROS Restaurant Enterprise Series (RES) 3700 POS systems, a widely used software suite in restaurants and hospitality establishments to efficiently handle POS, inventory, and labor management. A majority of the identified targets are primarily located in the US.</mj-text>
+<mj-text>Businesses in the hospitality sector that are using the RES 3700 POS are advised to update to the latest version of the software as well as use devices that run updated versions of the underlying operating system.</mj-text>
+<mj-button mj-class="bg-pink" href="https://thehackernews.com/2020/11/new-modpipe-point-of-sale-pos-malware.html">
+Read More on TheHackerNews
+</mj-button>
+<mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/modpipe-malware-decrypts-oracle-point-of-sale-database-passwords/">
+Even More on BleepingComputer
+</mj-button>
+</mj-column>
+</mj-section><!-- Green Articles -->
+<mj-section background-color="#fff">
+<mj-column>
+<mj-spacer height="30px" />
+<mj-text mj-class="green h2">Ransomware Demands continue to rise as Data Exfiltration becomes common</mj-text>
+<mj-image src="https://images.squarespace-cdn.com/content/v1/5ab16578e2ccd10898976178/1604432640463-YRVWD0JBW9F5SBCSWGXU/ke17ZwdGBToddI8pDm48kPB1SG_2RlmnobI966_iSMVZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwYM5DzE_lNWQHZaT5PwldrqqIUwOXZk5_-zGGtvKLkWeuP-aFiPLMRhj35l4FXaTU/1+-+Ransom+Payments.png?format=750w"></mj-image>
+<mj-text>The Coveware Quarterly Ransomware Report describes ransomware incident response trends during Q3 of 2020. Ransomware groups continue to leverage data exfiltration as a tactic, though trust that stolen data will be deleted is eroding as defaults become more frequent when exfiltrated data is made public despite the victim paying. </mj-text>
+<mj-text>The average ransom payment increased to $233,817 in Q3 of 2020, up 31% from Q2.  The median payment in Q3 rose slightly from $108,597 to $110,532, reflecting how large, big game payments continue to drag the averages up. The disequilibrium within the cyber extortion industry was evident when attackers discovered that the same tactics, techniques, and procedures (TTPs) that work on a 500 person company can work on a 50,000 person company and the potential payoff is substantially higher.  The dramatic increase in ransom amounts may imply a higher degree of sophistication as attackers go upmarket, but Coveware does not believe that the attacks are more sophisticated. </mj-text>
+<mj-text>The biggest change over the past 6 quarters is threat actors now realize that their tactics scale to much larger enterprises without much of an increase in their own operating costs. The profit margins are extremely high and the risk is low.  This problem will continue to get worse until pressure is applied to the unit economics of this illicit industry. It is also possible that the influx of remote and work-from-home setups using RDP and other remote technologies allowed threat actors to leverage attack vectors that previously didn’t exist.</mj-text>
+<mj-text>
+Almost 50% of ransomware cases included the threat to release exfiltrated data along with encrypted data. The threat to release exfiltrated data was used as a monetization conversion kicker. Previously, when a victim of ransomware had adequate backups, they would just restore and go on with life; there was zero reason to even engage with the threat actor. Now, when a threat actor steals data, a company with perfectly restorable backups is often compelled to at least engage with the threat actor to determine what data was taken. 
+</mj-text>
+<mj-text>Downtime is still the most dangerous aspect of a ransomware attack, and one of the reasons data exfiltration should not present as much of a challenge to victims as business interruption. In Q3 of 2020, the average firm experienced roughly 19 days of downtime. Downtime can range on a spectrum from having a business be at a total standstill, to being just mildly affected by non-available machines. 
+</mj-text>
+<mj-button mj-class="bg-green" href="https://www.coveware.com/blog/q3-2020-ransomware-marketplace-report">
+Read More on Coveware blog
+</mj-button>
+<mj-button mj-class="bg-green" href="https://www.blackfog.com/the-state-of-ransomware-in-2020/">
+The State of Ransomware in 2020
+</mj-button>
+<mj-button mj-class="bg-green" href="https://www.bankinfosecurity.com/blogs/data-exfiltrating-ransomware-gangs-pedal-false-promises-p-2965">
+Data-Exfiltrating Ransomware Gangs Pedal False Promises
+</mj-button>
+</mj-column>
+</mj-section><mj-section background-color="#fff">
+<mj-column>
+<mj-spacer height="30px" />
+<mj-text mj-class="h2">More #News</mj-text>
+<mj-text>
+<ul><li><a class="lnk-green" href="https://www.zdnet.com/article/microsoft-urges-users-to-stop-using-phone-based-multi-factor-authentication/#ftag=RSSbaffb68">Microsoft urges users to stop using phone-based multi-factor authentication</a></li><li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/fake-microsoft-teams-updates-lead-to-cobalt-strike-deployment/">Fake Microsoft Teams updates lead to Cobalt Strike deployment</a></li><li><a class="lnk-blue" href="https://www.techrepublic.com/article/ddos-attacks-how-to-combat-the-latest-tactics/#ftag=RSS56d97e7">DDoS attacks: How to combat the latest tactics</a></li><li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/ubuntus-gnome-desktop-could-be-tricked-into-giving-root-access/">Ubuntu's Gnome desktop could be tricked into giving root access</a></li>
+<li><a class="lnk-purple" href="https://www.zdnet.com/article/new-platypus-attack-can-steal-data-from-intel-cpus/#ftag=RSSbaffb68">New Platypus attack can steal data from Intel CPUs</a></li><li><a class="lnk-green" href="https://thehackernews.com/2020/11/sad-dns-new-flaws-re-enable-dns-cache.html">Why you should keep your Netflix password to yourself</a></li>
+<li><a class="lnk-orange" href="https://thehackernews.com/2020/11/missions-next-level-of-interactive.html">MISSIONS — The Next Level of Interactive Developer Security Training</a></li>
+<li><a class="lnk-purple" href="https://www.bankinfosecurity.com/cyberedboard-ciso-community-debuts-a-15353">CyberEdBoard CISO Community Debuts</a></li>
+<li><a class="lnk-blue" href="https://www.bankinfosecurity.com/probing-marriotts-mega-breach-9-cybersecurity-takeaways-a-15338">Probing Marriott's Mega-Breach: 9 Cybersecurity Takeaways</a></li>
+</ul>
+</mj-text>
+<mj-section background-color="#fff">
+<mj-column>
+<mj-text mj-class="h2">#Breach log</mj-text>
+<mj-text>
+<ul>
+<li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/luxottica-data-breach-exposes-820k-eyemed-lenscrafters-patients/">Luxottica data breach exposes 820K EyeMed, LensCrafters patients</a></li>
+<li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/laptop-maker-compal-hit-by-ransomware-17-million-demanded/">Laptop maker Compal hit by ransomware, $17 million demanded</a></li>
+<li><a class="lnk-orange" href="https://www.securityweek.com/hackers-demand-11-million-capcom-after-ransomware-attack">Data on millions of hotel guests exposed in cloud storage leak</a></li>
+<li><a class="lnk-pink" href="https://www.zdnet.com/article/info-of-27-7-million-texas-drivers-exposed-in-vertafore-data-breach/#ftag=RSSbaffb68">Info of 27.7 million Texas drivers exposed in Vertafore data breach</a></li><li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/the-north-face-resets-passwords-after-credential-stuffing-attack/">The North Face resets passwords after credential stuffing attack</a></li>
+<li><a class="lnk-purple" href="https://www.bankinfosecurity.com/how-game-developer-leaked-46-million-accounts-a-15350">How a Game Developer Leaked 46 Million Accounts</a></li>
+<li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/popular-stock-photo-service-hit-by-data-breach-83m-records-for-sale/">Popular stock photo service hit by data breach, 8.3M records for sale</a></li>
+<li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/steelcase-furniture-giant-down-for-2-weeks-after-ransomware-attack/">Steelcase furniture giant down for 2 weeks after ransomware attack</a></li>
+</ul>
+</mj-text>
+<mj-spacer height="30px" />
+<mj-text mj-class="h2">#Patch Time!</mj-text>
+<mj-text>
+<ul>
+<li><a class="lnk-blue" href="https://msrc-blog.microsoft.com/2020/11/09/vulnerability-descriptions-in-the-new-version-of-the-security-update-guide/">Vulnerability Descriptions in the New Version of the Security Update Guide</a></li>
+<li><a class="lnk-pink" href="https://krebsonsecurity.com/2020/11/patch-tuesday-november-2020-edition/">Patch Tuesday, November 2020 Edition</a></li>
+<li><a class="lnk-green" href="https://www.welivesecurity.com/2020/11/06/apple-plugs-three-zero-day-holes-ios/">Apple patches three actively exploited zero‑day flaws in iOS</a></li>
+<li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/wordpress-plugin-bugs-can-let-attackers-hijack-up-to-100k-sites/">WordPress plugin bugs can let attackers hijack up to 100K sites</a></li>
+<li><a class="lnk-orange" href="https://www.securityweek.com/recent-weblogic-vulnerability-likely-exploited-ransomware-operators">Recent WebLogic Vulnerability Likely Exploited by Ransomware Operators</a></li>
+<li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/adobe-releases-security-update-for-adobe-reader-for-android/">Adobe releases security update for Adobe Reader for Android</a></li>
+<li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/windows-10-intel-microcode-released-to-fix-new-cpu-security-bugs/">Windows 10 Intel microcode released to fix new CPU security bugs</a></li>
+<li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/office-november-security-updates-fix-remote-code-execution-bugs/">Office November security updates fix remote code execution bugs</a></li>
+<li><a class="lnk-green" href="https://thehackernews.com/2020/11/two-new-chrome-0-days-under-active.html">Two New Chrome 0-Days Under Active Attacks – Update Your Browser</a></li>
+</ul>
+</mj-text>
+<mj-spacer height="30px" />
+<mj-text mj-class="h2">#Tech and #Tools</mj-text>
+<mj-text>
+<ul>
+<li><a class="lnk-blue" href="https://blog.alcide.io/kubernetes-security-is-not-container-security">Kubernetes Security Is Not Container Security</a></li>
+<li><a class="lnk-pink" href="https://javuto.medium.com/introducing-osctrl-api-715d3ff38d07">Osctrl: TLS endpoint for OsQuery</a></li>
+<li><a class="lnk-green" href="https://blog.cloudflare.com/rpki-2020-fall-update/">The Internet is Getting Safer: Fall 2020 RPKI Update</a></li>
+<li><a class="lnk-orange" href="https://securitylab.github.com/research/Ubuntu-gdm3-accountsservice-LPE">How to get root on Ubuntu 20.04 by pretending nobody’s /homeut4</a></li>
+<li><a class="lnk-purple" href="https://blogs.akamai.com/2020/11/a-new-skimmer-uses-websockets-and-a-fake-credit-card-form-to-steal-sensitive-data.html">A new skimmer uses websockets and a fake credit card form to steal sensitive data</a></li>
+<li><a class="lnk-blue" href="https://r2c.dev/blog/2020/fixing-leaky-logs-how-to-find-a-bug-and-ensure-it-never-returns/">Fixing leaky logs: how to find a bug and ensure it never returns</a></li>
+<li><a class="lnk-pink" href="https://github.com/lightspin-tech/red-kube">Red Team KubeCTL Cheat Sheet</a></li>
+<li><a class="lnk-green" href="https://github.com/cmu-snap/pigasus">Pigasus: Intrusion Detection and Prevention System using FPGA fto achieve 100GBPS</a></li>
+<li><a class="lnk-orange" href="https://posts.specterops.io/sharing-the-myth-d14eb1b4fc23">Sharing the Myth</a></li>
+<li><a class="lnk-purple" href="https://www.zdnet.com/article/npm-package-caught-stealing-sensitive-discord-and-browser-files/#ftag=RSSbaffb68">Npm package caught stealing sensitive Discord and browser files</a></li>
+<li><a class="lnk-blue" href="https://github.com/ossf/scorecard">Open Source project Security Scorecards</a></li>
+<li><a class="lnk-pink" href="https://github.com/rewanth1997/Damn-Vulnerable-Bank">Damn-Vulnerable-Bank</a></li>
+</ul>
+</mj-text>
+</mj-column>
+</mj-section><mj-section background-color="#fff">
+<mj-column>
+<mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+<mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+<mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+<mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+<mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+<mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+</mj-column>
+</mj-section>
+</mj-container>
+</mj-body>
+</mjml>
