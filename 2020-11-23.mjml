@@ -1,0 +1,258 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 23/11/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">23 November 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Network-layer DDoS attack trends for Q3 2020</mj-text>
+          <mj-image src="https://blog.cloudflare.com/content/images/2020/11/image12-1.png"></mj-image>
+          <mj-text color="#fff">DDoS attacks are surging — both in frequency and sophistication. After doubling from Q1 to Q2, the total number of network layer attacks observed in Q3 doubled again — resulting in a 4x increase in number compared to the pre-COVID levels in the first quarter. </mj-text>
+          <mj-text color="#fff">Here are other key network layer DDoS trends we observed in Q3:
+            <lu>
+              <li>Majority of the attacks are under 500 Mbps and 1 Mpps — both still suffice to cause service disruptions</li>
+              <li>We continue to see a majority of attacks be under 1 hr in duration</li>
+              <li>Ransom-driven DDoS attacks (RDDoS) are on the rise as groups claiming to be Fancy Bear, Cozy Bear and the Lazarus Group extort organizations around the world. As of this writing, the ransom campaign is still ongoing. See a special note on this below.</li>
+            </lu>
+            
+            
+            </mj-text>
+          <mj-text color="#fff">Short burst attacks may attempt to cause damage without being detected by DDoS detection systems. DDoS services that rely on manual analysis and mitigation may prove to be useless against these types of attacks because they are over before the analyst even identifies the attack traffic.
+
+            Alternatively, the use of short attacks may be used to probe the cyber defenses of the target. In other cases, attackers generate small DDoS attacks as proof and warning to the target organization of the attacker’s ability to cause real damage later on. It’s often followed by a ransom note to the target organization, demanding payment so as to avoid suffering an attack that could more thoroughly cripple network infrastructure. Whatever their motivation, DDoS attacks of any size or duration are not going away anytime soon. Even short DDoS attacks cause harm, and having an automated real-time defense mechanism in place is critical for any online business.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://blog.cloudflare.com/network-layer-ddos-attack-trends-for-q3-2020/">
+            Read More on Cloudflare Blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Cisco Webex bugs allow attackers to join meetings as ghost users</mj-text>
+          <mj-image src="https://zdnet2.cbsistatic.com/hub/i/2020/11/18/6cf3a303-1d58-4673-81ec-2eff6216b4db/webex.jpg"></mj-image>
+          <mj-text>Now patched by Cisco, three flaws in Webex would have given intruders full access to a meeting without being seen, says IBM.When successfully exploited, IBM researchers said that the bugs would have allowed attackers to:
+
+            Join a Webex meeting as a ghost without being seen on the participant list with full access to audio, video, chat, and screen sharing capabilities (CVE-2020-3419)
+            Stay in a Webex meeting as a ghost after being expelled from it, maintaining audio connection (CVE-2020-3471)
+            Gain access to information on meeting attendees – including full names, email addresses, and IP addresses – from the meeting room lobby, even without being admitted to the call (CVE-2020-3441)
+          </mj-text>
+          <mj-text>The researchers were able to successfully demonstrate attacks abusing these Webex bugs on Windows, macOS, and the iOS version of Webex Meetings applications and Webex Room Kit appliance.
+
+            Mitigating circumstances include the fact that the vulnerabilities can only be exploited if attackers know the URLs of scheduled Webex meetings with unique meeting URLs and Webex Personal Rooms. However, IBM researchers say that "personal rooms may be easier to exploit because they are often based on a predictable combination of the room owner's name and organization name."
+
+
+          </mj-text>
+          <mj-text>Cisco has patched the cloud-based services for Webex, where no user action is required. For customers who run an on premises version of Webex software, the company has issued patches for Webex Meetings Server. Webex users should view the following Common Vulnerabilities and Exposures (CVEs): CVE-2020-3441; CVE-2020-3471; CVE-2020-3419.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/cisco-webex-bugs-allow-attackers-to-join-meetings-as-ghost-users/#ftag=RSSbaffb68">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/cisco-fixes-webex-bugs-allowing-ghost-attackers-in-meetings/">
+            Even More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Ticketmaster Fined $1.7 Million for Data Security Failures</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/ticketmaster-fined-17-million-for-data-security-failures-showcase_image-10-a-15369.jpg"></mj-image>
+          <mj-text>Ticketmaster UK has been fined 1.25 million pounds ($1.7 million) by Britain's privacy watchdog for its "serious failure" to comply with the EU's General Data Protection Regulation. Regulators say the company failed to properly secure chatbot software that it opted to run on a payments page, which attackers subverted, allowing them to steal payment card information. After being alerted to suspected card fraud that traced to its site, Ticketmaster UK allegedly failed to mitigate the problem for nine more weeks.
+
+          </mj-text>
+          <mj-text>Ticketmaster UK says it plans to appeal the ruling. The company is a subsidiary of ticket sales and distribution giant Ticketmaster, owned by Live Nation Entertainment, which is based in Beverly Hills, California.
+
+            The ICO, which launched its investigation in June 2018, says the fine only applies to Ticketmaster's failures following GDPR going into full effect in May 2018. As the investigation concluded before the U.K. left the EU, the ICO says it served as the lead supervisory authority for the EU and that the penalty represents a consensus decision by all data protection authorities across Europe.</mj-text>
+          <mj-text>The fine announced by the ICO traces to a breach that began in February 2018.
+
+            Ultimately, the breach exposed personal details - including names, payment card numbers, expiration dates and CVV numbers - for approximately 9.4 million European Ticketmaster customers, including 1.5 million in the U.K. At least 60,000 Barclays Bank cards have been tied to known fraud, the ICO says, while Monzo Bank replaced 6,000 cards after it detected signs of fraudulent use. Security experts say the breach appears to have been tied to groups of attackers - collectively known as Magecart - that implant code on websites that allows them to steal payment card data.
+
+          </mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bankinfosecurity.com/ticketmaster-fined-17-million-for-data-security-failures-a-15369">
+            Read More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2020/11/be-very-sparing-in-allowing-site-notifications/">Be Very Sparing in Allowing Site Notifications</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/facebook-messenger-bug-could-have-allowed-hackers-to-spy-on-users/#ftag=RSSbaffb68">Facebook Messenger bug could have allowed hackers to spy on users</a></li>
+              <li><a class="lnk-green" href="https://www.microsoft.com/security/blog/2020/11/19/modernize-secure-access-for-your-on-premises-resources-with-zero-trust/">Modernize secure access for your on-premises resources with Zero Trust</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/german-court-slashes-gdpr-privacy-fine-by-90-a-15359">German Court Slashes a GDPR Privacy Fine by 90%</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/microsoft-rolls-out-protection-for-critical-accounts-in-office-365/">Microsoft rolls out protection for critical accounts in Office 365</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/starting-next-year-chrome-extensions-will-show-what-data-they-collect-from-users/#ftag=RSSbaffb68">Starting next year, Chrome extensions will show what data they collect from users</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/66-of-companies-say-it-would-take-5-or-more-days-to-fully-recover-from-a-ransomware-attack-ransom-not-paid/#ftag=RSS56d97e7">66% of companies say it would take 5 or more days to fully recover from a ransomware attack ransom not paid</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/11/apple-lets-some-of-its-big-sur-macos.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Apple Lets Some of its Big Sur macOS Apps Bypass Firewall and VPNs</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/blogs/blockchain-for-voting-warning-from-mit-p-2970">Blockchain for Voting: A Warning From MIT</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/software/firefox-83-boosts-security-with-https-only-mode-zero-day-fix/">Firefox 83 boosts security with HTTPS-Only mode, zero-day fix</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/meet-the-hackers-who-earn-millions-for-saving-the-web-how-bug-bounties-are-changing-everything-about-security/#ftag=RSS56d97e7">Meet the hackers who earn millions for saving the web, one bug at a time</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/the-ransomware-landscape-is-more-crowded-than-you-think/#ftag=RSSbaffb68">The ransomware landscape is more crowded than you think</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/microsoft-says-three-apts-have-targeted-seven-covid-19-vaccine-makers/#ftag=RSSbaffb68">Microsoft says three APTs have targeted seven COVID-19 vaccine makers</a></li>
+            </ul>
+          </mj-text>
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/gaming-company-confirms-ragnar-locker-ransomware-attack-a-15385">Gaming Company Capcom Confirms Ragnar Locker Ransomware Attack</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/coil-payments-platform-leaks-user-emails-in-privacy-policy-update/">Coil payments platform leaks user emails in 'Privacy Policy' update</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cold-storage-giant-americold-hit-by-cyberattack-services-impacted/">Cold storage giant Americold hit by cyberattack, services impacted
+              </a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/data-27-million-texas-drivers-compromised-in-breach-a-15367">Data of 27 Million Texas Drivers Compromised in Breach</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/hacker-shares-32-million-pluto-tv-accounts-for-free-on-forum/">Hacker shares 3.2 million Pluto TV accounts for free on forum
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/biotech-research-firm-miltenyi-biotec-hit-by-ransomware-data-leaked/">Biotech research firm Miltenyi Biotec hit by ransomware, data leaked</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/hacker-steals-2-million-from-cryptocurrency-service-akropolis/#ftag=RSSbaffb68">Hacker steals $2 million from cryptocurrency service Akropolis</a></li>
+              <li><a class="lnk-green" href="https://www.smh.com.au/sport/racing/tabcorp-s-it-staff-put-on-notice-days-before-major-outage-20201120-p56gfi.html">Tabcorp's IT staff put on notice days before major outage
+              </a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/11/researcher-discloses-critical-rce-flaws.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Researcher Discloses Critical RCE Flaws In Cisco Security Manager</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/macos-big-sur-1101-patches-60-vulnerabilities?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">macOS Big Sur 11.0.1 Patches 60 Vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://isc.sans.edu/forums/diary/Heartbleed+BlueKeep+and+other+vulnerabilities+that+didnt+disappear+just+because+we+dont+talk+about+them+anymore/26798/">
+                Heartbleed, BlueKeep and other vulnerabilities that didn't disappear just because we don't talk about them anymore</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.antitree.com/2020/11/pod-security-policies-are-being-deprecated-in-kubernetes/">Pod Security Policies Are Being Deprecated in Kubernetes</a></li>
+              <li><a class="lnk-pink" href="https://www.troyhunt.com/inside-the-cit0day-breach-collection/">Inside the Cit0Day Breach Collection</a></li>
+              <li><a class="lnk-green" href="https://blog.cloudflare.com/anchoring-trust-a-hardware-secure-boot-story/">Anchoring Trust: A Hardware Secure Boot Story</a></li>
+              <li><a class="lnk-orange" href="https://blog.cloudflare.com/sad-dns-explained/">SAD DNS Explained</a></li>
+              
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/aws-flaw-allows-attackers-to-find-users-access-codes-a-15408">AWS Flaw Allows Attackers to Find Users' Access Codes</a></li>
+              <li><a class="lnk-pink" href="https://www.clickittech.com/aws/aws-organizations-best-practices/amp/">Multi-account AWS Organizations best practices for Financial Services</a></li>
+              <li><a class="lnk-green" href="https://www.martinvigo.com/phonerator-an-advanced-valid-phone-number-generator/">Phonerator – An advanced valid phone number generator</a></li>
+              <li><a class="lnk-orange" href="https://wordlists.assetnote.io/">Assetnote Wordlists: wordlists for content and subdomain discovery</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/tenable-techblog/hacking-in-among-us-b43ea0fdd3d7">Hacking in Among Us</a></li>
+              <li><a class="lnk-blue" href="https://cloudberry.engineering/article/google-cloud-service-accounts-security-best-practices/">Google Cloud Service Accounts Security Best Practices</a></li>
+              <li><a class="lnk-pink" href="https://blog.cryptohack.org/macos-ocsp-disaster">Can't open apps on macos: an ocsp disaster waiting to happen</a></li>
+              <li><a class="lnk-green" href="https://snyk.io/blog/owasp-top-10-proactive-controls-2020/">Developing secure software: how to implement the OWASP top 10 Proactive Controls</a></li>
+              <li><a class="lnk-orange" href="https://public.intel471.com/blog/ransomware-as-a-service-2020-ryuk-maze-revil-egregor-doppelpaymer/">Ransomware-as-a-service: The pandemic within a pandemic</a></li>
+              <li><a class="lnk-purple" href="https://docs.google.com/presentation/d/e/2PACX-1vT9yVbsO06LSbaQnYTmMJaKRAbQN5D2jIoxe4niYkopqV49Df9DQg3XE0FHNDvfFlpdpT6T2Uf5jcPQ/pub?start=false&loop=false&delayms=3000&slide=id.p1">Velociraptor DFIR tool tutorial</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/@theporkskewer/this-is-part-one-of-a-four-part-series-about-measuring-security-at-a-startup-64964365ae25">Measuring Security: An OWASP Panel</a></li>
+              <li><a class="lnk-pink" href="https://github.com/Azure/Azure-Sentinel/">Azure Sentinel Repository</a></li>
+              <li><a class="lnk-green" href="https://jordan-wright.com/blog/post/2020-11-12-hunting-for-malicious-packages-on-pypi/">Hunting for Malicious Packages on PyPI</a></li>
+              <li><a class="lnk-orange" href="https://www.fireeye.com/blog/threat-research/2020/11/purgalicious-vba-macro-obfuscation-with-vba-purging.html">Purgalicious VBA: Macro Obfuscation With VBA Purging
+              </a></li>
+              <li><a class="lnk-purple" href="https://ajxchapman.github.io/containers/2020/11/19/privileged-container-escape.html">Privileged Container Escape - Control Groups release_agent
+              </a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
