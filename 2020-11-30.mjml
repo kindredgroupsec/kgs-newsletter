@@ -1,0 +1,184 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .lnk-pink {
+        color: #df247a;
+        text-decoration: none;
+      }
+      .lnk-purple {
+        color: #992785;
+        text-decoration: none;
+      }
+      .lnk-green {
+        color: #2ea836;
+        text-decoration: none;
+      }
+      .lnk-orange {
+        color: #F39000;
+        text-decoration: none;
+      }
+      .lnk-blue {
+        color: #00a5de;
+        text-decoration: none;
+      }
+      .lnk-white {
+        color: #fff;
+        text-decoration: none;
+      }.lnk-yellow {
+        color: #ffff00;
+        text-decoration: none;
+      }
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@kindredgroup" />
+      <meta name="twitter:title" content="Kindred Security Newsletter - 30/11/20" />
+      <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+      <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+      <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+    </mj-style></mj-head>
+    <mj-body>
+      <mj-container background-color="#222">
+        <mj-section background-color="#fff">
+          <mj-column>
+            <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+            <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image><mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+            <mj-text mj-class="grey h2" align="center">30 November 2020</mj-text></mj-column>
+          </mj-section><mj-section background-color="#fff">
+            <mj-column>
+              <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+                Subscribe to this newsletter
+              </mj-button>
+            </mj-column>
+          </mj-section>
+          <!-- Featured (blue) Article -->
+          <mj-section background-color="#00a5de">
+            <mj-column>
+              <mj-text mj-class="white h2" align="center">Sopra Steria expects €40 to €50 million loss after Ryuk ransomware attack</mj-text>
+              <mj-image src="https://www.bleepstatic.com/content/posts/2020/11/25/Sopra_Steria.jpg"></mj-image>
+              <mj-text color="#fff">French IT services giant Sopra Steria said today in an official statement that the October Ryuk ransomware attack will lead to a loss of between €40 million and €50 million. Sopra Steria is a European information technology firm with 46,000 employees in 25 countries providing a large array of IT services, including consulting, systems integration, and software development.</mj-text>
+              <mj-text color="#fff">Sopra Steria published a statement on October 21st regarding a cyberattack that hit its network on the evening of October 20th but did not provide details on who was behind the attack.The ransomware attack was blocked by Sopra Steria's in-house security and IT teams which contained the ransomware to "a limited part of the Group’s infrastructure" thus protecting the company's data, as well as its customers and partners. The recovery process started by the company on October 26th is almost complete, with access restored to nearly all "workstations, R&D and production servers, and in-house tools and applications." How was it that the French IT services firm got hit by a version of Ryuk that had not been previously seen by security researchers? Experts say the cybercrime gang behind Ryuk continually refines and updates the crypto-locking malware, sometimes customizing it for individual targets, to better try and evade security defenses</mj-text>
+              <mj-text color="#fff">In a statement issued on Wednesday, the firm also says it expects to receive an insurance payout of $35 million. The company notes, however, that it does not expect the ransomware outbreak to impact its fourth quarter sales results, and says its cleanup efforts have nearly concluded. "After including the items mentioned above, for financial year 2020 Sopra Steria expects to see negative organic revenue growth of between 4.5% and 5.0% (previously 'between -2% and -4%'), an operating margin on business activity of around 6.5% (previously 'between 6% and 7%'), and free cash flow of between €50 million and €100 million (previously 'between €80m and €120m')," the company added.</mj-text>
+              <mj-text color="#fff">Cognizant, one of the largest IT managed services company worldwide, also said it expected losses of between $50 million to $70 million after a Maze ransomware attack from April 2020.
+              </mj-text>
+              <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/sopra-steria-expects-50-million-loss-after-ryuk-ransomware-attack/">
+                Read More on BleepingComputer
+              </mj-button>
+              <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/ransomware-services-firm-faces-60-million-recovery-a-15465">
+                Even More on BankInfoSecurity
+              </mj-button>
+            </mj-column>
+          </mj-section><!-- Pink Articles -->
+          <mj-section background-color="#fff">
+            <mj-column>
+              <mj-spacer height="30px" />
+              <mj-text mj-class="pink h2">SIM swap scam: What it is and how to protect yourself</mj-text>
+              <mj-image src="https://www.welivesecurity.com/wp-content/uploads/2020/11/wls_SIM-Swapping_unspl_inv_1920x1080.jpg"></mj-image>
+              <mj-text>SIM swap scams have been a growing problem, with fraudsters targeting people from various walks of life, including tech leaders, and causing untold damage to many victims. Commonly, the point of this type of attack is to gain access to one, or more, of the target’s online accounts. The cybercriminal behind the attack is also banking on the assumption that the victim uses phone calls and text messages as a form of two-factor authentication (2FA). Here’s why you should be on the lookout for attacks where someone can upend your life by first hijacking your mobile phone number.
+              </mj-text>
+              <mj-text>Also known as SIM hijacking and SIM splitting, SIM swapping can be described as a form of account takeover fraud. To make the attack work, the cybercriminal will first gather information on their mark, often through trawling the web and searching for every tidbit of data the potential victim may have (over)shared. The victim’s personal information can also be gleaned from known data breaches or leaks, or via social engineering techniques, such as phishing and vishing, where the fraudster wheedles the information directly out of the target. With enough information in their hands, the fraudster will contact the target’s mobile phone provider and trick its customer service representative into porting their telephone number to a SIM card owned by the criminal. More often than not, the scammer’s story will be something along the lines that the switch is needed due to the phone being stolen or lost. Once the process is done, the victim will lose access to the cellular network and phone number, while the hacker will now receive the victim’s calls and text messages.</mj-text>
+              <mj-text>While SIM swap scams are ever-present and a threat to everybody, there are ways to protect yourself. Taking one or more of the several steps outlined in the article can help you lower your chances of falling victim to such an attack. Additionally, you can contact your bank and telecommunications providers to inquire about any supplementary security services you can enable to lock down your accounts.
+              </mj-text>
+              <mj-button mj-class="bg-pink" href="https://www.welivesecurity.com/2020/11/26/sim-swap-scam-what-it-is-how-protect-yourself/">
+                Read More on WeLiveSecurity
+              </mj-button>
+            </mj-column>
+          </mj-section><mj-section background-color="#fff">
+            <mj-column>
+              <mj-spacer height="30px" />
+              <mj-text mj-class="h2">More #News</mj-text>
+              <mj-text>
+                <ul>
+                  <li><a class="lnk-blue" href="https://www.zdnet.com/article/home-depot-agrees-to-17-5m-settlement-over-2014-data-breach/#ftag=RSSbaffb68">Home Depot agrees to $17.5 million settlement over 2014 data breach</a></li>
+                  <li><a class="lnk-pink" href="https://thehackernews.com/2020/11/baidus-android-apps-caught-collecting.html">China's Baidu Android Apps Caught Collecting Sensitive User Data</a></li>
+                  <li><a class="lnk-green" href="https://www.techrepublic.com/article/study-finds-31-of-third-party-vendors-could-cause-significant-damage-to-organizations-if-breached/">Study finds 31% of third-party vendors could cause significant damage to organizations if breached</a></li>
+                  <li><a class="lnk-orange" href="https://www.securityweek.com/major-power-outage-india-possibly-caused-hackers-reports">Major Power Outage in India Possibly Caused by Hackers: Reports</a></li>
+                  <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/lightbot-trickbot-s-new-reconnaissance-malware-for-high-value-targets/">LightBot: TrickBot’s new reconnaissance malware for high-value targets</a></li>
+                  <li><a class="lnk-blue" href="https://www.securityweek.com/man-united-unable-fully-restore-systems-after-cyberattack">Manchester United Unable to Fully Restore Systems A Week After Cyberattack</a></li>
+                  <li><a class="lnk-pink" href="https://www.zdnet.com/article/spotify-launches-rolling-reset-on-customer-accounts-linked-to-data-leak/#ftag=RSSbaffb68">Spotify launches ‘rolling reset’ on customer accounts, passwords linked to data leak</a></li>
+                  <li><a class="lnk-green" href="https://www.welivesecurity.com/2020/11/23/security-flaws-smart-doorbells-open-door-hackers/">Security flaws in smart doorbells may open the door to hackers</a></li>
+                  <li><a class="lnk-orange" href="https://www.zdnet.com/article/tesla-model-x-hacked-and-stolen-in-minutes-using-new-key-fob-hack/#ftag=RSSbaffb68">Tesla Model X hacked and stolen in minutes using new key fob hack</a></li>
+                  <li><a class="lnk-purple" href="https://www.zdnet.com/article/malware-creates-online-stores-on-top-of-hacked-wordpress-sites/#ftag=RSSbaffb68">Malware creates scam online stores on top of hacked WordPress sites</a></li>
+                  <li><a class="lnk-blue" href="https://www.securityweek.com/new-lidarphone-attack-uses-robot-vacuum-cleaners-eavesdropping">New 'LidarPhone' Attack Uses Robot Vacuum Cleaners for Eavesdropping</a></li>
+                  <li><a class="lnk-pink" href="https://www.zdnet.com/article/a-hacker-is-selling-access-to-the-email-accounts-of-hundreds-of-c-level-executives/#ftag=RSSbaffb68">A hacker is selling access to the email accounts of hundreds of C-level executives</a></li>
+                </ul>
+              </mj-text>
+              <mj-text mj-class="h2">#Breach Log</mj-text>
+              <mj-text>
+                <ul>
+                  <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/sophos-alerts-customers-of-info-exposure-after-security-breach/">Sophos alerts customers of info exposure after security breach
+                  </a></li>
+                  <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/canon-publicly-confirms-august-ransomware-attack-data-theft/">Canon publicly confirms August ransomware attack, data theft</a></li>
+                  <li><a class="lnk-pink" href="https://www.zdnet.com/article/networking-equipment-vendor-belden-discloses-data-breach/#ftag=RSSbaffb68">Networking equipment vendor Belden discloses data breach</a></li>
+                  <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/truck-routing-provider-rand-mcnally-hit-by-cyberattack/">Truck routing provider Rand McNally hit by cyberattack</a></li>
+                  <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/ransomware-attack-targets-baltimore-county-public-schools-a-15467">Ransomware Attack Targets Baltimore County Public Schools</a></li>
+                  <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/ransomware-hits-largest-us-fertility-network-patient-data-stolen/">Ransomware hits largest US fertility network, patient data stolen</a></li>
+                  <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/passwords-exposed-for-almost-50-000-vulnerable-fortinet-vpns/">Passwords exposed for almost 50,000 vulnerable Fortinet VPNs</a></li>
+                  <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/grelos-skimmer-variant-co-opts-magecart-infrastructure-a-15428">Skimmer Compromised Website of Boom! Mobile In October</a></li>
+                </ul>
+              </mj-text>
+              <mj-spacer height="30px" />
+              <mj-text mj-class="h2">#Patch Time!</mj-text>
+              <mj-text>
+                <ul>
+                  <li><a class="lnk-blue" href="https://www.securityweek.com/unofficial-patch-released-windows-7-zero-day-vulnerability">Unofficial Patch Released for Windows 7 Zero-Day Vulnerability</a></li>
+                  <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/cpanel-2fa-bypassed-in-minutes-via-brute-force-attacks/">cPanel 2FA bypassed in minutes via brute-force attacks, patch available</a></li>
+                  <li><a class="lnk-orange" href="https://www.securityweek.com/drupal-releases-out-band-security-updates-due-availability-exploits">Drupal Releases Out-of-Band Security Updates Due to Availability of Exploits</a></li>
+                  <li><a class="lnk-purple" href="https://www.zdnet.com/article/drupal-sites-vulnerable-to-double-extension-attacks/">Drupal sites vulnerable to double-extension attacks</a></li>
+                  <li><a class="lnk-blue" href="https://thehackernews.com/2020/11/critical-unpatched-vmware-flaw-affects.html">Critical Unpatched VMware Flaw Affects Multiple Corporates Products</a></li>
+                </ul>
+              </mj-text>
+              <mj-spacer height="30px" />
+              <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+              <mj-text>
+                <ul>
+                  <li><a class="lnk-blue" href="https://blog.sonarsource.com/code-security-advent-calendar-2020">Code Security Advent Calendar 2020</a></li>
+                  <li><a class="lnk-pink" href="https://www.gov.uk/guidance/protect-domains-that-dont-send-email">Protect domains that don’t send email with SPF and DMARC</a></li>
+                  <li><a class="lnk-green" href="https://scotthelme.co.uk/introducing-another-free-ca-as-an-alternative-to-lets-encrypt/">Introducing another free CA as an alternative to Let's Encrypt</a></li>
+                  <li><a class="lnk-orange" href="https://paul.reviews/cyberalarm-an-independent-security-review-and-why-you-should-avoid-it/">CyberAlarm: An independent security review... and why you should avoid it.</a></li>
+                  <li><a class="lnk-purple" href="https://www.mdsec.co.uk/2020/11/a-fresh-outlook-on-mail-based-persistence/">A Fresh Outlook on Mail Based Persistence</a></li>
+                  <li><a class="lnk-blue" href="https://github.com/higatowa/bento/">Bento Toolkit: Minimal docker container for Pentest and CTF</a></li>
+                  <li><a class="lnk-pink" href="https://securityshenaningans.medium.com/architecture-of-a-ransomware-1-2-1b9fee757fcb">Architecture of a ransomware (1/2)</a></li>
+                  <li><a class="lnk-green" href="https://thedfirreport.com/2020/11/23/pysa-mespinoza-ransomware/">DFIR Report: PYSA/Mespinoza Ransomware</a></li>
+                  <li><a class="lnk-orange" href="https://github.com/utkusen/urlhunter">URLHunter recon tool: search URLs exposed by shortener services</a></li>
+                  <li><a class="lnk-purple" href="https://www.troyhunt.com/inside-the-cit0day-breach-collection/">Inside the Cit0Day Breach Collection</a></li>
+                  <li><a class="lnk-blue" href="https://github.com/nccgroup/s3_objects_check">S3 Objects Check: Whitebox evaluation of effective S3 object permissions</a></li>
+                  <li><a class="lnk-pink" href="https://github.com/amrandazz/attack-guardduty-navigator">Mitre ATT&CK® Mappings for Amazon GuardDuty</a></li>
+                </ul>
+              </mj-text>
+            </mj-column>
+          </mj-section><mj-section background-color="#fff">
+            <mj-column>
+              <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+              <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+              <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+              <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+              <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+              <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+            </mj-column>
+          </mj-section>
+        </mj-container>
+      </mj-body>
+    </mjml>

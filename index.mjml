@@ -72,6 +72,7 @@
           <mj-spacer height="30px" />
           <mj-text mj-class="green h2">2020</mj-text>
           <mj-list>
+          <li><a href="./2020-11-30.html" class="lnk-blue">30 November 2020</a> (<a href="./2020-11-30.pdf" class="lnk-green">PDF</a>)</li>
           <li><a href="./2020-11-23.html" class="lnk-blue">23 November 2020</a> (<a href="./2020-11-23.pdf" class="lnk-green">PDF</a>)</li>
                       <li><a href="./2020-11-16.html" class="lnk-blue">16 November 2020</a> (<a href="./2020-11-16.pdf" class="lnk-green">PDF</a>)</li>
             <li><a href="./2020-11-09.html" class="lnk-blue">9 November 2020</a> (<a href="./2020-11-09.pdf" class="lnk-green">PDF</a>)</li>
