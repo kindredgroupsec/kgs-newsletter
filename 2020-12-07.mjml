@@ -1,0 +1,213 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 07/12/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">7 December 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">The biggest hacks, data breaches of 2020</mj-text>
+          <mj-image src="https://i.imgur.com/esVCOHZ.png"></mj-image>
+          <mj-text color="#fff">Cybersecurity may be far from many of our minds this year, and in light of a pandemic and catastrophic economic disruption, remembering to maintain our own personal privacy and security online isn't necessarily a priority. However, cyberattackers certainly haven't given anyone a break this year. Data breaches, network infiltrations, bulk data theft and sale, identity theft, and ransomware outbreaks have all occurred over 2020 and the underground market shows no signs of stopping.
+          </mj-text>
+          <mj-text color="#fff">Many companies and organizations, too, have yet to practice reasonable security hygiene, and vulnerabilities pose a constant threat to corporate networks. As a result, we've seen a variety of cyberattacks this year, the worst of which we have documented below.
+          </mj-text>
+          <mj-text color="#fff">Remote work became a major security consideration of study participants due to the spread of the COVID-19 pandemic. The average time to identify and contain a data breach, or the "breach lifecycle," was 280 days in 2020. Speed of containment can significantly impact breach costs, which can linger for years after the incident. The share of breaches caused by malicious attacks has steadily increased. Compromised credentials was the most expensive initial cause of malicious breaches in the study, while the type of threat actor also had a major impact on cost. Security automation solutions — including AI, analytics and orchestration — and incident response (IR) preparedness, including formation of IR teams and testing IR plans, showed the greatest reduction in data breach costs.
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/the-biggest-hacks-data-breaches-of-2020/#ftag=RSSbaffb68">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/">
+            Cost of Data Breach Report 2020
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Multiple Botnets Exploiting Critical Oracle WebLogic Bug — Patch Now!</mj-text>
+          <mj-image src="https://thehackernews.com/images/-YyEQtU7LgDo/X8db6p8DO8I/AAAAAAAABIQ/utbyMZk-FiseVGq58_NSQRdh8YOzTJKVQCLcBGAsYHQ/s0/oracle-weblogic-vulnerability.jpg"></mj-image>
+          <mj-text>Multiple botnets are targeting thousands of publicly exposed and still unpatched Oracle WebLogic servers to deploy crypto miners and steal sensitive information from infected systems. The attacks are taking aim at a recently patched WebLogic Server vulnerability, which was released by Oracle as part of its October 2020 Critical Patch Update and subsequently again in November (CVE-2020-14750) in the form of an out-of-band security patch.
+          </mj-text>
+          <mj-text>Although the issue has been addressed, the release of proof-of-concept exploit code has made vulnerable Oracle WebLogic instances a lucrative target for threat actors to recruit these servers into a botnet that pilfers critical data and deploy second stage malware payloads. According to Juniper Threat Labs, operators of the DarkIRC botnet are exploiting this RCE vulnerability to spread laterally across the network, download files, record keystrokes, steal credentials, and execute arbitrary commands on compromised machines.
+
+
+          </mj-text>
+          <mj-text>It's recommended that users apply the October 2020 Critical Patch Update and the updates associated with CVE-2020-14750 as soon as possible to mitigate risks stemming from this flaw. Oracle has also provided instructions to harden the servers by preventing external access to internal applications accessible on the Administration port.
+
+          </mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2020/12/multiple-botnets-exploiting-critical.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/malicious-npm-packages-caught-installing-remote-access-trojans/#ftag=RSSbaffb68">Malicious npm packages caught installing remote access trojans
+              </a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/microsoft-removes-18-malicious-edge-extensions-for-injecting-ads-into-web-pages/#ftag=RSSbaffb68">Microsoft removes 18 malicious Edge extensions for injecting ads into web pages</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/theoretical-attack-synthetic-dna-orders-highlights-need-better-cyber-biosecurity">Theoretical Attack on Synthetic DNA Orders Highlights Need for Better Cyber-Biosecurity</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/credit-card-skimmer-fills-fake-paypal-forms-with-stolen-order-info/">Credit card skimmer fills fake PayPal forms with stolen order info</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/four-years-after-the-dyn-ddos-attack-critical-dns-dependencies-have-only-gone-up/#ftag=RSSbaffb68">Four years after the Dyn DDoS attack, critical DNS dependencies have only gone up</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/12/hackers-targeting-companies-involved-in.html">Hackers Targeting Companies Involved in Covid-19 Vaccine Distribution</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/12/hackers-for-hire-group-develops-new.html">Hackers-For-Hire Group Develops New 'PowerPepper' In-Memory Malware</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/nintendo-hackers-sentence-3-years-in-prison-a-15508">Nintendo Hacker's Sentence: 3 Years in Prison</a></li>
+              <li><a class="lnk-orange" href="https://www.schneier.com/blog/archives/2020/12/impressive-iphone-exploit.html">Impressive iPhone Exploit</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/google/google-chrome-will-soon-warn-you-when-using-weak-passwords/">Google Chrome will soon warn you when using weak passwords</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/russian-hacking-group-uses-dropbox-to-store-malware-stolen-data/">Russian hacking group uses Dropbox to store malware-stolen data
+              </a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/healthcare-provider-aspenpointe-data-breach-affects-295k-patients/">Healthcare provider AspenPointe data breach affects 295K patients</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/masterchef-big-brother-producer-hit-by-doppelpaymer-ransomware/">MasterChef, Big Brother producer hit by DoppelPaymer ransomware</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/blackshadow-hackers-extort-israeli-insurance-company-for-1-million/">BlackShadow hackers extort Israeli insurance company for $1 million</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/metro-vancouvers-transit-system-hit-by-egregor-ransomware/">Metro Vancouver's transit system hit by Egregor ransomware
+              </a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/ransomware-gang-says-they-stole-2-million-credit-cards-from-e-land/">Ransomware gang says they stole 2 million credit cards from E-Land
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/k12-online-schooling-giant-pays-ryuk-ransomware-to-stop-data-leak/">K12 online schooling giant pays Ryuk ransomware to stop data leak
+              </a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/drupal-issues-emergency-fix-for-critical-bug-with-known-exploits/">Drupal issues emergency fix for critical bug with known exploits</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/vmware-fixes-zero-day-vulnerability-reported-by-the-nsa/">VMware fixes zero-day vulnerability reported by the NSA
+              </a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-office-november-2020-updates-fix-outlook-skype-issues/">Microsoft Office November 2020 updates fix Outlook, Skype issues
+              </a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://research.nccgroup.com/2020/12/03/tool-release-carnivore-microsoft-external-assessment-tool/">Tool Release – Carnivore: Microsoft External Assessment Tool</a></li>
+              <li><a class="lnk-pink" href="https://blog.mozilla.org/security/2020/01/09/crlite-part-1-all-web-pki-revocations-compressed/">Introducing CRLite: All of the Web PKI’s revocations, compressed</a></li>
+              <li><a class="lnk-green" href="https://snyk.io/blog/kernel-privilege-escalation/">Kernel privilege escalation: how Kubernetes container isolation impacts privilege escalation attacks</a></li>
+              <li><a class="lnk-orange" href="https://www.blacklanternsecurity.com/2020-12-02-WriteHat/">WriteHat, a reporting tool written by pentesters, for pentesters.</a></li>
+              <li><a class="lnk-purple" href="https://vavkamil.cz/2020/12/01/xss-worm-dev-self-replication-contest-write-up/">XSSworm.dev ~ Self-replication contest [write-up]</a></li>
+              <li><a class="lnk-blue" href="https://therealunicornsecurity.github.io/Aliexpress/">AliExpress Captcha Reuse</a></li>
+              <li><a class="lnk-pink" href="https://danielfett.de/2020/11/27/improving-app2app/">Improving OAuth App-to-App Security</a></li>
+              <li><a class="lnk-green" href="https://cloudberry.engineering/article/multi-cloud-security-strategy-foundations/">Foundations of a Multi-Cloud Security Strategy</a></li>
+              <li><a class="lnk-orange" href="https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/view#gid=0">Maintained list of 0day "In the Wild"</a></li>
+              <li><a class="lnk-purple" href="https://eclypsium.com/2020/12/03/trickbot-now-offers-trickboot-persist-brick-profit/">Trickbot now offers ‘trickboot’: persist, brick, profit</a></li>
+              <li><a class="lnk-blue" href="https://www.cisecurity.org/white-papers/cis-community-defense-model/">CIS Community Defense Model</a></li>
+              <li><a class="lnk-pink" href="https://www.schneier.com/blog/archives/2020/12/open-source-does-not-equal-secure.html">Open Source Does Not Equal Secure</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/open-source-tool-helps-secure-siemens-pcs-7-control-systems">Open Source Tool Helps Secure Siemens PCS 7 Control Systems
+              </a></li>
+              <li><a class="lnk-orange" href="https://aws.amazon.com/blogs/security/techniques-for-writing-least-privilege-iam-policies/">Techniques for writing least privilege IAM policies</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
