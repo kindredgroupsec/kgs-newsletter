@@ -1,0 +1,202 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 21/12/20" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-LoEC7rbzj0A/X9iHtDS_oCI/AAAAAAAA3d4/pkDnF7czpM8wFmtvXeTaRoNuzy8m4FCZgCLcBGAsYHQ/s728-e1000/solarwinds-malware.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">21 December 2020</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">SolarWinds: 18,000 Customers installed backdoored software, 40+ victims identified</mj-text>
+          <mj-image src="https://thehackernews.com/images/-LoEC7rbzj0A/X9iHtDS_oCI/AAAAAAAA3d4/pkDnF7czpM8wFmtvXeTaRoNuzy8m4FCZgCLcBGAsYHQ/s728-e1000/solarwinds-malware.jpg"></mj-image>
+          <mj-text color="#fff">SolarWinds, the enterprise monitoring software provider which found itself at the epicenter of the most consequential supply chain attacks, said as many as 18,000 of its high-profile customers might have installed a tainted version of its Orion products. The Texas-based company serves more than 300,000 customers worldwide, including every branch of the US military and four-fifths of the Fortune 500 companies.
+
+          </mj-text>
+          <mj-text color="#fff">The company also reiterated in its security advisory that besides 2019.4 HF 5 and 2020.2 versions of SolarWinds Orion Platform, no other versions of the monitoring software or other non-Orion products were impacted by the vulnerability.</mj-text>
+          <mj-text color="#fff">Troublingly, according to a report from security researcher Vinoth Kumar, it also appears that a publicly-accessible SolarWinds GitHub repository was leaking FTP credentials of the domain "downloads.solarwinds.com," thus allowing an attacker to potentially upload a malicious executable disguised as Orion software updates to the downloads portal. Even worse, the FTP server was protected by a trivial password.</mj-text>
+          <mj-text color="#fff">The development comes a day after cybersecurity firm FireEye said it identified a nine-month-long global intrusion campaign targeting public and private entities that introduce malicious code into legitimate software updates for SolarWinds' Orion software to break into the companies' networks and install a backdoor called SUNBURST. The US Department of Homeland Security was breached, as were the departments of Commerce and Treasury, Reuters reported yesterday. The espionage campaign also included the December 8 cyberattack on FireEye, although it's not immediately clear whether the intrusion and exfiltration was a direct result of a rogue SolarWinds update.</mj-text>
+          <mj-text color="#fff">Microsoft said that over 40 of its customers had their networks infiltrated by hackers following the SolarWinds supply chain attack after they installed backdoored versions of the Orion IT monitoring platform. 80% of the identified victims are located in the United States and the rest of 20% is spread over seven other countries including Canada, Mexico, Belgium, Spain, the United Kingdom, Israel, and the UAE. What's certain is that, following the ongoing investigation of these attacks, "the number and location of victims will keep growing."
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2020/12/nearly-18000-solarwinds-customers.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/microsoft-identifies-40-plus-victims-of-solarwinds-hack-80-percent-from-us/">
+            Microsoft identifies 40+ victims of SolarWinds hack, 80% from US
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#d42426">
+        <mj-column>
+          <mj-text mj-class="white h3" align="center">This is the last Kindred Security Newsletter for 2020</mj-text>
+          <mj-image src="https://news.infosecgur.us/assets/christmas-2.png"></mj-image>
+
+          <mj-text mj-class="white">It's time for the Kindred Group Security team to take some holiday. The newsletter will be off for a few weeks during Christmas and New Year's Eve. But don't worry, we'll be back. See you soon for some awesome infosec news!</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2020/12/malicious-domain-in-solarwinds-hack-turned-into-killswitch/">Malicious Domain in SolarWinds Hack Turned into ‘Killswitch’</a></li>
+              <li><a class="lnk-pink" href="https://www.cfr.gov.au/news/2020/mr-20-06.html">CORIE framework launched to test cyber resilience of Australia's financial services industry</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/eu-unveils-revamp-cybersecurity-rules-days-after-hack?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">EU Unveils Revamp of Cybersecurity Rules Days After Hack</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/three-million-users-installed-28-malicious-chrome-or-edge-extensions/#ftag=RSSbaffb68">Three million users installed 28 malicious Chrome or Edge extensions</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-authenticator-brings-password-autofill-to-mobile-devices/">Microsoft Authenticator brings password autofill to mobile devices</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/eu-britain-toughen-rules-fines-tech-giants?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">EU, Britain to Toughen Rules, Fines for Tech Giants</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/new-windows-malware-may-soon-target-linux-macos-devices/">New Windows malware may soon target Linux, macOS devices</a></li>
+              <li><a class="lnk-green" href="https://www.immuniweb.com/blog/top-10-cybercrime-cybersecurity-trends-2021.html">Top 10 Cybercrime and Cybersecurity Trends for 2021</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2020/12/exfiltrating-data-from-air-gapped.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Exfiltrating Data from Air-Gapped Computers via Wi-Fi Signals (Without Wi-Fi Hardware)</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/blogs/cybersecurity-bleak-progress-report-p-2978">Cybersecurity: A Bleak 'Progress' Report</a></li>
+              <li><a class="lnk-blue" href="https://www.welivesecurity.com/2020/12/14/how-scammers-target-paypal-users-stay-safe/">How scammers target PayPal users and how you can stay safe</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/12/sorel-20m-huge-dataset-of-20-million.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">SoReL-20M: A Huge Dataset of 20 Million Malware Samples Released Online</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/bouncy-castle-crypto-authentication-bypass-vulnerability-revealed/">Bouncy Castle crypto authentication bypass vulnerability revealed</a></li>
+              <li><a class="lnk-orange" href="https://www.welivesecurity.com/2020/12/17/operation-signsight-supply-chain-attack-southeast-asia/">Operation SignSight: Supply‑chain attack against a certification authority in Southeast Asia</a></li>
+              <li><a class="lnk-purple" href="https://www.microsoft.com/security/blog/2020/12/17/a-breakthrough-year-for-passwordless-technology/">A breakthrough year for passwordless technology</a></li>
+              <li><a class="lnk-blue" href="https://www.microsoft.com/security/blog/2020/12/17/becoming-resilient-by-understanding-cybersecurity-risks-part-2/">Becoming resilient by understanding cybersecurity risks: Part 2</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/fbi-warns-doppelpaymer-ransomware-attack-surge-a-15630">FBI Warns of DoppelPaymer Ransomware Attack Surge
+              </a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#SolarWind</mj-text>
+          <mj-text>
+            <ul>
+              
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2020/12/malicious-domain-in-solarwinds-hack-turned-into-killswitch/">Malicious Domain in SolarWinds Hack Turned into ‘Killswitch’</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2020/12/new-evidence-suggests-solarwinds.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">New Evidence Suggests SolarWinds' Codebase Was Hacked to Inject Backdoor</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/solarwinds-hunt-to-figure-out-who-was-breached-a-15608">SolarWinds: The Hunt to Figure Out Who Was Breached</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/solarwinds-incident-response-4-essential-security-alerts-a-15586">SolarWinds Incident Response: 4 Essential Security Alerts</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2020/12/microsoft-says-its-systems-were-also.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Microsoft Says Its Systems Were Also Breached in Massive SolarWinds Hack</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/solarwinds-hackers-breach-us-nuclear-weapons-agency/">SolarWinds hackers breach US nuclear weapons agency</a></li>
+              <li><a class="lnk-pink" href="https://www.schneier.com/blog/archives/2020/12/more-on-the-solarwinds-breach.html">More on the SolarWinds Breach</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/how-to-protect-your-organization-following-the-solarwinds-compromise/#ftag=RSS56d97e7">How to protect your organization following the SolarWinds compromise</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/solarwinds-supply-chain-hit-victims-include-cisco-intel-a-15619">SolarWinds Supply Chain Hit: Victims Include Cisco, Intel</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/12/solarwinds-issues-second-hotfix-for_15.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">SolarWinds Issues Second Hotfix for Orion Platform Supply Chain Attack</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/apple-patches-tens-code-execution-vulnerabilities-macos?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">Apple Patches Tens of Code Execution Vulnerabilities in macOS</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/pos-device-makers-push-patches-for-vulnerabilities-a-15598">POS Device Makers Push Patches for Vulnerabilities</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/wordpress-plugin-with-5-million-installs-has-a-critical-vulnerability/">WordPress plugin with 5 million installs has a critical vulnerability</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://tldrsec.com/guides/kubernetes/">Risk8s Business: Risk Analysis of Kubernetes Clusters</a></li>
+              <li><a class="lnk-pink" href="https://github.com/cloudquery/cloudquery">cloudquery: transforms your cloud infrastructure into queryable SQL tables for monitoring, governance and security.</a></li>
+              <li><a class="lnk-green" href="https://owasp.org/2020/12/15/spotlight-pytm.html">OWASP pytm - a Pythonic framework for Threat Modelling</a></li>
+              <li><a class="lnk-orange" href="https://bad-jubies.github.io/Blind-SQLi-1/">Automating Blind Sql Injection</a></li>
+              <li><a class="lnk-purple" href="https://portswigger.net/web-security/oauth">OAuth 2.0 authentication vulnerabilities</a></li>
+              <li><a class="lnk-blue" href="https://blog.truesec.com/2020/12/17/the-solarwinds-orion-sunburst-supply-chain-attack/">The SolarWinds Orion SUNBURST supply-chain Attack</a></li>
+              <li><a class="lnk-pink" href="https://www.schneier.com/blog/archives/2020/12/how-the-solarwinds-hackers-bypassed-duo-multi-factor-authentication.html">How the SolarWinds Hackers Bypassed Duo’s Multi-Factor Authentication</a></li>
+              <li><a class="lnk-green" href="https://www.redteam.cafe/phishing/connecting-gophish-with-office365">Connecting GoPhish with Office365</a></li>
+              <li><a class="lnk-orange" href="https://www.marcolancini.it/2020/blog-semgrep-for-cloud-security/">Semgrep for Cloud Security</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/velociraptor-ir/velociraptor-and-osquery-2a4306dd23c">Velociraptor and OSQuery</a></li>
+              <li><a class="lnk-blue" href="https://github.com/mubix/solarflare">solarflare: Credential Dumping Tool for SolarWinds Orion</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
