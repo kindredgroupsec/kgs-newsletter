@@ -70,6 +70,11 @@
           <mj-text>A weekly newsletter of the best articles on cybersecurity, privacy, security awareness, and more. All links are curated by hand from Kindred Group's security team.</mj-text>
           <mj-text><strong>Don't forget to <a class="lnk-pink" href="https://news.infosecgur.us/register.html">register</a> if you want to receive this newsletter directly to your email address.</strong></mj-text>
           <mj-spacer height="30px" />
+           <mj-text mj-class="purple h2">2021</mj-text>
+          <mj-list>
+              <li><a href="./2021-01-11.html" class="lnk-blue">11 January 2021</a> (<a href="./2021-01-11.pdf" class="lnk-green">PDF</a>)</li>
+
+          </mj-list>
           <mj-text mj-class="green h2">2020</mj-text>
           <mj-list>
           <li><a href="./2020-12-21.html" class="lnk-blue">21 December 2020</a> (<a href="./2020-12-21.pdf" class="lnk-green">PDF</a>)</li>

@@ -1,0 +1,268 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 11/01/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://im-media.voltron.voanews.com/Drupal/01live-166/styles/892x501/s3/2020-12/2020-12-18T183239Z_430542836_RC2UPK9KJGJM_RTRMADP_3_GLOBAL-CYBER-SOLARWINDS.JPG?itok=nZODORjx" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">11 January 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">SolarWinds: The more we learn, the worse it looks</mj-text>
+          <mj-image src="https://im-media.voltron.voanews.com/Drupal/01live-166/styles/892x501/s3/2020-12/2020-12-18T183239Z_430542836_RC2UPK9KJGJM_RTRMADP_3_GLOBAL-CYBER-SOLARWINDS.JPG?itok=nZODORjx"></mj-image>
+          <mj-text color="#fff">In March of 2020, Americans began to realize that the coronavirus was deadly and going to be a real problem. What no Americans knew then was that at about the same time, the Russian government's hack of SolarWinds's proprietary software Orion network monitoring program was destroying the security of top American government agencies and tech companies. There were no explosions, no deaths, but it was the Pearl Harbor of American IT. </mj-text>
+          <mj-text color="#fff">Russia, we now know, used SolarWinds' hacked program to infiltrate at least 18,000 government and private networks. The data within these networks, user IDs, passwords, financial records, source code, you name it, can be presumed now to be in the hands of Russian intelligence agents.</mj-text>
+          <mj-text color="#fff">The Russians may even have the crown-jewels of Microsoft software stack: Windows and Office. In a twist, which would be hilarious if it weren't so serious, Microsoft claims it's no big deal. As time goes by more and more government agencies and companies have been shown to have been hacked. This includes the Department of State; Department of Homeland Security; National Institutes of Health; the Pentagon; Department of the Treasury; Department of Commerce; and the Department of Energy, including the National Nuclear Security Administration. How much bigger will it get? We don't know. Personally, I'd assume that if my company had been using SolarWinds Orion software during 2020, I've been hacked 
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/solarwinds-the-more-we-learn-the-worse-it-looks/#ftag=RSSbaffb68">
+            Read More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Ticketmaster To Pay $10 Million Fine For Hacking A Rival Company</mj-text>
+          <mj-image src="https://thehackernews.com/images/-_EPJZ5NtQkA/X_CC3Yv8J4I/AAAAAAAABYw/mBQ75PtIym0hpUfpvWalp9Ve97IgtvFJACLcBGAsYHQ/s728-e1000/Ticketmaster-fined.jpg"></mj-image>
+          <mj-text>Ticketmaster has agreed to pay a $10 million fine after being charged with illegally accessing computer systems of a competitor repeatedly between 2013 and 2015 in an attempt to "cut [the company] off at the knees." A subsidiary of Live Nation, the California-based ticket sales and distribution company used the stolen information to gain an advantage over CrowdSurge — which merged with Songkick in 2015 and later acquired by Warner Music Group (WMG) in 2017 — by hiring a former employee to break into its tools and gain insight into the firm's operations.
+
+
+
+          </mj-text>
+          <mj-text>The allegations were first reported in 2017 after CrowdSurge sued Live Nation for antitrust violations, accusing Ticketmaster of accessing confidential business plans, contracts, client lists, and credentials of CrowdSurge tools. According to court documents released on December 30, after being hired by Live Nation in 2013, Stephen Mead, who was CrowdSurge's general manager of U.S. operations, shared with Zeeshan Zaidi, the former head of Ticketmaster's artist services division, and another Ticketmaster employee the passwords to Artist Toolbox, an app that provided real-time data about tickets sold through the victim company. Besides password theft, Mead is also accused of providing "internal and confidential financial documents" retained from his former employer, as well as URLs for draft ticketing web pages so as to learn which artists planned to use CrowdSurge to sell tickets and "dissuade" them from doing so.
+
+
+
+
+
+          </mj-text>
+          <mj-text>Ticketmaster previously settled a lawsuit brought by Songkick in 2018 by agreeing to pay the company's owners $110 million and acquire its remaining intellectual property not sold to WMG for an undisclosed amount. Besides paying the $10 million penalties, Ticketmaster is expected to maintain a compliance and ethics program to detect and prevent such unauthorized acquisition of confidential information belonging to its rivals.The company will also be required to make an annual report to the U.S. Attorney's Office over the next three years to ensure compliance.
+
+          </mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2021/01/ticketmaster-to-pay-10-million-fine-for.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">WhatsApp updates privacy policy to enable sharing more data with Facebook
+          </mj-text>
+          <mj-image src="https://static.toiimg.com/img/63769075/Master.jpg"></mj-image>
+          <mj-text>In a major update to its Privacy Policy and Terms of Service, WhatsApp is notifying users in many parts of the world that as of February 8 it will share some of their data with Facebook, the chat app’s parent company. Importantly, users who won’t agree to the new terms will need to stop using the app or delete their accounts.
+
+          </mj-text>
+          <mj-text>Note, however, that users in Europe will be exempt from the service’s new data-sharing practices and are only shown the first two of the three points in the notice. WhatsApp’s director of policy for Europe, the Middle East and Africa (EMEA). How about the rest of the world, though? Here’s an important part of the platform’s updated ToS as it will apply to those users: “As part of the Facebook Companies, WhatsApp receives information from, and shares information with, the Facebook Companies as described in WhatsApp’s Privacy Policy, including to provide integrations which enable you to connect your WhatsApp experience with other Facebook Company Products; to ensure security, safety, and integrity across the Facebook Company Products; and to improve your ads and products experience across the Facebook Company Products,”
+            
+            
+
+          </mj-text>
+          <mj-text>At this point it is important to remember some of the key information that WhatsApp collects:
+
+            <ul><li>Your phone number that you used to create an account</li>
+            <li>Your profile picture and profile information</li>
+            <li>The phone numbers of your WhatsApp contacts</li>
+            <li>Transaction and payments data</li>
+            <li>Location information</li>
+            <li>Information about your device such as the model, operating system, and mobile network</li>
+            <li>Other information, including your IP address, device operations information, and identifiers</li></ul>By agreeing with new terms and policy you will be effectively agreeing to Facebook and its subsidiaries having access to at least some of your data.
+          </mj-text>
+          <mj-button mj-class="bg-green" href="https://www.welivesecurity.com/2021/01/07/whatsapp-updates-privacy-policy-share-user-data-facebook/">
+            Read More on WeLiveSecurity
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://www.bbc.co.uk/news/technology-55573149">
+            Even More  on BBC news
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/rioters-open-capitols-doors-to-potential-cyberthreats-a-15715">Rioters Open Capitol's Doors to Potential Cyberthreats</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2021/01/05/chrome-browser-has-a-new-years-resolution-https-by-default/">Chrome browser has a New Year’s resolution: HTTPS by default</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/01/healthcare-industry-witnessed-45-spike.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Healthcare Industry Witnessed 45% Spike in Cyber Attacks Since Nov 20</a></li>
+              <li><a class="lnk-orange" href="https://www.microsoft.com/security/blog/2021/01/05/the-dynamic-duo-how-to-build-a-red-and-blue-team-to-strengthen-your-cybersecurity-part-1/">The dynamic duo: How to build a red and blue team to strengthen your cybersecurity, Part 1</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/indian-government-sites-leaking-patient-covid-19-test-results/">Indian government sites leaking patient COVID-19 test results
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/sabre-settles-for-24-million-over-2017-breach-a-15689">$2.4 Million Settlement in 2017 Sabre Data Breach</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/whirlpool-hit-ransomware-attack-a-15686">Whirlpool Hit With Ransomware Attack</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/new-autohotkey-based-malware-targets-us-canadian-banks-a-15680">New AutoHotkey-Based Malware Targets US, Canadian Banks</a></li>
+              <li><a class="lnk-orange" href="Multi-platform card skimmer found on Shopify, BigCommerce stores">https://www.bleepingcomputer.com/news/security/multi-platform-card-skimmer-found-on-shopify-bigcommerce-stores/</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/us-treasury-warns-of-ransomware-targeting-covid-19-vaccine-research/">US Treasury warns of ransomware targeting COVID-19 vaccine research</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/12/a-google-docs-bug-could-have-allowed.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">A Google Docs Bug Could Have Allowed Hackers See Your Private Documents</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/eu-launches-decryption-tool-for-law-enforcement-a-15644">EU Launches Decryption Tool for Law Enforcement</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/trucking-giant-forward-air-hit-by-new-hades-ransomware-gang/">Trucking giant Forward Air hit by new Hades ransomware gang</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/new-side-channel-attack-can-recover-encryption-keys-from-google-titan-security-keys/#ftag=RSSbaffb68">New side-channel attack can recover encryption keys from Google Titan security keys</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/scammer-extorts-site-owners-using-porn-backlinks-threat/">Scammer extorts site owners using porn backlinks threat</a></li>
+            </ul>
+          </mj-text>
+          <mj-text mj-class="h2">#SolarWinds saga</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/jetbrains-denies-being-involved-in-solarwinds-hack/#ftag=RSSbaffb68">JetBrains denies being involved in SolarWinds hack</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/solarwinds-hackers-had-access-to-over-3-000-us-doj-email-accounts/">SolarWinds hackers had access to over 3,000 US DOJ email accounts</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/01/fbi-cisa-nsa-officially-blames-russia.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">FBI, CISA, NSA Officially Blame Russia for SolarWinds Cyber Attack</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/severe-solarwinds-hacking-250-organizations-affected-a-15699">Severe SolarWinds Hacking: 250 Organizations Affected?</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/solarwinds-hackers-accessed-microsoft-source-code/#ftag=RSSbaffb68">SolarWinds hackers accessed Microsoft source code</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/vodafones-ho-mobile-admits-data-breach-25m-users-impacted/">Vodafone's ho. Mobile admits data breach, 2.5m users impacted</a></li>
+              <li><a class="lnk-pink" href="https://www.welivesecurity.com/2021/01/05/breached-employee-credentials-gaming-companies/">Stolen employee credentials put leading gaming firms at risk</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/t-mobile-discloses-its-fourth-data-breach-in-three-years/#ftag=RSSbaffb68">T-Mobile discloses its fourth data breach in three years</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/kawasaki-cyber-incident-may-have-resulted-in-data-loss-a-15675">Kawasaki: Cyber Incident May Have Resulted in Data Loss</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/vmware-latest-to-confirm-breach-in-solarwinds-hacking-campaign/">VMware latest to confirm breach in SolarWinds hacking campaign</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/new-supernova-backdoor-found-in-solarwinds-cyberattack-analysis/">New SUPERNOVA backdoor found in SolarWinds cyberattack analysis</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/shareholder-sues-solarwinds-a-15702">Shareholder Sues SolarWinds for Alleged Security Failures</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2020/12/google-discloses-poorly-patched-now.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Google Discloses Poorly-Patched, Now Unpatched, Windows 0-Day Bug</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/vulnerabilities-fortinet-waf-can-expose-corporate-networks-attacks?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">Vulnerabilities in Fortinet WAF Can Expose Corporate Networks to Attacks</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2021/01/06/zyxel-hardcoded-admin-password-found-patch-now/">Zyxel hardcoded admin password found – patch now!</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/zend-framework-disputes-rce-vulnerability-issues-patch/">Zend Framework disputes RCE vulnerability, issues patch</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/critical-flaws-put-dell-wyse-thin-client-devices-at-risk-a-15649">Critical Flaws Put Dell Wyse Thin Client Devices at Risk</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/nissan-na-source-code-leaked-due-to-default-admin-admin-credentials/">Nissan NA source code leaked due to default admin:admin credentials</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/intelowlproject/IntelOwl/releases/tag/v2.0.0">Threat Intel tool Intel Owl v2.0.0 release</a></li>
+              <li><a class="lnk-pink" href="https://owlspace.xyz/cybersec/steam-login/">Steam's login method is kinda interesting</a></li>
+              <li><a class="lnk-green" href="https://security.kiwi/docs/introduction/">Machine Learning security course</a></li>
+              <li><a class="lnk-orange" href="https://tldrsec.com/blog/lesser-known-aws-attacks/">Lesser Known Techniques for Attacking AWS Environments</a></li>
+              <li><a class="lnk-purple" href="https://0xdab0.medium.com/hacking-with-haskell-28887c1f2d06">Hacking with Haskell</a></li>
+              <li><a class="lnk-blue" href="URL">Hardening Docker with CIS</a></li>
+              <li><a class="lnk-pink" href="https://blog.jtnydv.com/harden-docker-with-cis-p1-environment-setup/">Harden Docker with CIS – Part 1</a>; <a class="lnk-pink" href="https://blog.jtnydv.com/harden-docker-with-cis-p2-host-configurations/">2</a>; <a class="lnk-pink" href="https://blog.jtnydv.com/harden-docker-with-cis-p3-docker-daemon-configuration-part-1/">3</a>; <a class="lnk-pink" href="Harden Docker with CIS – (P4) Docker Daemon configuration files
+                ">4</a>; <a class="lnk-pink" href="https://blog.jtnydv.com/harden-docker-with-cis-p5-container-images-and-build-file-configuration/">5</a></li>
+              <li><a class="lnk-green" href="https://www.reddit.com/r/netsec/comments/kqym6f/gossamer_supply_chain_security_for_the_php/">Gossamer: Supply Chain Security for the PHP Ecosystem</a></li>
+              <li><a class="lnk-orange" href="https://objective-see.com/blog/blog_0x5F.html">The Mac Malware of 2020: A comprehensive analysis of the year's new malware</a></li>
+              <li><a class="lnk-purple" href="https://blog.scrt.ch/2020/12/28/state-of-pentesting-2020/">State of Pentesting 2020</a></li>
+              <li><a class="lnk-blue" href="https://redcodelabs.io/blog/exploring_nmap_1.html">Exploring Nmap #1</a></li>
+              <li><a class="lnk-pink" href="https://luemmelsec.github.io/Pentest-Everything-SMTP/">Pentest - Everything SMTP
+              </a></li>
+              <li><a class="lnk-green" href="https://blog.christophetd.fr/shifting-cloud-security-left-scanning-infrastructure-as-code-for-security-issues/">Shifting Cloud Security Left — Scanning Infrastructure as Code for Security Issues</a></li>
+              <li><a class="lnk-orange" href="https://www.recordedfuture.com/2020-adversary-infrastructure-report/">Adversary Infrastructure Report 2020: A Defender’s View</a></li>
+              <li><a class="lnk-purple" href="https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence">Defences against Cobalt Strike</a></li>
+              <li><a class="lnk-blue" href="https://github.com/zer0yu/Awesome-CobaltStrike">Awesome CobaltStrike resource list</a></li>
+              <li><a class="lnk-pink" href="https://github.com/felix83000/Watcher">Watcher - Open Source Cybersecurity Threat Hunting Platform </a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
