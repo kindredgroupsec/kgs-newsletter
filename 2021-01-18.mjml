@@ -1,0 +1,200 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - DD/MM/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/solarleaks-site-offers-supply-chain-attack-victims-data-showcase_image-10-a-15751.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">18 January 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">'SolarLeaks' Site Claims to Offer Attack Victims' Data</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/solarleaks-site-offers-supply-chain-attack-victims-data-showcase_image-10-a-15751.jpg"></mj-image>
+          <mj-text color="#fff">A new leaks site claims to be selling data from Cisco, FireEye, Microsoft and SolarWinds that was stolen via the SolarWinds supply chain attack. The appearance of the leaks website comes just four weeks after cybersecurity firm FireEye discovered and issued a public alert, warning that Texas-based SolarWinds' Orion network monitoring software had been backdoored as part of a sophisticated, monthslong campaign.
+
+          </mj-text>
+          <mj-text color="#fff">The new leaks website, solarleaks.net, contains a single text file, via which the operator claims to be selling four batches of stolen data from Cisco, FireEye, Microsoft and SolarWinds, with each victim's batch retailing for between $50,000 and $600,000. The site also offers to sell "all leaked data for $1 million," as well as to include an unnamed bonus. Would-be buyers are directed to email "solarleaks@protonmail.com" - an email address registered with ProtonMail, a free, encrypted email service. Emails sent to that address, however, bounced back as being undeliverable.
+
+          </mj-text>
+          <mj-text color="#fff">As of Wednesday, Mega had removed all four files from its service. But they're likely already circulating via BitTorrent sites for posterity. Additional information posted to the leaks site states that the site isn't including information from any additional victims, but will do so in the future. "We aren't fully done yet and we want to preserve the most of our current access," the site reads. "Consider this a first batch."
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/solarleaks-site-claims-to-offer-attack-victims-data-a-15751">
+            Read More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.schneier.com/blog/archives/2021/01/finding-the-location-of-telegram-users.html">Finding the Location of Telegram Users</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/solarwinds-defense-how-to-stop-similar-attacks/#ftag=RSSbaffb68">SolarWinds defense: How to stop similar attacks</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/facebook-sues-two-chrome-extension-devs-for-scraping-user-data/#ftag=RSSbaffb68">Facebook sues two Chrome extension devs for scraping user data</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/how-conti-ransomware-works-a-15763">How Conti Ransomware Works</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/nsa-advises-companies-to-avoid-third-party-dns-resolvers/">NSA advises companies to avoid third party DNS resolvers</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/report-tiktok-harvested-mac-addresses-exploiting-android-loophole?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">TikTok Harvested MAC Addresses By Exploiting Android Loophole</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/apple-removes-feature-that-allowed-its-apps-to-bypass-macos-firewalls-and-vpns/#ftag=RSSbaffb68">Apple removes feature that allowed its apps to bypass macOS firewalls and VPNs</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/scam-as-a-service-operation-made-more-than-6-5-million-in-2020/#ftag=RSSbaffb68">Scam-as-a-Service operation made more than $6.5 million in 2020</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/whatsapp-stresses-privacy-users-flock-rivals?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">WhatsApp Stresses Privacy as Users Flock to Rivals</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/google-reveals-sophisticated-windows-android-hacking-operation/#ftag=RSSbaffb68">Google reveals sophisticated Windows and Android hacking operation</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-sunspot-malware-found-while-investigating-solarwinds-hack/">New Sunspot malware found while investigating SolarWinds hack</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/covid-19-vaccine-documents-personal-data-leaked-a-15754">COVID-19 Vaccine Documents, Personal Data Leaked</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/ubiquiti-tells-customers-to-change-passwords-after-security-breach/#ftag=RSSbaffb68">Ubiquiti tells customers to change passwords after security breach</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/mimecast-says-hackers-compromised-digital-certificate-a-15750">Mimecast Says Hackers Compromised Digital Certificate
+              </a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/capcom-390-000-people-may-be-affected-by-ransomware-data-breach/">Capcom: 390,000 people may be affected by ransomware data breach</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/reserve-bank-new-zealand-investigates-data-breach-a-15737">Reserve Bank of New Zealand Investigates Data Breach</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/how-to-review-app-privacy-data-on-your-iphone-ipad-or-mac/#ftag=RSS56d97e7">How to review App Privacy data on your iPhone, iPad, or Mac</a></li>
+
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/software/its-finally-over-time-to-uninstall-adobe-flash-player/">It's finally over! Time to uninstall Adobe Flash Player
+              </a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2021/01/microsoft-patch-tuesday-january-2021-edition/">Microsoft Patch Tuesday, January 2021 Edition</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/office-january-security-updates-fix-remote-code-execution-bugs/">Office January security updates fix remote code execution bugs
+              </a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/vulnerability-exposes-f5-big-ip-systems-remote-dos-attacks?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">
+                Vulnerability Exposes F5 BIG-IP Systems to Remote DoS Attacks</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/report-tiktok-harvested-mac-addresses-exploiting-android-loophole?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">Cisco says it won't patch 74 security bugs in older RV routers that reached EOL
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/adobe-patches-code-execution-vulnerabilities-in-the-first-security-update-of-2021/#ftag=RSSbaffb68">Adobe fixes critical code execution vulnerabilities in 2021's first major patch round</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/01/microsoft-issues-patches-for-defender.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Microsoft Issues Patches for Defender Zero-Day and 82 Other Windows Flaws</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/sap-patches-serious-code-injection-dos-vulnerabilities?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">
+                SAP Patches Serious Code Injection, DoS Vulnerabilities</a></li>
+              <li><a class="lnk-orange" href="https://www.welivesecurity.com/2021/01/08/chrome-firefox-updates-fix-severe-security-bugs/">Chrome, Firefox updates fix severe security bugs</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/nvidia-releases-security-update-for-high-severity-graphics-driver-vulnerabilities/#ftag=RSSbaffb68">Nvidia releases security update for high-severity graphics driver vulnerabilities</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.netresec.com/index.ashx?page=Blog&month=2021-01&post=Robust-Indicators-of-Compromise-for-SUNBURST">Robust Indicators of Compromise for SUNBURST</a></li>
+              <li><a class="lnk-pink" href="https://book.hacktricks.xyz/">HackTricks - Free webbook of hacking tips and tricks</a></li>
+              <li><a class="lnk-green" href="https://www.splunk.com/en_us/blog/security/a-golden-saml-journey-solarwinds-continued.html">Splunk - A Golden SAML Journey: SolarWinds Continued</a></li>
+              <li><a class="lnk-orange" href="https://aws.amazon.com/blogs/security/best-practices-and-advanced-patterns-for-lambda-code-signing/">Best practices and advanced patterns for Lambda code signing</a></li>
+              <li><a class="lnk-purple" href="https://scotthelme.co.uk/running-my-own-doh-relay-and-getting-pihole/">Running my own DoH relay and getting Pi-hole protection away from home!</a></li>
+              <li><a class="lnk-blue" href="https://thedfirreport.com/2021/01/11/trickbot-still-alive-and-well/">Trickbot Still Alive and Well</a></li>
+              <li><a class="lnk-pink" href="https://googleprojectzero.blogspot.com/2021/01/introducing-in-wild-series.html">Project Zero: Introducing the In-the-Wild Series</a></li>
+              <li><a class="lnk-green" href="https://feed.prelude.org/p/everything-you-need-to-know-about">Everything (you need to know) about TTPs</a></li>
+              <li><a class="lnk-orange" href="https://sidb.in/2021/01/06/Zerologon-Paper.html">
+                Research Paper: Understanding and Exploiting Zerologon</a></li>
+              <li><a class="lnk-purple" href="https://papermtn.co.uk/lil-pwny-version-2-0-0-release/">Lil Pwny - Offline auditing of AD accounts' password using Python</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/palantir/microsoft-defender-attack-surface-reduction-recommendations-a5c7d41c3cf8">Microsoft Defender Attack Surface Reduction recommendations</a></li>
+              <li><a class="lnk-pink" href="https://devcraft.io/2021/01/07/universal-deserialisation-gadget-for-ruby-2-x-3-x.html">Universal Deserialisation Gadget for Ruby 2.x-3.x </a></li>
+              <li><a class="lnk-green" href="https://reaqta.com/2021/01/fujinama-analysis-leonardo-spa/">Leonardo S.p.A. Data Breach Analysis</a></li>
+              <li><a class="lnk-orange" href="https://ninjalab.io/a-side-journey-to-titan/">A Side Journey to Google Titan security key</a></li>
+              <li><a class="lnk-purple" href="https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/">Abusing cloud services to fly under the radar</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
