@@ -1,0 +1,278 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 25/01/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">25 January 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Google Details Patched Bugs in Signal, FB Messenger, JioChat Apps</mj-text>
+          <mj-image src="https://thehackernews.com/images/-cAfHIrcbYnk/YAgNQICoRHI/AAAAAAAABio/a7obxfYVOmENSoxp0CMMKVlcYIz75SbswCLcBGAsYHQ/s728-e1000/messenger-hacking.jpg"></mj-image>
+          <mj-text color="#fff">
+            In January 2019, a critical flaw was reported in Apple's FaceTime group chats feature that made it possible for users to initiate a FaceTime video call and eavesdrop on targets by adding their own number as a third person in a group chat even before the person on the other end accepted the incoming call. The vulnerability was deemed so severe that the iPhone maker removed the FaceTime group chats feature altogether before the issue was resolved in a subsequent iOS update.
+
+
+
+
+
+
+          </mj-text>
+          <mj-text color="#fff">
+            Since then, a number of similar shortcomings have been discovered in multiple video chat apps such as Signal, JioChat, Mocha, Google Duo, and Facebook Messenger — all thanks to the work of Google Project Zero researcher Natalie Silvanovich.
+
+
+          </mj-text>
+          <mj-text color="#fff">
+            Not only did the flaws in the apps allow calls to be connected without interaction from the callee, but they also potentially permitted the caller to force a callee device to transmit audio or video data. Other messaging apps like Telegram and Viber were found to have none of the above flaws, although Silvanovich noted that significant reverse engineering challenges when analyzing Viber made the investigation "less rigorous" than the others. "It is also concerning to note that I did not look at any group calling features of these applications, and all the vulnerabilities reported were found in peer-to-peer calls. This is an area for future work that could reveal additional problems."
+
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2021/01/google-discloses-flaws-in-signal-fb.html">
+            Read More on TheHackerNews
+          </mj-button>
+
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">SolarWinds Hackers Also Breached Malwarebytes Cybersecurity Firm</mj-text>
+          <mj-image src="https://zdnet1.cbsistatic.com/hub/i/2021/01/19/ee14a53a-08f1-489f-b47f-4c0bfba186ea/malwarebytes.png"></mj-image>
+          <mj-text>Malwarebytes on Tuesday said it was breached by the same group who broke into SolarWinds to access some of its internal emails, making it the fourth major cybersecurity vendor to be targeted after FireEye, Microsoft, and CrowdStrike. The company said its intrusion was not the result of a SolarWinds compromise, but rather due to a separate initial access vector that works by "abusing applications with privileged access to Microsoft Office 365 and Azure environments."</mj-text>
+          <mj-text>The news comes on the heels of a fourth malware strain called Raindrop that was found deployed on select victim networks, widening the arsenal of tools used by the threat actor in the sprawling SolarWinds supply chain attack.</mj-text>
+          <mj-text>After today's disclosure, Malwarebytes becomes the fourth major security vendor targeted by the UNC2452/Dark Halo threat actor, which US officials have linked to a Russian government cyber-espionage operation.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2021/01/solarwinds-hackers-also-breached.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.zdnet.com/article/malwarebytes-said-it-was-hacked-by-the-same-group-who-breached-solarwinds/#ftag=RSSbaffb68">
+            Even more on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Privacy Fines: Total GDPR Sanctions Reach $331 Million</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/privacy-fines-total-gdpr-sanctions-reach-331-million-showcase_image-4-a-15790.jpg"></mj-image>
+          <mj-text>Over the last 12 months, European data protection authorities imposed fines totaling 158.5 million euros ($192 million) under GDPR, which makes for a total of 272.5 million euros ($331 million) in fines levied since the law went into full effect on May 25, 2018, according to DLA Piper's latest GDPR and data breach report. Not all of those GDPR violations involved data breaches.
+
+          </mj-text>
+          <mj-text>GDPR includes tough breach-notification rules, often requiring organizations that learn they've been breached to inform relevant authorities, including their national data protection authority, within 72 hours. Failure to comply exposes organizations to fines of up to 4% of their annual global revenue or 20 million euros ($24.3 million) - whichever is greater. Organizations can also see their ability to process people's personal data get revoked.
+
+          </mj-text>
+          <mj-text>Since GDPR came into full effect, Italy's regulator has imposed the greatest total amount of fines, nearly $85 million, followed by Germany and France, which respectively imposed fines totaling $84 million and $66 million, the law firm says. Post-Brexit, the British government says that under U.K. law, GDPR compliance - together with the country's Data Protection Act 2018 - will continue to be enforced, although it says there will be "technical amendments" added "to ensure it can function in U.K. law." In addition, "the Information Commissioner remains the U.K.'s independent supervisory authority on data protection."
+
+
+
+          </mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bankinfosecurity.com/privacy-fines-total-gdpr-sanctions-reach-331-million-a-15790">
+            Read More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/fueled-by-record-profits-ransomware-persists-in-new-year-a-15818">Fueled by Profits, Ransomware Persists in New Year</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/google-chrome-now-checks-for-weak-passwords-helps-fix-them/">Google Chrome now checks for weak passwords, helps fix them
+              </a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2021/01/ddos-guard-to-forfeit-internet-space-occupied-by-parler/">DDoS-Guard To Forfeit Internet Space Occupied by Parler</a></li>
+              <li><a class="lnk-orange" href="https://www.microsoft.com/security/blog/2021/01/21/the-dynamic-duo-how-to-build-a-red-and-blue-team-to-strengthen-your-cybersecurity-part-2/">The dynamic duo: How to build a red and blue team to strengthen your cybersecurity</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/hacker-blunder-leaves-stolen-passwords-exposed-via-google-search/">Hacker blunder leaves stolen passwords exposed via Google search</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/01/heres-how-solarwinds-hackers-stayed.html">Here's How SolarWinds Hackers Stayed Undetected for Long Enough</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/nsa-urges-system-administrators-to-replace-obsolete-tls-protocols/#ftag=RSSbaffb68">NSA urges system administrators to replace obsolete TLS protocols</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/fireeye-releases-new-open-source-tool-response-solarwinds-hack">FireEye Releases New Open Source Tool in Response to SolarWinds Hack
+              </a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/01/researchers-discover-raindrop-4th.html">Researchers Discover Raindrop — 4th Malware Linked to the SolarWinds Attack</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/dnspooq-lets-attackers-poison-dns-cache-records/#ftag=RSSbaffb68">DNSpooq lets attackers poison DNS cache records
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/gdpr-german-laptop-retailer-fined-eur10-4m-for-video-monitoring-employees/#ftag=RSSbaffb68">GDPR: German laptop retailer fined €10.4m for video-monitoring employees
+              </a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/technology/privacy-focused-search-engine-duckduckgo-grew-by-62-percent-in-2020/">Privacy-focused search engine DuckDuckGo grew by 62% in 2020
+              </a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/stolen-credit-card-shop-jokers-stash-closes-after-making-a-fortune/">Stolen credit card shop Joker's Stash closes after making a fortune
+              </a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/01/whatsapp-delays-controversial-data.html">WhatsApp Delays Controversial 'Data-Sharing' Privacy Policy Update By 3 Months</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/how-to-check-if-someone-else-accessed-your-google-account/#ftag=RSS56d97e7">How to check if someone else accessed your Google account
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/hackers-leaked-altered-pfizer-data-to-sabotage-trust-in-vaccines/">Hackers leaked altered Pfizer data to sabotage trust in vaccines
+              </a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/windows-remote-desktop-servers-now-used-to-amplify-ddos-attacks/">Windows Remote Desktop servers now used to amplify DDoS attacks</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/microsoft-edge-gets-a-password-generator-leaked-credentials-monitor/">Microsoft Edge gets a password generator, leaked credentials monitor</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/hacker-leaks-full-database-of-77-million-nitro-pdf-user-records/">Hacker leaks full database of 77 million Nitro PDF user records
+              </a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/hacker-posts-19-million-pixlr-user-records-for-free-on-forum/">Hacker posts 1.9 million Pixlr user records for free on forum
+              </a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/openwrt-project-community-investigating-data-breach-a-15797">OpenWRT Project Community Investigating Data Breach
+              </a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/microsoft-warns-of-incoming-windows-zerologon-patch-enforcement/">Microsoft warns of incoming Windows Zerologon patch enforcement
+              </a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/multiple-backdoors-and-vulnerabilities-discovered-in-fiberhome-routers/#ftag=RSSbaffb68">Multiple backdoors and vulnerabilities discovered in FiberHome routers
+              </a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/chrome-88-drops-flash-patches-critical-vulnerability">Chrome 88 Drops Flash, Patches Critical Vulnerability
+              </a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/cisco-patches-critical-vulnerabilities-sd-wan-dna-center-ssms-products">Cisco Patches Critical Vulnerabilities in SD-WAN, DNA Center, SSMS Products</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/drupal-updates-patch-another-vulnerability-related-archive-files">
+                Drupal Updates Patch Another Vulnerability Related to Archive Files</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/oracles-january-2021-cpu-contains-329-new-security-patches">Oracle's January 2021 CPU Contains 329 New Security Patches</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/tens-vulnerabilities-siemens-plm-products-allow-code-execution">Tens of Vulnerabilities in Siemens PLM Products Allow Code Execution</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/undisclosed-apache-velocity-xss-vulnerability-impacts-gov-sites/">Undisclosed Apache Velocity XSS vulnerability impacts GOV sites
+              </a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.snort.org/2021/01/snort-3-officially-released.html">Snort 3 officially released</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/realmodelabs/kindledrip-from-your-kindles-email-address-to-using-your-credit-card-bb93dbfb2a08">KindleDrip — From Your Kindle’s Email Address to Using Your Credit Card
+              </a></li>
+              <li><a class="lnk-green" href="https://github.com/linuxmint/cinnamon-screensaver/issues/354">Kids find a security flaw in Linux Mint by mashing keys</a></li>
+              <li><a class="lnk-orange" href="https://sysdig.com/blog/falco-vs-auditd-hids/">Falco vs. AuditD from the HIDS perspective</a></li>
+              <li><a class="lnk-purple" href="https://labs.bishopfox.com/tech-blog/bad-pods-kubernetes-pod-privilege-escalation">Bad Pods: Kubernetes Pod Privilege Escalation
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.microsoft.com/security/blog/2021/01/19/using-zero-trust-principles-to-protect-against-sophisticated-attacks-like-solorigate/">Using Zero Trust principles to protect against sophisticated attacks like Solorigate
+              </a></li>
+              <li><a class="lnk-pink" href="https://testtls.com/">Test a TLS server
+              </a></li>
+    
+              <li><a class="lnk-orange" href="https://github.com/RamadhanAmizudin/lazyweb">LazyWeb - Vulnerable Web Application
+              </a></li>
+              <li><a class="lnk-purple" href="https://netflixtechblog.com/evolving-container-security-with-linux-user-namespaces-afbe3308c082">Evolving Container Security With Linux User Namespaces</a></li>
+              <li><a class="lnk-green" href="https://github.com/preludeorg/operator-support">Prelude Operator: autonomous red team C2 platform</a></li>
+              <li><a class="lnk-blue" href="https://feed.prelude.org/p/purple-is-the-new-red">A day-in-the-life of a purple teamer using Prelude Operator
+
+              </a></li>
+              <li><a class="lnk-pink" href="https://stealthbits.com/blog/bypassing-mfa-with-pass-the-cookie/">How to mitigate Pass-the-Cookie</a></li>
+              <li><a class="lnk-green" href="https://snyk.io/blog/cache-poisoning-in-popular-open-source-packages/">Cache poisoning in popular open source packages</a></li>
+              <li><a class="lnk-orange" href="https://www.feistyduck.com/ssl-tls-and-pki-history/">SSL/TLS and PKI History </a></li>
+              <li><a class="lnk-purple" href="https://ther3dc0rner.github.io/overview-r-t-infrastructure/">Overview for Red Team deployable infrastructure</a></li>
+              <li><a class="lnk-blue" href="https://research.nccgroup.com/2021/01/21/mssql-lateral-movement/">
+                MSSQL Lateral Movement
+                </a></li>
+              <li><a class="lnk-pink" href="https://www.microsoft.com/security/blog/2021/01/20/deep-dive-into-the-solorigate-second-stage-activation-from-sunburst-to-teardrop-and-raindrop/"> Deep dive into the Solorigate second-stage activation: From SUNBURST to TEARDROP and Raindrop </a></li>
+              <li><a class="lnk-green" href="https://luemmelsec.github.io/Circumventing-Countermeasures-In-AD/">Sailing Past Security Measures In AD</a></li>
+              <li><a class="lnk-orange" href="https://toby00.medium.com/using-att-ck-to-score-red-team-engagements-f84901b23155">Using ATT&CK to Score Red Team Engagements</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
