@@ -1,0 +1,226 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - DD/MM/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/police-disrupt-emotet-botnet-showcase_image-9-a-15866.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">1 February 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">European Authorities Disrupt Emotet — World's Most Dangerous Malware. Emotet will uninstall itself on March 25th</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/police-disrupt-emotet-botnet-showcase_image-9-a-15866.jpg"></mj-image>
+          <mj-text color="#fff">Law enforcement agencies from as many as eight countries dismantled the infrastructure of Emotet, a notorious email-based Windows malware behind several botnet-driven spam campaigns and ransomware attacks over the past decade.
+
+          </mj-text>
+          <mj-text color="#fff">Emotet establishes a backdoor onto Windows computer systems via automated phishing emails that distribute Word documents compromised with malware. Subjects of emails and documents in Emotet campaigns are regularly altered to provide the best chance of luring victims into opening emails and installing malware ­ regular themes include invoices, shipping notices and information about COVID-19.
+
+            Those behind the Emotet lease their army of infected machines out to other cyber criminals as a gateway for additional malware attacks, including remote access tools (RATs) and ransomware.</mj-text>
+          <mj-text color="#fff">"The infrastructure that was used by Emotet involved several hundreds of servers located across the world, all of these having different functionalities in order to manage the computers of the infected victims, to spread to new ones, to serve other criminal groups and to ultimately make the network more resilient against takedown attempts," Europol says.
+
+          </mj-text>
+          <mj-text color="#fff">The disruption effort will pose serious short-term problems for the Emotet gang, but the group is likely to eventually reemerge, says Jason Meurer, who's a senior research engineer at Cofense. Indeed, other hacking groups operating malicious services have proven to be all too resilient despite law enforcement efforts to shutter their operations. In October 2020, for example, Microsoft and federal agencies disrupted the Trickbot operation. Within several weeks, however, the gang behind Trickbot was able to start rebuilding its network. Even if that happens, however, experts say the operation has been dealt a serious blow. "The effort is a shining example of what needs to be done in order to have any real impact on these organized cybercrime groups," Intel 471 says. "The difference between disruption and takedown boils down to criminals being put in handcuffs. It's the pinnacle of a takedown operation and the only way to have a long-term impact on the health and safety of the internet."
+
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2021/01/european-authorities-disrupt-emotet.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/police-disrupt-emotet-botnet-a-15866">
+            Even More on BankInfoSecurity
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/authorities-plan-to-mass-uninstall-emotet-from-infected-hosts-on-march-25-2021/#ftag=RSSbaffb68">
+            Authorities plan to mass-uninstall Emotet from infected hosts on March 25, 2021
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Bad actors launched an unprecedented wave of DDoS attacks in 2020</mj-text>
+          <mj-image src="https://tr1.cbsistatic.com/hub/i/r/2019/04/24/904a801a-4311-4a0c-9565-5a23a518c5a0/resize/770x/224c89ef55811f35af21b80851c9ead7/istock-948533056.jpg"></mj-image>
+          <mj-text>For many enterprises, 2020 was a tough year for cyberattacks, with dozens suffering from devastating DDoS attacks due to the newfound reliance on digital tools, according to a new report from cybersecurity firm Akamai. In its report, the company found that it had more customers attacked in November 2020 than any prior month going back to 2016. The company had more customers attacked over 50Gbps in August 2020 than any month before, another record that dates back to 2016. 
+          </mj-text>
+          <mj-text>"In fact, across all attacks, 7 of the 11 industries we track saw more attacks in 2020 than any year to date. Think about that. This was led by huge jumps in Business Services (960%), Education (180%), Financial Services (190%), Retail & Consumer Goods (445%), and Software & Tech (196%)," the report said. The report cites a number of record-breaking attacks, including a 1.44 Tbps attack against a major bank in Europe as well as an 809 Mpps attack on an internet hosting provider. According to the study's findings, some of the largest DDoS extortion campaigns took place in 2020 and the numbers only continued to grow throughout the year. 
+
+          </mj-text>
+          <mj-text>When researchers mapped it out, the timing of the increases in attacks coincides perfectly with the start of the COVID-19 pandemic, particularly in Europe and the US. All signs point to continued DDoS attack growth. Not one of the indicators we track is flat or trending down," Emmons said. 
+
+          </mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.techrepublic.com/article/bad-actors-launched-an-unprecedented-wave-of-ddos-attacks-in-2020/#ftag=RSS56d97e7">
+            Read More on TechRepublic
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://blogs.akamai.com/2021/01/part-i-retrospective-2020-ddos-was-back-bigger-and-badder-than-ever-before.html">
+            Report from Akamai
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/01/new-attack-could-let-remote-hackers.html">New Attack Could Let Remote Hackers Target Devices On Internal Networks</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/citrix-agrees-to-2-3-million-settlement-for-employees-impacted-by-data-breach/#ftag=RSSbaffb68">Citrix's $2.3 million settlement offer for employees impacted by data breach approved</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/01/authorities-seize-dark-web-site-linked.html">Authorities Seize Dark-Web Site Linked to the Netwalker Ransomware</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/new-cybercrime-tool-can-build-phishing-pages-in-real-time/#ftag=RSSbaffb68">New cybercrime tool can build phishing pages in real-time</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/01/top-cyber-attacks-of-2020.html">Top Cyber Attacks of 2020</a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/privacy-budgets-soared-in-2020-doubling-to-an-average-of-2-4-million/#ftag=RSS56d97e7">Privacy budgets soared in 2020, doubling to an average of $2.4 million</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/01/pen-testing-by-numbers-tracking-pen.html">Pen Testing By Numbers: Tracking Pen Testing Trends and Challenges</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/another-ransomware-now-uses-ddos-attacks-to-force-victims-to-pay/">Another ransomware now uses DDoS attacks to force victims to pay
+              </a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/expert-manpower-is-a-huge-cybersecurity-issue-in-2021/#ftag=RSS56d97e7">Expert: Manpower is a huge cybersecurity issue in 2021</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/google-researcher-discovers-new-ios-security-system/#ftag=RSSbaffb68">Google researcher discovers new iOS security system
+              </a></li>
+              <li><a class="lnk-purple" href="https://www.microsoft.com/security/blog/2021/01/28/5-identity-priorities-for-2021-strengthening-security-for-the-hybrid-work-era-and-beyond/">5 identity priorities for 2021—strengthening security for the hybrid work era and beyond</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/reported-us-data-breaches-declined-by-19-in-2020-a-15885">Reported US Data Breaches Declined by 19% in 2020 - Switching focus to Ransomware</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/australian-financial-regulator-hit-by-data-breach-a-15859">Australian Financial Regulator Hit by Data Breach</a></li>
+              <li><a class="lnk-pink" href="URL">cut2</a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/stack-overflow-shares-technical-details-2019-hack">Stack Overflow Shares Technical Details on 2019 Hack</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/mimecast-links-security-breach-to-solarwinds-hackers/">Mimecast links security breach to SolarWinds hackers
+              </a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/dutch-covid-19-patient-data-sold-on-the-criminal-underground/#ftag=RSSbaffb68">Dutch COVID-19 patient data sold on the criminal underground</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/illinois-court-exposes-more-323000-sensitive-records">
+                Illinois Court Exposes More Than 323,000 Sensitive Records
+                </a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/hacker-leaks-data-of-2-28-million-dating-site-users/#ftag=RSSbaffb68">Hacker leaks data of 2.28 million dating site users</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/sonicwall-says-it-was-hacked-using-zero-days-in-its-own-products/#ftag=RSSbaffb68">SonicWall says it was hacked using zero-days in its own products</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/bonobos-clothing-store-suffers-a-data-breach-hacker-leaks-70gb-database/">Bonobos clothing store suffers a data breach, hacker leaks 70GB database</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2021/01/27/apple-critical-patches-fix-in-the-wild-iphone-exploits-update-now/">Apple critical patches fix in-the-wild iPhone exploits – update now!
+              </a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/01/beware-fully-functional-released-online.html">Fully-Functional Exploit Released Online for SAP Solution Manager Flaw</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/researchers-beware-10-year-old-linux-vulnerability-a-15877">Researchers: Beware of 10-Year-Old Linux Vulnerability</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://adam-toscher.medium.com/a-red-team-guide-for-a-hardware-penetration-test-9debc5e9e211">A Red Team Guide for a Hardware Penetration Test</a></li>
+              <li><a class="lnk-pink" href="https://makyotox.medium.com/anticipate-cyber-threats-with-patrowl-manage-them-with-thehive-e640394c23bc">Anticipate cyber-threats with PatrOwl, manage them with TheHive</a></li>
+              <li><a class="lnk-green" href="https://sysdig.com/blog/cve-2021-3156-sudo-falco/">How to detect sudo’s CVE-2021-3156 using Falco</a></li>
+              <li><a class="lnk-orange" href="https://trstringer.com/azure-key-vault-lets-encrypt/">Azure Key Vault Certificates with Let's Encrypt as the Issuer CA</a></li>
+              <li><a class="lnk-purple" href="https://littlemaninmyhead.wordpress.com/2021/01/28/no-java-is-not-a-secure-programming-language/">
+                No, java is not a secure programming language</a></li>
+              <li><a class="lnk-blue" href="https://www.netresec.com/?page=Blog&month=2021-01&post=Twenty-three-SUNBURST-Targets-Identified">Twenty-three SUNBURST Targets Identified</a></li>
+              <li><a class="lnk-pink" href="https://ccdcoe.org/library/publications/cyber-threats-and-nato-2030-horizon-scanning-and-analysis/">Cyber Threats and NATO 2030: Horizon Scanning and Analysis</a></li>
+              <li><a class="lnk-green" href="https://d1.awsstatic.com/whitepapers/Overview-AWS-Lambda-Security.pdf">Security Overview of AWS
+                Lambda</a></li>
+              <li><a class="lnk-orange" href="https://dmcxblue.gitbook.io/red-team-notes-2-0/">Red Team Notes 2.0</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/@dimitrismargaritis/prevent-legitimate-windows-executables-to-be-used-to-gain-initial-foothold-in-your-infrastructure-39771cd6ec90">Prevent Legitimate Windows Executables To Be Used To Gain Initial Foothold In Your Infrastructure</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
