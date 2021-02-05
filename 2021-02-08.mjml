@@ -1,0 +1,231 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 08/02/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://zdnet2.cbsistatic.com/hub/i/2019/09/05/41745ace-25ca-4092-8c34-2d0ab65924b2/zero-day.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">8 February 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Proper patching would have prevented 25% of all zero-days found in 2020</mj-text>
+          <mj-image src="https://zdnet2.cbsistatic.com/hub/i/2019/09/05/41745ace-25ca-4092-8c34-2d0ab65924b2/zero-day.png"></mj-image>
+          <mj-text color="#fff">Google said today that a quarter of all the zero-day vulnerabilities discovered being exploited in the wild in 2020 could have been avoided if vendors had patched their products correctly. The company, through its Project Zero security team, said it detected 24 zero-days exploited by attackers in 2020. Six of these were variations of vulnerabilities disclosed in previous years, where attackers had access to older bug reports so they could study the previous issue and deploy a new exploit version.
+            
+            
+
+          </mj-text>
+          <mj-text color="#fff">This situation could have been avoided if vendors had investigated the root cause of the bugs in greater depth and invested more into the patching process. Zero-days provide a window into an attacker's mind that defenders should take advantage of and try to learn about the entry vectors an attacker is trying to exploit, determine the vulnerability class, and then deploy comprehensive mitigations.</mj-text>
+          <mj-text color="#fff">Being able to correctly and comprehensively patch isn't just flicking a switch: it requires investment, prioritization, and planning. It also requires developing a patching process that balances both protecting users quickly and ensuring it is comprehensive, which can at times be in tension. While we expect that none of this will come as a surprise to security teams in an organization, this analysis is a good reminder that there is still more work to be done. 
+
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/google-proper-patching-would-have-prevented-25-of-all-zero-days-found-in-2020/#ftag=RSSbaffb68">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://googleprojectzero.blogspot.com/2021/02/deja-vu-lnerability.html">
+            Even More on Google Project Zero blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Account takeover attacks spiked in 2020</mj-text>
+          <mj-image src="https://tr3.cbsistatic.com/hub/i/r/2018/11/26/59ef27e7-6976-4832-8adb-c087c9c0ea3f/resize/770x/ac1377444aa0e7427a418863cd2d977f/istock-891341524.jpg"></mj-image>
+          <mj-text>Kaspersky has released the results of research into fraud detected by its Fraud Prevention platform in 2020, and the results further reinforce what we already knew: 2020 was a banner year for online fraudsters, with account takeovers dominating as the method of choice.  Occurring whenever a bad actor is able to steal login credentials and seize control of an online account, takeover attacks rose from 34% of fraud detected by Kaspersky in 2019 to 54% by the end of December 2020. 
+
+          </mj-text>
+          <mj-text>Other methods of fraud were blips on the radar compared to account takeovers: The next most popular method, at just 16% of detected fraud, was money laundering/mule transactions, followed by new account fraud (14%), and a mere 12% of instances used remote access or hacking tools to accomplish their goals. In short, when it comes to fraud, account takeovers should be the No. 1 concern for individuals and businesses heading into 2021, especially as social distancing and remote work continue to be the norm.
+          </mj-text>
+          <mj-text>Kaspersky makes several recommendations all online services and retailers should adopt to help stem the tide of account takeovers: Limit the number of times a transaction, such as logging in, can be attempted. Send out regular emails to customers warning them of the latest fraud trend. Annual security audits, along with penetration tests, should become standard practice. Have a team dedicated to fraud analysis that can keep up on trends and analyze attacks to find solutions. Implement multifactor authentication on all accounts.
+          </mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.techrepublic.com/article/account-takeover-attacks-spiked-in-2020-kaspersky-says/#ftag=RSS56d97e7">
+            Read More  on TechRepublic
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://usa.kaspersky.com/about/press-releases/2021_kaspersky-research-shows-sharp-increase-of-account-takeover-incidents-in-2020">
+            Even More on Kaspersky Blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/plex-media-servers-are-being-abused-for-ddos-attacks/#ftag=RSSbaffb68">Plex Media servers are being abused for DDoS attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/malware-targets-kubernetes-clusters-a-15930">Malware Targets Kubernetes Clusters</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/hacking-group-also-used-an-ie-zero-day-against-security-researchers/">Hacking group also used an IE zero-day against security researchers</a></li>
+              <li><a class="lnk-orange" href="https://security.googleblog.com/2021/02/vulnerability-reward-program-2020-year.html">Google Vulnerability Reward Program: 2020 Year in Review</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2021/02/beware-new-matryosh-ddos-botnet.html">New Matryosh DDoS Botnet Targeting Android-Based Devices</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/android-devices-ensnared-in-ddos-botnet/#ftag=RSSbaffb68">Android devices ensnared in DDoS botnet</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/latest-macos-big-sur-also-has-sudo-root-privilege-escalation-flaw/">Latest macOS Big Sur also has SUDO root privilege escalation flaw
+              </a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/malicious-script-steals-credit-card-info-stolen-by-other-hackers/">Malicious script steals credit card info stolen by other hackers
+              </a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/security-chaos-engineering-helps-you-find-weak-links-in-your-cyber-defenses-before-attackers-do/#ftag=RSS56d97e7">Security chaos engineering helps you find weak links in your cyber defenses before attackers do
+              </a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/blogs/ransomware-average-ransom-payment-declines-to-154108-p-2986">Ransomware: Average Ransom Payment Declines to $154,108 as Gangs Fail to Honor Data Deletion Promises</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/02/a-new-software-supplychain-attack.html">A New Software Supply‑Chain Attack Targeted Millions With Spyware</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/security-firm-stormshield-discloses-data-breach-theft-of-source-code/#ftag=RSSbaffb68">Security firm Stormshield discloses data breach, theft of source code</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/trucking-giant-says-ransomware-attack-had-75m-impact">Trucking Giant 'Forward Air' Says Ransomware Attack Had $7.5M Impact</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/oxfam-australia-investigates-data-breach-after-database-sold-online/">Oxfam Australia investigates data breach after database sold online
+              </a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/female-escort-review-site-data-breach-affects-470-000-members/">Female escort review site data breach affects 470,000 members
+              </a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/us-federal-payroll-agency-hacked-using-solarwinds-software-flaw/">US federal payroll agency hacked using SolarWinds software flaw
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/data-breach-exposes-16-million-washington-unemployment-claims/">Data breach exposes 1.6 million Washington unemployment claims
+              </a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/exposed-azure-bucket-leaked-passports-ids-of-volleyball-reporters/">Exposed Azure bucket leaked passports, IDs of volleyball reporters
+              </a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/02/new-chrome-browser-0-day-under-active.html">New Chrome Browser 0-day Under Active Attack</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/02/critical-flaws-reported-in-cisco-vpn.html">Critical Flaws Reported in Cisco VPN Routers for Businesses</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/02/critical-bugs-found-in-popular-realtek.html">Critical Bugs Found in Popular Realtek Wi-Fi Module for Embedded Devices</a></li>
+              <li><a class="lnk-orange" href="https://www.securityweek.com/siemens-releases-patches-prevent-remote-takeover-simatic-hmi-panels">Siemens Releases Patches to Prevent Remote Takeover of SIMATIC HMI Panels</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/sonicwall-fixes-actively-exploited-sma-100-zero-day-vulnerability/">SonicWall fixes actively exploited SMA 100 zero-day vulnerability
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cisco-fixes-critical-code-execution-bugs-in-smb-vpn-routers/">Cisco fixes critical code execution bugs in SMB VPN routers
+              </a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/weak-acls-adobe-coldfusion-allow-privilege-escalation">Weak ACLs in Adobe ColdFusion Allow Privilege Escalation
+              </a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/solarwinds-patches-critical-vulnerabilities-in-the-orion-platform/">SolarWinds patches critical vulnerabilities in the Orion platform
+              </a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/libgcrypt-developers-release-urgent-update-to-tackle-severe-vulnerability/#ftag=RSSbaffb68">Libgcrypt developers release urgent update to tackle severe vulnerability
+              </a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://s3cur3th1ssh1t.github.io/A-tale-of-EDR-bypass-methods/">A tale of EDR bypass methods</a></li>
+              <li><a class="lnk-pink" href="https://trstringer.com/renew-key-vault-certificate/">Renew Azure Key Vault Certificates from Let's Encrypt</a></li>
+              <li><a class="lnk-green" href="https://makyotox.medium.com/patrowlhears-open-source-vulnerability-intelligence-center-a8577c462257">PatrowlHears — Open-Source Vulnerability Intelligence Center</a></li>
+              <li><a class="lnk-orange" href="https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/crown-jewels-analysis">Crown Jewels Analysis: Identify your most critical cyber assets</a></li>
+              <li><a class="lnk-purple" href="https://www.crowdstrike.com/blog/seven-common-microsoft-ad-misconfigurations-that-adversaries-abuse/">Seven Common Microsoft Active Directory Misconfigurations that Adversaries Abuse</a></li>
+              <li><a class="lnk-blue" href="https://medium.com/deepfence-cloud-native-security/detecting-secrets-to-reduce-attack-surface-3405ee6329b5">Detecting Secrets to Reduce Attack Surface</a></li>
+              <li><a class="lnk-pink" href="https://isc.sans.edu/forums/diary/Abusing+Google+Chrome+extension+syncing+for+data+exfiltration+and+CC/27066/">Abusing Google Chrome extension syncing for data exfiltration and C&C</a></li>
+              <li><a class="lnk-green" href="https://github.com/objective-see">Objective-See projects, now all Open-Source</a></li>
+              <li><a class="lnk-orange" href="https://adepts.of0x.cc/kerberos-thievery-linux/">The Kerberos Credential Thievery Compendium (GNU/Linux)</a></li>
+              <li><a class="lnk-purple" href="https://arxiv.org/ftp/arxiv/papers/2009/2009.09210.pdf">A framework for effective corporate communication after cyber security incidents</a></li>
+              <li><a class="lnk-blue" href="https://thalpius.com/2021/01/25/microsoft-azure-ad-conditional-access-validator/">Microsoft azure ad conditional access validator
+              </a></li>
+              <li><a class="lnk-pink" href="https://github.com/optiv/ScareCrow">ScareCrow: Payload generator to bypass EDR</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/google-funds-project-to-secure-apache-web-server-project-with-new-rust-component/#ftag=RSSbaffb68">Google funds project to secure Apache web server with new Rust component
+              </a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
