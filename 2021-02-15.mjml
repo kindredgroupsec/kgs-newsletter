@@ -1,0 +1,251 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 15/02/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-LvkB3SpXP_A/YCUE6Ebc75I/AAAAAAAABv0/V0NLeUr8CdAyBF5DXlAgSIazyJlX7KkjwCLcBGAsYHQ/s0/sim-swapping.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">15 February 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">10 SIM Swappers Arrested for Stealing $100M in Crypto from Celebrities</mj-text>
+          <mj-image src="https://thehackernews.com/images/-LvkB3SpXP_A/YCUE6Ebc75I/AAAAAAAABv0/V0NLeUr8CdAyBF5DXlAgSIazyJlX7KkjwCLcBGAsYHQ/s0/sim-swapping.jpg"></mj-image>
+          <mj-text color="#fff">Ten people belonging to a criminal network have been arrested in connection with a series of SIM-swapping attacks that resulted in the theft of more than $100 million by hijacking the mobile phone accounts of high-profile individuals in the U.S.
+
+          </mj-text>
+          <mj-text color="#fff">Typically achieved with the help of a corrupt insider or using social engineering lures, SIM swapping refers to the technique adopted by cybercriminals to persuade phone carriers into porting their victims' cell services to a SIM card under their control. The SIM swap then grants attackers access to incoming phone calls, text messages, and one-time verification codes (or one-time passwords) that various websites send via SMS messages as part of the two-factor authentication (2FA) process.
+
+
+
+          </mj-text>
+          <mj-text color="#fff">Once in control of the target's mobile phone, the authorities noted that the criminals accessed personal information, including contacts synced with online accounts, and stole money, with cryptocurrency losses exceeding $100 million in 2020. "They also hijacked social media accounts to post content and send messages masquerading as the victim," the U.S. Secret Service said. To avoid SIM swapping attacks, it's recommended that users keep their device's software up to date, limit data-sharing online, and enable 2FA via apps instead of having an authentication code sent over SMS.
+
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2021/02/10-sim-swappers-arrested-for-stealing.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Hugely Popular 'The Great Suspender' Chrome Extension Contains Malware</mj-text>
+          <mj-image src="https://thehackernews.com/images/-2lUrSJVxh4I/YB5vgYDx61I/AAAAAAAABs4/P1NLw-z_eGEDnIAlLnZhD6B2jXO9JHkTQCLcBGAsYHQ/s0/browser-hacking.jpg"></mj-image>
+          <mj-text>Google on Thursday removed The Great Suspender, a popular Chrome extension used by millions of users, from its Chrome Web Store for containing malware. It also took the unusual step of deactivating it from users' computers. "This extension contains malware," read a terse notification from Google, but it has since emerged that the add-on stealthily added features that could be exploited to execute arbitrary code from a remote server, including tracking users online and committing advertising fraud.
+
+          </mj-text>
+          <mj-text>The extension, which had more than two million installs before it was disabled, would suspend tabs that aren't in use, replacing them with a blank gray screen until they were reloaded upon returning to the tabs in question. According to The Register, Dean Oemcke, the extension's original developer, is said to have sold the extension in June 2020 to an unknown entity, following which two new versions were released directly to users via the Chrome Web Store (7.1.8 and 7.1.9).</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2021/02/warning-hugely-popular-great-suspender.html">
+            Read More TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Researcher hacks over 35 tech firms in novel supply chain attack
+          </mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2021/02/08/supply-chain.jpg"></mj-image>
+          <mj-text>A researcher managed to breach over 35 major companies' internal systems, including Microsoft, Apple, PayPal, Shopify, Netflix, Yelp, Tesla, and Uber, in a novel software supply chain attack. The attack comprised uploading malware to open source repositories including PyPI, npm, and RubyGems, which then got distributed downstream automatically into the company's internal applications.
+
+
+
+          </mj-text>
+          <mj-text>Unlike traditional typosquatting attacks that rely on social engineering tactics or the victim misspelling a package name, this particular supply chain attack is more sophisticated as it needed no action by the victim, who automatically received the malicious packages. This is because the attack leveraged a unique design flaw of the open-source ecosystems called dependency confusion. For his ethical research efforts, the researcher has earned well over $130,000 in bug bounties.
+
+          </mj-text>
+          <mj-text>Birsan noticed some of the manifest file packages were not present on the public npm repository but were instead PayPal's privately created npm packages, used and stored internally by the company. Birsan soon realized, should a dependency package used by an application exist in both a public open-source repository and your private build, the public package would get priority and be pulled instead -- without needing any action from the developer. In some cases, as with PyPI packages, the researcher noticed that the package with the higher version would be prioritized regardless of wherever it was located. Using this technique, Birsan executed a successful supply chain attack against Microsoft, Apple, PayPal, Shopify, Netflix, Tesla, Yelp, and Uber simply by publishing public packages using the same name as the company's internal ones.
+          </mj-text>
+          <mj-button mj-class="bg-green" href="https://www.bleepingcomputer.com/news/security/researcher-hacks-over-35-tech-firms-in-novel-supply-chain-attack/">
+            Read More on BleepingComputer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://cloud.google.com/blog/products/workspace/how-gmail-helps-users-avoid-email-scams">New research reveals who’s targeted by email attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/web-hosting-provider-shuts-down-after-cyber-attack/#ftag=RSSbaffb68">Web hosting provider shuts down after cyberattack</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/02/hacker-tried-poisoning-water-supply.html">Hacker Tried Poisoning Water Supply After Breaking Into Florida's Treatment System</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/blogs/led-by-hydra-darknet-markets-logged-record-revenue-p-2990">Led by Hydra, Darknet Markets Logged Record Revenue
+              </a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/sitepoint-discloses-data-breach-after-stolen-info-used-in-attacks/">SitePoint discloses data breach after stolen info used in attacks
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/proofpoint-sues-facebook-to-get-permission-to-use-lookalike-domains-for-phishing-tests/#ftag=RSSbaffb68">Proofpoint sues Facebook to get permission to use lookalike domains for phishing tests
+              </a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/02/ukrainian-police-arrest-author-of.html">Ukrainian Police Arrest Author of World's Largest Phishing Service U-Admin</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/top-5-reasons-not-to-use-fear-to-encourage-security-compliance/#ftag=RSS56d97e7">Top 5 reasons not to use fear to encourage security compliance</a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/how-much-is-your-info-worth-on-the-dark-web-for-americans-its-just-8/#ftag=RSS56d97e7">How much is your info worth on the Dark Web? For Americans, it's just $8
+              </a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/google-launches-database-open-source-vulnerabilities">Google Launches Database for Open Source Vulnerabilities
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/ransomware-gangs-made-at-least-350-million-in-2020/">Ransomware gangs made at least $350 million in 2020
+              </a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cd-projekt-red-gaming-studio-hit-by-ransomware-attack/">CD Projekt Red gaming studio hit by ransomware attack
+              </a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/webdev-tutorials-site-sitepoint-discloses-data-breach/#ftag=RSSbaffb68">Webdev tutorials site SitePoint discloses data breach
+              </a></li>
+              <li><a class="lnk-green" href="https://www.securityweek.com/antivirus-firm-emsisoft-discloses-data-breach">Antivirus Firm Emsisoft Discloses Data Breach
+              </a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/experian-no-evidence-system-compromise-in-brazil-a-15947">Experian: No Evidence of System Compromise in Brazil</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2021/02/microsoft-patch-tuesday-february-2021-edition/">Microsoft Patch Tuesday, February 2021 Edition
+              </a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/adobe-patches-wave-of-critical-bugs-in-magento-acrobat-reader/#ftag=RSSbaffb68">Adobe patches wave of critical bugs in Magento, Acrobat, Reader
+              </a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/intel-fixes-vulnerabilities-in-windows-linux-graphics-drivers/">Intel fixes vulnerabilities in Windows, Linux graphics drivers
+              </a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/buggy-wordpress-plugin-exposes-100k-sites-to-takeover-attacks/">WordPress plugin "Responsive Menu" exposes 100K sites to takeover attacks
+              </a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/siemens-patches-21-more-file-parsing-vulnerabilities-plm-products">Siemens Patches 21 More File Parsing Vulnerabilities in PLM Products</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/critical-vulnerability-patched-sap-commerce-product">
+                Critical Vulnerability Patched in SAP Commerce Product</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/02/apple-patches-10-year-old-macos-sudo.html">Apple Patches 10-Year-Old macOS SUDO Root Privilege Escalation Bug</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/plex-patches-media-server-bug-potentially-exploited-by-ddos-attackers/#ftag=RSS56d97e7">Plex patches media server bug potentially exploited by DDoS attackers
+              </a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/critical-vulnerability-fixed-in-wordpress-plugin-with-800k-installs/">Critical vulnerability in WordPress plugin "NextGen Gallery" with 800K installs
+              </a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/cyberpunk-2077-bug-fixed-that-let-malicious-mods-take-over-pcs/">Cyberpunk 2077 bug fixed that let malicious mods take over PCs
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/fortinet-fixes-critical-vulnerabilities-in-ssl-vpn-and-web-firewall/">Fortinet fixes critical vulnerabilities in SSL VPN and web firewall
+              </a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610">Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other Companies</a></li>
+              <li><a class="lnk-green" href="https://flawed.net.nz/2021/02/11/Language-Agnostic-Code-Review/">Language Agnostic Security Code Review
+              </a></li>
+              <li><a class="lnk-pink" href="https://www.bugcrowd.com/blog/common-bugs-of-2021/">The 10 most common bugs of 2021 so far, and how to find them!</a></li>
+              <li><a class="lnk-green" href="https://igor-blue.github.io/2021/02/04/secure-boot.html">How SecureBoot works</a></li>
+              <li><a class="lnk-orange" href="https://www.redteam.cafe/red-team/database/mssql-link-crawl-openquery-quotes-calulator">MSSQL Link Crawl - OpenQuery Quotes Calculator
+              </a></li>
+              <li><a class="lnk-purple" href="https://opensource.googleblog.com/2021/02/know-prevent-fix-framework-for-shifting-discussion-around-vulnerabilities-in-open-source.html">Know, Prevent, Fix: A framework for shifting the discussion around vulnerabilities in open source
+              </a></li>
+              <li><a class="lnk-blue" href="URL">cut1</a></li>
+              <li><a class="lnk-pink" href="https://sysdig.com/blog/kubernetes-audit-log-falco/">Getting started with Kubernetes audit logs and Falco</a></li>
+              <li><a class="lnk-green" href="https://www.inputzero.io/2020/12/telegram-privacy-fails-again.html">The "P" in Telegram stands for Privacy</a></li>
+              <li><a class="lnk-orange" href="https://www.microsoft.com/security/blog/2021/02/11/a-playbook-for-modernizing-security-operations/">A playbook for modernizing security operations
+              </a></li>
+              <li><a class="lnk-purple" href="https://www.techrepublic.com/article/how-to-use-the-vault-command-line-tool-to-store-your-code-secrets/#ftag=RSS56d97e7">How to use the Vault command line tool to store your code secrets</a></li>
+              
+              <li><a class="lnk-pink" href="https://levelup.gitconnected.com/cloud-security-table-top-exercises-629d353c268e?gi=a838b9378350">Cloud Security Table Top Exercises</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
