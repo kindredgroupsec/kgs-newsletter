@@ -1,0 +1,257 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 22/02/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.welivesecurity.com/wp-content/uploads/2021/02/covid19-vaccine-scams-misinformation.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">22 February 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Beware of COVID‑19 vaccine scams and misinformation
+          </mj-text>
+          <mj-image src="https://www.welivesecurity.com/wp-content/uploads/2021/02/covid19-vaccine-scams-misinformation.jpg"></mj-image>
+          <mj-text color="#fff">The rollouts of COVID-19 vaccines are steadily gaining speed, sparking hope that we may see the end of the pandemic and return to normal life sooner rather than later. This, however, has not escaped the notice of enterprising scammers who would like to cash in on the vaccine distribution effort by using fake offers and spewing out fraudulent emails.
+
+          </mj-text>
+          <mj-text color="#fff">One common tactic involves offering various ways people could capitalize on the pandemic and vaccine rollout. These scams typically focus either on the COVID-19 vaccines themselves, or on the tech used to manufacture or store them. Another frequent tactic relies on posing as a health authority that is directly involved in battling the pandemic. The World Health Organization (WHO) has been among the most impersonated authorities in various COVID-19-related scam campaigns, with scammers – masquerading as WHO representatives and employees – trying to disseminate fake apps or pretending to offer important information.
+
+
+
+          </mj-text>
+          <mj-text color="#fff">These are just some of the examples of vaccine-themed scams that you might stumble upon and you can be sure that enterprising crooks will be doubling down on their efforts as the vaccine rollout continues. Also, given the rapid increase in new coronavirus variants, it would not be surprising to see that pop up in COVID-19-themed scams. One of the easiest ways you can stay safe is by using a reputable security solution that includes a spam filter. However, if you do receive an unsolicited email from someone you don’t know: always be extra vigilant and scrutinize it for telltale signs of a scam, including those described above.
+
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.welivesecurity.com/2021/02/16/beware-covid19-vaccine-scams-misinformation/">
+            Read More on WeLiveSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Privacy Legislation Progresses in 5 More States</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/privacy-legislation-progresses-in-5-more-states-showcase_image-2-a-15995.jpg"></mj-image>
+          <mj-text>Five states are making progress this year toward passing privacy legislation along the lines of California's Consumer Privacy Act, according to the International Association of Privacy Professionals.          </mj-text>
+          <mj-text>If Virginia, Minnesota, New York, Washington and Oklahoma succeed in enacting new privacy laws this year, the total number of states with privacy regulations would go up to eight. Previously, Maine and Nevada, in addition to California, each enacted legislation. Ten other states introduced privacy legislation last year.
+          </mj-text>
+          <mj-text>The majority of bills being considered at the state level are modeled on the CCPA and the recently instituted California Privacy Rights Act. Full enforcement of the CCPA began in July 2020 (see: It's Official: CCPA Enforcement Begins). Washington's pending legislation has also played an influential role.
+
+          </mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bankinfosecurity.com/privacy-legislation-progresses-in-5-more-states-a-15995">
+            Read More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Barcode-Scanning App for Android Pushed Malware Onto Millions of Phones
+          </mj-text>
+          <mj-image src="https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,pg_1,q_60,w_965/sacztno6jetxs4sd0zry.png"></mj-image>
+          <mj-text>A popular app has been removed from Google Play after it was discovered to have delivered trojanized malware onto millions of users’ phones via an update. Until recently, Barcode Scanner was a straightforward application that provided users with a basic QR code reader and barcode generator, useful for things like making purchases and redeeming discounts. The app, which has been around since at least 2017, is owned by developer Lavabird Ldt., and claims to have over 10 million downloads, the Wayback Machine shows.
+
+
+
+          </mj-text>
+          <mj-text>However, a rash of malicious activity was recently traced back to the app. Users began noticing something weird going on with their phones: their default browsers kept getting hijacked and redirected to random advertisements, seemingly out of nowhere. For a number of people, it wasn’t clear what was causing the disruptions—as many hadn’t recently downloaded any apps. After enough peeved victims wrote about their experiences on a web forum, one user ultimately pointed the finger at Barcode. Researchers with Malwarebytes have verified the scanner is the culprit, releasing a new report that shows it delivered the ad-producing malware onto users’ phones, probably via a December update. The update spoiled the previously benign app—taking it from “an innocent scanner to full on malware,” researchers write.
+
+
+
+          </mj-text>
+          <mj-text>Please note that the latest smartphones with iOS 13 and Android 9 and above are equipped with an advanced QR Code readers in the built-in camera app, downloading a third-party app is no longer required.
+          </mj-text>
+          <mj-button mj-class="bg-green" href="https://gizmodo.com/barcode-scanning-app-for-android-pushed-malware-onto-mi-1846221452">
+            Read More on Gizmodo
+          </mj-button>
+          <mj-button mj-class="bg-green" href="https://blog.malwarebytes.com/android/2021/02/barcode-scanner-app-on-google-play-infects-10-million-users-with-one-update/">
+            Original report from Malwarebytes
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/losses-to-romance-scams-reached-a-record-304-million-in-2020/#ftag=RSSbaffb68">Losses to romance scams reached a record $304 million in 2020
+              </a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/copycats-imitate-novel-supply-chain-attack-that-hit-tech-giants/">Copycats imitate novel supply chain attack that hit tech giants
+              </a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/02/apple-will-proxy-safe-browsing-requests.html">Apple will proxy Safe Browsing requests to hide iOS users' IP from Google</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/egregor-ransomware-affiliates-arrested-by-ukrainian-french-police/">Egregor ransomware affiliates arrested by Ukrainian, French police</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/3-north-koreans-indicted-for-conspiring-to-steal-13-billion-a-16020">3 North Koreans Indicted for Conspiring to Steal $1.3 Billion
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.microsoft.com/security/blog/2021/02/18/turning-the-page-on-solorigate-and-opening-the-next-chapter-for-the-security-community/">Turning the page on Solorigate and opening the next chapter for the security community
+              </a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/02/first-malware-designed-for-apple-m1.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">First Malware Designed for Apple M1 Chip Discovered in the Wild</a></li>
+              <li><a class="lnk-green" href="https://www.microsoft.com/security/blog/2021/02/17/6-strategies-to-reduce-cybersecurity-alert-fatigue-in-your-soc/">6 strategies to reduce cybersecurity alert fatigue in your SOC
+              </a></li>
+              <li><a class="lnk-orange" href="https://www.techrepublic.com/article/microsofts-power-bi-gets-new-tools-to-prevent-leakage-of-confidential-data/#ftag=RSS56d97e7">Microsoft's Power BI gets new tools to prevent leakage of confidential data</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/dutch-police-post-friendly-warnings-on-hacking-forums/#ftag=RSSbaffb68">Dutch police post 'friendly' warnings on hacking forums
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/introducing-daic-suggested-system-preventing-bec-fraud?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Securityweek+%28SecurityWeek+RSS+Feed%29">Introducing DAIC: A Suggested System for Preventing BEC Fraud
+              </a></li>
+              <li><a class="lnk-pink" href="https://www.welivesecurity.com/2021/02/15/record-breaking-number-vulnerabilities-reported-2020/">Record‑high number of vulnerabilities reported in 2020
+              </a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/02/unpatched-shareit-android-app-flaw.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Cyber+Security+Blog%29">Unpatched ShareIT Android App Flaw Could Let Hackers Inject Malware</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/yandex-insider-caused-breach-affecting-5000-customers-a-15990">Yandex: Insider Caused Breach Affecting 5,000 Customers
+              </a></li>
+
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cd-projekts-stolen-source-code-allegedly-sold-by-ransomware-gang/">CD Projekt's stolen source code allegedly sold by ransomware gang
+              </a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/apple-patches-flaw-in-macos-big-sur-upgrade-a-16019">Apple Patches Flaw in macOS Big Sur Upgrade
+              </a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/siemens-patches-21-vulnerabilities-in-2-tools-a-15983">Siemens Patches 21 Vulnerabilities in 2 Tools
+              </a></li>
+              <li><a class="lnk-green" href="https://confluence.atlassian.com/jira/jira-server-for-slack-security-advisory-17th-february-2021-1044091690.html">Jira Server for Slack Security Advisory
+              </a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/qnap-patches-critical-vulnerability-in-surveillance-station-nas-app/">QNAP patches critical vulnerability in Surveillance Station NAS app
+              </a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/malvertiser-abused-webkit-zero-day-to-redirect-ios-macos-users-to-shady-sites/#ftag=RSSbaffb68">Malvertiser abused WebKit zero-day to redirect iOS & macOS users to shady sites
+
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/microsoft-patches-12-year-old-vulnerability-a-15999">Microsoft Patches Privilege Escalation Vulnerability in Microsoft Defender
+              </a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.vdoo.com/blog/python-wheel-jacking-supply-chain-attacks">Python wheel-jacking in supply chain attacks
+              </a></li>
+              <li><a class="lnk-pink" href="https://multilogin.com/mitigating-risks-of-browser-extensions/">Hidden in plain sight: mitigating the dangers of browser extensions</a></li>
+              <li><a class="lnk-green" href="https://cyberics.github.io/News/news.html">ICS Vulnerability monitoring</a></li>
+              <li><a class="lnk-orange" href="https://www.appsecmonkey.com/blog/web-application-security-checklist/?v=1">Web Application Security Checklist</a></li>
+              <li><a class="lnk-purple" href="https://www.trendmicro.com/en_us/research/21/b/threat-actors-now-target-docker-via-container-escape-features.html">Threat Actors Now Target Docker via Container Escape Features
+              </a></li>
+              <li><a class="lnk-blue" href="https://www.aon.com/cyber-solutions/aon_cyber_labs/finding-more-idors-tips-and-tricks/">Finding More IDORs – Tips And Tricks
+              </a></li>
+              <li><a class="lnk-pink" href="https://blog.talosintelligence.com/2021/02/masslogger-cred-exfil.html">Masslogger campaigns exfiltrates user credentials
+              </a></li>
+              <li><a class="lnk-green" href="https://www.atlanticcouncil.org/wp-content/uploads/2020/07/Breaking-trust-Shades-of-crisis-across-an-insecure-software-supply-chain.pdf">Breaking Trust: Shades of Crisis Across an Insecure Software Supply Chain</a></li>
+              <li><a class="lnk-orange" href="https://www.reddit.com/r/blueteamsec/comments/lky57m/two_new_azure_ad_roles_authentication_policy/">new Azure AD roles to minimize the need for Azure Global Administrator</a></li>
+              <li><a class="lnk-purple" href="https://github.blog/2021-02-12-avoiding-npm-substitution-attacks/">Avoiding npm substitution attacks
+              </a></li>
+              <li><a class="lnk-blue" href="https://luemmelsec.github.io/Relaying-101/">NTLM Relaying 101</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

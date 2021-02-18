@@ -1,7 +1,7 @@
 What happened last week in #InfoSec? Find it out with the Kindred security newsletter!
-https://news.infosecgur.us/2021-02-15
+https://news.infosecgur.us/2021-02-22
 
-Kindred Group Security Newsletter - 15 February 2021
+Kindred Group Security Newsletter - 22 February 2021
 Kindred Group Security
 newsletter@infosecgur.us
  
