@@ -1,0 +1,240 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 01/03/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-Nk6qsQ7pHrA/YDyxV1hXEKI/AAAAAAAAB50/NY5WnBWlJe40SvKnfJSDubbKGEdUcU9CQCLcBGAsYHQ/s0/solarwinds.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">1 March 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">SolarWinds Supply Chain Attacks: Blames Intern for 'solarwinds123' Password Lapse</mj-text>
+          <mj-image src="https://thehackernews.com/images/-Nk6qsQ7pHrA/YDyxV1hXEKI/AAAAAAAAB50/NY5WnBWlJe40SvKnfJSDubbKGEdUcU9CQCLcBGAsYHQ/s0/solarwinds.jpg"></mj-image>
+          <mj-text color="#fff">As cybersecurity researchers continue to piece together the sprawling SolarWinds supply chain attack, top executives of the Texas-based software services firm blamed an intern for a critical password lapse that went unnoticed for several years. To date, at least nine government agencies and 100 private sector companies have been breached in what's being described as one of the most sophisticated and well-planned operations that involved injecting the malicious implant into the Orion Software Platform with the goal of compromising its customers.</mj-text>
+          <mj-text color="#fff">The said password "solarwinds123" was originally believed to have been publicly accessible via a GitHub repository since June 17, 2018, before the misconfiguration was addressed on November 22, 2019. "I've got a stronger password than 'solarwinds123' to stop my kids from watching too much YouTube on their iPad," Representative Katie Porter of California said. "You and your company were supposed to be preventing the Russians from reading Defense Department emails."</mj-text>
+          <mj-text color="#fff">In the weeks following the revelation, SolarWinds was hit with a class-action lawsuit in January 2021 that alleged the company failed to disclose that "since mid-2020, SolarWinds Orion monitoring products had a vulnerability that allowed hackers to compromise the server upon which the products ran," and that "SolarWinds' update server had an easily accessible password of 'solarwinds123'," as a result of which the company "would suffer significant reputational harm." While it's still not clear as to the extent the leaked password may have enabled the hack, a third-party spokesperson for the company claimed to the contrary. Likening the SolarWinds cyberattack to a "large-scale series of home invasions," Smith urged the need for strengthening the tech sector's software and hardware supply chains, and promoting broader sharing of threat intelligence for real-time responses during such incidents. SolarWinds, for its part, said it's implementing the knowledge gained from the incident to evolve into a company that is "Secure by Design" and that it's deploying additional threat protection and threat hunting software across all its network endpoints including measures to safeguard its development environments.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2021/03/solarwinds-blame-intern-for-weak.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">New 'Silver Sparrow' Malware Infected Nearly 30,000 Apple Macs</mj-text>
+          <mj-image src="https://thehackernews.com/images/-NVSyZ3p4IlA/YDNha0NbQ_I/AAAAAAAAB2U/cVrQtTPe4jg6CyfGxJPzhsye_9tid4a1wCLcBGAsYHQ/s0/mac-malware-proxy-setting.png"></mj-image>
+          <mj-text>Days after the first malware targeting Apple M1 chips was discovered in the wild, researchers have disclosed yet another previously undetected piece of malicious software that was found in about 30,000 Macs running Intel x86_64 and the iPhone maker's M1 processors.</mj-text>
+          <mj-text>However, the ultimate goal of the operation remains something of a conundrum, what with the lack of a next-stage or final payload leaving researchers unsure of its distribution timeline and whether the threat is just under active development.</mj-text>
+          <mj-text>"Though we haven't observed Silver Sparrow delivering additional malicious payloads yet, its forward-looking M1 chip compatibility, global reach, relatively high infection rate, and operational maturity suggest Silver Sparrow is a reasonably serious threat, uniquely positioned to deliver a potentially impactful payload at a moment's notice," Lambert said.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2021/02/new-silver-sparrow-malware-infected.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Green Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="green h2">Judge approves $650m settlement for Facebook users in privacy, biometrics lawsuit</mj-text>
+          <mj-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Facebook_New_Logo_%282015%29.svg/1280px-Facebook_New_Logo_%282015%29.svg.png"></mj-image>
+          <mj-text>A $650 million settlement to close a class-action lawsuit alleging that Facebook violated user privacy has been approved. The case, a class-action lawsuit filed against the social media giant six years ago, alleged that Facebook violated the Illinois Biometric Information Privacy Act (BIPA), which prevents companies from gathering or using biometric information from users without consent. </mj-text>
+          <mj-text>The lawsuit claimed that the Facebook Tag Suggestions feature, which used facial markers to suggest people in image tagging, violated BIPA by scanning, storing, and using user biometrics to create "face templates" without written permission.  In total, close to 1.6 million Facebook users in Illinois could receive as much as $345 each within months, on the assumption that no appeal is filed, as reported by the Chicago Tribune.  </mj-text>
+          <mj-text>In a statement, Facebook said, "we are pleased to have reached a settlement so we can move past this matter, which is in the best interest of our community and our shareholders."  In related news over the past week, video content-sharing platform TikTok has agreed to a $92 million settlement to resolve claims that the company harvested and shared data belonging to minors.  </mj-text>
+          <mj-button mj-class="bg-green" href="https://www.zdnet.com/article/judge-approves-650m-settlement-for-facebook-users-in-privacy-biometrics-lawsuit/">
+            Read More on ZDNet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.theverge.com/2021/3/2/22308915/microsoft-teams-end-to-end-encryption-support-e2ee?scrolla=5eb6d68b7fedc32c19ef33b4">Microsoft Teams is getting end-to-end encryption support</a></li>
+              <li><a class="lnk-pink" href="https://portswigger.net/daily-swig/xerox-legal-threat-reportedly-silences-researcher-at-infiltrate-security-conference">Xerox legal threat reportedly silences researcher at Infiltrate security conference</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/hackers-abuse-google-apps-script-to-steal-credit-cards-bypass-csp/">Hackers abuse Google Apps Script to steal credit cards, bypass CSP</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/chrome-will-soon-try-https-first-when-you-type-an-incomplete-url/#ftag=RSSbaffb68">Chrome will soon try HTTPS first when you type an incomplete URL</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/ransomware-beware-13-tactics-tools-procedures-a-16072">Ransomware: Beware of 13 Tactics, Tools and Procedures</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/brussels-okays-eu-uk-personal-data-flows">Brussels Okays EU-UK Personal Data Flows</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/02/new-hack-lets-attackers-bypass.html">New Hack Lets Attackers Bypass MasterCard PIN by Using Them As Visa Card</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/warning-google-alerts-abused-to-push-fake-adobe-flash-updater/">Warning: Google Alerts abused to push fake Adobe Flash updater</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/fraudsters-using-telegram-api-to-harvest-credentials-a-16040">Fraudsters Using Telegram API to Harvest Credentials</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2021/02/solarwinds-hackers-stole-some-source.html">SolarWinds Hackers Stole Some Source Code for Microsoft Azure, Exchange, Intune</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/02/shadow-attacks-let-attackers-replace.html">Shadow Attacks Let Attackers Replace Content in Digitally Signed PDFs</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2021/02/checkout-skimmers-powered-by-chip-cards/">Checkout Skimmers Powered by Chip Cards</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/02/online-trackers-increasingly-switching.html">Online Trackers Increasingly Switching to Invasive CNAME Cloaking Technique</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/03/new-unc0ver-tool-can-jailbreak-all.html">New 'unc0ver' Tool Can Jailbreak All iPhone Models Running iOS 11.0 - 14.3</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/working-windows-and-linux-spectre-exploits-found-on-virustotal/">Working Windows and Linux Spectre exploits found on VirusTotal</a></li>
+              <li><a class="lnk-blue" href="https://www.securityweek.com/nsa-publishes-guidance-adoption-zero-trust-security">NSA Publishes Guidance on Adoption of Zero Trust Security</a></li>
+              <li><a class="lnk-pink" href="https://www.welivesecurity.com/2021/02/24/google-password-checkup-android-devices/">Google’s Password Checkup tool rolling out to Android devices</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/businessman-charged-with-intent-to-steal-general-electrics-secret-silicon-technology/">Businessman charged with intent to steal General Electric’s secret silicon technology</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/vc-giant-sequoia-capital-discloses-data-breach-after-failed-bec-attack/">VC giant Sequoia Capital discloses data breach after failed BEC attack</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/ransomware-gang-hacks-ecuadors-largest-private-bank-ministry-of-finance/">Ransomware gang hacks Ecuador's largest private bank, Ministry of Finance</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/technology/td-bank-suffered-systemwide-banking-outage-services-now-recovered/">TD Bank suffered systemwide banking outage, services now recovered</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/us-cities-disclose-data-breaches-after-vendors-ransomware-attack/">US cities disclose data breaches after vendor's ransomware attack</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/kroger-data-breach-exposes-pharmacy-and-employee-data/">Kroger data breach exposes pharmacy and employee data</a></li>
+
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/malicious-npm-packages-target-amazon-slack-with-new-dependency-attacks/">Malicious NPM packages target Amazon, Slack with new dependency attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/oxfam-australia-supporters-embroiled-in-new-data-breach/">Oxfam Australia supporters embroiled in new data breach</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/nasa-and-the-faa-were-also-breached-by-the-solarwinds-hackers/">NASA and the FAA were also breached by the SolarWinds hackers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/european-e-ticketing-platform-ticketcounter-extorted-in-data-breach/">European e-ticketing platform Ticketcounter extorted in data breach</a></li>
+              <li><a class="lnk-purple" href="https://www.securityweek.com/us-right-wing-platform-gab-acknowledges-it-was-hacked">US Right-Wing Platform Gab Acknowledges it Was Hacked</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/worlds-leading-dairy-group-lactalis-hit-by-cyberattack/">World's leading dairy group Lactalis hit by cyberattack</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/asian-food-distribution-giant-jfc-international-hit-ransomware">Asian Food Distribution Giant JFC International Hit by Ransomware</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/universal-health-services-lost-67-million-due-to-ryuk-ransomware-attack/">Universal Health Services lost $67 million due to Ryuk ransomware attack</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/minion-hijacking-flaw-patched-in-saltstack-salt-project/">Minion privilege escalation exploit patched in SaltStack Salt project</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2021/02/23/keybase-secure-messaging-fixes-photo-leaking-bug-patch-now/">Keybase secure messaging fixes photo-leaking bug</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/sonicwall-releases-additional-update-for-sma-100-vulnerability/">SonicWall releases additional update for SMA 100 vulnerability</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/6000-vmware-vcenter-devices-vulnerable-to-remote-attacks-a-16066">6,000 VMware vCenter Devices Vulnerable to Remote Attacks</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/02/cisco-releases-security-patches-for.html">Cisco Releases Security Patches for Critical Flaws Affecting its Products</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/shareit-fixes-security-bugs-in-app-with-1-billion-downloads/amp/">SHAREit fixes security bugs in app with 1 billion downloads</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/ibm-patches-vulnerabilities-in-java-runtime-planning-analytics-kenexa-lms/">IBM issues patches for Java Runtime, Planning Analytics Workspace, Kenexa LMS</a></li>
+              <li><a class="lnk-pink" href="https://www.securityweek.com/critical-vmware-vcenter-server-flaw-can-expose-organizations-remote-attacks">Critical VMware vCenter Server Flaw Can Expose Organizations to Remote Attacks</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/heavily-used-nodejs-package-has-a-code-injection-vulnerability/">"systeminformation" Node.js package has a code injection vulnerability</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/cisco-fixes-maximum-severity-mso-auth-bypass-vulnerability/">Cisco fixes maximum severity MSO auth bypass vulnerability</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence">Defences against Cobalt Strike</a></li>
+              <li><a class="lnk-pink" href="https://www.atlanticcouncil.org/wp-content/uploads/2021/03/Offensive-Cyber-Capabilities-Proliferation-Report.pdf">ECountering Cyber Proliferation: Zeroing in on Access-as-a-Service</a></li>
+              <li><a class="lnk-green" href="https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/"> HAFNIUM targeting Exchange Servers with 0-day exploits </a></li>
+              <li><a class="lnk-orange" href="https://www.ndss-symposium.org/wp-content/uploads/ndss2021_7A-2_24445_paper.pdf">ALchemist: Fusing Application and Audit Logs forPrecise Attack Provenance without Instrumentation</a></li>
+              <li><a class="lnk-purple" href="https://github.com/mbrengel/yarix">YarIx: Scalable YARA-based Malware Intelligence</a></li>
+              <li><a class="lnk-blue" href="https://osdfir.blogspot.com/2021/02/what-i-wish-someone-had-told-me-when-i.html">What I wish someone had told me when I started learning about File System Forensics </a></li>
+              <li><a class="lnk-pink" href="https://smarthomepursuits.com/export-laps-passwords-powershell/">How To Export LAPS Passwords from Active Directory with Powershell</a></li>
+              <li><a class="lnk-green" href="https://github.com/kitabisa/mubeng?_=1">mubeng: An incredibly fast proxy checker & IP rotator with ease.</a></li>
+              <li><a class="lnk-orange" href="https://github.com/brandongalbraith/endgame">Endgame: An AWS Pentesting tool</a></li>
+              <li><a class="lnk-purple" href="https://github.com/kitabisa/teler">teler: real-time intrusion detection and threat alert based on web log</a></li>
+              <li><a class="lnk-blue" href="https://application.security/free/owasp-top-10-API">OWASP Top 10 for API explained interactively</a></li>
+              <li><a class="lnk-pink" href="https://labs.bishopfox.com/tech-blog/an-exploration-of-json-interoperability-vulnerabilities">An Exploration of JSON Interoperability Vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://sidechannel.blog/en/server-side-request-forgery-attack-and-defense/index.html">Server Side Request Forgery — Attack and Defense</a></li>
+              <li><a class="lnk-orange" href="https://github.blog/2021-02-25-the-little-bug-that-couldnt-securing-openssl/">The little bug that couldn’t: Securing OpenSSL</a></li>
+              <li><a class="lnk-purple" href="https://github.com/clu3bot/OWT">Offensive Wifi Toolkit (owt) </a></li>
+              <li><a class="lnk-blue" href="https://github.com/darvincisec/AntiDebugandMemoryDump">Anti-Debug and Anti-Memory Dump for Android</a></li>
+              <li><a class="lnk-pink" href="https://btlr.dev/blog/gordian-lock">Red Team Stories: The Gordian Lock</a></li>
+              <li><a class="lnk-green" href="https://www.marcolancini.it/2021/blog-security-logging-cloud-environments-aws/">
+                Security Logging in Cloud Environments - AWS
+                </a></li>
+              <li><a class="lnk-orange" href="https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2021GTR.pdf">Crowdstrike 2021 Global Threat Report</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
