@@ -1,0 +1,184 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 08/03/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-AxSsNt-9gYo/YD838gSOOTI/AAAAAAAAB7Q/IuSgG26w0NU-eyKMabZMnUfb7QBDyHkUgCLcBGAsYHQ/s728-e1000/ms-exchnage.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">8 March 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#992785">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">4 Actively Exploited 0-Day Flaws Found in Microsoft Exchange</mj-text>
+          <mj-image src="https://thehackernews.com/images/-AxSsNt-9gYo/YD838gSOOTI/AAAAAAAAB7Q/IuSgG26w0NU-eyKMabZMnUfb7QBDyHkUgCLcBGAsYHQ/s728-e1000/ms-exchnage.jpg"></mj-image>
+          <mj-text color="#fff">Microsoft has released emergency patches to address four previously undisclosed security flaws in Exchange Server that it says are being actively exploited by a new Chinese state-sponsored threat actor with the goal of perpetrating data theft.</mj-text>
+          <mj-text color="#fff">The tech giant primarily attributed the campaign with high confidence to a threat actor it calls HAFNIUM, a state-sponsored hacker collective operating out of China, although it suspects other groups may also be involved.</mj-text>
+          <mj-text color="#fff">A successful exploitation of the flaws allows the adversaries to break into Microsoft Exchange Servers in target environments and subsequently allow the installation of unauthorized web-based backdoors to facilitate long-term access.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2021/03/urgent-4-actively-exploited-0-day-flaws.html">
+            Read More on TheHackerNews
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/">
+            Even More on Microsoft security blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">A $50,000 Bug Could've Allowed Hackers Access Any Microsoft Account</mj-text>
+          <mj-image src="https://thehackernews.com/images/-1T5ja_vu2Y8/YD9fERsMvdI/AAAAAAAAB7w/OMaBmN2r8DYh9J-DZgY17zrWNjDaGwwsQCLcBGAsYHQ/s0/hack.jpg"></mj-image>
+          <mj-text>Microsoft has awarded an independent security researcher $50,000 as part of its bug bounty program for reporting a flaw that could have allowed a malicious actor to hijack users' accounts without their knowledge.</mj-text>
+          <mj-text>Reported by Laxman Muthiyah, the vulnerability aims to brute-force the seven-digit security code that's sent to a user's email address or mobile number to corroborate his (or her) identity before resetting the password in order to recover access to the account.</mj-text>
+          <mj-text>The company addressed the issue in November 2020, before details of the flaw came to light on Tuesday.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2021/03/a-50000-bug-couldve-allowed-hackers.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/okta-to-buy-auth0-for-65-billion-a-16111">Okta to Buy Auth0 for $6.5 Billion</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2021/03/at-least-30000-u-s-organizations-newly-hacked-via-holes-in-microsofts-email-software/">At Least 30,000 U.S. organizations hacked via Exchange 0-days</a></li>
+              <li><a class="lnk-green" href="https://www.techrepublic.com/article/report-quality-not-quantity-is-the-hallmark-of-the-latest-waves-of-phishing-attacks/">Quality, not quantity, is the hallmark of the latest waves of phishing attacks</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2021/03/03/i-see-you-your-home-working-photos-reveal-more-than-you-think/">I see you: your home-working photos reveal more than you think!</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/ransomware-gang-plans-to-call-victims-business-partners-about-attacks/">Ransomware gang plans to call victim's business partners about attacks</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/airlines-warn-passengers-of-data-breach-after-aviation-tech-supplier-is-hit-by-cyberattack/">Airlines warn passengers of data breach after aviation tech supplier is hit by cyberattack</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/accellion-zero-day-claims-a-new-victim-in-cybersecurity-company-qualys/">Accellion zero-day claims a new victim in cybersecurity company Qualys</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2021/03/three-top-russian-cybercrime-forums-hacked/">Three Top Russian Cybercrime Forums Hacked</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/interviews/accellion-appliance-zero-day-attack-breaches-key-takeaways-i-4849">Accellion Appliance Zero-Day Attack Breaches: Key Takeaways</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/unpatched-qnap-devices-are-being-hacked-to-mine-cryptocurrency/">Unpatched QNAP devices are being hacked to mine cryptocurrency</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2021/03/04/another-chrome-zero-day-exploit-so-get-that-update-done/">Another Chrome zero-day exploit – so get that update done!</a></li>
+              <li><a class="lnk-pink" href="https://blog.cloudflare.com/protecting-against-microsoft-exchange-server-cves/">Protecting against recently disclosed Microsoft Exchange Server vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://www.kb.cert.org/vuls/id/782301/">pppd vulnerable to buffer overflow due to a flaw in EAP packet processing</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/vmware-releases-fix-for-severe-view-planner-rce-vulnerability/">VMware releases fix for severe View Planner RCE vulnerability</a></li>
+              <li><a class="lnk-purple" href="https://msrc-blog.microsoft.com/2021/03/05/microsoft-exchange-server-vulnerabilities-mitigations-march-2021/">Microsoft Exchange Server Vulnerabilities Mitigations</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thalpius.com/2021/03/05/microsoft-defender-for-identity-as-rep-roasting/">Microsoft Defender for Identity: AS-REP Roasting</a></li>
+              <li><a class="lnk-pink" href="https://github.com/FPSG-UIUC/lotr">Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical</a></li>
+              <li><a class="lnk-green" href="https://isc.sans.edu/forums/diary/Spotting+the+Red+Team+on+VirusTotal/27174/">Spotting the Red Team on VirusTotal!</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/microsofts-msert-tool-now-finds-web-shells-from-exchange-server-attacks/">Microsoft's MSERT tool now finds web shells from Exchange Server attacks</a></li>
+              <li><a class="lnk-purple" href="https://medium.com/maverislabs/tool-osint-certwatcher-in-apps-script-aa0ded3dc423">CertWatcher — Automating Certificate Transparency OSINT with Apps Script</a></li>
+              <li><a class="lnk-blue" href="https://www.schneier.com/blog/archives/2021/03/no-rsa-is-not-broken.html">No, RSA Is Not Broken</a></li>
+              <li><a class="lnk-pink" href="https://research.nccgroup.com/2021/03/03/wubes-leveraging-the-windows-10-sandbox-for-arbitrary-processes/">Wubes: Leveraging the Windows 10 Sandbox for Arbitrary Processes</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
