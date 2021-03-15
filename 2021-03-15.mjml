@@ -1,0 +1,190 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 15/03/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-zhQ48QulMdk/YEoxFcQGtGI/AAAAAAAACA4/814m_r5DKVkVs6zM_Hl9_2EeOlHMeXvTgCLcBGAsYHQ/s0/proxylogon-poc-exploit.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">15 March 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">ProxyLogon Exploit Released Likely to Fuel More Disruptive Cyber Attacks</mj-text>
+          <mj-image src="https://thehackernews.com/images/-zhQ48QulMdk/YEoxFcQGtGI/AAAAAAAACA4/814m_r5DKVkVs6zM_Hl9_2EeOlHMeXvTgCLcBGAsYHQ/s0/proxylogon-poc-exploit.jpg"></mj-image>
+          <mj-text color="#fff">The U.S. Cybersecurity and Infrastructure Security Agency (CISA) and the Federal Bureau of Investigation (FBI) on Wednesday issued a joint advisory warning of active exploitation of vulnerabilities in Microsoft Exchange on-premises products by nation-state actors and cybercriminals.</mj-text>
+          <mj-text color="#fff">The attacks have primarily targeted local governments, academic institutions, non-governmental organizations, and business entities in various industry sectors, including agriculture, biotechnology, aerospace, defense, legal services, power utilities, and pharmaceutical, which the agencies say are in line with previous activity conducted by Chinese cyber actors.</mj-text>
+          <mj-text color="#fff">Tens of thousands of entities, including the European Banking Authority and the Norwegian Parliament, are believed to have been breached to install a web-based backdoor called the China Chopper web shell that grants the attackers the ability to plunder email inboxes and remotely access the target systems.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2021/03/proxylogon-exchange-poc-exploit.html">
+            Read More on TheHackerNews
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Europol 'unlocks' encrypted Sky ECC chat service to make arrests</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/posts/2021/03/10/SKY-ECC.jpg"></mj-image>
+          <mj-text>European law enforcement authorities have made a large number of arrests after a joint operation involving the monitoring of organized crime communication channels after "unlocking" Sky ECC chat's encryption.</mj-text>
+          <mj-text>Sky ECC is advertised as a secure messaging platform used by around 170,000 individuals worldwide. The service's US, Canadian, and European servers are being used to exchange over three million messages each day.</mj-text>
+          <mj-text>The investigation started after Belgium police seized mobile phones from criminals who used Sky ECC. After "unlocking" the chat platform's encryption, investigators have been able to monitor communications between roughly 70,000 Sky ECC users.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/europol-unlocks-encrypted-sky-ecc-chat-service-to-make-arrests/">
+            Read More on Bleeping Computer
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.europol.europa.eu/newsroom/news/new-major-interventions-to-block-encrypted-communications-of-criminal-networks">
+            Even More on Europol's press release
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+       <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/github-bug-caused-users-to-login-to-other-user-accounts/">GitHub bug caused users to login to other user accounts</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/03/researchers-spotted-malware-written-in.html">Researchers Spotted Malware Written in Nim Programming Language</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/03/researchers-unveil-new-linux-malware.html">Researchers Unveil New Linux Malware Linked to Chinese Hackers</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/03/fin8-hackers-return-with-more-powerful.html">FIN8 Hackers Return With More Powerful Version of BADHATCH PoS Malware</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/ovh-data-center-fire-likely-caused-by-faulty-ups-power-supply/">OVH data center fire likely caused by faulty UPS power supply</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/microsoft-edge-to-use-a-four-week-release-cycle-to-sync-with-chrome/">Microsoft Edge to use a four-week release cycle to sync with Chrome</a></li>
+              <li><a class="lnk-pink" href="https://www.bankinfosecurity.com/new-attack-uses-fake-icon-to-deliver-trojan-a-16179">New Attack Uses Fake Icon To Deliver Trojan</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/researchers-describe-second-separate-solarwinds-attack-a-16150">Researchers Describe a Second, Separate SolarWinds Attack</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/03/microsoft-exchange-hackers-also.html">Microsoft Exchange Hackers Also Breached European Banking Authority</a></li>
+              <li><a class="lnk-pink" href="https://nakedsecurity.sophos.com/2021/03/10/150000-security-cameras-allegedly-breached-in-too-much-fun-hack/">150,000 security cameras allegedly breached in “too much fun” hack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/researchers-hacked-indian-govt-sites-via-exposed-git-and-env-files/">Researchers hacked Indian govt sites via exposed git and env files</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/molson-coors-discloses-cyberattack-disrupting-its-brewery-operations/">Molson Coors brewing operations disrupted by cyberattack</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/ryuk-ransomware-hits-700-spanish-government-labor-agency-offices/">Ryuk ransomware hits 700 Spanish government labor agency offices</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/hackers-access-surveillance-cameras-at-tesla-cloudflare-banks-more/">Hackers access surveillance cameras at Tesla, Cloudflare, banks, more</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/iphone-call-recorder-bug-gave-acess-to-other-peoples-conversations/">iPhone Call Recorder bug gave acess to other people's conversations</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/03/another-google-chrome-0-day-bug-found.html">Another Google Chrome 0-Day Bug Found Actively Exploited In-the-Wild</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/03/critical-pre-auth-rce-flaw-found-in-f5.html">Critical Pre-Auth RCE Flaw Found in F5 Big-IP Platform</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2021/03/microsoft-patch-tuesday-march-2021-edition/">Microsoft Patch Tuesday, March 2021 Edition</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/15-year-old-linux-kernel-bugs-let-attackers-gain-root-privileges/">15-year-old Linux kernel bugs let attackers gain root privileges</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/adobe-releases-batch-of-security-fixes-for-framemaker-creative-cloud-connect/">Adobe releases batch of security fixes for Framemaker, Creative Cloud, Connect</a></li>
+              <li><a class="lnk-blue" href="https://media.cert.europa.eu/static/SecurityAdvisories/2021/CERT-EU-SA2021-014.pdf">Vulnerabilities in Microsoft DNS Server</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://m365internals.com/2021/03/08/incident-response-series-collecting-and-analyzing-logs-in-azure-ad/amp/">Incident Response Series: Collecting and analyzing logs in azure ad</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/google-shares-spectre-poc-targeting-browser-javascript-engines/">Google shares Spectre PoC targeting browser JavaScript engines</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/software/linux-foundation-unveils-sigstore-a-lets-encrypt-for-code-signing/">Linux Foundation unveils Sigstore — a Let's Encrypt for code signing</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/best-security-key/">The best security keys in 2021: Hardware-based two-factor authentication for online protection</a></li>
+              <li><a class="lnk-purple" href="https://research.checkpoint.com/2021/clast82-a-new-dropper-on-google-play-dropping-the-alienbot-banker-and-mrat/">Malicious apps on Google Play dropped banking Trojans on user devices</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-zhtrap-botnet-malware-deploys-honeypots-to-find-more-targets/">New ZHtrap botnet malware deploys honeypots to find more targets</a></li>
+              <li><a class="lnk-pink" href="https://ilankalendarov.github.io/posts/nim-ransomware/">Exploring Nim language - Writing a ransomware</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
