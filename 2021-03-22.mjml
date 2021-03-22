@@ -1,0 +1,172 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 22/03/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/hl-images/2021/03/01/Spectre.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">22 March 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Google: This Spectre proof-of-concept shows how dangerous these attacks can be</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2021/03/01/Spectre.jpg"></mj-image>
+          <mj-text color="#fff">Google has released a proof of concept (PoC) code to demonstrate the practicality of Spectre side-channel attacks against a browser's JavaScript engine to leak information from its memory. </mj-text>
+          <mj-text color="#fff">"The web platform relies on the origin as a fundamental security boundary, and browsers do a pretty good job at preventing explicit leakage of data from one origin to another," explained Google's Mike West. </mj-text>
+          <mj-text color="#fff">"Attacks like Spectre, however, show that we still have work to do to mitigate implicit data leakage. The side-channels exploited through these attacks prove that attackers can read any data which enters a process hosting that attackers' code. These attacks are quite practical today, and pose a real risk to users."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/google-this-spectre-proof-of-concept-shows-how-dangerous-these-attacks-can-be/">
+            Read More on ZDNet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://security.googleblog.com/2021/03/a-spectre-proof-of-concept-for-spectre.html">
+            Even More on Google Security Blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/hacking-group-used-11-zero-days-to-attack-windows-ios-android-users/">Hacking group used 11 zero-days to attack Windows, iOS, Android users</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/03/apple-may-start-delivering-security.html">Apple May Start Delivering Security Patches Separately From Other OS Updates</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/facebook-expands-support-for-security-keys-to-ios-and-android/">Facebook expands support for security keys to iOS and Android</a></li>
+              <li><a class="lnk-orange" href="https://www.bankinfosecurity.com/tax-themed-phishing-campaign-emerges-a-16229">Tax-Themed Phishing Campaign Emerges</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/australian-law-enforcement-used-encryption-laws-11-times-last-year/">Australian law enforcement used encryption laws 11 times last year</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/swiss-hacker-charged-for-leaking-proprietary-source-code/">Swiss hacker charged for leaking proprietary source code</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/google-cloud-here-are-the-six-best-vulnerabilities-security-researchers-found-last-year/">Google Cloud: Here are the six 'best' vulnerabilities security researchers found last year</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/twitter-now-supports-multiple-2fa-security-keys-on-mobile-and-web/">Twitter now supports multiple 2FA security keys on mobile and web</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/computer-giant-acer-hit-by-50-million-ransomware-attack/">Acer hit by $50 million ransomware attack</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/new-xcodespy-malware-targets-ios-devs-in-supply-chain-attack/">XcodeSpy malware targets iOS devs in supply-chain attack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/mimecast-solarwinds-hackers-stole-some-of-our-source-code/">Mimecast: SolarWinds hackers stole some of our source code</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2021/03/weleakinfo-leaked-customer-payment-info/">WeLeakInfo Leaked Customer Payment Info</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/fbi-over-42-billion-officially-lost-to-cybercrime-in-2020/">FBI: Over $4.2 billion officially lost to cybercrime in 2020</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://about.gitlab.com/releases/2021/03/17/security-release-gitlab-13-9-4-released/">GitLab Critical Security Release</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-defender-adds-automatic-exchange-proxylogon-mitigation/"">Microsoft Defender adds automatic Exchange ProxyLogon mitigation</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/critical-f5-big-ip-vulnerability-now-targeted-in-ongoing-attacks/">Critical F5 BIG-IP vulnerability now targeted in ongoing attacks</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/03/critical-rce-flaw-reported-in-mybb.html">Critical RCE Flaw Reported in MyBB Forum Software</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2021/03/flaws-in-two-popular-wordpress-plugins.html">Flaws in Two Popular WordPress Plugins Affect Over 7 Million Websites</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.nzyme.org/post/nzyme-v1-0-0-kyle-canyon-has-been-released">A free and open WIDS system to defend your wireless networks.</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsofts-azure-sdk-site-tricked-into-listing-fake-package/">Microsoft's Azure SDK site tricked into listing fake package</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2021/03/17/serious-security-the-linux-kernel-bugs-that-surfaced-after-15-years/">The Linux kernel bugs that surfaced after 15 years</a></li>
+              <li><a class="lnk-orange" href="https://parsiya.net/blog/2021-03-17-attack-surface-analysis-part-2-custom-protocol-handlers/">Attack Surface Analysis - Custom Protocol Handlers</a></li>
+              <li><a class="lnk-purple" href="https://securitylab.github.com/research/one_day_short_of_a_fullchain_sbx">https://securitylab.github.com/research/one_day_short_of_a_fullchain_sbx</a></li>
+              <li><a class="lnk-blue" href="https://github.blog/2021-03-18-how-we-found-and-fixed-a-rare-race-condition-in-our-session-handling/">GitHub: How we found and fixed a rare race condition in our session handling</a></li>
+              <li><a class="lnk-pink" href="https://github.com/seemoo-lab/openhaystack">Framework for tracking personal Bluetooth devices via Apple's massive Find My network</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
