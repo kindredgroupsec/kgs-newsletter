@@ -1,0 +1,172 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 19/04/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/hl-images/2020/10/19/FBI3.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">19 April 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">FBI Accesses Computers in the US to Delete Microsoft Exchange Hacks</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2020/10/19/FBI3.jpg"></mj-image>
+          <mj-text color="#fff">On Tuesday the Department of Justice announced the FBI was given approval to access hundreds of computers across the United States running vulnerable versions of Microsoft Exchange Server software to remove web shells left by hackers who had earlier penetrated the systems.</mj-text>
+          <mj-text color="#fff">The news shows some of the more proactive steps law enforcement may take when faced with large scale hacking operations, and victims who are not willing or able to swiftly patch their systems.</mj-text>
+          <mj-text color="#fff">In short, the FBI obtained permission to access computers to remove artifacts of an earlier, high profile hacking operation in order to prevent further access to those machines by hackers.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.vice.com/en/article/y3dmjg/fbi-removes-web-shells-microsoft-exchange">
+            Read More on Vice
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/fbi-nuked-web-shells-from-hacked-exchange-servers-without-telling-owners/">
+            Even More on Bleeping Computer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cs-go-valve-source-games-vulnerable-to-hacking-using-steam-invites/">CS:GO, Valve Source games vulnerable to hacking using Steam invites</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/04/yikes-cybercriminals-flood-intrenet.html">Hackers flood the web with 100,000 pages offering malicious PDFs</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/ryuk-ransomware-operation-updates-hacking-techniques/">Ryuk ransomware operation updates hacking techniques</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/hackboss-malware-poses-as-hacker-tools-on-telegram-to-steal-digital-coins/">HackBoss malware poses as hacker tools on Telegram to steal digital coins</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/dutch-supermarkets-run-out-of-cheese-after-ransomware-attack/">Dutch supermarkets run out of cheese after ransomware attack</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/solarwinds-us-and-uk-blame-russian-intelligence-service-hackers-for-major-cyber-attack/">SolarWinds: US and UK blame Russian intelligence service hackers for major cyberattack</a></li>
+              <li><a class="lnk-pink" href="https://www.techrepublic.com/article/phishing-attack-ramps-up-against-covid-19-vaccine-supply-chain/">Phishing attack ramps up against COVID-19 vaccine supply chain</a></li>
+              <li><a class="lnk-green" href="https://www.databreaches.net/high-level-organizer-of-notorious-hacking-group-fin7-sentenced-to-ten-years-in-prison-for-scheme-that-compromised-tens-of-millions-of-debit-and-credit-cards/">High-level organizer of notorious hacking group FIN7 sentenced to ten years in prison </a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/attack-on-codecov-affects-customers-a-16420">Attack on Codecov Affects Customers</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/04/new-namewreck-vulnerabilities-impact.html">New NAME:WRECK Vulnerabilities Impact Nearly 100 Million IoT Devices</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/cyberattack-on-uk-university-knocks-out-online-learning-teams-and-zoom/">Cyberattack on UK university knocks out online learning, Teams and Zoom</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/swinburne-university-confirms-over-5000-individuals-affected-in-data-breach/">Swinburne University confirms over 5,000 individuals affected in data breach</a></li>
+              <li><a class="lnk-purple" href="https://krebsonsecurity.com/2021/04/parkmobile-breach-exposes-license-plate-data-mobile-numbers-of-21m-users/">ParkMobile Breach Exposes License Plate Data, Mobile Numbers of 21M Users</a></li>
+              <li><a class="lnk-blue" href="https://techcrunch.com/2021/04/16/facebook-faces-mass-action-lawsuit-in-europe-over-2019-breach/">Facebook faces ‘mass action’ lawsuit in Europe over 2019 breach</a></li>
+              <li><a class="lnk-pink" href="https://www.aviationanalysis.net/a-hard-disk-with-data-of-30000-people-stolen-from-the-amsterdam-tax-office-right-now/">A hard disk with data of 30,000 people stolen from the Amsterdam tax office</a></li>
+              <li><a class="lnk-green" href="https://cybernews.com/security/clubhouse-data-leak-1-3-million-user-records-leaked-for-free-online/">Clubhouse data leak: 1.3 million scraped user records leaked online for free</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/microsoft-patches-4-additional-exchange-flaws-a-16396">Microsoft Patches 4 Additional Exchange Flaws</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/04/2-new-chrome-0-days-under-attack-update.html">Update Your Chrome Browser to Patch 2 New In-the-Wild 0-Day Exploits</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/04/severe-bugs-reported-in-ethernetip.html">Severe Bugs Reported in EtherNet/IP Stack for Industrial Systems</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/04/new-whatsapp-bug-couldve-let-attackers.html">New WhatsApp Bugs Could've Let Attackers Hack Your Phone Remotely</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/sap-fixes-critical-bugs-in-business-client-commerce-and-netweaver/">SAP fixes critical bugs in Business Client, Commerce, and NetWeaver</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/nsa-discovers-critical-exchange-server-vulnerabilities-patch-now/">NSA discovers critical Exchange Server vulnerabilities</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2021-patch-tuesday-fixes-108-flaws-5-zero-days/">Microsoft April 2021 Patch Tuesday fixes 108 flaws, 5 zero-days</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-vulnerabilities-in-photoshop-and-digital-editions/">Adobe fixes critical vulnerabilities in Photoshop and Digital Editions</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/04/new-javascript-exploit-can-now-carry.html">New JavaScript Exploit Can Now Carry Out DDR4 Rowhammer Attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/major-bgp-leak-disrupts-thousands-of-networks-globally/">Major BGP leak disrupts thousands of networks globally</a></li>
+              <li><a class="lnk-green" href="https://shenaniganslabs.io/2021/04/13/Airstrike.html">Airstrike Attack - FDE bypass and EoP on domain joined Windows workstations</a></li>
+              <li><a class="lnk-orange" href="https://positive.security/blog/url-open-rce">Allow arbitrary URLs, expect arbitrary code execution</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
