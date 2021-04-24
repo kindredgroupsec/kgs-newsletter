@@ -1,0 +1,193 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 26/04/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://cdn.arstechnica.net/wp-content/uploads/2021/04/data-800x491.jpeg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">26 April 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Facebook has a new mega-leak on its hands</mj-text>
+          <mj-image src="https://cdn.arstechnica.net/wp-content/uploads/2021/04/data-800x491.jpeg"></mj-image>
+          <mj-text color="#fff">Still smarting from last month's dump of phone numbers belonging to 500 million Facebook users, the social media giant has a new privacy crisis to contend with: a tool that, on a massive scale, links Facebook accounts with their associated email addresses, even when users choose settings to keep them from being public.</mj-text>
+          <mj-text color="#fff">A video circulating on Tuesday showed a researcher demonstrating a tool named Facebook Email Search v1.0, which he said could link Facebook accounts to as many as 5 million email addresses per day.</mj-text>
+          <mj-text color="#fff">The researcher—who said he went public after Facebook said it didn't think the weakness he found was "important" enough to be fixed—fed the tool a list of 65,000 email addresses and watched what happened next.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://arstechnica.com/gadgets/2021/04/tool-links-email-addresses-to-facebook-accounts-at-scale/">
+            Read More on Ars Technica
+          </mj-button>
+          
+        </mj-column>
+      </mj-section>
+
+      <!-- Pink Articles -->
+    <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Hackers are exploiting a Pulse Secure 0-day to breach orgs around the world</mj-text>
+          <mj-image src="https://cdn.arstechnica.net/wp-content/uploads/2021/04/malware-800x534.jpeg"></mj-image>
+          <mj-text>Hackers backed by nation-states are exploiting critical vulnerabilities in the Pulse Secure VPN to bypass two-factor authentication protections and gain stealthy access to networks belonging to a raft of organizations in the US Defense industry and elsewhere, researchers said.</mj-text>
+          <mj-text>At least one of the security flaws is a zero-day, meaning it was unknown to Pulse Secure developers and most of the research world when hackers began actively exploiting it, security firm Mandiant said in a blog post published Tuesday.</mj-text>
+          <mj-text>Mandiant said that it has uncovered “limited evidence” that tied one of the hacker groups to the Chinese government. </mj-text>
+          <mj-button mj-class="bg-pink" href="https://arstechnica.com/gadgets/2021/04/hackers-are-exploiting-a-pulse-secure-0day-to-breach-orgs-around-the-world/">
+            Read More on Ars Technica
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.fireeye.com/blog/threat-research/2021/04/suspected-apt-actors-leverage-bypass-techniques-pulse-secure-zero-day.html">
+            Even More on Mandiant's blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/easy-to-guess-default-device-passwords-are-a-step-closer-to-being-banned/">Easy-to-guess default device passwords are a step closer to being banned</a></li>
+              <li><a class="lnk-pink" href="https://therecord.media/nightmare-week-for-security-vendors-now-a-trend-micro-bug-is-being-exploited-in-the-wild/">Nightmare week for security vendors: Now a Trend Micro bug is being exploited in the wild</a></li>
+              <li><a class="lnk-green" href="https://www.bankinfosecurity.com/nation-state-actor-linked-to-pulse-secure-attacks-a-16437">Nation-State Actor Linked to Pulse Secure Attacks</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/linux-bans-university-of-minnesota-for-committing-malicious-code/">Linux bans University of Minnesota for committing malicious code</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/attackers-can-hide-external-sender-email-warnings-with-html-and-css/">Attackers can hide 'external sender' email warnings with HTML and CSS</a></li>
+              <li><a class="lnk-blue" href="https://www.vice.com/en/article/xgzbmk/azimuth-security-san-bernardino-iphone">Hacking Startup 'Azimuth Security' Unlocked the San Bernardino iPhone</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/04/cost-of-account-unlocks-and-password.html">Cost of Account Unlocks, and Password Resets Add Up</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/04/researchers-find-additional.html">Researchers Find Additional Infrastructure Used By SolarWinds Hackers</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/remote-code-execution-vulnerabilities-uncovered-in-smart-air-fryer/">Remote code execution vulnerabilities uncovered in smart air fryer</a></li>
+              <li><a class="lnk-purple" href="https://www.vice.com/en/article/4avy8j/bugs-allowed-hackers-to-dox-all-john-deere-owners">Bugs Allowed Hackers to Dox John Deere Tractor Owners</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/04/120-compromised-ad-servers-target.html">120 Compromised Ad Servers Target Millions of Internet Users</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/rapid7-acquires-open-source-project-velociraptor/">Rapid7 acquires open-source project Velociraptor</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/facebook-uncovers-palestinian-government-officials-targeted-with-malware/">Facebook uncovers Palestinian government officials targeted with malware</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.csis.dk/newsroom-blog-overview/2021/moserpass-supply-chain/">Supply chain attack on the password manager Clickstudios - PASSWORDSTATE</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/logins-for-13-million-windows-rdp-servers-collected-from-hacker-market/">Logins for 1.3 million Windows RDP servers collected from hacker market</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/massive-qlocker-ransomware-attack-uses-7zip-to-encrypt-qnap-devices/">Massive Qlocker ransomware attack uses 7zip to encrypt QNAP devices</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/botnet-backdoors-microsoft-exchange-servers-mines-cryptocurrency/">Botnet backdoors Microsoft Exchange servers, mines cryptocurrency</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2021/04/hackers-threaten-to-leak-stolen-apple.html">Hackers threaten to leak stolen Apple blueprints if $50 million ransom isn't paid</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/hashicorp-is-the-latest-victim-of-codecov-supply-chain-attack/">HashiCorp is the latest victim of Codecov supply-chain attack</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/04/3-zero-day-exploits-hit-sonicwall.html">3 Zero-Day Exploits Hit SonicWall Enterprise Email Security Appliances</a></li>
+              <li><a class="lnk-pink" href="https://latesthackingnews.com/2021/04/20/google-patched-two-new-zero-day-bugs-also-chrome-90-rolled-out/">Google Patched Two New Zero-Day Bugs</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/microsoft-partially-fixes-windows-7-server-2008-vulnerability/">Microsoft partially fixes Windows 7, Server 2008 vulnerability</a></li>
+              <li><a class="lnk-orange" href="https://us-cert.cisa.gov/ncas/alerts/aa21-110a">Exploitation of Pulse Connect Secure Vulnerabilities</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://sec.okta.com/articles/2021/04/uncovering-and-disclosing-signature-spoofing-vulnerability-windows">Uncovering and Disclosing a Signature Spoofing Vulnerability in Windows Installer</a></li>
+              <li><a class="lnk-pink" href="https://blog.ryotak.me/post/homebrew-security-incident-en/">Remote code execution in Homebrew by compromising the official Cask repository</a></li>
+              <li><a class="lnk-green" href="https://eye.security/en/blog/breaking-abus-secvest-internet-connected-alarm-systems-cve-2020-28973">Breaking ABUS Secvest internet-connected alarm systems</a></li>
+              <li><a class="lnk-orange" href="https://justi.cz/security/2021/04/20/cocoapods-rce.html">Hacking 3,000,000 apps at once through CocoaPods</a></li>
+              <li><a class="lnk-purple" href="https://sensepost.com/blog/2021/duo-two-factor-authentication-bypass/">Duo Two-factor Authentication Bypass</a></li>
+              <li><a class="lnk-blue" href="https://sick.codes/leaky-john-deere-apis-serious-food-supply-chain-vulnerabilities-discovered-by-sick-codes-kevin-kenney-willie-cade/">Leaky John Deere API’s</a></li>
+              <li><a class="lnk-pink" href="https://syscall.eu/pdf/INFILTRATE2020-RIGO-Xerox-final.pdf">Attacking Xerox Multi Function Printers</a></li>
+              <li><a class="lnk-green" href="https://signal.org/blog/cellebrite-vulnerabilities/">Exploiting vulnerabilities in Cellebrite UFED</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
