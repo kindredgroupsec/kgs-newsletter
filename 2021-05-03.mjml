@@ -1,0 +1,188 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 03/05/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://media.threatpost.com/wp-content/uploads/sites/103/2019/05/14155933/apple_logo_store.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">03 May 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Hackers Used ‘Mind-Blowing’ Bug to Sneak Past macOS Safeguards</mj-text>
+          <mj-image src="https://media.threatpost.com/wp-content/uploads/sites/103/2019/05/14155933/apple_logo_store.jpg"></mj-image>
+          <mj-text color="#fff">With macOS malware on the rise, Apple has been busy in recent years adding layers of protections that make it a lot more difficult for malicious software to run on Macs.</mj-text>
+          <mj-text color="#fff">But a vulnerability in the operating system, publicly disclosed and patched on April 26, was exploited to bypass all of them. </mj-text>
+          <mj-text color="#fff">Attackers could craft their malware strategically to trick the operating system into letting it run even if it failed key safety checks along the way.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.wired.com/story/macos-malware-shlayer-gatekeeper-notarization/">
+            Read More on Wired
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://objective-see.com/blog/blog_0x64.html">
+            Technical details on Objective-see
+          </mj-button>
+        </mj-column>
+      </mj-section>
+  
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">FBI shares 4 million email addresses used by Emotet with Have I Been Pwned</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2020/10/06/Emotet-map.jpg"></mj-image>
+          <mj-text>Millions of email addresses collected by Emotet botnet for malware distribution campaigns have been shared by the Federal Bureau of Investigation (FBI) as part of the agency’s effort to clean infected computers.</mj-text>
+          <mj-text>Individuals and domain owners can now learn if Emotet impacted their accounts by searching the database with email addresses stolen by the malware.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/fbi-shares-4-million-email-addresses-used-by-emotet-with-have-i-been-pwned/">
+            Read More on Bleeping Computer
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.troyhunt.com/data-from-the-emotet-malware-is-now-searchable-in-have-i-been-pwned-courtesy-of-the-fbi-and-nhtcu/">
+            Even More on Troy Hunt's blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.csoonline.com/article/3616969/task-force-proposes-framework-for-combatting-ransomware.html">Task force proposes framework for combatting ransomware</a></li>
+              <li><a class="lnk-pink" href="https://www.csoonline.com/article/3616994/previously-undocumented-backdoor-targets-microsoft-s-equation-editor.html">Previously undocumented backdoor targets Microsoft’s Equation Editor</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/adobe-releases-open-source-one-stop-shop-for-security-threat-data-anomaly-detection/">Adobe releases open source ‘one-stop shop’ for security threat, data anomaly detection</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/university-of-minnesota-response-to-linux-security-patch-requests/">University of Minnesota responds to Linux security patch requests</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/office-365-security-baseline-adds-macro-signing-jscript-protection/">Office 365 security baseline adds macro signing, JScript protection</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/babuk-quits-ransomware-encryption-focuses-on-data-theft-extortion/">Babuk quits ransomware encryption, focuses on data-theft extortion</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-finds-critical-code-execution-bugs-in-iot-ot-devices/">Microsoft finds critical code execution bugs in IoT, OT devices</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/04/attention-flubot-android-banking.html">FluBot Android Banking Malware Spreads Quickly Across Europe</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/first-horizon-bank-online-accounts-hacked-to-steal-customers-funds/">First Horizon bank online accounts hacked to steal customers’ funds</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/hotbit-cryptocurrency-exchange-down-after-hackers-targeted-wallets/">Hotbit cryptocurrency exchange down after hackers targeted wallets</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/your-stolen-parkmobile-data-is-now-free-for-wannabe-scammers/">Your stolen ParkMobile data is now free for wannabe scammers</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/codecov-starts-notifying-customers-affected-by-supply-chain-attack/">Codecov starts notifying customers affected by supply-chain attack</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/brazils-rio-grande-do-sul-court-system-hit-by-revil-ransomware/">Brazil's Rio Grande do Sul court system hit by REvil ransomware</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/digitalocean-data-breach-exposes-customer-billing-information/">DigitalOcean data breach exposes customer billing information</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/fourth-times-a-charm-ogusers-hacking-forum-hacked-again/">Fourth time's a charm - OGUsers hacking forum hacked again</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/passwordstate-hackers-phish-for-more-victims-with-updated-malware/">Passwordstate hackers phish for more victims with updated malware</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/uk-rail-network-merseyrail-likely-hit-by-lockbit-ransomware/">UK rail network Merseyrail likely hit by Lockbit ransomware</a></li>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2021/04/experian-api-exposed-credit-scores-of-most-americans/">Experian API Exposed Credit Scores of Most Americans</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://threatpost.com/apple-patches-macos-bug-bypass-defenses/165611/">Apple Patches Zero-Day MacOS Bug That Can Bypass Anti-Malware Defenses</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/isc-urges-updates-of-dns-servers-to-wipe-out-new-bind-vulnerabilities/">ISC urges updates of DNS servers to wipe out new BIND vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/04/f5-big-ip-found-vulnerable-to-kerberos.html">F5 BIG-IP Found Vulnerable to Kerberos KDC Spoofing Vulnerability</a></li>
+              <li><a class="lnk-orange" href="https://www.wired.com/story/opinion-hackers-used-to-be-humans-soon-ais-will-hack-humanity/">Hackers Used to Be Humans. Soon, AIs Will Hack Humanity</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/qnap-warns-of-agelocker-ransomware-attacks-on-nas-devices/">QNAP warns of AgeLocker ransomware attacks on NAS devices</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.netlab.360.com/stealth_rotajakiro_backdoor_en/">RotaJakiro: A long live secret backdoor with 0 VT detection</a></li>
+              <li><a class="lnk-pink" href="https://polarply.medium.com/the-false-oracle-azure-functions-padding-oracle-issue-2025e0e6b8a">The False Oracle — Azure Functions Padding Oracle Issue</a></li>
+              <li><a class="lnk-green" href="https://blog.devgenius.io/added-security-measures-and-changes-in-tls-1-3-fd93bbfecb8f">Added Security Measures and Changes in TLS 1.3</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

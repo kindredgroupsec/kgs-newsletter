@@ -1,0 +1,177 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 10/05/21" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://2jws2s3y97dy39441y2lgm98-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/image001-2.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">10 May 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">21Nails: Multiple Critical Vulnerabilities in Exim Mail Server</mj-text>
+          <mj-image src="https://2jws2s3y97dy39441y2lgm98-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/image001-2.png"></mj-image>
+          <mj-text color="#fff">Newly discovered critical vulnerabilities in the Exim mail transfer agent (MTA) software allow unauthenticated remote attackers to execute arbitrary code and gain root privilege on mail servers with default or common configurations.</mj-text>
+          <mj-text color="#fff">The security flaws (10 remotely exploitable and 11 locally) found and reported by the Qualys Research Team are collectively known as 21Nails.</mj-text>
+          <mj-text color="#fff">One of the vulnerabilities discovered affects all versions of Exim going back all the way to 2004 (going back to the beginning of its Git history 17 years ago).</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://blog.qualys.com/vulnerabilities-research/2021/05/04/21nails-multiple-vulnerabilities-in-exim-mail-server">
+            Read More on Qualys blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://layerci.com/blog/crypto-miners-are-killing-free-ci/">Crypto miners are killing free CI</a></li>
+              <li><a class="lnk-pink" href="https://cloudsecurityalliance.org/artifacts/cloud-incident-response-framework/">Cloud Incident Response Framework</a></li>
+              <li><a class="lnk-green" href="https://www.technologyreview.com/2021/05/06/1024621/china-apple-spy-uyghur-hacker-tianfu/">How China turned a prize-winning iPhone hack against the Uyghurs</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2021/05/malicious-office-365-apps-are-the-ultimate-insiders/">Malicious Office 365 Apps Are the Ultimate Insiders</a></li>
+              <li><a class="lnk-purple" href="https://www.vice.com/amp/en/article/93yyqe/google-wants-to-make-everyone-use-two-factor-authentication">Google Wants to Make Everyone Use Two Factor Authentication</a></li>
+              <li><a class="lnk-blue" href="https://therecord.media/chinese-military-unit-accused-of-cyber-espionage-bought-multiple-western-antivirus-products/">Chinese military unit accused of cyber-espionage bought multiple western antivirus products</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/bulletproof-hosting-admins-plead-guilty-to-running-cybercrime-safe-haven/">Bulletproof hosting admins plead guilty to running cybercrime safe haven</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-tsuname-dns-bug-allows-attackers-to-ddos-authoritative-dns-servers/">New TsuNAME DNS bug allows attackers to DDoS authoritative DNS servers</a></li>
+              <li><a class="lnk-orange" href="https://www.vice.com/en/article/wx55xz/your-old-phone-number-can-be-used-to-hack-you-study-finds">Your Old Phone Number Can Be Used to Hack You</a></li>
+              <li><a class="lnk-purple" href="https://www.vice.com/en/article/v7ee7m/apple-is-having-a-really-bad-time-with-iphone-security-bugs-this-year">Apple Is Having a Really Bad Time With iPhone Security Bugs This Year</a></li>
+              <li><a class="lnk-blue" href="https://threatpost.com/attacks-slaughter-spectre-defenses/165809/">New Attacks Slaughter All Spectre Defenses</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/a-student-pirating-software-led-to-a-full-blown-ryuk-ransomware-attack/">A student pirating software led to a full-blown Ryuk ransomware attack</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/largest-us-pipeline-shuts-down-operations-after-ransomware-attack/">Largest U.S. pipeline shuts down operations after ransomware attack</a></li>
+              <li><a class="lnk-green" href="https://www.microsoft.com/security/blog/2021/05/06/business-email-compromise-campaign-targets-wide-range-of-orgs-with-gift-card-scam/">Business email compromise campaign targets wide range of orgs with gift card scam</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/twilio-discloses-impact-from-codecov-supply-chain-attack/">Twilio discloses impact from Codecov supply-chain attack</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/health-care-giant-scripps-health-hit-by-ransomware-attack/">Health care giant Scripps Health hit by ransomware attack</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/ransomware-hits-australian-telecom-provider-telstras-partner-a-16524">Ransomware Hits Australian Telecom Provider Telstra’s Partner</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://labs.sentinelone.com/cve-2021-21551-hundreds-of-millions-of-dell-computers-at-risk-due-to-multiple-bios-driver-privilege-escalation-flaws/">Dell patches 12-year-old driver vulnerability impacting millions of PCs</a></li>
+              <li><a class="lnk-pink" href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hyperflex-rce-TjjNrkpR">Cisco HyperFlex HX Command Injection Vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/foxit-reader-bug-lets-attackers-run-malicious-code-via-pdfs/">Foxit Reader bug lets attackers run malicious code via PDFs</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/qualcomm-vulnerability-impacts-nearly-40-percent-of-all-mobile-phones/">Qualcomm vulnerability impacts nearly 40% of all mobile phones</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/cisco-bugs-allow-creating-admin-accounts-executing-commands-as-root/">Cisco bugs allow creating admin accounts, executing commands as root</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/vmware-fixes-critical-rce-bug-in-vrealize-business-for-cloud/">VMware fixes critical RCE bug in vRealize Business for Cloud</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/google-chrome-adopts-windows-10-exploit-protection-feature/">Google Chrome adopts Windows 10 exploit protection feature</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/apple/apple-fixes-2-ios-zero-day-vulnerabilities-actively-used-in-attacks/">Apple fixes 2 iOS zero-day vulnerabilities actively used in attacks</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/pulse-secure-fixes-vpn-zero-day-used-to-hack-high-value-targets/">Pulse Secure fixes VPN zero-day used to hack high-value targets</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2021/05/06/firefox-for-android-gets-critical-update-to-block-cookie-stealing-hole/">Firefox for Android gets critical update to block cookie-stealing hole</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thedfirreport.com/2021/05/02/trickbot-brief-creds-and-beacons/">Trickbot Brief: Creds and Beacons</a></li>
+              <li><a class="lnk-pink" href="https://labs.sentinelone.com/relaying-potatoes-dce-rpc-ntlm-relay-eop/">Relaying Potatoes: Another Unexpected Privilege Escalation Vulnerability in Windows RPC Protocol</a></li>
+              <li><a class="lnk-green" href="https://github.com/Accenture/jenkins-attack-framework">Jenkins Attack Framework</a></li>
+              <li><a class="lnk-orange" href="https://posts.specterops.io/introducing-mystikal-4fbd2f7ae520">Mystikal - Addressing the pain of macOS initial access payloads</a></li>
+              <li><a class="lnk-purple" href="https://research.nccgroup.com/2021/05/04/rm3-curiosities-of-the-wildest-banking-malware/">RM3 – Curiosities of the wildest banking malware</a></li>
+              <li><a class="lnk-blue" href="https://blog.redbluepurple.io/offensive-research/bypassing-injection-detection">Bypassing EDR real-time injection detection logic</a></li>
+              <li><a class="lnk-pink" href="https://github.com/ben0xa/honeycreds">HoneyCreds - Catching Network Poisoners Like Responder</a></li>
+              <li><a class="lnk-green" href="https://www.cyberis.co.uk/blog/domain-hijacking.html">Domain Hijacking Via Logic Error</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
