@@ -56,7 +56,7 @@
         }
                 <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@kindredgroup" />
-        <meta name="twitter:title" content="Kindred Security Newsletter - DD/MM/21" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - DD/MM/YY" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
         <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
         <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
@@ -254,9 +254,9 @@
       <mj-section background-color="#fff">
         <mj-column>
           <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
-          <mj-text>This content was created by <a href="http://kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
           <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
-          <mj-text mj-class="grey">Kindred is one of the largest online gambling companies in the world with a diverse team of 1,600 people serving over 26 million customers across Europe, Australia and the US. We offer pre-game and live Sports betting, Poker, Casino and Games through 11 brands across our markets. We are committed to offer our customers the best deal and user experience possible, while ensuring a safe and fair gambling environment. Kindred is a pioneer in the online gambling industry and is an innovation driven company that builds on trust.</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
           <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
           <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
         </mj-column>
