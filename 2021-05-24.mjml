@@ -1,0 +1,169 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 24/05/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://media.wired.com/photos/60a5720894944dc095a58edc/master/w_2560%2Cc_limit/eduardo-ramon-trejo_rsa-hack-wired_7.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">24 May 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">The Full Story of the Stunning RSA Hack Can Finally Be Told</mj-text>
+          <mj-image src="https://media.wired.com/photos/60a5720894944dc095a58edc/master/w_2560%2Cc_limit/eduardo-ramon-trejo_rsa-hack-wired_7.png"></mj-image>
+          <mj-text color="#fff">In 2011, Chinese spies stole the crown jewels of cybersecurity—stripping protections from firms and government agencies worldwide.</mj-text>
+          <mj-text color="#fff">In the decade that followed, many key RSA executives involved in the company’s breach have held their silence, bound by 10-year nondisclosure agreements.</mj-text>
+          <mj-text color="#fff">After 10 years of rampant state-sponsored hacking and supply chain hijacks, the RSA breach can now be seen as the herald of our current era of digital insecurity—and a lesson about how a determined adversary can undermine the things we trust most.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.wired.com/story/the-full-story-of-the-stunning-rsa-hack-can-finally-be-told/">
+            Read More on Wired
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/bizarro-banking-malware-targets-70-banks-in-europe-and-south-america/">Bizarro banking malware targets 70 banks in Europe and South America</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/irish-high-court-issues-injunction-to-prevent-hse-data-leak/">Irish High Court issues injunction to prevent HSE data leak</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/microsoft-releases-simuland-a-test-lab-for-simulated-cyberattacks/">Microsoft releases SimuLand, a test lab for simulated cyberattacks</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/us-introduces-bills-to-secure-critical-infrastructure-from-cyber-attacks/">US introduces bills to secure critical infrastructure from cyber attacks</a></li>
+              <li><a class="lnk-purple" href="https://www.bankinfosecurity.com/colonial-pipeline-ceo-confirms-44-million-ransom-payment-a-16696">Colonial Pipeline CEO Confirms $4.4 Million Ransom Payment</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/florida-water-treatment-plant-was-involved-in-second-security-incident-before-poisoning-attempt-report/">Florida water treatment plant was involved in second security incident before poisoning attempt</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/us-insurance-giant-cna-financial-paid-40-million-ransom-to-wrestle-back-control-of-systems/">US insurance giant CNA Financial paid $40 million ransom to regain control of systems</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2021/05/try-this-one-weird-trick-russian-hackers-hate/">Try This One Weird Trick Russian Hackers Hate</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/05/how-apple-gave-chinese-government.html">How Apple Gave Chinese Government Access to iCloud Data and Censored Apps</a></li>
+              <li><a class="lnk-purple" href="https://nakedsecurity.sophos.com/2021/05/19/regulator-fines-covid-19-tracker-for-turning-contact-data-into-sales-leads/">Regulator fines COVID-19 tracker for turning contact data into sales leads</a></li>
+              <li><a class="lnk-blue" href="https://www.vice.com/en/article/bvx4bq/talon-flock-safety-cameras-police-license-plate-reader">Inside ‘TALON,’ the Nationwide Network of AI-Enabled Surveillance Cameras</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/air-india-data-breach-impacts-45-million-customers/">Air India data breach impacts 4.5 million customers</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/fbi-conti-ransomware-attacked-16-us-healthcare-first-responder-orgs/">FBI: Conti ransomware attacked 16 US healthcare, first responder orgs</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/e-commerce-giant-suffers-major-data-breach-in-codecov-incident/">E-commerce giant Mercari suffers major data breach in Codecov incident</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/conti-ransomware-gives-hse-ireland-free-decryptor-still-selling-data/">Conti ransomware gives HSE Ireland free decryptor, still selling data</a></li>
+              <li><a class="lnk-purple" href="https://blog.checkpoint.com/2021/05/20/misconfiguration-of-third-party-cloud-services-exposed-data-of-over-100-million-users/">Misconfiguration of third party cloud services exposed data of over 100 million users</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/student-health-insurance-carrier-guardme-suffers-a-data-breach/">Student health insurance carrier Guard.me suffers a data breach</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/wormable-windows-http-vulnerability-also-affects-winrm-servers/">Wormable Windows HTTP vulnerability also affects WinRM servers</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/qnap-confirms-qlocker-ransomware-used-hbs-backdoor-account/">QNAP confirms Qlocker ransomware used HBS backdoor account</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/may-android-security-updates-patch-4-zero-days-exploited-in-the-wild/">May Android security updates patch 4 zero-days exploited in the wild</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/comcast-now-blocks-bgp-hijacking-attacks-and-route-leaks-with-rpki/">Comcast now blocks BGP hijacking attacks and route leaks with RPKI</a></li>
+              <li><a class="lnk-pink" href="https://blog.doyensec.com/2021/05/20/graphql-csrf.html">That single GraphQL issue that you keep missing</a></li>
+              <li><a class="lnk-green" href="https://github.com/aws-cloudformation/cloudformation-guard">AWS CloudFormation Guard v2.0.1 a general-purpose policy-as-code evaluation tool</a></li>
+              <li><a class="lnk-orange" href="https://secret.club/2021/05/13/source-engine-rce-join.html">Counter-Strike Global Offsets: reliable remote code execution</a></li>
+              <li><a class="lnk-purple" href="https://blog.mozilla.org/attack-and-defense/2021/05/20/browser-fuzzing-at-mozilla/">Browser fuzzing at Mozilla</a></li>
+              <li><a class="lnk-blue" href="https://stealthbits.com/blog/server-untrust-account/">Active Directory persistence through userAccountControl manipulation</a></li>
+              <li><a class="lnk-pink" href="https://www.pentestpartners.com/security-blog/getting-a-persistent-shell-on-a-747-ife/">Getting a persistent shell on a 747 IFE</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

@@ -72,6 +72,7 @@
           <mj-spacer height="30px" />
            <mj-text mj-class="purple h2">2021</mj-text>
           <mj-list>
+          <li><a href="./2021-05-24.html" class="lnk-blue">24 May 2021</a> (<a href="./2021-05-24.pdf" class="lnk-green">PDF</a>)</li>
           <li><a href="./2021-05-17.html" class="lnk-blue">17 May 2021</a> (<a href="./2021-05-17.pdf" class="lnk-green">PDF</a>)</li>
           <li><a href="./2021-05-10.html" class="lnk-blue">10 May 2021</a> (<a href="./2021-05-10.pdf" class="lnk-green">PDF</a>)</li>
           <li><a href="./2021-05-03.html" class="lnk-blue">03 May 2021</a> (<a href="./2021-05-03.pdf" class="lnk-green">PDF</a>)</li>
