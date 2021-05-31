@@ -1,0 +1,179 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 31/05/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.troyhunt.com//content/images/2021/04/Artboard-1.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">31 May 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Have I been Pwned goes open source</mj-text>
+          <mj-image src="https://www.troyhunt.com//content/images/2021/04/Artboard-1.jpg"></mj-image>
+          <mj-text color="#fff">The question isn't "Does someone have your user IDs and passwords?" I guarantee you someone has. Don't believe me? Check for yourself at Have I Been Pwned (HIBP). Now, do you believe me? </mj-text>
+          <mj-text color="#fff">People check the free HIBP site at a rate of almost 1 billion requests per month. It collects data from all the many personal security breaches that happen every week or two. Last year alone we saw dozens of data breaches. Moving forward, HIBP will now also receive compromised passwords discovered in the course of FBI investigations.</mj-text>
+          <mj-text color="#fff">Why is the FBI getting involved? Because Bryan A. Vorndran, the FBI's Assistant Director, Cyber Division, said, "We are excited to be partnering with HIBP on this important project to protect victims of online credential theft. It is another example of how important public/private partnerships are in the fight against cybercrime."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.zdnet.com/article/have-i-been-pwned-goes-open-source/">
+            Read More ZDNet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.troyhunt.com/pwned-passwords-open-source-in-the-dot-net-foundation-and-working-with-the-fbi/">
+            Even More on Troy Hunt's blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/interpol-intercepts-83-million-fighting-financial-cyber-crime/">Interpol intercepts $83 million fighting financial cyber crime</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/05/solarwinds-hackers-target-think-tanks.html">SolarWinds Hackers Target Think Tanks With New 'NativeZone' Backdoor</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/05/new-bluetooth-flaws-let-attackers.html">New Bluetooth Flaws Let Attackers Impersonate Legitimate Devices</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/05/researchers-demonstrate-2-new-hacks-to.html">Researchers Demonstrate 2 New Hacks to Modify Certified PDF Documents</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2021/05/hackers-using-fake-foundations-to.html">Hackers Using Fake Foundations to Target Uyghur Minority in China</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/05/newly-discovered-bugs-in-vscode.html">Newly Discovered Bugs in VSCode Extensions Could Lead to Supply Chain Attacks</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/05/whatsapp-sues-indian-government-over.html">WhatsApp Sues Indian Government Over New Internet Regulations</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/ransomware-gangs-slow-decryptors-prompt-victims-to-seek-alternatives/">Ransomware gangs' slow decryptors prompt victims to seek alternatives</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/mexico-walls-off-national-lottery-sites-after-ransomware-ddos-threat/">Mexico walls off national lottery sites after ransomware DDoS threat</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/klarna-mobile-app-bug-let-users-log-into-other-customers-accounts/">Klarna mobile app bug let users log into other customers' accounts</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/us-announces-new-security-directive-after-critical-pipeline-hack/">US announces new security directive after critical pipeline hack</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/colonial-pipeline-attack-used-to-justify-australias-critical-infrastructure-bill/">Colonial Pipeline attack used to justify Australia's Critical Infrastructure Bill</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2021/05/using-fake-reviews-to-find-dangerous-extensions/">Using Fake Reviews to Find Dangerous Extensions</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/fbi-to-share-compromised-passwords-with-have-i-been-pwned/">FBI to share compromised passwords with Have I Been Pwned</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.fireeye.com/blog/threat-research/2021/05/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices.html">Re-Checking Your Pulse: Updates on Chinese APT Actors Compromising Pulse Secure VPN Devices</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/canada-post-hit-by-data-breach-after-supplier-ransomware-attack/">Canada Post hit by data breach after supplier ransomware attack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/fbi-apt-hackers-breached-us-local-govt-by-exploiting-fortinet-bugs/">FBI: APT hackers breached US local govt by exploiting Fortinet bugs</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/japanese-government-agencies-suffer-data-breaches-after-fujitsu-hack/">Japanese government agencies suffer data breaches after Fujitsu hack</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/dominos-india-discloses-data-breach-after-hackers-sell-data-online/">Domino's India discloses data breach after hackers sell data online</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/audio-maker-bose-discloses-data-breach-after-ransomware-attack/">Audio maker Bose discloses data breach after ransomware attack</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.nginx.com/blog/updating-nginx-dns-resolver-vulnerability-cve-2021-23017/">Updating NGINX for a DNS Resolver Vulnerability</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/05/new-high-severity-vulnerability.html">New High-Severity Vulnerability Reported in Pulse Connect Secure VPN</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/05/critical-rce-vulnerability-found-in.html">Critical RCE Vulnerability Found in VMware vCenter Server</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/05/apple-issues-patches-to-combat-ongoing.html">Apple‌ Issues Patches to Combat Ongoing 0-Day Attacks on macOS, tvOS</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/sonicwall-urges-customers-to-immediately-patch-nsm-on-prem-bug/">SonicWall urges customers to 'immediately' patch NSM On-Prem bug</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/hpe-fixes-critical-zero-day-vulnerability-disclosed-in-december/">HPE fixes critical zero-day vulnerability disclosed in December</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://research.nccgroup.com/2021/05/27/detecting-rclone-an-effective-tool-for-exfiltration/">Detecting Rclone – An Effective Tool for Exfiltration</a></li>
+              <li><a class="lnk-pink" href="https://pentestlab.blog/2021/05/24/dumping-rdp-credentials/">Dumping RDP Credentials</a></li>
+              <li><a class="lnk-green" href="https://www.cyberark.com/resources/threat-research-blog/attacking-kubernetes-clusters-through-your-network-plumbing-part-2">Attacking Kubernetes Clusters Through Your Network Plumbing: Part 2</a></li>
+              <li><a class="lnk-orange" href="https://www.microsoft.com/security/blog/2021/05/27/new-sophisticated-email-based-attack-from-nobelium/">New sophisticated email-based attack from NOBELIUM</a></li>
+              <li><a class="lnk-purple" href="https://www.praetorian.com/blog/how-to-exploit-active-directory-acl-attack-paths-through-ldap-relaying-attacks/">How to Exploit Active Directory ACL Attack Paths Through LDAP Relaying Attacks</a></li>
+              <li><a class="lnk-blue" href="https://skylightcyber.com/2021/05/20/13-nagios-vulnerabilities-7-will-shock-you/">13 Nagios Vulnerabilities</a></li>
+              <li><a class="lnk-pink" href="https://snyk.io/blog/visual-studio-code-extension-security-vulnerabilities-deep-dive/">Deep dive into Visual Studio Code extension security vulnerabilities</a></li>
+              <li><a class="lnk-green" href="https://arstechnica.com/gadgets/2021/05/apples-m1-chip-has-a-security-bug-but-dont-worry-its-mostly-harmless/">Covert channel in Apple’s M1 is mostly harmless, but it sure is interesting</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
