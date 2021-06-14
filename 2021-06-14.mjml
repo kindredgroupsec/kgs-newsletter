@@ -1,0 +1,198 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 14/06/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-I8CmWmYC61U/YL-UVmmVPTI/AAAAAAAACzA/zd4HaJbgty8SKP8cCmj-vx_YLuAZytmEACLcBGAsYHQ/s728-e1000/encrypted-chat-hacking.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">14 Jun 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Trojan Shield: How the FBI Secretly Ran a Phone Network for Criminals</mj-text>
+          <mj-image src="https://thehackernews.com/images/-I8CmWmYC61U/YL-UVmmVPTI/AAAAAAAACzA/zd4HaJbgty8SKP8cCmj-vx_YLuAZytmEACLcBGAsYHQ/s728-e1000/encrypted-chat-hacking.jpg"></mj-image>
+          <mj-text color="#fff">For years the FBI has secretly run an encrypted communications app used by organized crime in order to surreptitiously collect its users' messages and monitor criminals' activity on a massive scale, according to a newly unsealed court document. In all, the elaborate operation netted more than 20 million messages from over 11,800 devices used by suspected criminals.</mj-text>
+          <mj-text color="#fff">The news signals a major coup for law enforcement: ordinarily, agencies either shut down or crack messages on an already established service, such as Phantom Secure or Encrochat, two similar encrypted messaging networks.</mj-text>
+          <mj-text color="#fff">But in this case, the FBI took control of a communications company called Anom in its infancy and turned that into a wide-reaching honeypot, with the suspected criminal users instead coming to them.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.vice.com/en/article/akgkwj/operation-trojan-shield-anom-fbi-secret-phone-network">
+            Read More on Vice
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.europol.europa.eu/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication">
+            Even More in Europol's press release
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Interpol shuts down thousands of fake online pharmacies</mj-text>
+          <mj-image src="https://pbs.twimg.com/media/E3W0H5aXIAQ9qCf?format=jpg&name=large"></mj-image>
+          <mj-text>The Interpol (International Criminal Police Organisation) has taken down thousands of online marketplaces that posed as pharmacies and pushed dangerous fake and illicit drugs and medicine.</mj-text>
+          <mj-text>This record number of illicit online pharmacies was shut down during Operation Pangea XIV, which targeted online sellers of counterfeit and illegal pharmaceuticals and medical devices.</mj-text>
+          <mj-text>Law enforcement agencies, customs, and health regulatory authorities from 92 countries coordinated by Interpol took down "113,020 web links including websites and online marketplaces being closed down or removed."</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/interpol-shuts-down-thousands-of-fake-online-pharmacies/">
+            Read More on BleepingComputer
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.interpol.int/News-and-Events/News/2021/Thousands-of-fake-online-pharmacies-shut-down-in-INTERPOL-operation">
+            Even More in Interpol's press release
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.vice.com/en/article/7kvkqb/how-ea-games-was-hacked-slack">How Hackers Used Slack to Break into EA Games</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/06/us-authorities-shut-down-slilpplargest.html">U.S. Authorities Shut Down Slilpp—Largest Marketplace for Stolen Logins</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/06/top-10-privacy-and-security-features.html">Top 10 Privacy and Security Features Apple Announced at WWDC 2021</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/avaddon-ransomware-shuts-down-and-releases-decryption-keys/">Avaddon ransomware shuts down and releases decryption keys</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/network-security-firm-coo-charged-with-medical-center-cyberattack/">Network security firm COO charged with medical center cyberattack</a></li>
+              <li><a class="lnk-blue" href="https://www.fastly.com/blog/summary-of-june-8-outage">Summary of June 8 Fastly outage</a></li>
+              <li><a class="lnk-pink" href="https://www.brookings.edu/techstream/hacked-drones-and-busted-logistics-are-the-cyber-future-of-warfare/">Hacked drones and busted logistics are the cyber future of warfare</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/06/beef-supplier-jbs-paid-hackers-11.html">Beef Supplier JBS Paid Hackers $11 Million Ransom After Cyberattack</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/06/crypto-mining-attacks-targeting.html">Crypto-Mining Attacks Targeting Kubernetes Clusters via Kubeflow Instances</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/us-truck-and-military-vehicle-maker-navistar-discloses-data-breach/">US truck and military vehicle maker Navistar discloses data breach</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/us-recovers-most-of-colonial-pipelines-44m-ransomware-payment/">US recovers most of Colonial Pipeline's $4.4M ransomware payment</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/audi-volkswagen-data-breach-affects-33-million-customers/">Audi, Volkswagen data breach affects 3.3 million customers</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/mcdonalds-discloses-data-breach-after-theft-of-customer-employee-info/">McDonald's discloses data breach after theft of customer, employee info</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/foodservice-supplier-edward-don-hit-by-a-ransomware-attack/">Foodservice supplier Edward Don hit by a ransomware attack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cd-projekt-data-stolen-in-ransomware-attack-now-circulating-online/">CD Projekt: Data stolen in ransomware attack now circulating online</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/hackers-breach-gaming-giant-electronic-arts-steal-game-source-code/">Hackers breach gaming giant Electronic Arts, steal game source code</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/spains-ministry-of-labor-and-social-economy-hit-by-cyberattack/">Spain's Ministry of Labor and Social Economy hit by cyberattack</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/06/hackers-can-exploit-samsung-pre.html">Hackers Can Exploit Samsung Pre-Installed Apps to Spy On Users</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/06/7-year-old-polkit-flaw-lets.html">7-Year-Old Polkit Flaw Lets Unprivileged Linux Users Gain Root Access</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/06/new-chrome-0-day-bug-under-active.html">New Chrome 0-Day Bug Under Active Attacks</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/intel-fixes-73-vulnerabilities-in-june-2021-platform-update/">Intel fixes 73 vulnerabilities in June 2021 Platform Update</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2021-patch-tuesday-fixes-6-exploited-zero-days-50-flaws/">Microsoft June 2021 Patch Tuesday fixes 6 exploited zero-days, 50 flaws</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/adobe-issues-security-updates-for-41-vulnerabilities-in-10-products/">Adobe issues security updates for 41 vulnerabilities in 10 products</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/06/new-uaf-vulnerability-affecting.html">New UAF Vulnerability Affecting Microsoft Office</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/computer-memory-maker-adata-hit-by-ragnar-locker-ransomware/">Computer memory maker ADATA hit by Ragnar Locker ransomware</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/codecov-ditches-bash-uploader-for-a-nodejs-executable/">Codecov ditches Bash Uploader for a NodeJS executable</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/github-now-scans-for-accidentally-exposed-pypi-rubygems-secrets/">GitHub now scans for accidentally-exposed PyPI, RubyGems secrets</a></li>
+              <li><a class="lnk-green" href="https://alpaca-attack.com/">ALPACA: Application Layer Protocol Confusion</a></li>
+              <li><a class="lnk-orange" href="https://blog.grimm-co.com/2021/06/the-walls-have-ears.html">The Walls Have Ears - Compromising a Conference Table Microphone</a></li>
+              <li><a class="lnk-purple" href="https://www.secureauth.com/blog/now-available-impacket-release-v0-9-23/">Impacket Release v0.9.23</a></li>
+              <li><a class="lnk-blue" href="https://gccybermonks.com/posts/popups/">Pop-Ups in a good-world</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-warns-of-cryptomining-attacks-on-kubernetes-clusters/">Microsoft warns of cryptomining attacks on Kubernetes clusters</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/06/researchers-discover-first-known.html">Researchers Discover First Known Malware Targeting Windows Containers</a></li>
+              <li><a class="lnk-orange" href="https://blog.oversecured.com/Two-weeks-of-securing-Samsung-devices-Part-1/">Two weeks of securing Samsung devices: Part 1</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
