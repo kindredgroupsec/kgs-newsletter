@@ -1,0 +1,176 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 21/06/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">21 Jun 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Bombshell Report Finds Phone Network Encryption Was Deliberately Weakened</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/60cb7466e14daa009a568fb7/lede/1623948289215-nokia-gprs.jpeg"></mj-image>
+          <mj-text color="#fff">A weakness in the algorithm used to encrypt cellphone data in the 1990s and 2000s allowed hackers to spy on some internet traffic, according to a new research paper.</mj-text>
+          <mj-text color="#fff">The paper has sent shockwaves through the encryption community because of what it implies: The researchers believe that the mathematical probability of the weakness being introduced on accident is extremely low. Thus, they speculate that a weakness was intentionally put into the algorithm. After the paper was published, the group that designed the algorithm confirmed this was the case.</mj-text>
+          <mj-text color="#fff">A spokesperson for the organization that designed the GEA-1 algorithm, the European Telecommunications Standards Institute (ETSI), admitted that the algorithm contained a weakness, but said it was introduced because the export regulations at the time did not allow for stronger encryption.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.vice.com/en/article/4avnan/bombshell-report-finds-phone-network-encryption-was-deliberately-weakened">
+            Read More on Vice
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/nsa-shares-guidance-on-securing-voice-video-communications/">NSA shares guidance on securing voice, video communications</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/iphone-bug-breaks-wifi-when-you-join-hotspot-with-unusual-name/">iPhone bug breaks WiFi when you join hotspot with unusual name</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/audi-volkswagen-customer-data-being-sold-on-a-hacking-forum/">Audi, Volkswagen customer data being sold on a hacking forum</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/cryptocurrency/criminals-are-mailing-altered-ledger-devices-to-steal-cryptocurrency/">Criminals are mailing altered Ledger devices to steal cryptocurrency</a></li>
+              <li><a class="lnk-purple" href="Uhttps://www.bleepingcomputer.com/news/security/google-workspace-adds-new-phishing-protection-client-side-encryption/RL">Google Workspace adds new phishing protection, client-side encryption</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2021/06/how-does-one-get-hired-by-a-top-cybercrime-gang/">How Does One Get Hired by a Top Cybercrime Gang?</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/06/google-releases-new-framework-to.html">Google Releases New Framework to Prevent Software Supply Chain Attacks</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2021/06/first-american-financial-pays-farcical-500k-fine/">First American Financial Pays Farcical $500K Fine</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/proposed-bill-will-force-aussie-organisations-to-disclose-when-theyre-going-to-pay-ransom/">Labor Bill would force Aussie organisations to disclose when they pay ransoms</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/ransomware-too-many-firms-are-still-willing-to-pay-up-if-attacked/">Ransomware: Too many firms are still willing to pay up if attacked</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-defender-atp-now-warns-of-jailbroken-iphones-ipads/">Microsoft Defender ATP now warns of jailbroken iPhones, iPads</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/fertility-clinic-discloses-data-breach-exposing-patient-info/">Fertility clinic discloses data breach exposing patient info</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/south-koreas-nuclear-research-agency-hacked-using-vpn-flaw/">South Korea's Nuclear Research agency hacked using VPN flaw</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/poland-blames-russia-for-breach-theft-of-polish-officials-emails/">Poland blames Russia for breach, theft of Polish officials' emails</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/us-supermarket-chain-wegmans-notifies-customers-of-data-breach/">US supermarket chain Wegmans notifies customers of data breach</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/carnival-cruise-hit-by-data-breach-warns-of-data-misuse-risk/">Carnival Cruise hit by data breach, warns of data misuse risk</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/largest-us-propane-distributor-discloses-8-second-data-breach/">Largest US propane distributor discloses '8-second' data breach</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/revil-ransomware-hits-us-nuclear-weapons-contractor/">REvil ransomware hits US nuclear weapons contractor</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/north-korean-hacking-group-allegedly-behind-breach-of-south-korean-nuclear-institute/">North Korean hacking group allegedly behind breach of South Korean nuclear institute</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/06/critical-throughtek-flaw-opens-millions.html">Critical ThroughTek Flaw Opens Millions of Connected Cameras to Eavesdropping</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/google-fixes-seventh-chrome-zero-day-exploited-in-the-wild-this-year/">Google fixes seventh Chrome zero-day exploited in the wild this year</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/peloton-bike-plus-vulnerability-allowed-complete-takeover-of-devices/">Peloton Bike+ vulnerability allowed complete takeover of devices</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/apple-fixes-ninth-zero-day-bug-exploited-in-the-wild-this-year/">Apple fixes ninth zero-day bug exploited in the wild this year</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.microsoft.com/security/blog/2021/06/14/behind-the-scenes-of-business-email-compromise-using-cross-domain-threat-data-to-disrupt-a-large-bec-infrastructure/">Behind the scenes of business email compromise: Using cross-domain threat data to disrupt a large BEC campaign</a></li>
+              <li><a class="lnk-pink" href="https://medium.com/tenable-techblog/stealing-tokens-emails-files-and-more-in-microsoft-teams-through-malicious-tabs-a7e5ff07b138">Stealing tokens, emails, files and more in Microsoft Teams through malicious tabs</a></li>
+              <li><a class="lnk-green" href="https://news.sophos.com/en-us/2021/06/17/vigilante-antipiracy-malware/">Vigilante malware rats out software pirates while blocking ThePirateBay</a></li>
+              <li><a class="lnk-orange" href="https://research.nccgroup.com/2021/06/14/incremental-machine-leaning-by-example-detecting-suspicious-activity-with-zeek-data-streams-river-and-ja3-hashes/">Incremental Machine Learning by Example: Detecting Suspicious Activity with Zeek Data Streams, River, and JA3 Hashes</a></li>
+              <li><a class="lnk-purple" href="https://ian.sh/airflow">Exploiting outdated Apache Airflow instances</a></li>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/certified-pre-owned-d95910965cd2">Certified Pre-Owned</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-seo-poisoning-used-to-backdoor-targets-with-malware/">Microsoft: SEO poisoning used to backdoor targets with malware</a></li>
+              <li><a class="lnk-green" href="https://www.elastic.co/blog/process-ghosting-a-new-executable-image-tampering-attack">Process Ghosting, a new executable image tampering attack</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/06/instagram-bug-allowed-anyone-to-view.html">Instagram‌ ‌Bug Allowed Anyone to View Private Accounts Without Following Them</a></li>
+              <li><a class="lnk-purple" href="https://youst.in/posts/bypassing-2fa-using-openid-misconfiguration/">Bypassing 2FA using OpenID Misconfiguration</a></li>
+              <li><a class="lnk-blue" href="https://blog.chichou.me/2021/06/20/quick-analysis-wifid/">Quick Analysis for the iPhone SSID Format String Bug</a></li>
+              <li><a class="lnk-pink" href="https://github.com/hlldz/Phant0m">Phant0m | Windows Event Log Killer</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
