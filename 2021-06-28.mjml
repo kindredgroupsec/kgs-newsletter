@@ -1,0 +1,175 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 28/06/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://thehackernews.com/images/-taDXLfT073Y/YNlBdGnvckI/AAAAAAAADAY/YD0lBlQE22MRx_Fi1_vKYwJdgrH54wLEQCLcBGAsYHQ/s0/solarwinds-hackers.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">28 Jun 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">SolarWinds Hackers Breach Microsoft Customer Support to Target its Customers</mj-text>
+          <mj-image src="https://thehackernews.com/images/-taDXLfT073Y/YNlBdGnvckI/AAAAAAAADAY/YD0lBlQE22MRx_Fi1_vKYwJdgrH54wLEQCLcBGAsYHQ/s0/solarwinds-hackers.jpg"></mj-image>
+          <mj-text color="#fff">In yet another sign that the Russian hackers who breached SolarWinds network monitoring software to compromise a slew of entities never really went away, Microsoft said the threat actor behind the malicious cyber activities used password spraying and brute-force attacks in an attempt to guess passwords and gain access to its customer accounts.</mj-text>
+          <mj-text color="#fff">"This recent activity was mostly unsuccessful, and the majority of targets were not successfully compromised – we are aware of three compromised entities to date," the tech giant's Threat Intelligence Center said Friday. "All customers that were compromised or targeted are being contacted through our nation-state notification process."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://thehackernews.com/2021/06/solarwinds-hackers-breach-microsoft.html">
+            Read More on The Hacker News
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://msrc-blog.microsoft.com/2021/06/25/new-nobelium-activity/">
+            Even More on Microsoft's blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.vice.com/en_us/article/bvzd8v/hackers-use-fake-call-center-to-trick-victims-into-installing-ransomware">Hackers Use Fake Call Center to Trick Victims Into Installing Ransomware</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/technology/antivirus-creator-john-mcafee-reportedly-found-dead-in-prison-cell/">Antivirus creator John McAfee reportedly found dead in prison cell</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/06/fin7-supervisor-gets-7-year-jail-term.html">FIN7 Supervisor Gets 7-Year Jail Term for Stealing Millions of Credit Cards</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/microsoft-admits-to-signing-rootkit-malware-in-supply-chain-fiasco/">Microsoft admits to signing rootkit malware in supply-chain fiasco</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/rip-internet-explorer-will-be-disabled-in-windows-11/">RIP: Internet Explorer will be disabled in Windows 11</a></li>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2021/06/how-cyber-sleuths-cracked-an-atm-shimmer-gang/">How Cyber Sleuths Cracked an ATM Shimmer Gang</a></li>
+              <li><a class="lnk-pink" href="https://www.zdnet.com/article/amazon-launching-global-competition-to-find-and-fix-1-million-software-bugs/">Amazon launching global competition to find and fix 1 million software bugs</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/google-rolls-out-a-unified-security-vulnerability-schema-for-open-source-software/">Google rolls out a unified security vulnerability schema for open-source software</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/microsofts-security-tool-can-now-spot-rogue-devices-on-your-network/">Microsoft's security tool can now spot rogue devices on your network</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/average-time-to-fix-critical-cybersecurity-vulnerabilities-is-205-days-report/">Average time to fix critical cybersecurity vulnerabilities is 205 days: report</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/nobelium-hackers-accessed-microsoft-customer-support-tools/">Nobelium hackers accessed Microsoft customer support tools</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/mercedes-benz-data-breach-exposes-ssns-credit-card-numbers/">Mercedes-Benz data breach exposes SSNs, credit card numbers</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/wd-my-book-nas-devices-are-being-remotely-wiped-clean-worldwide/">WD My Book NAS devices are being remotely wiped clean worldwide</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/healthcare-giant-grupo-fleury-hit-by-revil-ransomware-attack/">Healthcare giant Grupo Fleury hit by REvil ransomware attack</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/tulsa-warns-of-data-breach-after-conti-ransomware-leaks-police-citations/">Tulsa warns of data breach after Conti ransomware leaks police citations</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/adata-suffers-700-gb-data-leak-in-ragnar-locker-ransomware-attack/">ADATA suffers 700 GB data leak in Ragnar Locker ransomware attack</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/data-leak-marketplace-pressures-victims-by-emailing-competitors/">Data leak marketplace pressures victims by emailing competitors</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cisco-asa-vulnerability-actively-exploited-after-exploit-released/">Cisco ASA vulnerability actively exploited after exploit released</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/dell-supportassist-bugs-put-over-30-million-pcs-at-risk/">Dell SupportAssist bugs put over 30 million PCs at risk</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/vmware-fixes-authentication-bypass-in-carbon-black-app-control/">VMware fixes authentication bypass in Carbon Black App Control</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/zephyr-rtos-fixes-bluetooth-bugs-that-may-lead-to-code-execution/">Zephyr RTOS fixes Bluetooth bugs that may lead to code execution</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/tor-browser-fixes-vulnerability-that-tracks-you-using-installed-apps/">Tor Browser fixes vulnerability that tracks you using installed apps</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/06/watch-out-zyxel-firewalls-and-vpns.html">Zyxel Firewalls and VPNs Under Active Cyberattack</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/sonicwall-bug-affecting-800k-firewalls-was-only-partially-fixed/">SonicWall bug affecting 800K firewalls was only partially fixed</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-hijack-dev-devices-to-mine-cryptocurrency/">Malicious PyPI packages hijack dev devices to mine cryptocurrency</a></li>
+              <li><a class="lnk-green" href="https://research.checkpoint.com/2021/a-supply-chain-breach-taking-over-an-atlassian-account/">A supply-chain breach: Taking over an Atlassian account</a></li>
+              <li><a class="lnk-orange" href="https://arstechnica.com/information-technology/2021/06/nfc-flaws-let-researchers-hack-an-atm-by-waving-a-phone/">NFC flaws let researchers hack an ATM by waving a phone</a></li>
+              <li><a class="lnk-purple" href="https://decoded.avast.io/danielbenes/crackonosh-a-new-malware-distributed-in-cracked-software/">Crackonosh: A New Malware Distributed in Cracked Software</a></li>
+              <li><a class="lnk-blue" href="https://shufflingbytes.com/posts/wardialing-finnish-freephones/">Wardialing Finnish Freephones</a></li>
+              <li><a class="lnk-pink" href="https://positive.security/blog/hacking-linux-marketplaces">Linux marketplaces vulnerable to RCE and supply chain attacks</a></li>
+              <li><a class="lnk-green" href="https://www.exandroid.dev/2021/06/23/ad-cs-relay-attack-practical-guide/">AD CS relay attack - practical guide</a></li>
+              <li><a class="lnk-orange" href="https://d3fend.mitre.org/">D3FEND Matrix | MITRE D3FEND</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
