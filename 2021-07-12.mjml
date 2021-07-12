@@ -1,0 +1,192 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 12/07/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://krebsonsecurity.com/wp-content/uploads/2021/07/kaseya.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">12 Jul 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Kaseya Left Customer Portal Vulnerable to 2015 Flaw in its Own Software</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2021/07/kaseya.png"></mj-image>
+          <mj-text color="#fff">Last week cybercriminals deployed ransomware to 1,500 organizations, including many that provide IT security and technical support to other companies. The attackers exploited a vulnerability in software from Kaseya, a Miami-based company whose products help system administrators manage large networks remotely. Now it appears Kaseya’s customer service portal was left vulnerable until last week to a data-leaking security flaw that was first identified in the same software six years ago.</mj-text>
+          <mj-text color="#fff">On July 3, the REvil ransomware affiliate program began using a zero-day security hole (CVE-2021-30116) to deploy ransomware to hundreds of IT management companies running Kaseya’s remote management software — known as the Kaseya Virtual System Administrator (VSA).</mj-text>
+          <mj-text color="#fff">Also on July 3, security incident response firm Mandiant notified Kaseya that their billing and customer support site —portal.kaseya.net — was vulnerable to CVE-2015-2862, a “directory traversal” vulnerability in Kaseya VSA that allows remote users to read any files on the server using nothing more than a Web browser.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2021/07/kaseya-left-customer-portal-vulnerable-to-2015-flaw-in-its-own-software/">
+            Read More on Krebs on Security
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://arstechnica.com/gadgets/2021/07/up-to-1500-businesses-infected-in-one-of-the-worst-ransomware-attacks-ever/">
+            Even More on Ars Technica
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Robbing the Xbox vault: Inside a $10 million gift card cheat</mj-text>
+          <mj-image src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iPsQJVx8TiG0/v0/-1x-1.jpg"></mj-image>
+          <mj-text>The Xbox gift card came with a string of 25 letters and numbers. The digits, known as a 5x5 code, were sent in an email, but they were no different from the numbers and letters etched onto the gift cards hanging off tall racks near the checkout aisle at CVS or Target, arrayed in a Rubik’s Cube of colors.</mj-text>
+          <mj-text>The cards themselves, of course, are worthless, but each 5x5 code corresponds to a dollar amount. In this case the code, DD9J9-MXXXC-3Y6XD-3QH2C-PWDWZ, was worth $15 toward the purchase of anything that Microsoft sold online. Volodymyr Kvashuk received the $15 code a few weeks before Christmas, in 2017, among a batch of 20 others worth $300 altogether.</mj-text>
+          <mj-text>Then Kvashuk found a bug that would change his life, a flaw so stupidly obvious that he couldn’t bring himself to report it to his managers. He noticed that whenever he tested purchases of gift cards, the Microsoft Store dispensed real 5x5 codes. It dawned on him: He could generate virtually unlimited codes, all for free.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bloomberg.com/features/2021-microsoft-xbox-gift-card-fraud/">
+            Read More on Bloomberg
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/07/kaseya-rules-out-supply-chain-attack.html">Kaseya Rules Out Supply-Chain Attack; Says VSA 0-Day Hit Its Customers Directly</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/07/dozens-of-vulnerable-nuget-packages.html">Dozens of Vulnerable NuGet Packages Allow Attackers to Target .NET Platform</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/07/experts-uncover-malware-attacks.html">Experts Uncover Malware Attacks Targeting Corporate Networks in Latin America</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/07/new-saas-security-report-dives-into.html">New SaaS Security Report Dives into the Concerns and Plans of CISOs in 2021</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/biden-asks-putin-to-crack-down-on-russian-based-ransomware-gangs/">Biden asks Putin to crack down on Russian-based ransomware gangs</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/kaseya-warns-of-phishing-campaign-pushing-fake-security-updates/">Kaseya warns of phishing campaign pushing fake security updates</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/mozilla-firefox-to-roll-out-dns-over-https-for-canadian-users/">Mozilla Firefox to roll out DNS over HTTPS for Canadian users</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/tens-of-thousands-scammed-using-fake-android-cryptomining-apps/">Tens of thousands scammed using fake Android cryptomining apps</a></li>
+              <li><a class="lnk-orange" href="https://www.zdnet.com/article/ransomware-as-a-service-negotiators-between-hackers-and-victims-are-now-in-high-demand/">Ransomware as a service: negotiators between hackers and victims are now in high demand</a></li>
+              <li><a class="lnk-purple" href="https://krebsonsecurity.com/2021/07/spike-in-chain-gang-destructive-attacks-on-atms/">Spike in “Chain Gang” Destructive Attacks on ATMs</a></li>
+              <li><a class="lnk-blue" href="https://www.techrepublic.com/article/how-to-prevent-ransomware-attacks-with-a-zero-trust-security-model/">How to prevent ransomware attacks with a zero-trust security model</a></li>
+              <li><a class="lnk-pink" href="https://www.schneier.com/blog/archives/2021/07/vulnerability-in-the-kaspersky-password-manager.html">Vulnerability in the Kaspersky Password Manager</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/07/revil-used-0-day-in-kaseya-ransomware.html">REvil Used 0-Day in Kaseya Ransomware Attack, Demands $70 Million Ransom</a></li>
+              <li><a class="lnk-pink" href="https://www.vice.com/en/article/dyv44m/hackers-scrape-90000-gettr-user-emails-surprising-no-one">Hackers Scrape 90,000 GETTR User Emails, Surprising No One</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/mint-mobile-hit-by-a-data-breach-after-numbers-ported-data-accessed/">Mint Mobile hit by a data breach after numbers ported, data accessed</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/insurance-giant-cna-reports-data-breach-after-ransomware-attack/">Insurance giant CNA reports data breach after ransomware attack</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/morgan-stanley-reports-data-breach-after-vendor-accellion-hack/">Morgan Stanley reports data breach after vendor Accellion hack</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/07/microsoft-issues-emergency-patch-for.html">Microsoft Issues Emergency Patch for Critical Windows PrintNightmare Vulnerability</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/07/interpol-arrests-hacker-in-morocco-who.html">Interpol Arrests Moroccan Hacker Engaged in Nefarious Cyber Activities</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/07/microsofts-emergency-patch-fails-to.html">Microsoft's Emergency Patch Fails to Fully Fix PrintNightmare RCE Vulnerability</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/07/how-to-mitigate-microsoft-print-spooler.html">How to Mitigate Microsoft Print Spooler Vulnerability – PrintNightmare</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2021/07/critical-flaws-reported-in-sage-x3.html">Critical Flaws Reported in Sage X3 Enterprise Management Software</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/07/critical-flaws-reported-in-philips-vue.html">Critical Flaws Reported in Philips Vue PACS Medical Imaging Systems</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/07/kaseya-releases-patches-for-flaws.html">Kaseya Releases Patches for Flaws Exploited in Widespread Ransomware Attack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/qnap-fixes-critical-bug-in-nas-backup-disaster-recovery-app/">QNAP fixes critical bug in NAS backup, disaster recovery app</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/07/hackers-use-new-trick-to-disable-macro.html">Hackers Use New Trick to Disable Macro Security Warnings in Malicious Office Files</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-365-to-let-secops-lock-hacked-active-directory-accounts/">Microsoft 365 to let SecOps lock hacked Active Directory accounts</a></li>
+              <li><a class="lnk-green" href="https://blog.cloudflare.com/patching-the-internet-against-global-brute-force-campaigns/">Account Takeover Protection and WAF mitigations to help stop Global Brute Force Campaigns</a></li>
+              <li><a class="lnk-orange" href="https://donjon.ledger.com/kaspersky-password-manager/">Kaspersky Password Manager: All your passwords are belong to us</a></li>
+              <li><a class="lnk-purple" href="https://labs.sentinelone.com/conti-unpacked-understanding-ransomware-development-as-a-response-to-detection/">Conti Unpacked | Understanding Ransomware Development As a Response to Detection</a></li>
+              <li><a class="lnk-blue" href="https://securehoney.net/blog/sneaky-malware-reconfigures-hive-os-wallet-for-profit.html">Sneaky Malware Reconfigures Hive OS Wallet for Profit</a></li>
+              <li><a class="lnk-pink" href="https://www.immunit.ch/blog/2021/07/05/microsoft-teams-user-enumeration/">Microsoft Teams user enumeration</a></li>
+              <li><a class="lnk-green" href="https://gist.github.com/0xabad1dea/be18e11beb2e12433d93475d72016902">Risk Assessment of GitHub Copilot</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
