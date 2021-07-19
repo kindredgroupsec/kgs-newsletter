@@ -1,0 +1,192 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 19/07/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://video-images.vice.com/articles/60ef0144b2fd6f009b23d57b/lede/1626277716971-linkedin.jpeg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">19 Jul 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">iOS zero-day let SolarWinds hackers compromise fully updated iPhones</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/60ef0144b2fd6f009b23d57b/lede/1626277716971-linkedin.jpeg"></mj-image>
+          <mj-text color="#fff">The Russian state hackers who orchestrated the SolarWinds supply chain attack last year exploited an iOS zero-day as part of a separate malicious email campaign aimed at stealing Web authentication credentials from Western European governments, according to Google and Microsoft.</mj-text>
+          <mj-text color="#fff">In a post Google published on Wednesday, researchers Maddie Stone and Clement Lecigne said a “likely Russian government-backed actor” exploited the then-unknown vulnerability by sending messages to government officials over LinkedIn.</mj-text>
+          <mj-text color="#fff">Attacks targeting CVE-2021-1879, as the zero-day is tracked, redirected users to domains that installed malicious payloads on fully updated iPhones. The attacks coincided with a campaign by the same hackers who delivered malware to Windows users, the researchers said.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://arstechnica.com/gadgets/2021/07/solarwinds-hackers-used-an-ios-0-day-to-steal-google-and-microsoft-credentials/">
+            Read More on Ars Techinca
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://blog.google/threat-analysis-group/how-we-protect-users-0-day-attacks/">
+            Even More Google's blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Ransomware Giant REvil’s Sites Disappear</mj-text>
+          <mj-image src="https://media.threatpost.com/wp-content/uploads/sites/103/2021/06/03084327/ransomware-e1622724224226.jpeg"></mj-image>
+          <mj-text>Just days after President Biden demanded that Russian President Putin shut down ransomware groups, the servers of one of the biggest groups mysteriously went dark.</mj-text>
+          <mj-text>All of REvil’s Dark Web sites slipped offline as of early Tuesday morning, and it’s not clear whether it’s due to the ransomware gang getting busted or whether the threat actors did it on purpose.</mj-text>
+          <mj-text>One possibility: It could be that the U.S. shut down the servers. Then again, perhaps it was the Russian government. The timing would make sense, given the White House’s saber-rattling at Russia over the ransomware plague. The silenced servers come just a few days after President Biden called President Vladimir V. Putin of Russia and demanded that he shut down ransomware groups attacking American targets.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://threatpost.com/ransomware-revil-sites-disappears/167745/">
+            Read More on Threatpost
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/us-govt-offers-10-million-reward-for-tips-on-nation-state-hackers/">US govt offers $10 million reward for tips on nation-state hackers</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/critical-cloudflare-cdn-flaw-allowed-compromise-of-12-percent-of-all-sites/">Critical Cloudflare CDN flaw allowed compromise of 12% of all sites</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/microsoft-israeli-firm-used-windows-zero-days-to-deploy-spyware/">Microsoft: Israeli firm used Windows zero-days to deploy spyware</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/google-chrome-will-add-https-first-mode-to-keep-your-data-safe/">Google Chrome will add HTTPS-First Mode to keep your data safe</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/google-russian-svr-hackers-targeted-linkedin-users-with-safari-zero-day/">Google: Russian SVR hackers targeted LinkedIn users with Safari zero-day</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/chinese-cyberspies-wide-scale-apt-campaign-hits-asian-govt-entities/">Chinese cyberspies’ wide-scale APT campaign hits Asian govt entities</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/revil-ransomware-gangs-web-sites-mysteriously-shut-down/">REvil ransomware gang's web sites mysteriously shut down</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cisa-orders-federal-agencies-to-patch-windows-printnightmare-bug/">CISA orders federal agencies to patch Windows PrintNightmare bug</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/interpol-urges-police-to-unite-against-potential-ransomware-pandemic/">Interpol urges police to unite against 'potential ransomware pandemic'</a></li>
+              <li><a class="lnk-purple" href="https://arstechnica.com/information-technology/2021/07/hackers-got-past-windows-hello-by-tricking-a-webcam/">Hackers got past Windows Hello by tricking a webcam</a></li>
+              <li><a class="lnk-blue" href="https://arstechnica.com/information-technology/2021/07/facebook-catches-iranian-spies-catfishing-us-military-targets/">Facebook catches Iranian spies catfishing US military targets</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/07/instagram-launches-security-checkup-to.html">Instagram Launches 'Security Checkup' to Help Users Recover Hacked Accounts</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/ransomware-hits-law-firm-counseling-fortune-500-global-500-companies/">Ransomware hits law firm counseling Fortune 500, Global 500 companies</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/ecuadors-state-run-cnt-telco-hit-by-ransomexx-ransomware/">Ecuador's state-run CNT telco hit by RansomEXX ransomware</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cyberattack-on-moldovas-court-of-accounts-destroyed-public-audits/">Cyberattack on Moldova's Court of Accounts destroyed public audits</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/fashion-retailer-guess-discloses-data-breach-after-ransomware-attack/">Fashion retailer Guess discloses data breach after ransomware attack</a></li>
+              <li><a class="lnk-purple" href="https://www.vice.com/en/article/m7e57n/hackers-extort-ea-fifa">Hackers Move to Extort Gaming Giant EA</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/new-windows-print-spooler-zero-day-exploitable-via-remote-print-servers/">New Windows print spooler zero day exploitable via remote print servers</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-is-targeting-vulnerable-sonicwall-devices/">HelloKitty ransomware is targeting vulnerable SonicWall devices</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/d-link-issues-hotfix-for-hard-coded-password-router-vulnerabilities/">D-Link issues hotfix for hard-coded password router vulnerabilities</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/google-patches-8th-chrome-zero-day-exploited-in-the-wild-this-year/">Google patches 8th Chrome zero-day exploited in the wild this year</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/woocommerce-fixes-vulnerability-exposing-5-million-sites-to-data-theft/">WooCommerce fixes vulnerability exposing 5 million sites to data theft</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/software-maker-removes-backdoor-giving-root-access-to-radio-devices/">Software maker removes "backdoor" giving root access to radio devices</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/adobe-updates-fix-28-vulnerabilities-in-6-programs/">Adobe updates fix 28 vulnerabilities in 6 programs</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2021-patch-tuesday-fixes-9-zero-days-117-flaws/">Microsoft July 2021 Patch Tuesday fixes 9 zero-days, 117 flaws</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/solarwinds-patches-critical-serv-u-vulnerability-exploited-in-the-wild/">SolarWinds patches critical Serv-U vulnerability exploited in the wild</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.truesec.com/2021/07/06/kaseya-vsa-zero-day-exploit/">How the Kaseya VSA Zero Day Exploit Worked</a></li>
+              <li><a class="lnk-pink" href="https://curtbraz.medium.com/you-aint-got-no-problem-jules-i-m-on-the-multifactor-e05d5e2a6ade">Practical MFA Bypass Techniques</a></li>
+              <li><a class="lnk-green" href="https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/">Forensic Methodology Report: How to catch NSO Group’s Pegasus</a></li>
+              <li><a class="lnk-orange" href="https://mtpsym.github.io/">Security Analysis of Telegram</a></li>
+              <li><a class="lnk-purple" href="https://blog.ryotak.me/post/cdnjs-remote-code-execution-en/">Remote code execution in cdnjs of Cloudflare</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
