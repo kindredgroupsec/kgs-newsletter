@@ -1,0 +1,186 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 26/07/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://video-images.vice.com/articles/60f83acc459ef9009bebeb39/lede/1626883410117-nso-group.jpeg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">26 Jul 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">NSO Says ‘Enough Is Enough,’ Will No Longer Talk to the Press About Damning Reports</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/60f83acc459ef9009bebeb39/lede/1626883410117-nso-group.jpeg"></mj-image>
+          <mj-text color="#fff">The Israeli surveillance technology maker denied that the list, which underpins a series of bombshell stories in several media outlets, has anything to do with the company.</mj-text>
+          <mj-text color="#fff">The spyware giant NSO Group claimed that a list of 50,000 phone numbers, which is the basis of a series of explosive stories about alleged abuses by its customers,  has nothing to do with the company or its customers.</mj-text>
+          <mj-text color="#fff">In the last few days, a group of news outlets from all over the world, including The Washington Post and the Guardian have published several stories detailing new alleged abuses of NSO's spyware in several countries, including India, Hungary, Rwanda, and others. These stories are based on a leaked list of more than 50,000 phone numbers, which are alleged to be people of interest to NSO's customers.</mj-text>
+          <mj-text color="#fff">Amnesty's security lab analyzed 37 smartphones included in the list, and found evidence that they were either hacked or targeted with NSO's spyware.  </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.vice.com/en/article/v7exdx/nso-says-enough-is-enough-will-no-longer-talk-to-the-press-about-damning-reports">
+            Read More on Vice
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/07/new-leak-reveals-abuse-of-pegasus.html">New Leak Reveals Abuse of Pegasus Spyware to Target Journalists Globally</a></li>
+              <li><a class="lnk-pink" href="https://citizenlab.ca/2021/07/hooking-candiru-another-mercenary-spyware-vendor-comes-into-focus/">Hooking Candiru - Another Mercenary Spyware Vendor Comes into Focus</a></li>
+              <li><a class="lnk-green" href="https://www.csoonline.com/article/3626693/eu-takes-aim-at-ransomware-with-plans-to-make-bitcoin-traceable-prohibit-anonymity.html">EU takes aim at ransomware with plans to make Bitcoin traceable, prohibit anonymity</a></li>
+              <li><a class="lnk-orange" href="https://www.csoonline.com/article/3625681/tsa-issues-second-cybersecurity-directive-for-pipeline-companies.html">TSA issues second cybersecurity directive for pipeline companies</a></li>
+              <li><a class="lnk-purple" href="https://arstechnica.com/gadgets/2021/07/home-and-office-routers-come-under-attack-by-china-state-hackers-france-warns/">Home and office routers come under attack by China state hackers, France warns</a></li>
+              <li><a class="lnk-blue" href="https://www.vice.com/en/article/bvzp78/researchers-hid-malware-inside-an-ais-neurons-and-it-worked-scarily-well">Researchers Hid Malware Inside an AI's 'Neurons' And It Worked Scarily Well</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/twitter-reveals-surprisingly-low-two-factor-auth-2fa-adoption-rate/">Twitter reveals surprisingly low two-factor auth (2FA) adoption rate</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/akamai-dns-global-outage-takes-down-major-websites-online-services/">Akamai DNS global outage takes down major websites, online services</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-stealthy-malware-found-on-hacked-pulse-secure-devices/">CISA warns of stealthy malware found on hacked Pulse Secure devices</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2021/07/dutch-police-arrest-two-hackers-tied-to.html">Dutch Police Arrest Two Hackers Tied to "Fraud Family" Cybercrime Ring</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/07/kaseya-gets-universal-decryptor-to-help.html">Kaseya Gets Universal Decryptor to Help REvil Ransomware Victims</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/07/apt-hackers-distributed-android-trojan.html">APT Hackers Distributed Android Trojan via Syrian e-Government Portal</a></li>
+              <li><a class="lnk-green" href="https://nakedsecurity.sophos.com/2021/07/23/us-court-gets-uk-twitter-hack-suspect-arrested-in-spain/">US court gets UK Twitter hack suspect arrested in Spain</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/attackers-deploy-cryptominers-on-kubernetes-clusters-via-argo-workflows/">Attackers deploy cryptominers on Kubernetes clusters via Argo Workflows</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/ransomware-gang-breached-cna-s-network-via-fake-browser-update/">Ransomware gang breached CNA’s network via fake browser update</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/macos-malware-steals-telegram-accounts-google-chrome-data/">MacOS malware steals Telegram accounts, Google Chrome data</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/saudi-aramco-data-breach-sees-1-tb-stolen-data-for-sale/">Saudi Aramco data breach sees 1 TB stolen data for sale</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/1000-gb-of-local-government-data-exposed-by-massachusetts-software-company/">1,000 GB of local government data exposed by Massachusetts software company</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/07/turns-out-that-low-risk-ios-wi-fi.html">Turns Out That Low-Risk iOS Wi-Fi Naming Bug Can Hack iPhones Remotely</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-shares-mitigations-for-new-petitpotam-ntlm-relay-attack/">Microsoft shares mitigations for new PetitPotam NTLM relay attack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/apple-fixes-bug-that-breaks-iphone-wifi-when-joining-rogue-hotspots/">Apple fixes bug that breaks iPhone WiFi when joining rogue hotspots</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/atlassian-asks-customers-to-patch-critical-jira-vulnerability/">Atlassian asks customers to patch critical Jira vulnerability</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/new-linux-kernel-bug-lets-you-get-root-on-most-modern-distros/">New Linux kernel bug lets you get root on most modern distros</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/16-year-old-bug-in-printer-software-gives-hackers-admin-rights/">16-year-old bug in printer software gives hackers admin rights</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/fortinet-fixes-bug-letting-unauthenticated-hackers-run-code-as-root/">Fortinet fixes bug letting unauthenticated hackers run code as root</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/07/oracle-warns-of-critical-remotely.html">Oracle Warns of Critical Remotely Exploitable Weblogic Server Flaws</a></li>
+              <li><a class="lnk-orange" href="https://nakedsecurity.sophos.com/2021/07/21/windows-hivenightmare-bug-could-leak-passwords-heres-what-to-do/">Windows “HiveNightmare” bug could leak passwords</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.zecops.com/research/meet-wifidemon-ios-wifi-rce-0-day-vulnerability-and-a-zero-click-vulnerability-that-was-silently-patched/">Meet WiFiDemon – iOS WiFi RCE 0-Day Vulnerability, and a Zero-Click Vulnerability That Was Silently Patched</a></li>
+              <li><a class="lnk-pink" href="https://blog.qualys.com/vulnerabilities-threat-research/2021/07/20/sequoia-a-local-privilege-escalation-vulnerability-in-linuxs-filesystem-layer-cve-2021-33909">Sequoia: A Local Privilege Escalation Vulnerability in Linux’s Filesystem Layer</a></li>
+              <li><a class="lnk-green" href="https://github.blog/2021-07-22-github-supply-chain-security-features-go-community/">GitHub brings supply chain security features to the Go community</a></li>
+              <li><a class="lnk-orange" href="https://www.microsoft.com/security/blog/2021/07/22/when-coin-miners-evolve-part-1-exposing-lemonduck-and-lemoncat-modern-mining-malware-infrastructure/">When coin miners evolve, Part 1: Exposing LemonDuck and LemonCat, modern mining malware infrastructure</a></li>
+              <li><a class="lnk-purple" href="https://sec-consult.com/blog/detail/forgot-password-taking-over-user-accounts-kaminsky-style/">Forgot password? Taking over user accounts Kaminsky style</a></li>
+              <li><a class="lnk-blue" href="https://isc.sans.edu/diary/Summer+of+SAM+-+incorrect+permissions+on+Windows+1011+hives/27652">Summer of SAM - incorrect permissions on Windows 10/11 hives</a></li>
+              <li><a class="lnk-pink" href="https://blog.cloudflare.com/cloudflares-handling-of-an-rce-vulnerability-in-cdnjs/">Cloudflare's Handling of an RCE Vulnerability in cdnjs</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#F39000">
+        <mj-column>
+          <mj-text mj-class="white h3" align="center">Summer break!</mj-text>
+          <mj-image src="https://news.infosecgur.us/assets/summer2.png"></mj-image>
+
+          <mj-text mj-class="white">It's time for the Kindred Group Security team to take some holiday. The newsletter will be off for a few weeks but don't worry, we'll be back. See you soon for some awesome infosec news!</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
