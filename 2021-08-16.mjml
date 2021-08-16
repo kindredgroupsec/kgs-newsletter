@@ -1,0 +1,175 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 16/08/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">16 Aug 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">AI Wrote Better Phishing Emails Than Humans in a Recent Test</mj-text>
+          <mj-image src="https://cdn.scmagazine.com/wp-content/uploads/2021/08/1280px-Singapore_Marina-Bay-Panorama-01-1024x556.jpg"></mj-image>
+          <mj-text color="#fff">Natural language processing continues to find its way into unexpected corners. This time, it's phishing emails. In a small study, researchers from Singapore found that they could use the deep learning language model GPT-3, along with other AI-as-a-service platforms, to significantly lower the barrier to entry for crafting spearphishing campaigns at a massive scale. </mj-text>
+          <mj-text color="#fff">Researchers have long debated whether it would be worth the effort for scammers to train machine learning algorithms that could then generate compelling phishing messages. Mass phishing messages are simple and formulaic, after all, and are already highly effective. Highly targeted and tailored “spearphishing” messages are more labor intensive to compose, though. That's where NLP may come in surprisingly handy.</mj-text>
+          <mj-text color="#fff">At the Black Hat and Defcon security conferences in Las Vegas this week, a team from Singapore's Government Technology Agency presented a recent experiment in which they sent targeted phishing emails they crafted themselves and others generated by an AI-as-a-service platform to 200 of their colleagues. Both messages contained links that were not actually malicious but simply reported back clickthrough rates to the researchers. They were surprised to find that more people clicked the links in the AI-generated messages than the human-written ones—by a significant margin.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.wired.com/story/ai-phishing-emails/">
+            Read More on Wired
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.youtube.com/watch?v=tWWhRbzhkrg">
+            DEF CON presentation
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/facebook-rolls-out-end-to-end-encryption-for-messenger-calls/">Facebook rolls out end-to-end encryption for Messenger calls</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-will-alert-users-of-incoming-spam-calls/">Microsoft Teams will alert users of incoming spam calls</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/github-deprecates-account-passwords-for-authenticating-git-operations/">GitHub deprecates account passwords for authenticating Git operations</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/hacker-behind-biggest-ever-cryptocurrency-heist-returns-stolen-funds/">Hacker behind biggest ever cryptocurrency heist returns stolen funds</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/nsa-and-cisa-share-kubernetes-security-recommendations/">NSA and CISA share Kubernetes security recommendations</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/08/bugs-in-managed-dns-services-cloud-let.html">Bugs in Managed DNS Services Cloud Let Attackers Spy On DNS Traffic</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/08/a-critical-random-number-generator-flaw.html">A Critical Random Number Generator Flaw Affects Billions of IoT Devices</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/08/apple-to-scan-every-device-for-child.html">Apple to Scan Every Device for Child Abuse Content — But Experts Fear for Privacy</a></li>
+              <li><a class="lnk-orange" href="https://www.vice.com/en/article/z3xkdy/hackers-uncover-weaknesses-in-agriculture-giants-systems">Hacker Says He Found a ‘Tractorload of Vulnerabilities’ at John Deere</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.vice.com/en/article/akg8wg/tmobile-investigating-customer-data-breach-100-million">T-Mobile Investigating Claims of Massive Customer Data Breach</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/ford-bug-exposed-customer-and-employee-records-from-internal-systems/">Ford bug exposed customer and employee records from internal systems</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/accenture-confirms-hack-after-lockbit-ransomware-data-leak-threats/">Accenture confirms hack after LockBit ransomware data leak threats</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/actively-exploited-bug-bypasses-authentication-on-millions-of-routers/">Actively exploited bug bypasses authentication on millions of routers</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/computer-hardware-giant-gigabyte-hit-by-ransomexx-ransomware/">Computer hardware giant GIGABYTE hit by RansomEXX ransomware</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-servers-are-getting-hacked-via-proxyshell-exploits/">Microsoft Exchange servers are getting hacked via ProxyShell exploits</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-another-windows-print-spooler-zero-day-bug/">Microsoft confirms another Windows print spooler zero-day bug</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-preauth-vulnerabilities-in-magento/">Adobe fixes critical preauth vulnerabilities in Magento</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/windows-security-update-blocks-petitpotam-ntlm-relay-attacks/">Windows security update blocks PetitPotam NTLM relay attacks</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2021-patch-tuesday-fixes-3-zero-days-44-flaws/">Microsoft August 2021 Patch Tuesday fixes 3 zero-days, 44 flaws</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cisco-firewall-manager-rce-bug-is-a-zero-day-patch-incoming/">Cisco: Firewall manager RCE bug is a zero-day, patch incoming</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/08/vmware-issues-patches-to-fix-critical.html">VMware Issues Patches to Fix Critical Bugs Affecting Multiple Products</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/08/critical-flaws-affect-embedded-tcpip.html">Critical Flaws Affect Embedded TCP/IP Stack Widely Used in Industrial Control Devices</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/windows-365-exposes-microsoft-azure-credentials-in-plaintext/">Windows 365 exposes Microsoft Azure credentials in plaintext</a></li>
+              <li><a class="lnk-pink" href="https://research.checkpoint.com/2021/i-can-take-over-your-kindle/">Do you like to read? I can take over your Kindle with an e-book</a></li>
+              <li><a class="lnk-green" href="https://scotthelme.co.uk/introducing-data-watch-detect-magecart-style-attacks-fast/">Introducing Data Watch: Detect Magecart style attacks, fast!</a></li>
+              <li><a class="lnk-orange" href="https://www.youtube.com/playlist?list=PL9fPq3eQfaaBUD1zVxJWJmX86A6d0isBI">DEF CON 29 Main Stage Presentations</a></li>
+              <li><a class="lnk-purple" href="https://joonas.fi/2021/08/saml-is-insecure-by-design/">SAML is insecure by design</a></li>
+              <li><a class="lnk-blue" href="https://blog.truesec.com/2021/08/05/from-stranger-to-da-using-petitpotam-to-ntlm-relay-to-active-directory/">From Stranger to DA // Using PetitPotam to NTLM relay to Domain Administrator</a></li>
+              <li><a class="lnk-pink" href="https://portswigger.net/research/http2">HTTP/2: The Sequel is Always Worse</a></li>
+              <li><a class="lnk-green" href="https://github.com/netskopeoss/phish_oauth">Phishing attacks using OAuth 2.0 authorization flows</a></li>
+              <li><a class="lnk-orange" href="https://www.whitesourcesoftware.com/resources/blog/prototype-pollution-vulnerabilities/">The Complete Guide to Prototype Pollution Vulnerabilities</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
