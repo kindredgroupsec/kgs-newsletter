@@ -1,0 +1,170 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 23/08/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/hl-images/2020/12/30/tmobile-header.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">23 Aug 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">T-Mobile Faces Class Action Lawsuit Over Massive Data Breach</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2020/12/30/tmobile-header.jpg"></mj-image>
+          <mj-text color="#fff">T-Mobile is facing a class action lawsuit for its most recent data breach, in which hackers stole data on at least 47 million current, former, and prospective customers, including Social Security Numbers, according to a copy of the class action complaint filed in a Washington court.</mj-text>
+          <mj-text color="#fff">The move comes after Motherboard broke news of the breach on Sunday. At the time, a hacker was advertising 30 million SSNs from an unnamed source. Motherboard verified the data was sourced from T-Mobile; T-Mobile itself later confirmed the contours of the breach.</mj-text>
+          <mj-text color="#fff">Beyond granting the plaintiffs an unspecified amount of damages, the class action asks the court to prohibit T-Mobile from keeping "personal identifying information on a cloud-based database."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.vice.com/en/article/xgxppk/tmobile-data-breach-class-action-lawsuit">
+            Read More on Vice.com
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.t-mobile.com/news/network/additional-information-regarding-2021-cyberattack-investigation">
+            T-Mobile's press release
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.darkreading.com/edge-articles/how-5-years-of-def-con-s-voting-village-has-shaped-election-security">How 5 Years of DEF CON's Voting Village Has Shaped Election Security</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/chase-bank-accidentally-leaked-customer-info-to-other-customers/">Chase bank accidentally leaked customer info to other customers</a></li>
+              <li><a class="lnk-green" href="https://www.zdnet.com/article/half-of-apac-firms-waver-on-processes-to-accommodate-remote-work/">Half of APAC firms bypass processes to accommodate remote work</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/secret-terrorist-watchlist-with-2-million-records-exposed-online/">Secret terrorist watchlist with 2 million records exposed online</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/apple-is-bringing-client-side-scanning-mainstream-and-the-genie-is-out-of-the-bottle/">Apple is bringing client-side scanning mainstream and the genie is out of the bottle</a></li>
+              <li><a class="lnk-blue" href="https://www.bankinfosecurity.com/world-bank-launches-global-cybersecurity-fund-a-17341">World Bank Launches Global Cybersecurity Fund</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/malware-campaign-uses-clever-captcha-to-bypass-browser-warning/">Malware campaign uses clever 'captcha' to bypass browser warning</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cisa-shares-guidance-on-how-to-prevent-ransomware-data-breaches/">CISA shares guidance on how to prevent ransomware data breaches</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/social-account-thief-goes-to-prison-for-stealing-trading-nude-photos/">Social account thief goes to prison for stealing, trading nude photos</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-guidance-on-securing-windows-365-cloud-pcs/">Microsoft shares guidance on securing Windows 365 Cloud PCs</a></li>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2021/08/wanted-disgruntled-employees-to-deploy-ransomware/">Wanted: Disgruntled Employees to Deploy Ransomware</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/hive-ransomware-attacks-memorial-health-system-steals-patient-data/">Hive ransomware attacks Memorial Health System, steals patient data</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/brazilian-government-discloses-national-treasury-ransomware-attack/">Brazilian government discloses National Treasury ransomware attack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/japanese-insurer-tokio-marine-discloses-ransomware-attack/">Japanese insurer Tokio Marine discloses ransomware attack</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/us-census-bureau-hacked-in-january-2020-using-citrix-exploit/">US Census Bureau hacked in January 2020 using Citrix exploit</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/microsoft-exchange-servers-being-hacked-by-new-lockfile-ransomware/">Microsoft Exchange servers being hacked by new LockFile ransomware</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cisco-won-t-fix-zero-day-rce-vulnerability-in-end-of-life-vpn-routers/">Cisco won’t fix zero-day RCE vulnerability in end-of-life VPN routers</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/new-unofficial-windows-patch-fixes-more-petitpotam-attack-vectors/">New unofficial Windows patch fixes more PetitPotam attack vectors</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cisa-badalloc-impacts-critical-infrastructure-using-blackberry-qnx/">CISA: BadAlloc impacts critical infrastructure using BlackBerry QNX</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://blog.cloudflare.com/cloudflare-thwarts-17-2m-rps-ddos-attack-the-largest-ever-reported/">Cloudflare thwarts 17.2M rps DDoS attack — the largest ever reported</a></li>
+              <li><a class="lnk-pink" href="https://www.mnemonic.no/blog/introducing-snicat/">SNIcat: Circumventing the guardians</a></li>
+              <li><a class="lnk-green" href="https://www.fireeye.com/blog/threat-research/2021/08/mandiant-discloses-critical-vulnerability-affecting-iot-devices.html">Mandiant Discloses Critical Vulnerability Affecting Millions of IoT Devices</a></li>
+              <li><a class="lnk-orange" href="https://blog.malwarebytes.com/mac/2021/08/macos-11s-hidden-security-improvements/">macOS 11’s hidden security improvements</a></li>
+              <li><a class="lnk-purple" href="https://labs.sentinelone.com/shadowpad-a-masterpiece-of-privately-sold-malware-in-chinese-espionage/">ShadowPad | A Masterpiece of Privately Sold Malware in Chinese Espionage</a></li>
+              <li><a class="lnk-blue" href="https://github.com/jonaslejon/malicious-pdf">Malicious PDF Generator</a></li>
+              <li><a class="lnk-pink" href="https://remyhax.xyz/posts/javascript-wasm-anti-debug/">Anti-Debug JS/WASM by Hand</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
