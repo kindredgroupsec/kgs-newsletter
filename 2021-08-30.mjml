@@ -1,0 +1,189 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 30/08/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.cnet.com/a/img/548X6Ybv4Kq4UJ9nYMokwEmz03s=/1092x0/2021/08/25/3e3b5d02-00fe-48d9-9e27-ec8c6c9a336a/gettyimages-1234864158.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">30 Aug 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Google, Amazon, Microsoft unveil massive cybersecurity initiatives after White House meeting</mj-text>
+          <mj-image src="https://www.cnet.com/a/img/548X6Ybv4Kq4UJ9nYMokwEmz03s=/1092x0/2021/08/25/3e3b5d02-00fe-48d9-9e27-ec8c6c9a336a/gettyimages-1234864158.jpg"></mj-image>
+          <mj-text color="#fff">The heads of Apple, Google, Amazon, Microsoft and IBM are among the business leaders that met with President Joe Biden at the White House on Wednesday to discuss how the government and private sector can work together to improve the nation's cybersecurity, according to a senior administration official.</mj-text>
+          <mj-text color="#fff">"Most of our critical infrastructure is owned and operated by the private sector, and the federal government can't meet this challenge alone," Biden said during a brief comment at the start of the meeting. "I've invited you all here today because you have the power, the capacity and the responsibility, I believe, to raise the bar on cybersecurity."</mj-text>
+          <mj-text color="#fff">At the meeting, Google CEO Sundar Pichai announced the search giant will invest more than $10 billion over the next five years in cybersecurity. The effort will include helping to secure the supply chain and strengthening open-source security. The investment will also expand "zero-trust" programs, in which organizations don't automatically trust any person or device when it comes to cybersecurity.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.cnet.com/tech/services-and-software/apple-google-amazon-ceos-head-to-white-house-for-cybersecurity-meeting/">
+            Read More on Cnet
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/08/25/fact-sheet-biden-administration-and-private-sector-leaders-announce-ambitious-initiatives-to-bolster-the-nations-cybersecurity/">
+            Even More in The White House's statement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">T-Mobile CEO: Hacker brute-forced his way through our network</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2021/08/23/tmobile-header-glitch.jpg"></mj-image>
+          <mj-text>T-Mobile's CEO Mike Sievert said that the hacker behind the carrier's latest massive data breach brute forced his way through T-Mobile's network after gaining access to testing environments.</mj-text>
+          <mj-text>The attacker could not exfiltrate customer financial information, credit card information, debit or other payment information during the incident.</mj-text>
+          <mj-text>However, T-Mobile says that he stole records belonging to 54.6 million current, former, or prospective customers, containing Social Security numbers, phone numbers, names, addresses, dates of birth, T-Mobile prepaid PINs, and driver license/ID information.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.bleepingcomputer.com/news/security/t-mobile-ceo-hacker-brute-forced-his-way-through-our-network/">
+            Read More on Bleeping Computer
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.t-mobile.com/news/network/cyberattack-against-tmobile-and-our-customers">
+            Even More in T-Mobile's statement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-azure-customers-of-critical-cosmos-db-vulnerability/">Microsoft warns Azure customers of critical Cosmos DB vulnerability</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-will-add-secure-preview-for-office-365-quarantined-emails/">Microsoft will add secure preview for Office 365 quarantined emails</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-hampshire-town-loses-23-million-to-overseas-scammers/">New Hampshire town loses $2.3 million to overseas scammers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/samsung-can-remotely-disable-their-tvs-worldwide-using-tv-block/">Samsung can remotely disable their TVs worldwide using TV Block</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/apple/new-zero-click-iphone-exploit-used-to-deploy-nso-spyware/">New zero-click iPhone exploit used to deploy NSO spyware</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/08/critical-cosmos-database-flaw-affected.html">Critical Cosmos Database Flaw Affected Thousands of Microsoft Azure Customers</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/08/the-increased-liability-of-local-in.html">The Increased Liability of Local In-home Propagation</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2021/08/man-robbed-of-16-bitcoin-sues-young-thieves-parents/">Man Robbed of 16 Bitcoin Sues Young Thieves’ Parents</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.thenationalnews.com/business/technology/2021/08/23/microsoft-power-apps-platform-exposes-38-million-confidential-records/">Microsoft Power Apps platform exposes 38 million confidential records</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/boston-public-library-discloses-cyberattack-system-wide-technical-outage/">Boston Public Library discloses cyberattack, system-wide technical outage</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/nokia-subsidiary-discloses-data-breach-after-conti-ransomware-attack/">Nokia subsidiary discloses data breach after Conti ransomware attack</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/synology-multiple-products-impacted-by-openssl-rce-vulnerability/">Synology: Multiple products impacted by OpenSSL RCE vulnerability</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/kaseya-patches-unitrends-server-zero-days-issues-client-mitigations/">Kaseya patches Unitrends server zero-days, issues client mitigations</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-proxyshell-bugs-might-be-exploited-patch-servers-now/">Microsoft: ProxyShell bugs “might be exploited,” patch servers now!</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/steelseries-bug-gives-windows-10-admin-rights-by-plugging-in-a-device/">SteelSeries bug gives Windows 10 admin rights by plugging in a device</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-urgently-patch-exchange-proxyshell-bugs/">CISA warns admins to urgently patch Exchange ProxyShell bugs</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/08/f5-releases-critical-security-patches.html">F5 Releases Critical Security Patch for BIG-IP and BIG-IQ Devices</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/08/vmware-issues-patches-to-fix-new-flaws.html">VMware Issues Patches to Fix New Flaws Affecting Multiple Products</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/08/critical-flaw-discovered-in-cisco-apic.html">Critical Flaw Discovered in Cisco APIC for Switches — Patch Released</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/08/bbraun-infusomat-pumps-could-let.html">B. Braun Infusomat Pumps Could Let Attackers Remotely Alter Medication Dosages</a></li>
+              <li><a class="lnk-pink" href="https://thedfirreport.com/2021/08/29/cobalt-strike-a-defenders-guide/">Cobalt Strike, a Defender’s Guide</a></li>
+              <li><a class="lnk-green" href="https://github.com/pwnesia/dnstake">DNSTake — A fast tool to check missing hosted DNS zones</a></li>
+              <li><a class="lnk-orange" href="https://blog.assetnote.io/2021/08/29/exploiting-graphql/">Exploiting GraphQL</a></li>
+              <li><a class="lnk-purple" href="https://www.perimeterx.com/tech-blog/2021/evolution-of-a-magecart-attack-leveraging-recaptcha-tech-domain/">The Evolution of a Magecart Attack Leveraging the Recaptcha.tech Domain</a></li>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/aws-readonlyaccess-not-even-once-ffbceb9fc908">AWS ReadOnlyAccess: Not Even Once</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
