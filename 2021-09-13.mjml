@@ -1,0 +1,182 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 13/09/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i0d.6lpGx1PU/v1/1200x793.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">13 Sep 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Juniper Breach Mystery Starts to Clear With New Details on Hackers and U.S. Role</mj-text>
+          <mj-image src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i0d.6lpGx1PU/v1/1200x793.jpg"></mj-image>
+          <mj-text color="#fff">Days before Christmas in 2015, Juniper Networks Inc. alerted users that it had been breached. In a brief statement, the company said it had discovered “unauthorized code” in one of its network security products, allowing hackers to decipher encrypted communications and gain high-level access to customers’ computer systems.</mj-text>
+          <mj-text color="#fff">More than five years later, the breach of Juniper’s network remains an enduring mystery in computer security, an attack on America’s software supply chain that potentially exposed highly sensitive customers including telecommunications companies and U.S. military agencies to years of spying before the company issued a patch.</mj-text>
+          <mj-text color="#fff">Those intruders haven’t yet been publicly identified, and if there were any victims other than Juniper, they haven’t surfaced to date. But one crucial detail about the incident has long been known — uncovered by independent researchers days after Juniper’s alert in 2015 — and continues to raise questions about the methods U.S. intelligence agencies use to monitor foreign adversaries.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bloomberg.com/news/features/2021-09-02/juniper-mystery-attacks-traced-to-pentagon-role-and-chinese-hackers">
+            Read More on Bloomberg
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Fighting the Rogue Toaster Army: Why Secure Coding in Embedded Systems is Our Defensive Edge</mj-text>
+          <mj-image src="https://thehackernews.com/images/-Y-9rGJeVHnI/YTnFb45X_sI/AAAAAAAABO8/xUIFnjbC8MIgEcdHwZ7F9dXNhjLO19bZgCLcBGAsYHQ/s728-e1000/iot-army.gif"></mj-image>
+          <mj-text>There are plenty of pop culture references to rogue AI and robots, and appliances turning on their human masters. It is the stuff of science fiction, fun, and fantasy, but with IoT and connected devices becoming more prevalent in our homes, we need more discussion around cybersecurity and safety.</mj-text>
+          <mj-text>Software is all around us, and it's very easy to forget just how much we're relying on lines of code to do all those clever things that provide us so much innovation and convenience. Much like web-based software, APIs, and mobile devices, vulnerable code in embedded systems can be exploited if it is uncovered by an attacker.</mj-text>
+          <mj-text>While it's unlikely that an army of toasters is coming to enslave the human race (although, the Tesla bot is a bit concerning) as the result of a cyberattack, malicious cyber events are still possible. Some of our cars, planes, and medical devices also rely on intricate embedded systems code to perform key tasks, and the prospect of these objects being compromised is potentially life-threatening.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2021/09/fighting-rogue-toaster-army-why-secure.html">
+            Read More on The Hacker News
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/ransomware-gangs-target-companies-using-these-criteria/">Ransomware gangs target companies using these criteria</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/revil-ransomwares-servers-mysteriously-come-back-online/">REvil ransomware's servers mysteriously come back online</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/ukrainian-extradited-for-selling-2-000-stolen-logins-per-week/">Ukrainian extradited for selling 2,000 stolen logins per week</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/yandex-is-battling-the-largest-ddos-in-russian-internet-history/">Yandex is battling the largest DDoS in Russian Internet history</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/windows-mshtml-zero-day-exploits-shared-on-hacking-forums/">Windows MSHTML zero-day exploits shared on hacking forums</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/09/whatsapp-to-finally-let-users-encrypt.html">WhatsApp to Finally Let Users Encrypt Their Chat Backups in the Cloud</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/09/new-spookjs-attack-bypasses-google.html">New SpookJS Attack Bypasses Google Chrome's Site Isolation Protection</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/09/sova-new-android-banking-trojan-emerges.html">SOVA: New Android Banking Trojan Emerges With Growing Capabilities</a></li>
+              <li><a class="lnk-orange" href="https://www.troyhunt.com/you-dont-need-to-burn-off-your-fingertips-and-other-biometric-myths/">You Don't Need to Burn off Your Fingertips (and Other Biometric Authentication Myths)</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/mcdonalds-leaks-password-for-monopoly-vip-database-to-winners/">McDonald's leaks password for Monopoly VIP database to winners</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/jenkins-projects-confluence-server-hacked-to-mine-monero/">Jenkins project's Confluence server hacked to mine Monero</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/howard-university-shuts-down-network-after-ransomware-attack/">Howard University shuts down network after ransomware attack</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/hackers-leak-passwords-for-500-000-fortinet-vpn-accounts/">Hackers leak passwords for 500,000 Fortinet VPN accounts</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/myrepublic-discloses-data-breach-exposing-government-id-cards/">MyRepublic discloses data breach exposing government ID cards</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/blackmatter-ransomware-hits-medical-technology-giant-olympus/">BlackMatter ransomware hits medical technology giant Olympus</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/netgear-fixes-severe-security-bugs-in-over-a-dozen-smart-switches/">Netgear fixes severe security bugs in over a dozen smart switches</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/zoho-patches-actively-exploited-critical-adselfservice-plus-bug/">Zoho patches actively exploited critical ADSelfService Plus bug</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/github-finds-7-code-execution-vulnerabilities-in-tar-and-npm-cli/">GitHub finds 7 code execution vulnerabilities in 'tar' and npm CLI</a></li>
+              <li><a class="lnk-pink" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444">Microsoft MSHTML Remote Code Execution Vulnerability</a></li>
+              <li><a class="lnk-green" href="https://research.nccgroup.com/2021/09/10/certportal-building-self-service-secure-s-mime-provisioning-portal/">CertPortal: Building Self-Service Secure S/MIME Provisioning Portal</a></li>
+              <li><a class="lnk-orange" href="https://labs.bishopfox.com/tech-blog/iam-vulnerable-an-aws-iam-privilege-escalation-playground">IAM Vulnerable - An AWS IAM Privilege Escalation Playground</a></li>
+              <li><a class="lnk-purple" href="https://github.com/lockedbyte/CVE-2021-40444">CVE-2021-40444 PoC</a></li>
+              <li><a class="lnk-blue" href="https://unit42.paloaltonetworks.com/azure-container-instances/">Finding Azurescape – Cross-Account Container Takeover in Azure Container Instances</a></li>
+              <li><a class="lnk-pink" href="https://blog.qrator.net/en/meris-botnet-climbing-to-the-record_142/">Mēris botnet, climbing to the record</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
