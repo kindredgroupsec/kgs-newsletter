@@ -1,0 +1,193 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 20/09/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://video-images.vice.com/articles/614110ae70cbdf0099e5f411/lede/1631654262095-uae.jpeg?image-resize-opts=Y3JvcD0xeHc6MC44MTk5NzA4NDU0ODEwNDk2eGg7Y2VudGVyLGNlbnRlciZyZXNpemU9MTIwMDoqJnJlc2l6ZT0xMjAwOio" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">20 Sep 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">U.S. Company Sold Zero-Click Hacking Tool to UAE Spy Operation</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/614110ae70cbdf0099e5f411/lede/1631654262095-uae.jpeg"></mj-image>
+          <mj-text color="#fff">A U.S. company sold a powerful exploit to a United Arab Emirates company which was involved in the country's hacking operations, including targeting people based in the U.S., according to a newly unsealed court filing.</mj-text>
+          <mj-text color="#fff">The news provides more insight into the sale and transfer of hacking tools, and is likely to raise questions of how a U.S. company sold an exploit to another company linked to the targeting of Americans.</mj-text>
+          <mj-text color="#fff">Dubbed Project Raven, the operation included the hiring of former U.S. intelligence hackers who then worked on behalf of the UAE government.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.vice.com/en/article/3aq9a5/us-company-sold-zero-click-exploit-project-raven-uae">
+            Read More on Vice
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.cnet.com/tech/services-and-software/expressvpn-cio-among-three-facing-1-6-million-doj-fine-project-raven/">
+            Even More on Cnet
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">You Can Now Sign-in to Your Microsoft Accounts Without a Password</mj-text>
+          <mj-image src="https://thehackernews.com/images/-xR5jiVoU7oc/YULgauYccrI/AAAAAAAADzs/rQz98FY-xWkQaETU077Ryu20LR7m9vlhACLcBGAsYHQ/s0/passwordless.jpg"></mj-image>
+          <mj-text>Microsoft on Wednesday announced a new passwordless mechanism that allows users to access their accounts without a password by using Microsoft Authenticator, Windows Hello, a security key, or a verification code sent via SMS or email.</mj-text>
+          <mj-text>The change is expected to be rolled out in the coming weeks. "Except for auto-generated passwords that are nearly impossible to remember, we largely create our own passwords," said Vasu Jakkal, Microsoft's corporate vice president for Security, Compliance, and Identity.</mj-text>
+          <mj-text>Over the years, weak passwords have emerged as the entry point for a vast majority of attacks across enterprise and consumer accounts, so much so that Microsoft said there are about 579 password attacks every second, translating to a whopping 18 billion every year.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2021/09/you-can-now-sign-in-to-you-microsoft.html">
+            Read More on The Hacker News
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://www.microsoft.com/security/blog/2021/09/15/the-passwordless-future-is-here-for-your-microsoft-account/">
+            Even More on Microsoft's blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.vice.com/en_us/article/akgppp/tiktok-hacking-learn-to-hack">TikTok Is Removing Educational Hacking Videos</a></li>
+              <li><a class="lnk-pink" href="https://www.vice.com/en_us/article/3aq9q3/apple-patches-zero-click-imessage-hack-used-by-nso">Apple Patches Zero-Click iMessage Hack Used by NSO</a></li>
+              <li><a class="lnk-green" href="https://www.vice.com/en/article/3aq9p5/expressvpn-uae-hacking-project-raven-daniel-gericke">ExpressVPN Knew 'Key Facts' of Executive Who Worked for UAE Spy Unit</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/admin-of-ddos-service-behind-200-000-attacks-faces-35yrs-in-prison/">Admin of DDoS service behind 200,000 attacks faces 35yrs in prison</a></li>
+              <li><a class="lnk-purple" href="https://www.vice.com/en_us/article/pkb5qy/why-government-and-military-sites-are-hosting-porn-and-viagra-adsovernm">Why Government and Military Sites Are Hosting Porn and Viagra Ads</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/09/critical-flaws-discovered-in-azure-app.html">Critical Flaws Discovered in Azure App That Microsoft Secretly Installs on Linux VMs</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-2004-reaches-end-of-service-in-december/">Microsoft: Windows 10 2004 reaches end of service in December</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/us-to-sanction-crypto-exchanges-wallets-used-by-ransomware/">U.S. to sanction crypto exchanges, wallets used by ransomware</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/atandt-lost-200m-in-seven-years-to-illegal-phone-unlocking-scheme/">AT&T lost $200M in seven years to illegal phone unlocking scheme</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/researchers-compile-list-of-vulnerabilities-abused-by-ransomware-gangs/">Researchers compile list of vulnerabilities abused by ransomware gangs</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2021/09/customer-care-giant-ttec-hit-by-ransomware/">Customer Care Giant TTEC Hit By Ransomware</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/09/travis-ci-flaw-exposes-secrets-of.html">Travis CI Flaw Exposes Secrets of Thousands of Open Source Projects</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/09/malware-attack-on-aviation-sector.html">Malware Attack on Aviation Sector Uncovered After Going Unnoticed for 2 Years</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/ransomware-encrypts-south-africas-entire-dept-of-justice-network/">Ransomware encrypts South Africa's entire Dept of Justice network</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/fbi-113-million-lost-to-online-romance-scams-this-year/">FBI: $113 million lost to online romance scams this year</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/09/apple-issues-urgent-updates-to-fix-new.html">Apple Issues Urgent Updates to Fix New Zero-Day Linked to Pegasus Spyware</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/09/hp-omen-gaming-hub-flaw-affects.html">HP OMEN Gaming Hub Flaw Affects Millions of Windows Computers</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/09/microsoft-releases-patch-for-actively.html">Microsoft Releases Patch for Actively Exploited Windows Zero-Day Vulnerability</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/google/google-patches-10th-chrome-zero-day-exploited-in-the-wild-this-year/">Google patches 10th Chrome zero-day exploited in the wild this year</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2021-patch-tuesday-fixes-2-zero-days-60-flaws/">Microsoft September 2021 Patch Tuesday fixes 2 zero-days, 60 flaws</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-azure-linux-admins-to-manually-patch-omigod-bugs/">Microsoft asks Azure Linux admins to manually patch OMIGOD bugs</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://portswigger.net/research/hunting-nonce-based-csp-bypasses-with-dynamic-analysis">Hunting nonce-based CSP bypasses with dynamic analysis</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/09/windows-mshtml-0-day-exploited-to.html">Windows MSHTML 0-Day Exploited to Deploy Cobalt Strike Beacon in Targeted Attacks</a></li>
+              <li><a class="lnk-green" href="https://www.wiz.io/blog/secret-agent-exposes-azure-customers-to-unauthorized-code-execution">“Secret” Agent Exposes Azure Customers To Unauthorized Code Execution</a></li>
+              <li><a class="lnk-orange" href="https://www.kali.org/blog/kali-linux-2021-3-release/">Kali Linux 2021.3 released</a></li>
+              <li><a class="lnk-purple" href="https://zolder.io/public-sharepoint-sites-the-new-open-shares/">Public SharePoint sites - The new open smb shares</a></li>
+              <li><a class="lnk-blue" href="https://iosiro.com/blog/openzeppelin-uups-proxy-vulnerability-disclosure">Perma-brick UUPS proxies with this one trick</a></li>
+              <li><a class="lnk-pink" href="https://netflixtechblog.com/the-show-must-go-on-securing-netflix-studios-at-scale-19b801c86479">The Show Must Go On: Securing Netflix Studios At Scale</a></li>
+              <li><a class="lnk-green" href="https://www.microsoft.com/security/blog/2021/09/15/analyzing-attacks-that-exploit-the-mshtml-cve-2021-40444-vulnerability/">Analyzing attacks that exploit the CVE-2021-40444 MSHTML vulnerability</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
