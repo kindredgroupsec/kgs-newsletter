@@ -1,0 +1,183 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 27/09/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/710bb4c68c9614dd3e5b9f5f5dec7871.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">27 Sep 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">FBI held back ransomware decryption key from businesses to run operation targeting hackers</mj-text>
+          <mj-image src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/710bb4c68c9614dd3e5b9f5f5dec7871.jpg"></mj-image>
+          <mj-text color="#fff">The FBI refrained for almost three weeks from helping to unlock the computers of hundreds of businesses and institutions hobbled by a major ransomware attack this summer, even though the bureau had secretly obtained the digital key needed to do so, according to several current and former U.S. officials.</mj-text>
+          <mj-text color="#fff">The key was obtained through access to the servers of the Russia-based criminal gang behind the July attack. Deploying it immediately could have helped the victims, including schools and hospitals, avoid what analysts estimate was millions of dollars in recovery costs.</mj-text>
+          <mj-text color="#fff">But the FBI held on to the key, with the agreement of other agencies, in part because it was planning to carry out an operation to disrupt the hackers, a group known as REvil, and the bureau did not want to tip them off. The previously unreported episode highlights the trade-offs law enforcement officials face between trying to damage cyber criminal networks and promptly helping the victims of ransomware — malware that encrypts data on computers, rendering them unusable.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.washingtonpost.com/national-security/ransomware-fbi-revil-decryption-key/2021/09/21/4a9417d0-f15f-11eb-a452-4da5fe48582d_story.html">
+            Read More on Washington Post
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://gizmodo.com/report-fbi-had-ransomware-decryption-key-for-weeks-bef-1847715916">
+            Even More on Gizmodo
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.vice.com/en_us/article/k78dpx/researcher-publishes-source-code-for-three-unpatched-iphone-exploits">Researcher Publishes Source Code for Three Unpatched iPhone Exploits</a></li>
+              <li><a class="lnk-pink" href="https://www.vice.com/en_us/article/93ypke/the-nsa-and-cia-use-ad-blockers-because-online-advertising-is-so-dangerous">The NSA and CIA Use Ad Blockers Because Online Advertising Is So Dangerous</a></li>
+              <li><a class="lnk-green" href="https://www.vice.com/en_us/article/5dbvx3/police-announce-huge-bust-of-mafias-cyber-crime-operations">Police Announce Huge Bust of Mafia’s Cyber Crime Operations</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-rushes-to-register-autodiscover-domains-leaking-credentials/">Microsoft rushes to register Autodiscover domains leaking credentials</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/eu-officially-blames-russia-for-ghostwriter-hacking-activities/">EU officially blames Russia for 'Ghostwriter' hacking activities</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/revil-ransomware-devs-added-a-backdoor-to-cheat-affiliates/">REvil ransomware devs added a backdoor to cheat affiliates</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/apple/apple-will-disable-insecure-tls-in-future-ios-macos-releases/">Apple will disable insecure TLS in future iOS, macOS releases</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-autodiscover-bugs-leak-100k-windows-credentials/">Microsoft Exchange Autodiscover bugs leak 100K Windows credentials</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/europol-links-italian-mafia-to-million-dollar-phishing-scheme/">Europol links Italian Mafia to million-dollar phishing scheme</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2021/09/a-new-apt-hacker-group-spying-on-hotels.html">A New APT Hacker Group Spying On Hotels and Governments Worldwide</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/09/apples-new-icloud-private-relay-service.html">Apple's New iCloud Private Relay Service Leaks Users' Real IP Addresses</a></li>
+              <li><a class="lnk-pink" href="https://www.csoonline.com/article/3634190/breach-reporting-required-for-health-apps-and-devices-ftc-says.html">Breach reporting required for health apps and devices, FTC says</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/bitcoinorg-hackers-steal-17-000-in-double-your-cash-scam/">Bitcoin.org hackers steal $17,000 in 'double your cash' scam</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/united-health-centers-ransomware-attack-claimed-by-vice-society/">United Health Centers ransomware attack claimed by Vice Society</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/second-farming-cooperative-shut-down-by-ransomware-this-week/">Second farming cooperative shut down by ransomware this week</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/us-farmer-cooperative-hit-by-59m-blackmatter-ransomware-attack/">US farmer cooperative hit by $5.9M BlackMatter ransomware attack</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2021/09/colombian-real-estate-agency-leak.html">Colombian Real Estate Agency Leak Exposes Records of Over 100,000 Buyers</a></li>
+              <li><a class="lnk-blue" href="https://www.databreaches.net/major-european-call-center-provider-goes-down-in-ransomware-attack-not-negotiating-with-conti/">Major European call center provider goes down in ransomware attack</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/hackers-exploiting-critical-vmware-vcenter-cve-2021-22005-bug/">Hackers exploiting critical VMware vCenter CVE-2021-22005 bug</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/emergency-google-chrome-update-fixes-zero-day-exploited-in-the-wild/">Emergency Google Chrome update fixes zero-day exploited in the wild</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cisco-fixes-highly-critical-vulnerabilities-in-ios-xe-software/">Cisco fixes highly critical vulnerabilities in IOS XE Software</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/sonicwall-fixes-critical-bug-allowing-sma-100-device-takeover/">SonicWall fixes critical bug allowing SMA 100 device takeover</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/apple/apple-patches-new-zero-day-bug-used-to-hack-iphones-and-macs/">Apple patches new zero-day bug used to hack iPhones and Macs</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/apple/new-macos-zero-day-bug-lets-attackers-run-commands-remotely/">New macOS zero-day bug lets attackers run commands remotely</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/vmware-warns-of-critical-bug-in-default-vcenter-server-installs/">VMware warns of critical bug in default vCenter Server installs</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/netgear-fixes-dangerous-code-execution-bug-in-multiple-routers/">Netgear fixes dangerous code execution bug in multiple routers</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/09/new-nagios-software-bugs-could-let.html">New Nagios Software Bugs Could Let Hackers Take Over IT Infrastructures</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.sentinelone.com/labs/defeating-macos-malware-anti-analysis-tricks-with-radare2/">Defeating macOS Malware Anti-Analysis Tricks with Radare2</a></li>
+              <li><a class="lnk-pink" href="https://research.nccgroup.com/2021/09/23/detecting-and-hunting-for-the-petitpotam-ntlm-relay-attack/">Detecting and Hunting for the PetitPotam NTLM Relay Attack</a></li>
+              <li><a class="lnk-green" href="https://scotthelme.co.uk/lets-encrypt-old-root-expiration/">Let's Encrypt's Root Certificate is expiring!</a></li>
+              <li><a class="lnk-orange" href="https://www.microsoft.com/security/blog/2021/09/20/a-guide-to-combatting-human-operated-ransomware-part-1/">A guide to combatting human-operated ransomware: Part 1</a></li>
+              <li><a class="lnk-purple" href="https://garantir.io/three-frameworks-software-supply-chain-security/">3 New Frameworks For Securing The Software Supply Chain</a></li>
+              <li><a class="lnk-blue" href="https://www.microsoft.com/security/blog/2021/09/21/catching-the-big-fish-analyzing-a-large-scale-phishing-as-a-service-operation/">Catching the big fish: Analyzing a large-scale phishing-as-a-service operation</a></li>
+              <li><a class="lnk-pink" href="https://blog.google/threat-analysis-group/financially-motivated-actor-breaks-certificate-parsing-avoid-detection/">Financially motivated actor breaks certificate parsing to avoid detection</a></li>
+              <li><a class="lnk-green" href="https://medium.com/geekculture/hacking-lg-webos-smart-tvs-using-a-phone-3fedba5d6f50">Hacking LG WebOS Smart TVs Using A Phone</a></li>
+              <li><a class="lnk-orange" href="https://labs.bishopfox.com/tech-blog/iam-vulnerable-assessing-the-aws-assessment-tools">IAM Vulnerable - Assessing the AWS Assessment Tools</a></li>
+              <li><a class="lnk-purple" href="https://securitylab.github.com/research/apache-dubbo/">Apache Dubbo: All roads lead to RCE</a></li>
+              <li><a class="lnk-blue" href="https://news.sophos.com/en-us/2021/09/21/cring-ransomware-group-exploits-ancient-coldfusion-server/">Cring ransomware group exploits ancient ColdFusion server</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
