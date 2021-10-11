@@ -111,7 +111,7 @@
           <mj-image src="https://thehackernews.com/new-images/img/a/AVvXsEh71rikfMzENrhPmiRTbTEJT4YFFOtbNLIfDKpAAOvNOFlNkg6ikQPKGNBjrEpW4pYaxm2nKzArl6FdUjBzPZV36AF4Adm3jmLFKR7hTlRgIBETR6DGeQ1GCasKScrcmexpGJ4Kbbc63iVP3ck3-1UKc4WwS2lHWX8pHXMrU3oGSw9N5IFq9yElhbWZ=s728-e1000"></mj-image>
           <mj-text>Cybersecurity researchers have disclosed an unpatched security vulnerability in the protocol used by Microsoft Azure Active Directory that potential adversaries could abuse to stage undetected brute-force attacks.</mj-text>
           <mj-text>"This flaw allows threat actors to perform single-factor brute-force attacks against Azure Active Directory (Azure AD) without generating sign-in events in the targeted organization's tenant," researchers from Secureworks Counter Threat Unit (CTU) said in a report published on Wednesday.</mj-text>
-          <mj-text>OThe weakness resides in the Seamless Single Sign-On feature that allows employees to automatically sign when using their corporate devices that are connected to enterprise networks without having to enter any passwords.</mj-text>
+          <mj-text>The weakness resides in the Seamless Single Sign-On feature that allows employees to automatically sign when using their corporate devices that are connected to enterprise networks without having to enter any passwords.</mj-text>
           <mj-button mj-class="bg-pink" href="https://thehackernews.com/2021/09/new-azure-ad-bug-lets-hackers-brute.html">
             Read More on The Hacker News
           </mj-button>
