@@ -106,7 +106,7 @@
         <mj-column>
           <mj-spacer height="30px" />
           <mj-text mj-class="pink h2">FIN7 Recruits Talent For Push Into Ransomware</mj-text>
-          <mj-image src="https://geminiadvisory.io/wp-content/uploads/2021/10/2021_1019-Gemini-FIN7-report.png"></mj-image>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/fin7-gang-returns-new-malicious-tools-researchers-showcase_image-3-a-13253.jpg"></mj-image>
           <mj-text>The financially motivated FIN7 cybercrime gang has masqueraded as yet another fictitious cybersecurity company called "Bastion Secure" to recruit unwitting software engineers under the guise of penetration testing in a likely lead-up to a ransomware scheme.</mj-text>
           <mj-text>"With FIN7's latest fake company, the criminal group leveraged true, publicly available information from various legitimate cybersecurity companies to create a thin veil of legitimacy around Bastion Secure," Recorded Future's Gemini Advisory unit said in a report.</mj-text>
           <mj-text>"FIN7 is adopting disinformation tactics so that if a potential hire or interested party were to fact check Bastion Secure, then a cursory search on Google would return 'true' information for companies with a similar name or industry to FIN7's Bastion Secure."</mj-text>
