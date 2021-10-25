@@ -1,0 +1,205 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 25/10/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://media.wired.com/photos/616f549e3383dbac617d3cb8/191:100/w_1280,c_limit/security-youtube.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">25 Oct 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">How Hackers Hijacked Thousands of High-Profile YouTube Accounts</mj-text>
+          <mj-image src="https://media.wired.com/photos/616f549e3383dbac617d3cb8/191:100/w_1280,c_limit/security-youtube.jpg"></mj-image>
+          <mj-text color="#fff">Since at least 2019, hackers have been hijacking high-profile YouTube channels. Sometimes they broadcast cryptocurrency scams, sometimes they simply auction off access to the account. Now, Google has detailed the technique that hackers-for-hire used to compromise thousands of YouTube creators in just the past couple of years.</mj-text>
+          <mj-text color="#fff">Cryptocurrency scams and account takeovers themselves aren’t a rarity; look no further than last fall’s Twitter hack for an example of that chaos at scale. But the sustained assault against YouTube accounts stands out both for its breadth and for the methods hackers used, an old maneuver that’s nonetheless incredibly tricky to defend against.</mj-text>
+          <mj-text color="#fff">It all starts with a phish. Attackers send YouTube creators an email that appears to be from a real service—like a VPN, photo editing app, or antivirus offering—and offer to collaborate. They propose a standard promotional arrangement: Show our product to your viewers and we’ll pay you a fee. It’s the kind of transaction that happens every day for YouTube’s luminaries, a bustling industry of influencer payouts.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.wired.com/story/youtube-bitcoin-scam-account-hijacking-google-phishing/">
+            Read More on Wired
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">FIN7 Recruits Talent For Push Into Ransomware</mj-text>
+          <mj-image src="https://geminiadvisory.io/wp-content/uploads/2021/10/2021_1019-Gemini-FIN7-report.png"></mj-image>
+          <mj-text>The financially motivated FIN7 cybercrime gang has masqueraded as yet another fictitious cybersecurity company called "Bastion Secure" to recruit unwitting software engineers under the guise of penetration testing in a likely lead-up to a ransomware scheme.</mj-text>
+          <mj-text>"With FIN7's latest fake company, the criminal group leveraged true, publicly available information from various legitimate cybersecurity companies to create a thin veil of legitimacy around Bastion Secure," Recorded Future's Gemini Advisory unit said in a report.</mj-text>
+          <mj-text>"FIN7 is adopting disinformation tactics so that if a potential hire or interested party were to fact check Bastion Secure, then a cursory search on Google would return 'true' information for companies with a similar name or industry to FIN7's Bastion Secure."</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2021/10/hackers-set-up-fake-company-to-get-it.html">
+            Read More on The Hacker News
+          </mj-button>
+          <mj-button mj-class="bg-pink" href="https://geminiadvisory.io/fin7-ransomware-bastion-secure/">
+            Even More on Gemini Advisory
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.vice.com/en_us/article/5dbn75/icloud-hacker-icloudripper4you-pleads-guilty">Man Pleads Guilty to Stealing Nude Photos From Hundreds of iCloud Accounts</a></li>
+              <li><a class="lnk-pink" href="https://www.vice.com/en_us/article/jgmep7/sim-swapper-doxes-and-swats-his-accomplice">Sim Swapper Doxes and SWATs His Accomplice</a></li>
+              <li><a class="lnk-green" href="https://arstechnica.com/tech-policy/2021/10/more-than-100000-people-have-had-their-eyes-scanned-for-free-cryptocurrency/">More than 100,000 people have had their eyes scanned for free cryptocurrency</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/ftc-isps-collect-and-monetize-far-more-user-data-than-you-d-think/">FTC: ISPs collect and monetize far more user data than you’d think</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/microsoft-teams-adds-end-to-end-encryption-for-one-to-one-calls/">Microsoft Teams adds end-to-end encryption for one-to-one calls</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/technology/cisa-gps-software-bug-may-cause-unexpected-behavior-this-sunday/">CISA: GPS software bug may cause unexpected behavior this Sunday</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/massive-campaign-uses-youtube-to-push-password-stealing-malware/">Massive campaign uses YouTube to push password-stealing malware</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/google-launches-android-enterprise-bug-bounty-program/">Google launches Android Enterprise bug bounty program</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/nine-arrested-for-impersonating-bank-clerks-to-steal-from-the-elderly/">Nine arrested for impersonating bank clerks to steal from the elderly</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/bulletproof-hosting-admins-sentenced-for-helping-cybercrime-gangs/">Bulletproof hosting admins sentenced for helping cybercrime gangs</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/us-govt-to-ban-export-of-hacking-tools-to-authoritarian-regimes/">US govt to ban export of hacking tools to authoritarian regimes</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/zerodium-wants-zero-day-exploits-for-windows-vpn-clients/">Zerodium wants zero-day exploits for Windows VPN clients</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/man-gets-7-years-in-prison-for-hacking-65k-health-care-employees/">Man gets 7 years in prison for hacking 65K health care employees</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/fbi-cisa-nsa-share-defense-tips-for-blackmatter-ransomware-attacks/">FBI, CISA, NSA share defense tips for BlackMatter ransomware attacks</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/new-gummy-browsers-attack-lets-hackers-spoof-tracking-profiles/">New Gummy Browsers attack lets hackers spoof tracking profiles</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/10/nyt-journalist-repeatedly-hacked-with.html">NYT Journalist Repeatedly Hacked with Pegasus after Reporting on Saudi Arabia</a></li>
+              <li><a class="lnk-pink" href="https://www.csoonline.com/article/3637124/detecting-anomalies-with-tls-fingerprints-could-pinpoint-supply-chain-compromises.html">Detecting anomalies with TLS fingerprints could pinpoint supply chain compromises</a></li>
+              <li><a class="lnk-green" href="https://www.linkedin.com/pulse/why-majority-our-mfa-so-phishable-roger-grimes">Why Is the Majority of Our MFA So Phishable?</a></li>
+              <li><a class="lnk-orange" href="https://therecord.media/dutch-forensic-lab-decrypts-teslas-driving-safety-data-and-finds-a-wealth-of-information/">Dutch forensic lab decrypts Tesla’s driving safety data and finds a wealth of information</a></li>
+              <li><a class="lnk-purple" href="https://therecord.media/facebook-sues-ukrainian-who-scraped-the-data-of-178-million-users/">Facebook sues Ukrainian who scraped the data of 178 million users</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.vice.com/en_us/article/k7844a/sinclair-broadcast-disrupted-by-ransomware-attack">Sinclair Broadcast 'Disrupted’ by Ransomware Attack</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-russian-svr-hacked-at-least-14-it-supply-chain-firms-since-may/">Microsoft: Russian SVR hacked at least 14 IT supply chain firms since May</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/popular-npm-library-hijacked-to-install-password-stealers-miners/">Popular NPM library hijacked to install password-stealers, miners</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/hacker-sells-the-data-for-millions-of-moscow-drivers-for-800/">Hacker sells the data for millions of Moscow drivers for $800</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/scuf-gaming-store-hacked-to-steal-credit-card-info-of-32-000-customers/">SCUF Gaming store hacked to steal credit card info of 32,000 customers</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/evil-corp-demands-40-million-in-new-macaw-ransomware-attacks/">Evil Corp demands $40 million in new Macaw ransomware attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/acer-hacked-twice-in-a-week-by-the-same-threat-actor/">Acer hacked twice in a week by the same threat actor</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/lightbasin-hacking-group-breaches-13-global-telecoms-in-two-years/">LightBasin hacking group breaches 13 global telecoms in two years</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/10/hackers-exploited-popular-billquick.html">Hackers Exploited Popular BillQuick Billing Software to Deploy Ransomware</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/tescos-website-restored-after-suspected-cyberattack/">Tesco's website restored after suspected cyberattack</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cisa-urges-admins-to-patch-critical-discourse-code-execution-bug/">CISA urges admins to patch critical Discourse code execution bug</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/10/bug-in-free-winrar-software-could-let.html">Bug in Popular WinRAR Software Could Let Attackers Hack Your Computer</a></li>
+              <li><a class="lnk-green" href="https://threatpost.com/cisco-sd-wan-bug-code-execution-root/175669/">Cisco SD-WAN Security Bug Allows Root Code Execution</a></li>
+              <li><a class="lnk-orange" href="https://threatpost.com/squirrel-attackers-execute-code-games-cloud-services/175586/">Squirrel Bug Lets Attackers Execute Code in Games, Cloud Services</a></li>
+              <li><a class="lnk-purple" href="https://www.techradar.com/news/patch-powershell-now-microsoft-tells-admins">Patch PowerShell 7</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/10/researchers-break-intel-sgx-with-new.html">Researchers Break Intel SGX With New 'SmashEx' CPU Attack Technique</a></li>
+              <li><a class="lnk-pink" href="https://research.nccgroup.com/2021/10/21/cracking-rdp-nla-supplied-credentials-for-threat-intelligence/">Cracking RDP NLA Supplied Credentials for Threat Intelligence</a></li>
+              <li><a class="lnk-green" href="https://posts.specterops.io/life-is-pane-persistence-via-preview-handlers-3c0216c5ef9e-b73a9515c9a8">Life is Pane: Persistence via Preview Handlers</a></li>
+              <li><a class="lnk-orange" href="https://www.sentinelone.com/labs/karma-ransomware-an-emerging-threat-with-a-hint-of-nemty-pedigree/">Karma Ransomware | An Emerging Threat With A Hint of Nemty Pedigree</a></li>
+              <li><a class="lnk-purple" href="https://www.sentinelone.com/labs/alphagolang-a-step-by-step-go-malware-reversing-methodology-for-ida-pro/">AlphaGolang | A Step-by-Step Go Malware Reversing Methodology for IDA Pro</a></li>
+              <li><a class="lnk-blue" href="https://research.nccgroup.com/2021/10/21/detecting-and-protecting-when-remote-desktop-protocol-rdp-is-open-to-the-internet/">Detecting and Protecting when Remote Desktop Protocol (RDP) is open to the Internet</a></li>
+              <li><a class="lnk-pink" href="https://labs.bishopfox.com/tech-blog/automating-api-token-testing">A Snapshot of CAST in Action: Automating API Token Testing</a></li>
+              <li><a class="lnk-green" href="https://www.cleafy.com/cleafy-labs/digital-banking-fraud-how-the-gozi-malware-work">Digital banking fraud: how the Gozi malware works</a></li>
+              <li><a class="lnk-orange" href="https://0day.click/recipe/discourse-sns-rce/">Discourse SNS webhook RCE</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
