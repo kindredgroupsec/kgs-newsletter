@@ -1,0 +1,198 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 08/11/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center"> 8 Nov 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Europol: Seven REvil/GandCrab ransomware affiliates were arrested in 2021</mj-text>
+          <mj-image src="https://therecord.media/wp-content/uploads/2021/11/REvil-arrests-Romania.jpg"></mj-image>
+          <mj-text color="#fff">Europol has announced today the arrests of seven suspects who worked as “affiliates” (partners) for a major ransomware cartel and have helped carry out more than 7,000 attacks since early 2019.</mj-text>
+          <mj-text color="#fff">The suspects worked part of the REvil (Sodinokibi) and GandCrab Ransomware-as-a-Service (RaaS) operations. Both REvil and GandCrab, believed to be operated by the same individuals, created ransomware code that they offered to other cybercriminals for rent.</mj-text>
+          <mj-text color="#fff">Europol says that since 2019, the seven suspects carried out attacks in which they collectively asked for more than €200 million ($230 million) in ransom demands.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://therecord.media/europol-seven-revil-gandcrab-ransomware-affiliates-were-arrested-in-2021/">
+            Read More on The Record
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.europol.europa.eu/newsroom/news/five-affiliates-to-sodinokibi/revil-unplugged">
+            Even More in Europol's press release
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">The Booming Underground Market for Bots That Steal Your 2FA Codes</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/61805a2ad57a5d00930dfd79/lede/1635801839611-scammer-header-art.png?image-resize-opts=Y3JvcD0wLjk2MDZ4dzowLjk2NjR4aDswLjAzOTR4dywwLjAwMTF4aCZyZXNpemU9MTIwMDoqJnJlc2l6ZT0xMjAwOio"></mj-image>
+          <mj-text>The call came from PayPal’s fraud prevention system. Someone had tried to use my PayPal account to spend $58.82, according to the automated voice on the line. PayPal needed to verify my identity to block the transfer.</mj-text>
+          <mj-text>“In order to secure your account, please enter the code we have sent your mobile device now,” the voice said. PayPal sometimes texts users a code in order to protect their account. After entering a string of six digits, the voice said, “Thank you, your account has been secured and this request has been blocked.”</mj-text>
+          <mj-text>But this call was actually from a hacker. The fraudster used a type of bot that drastically streamlines the process for hackers to trick victims into giving up their multi-factor authentication codes or one-time passwords (OTPs) for all sorts of services, letting them log in or authorize cash transfers.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.vice.com/en/article/y3vz5k/booming-underground-market-bots-2fa-otp-paypal-amazon-bank-apple-venmo">
+            Read More on Vice
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://therecord.media/cisa-creates-catalog-of-known-exploited-vulnerabilities-orders-agencies-to-patch/">CISA creates catalog of known exploited vulnerabilities, orders agencies to patch</a></li>
+              <li><a class="lnk-pink" href="https://therecord.media/gitlab-servers-are-being-exploited-in-ddos-attacks-in-excess-of-1-tbps/">GitLab servers are being exploited in DDoS attacks in excess of 1 Tbps</a></li>
+              <li><a class="lnk-green" href="https://www.vice.com/en_us/article/dypzjq/us-sanctions-could-cut-off-nso-from-tech-it-relies-on">US Sanctions Could Cut Off NSO From Tech It Relies On</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2021/11/revil-ransom-arrest-6m-seizure-and-10m-reward/">REvil Ransom Arrest, $6M Seizure, and $10M Reward</a></li>
+              <li><a class="lnk-purple" href="https://therecord.media/malware-found-in-coa-and-rc-two-npm-packages-with-23m-weekly-downloads/">Malware found in coa and rc, two npm packages with 23M weekly downloads</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/criminal-group-dismantled-after-forcing-victims-to-be-money-mules/">Criminal group dismantled after forcing victims to be money mules</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/state-hackers-breach-defense-energy-healthcare-orgs-worldwide/">State hackers breach defense, energy, healthcare orgs worldwide</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/pwn2own-printer-plays-ac-dc-samsung-galaxy-s21-hacked-twice/">Pwn2Own: Printer plays AC/DC, Samsung Galaxy S21 hacked twice</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/alleged-twitter-hacker-charged-with-theft-of-784k-in-crypto-via-sim-swaps/">Alleged Twitter hacker charged with theft of $784K in crypto via SIM swaps</a></li>
+              <li><a class="lnk-purple" href="https://securityaffairs.co/wordpress/124171/malware/cert-fr-warns-lockean-ransomware.html">CERT-FR warns of Lockean ransomware attacks against French companies</a></li>
+              <li><a class="lnk-blue" href="https://research.checkpoint.com/2021/cpr-alerts-crypto-wallet-users-of-massive-search-engine-phishing-campaign-that-has-resulted-in-at-least-half-a-million-dollars-being-stolen/">Search engine phishing campaign targeting crypto wallet users</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.vice.com/en_us/article/g5qbq4/robinhood-says-it-was-hacked-and-extorted-but-nobody-lost-any-money">Robinhood Says It Was Hacked and Extorted But Nobody Lost Any Money</a></li>
+              <li><a class="lnk-pink" href="https://therecord.media/hacker-steals-55-million-from-bzx-defi-platform/">Hacker steals $55 million from bZx DeFi platform</a></li>
+              <li><a class="lnk-green" href="https://therecord.media/destructive-cyberattack-hits-national-bank-of-pakistan/">‘Destructive’ cyberattack hits National Bank of Pakistan</a></li>
+              <li><a class="lnk-orange" href="https://therecord.media/ransomware-attack-disrupts-torontos-public-transportation-system/">Ransomware attack disrupts Toronto’s public transportation system</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/mediamarkt-hit-by-hive-ransomware-initial-240-million-ransom/">MediaMarkt hit by Hive ransomware, initial $240 million ransom</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/us-defense-contractor-electronic-warfare-hit-by-data-breach/">US defense contractor Electronic Warfare hit by data breach</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/uk-labour-party-discloses-data-breach-after-ransomware-attack/">UK Labour Party discloses data breach after ransomware attack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/blackshadow-hackers-breach-israeli-hosting-firm-and-extort-customers/">BlackShadow hackers breach Israeli hosting firm and extort customers</a></li>
+              <li><a class="lnk-orange" href="https://www.cbc.ca/news/canada/newfoundland-labrador/nl-cyber-attack-worst-canada-1.6236210">Newfoundland and Labrador healthcare system has suffered a cyberattack</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/sitecore-xp-rce-flaw-patched-last-month-now-actively-exploited/">Sitecore XP RCE flaw patched last month now actively exploited</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/philips-healthcare-infomatics-solution-vulnerable-to-sql-injection/">Philips healthcare infomatics solution vulnerable to SQL injection</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/mozilla-thunderbird-913-released-to-fix-high-impact-flaws/">Mozilla Thunderbird 91.3 released to fix high impact flaws</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/cisco-fixes-hard-coded-credentials-and-default-ssh-key-issues/">Cisco fixes hard-coded credentials and default SSH key issues</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/over-30-000-gitlab-servers-still-unpatched-against-critical-bug/">Over 30,000 GitLab servers still unpatched against critical bug</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/android-november-patch-fixes-actively-exploited-kernel-bug/">Android November patch fixes actively exploited kernel bug</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/11/experts-detail-malicious-code-dropped.html">Experts Detail Malicious Code Dropped Using ManageEngine ADSelfService Exploit</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/11/critical-rce-vulnerability-reported-in.html">Critical RCE Vulnerability Reported in Linux Kernel's TIPC Module</a></li>
+              <li><a class="lnk-green" href="https://blog.assetnote.io/2021/11/02/sitecore-rce/">Sitecore Experience Platform Pre-Auth RCE - CVE-2021-42237</a></li>
+              <li><a class="lnk-orange" href="https://www.sentinelone.com/labs/tipc-remote-linux-kernel-heap-overflow-allows-arbitrary-code-execution/">CVE-2021-43267: Remote Linux Kernel Heap Overflow | TIPC Module Allows Arbitrary Code Execution</a></li>
+              <li><a class="lnk-purple" href="https://thedfirreport.com/2021/11/01/from-zero-to-domain-admin/">From Zero to Domain Admin</a></li>
+              <li><a class="lnk-blue" href="https://blog.grimm-co.com/2021/11/escalating-xss-to-sainthood-with-nagios.html">Escalating XSS to Sainthood with Nagios</a></li>
+              <li><a class="lnk-pink" href="https://pentestlaboratories.com/2021/11/08/threat-hunting-certificate-account-persistence/">Threat Hunting Certificate Account Persistence</a></li>
+              <li><a class="lnk-green" href="https://medium.com/telecom-expert/more-proactive-sims-f8da2ef8b189">More Proactive SIMs</a></li>
+              <li><a class="lnk-orange" href="https://blog.thinkst.com/2021/11/a-kubeconfig-canarytoken.html">A Kubeconfig Canarytoken</a></li>
+              <li><a class="lnk-purple" href="https://github.com/halencarjunior/sss3">Simple Storage Scanner</a></li>
+              <li><a class="lnk-blue" href="https://mvsp.dev/">Minimum Viable Secure Product</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
