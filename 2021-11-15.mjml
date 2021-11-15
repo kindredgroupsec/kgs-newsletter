@@ -1,0 +1,198 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 15/11/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://video-images.vice.com/articles/618d44632d8aae009635e274/lede/1636652322991-apple-mac.jpeg?crop=1xw:0.8424xh;0xw,0.1197xh&resize=500:*" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">15 Nov 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Google Caught Hackers Using a Mac Zero-Day Against Hong Kong Users</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/618d44632d8aae009635e274/lede/1636652322991-apple-mac.jpeg?crop=1xw:0.8424xh;0xw,0.1197xh&resize=500:*"></mj-image>
+          <mj-text color="#fff">Google researchers caught hackers targeting users in Hong Kong exploiting what were at the time unknown vulnerabilities in Apple’s Mac operating system. According to the researchers, the attacks have the hallmarks of government-backed hackers.</mj-text>
+          <mj-text color="#fff">On Thursday, Google’s Threat Analysis Group (TAG), the company’s elite team of hacker hunters, published a report detailing the hacking campaign. The researchers didn’t go as far as pointing the finger at a specific hacking group or country, but they said it was “a well resourced group, likely state backed.” </mj-text>
+          <mj-text color="#fff">“We do not have enough technical evidence to provide attribution and we do not speculate about attribution,” the head of TAG Shane Huntley told Motherboard in an email. “However, the nature of the activity and targeting is consistent with a government backed actor.”
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.vice.com/en/article/93bw8y/google-caught-hackers-using-a-mac-zero-day-against-hong-kong-users">
+            Read More on Vice
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://blog.google/threat-analysis-group/analyzing-watering-hole-campaign-using-macos-exploits/">
+            Even More on Google blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Hoax Email Blast Abused Poor Coding in FBI Website</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2021/11/10/FBI.jpg"></mj-image>
+          <mj-text>The Federal Bureau of Investigation (FBI) confirmed that its fbi.gov domain name and Internet address were used to blast out thousands of fake emails about a cybercrime investigation. According to an interview with the person who claimed responsibility for the hoax, the spam messages were sent by abusing insecure code in an FBI online portal designed to share information with state and local law enforcement authorities.</mj-text>
+          <mj-text>Late in the evening on Nov. 12 ET, tens of thousands of emails began flooding out from the FBI address eims@ic.fbi.gov, warning about fake cyberattacks. Around that time, KrebsOnSecurity received a message from the same email address.</mj-text>
+          <mj-text>“Hi its pompompurin,” read the missive. “Check headers of this email it’s actually coming from FBI server. I am contacting you today because we located a botnet being hosted on your forehead, please take immediate action thanks.”
+            A review of the email’s message headers indicated it had indeed been sent by the FBI, and from the agency’s own Internet address. The domain in the “from:” portion of the email I received — eims@ic.fbi.gov — corresponds to the FBI’s Criminal Justice Information Services division (CJIS).</mj-text>
+          <mj-button mj-class="bg-pink" href="https://krebsonsecurity.com/2021/11/hoax-email-blast-abused-poor-coding-in-fbi-website/">
+            Read More on Krebs on Security
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/ftc-shares-ransomware-defense-tips-for-small-us-businesses/">FTC shares ransomware defense tips for small US businesses</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/surveillance-firm-pays-1-million-fine-after-spy-van-scandal/">Surveillance firm pays $1 million fine after 'spy van' scandal</a></li>
+              <li><a class="lnk-green" href="https://www.schneier.com/blog/archives/2021/11/hacking-the-sony-playstation-5.html">Hacking the Sony Playstation 5</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-html-smuggling-phishing-attacks/">Microsoft warns of surge in HTML smuggling phishing attacks</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/legal/russian-king-of-fraud-sentenced-to-10-years-for-methbot-scheme/">Russian 'King of Fraud' sentenced to 10 years for Methbot scheme</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-bill-sets-ransomware-attack-response-rules-for-us-financial-orgs/">New bill sets ransomware attack response rules for US financial orgs</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/gmail-accounts-are-used-in-91-percent-of-all-baiting-email-attacks/">Gmail accounts are used in 91% of all baiting email attacks</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/technology/researchers-show-that-apple-s-csam-scanning-can-be-fooled-easily/">Researchers show that Apple’s CSAM scanning can be fooled easily</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/lazarus-hackers-target-researchers-with-trojanized-ida-pro/">Lazarus hackers target researchers with trojanized IDA Pro</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/new-android-malware-targets-netflix-instagram-and-twitter-users/">New Android malware targets Netflix, Instagram, and Twitter users</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/nucleus-13-tcp-security-bugs-impact-critical-healthcare-devices/">NUCLEUS:13 TCP security bugs impact critical healthcare devices</a></li>
+              <li><a class="lnk-pink" href="https://therecord.media/chinaa-cyber-watchdog-unveils-new-draft-data-management-regulations/">China’s cyber watchdog unveils new draft data management regulations</a></li>
+              <li><a class="lnk-green" href="https://therecord.media/cyber-mercenary-group-void-balaur-has-been-hacking-companies-for-years/">Cyber-mercenary group Void Balaur has been hacking companies for years</a></li>
+              <li><a class="lnk-orange" href="https://therecord.media/cert-pl-employees-rally-around-politically-dismissed-chief/">CERT-PL employees rally around politically-dismissed chief</a></li>
+              <li><a class="lnk-purple" href="https://therecord.media/transavia-airline-fined-for-weak-security-practices-that-led-to-data-breach/">Transavia airline fined for weak security practices that led to data breach</a></li>
+              <li><a class="lnk-blue" href="https://therecord.media/china-says-a-foreign-spy-agency-hacked-its-airlines-stole-passenger-records/">China says a foreign spy agency hacked its airlines, stole passenger records</a></li>
+              <li><a class="lnk-pink" href="https://www.microsoft.com/security/blog/2021/11/10/the-hunt-for-nobelium-the-most-sophisticated-nation-state-attack-in-history/">The hunt for NOBELIUM, the most sophisticated nation-state attack in history</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/costco-discloses-data-breach-after-finding-credit-card-skimmer/">Costco discloses data breach after finding credit card skimmer</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/hackers-undetected-on-queensland-water-supplier-server-for-9-months/">Hackers undetected on Queensland water supplier server for 9 months</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/hpe-says-hackers-breached-aruba-central-using-stolen-access-key/">HPE says hackers breached Aruba Central using stolen access key</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/medical-software-firm-urges-password-resets-after-ransomware-attack/">Medical software firm urges password resets after ransomware attack</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2021/11/microsoft-patch-tuesday-november-2021-edition/">Microsoft Patch Tuesday, November 2021 Edition</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/zero-day-bug-in-all-windows-versions-gets-free-unofficial-patch/">Zero-day bug in all Windows versions gets free unofficial patch</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/amd-fixes-dozens-of-windows-10-graphics-driver-security-bugs/">AMD fixes dozens of Windows 10 graphics driver security bugs</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/ironic-twist-wp-reset-pro-bug-lets-hackers-wipe-wordpress-sites/">Ironic twist: WP Reset PRO bug lets hackers wipe WordPress sites</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-excel-zero-day-used-in-attacks-asks-mac-users-to-wait/">Microsoft patches Excel zero-day used in attacks, asks Mac users to wait</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-urges-exchange-admins-to-patch-bug-exploited-in-the-wild/">Microsoft urges Exchange admins to patch bug exploited in the wild</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/11/palo-alto-warns-of-zero-day-bug-in.html">Palo Alto Warns of Zero-Day Bug in Firewalls Using GlobalProtect Portal VPN</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/11/14-new-security-flaws-found-in-busybox.html">14 New Security Flaws Found in BusyBox Linux Utility for Embedded Devices</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://sysdig.com/blog/software-supply-chain-security/">Secure software supply chain: why every link matters</a></li>
+              <li><a class="lnk-pink" href="https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/">Exchange Exploit Leads to Domain Wide Ransomware</a></li>
+              <li><a class="lnk-green" href="https://threatnix.io/blog/exploiting-csp-in-webkit-to-break-authentication-authorization/">Exploiting CSP in Webkit to Break Authentication & Authorization</a></li>
+              <li><a class="lnk-orange" href="https://redhuntlabs.com/blog/scanning-millions-of-publicly-exposed-docker-containers-thousands-of-secrets-leaked.html">Scanning Millions of Publicly Exposed Docker Containers – Thousands of Secrets Leaked</a></li>
+              <li><a class="lnk-purple" href="https://www.secureauth.com/blog/the-kerberos-key-list-attack-the-return-of-the-read-only-domain-controllers/">The Kerberos Key List Attack: The return of the Read Only Domain Controllers</a></li>
+              <li><a class="lnk-blue" href="https://www.intruder.io/research/practical-http-header-smuggling">Practical HTTP Header Smuggling: Sneaking Past Reverse Proxies to Attack AWS and Beyond</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
