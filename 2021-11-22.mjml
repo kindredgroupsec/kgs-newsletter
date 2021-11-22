@@ -1,0 +1,171 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 22/11/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/regulators-banks-have-36-hours-to-report-cyber-incidents-showcase_image-1-a-17959.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">22 Nov 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Regulators: Banks Have 36 Hours to Report Cyber Incidents</mj-text>
+          <mj-image src="https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/regulators-banks-have-36-hours-to-report-cyber-incidents-showcase_image-1-a-17959.jpg"></mj-image>
+          <mj-text color="#fff">U.S. federal banking regulators have approved a new rule that will require banks to notify regulators no later than 36 hours after the organization determines it has suffered a qualifying "computer-security incident," the nation's top financial agencies announced on Thursday.</mj-text>
+          <mj-text color="#fff">Regulators from the Department of the Treasury's Office of the Comptroller of the Currency, the Federal Reserve, and the Federal Deposit Insurance Corp., say that effective April 1, 2022 - with full compliance extended to May 1, 2022 - banking organizations must provide incident notification to the appropriate FDIC supervisory office or an FDIC-designated point of contact, within a day and a half.</mj-text>
+          <mj-text color="#fff">"As technology has evolved, so have the cybersecurity risks with which banks must grapple," said FDIC Chairman Jelena McWilliams in a statement. "The final rule … addresses a gap in timely notification to the banking agencies of the most significant computer-security incidents affecting banking organizations, allowing the FDIC and our fellow banking supervisors to be better positioned to understand and to respond to cybersecurity threats across the banking sector."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bankinfosecurity.com/regulators-banks-have-36-hours-to-report-cyber-incidents-a-17959">
+            Read More on BankInfoSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.vice.com/en/article/pkpbdm/hackers-compromised-middle-east-eye-news-website-to-hack-visitors-researchers-say">Hackers Compromised Middle East Eye News Website to Hack Visitors</a></li>
+              <li><a class="lnk-pink" href="https://arstechnica.com/gadgets/2021/11/duckduckgo-wants-to-stop-apps-tracking-you-on-android/">DuckDuckGo wants to stop apps tracking you on Android</a></li>
+              <li><a class="lnk-green" href="https://www.wired.com/story/nordictrack-ifit-treadmill-privilege-mode/">Locked Out of ‘God Mode,’ Runners Are Hacking Their Treadmills</a></li>
+              <li><a class="lnk-orange" href="https://arstechnica.com/information-technology/2021/11/securing-your-digital-life-part-4/">Securing your digital life, the finale: Debunking worthless “security” practices</a></li>
+              <li><a class="lnk-purple" href="https://www.schneier.com/blog/archives/2021/11/wire-fraud-scam-upgraded-with-bitcoin.html">Wire Fraud Scam Upgraded with Bitcoin</a></li>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2021/11/tech-ceo-pleads-to-wire-fraud-in-ip-address-scheme/">Tech CEO Pleads to Wire Fraud in IP Address Scheme</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2021/11/the-zelle-fraud-scam-how-it-works-how-to-fight-back/">The ‘Zelle Fraud’ Scam: How it Works, How to Fight Back</a></li>
+              <li><a class="lnk-green" href="https://www.wired.com/story/iranian-hackers-going-after-us-critical-infrastructure/">Iranian Hackers Are Going After US Critical Infrastructure</a></li>
+              <li><a class="lnk-orange" href="https://www.wired.com/story/tiktok-friends-contacts-people-you-may-know/">The Sneaky Way TikTok Is Connecting You to Real-Life Friends</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2021/11/facebook-postpones-plans-for-e2e.html">Facebook Postpones Plans for E2E Encryption in Messenger, Instagram Until 2023</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/11/us-uk-and-australia-warn-of-iranian.html">U.S., U.K. and Australia Warn of Iranian Hackers Exploiting Microsoft, Fortinet Flaws</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-authenticator-gets-new-enterprise-security-features/">Microsoft Authenticator gets new enterprise security features</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cisa-releases-cybersecurity-response-plans-for-federal-agencies/">CISA releases cybersecurity response plans for federal agencies</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/threat-actors-offer-millions-for-zero-days-developers-talk-of-exploit-as-a-service/">Threat actors offer millions for zero-days, developers talk of exploit-as-a-service</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/11/11-malicious-pypi-python-libraries.html">11 Malicious PyPI Python Libraries Caught Stealing Discord Tokens and Installing Shells</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-exchange-servers-hacked-in-internal-reply-chain-attacks/">Microsoft Exchange servers hacked in internal reply-chain attacks</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/utah-medical-center-hit-by-data-breach-affecting-582k-patients/">Utah medical center hit by data breach affecting 582k patients</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/six-million-sky-routers-exposed-to-takeover-attacks-for-17-months/">Six million Sky routers exposed to takeover attacks for 17 months</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/fbi-warns-of-apt-group-exploiting-fatpipe-vpn-zero-day-since-may/">FBI warns of APT group exploiting FatPipe VPN zero-day since May</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/npm-fixes-private-package-names-leak-serious-authorization-bug/">NPM fixes private package names leak, serious authorization bug</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/7-million-robinhood-user-email-addresses-for-sale-on-hacker-forum/">7 million Robinhood user email addresses for sale on hacker forum</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/11/new-golang-based-linux-malware.html">New Golang-based Linux Malware Targeting eCommerce Websites</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/11/fbi-issues-flash-alert-on-actively.html">FBI Issues Flash Alert on Actively Exploited FatPipe VPN Zero-Day Bug</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.schneier.com/blog/archives/2021/11/new-rowhammer-technique.html">New Rowhammer Technique</a></li>
+              <li><a class="lnk-pink" href="https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/">Uncovering MosesStaff techniques: Ideology over Money</a></li>
+              <li><a class="lnk-green" href="https://www.sentinelone.com/labs/infect-if-needed-a-deeper-dive-into-targeted-backdoor-macos-macma/">Infect If Needed | A Deeper Dive Into Targeted Backdoor macOS.Macma</a></li>
+              <li><a class="lnk-orange" href="https://research.nccgroup.com/2021/11/18/an-illustrated-guide-to-elliptic-curve-cryptography-validation/">An Illustrated Guide to Elliptic Curve Cryptography Validation</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2021/11/new-side-channel-attacks-re-enable.html">New Side Channel Attacks Re-Enable Serious DNS Cache Poisoning Attacks</a></li>
+              <li><a class="lnk-blue" href="https://kerkour.com/rust-crate-backdoor/">Backdooring Rust crates for fun and profit</a></li>
+              <li><a class="lnk-pink" href="https://blog.scrt.ch/2021/11/15/tpm-sniffing/">TPM sniffing</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
