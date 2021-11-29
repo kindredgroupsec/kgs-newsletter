@@ -1,0 +1,173 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 29/11/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://video-images.vice.com/articles/619b869513501f009412dd4d/lede/1637582519520-gettyimages-1196648108.jpeg?crop=1xw:0.84375xh;center,center&resize=884:*" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">29 Nov 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">It’s 2021 But People are Still Using These Dumb Passwords</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/619b869513501f009412dd4d/lede/1637582519520-gettyimages-1196648108.jpeg?crop=1xw:0.84375xh;center,center&resize=884:*"></mj-image>
+          <mj-text color="#fff">You would imagine that with most of our lives having moved online in these panoramic times, and with a sharp increase in news of someone, somewhere getting hacked, we would be a little more cautious about what our sacred passwords are.</mj-text>
+          <mj-text color="#fff">Unfortunately, a list of the most common passwords in 2021 put out by NordPass will leave you with little hope for humanity. The top-of-the-class honours went to the password “123456,” having been used 103,170,552 times.</mj-text>
+          <mj-text color="#fff">Next in line was “123456789,” which meets the eight character minimum requirement, but not much else in terms of actual security. Apart from more highly hackable number combinations, the top 10 list also has “password” and “qwerty” on it. All of these would take less than a second to breach.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.vice.com/en_us/article/v7dej4/popular-common-passwords-2021-password-123456">
+            Read More on Vice
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://nordpass.com/most-common-passwords-list/">
+            Even More on NordPass
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bbc.com/news/technology-59400762">Huge fines and a ban on default passwords in new UK law</a></li>
+              <li><a class="lnk-pink" href="https://www.apple.com/newsroom/2021/11/apple-sues-nso-group-to-curb-the-abuse-of-state-sponsored-spyware/">Apple sues NSO Group to curb the abuse of state-sponsored spyware</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2021/11/the-internet-is-held-together-with-spit-baling-wire/">The Internet is Held Together With Spit & Baling Wire</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2021/11/arrest-in-ransom-your-employer-email-scheme/">Arrest in ‘Ransom Your Employer’ Email Scheme</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/technology/google-apple-fined-by-italian-authority-for-aggressive-data-collection/">Google, Apple fined by Italian authority for aggressive data collection</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/legal/interpol-arrests-over-1-000-suspects-linked-to-cyber-crime/">Interpol arrests over 1,000 suspects linked to cyber crime</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/hackers-exploit-microsoft-mshtml-bug-to-steal-google-instagram-creds/">Hackers exploit Microsoft MSHTML bug to steal Google, Instagram creds</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/threat-actors-find-and-compromise-exposed-services-in-24-hours/">Threat actors find and compromise exposed services in 24 hours</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/fbi-warns-of-phishing-targeting-high-profile-brands-customers/">FBI warns of phishing targeting high-profile brands' customers</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/biometric-auth-bypassed-using-fingerprint-photo-printer-and-glue/">Biometric auth bypassed using fingerprint photo, printer, and glue</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/11/hackers-using-compromised-google-cloud.html">Hackers Using Compromised Google Cloud Accounts to Mine Cryptocurrency</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/11/what-avengers-movies-can-teach-us-about.html">What Avengers Movies Can Teach Us About Cybersecurity</a></li>
+              <li><a class="lnk-green" href="https://therecord.media/how-the-pandemic-pulled-nigerian-university-students-into-cybercrime/">How the pandemic pulled Nigerian university students into cybercrime</a></li>
+              <li><a class="lnk-orange" href="https://therecord.media/north-korean-hackers-posed-as-samsung-recruiters-to-target-security-researchers/">North Korean hackers posed as Samsung recruiters to target security researchers</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/panasonic-discloses-data-breach-after-network-hack/">Panasonic discloses data breach after network hack</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/marine-services-provider-swire-pacific-offshore-hit-by-ransomware/">Marine services provider Swire Pacific Offshore hit by ransomware</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/godaddy-data-breach-hits-wordpress-hosting-services-resellers/">GoDaddy data breach hits WordPress hosting services resellers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/over-nine-million-android-devices-infected-by-info-stealing-trojan/">Over nine million Android devices infected by info-stealing trojan</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/uk-govt-warns-thousands-of-smbs-their-online-stores-were-hacked/">UK govt warns thousands of SMBs their online stores were hacked</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/godaddy-data-breach-hits-12-million-managed-wordpress-customers/">GoDaddy data breach hits 1.2 million Managed WordPress customers</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/wind-turbine-giant-vestas-data-compromised-in-cyberattack/">Wind turbine giant Vestas' data compromised in cyberattack</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-windows-10-zero-day-gives-admin-rights-gets-unofficial-patch/">New Windows 10 zero-day gives admin rights, gets unofficial patch</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/exploit-released-for-microsoft-exchange-rce-bug-patch-now/">Exploit released for Microsoft Exchange RCE bug, patch now</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2021/11/vmware-warns-of-newly-discovered.html">VMware Warns of Newly Discovered Vulnerabilities in vSphere Web Client</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://omnipod.lyrebirds.dk/">Insulet OmniPod Insulin Management System vulnerability</a></li>
+              <li><a class="lnk-pink" href="https://vavkamil.cz/2021/11/25/wordpress-plugin-confusion-update-can-get-you-pwned/">WordPress Plugin Confusion: How an update can get you pwned</a></li>
+              <li><a class="lnk-green" href="https://www.inversecos.com/2021/11/how-to-detect-azure-active-directory.html">How to Detect Azure Active Directory Backdoors: Identity Federation</a></li>
+              <li><a class="lnk-orange" href="https://www.gosecure.net/blog/2021/11/22/gosecure-investigates-abusing-windows-server-update-services-wsus-to-enable-ntlm-relaying-attacks/">Abusing Windows Server Update Services (WSUS) to Enable NTLM Relaying Attacks</a></li>
+              <li><a class="lnk-purple" href="https://srcincite.io/blog/2021/11/22/unlocking-the-vault.html">Unlocking the Vault :: Unauthenticated Remote Code Execution against CommVault Command Center</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
