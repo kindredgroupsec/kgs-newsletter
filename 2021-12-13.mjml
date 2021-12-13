@@ -1,0 +1,182 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 13/12/2021" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://video-images.vice.com/articles/61b3669dcb105f009c278f8e/lede/1639147412884-img1496.jpeg?crop=1xw:1xh;center,center&resize=1000:*" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">13 Dec 2021</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">A Simple Exploit is Exposing the Biggest Apps on the Internet</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/61b3669dcb105f009c278f8e/lede/1639147412884-img1496.jpeg?crop=1xw:1xh;center,center&resize=1000:*"></mj-image>
+          <mj-text color="#fff">Several popular websites, apps, and services such as Minecraft, iCloud, Twitter, and Steam are reportedly vulnerable to a powerful bug that could allow hackers to take control of their servers and clients, according to several security researchers.</mj-text>
+          <mj-text color="#fff">On Thursday, researchers noticed that a popular Java logging library (log4j) had a bug that allows for Remote Code Execution or RCE, hacker lingo for one of the most dangerous types of vulnerabilities, one that essentially allows hackers to take control of the target. GitHub labeled the vulnerability as “critical severity,” and many researchers, as well as the Director of Cybersecurity at the NSA, are sounding the alarm.</mj-text>
+          <mj-text color="#fff">“This log4j (CVE-2021-44228) vulnerability is extremely bad. Millions of applications use Log4j for logging, the act of keeping a log of any event or action that happens on a server. And all the attacker needs to do is get the app to log a special string,” Marcus Hutchins, a well-known researcher, wrote on Twitter.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.vice.com/en/article/93bag7/a-simple-exploit-is-exposing-the-biggest-apps-on-the-internet">
+            Read More on Vice
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.lunasec.io/docs/blog/log4j-zero-day/">
+            Even More on LunaSec blog
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">AWS Is the Internet's Biggest Single Point of Failure</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/61b0e562a2346a009b79b4d8/lede/1638983398632-amazon-aws.jpeg?crop=1xw:0.8442xh;0xw,0.0882xh&resize=1000:*"></mj-image>
+          <mj-text>On Monday, several services on the internet ground to a halt because of an outage at some Amazon Web Services cloud servers. The outage affected Netflix, Disney Plus, PUBG, League Of Legends, Ring security cameras, as well as Amazon products and delivery infrastructure.</mj-text>
+          <mj-text>People were not able to see pictures of their favorite McDonald’s coffee, nor use their Roomba vacuum cleaners. On Reddit, users reported they were not able to charge their electric vehicles. Even here at Motherboard, we were briefly unable to post new stories, or share them on social media because the outage impacted some of the tools we use.</mj-text>
+          <mj-text>The outage lasted just a few hours, but it showed the world just how much the internet depends on Amazon’s infrastructure.
+            Steven Bellovin, a computer science professor at Columbia University, said that one of the issues with the internet’s dependency on AWS is that there is now a single point of failure for thousands of websites. 
+            “If an attacker can gain control of AWS infrastructure, they could do very great damage. It's likely that that's much harder than penetrating individual companies, because AWS is very, very good at running a secure shop, but of course it's not impossible,” Bellovin told Motherboard in an email. </mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.vice.com/en/article/bvnmvv/aws-is-the-internets-biggest-single-point-of-failure">
+            Read More on Vice
+          </mj-button>
+        </mj-column>
+      </mj-section>
+     <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.vice.com/en_us/article/pkpgd7/kamala-harris-is-right-bluetooth-is-a-security-risk">Kamala Harris Is Right: Bluetooth Is a Security Risk</a></li>
+              <li><a class="lnk-pink" href="https://blog.google/technology/safety-security/new-action-combat-cyber-crime/">New action to combat cyber crime</a></li>
+              <li><a class="lnk-green" href="https://www.euractiv.com/section/data-protection/interview/germanys-new-government-will-firmly-defend-encryption-key-social-democrat-says/">Germany’s new government will firmly defend encryption, key Social Democrat says</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2021/12/canada-charges-its-most-prolific-cybercriminal/">Canada Charges Its “Most Prolific Cybercriminal”</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2021/12/russia-blocks-tor-privacy-service-in.html">Russia Blocks Tor Privacy Service in Latest Censorship Move</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/12/microsoft-seizes-42-malicious-web.html">Microsoft Seizes 42 Malicious Web Domains Used By Chinese Hackers</a></li>
+            </ul>
+          </mj-text>
+                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/volvo-cars-discloses-security-breach-leading-to-randd-data-theft/">Volvo Cars discloses security breach leading to R&D data theft</a></li>
+              <li><a class="lnk-pink" href="ALPHV BlackCat - This year's most sophisticated ransomware">ALPHV BlackCat - This year's most sophisticated ransomware</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cox-discloses-data-breach-after-hacker-impersonates-support-agent/">Cox discloses data breach after hacker impersonates support agent</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2021/12/over-300000-mikrotik-devices-found.html">Over 300,000 MikroTik Devices Found Vulnerable to Remote Hacking Bugs</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2021/12/over-dozen-malicious-npm-packages.html">Over a Dozen Malicious NPM Packages Caught Hijacking Discord Servers</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/data-breach-impacts-80-000-south-australian-govt-employees/">Data breach impacts 80,000 South Australian govt employees</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2021/12/sonicwall-urges-customers-to.html">SonicWall Urges Customers to Immediately Patch Critical SMA 100 Flaws</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2021/12/extremely-critical-log4j-vulnerability.html">Critical Log4J Vulnerability Leaves Much of the Internet at Risk</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/grafana-fixes-zero-day-vulnerability-after-exploits-spread-over-twitter/">Grafana fixes zero-day vulnerability after exploits spread over Twitter</a></li>
+            </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://research.nccgroup.com/2021/12/12/log4shell-reconnaissance-and-post-exploitation-network-detection/">Log4Shell: Reconnaissance and post exploitation network detection</a></li>
+              <li><a class="lnk-pink" href="https://www.sentinelone.com/labs/usb-over-ethernet-multiple-privilege-escalation-vulnerabilities-in-aws-and-other-major-cloud-services/">USB Over Ethernet | Multiple Vulnerabilities in AWS and Other Major Cloud Services</a></li>
+              <li><a class="lnk-green" href="https://research.nccgroup.com/2021/12/09/why-iot-security-matters/">Why IoT Security Matters</a></li>
+              <li><a class="lnk-orange" href="https://positive.security/blog/ms-officecmd-rce">Windows 10 RCE: The exploit is in the link</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
