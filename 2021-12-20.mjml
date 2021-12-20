@@ -101,7 +101,7 @@
 
       <mj-section background-color="#d42426">
         <mj-column>
-          <mj-text mj-class="white h3" align="center">This is the last Kindred Security Newsletter for 2020</mj-text>
+          <mj-text mj-class="white h3" align="center">This is the last Kindred Security Newsletter for 2021</mj-text>
           <mj-image src="https://news.infosecgur.us/assets/christmas-2.png"></mj-image>
 
           <mj-text mj-class="white">It's time for the Kindred Group Security team to take some holiday. The newsletter will be off for a few weeks during Christmas and New Year's Eve. But don't worry, we'll be back. See you soon for some awesome infosec news!</mj-text>
