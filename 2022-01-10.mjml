@@ -58,7 +58,7 @@
         <meta name="twitter:site" content="@kindredgroup" />
         <meta name="twitter:title" content="Kindred Security Newsletter - 10/01/2022" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
-        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <meta name="twitter:image" content="https://pyxis.nymag.com/v1/imgs/713/db4/bc7671f72d4bdd086ca2222dec1165a9f2-1721FEA-Phishing-Phishing-Opener-Final.2x.rsocial.w600.jpg" />
         <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
       </mj-style>
 
@@ -88,60 +88,16 @@
       <!-- Featured (blue) Article -->
       <mj-section background-color="#00a5de">
         <mj-column>
-          <mj-text mj-class="white h2" align="center">Featured</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text color="#fff">text</mj-text>
-          <mj-text color="#fff">text</mj-text>
-          <mj-text color="#fff">text</mj-text>
-          <mj-button background-color="#fff" mj-class="blue" href="URL">
-            Read More
-          </mj-button>
-          <mj-button background-color="#fff" mj-class="blue" href="URL">
-            Even More
+          <mj-text mj-class="white h2" align="center">Spine Collector Arrested by FBI, But the Saga Isn’t Over</mj-text>
+          <mj-image src="https://pyxis.nymag.com/v1/imgs/713/db4/bc7671f72d4bdd086ca2222dec1165a9f2-1721FEA-Phishing-Phishing-Opener-Final.2x.rsocial.w600.jpg"></mj-image>
+          <mj-text color="#fff">The U.S. Attorney’s Office for the Southern District of New York announced that it had arrested Filippo Bernardini, a 29-year-old Italian man, for allegedly conducting a dastardly scheme that has bewildered the book-publishing business for the better part of five years.</mj-text>
+          <mj-text color="#fff">Bernardini, who works in the foreign-rights department of the British arm of Simon & Schuster, is accused of impersonating hundreds of his colleagues — editors, agents, literary scouts — by creating fake email accounts in order to dupe others into sharing book manuscripts before they have been published. </mj-text>
+          <mj-text color="#fff">The thief had gone after hundreds of books, from titles by big-name authors (Margaret Atwood, Anthony Doerr, Jennifer Egan) to books by debut novelists most readers had never heard of. And no one could figure out why they were doing it at all.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.vulture.com/2022/01/fbi-may-have-cracked-open-the-case-of-the-spine-collector.html">
+            Read More on Vulture
           </mj-button>
         </mj-column>
       </mj-section>
-
-
-
-      <!-- Pink Articles -->
-      <mj-section background-color="#fff">
-        <mj-column>
-          <mj-spacer height="30px" />
-          <mj-text mj-class="pink h2">News2</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-button mj-class="bg-pink" href="#">
-            Read More
-          </mj-button>
-          <mj-button mj-class="bg-pink" href="#">
-            Even More
-          </mj-button>
-        </mj-column>
-      </mj-section>
-
-
-
-      <!-- Green Articles -->
-      <mj-section background-color="#fff">
-        <mj-column>
-          <mj-spacer height="30px" />
-          <mj-text mj-class="green h2">News3</mj-text>
-          <mj-image src="PIC"></mj-image>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-text>text</mj-text>
-          <mj-button mj-class="bg-green" href="URL">
-            Read More
-          </mj-button>
-          <mj-button mj-class="bg-green" href="URL">
-            Even More
-          </mj-button>
-        </mj-column>
-      </mj-section>
-
 
       <mj-section background-color="#fff">
         <mj-column>
@@ -149,108 +105,64 @@
           <mj-text mj-class="h2">More #News</mj-text>
           <mj-text>
             <ul>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-            </ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2022/01/500m-avira-antivirus-users-introduced-to-cryptomining/">500M Avira Antivirus Users Introduced to Cryptomining</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2022/01/norton-360-now-comes-with-a-cryptominer/">Norton 360 Now Comes With a Cryptominer</a></li>
+              <li><a class="lnk-green" href="https://www.wired.com/story/signal-mobilecoin-cryptocurrency-payments/">Signal's Cryptocurrency Feature Has Gone Worldwide</a></li>
+              <li><a class="lnk-orange" href="https://www.wired.com/story/will-hurd-tech-regulation-american-reboot/">The Future of Tech Is Here. Congress Isn't Ready for It</a></li>
+              <li><a class="lnk-purple" href="https://www.wired.com/story/lo4j-ftc-vulnerability/">The FTC Wants Companies to Find Log4j Fast. It Won't Be So Easy</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/us-arrests-suspect-who-stole-unpublished-books-in-phishing-attacks/">US arrests suspect who stole unpublished books in phishing attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/swiss-army-bans-all-chat-apps-but-locally-developed-threema/">Swiss army bans all chat apps but locally-developed Threema</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/legal/france-hits-facebook-and-google-with-210-million-in-fines/">France hits Facebook and Google with $210 million in fines</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/us-govt-provides-new-guidelines-for-authentication-systems/">US govt provides new guidelines for authentication systems</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/purple-fox-malware-distributed-via-malicious-telegram-installers/">Purple Fox malware distributed via malicious Telegram installers</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/university-loses-77tb-of-research-data-due-to-backup-error/">University loses 77TB of research data due to backup error</a></li>
+              <li><a class="lnk-pink" href="https://www.bitdefender.com/blog/hotforsecurity/us-police-parking-meters-phishing-qr-codes/">US Police Warn of Parking Meters with Phishing QR Codes</a></li>
+           </ul>
           </mj-text>
-                    <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
           <mj-text>
             <ul>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-            </ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/flexbooker-discloses-data-breach-over-37-million-accounts-impacted/">FlexBooker discloses data breach, over 3.7 million accounts impacted</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/us-online-pharmacy-ravkoo-links-data-breach-to-aws-portal-incident/">US online pharmacy Ravkoo links data breach to AWS portal incident</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/ny-oag-hackers-stole-11-million-customer-accounts-from-17-companies/">NY OAG: Hackers stole 1.1 million customer accounts from 17 companies</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/hackers-use-video-player-to-steal-credit-cards-from-over-100-sites/">Hackers use video player to steal credit cards from over 100 sites</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/uscellular-discloses-data-breach-after-billing-system-hack/">UScellular discloses data breach after billing system hack</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/broward-health-discloses-data-breach-affecting-13-million-people/">Broward Health discloses data breach affecting 1.3 million people</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/pulsetv-discloses-potential-compromise-of-200-000-credit-cards/">PulseTV discloses potential compromise of 200,000 credit cards</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/lastpass-users-warned-their-master-passwords-are-compromised/">LastPass users warned their master passwords are compromised</a></li>
+           </ul>
           </mj-text>
           <mj-spacer height="30px" />
           <mj-text mj-class="h2">#Patch Time!</mj-text>
           <mj-text>
             <ul>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-            </ul>
+              <li><a class="lnk-blue" href="https://www.wired.com/story/zloader-microsoft-signature-verification-hack/">Hackers Are Exploiting a Flaw Microsoft Fixed 9 Years Ago</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/nhs-warns-of-hackers-exploiting-log4shell-in-vmware-horizon/">NHS warns of hackers exploiting Log4Shell in VMware Horizon</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/qnap-warns-of-ransomware-targeting-internet-exposed-nas-devices/">QNAP warns of ransomware targeting Internet-exposed NAS devices</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-fix-for-exchange-year-2022-bug/">Microsoft releases emergency fix for Exchange year 2022 bug</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/wordpress-583-security-update-fixes-sql-injection-xss-flaws/">WordPress 5.8.3 security update fixes SQL injection, XSS flaws</a></li>
+              <li><a class="lnk-blue" href="https://www.bitdefender.com/blog/hotforsecurity/google-patches-critical-security-flaws-with-chrome-97-release/">Google Patches Critical Security Flaws with Chrome 97 Release</a></li>
+           </ul>
           </mj-text>
           <mj-spacer height="30px" />
           <mj-text mj-class="h2">#Tech and #Tools</mj-text>
           <mj-text>
             <ul>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-              <li><a class="lnk-blue" href="URL">cut1</a></li>
-              <li><a class="lnk-pink" href="URL">cut2</a></li>
-              <li><a class="lnk-green" href="URL">cut3</a></li>
-              <li><a class="lnk-orange" href="URL">cut4</a></li>
-              <li><a class="lnk-purple" href="URL">cut5</a></li>
-            </ul>
+              <li><a class="lnk-blue" href="https://research.checkpoint.com/2022/can-you-trust-a-files-digital-signature-new-zloader-campaign-exploits-microsofts-signature-verification-putting-users-at-risk/">Can You Trust a File’s Digital Signature?</a></li>
+              <li><a class="lnk-pink" href="https://posts.specterops.io/ghostwriter-looking-back-at-2021-6b580acabb7e?source=rss----f05f8696e3cc---4">Ghostwriter: Looking Back at 2021</a></li>
+              <li><a class="lnk-green" href="https://research.checkpoint.com/2021/a-deep-dive-into-doublefeature-equation-groups-post-exploitation-dashboard/">A Deep Dive into DoubleFeature, Equation Group’s Post-Exploitation Dashboard</a></li>
+              <li><a class="lnk-orange" href="https://blog.assetnote.io/2021/12/26/chained-ssrf-websphere/">Turning bad SSRF to good SSRF: Websphere Portal</a></li>
+              <li><a class="lnk-purple" href="https://portswigger.net/research/top-10-web-hacking-techniques-of-2021-nominations-open">Top 10 web hacking techniques of 2021 - nominations open</a></li>
+              <li><a class="lnk-blue" href="https://www.sentinelone.com/labs/a-threat-hunters-guide-to-the-macs-most-prevalent-adware-infections-2022/">A Threat Hunter’s Guide to the Mac’s Most Prevalent Adware Infections 2022</a></li>
+              <li><a class="lnk-pink" href="https://research.nccgroup.com/2021/12/31/on-the-malicious-use-of-large-language-models-like-gpt-3/">On the malicious use of large language models like GPT-3</a></li>
+              <li><a class="lnk-green" href="https://www.reddit.com/r/netsec/comments/ryjex5/npm_might_be_executing_malicious_code_in_your_ci/">NPM might be executing malicious code in your CI without your knowledge</a></li>
+              <li><a class="lnk-orange" href="https://www.reddit.com/r/netsec/comments/rxc3dn/sans_christmas_challenge_2021_writeup/">SANS Christmas Challenge 2021 - Write-up</a></li>
+              <li><a class="lnk-purple" href="https://www.reddit.com/r/netsec/comments/rvxpcm/sears_garage_door_signal_reverse_engineering/">Sears Garage Door Signal Reverse Engineering</a></li>
+           </ul>
           </mj-text>
         </mj-column>
       </mj-section>
-
       <mj-section background-color="#fff">
         <mj-column>
           <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
