@@ -72,6 +72,7 @@
           <mj-spacer height="30px" />
           <mj-text mj-class="pink h2">2022</mj-text>
           <mj-list>
+          <li><a href="./2022-01-17.html" class="lnk-blue">17 Jan 2022</a> (<a href="./2022-01-17.pdf" class="lnk-green">PDF</a>)</li>
           <li><a href="./2022-01-10.html" class="lnk-blue">10 Jan 2022</a> (<a href="./2022-01-10.pdf" class="lnk-green">PDF</a>)</li>
           </mj-list>
           <mj-text mj-class="purple h2">2021</mj-text>

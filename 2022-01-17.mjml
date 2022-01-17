@@ -1,0 +1,193 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 17/01/2022" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://video-images.vice.com/articles/61e18bc7ce101c009440f846/lede/1642177327006-revil-fsb-ransomware.jpeg?crop=1xw:0.8355xh;0xw,0.0198xh&resize=500:*" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">17 Jan 2022</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Russia Says It Arrested Members of Notorious ‘REvil’ Ransomware Gang</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/61e18bc7ce101c009440f846/lede/1642177327006-revil-fsb-ransomware.jpeg?crop=1xw:0.8355xh;0xw,0.0198xh&resize=500:*"></mj-image>
+          <mj-text color="#fff">Russia’s Federal Security Service said on Friday that it arrested 14 alleged members of the ransomware gang responsible for the several major attacks in the last year.</mj-text>
+          <mj-text color="#fff">In a press release, the FSB announced that it has mapped out the whole criminal organization behind REvil, a ransomware group known for hitting JBS, a large meat manufacturer, and the business software provider Kaseya. Security researchers believe REvil is connected to another group called DarkSide, which the FBI blamed for the hack on Colonial Pipeline hack the operator of the largest gas pipeline in the United States.</mj-text>
+          <mj-text color="#fff">The authorities searched 25 residences of the 14 members, seizing 426 million Rubles (some in cryptocurrency), $600,000, and 500,000 euros, as well as computers, crypto wallets and 20 “premium cars,” according to the press release.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.vice.com/en_us/article/k7w3wm/russia-says-it-arrested-members-of-notorious-revil-ransomware-gang">
+            Read More on Vice
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.reuters.com/technology/russia-arrests-dismantles-revil-hacking-group-us-request-report-2022-01-14/">
+            Even More on Reuters
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">How a Hacker Controlled Dozens of Teslas Using a Flaw in Third-Party App</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/61e0418138835100961a4043/lede/1642087222940-tesla.jpeg?crop=1xw:0.8441xh;0xw,0.1559xh&resize=500:*"></mj-image>
+          <mj-text>A 19-year-old hacker and security researcher said he was able to control some features of dozens of Tesla cars all over the world thanks to a vulnerability in a third-party app that allows car owners to track their car’s movements, remotely unlock doors, open windows, start keyless driving, honk, and flash lights. </mj-text>
+          <mj-text>David Colombo, the researcher who found the issue, asked Motherboard not to reveal all the details about his findings—such as the name of the third-party app—given that some of the vulnerabilities he discovered are yet to be fixed. Colombo allowed Motherboard to review his upcoming blog post, which contained the details. </mj-text>
+          <mj-text>Crucially, he said he cannot control the most important functions of the cars remotely, such as steering, accelerating, and braking. But he could still wreak some havoc.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.vice.com/en/article/akv7z5/how-a-hacker-controlled-dozens-of-teslas-using-a-flaw-in-third-party-app">
+            Read More on Vice
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://therecord.media/hotel-chain-switches-to-chrome-os-to-recover-from-ransomware-attack/">Hotel chain switches to Chrome OS to recover from ransomware attack</a></li>
+              <li><a class="lnk-pink" href="https://therecord.media/ea-blames-support-staff-for-recent-hacks-of-high-profile-fifa-accounts/">BRIEF EA blames support staff for recent hacks of high-profile FIFA accounts</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/russia-charges-8-suspected-revil-ransomware-gang-members/">Russia charges 8 suspected REvil ransomware gang members</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/former-dhs-official-charged-with-stealing-govt-employees-pii/">Former DHS official charged with stealing govt employees' PII</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/white-house-reminds-tech-giants-open-source-is-a-national-security-issue/">White House reminds tech giants open source is a national security issue</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/android-users-can-now-disable-2g-to-block-stingray-attacks/">Android users can now disable 2G to block Stingray attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/fcc-wants-new-data-breach-reporting-rules-for-telecom-carriers/">FCC wants new data breach reporting rules for telecom carriers</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/ukranian-police-arrests-ransomware-gang-that-hit-over-50-firms/">Ukranian police arrests ransomware gang that hit over 50 firms</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/uk-jails-man-for-spying-on-teenagers-stealing-photos-using-rats/">UK jails man for spying on teenagers, stealing photos using RATs</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/cisa-alerts-federal-agencies-of-ancient-bugs-still-being-exploited/">CISA alerts federal agencies of ancient bugs still being exploited</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/extortion-ddos-attacks-grow-stronger-and-more-common/">Extortion DDoS attacks grow stronger and more common</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/europol-ordered-to-erase-data-on-those-not-linked-to-crime/">Europol ordered to erase data on those not linked to crime</a></li>
+              <li><a class="lnk-orange" href="https://www.schneier.com/blog/archives/2022/01/an-examination-of-the-bug-bounty-marketplace.html">An Examination of the Bug Bounty Marketplace</a></li>
+              <li><a class="lnk-purple" href="https://krebsonsecurity.com/2022/01/at-request-of-u-s-russia-rounds-up-14-revil-ransomware-affiliates/">At Request of U.S., Russia Rounds Up 14 REvil Ransomware Affiliates</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/goodwill-discloses-data-breach-on-its-shopgoodwill-platform/">Goodwill discloses data breach on its ShopGoodwill platform</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/defense-contractor-hensoldt-confirms-lorenz-ransomware-attack/">Defense contractor Hensoldt confirms Lorenz ransomware attack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/multiple-ukrainian-government-websites-hacked-and-defaced/">Multiple Ukrainian government websites hacked and defaced</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/windows-remotepotato0-zero-day-gets-an-unofficial-patch/">Windows 'RemotePotato0' zero-day gets an unofficial patch</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/apple-fixes-doorlock-bug-that-can-disable-iphones-and-ipads/">Apple fixes doorLock bug that can disable iPhones and iPads</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2022/01/wormable-flaw-leads-january-2022-patch-tuesday/">‘Wormable’ Flaw Leads January 2022 Patch Tuesday</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2022/01/high-severity-vulnerability-in-3.html">High-Severity Vulnerability in 3 WordPress Plugins</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/microsoft-defender-weakness-lets-hackers-bypass-malware-detection/">Microsoft Defender weakness lets hackers bypass malware detection</a></li>
+              <li><a class="lnk-pink" href="https://blog.malwarebytes.com/threat-intelligence/2022/01/patchwork-apt-caught-in-its-own-web/">Patchwork APT caught in its own web</a></li>
+              <li><a class="lnk-green" href="https://blog.zecops.com/research/persistence-without-persistence-meet-the-ultimate-persistence-bug-noreboot/">Persistence without “Persistence”: Meet The Ultimate Persistence Bug – “NoReboot”</a></li>
+              <li><a class="lnk-orange" href="https://www.schneier.com/blog/archives/2022/01/apples-private-relay-is-being-blocked.html">Apple’s Private Relay Is Being Blocked</a></li>
+              <li><a class="lnk-purple" href="https://research.checkpoint.com/2022/apt35-exploits-log4j-vulnerability-to-distribute-new-modular-powershell-toolkit/">APT35 exploits Log4j vulnerability to distribute new modular PowerShell toolkit</a></li>
+              <li><a class="lnk-blue" href="https://www.sentinelone.com/labs/wading-through-muddy-waters-recent-activity-of-an-iranian-state-sponsored-threat-actor/">Wading Through Muddy Waters | Recent Activity of an Iranian State-Sponsored Threat Actor</a></li>
+              <li><a class="lnk-pink" href="https://www.sentinelone.com/labs/cve-2021-45608-netusb-rce-flaw-in-millions-of-end-user-routers/">CVE-2021-45608 | NetUSB RCE Flaw in Millions of End User Routers</a></li>
+              <li><a class="lnk-green" href="https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/">10 real-world stories of how we’ve compromised CI/CD pipelines</a></li>
+              <li><a class="lnk-orange" href="https://bishopfox.com/blog/exploit-for-cve-2021-35211">Creating an Exploit: SolarWinds Vulnerability CVE-2021-35211</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2022/01/new-unpatched-apple-safari-browser-bug.html">New Unpatched Apple Safari Browser Bug Allows Cross-Site User Tracking</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
