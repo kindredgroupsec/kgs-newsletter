@@ -1,0 +1,191 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 24/01/2022" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://video-images.vice.com/articles/61e981b1bf2d5e0095b3e98a/lede/1642693067300-instagram-accounts.png?crop=0.9925925925925926xw:1xh;center,center&resize=500:*" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">24 Jan 2022</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Sketchy ‘Account Recovery’ Services Are Trying to Scam Hacking Victims on Twitter</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/61e981b1bf2d5e0095b3e98a/lede/1642693067300-instagram-accounts.png?crop=0.9925925925925926xw:1xh;center,center&resize=500:*"></mj-image>
+          <mj-text color="#fff">People often get locked out of their online accounts. Sometimes they may have lost access to the email address registered to the account. Or perhaps the site or social network’s process for getting back in is so convoluted or ineffective, like Instagram’s, that people pay thousands of dollars for help from semi-professionals.</mj-text>
+          <mj-text color="#fff">This market of third-party account recovery services is a seemingly ballooning industry, with some legitimate players and likely some scams too. And now they’re fighting over potential clients who tweet about their hacked or otherwise inaccessible accounts, using bots to automatically reply to people on Twitter pointing people to their recovery services.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.vice.com/en/article/k7w39x/account-recovery-service-twitter-hacked-instagram-coinbase">
+            Read More on Vice
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">A Trip to the Dark Site — Leak Sites Analyzed</mj-text>
+          <mj-image src="https://thehackernews.com/new-images/img/a/AVvXsEi2O1aJxozB91KvY5iFT2oUTU57qiO0ocm7BroT-xpf70n62xmKAMD-beyQ2QfZRUoRJnk6e-fca-Yrk-JOTc4Wda1RcDIoIBn44ujBlEkqFfjVhxwiS7b46zSM_sqpDLRFGwtEqzB-44k35sSiH2hgbi2ZBqL0mvY-6PcVPp8CgfU8d1jLpiB1Y2k8=s728-e1000"></mj-image>
+          <mj-text>Gone are the days when ransomware operators were happy with encrypting files on-site and more or less discretely charged their victims money for a decryption key. What we commonly find now is encryption with the additional threat of leaking stolen data, generally called Double-Extortion (or, as we like to call it: Cyber Extortion or Cy-X).</mj-text>
+          <mj-text>This is a unique form of cybercrime in that we can observe and analyze some of the criminal action via 'victim shaming' leak sites.</mj-text>
+          <mj-text>Since January 2020, we have applied ourselves to identifying as many of these sites as possible to record and document the victims who feature on them. Adding our own research, analyzing, and enriching data scraped from the various Cy-X operators and market sites, we can provide direct insights into the victimology from this specific perspective.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://thehackernews.com/2022/01/a-trip-to-dark-site-leak-sites-analyzed.html">
+            Read More on The Hacker News
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2022/01/irs-will-soon-require-selfies-for-online-access/">IRS Will Soon Require Selfies for Online Access</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2022/01/crime-shop-sells-hacked-logins-to-other-crime-shops/">Crime Shop Sells Hacked Logins to Other Crime Shops</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/fbi-warns-of-malicious-qr-codes-used-to-steal-your-money/">FBI warns of malicious QR codes used to steal your money</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/cisa-adds-17-vulnerabilities-to-list-of-bugs-exploited-in-attacks/">CISA adds 17 vulnerabilities to list of bugs exploited in attacks</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/us-sanctions-former-ukrainian-official-for-helping-russian-cyberspies/">US sanctions former Ukrainian official for helping Russian cyberspies</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/biden-signs-memo-to-boost-us-national-security-systems-defenses/">Biden signs memo to boost US national security systems’ defenses</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/interpol-arrests-11-bec-gang-members-linked-to-50-000-targets/">Interpol arrests 11 BEC gang members linked to 50,000 targets</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/beijing-2022-winter-olympics-app-bursting-with-privacy-risks/">Beijing 2022 Winter Olympics app bursting with privacy risks</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/europol-shuts-down-vpn-service-used-by-ransomware-groups/">Europol shuts down VPN service used by ransomware groups</a></li>
+              <li><a class="lnk-purple" href="https://www.wired.com/story/google-analytics-europe-austria-privacy-shield/">Europe’s Move Against Google Analytics Is Just the Beginning</a></li>
+              <li><a class="lnk-blue" href="https://therecord.media/nigerian-police-arrest-members-of-silverterrier-bec-gang/">Nigerian police arrest members of SilverTerrier BEC gang</a></li>
+              <li><a class="lnk-pink" href="https://therecord.media/europol-takes-down-vpnlab-a-service-used-by-ransomware-gangs/">Europol takes down VPNLab, a service used by ransomware gangs</a></li>
+              <li><a class="lnk-green" href="https://therecord.media/eu-wants-to-build-its-own-dns-infrastructure-with-built-in-filtering-capabilities/">EU wants to build its own DNS infrastructure with built-in filtering capabilities</a></li>
+              <li><a class="lnk-orange" href="https://www.schneier.com/blog/archives/2022/01/uk-government-to-launch-pr-campaign-undermining-end-to-end-encryption.html">UK Government to Launch PR Campaign Undermining End-to-End Encryption</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/over-90-wordpress-themes-plugins-backdoored-in-supply-chain-attack/">Over 90 WordPress themes, plugins backdoored in supply chain attack</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/cryptocom-confirms-483-accounts-hacked-34-million-withdrawn/">Crypto.com confirms 483 accounts hacked, $34 million withdrawn</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/indonesias-central-bank-confirms-ransomware-attack-conti-leaks-data/">Indonesia's central bank confirms ransomware attack, Conti leaks data</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/red-cross-cyberattack-exposes-data-of-515-000-people-seeking-missing-family/">Red Cross cyberattack exposes data of 515,000 people seeking missing family</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/marketing-giant-rrd-confirms-data-theft-in-conti-ransomware-attack/">Marketing giant RRD confirms data theft in Conti ransomware attack</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/fashion-giant-moncler-confirms-data-breach-after-ransomware-attack/">Fashion giant Moncler confirms data breach after ransomware attack</a></li>
+              <li><a class="lnk-pink" href="https://www.inforisktoday.com/indian-fashion-retailer-data-leaked-on-darknet-marketplace-a-18330">Indian Fashion Retailer Data Leaked on Darknet Marketplace</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/wordpress-plugin-flaw-puts-users-of-20-000-sites-at-phishing-risk/">WordPress plugin flaw puts users of 20,000 sites at phishing risk</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-solarwinds-fixes-serv-u-bug-exploited-for-log4j-attacks/">Microsoft: SolarWinds fixes Serv-U bug exploited for Log4j attacks</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/zoho-plugs-another-critical-security-hole-in-desktop-central/">Zoho plugs another critical security hole in Desktop Central</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-oob-updates-for-january-windows-update-issues/">Microsoft releases OOB updates for January Windows update issues</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://research.checkpoint.com/2022/scammers-are-creating-new-fraudulent-crypto-tokens-and-misconfiguring-smart-contracts-to-steal-funds/">Scammers are creating new fraudulent Crypto Tokens and misconfiguring smart contract’s to steal funds</a></li>
+              <li><a class="lnk-pink" href="https://blog.assetnote.io/2022/01/17/workspace-one-access-ssrf/">Stealing administrative JWT's through post auth SSRF (CVE-2021-22056)</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-moonbounce-uefi-malware-used-by-apt41-in-targeted-attacks/">New MoonBounce UEFI malware used by APT41 in targeted attacks</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/safari-bug-leaks-your-google-account-info-browsing-history/">Safari bug leaks your Google account info, browsing history</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2022/01/emotet-now-using-unconventional-ip.html">Emotet Now Using Unconventional IP Address Formats to Evade Detection</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2022/01/chinese-hackers-spotted-using-new-uefi.html">Chinese Hackers Spotted Using New UEFI Firmware Implant in Targeted Attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.armosec.io/blog/cve-2022-0185-kubernetes-users/">What does the newest kernel exploit mean for Kubernetes users and how to detect it?</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
