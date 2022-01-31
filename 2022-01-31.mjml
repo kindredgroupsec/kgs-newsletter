@@ -1,0 +1,171 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 31/01/2022" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://krebsonsecurity.com/wp-content/uploads/2022/01/cliffguy-768x572.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">31 Jan 2022</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Scary Fraud Ensues When ID Theft & Usury Collide</mj-text>
+          <mj-image src="https://krebsonsecurity.com/wp-content/uploads/2022/01/cliffguy-768x572.png"></mj-image>
+          <mj-text color="#fff">What’s worse than finding out that identity thieves took out a 546 percent interest payday loan in your name? How about a 900 percent interest loan? Or how about not learning of the fraudulent loan until it gets handed off to collection agents? One reader’s nightmare experience spotlights what can happen when ID thieves and hackers start targeting online payday lenders.</mj-text>
+          <mj-text color="#fff">The reader who shared this story (and copious documentation to go with it) asked to have his real name omitted to avoid encouraging further attacks against his identity. So we’ll just call him “Jim.” Last May, someone applied for some type of loan in Jim’s name. The request was likely sent to an online portal that takes the borrower’s loan application details and shares them with multiple prospective lenders, because Jim said over the next few days he received dozens of emails and calls from lenders wanting to approve him for a loan.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://krebsonsecurity.com/2022/01/scary-fraud-ensues-when-id-theft-usury-collide/">
+            Read More on KrebsonSecurity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2022/01/fake-investor-john-bernard-sinks-norwegian-green-shipping-dreams/">Fake Investor John Bernard Sinks Norwegian Green Shipping Dreams</a></li>
+              <li><a class="lnk-green" href="https://www.sentinelone.com/labs/hacktivism-and-state-sponsored-knock-offs-attributing-deceptive-hack-and-leak-operations/">Hacktivism and State-Sponsored Knock-Offs | Attributing Deceptive Hack-and-Leak Operations</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/us-bans-major-chinese-telecom-over-national-security-risks/">US bans major Chinese telecom over national security risks</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/eu-to-create-pan-european-cyber-incident-coordination-framework/">EU to create pan-European cyber incident coordination framework</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/finnish-diplomats-phones-infected-with-nso-group-pegasus-spyware/">Finnish diplomats’ phones infected with NSO Group Pegasus spyware</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/105-million-android-users-targeted-by-subscription-fraud-campaign/">105 million Android users targeted by subscription fraud campaign</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/white-house-wants-us-govt-to-use-a-zero-trust-security-model/">White House wants US govt to use a Zero Trust security model</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/uk-govt-releasing-nmap-scripts-to-find-unpatched-vulnerabilities/">UK govt releasing Nmap scripts to find unpatched vulnerabilities</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/russia-arrests-leader-of-infraud-organization-hacker-group/">Russia arrests leader of “Infraud Organization” hacker group</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2022/01/apple-pays-100500-bounty-to-hacker-who.html">Apple Pays $100,500 Bounty to Hacker Who Found Way to Hack MacBook Webcam</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2022/01/german-court-rules-websites-embedding.html">German Court Rules Websites Embedding Google Fonts Violates GDPR</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2022/01/microsoft-mitigated-record-breaking-347.html">Microsoft Mitigated Record-Breaking 3.47 Tbps DDoS Attack on Azure Customers</a></li>
+              <li><a class="lnk-orange" href="https://therecord.media/biden-administration-launches-initiative-to-protect-u-s-water-systems-from-cyberattacks/">Biden administration launches initiative to protect U.S. water systems from cyberattacks</a></li>
+              <li><a class="lnk-purple" href="https://therecord.media/cybercriminals-laundered-8-6-billion-worth-of-cryptocurrency-in-2021/">Cybercriminals laundered $8.6 billion worth of cryptocurrency in 2021</a></li>
+              <li><a class="lnk-blue" href="https://www.schneier.com/blog/archives/2022/01/tracking-secret-german-organizations-with-apple-airtags.html">Tracking Secret German Organizations with Apple AirTags</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/taiwanese-apple-and-tesla-contractor-hit-by-conti-ransomware/">Taiwanese Apple and Tesla contractor hit by Conti ransomware</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/segway-store-hacked-to-steal-customers-credit-cards/">Segway store hacked to steal customers' credit cards</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/canadas-foreign-affairs-ministry-hacked-some-services-down/">Canada's foreign affairs ministry hacked, some services down</a></li>
+              <li><a class="lnk-orange" href="https://therecord.media/deadbolt-ransomware-hits-more-than-3600-qnap-nas-devices/">Deadbolt ransomware hits more than 3,600 QNAP NAS devices</a></li>
+              <li><a class="lnk-purple" href="https://therecord.media/qubit-finance-platform-hacked-for-80-million-worth-of-cryptocurrency/">Qubit Finance platform hacked for $80 million worth of cryptocurrency</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/unsecured-aws-server-exposed-airport-employee-records-3tb-in-data/">Unsecured AWS server exposed 3TB in airport employee records</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/windows-vulnerability-with-new-public-exploits-lets-you-become-admin/">Windows vulnerability with new public exploits lets you become admin</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/apple/apple-fixes-new-zero-day-exploited-to-hack-macos-ios-devices/">Apple fixes new zero-day exploited to hack macOS, iOS devices</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/linux-system-service-bug-gives-root-on-all-major-distros-exploit-released/">Linux system service bug gives root on all major distros, exploit released</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/vmware-patch-horizon-servers-against-ongoing-log4j-attacks/">VMware: Patch Horizon servers against ongoing Log4j attacks!</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/3-foundational-pillars-for-attack-path-management-pillar-2-empirical-impact-assessment-17d81f9f4a8f">3 Foundational Pillars for Attack Path Management: Pillar 2 — Empirical Impact Assessment</a></li>
+              <li><a class="lnk-pink" href="https://blog.assetnote.io/2022/01/23/solarwinds-webhelpdesk-hsql-eval-harcoded-creds/">Solarwinds Web Help Desk: When the Helpdesk is too Helpful</a></li>
+              <li><a class="lnk-green" href="https://medium.com/@emil.lerner/leaking-uninitialized-memory-from-fastly-83327bcbee1f">A story of leaking uninitialized memory from Fastly</a></li>
+              <li><a class="lnk-orange" href="https://github.com/Datadog/stratus-red-team/">"Stratus Red Team": open-source adversary emulation for AWS</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
