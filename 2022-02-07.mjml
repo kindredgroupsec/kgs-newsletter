@@ -1,0 +1,181 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 07/02/2022" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center"> 7 Feb 2022</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">North Korea Hacked Him. So He Took Down Its Internet</mj-text>
+          <mj-image src="https://media.wired.com/photos/61f87c2850297725e779e9aa/master/w_240,c_limit/nk-hacker-wired.jpg"></mj-image>
+          <mj-text color="#fff">For the past two weeks, observers of North Korea's strange and tightly restricted corner of the internet began to notice that the country seemed to be dealing with some serious connectivity problems. On several different days, practically all of its websites—the notoriously isolated nation only has a few dozen—intermittently dropped offline en masse, from the booking site for its Air Koryo airline to Naenara, a page that serves as the official portal for dictator Kim Jong-un's government. At least one of the central routers that allow access to the country's networks appeared at one point to be paralyzed, crippling the Hermit Kingdom's digital connections to the outside world. </mj-text>
+          <mj-text color="#fff">Some North Korea watchers pointed out that the country had just carried out a series of missile tests, implying that a foreign government's hackers might have launched a cyberattack against the rogue state to tell it to stop saber-rattling. </mj-text>
+          <mj-text color="#fff">But responsibility for North Korea's ongoing internet outages doesn't lie with US Cyber Command or any other state-sponsored hacking agency. In fact, it was the work of one American man in a T-shirt, pajama pants, and slippers, sitting in his living room night after night, watching Alien movies and eating spicy corn snacks—and periodically walking over to his home office to check on the progress of the programs he was running to disrupt the internet of an entire country.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.wired.com/story/north-korea-hacker-internet-outage/">
+            Read More on Wired
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Welcome to the Burner Phone Olympics</mj-text>
+          <mj-image src="https://media.wired.com/photos/61faed1d418ddba38e293ea2/master/w_240,c_limit/Security-Burner-Phone-Olympics-1238049840.jpg"></mj-image>
+          <mj-text>As professional big air snowboarder Julia Marino completed her final preparations for the Winter Olympics, US officials sent Marino and her teammates a word of caution about China’s surveillance apparatus. The athletes were warned not to take their personal phones to the games. “We are using burner phones while we’re going to be there,” Marino, a seven-time X Games medalist, said in an interview on Instagram. Athletes were also cautioned not to speak out against human rights abuses. “There has been discussion of what could happen if we do speak out,” Marino said in the interview.</mj-text>
+          <mj-text>As the Beijing Winter Olympics kick off, Marino isn’t alone. Thousands of foreign athletes, coaches, (some) diplomats, and members of the media are descending on the Chinese capital and taking extra measures to protect themselves from snooping by authoritarian law enforcement officials. That means burner laptops and phones to ensure sensitive data can’t be hoovered up, and self-censoring potential criticism of human rights abuses against the Muslim Uyghur population in the northwestern Xinjiang region.</mj-text>
+          <mj-text>A lot has changed since China last hosted the Olympics in the summer of 2008. The nation has evolved into a technological superpower, with advanced capabilities in everything from artificial intelligence to quantum computing. Its homegrown tech giants make products that have hundreds of millions of users and underpin the essential tasks in people’s daily lives. At the same time, technological surveillance and censorship of the country’s citizens is rife, China maintains a sophisticated group of state-backed hackers, and the UN has warned about the detention and treatment of Uyghurs.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.wired.com/story/winter-olympics-2022-phones-security/">
+            Read More on Wired
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.wired.com/story/health-site-ad-tracking/">Health Sites Let Ads Track Visitors Without Telling Them</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/fbi-shares-lockbit-ransomware-technical-details-defense-tips/">FBI shares Lockbit ransomware technical details, defense tips</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-blocked-billions-of-brute-force-and-phishing-attacks-last-year/">Microsoft blocked billions of brute-force and phishing attacks last year</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/telco-fined-9-million-for-hiding-cyberattack-impact-from-customers/">Telco fined €9 million for hiding cyberattack impact from customers</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2022/02/hackers-backdoored-systems-at-chinas.html">Hackers Backdoored Systems at China's National Games Just Before Competition</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2022/02/another-israeli-firm-quadream-caught.html">Another Israeli Firm, QuaDream, Caught Weaponizing iPhone Bug for Spyware</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2022/02/us-authorities-charge-6-indian-call.html">U.S. Authorities Charge 6 Indian Call Centers Scamming Thousands of Americans</a></li>
+              <li><a class="lnk-green" href="https://www.vice.com/en_us/article/epx5ne/ransomware-wants-you-to-like-and-subscribe-or-else">Ransomware Wants You to Like and Subscribe, Or Else</a></li>
+              <li><a class="lnk-orange" href="https://www.schneier.com/blog/archives/2022/02/the-earn-it-act-is-back.html">The EARN IT Act Is Back</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/hhs-conti-ransomware-encrypted-80-percent-of-irelands-hse-it-systems/">HHS: Conti ransomware encrypted 80% of Ireland's HSE IT systems</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/swissport-ransomware-attack-delays-flights-disrupts-operations/">Swissport ransomware attack delays flights, disrupts operations</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/kp-snacks-giant-hit-by-conti-ransomware-deliveries-disrupted/">KP Snacks giant hit by Conti ransomware, deliveries disrupted</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/german-petrol-supply-firm-oiltanking-paralyzed-by-cyber-attack/">German petrol supply firm Oiltanking paralyzed by cyber attack</a></li>
+              <li><a class="lnk-purple" href="https://therecord.media/washington-state-agency-discloses-data-breach-impacting-hundreds-of-thousands-of-licensed-professionals/">Washington state agency discloses data breach impacting hundreds of thousands of licensed professionals</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/fortune-500-service-provider-says-ransomware-attack-led-to-leak-of-more-than-500k-ssns-more/">Fortune 500 service provider says ransomware attack led to leak of more than 500k SSNs</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/argo-cd-vulnerability-leaks-sensitive-info-from-kubernetes-apps/">Argo CD vulnerability leaks sensitive info from Kubernetes apps</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/cisco-fixes-critical-bugs-in-smb-routers-exploits-available/">Cisco fixes critical bugs in SMB routers, exploits available</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/zimbra-zero-day-vulnerability-actively-exploited-to-steal-emails/">Zimbra zero-day vulnerability actively exploited to steal emails</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/apollo-2-0-new-year-new-features-48acdf4898d3">Apollo 2.0 — New Year, New Features</a></li>
+              <li><a class="lnk-pink" href="https://research.checkpoint.com/2022/invisible-cuckoo-cape-sandbox-evasion/">Invisible Sandbox Evasion</a></li>
+              <li><a class="lnk-green" href="https://www.sentinelone.com/labs/firefox-jit-use-after-frees-exploiting-cve-2020-26950/">Firefox JIT Use-After-Frees | Exploiting CVE-2020-26950</a></li>
+              <li><a class="lnk-orange" href="https://research.nccgroup.com/2022/02/02/testing-infrastructure-as-code-using-dynamic-tooling/">Testing Infrastructure-as-Code Using Dynamic Tooling</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/uefi-firmware-vulnerabilities-affect-at-least-25-computer-vendors/">UEFI firmware vulnerabilities affect at least 25 computer vendors</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 1,600 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
