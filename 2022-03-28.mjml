@@ -1,0 +1,182 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 28/03/2022" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://video-images.vice.com/articles/6239b79e1b4fc1009bf1d043/lede/1647949742558-okta.jpeg?crop=1xw:0.84375xh;center,center&resize=400:*" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">28 Mar 2022</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Authentication Giant Okta Breached Through Customer Support</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/6239b79e1b4fc1009bf1d043/lede/1647949742558-okta.jpeg?crop=1xw:0.84375xh;center,center&resize=800:*"></mj-image>
+          <mj-text color="#fff">Cybersecurity giant Okta, which provides authentication services for private and government clients and handles how hundreds of millions of users are able to securely log into their employer’s networks, itself was targeted by an extortion-focused hacking group.</mj-text>
+          <mj-text color="#fff">In a statement, Okta said the breach was brief and took place in January. But the method the hackers used to gain access still highlights a weakness in giant companies: the hackers targeted a third-party customer support worker.</mj-text>
+          <mj-text color="#fff">“In late January 2022, Okta detected an attempt to compromise the account of a third party customer support engineer working for one of our subprocessors,” Okta told Motherboard in a statement. “The matter was investigated and contained by the subprocessor.”</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.vice.com/en/article/jgmnwk/authentication-giant-okta-breached-through-customer-support">
+            Read More on Vice
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">LAPSUS$: How a Sloppy Extortion Gang Became One of the Most Prolific Hacking Groups</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/623c7f64be96d700949dd6b4/lede/1648132919693-cyber-money.png?crop=0.9928888888888889xw:1xh;center,center&resize=900:*"></mj-image>
+          <mj-text>The U.S. government has said it is paying close attention to LAPSUS$, the group that breached Okta, Microsoft, and Nvidia. The answers for the group's motivations are hiding in plain sight.</mj-text>
+          <mj-text>The group has confounded and captivated some in the cybersecurity industry, with some even speculating that LAPSUS$ may be a front for a government-backed hacking group. But a review of LAPSUS$’s public statements, their breaches, technical analysis by security experts, and indications of who a main member might be, paints a picture of a crew that bears much more resemblance to the sort of free-wheeling gangs that have become a staple in the world of SIM-swapping and other relatively low level hacking techniques. Only this time, people are paying much more attention, in part because of the sorts of targets that LAPSUS$ managed to compromise. On Thursday shortly after the publication of this story, British police said they had arrested seven teenagers suspected of being part of the gang.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.vice.com/en/article/3abedn/who-is-lapsus-hacking-gang">
+            Read More on Vice
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2022/03/a-closer-look-at-the-lapsus-data-extortion-group/">A Closer Look at the LAPSUS$ Data Extortion Group</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2022/03/estonian-tied-to-13-ransomware-attacks-gets-66-months-in-prison/">Estonian Tied to 13 Ransomware Attacks Gets 66 Months in Prison</a></li>
+              <li><a class="lnk-green" href="https://blog.pradeo.com/spyware-facestealer-google-play">Spyware dubbed Facestealer infects 100,000+ Google Play users</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/okta-we-made-a-mistake-delaying-the-lapsus-hack-disclosure/">Okta: "We made a mistake" delaying the Lapsus$ hack disclosure</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/lapsus-suspects-arrested-for-microsoft-nvidia-okta-hacks/">Lapsus$ suspects arrested for Microsoft, Nvidia, Okta hacks</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/south-africa-wants-to-fight-sim-swapping-with-biometric-checks/">South Africa wants to fight SIM swapping with biometric checks</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/technology/github-explains-the-cause-behind-the-past-weeks-outages/">GitHub explains the cause behind the past week's outages</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-mustang-panda-hacking-campaign-targets-diplomats-isps/">New Mustang Panda hacking campaign targets diplomats, ISPs</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/hackers-exploit-new-wps-office-flaw-to-breach-betting-firms/">Hackers exploit new WPS Office flaw to breach betting firms</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/the-top-5-things-the-2022-weak-password-report-means-for-it-security/">The top 5 things the 2022 Weak Password Report means for IT security</a></li>
+              <li><a class="lnk-blue" href="https://www.welivesecurity.com/2022/03/24/crypto-malware-patched-wallets-targeting-android-ios-devices/">Crypto malware in patched wallets targeting Android and iOS devices</a></li>
+              <li><a class="lnk-pink" href="https://www.csoonline.com/article/3655076/u-s-eu-reach-preliminary-data-privacy-agreement.html">US, EU reach preliminary data privacy agreement</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://cyberintelmag.com/attacks-data-breaches/social-engineering-attacks-resulted-in-compromise-of-morgan-stanley-client-accounts/">Social Engineering Attacks Resulted in Compromise of Morgan Stanley Client Accounts</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/greeces-public-postal-service-offline-due-to-ransomware-attack/">Greece's public postal service offline due to ransomware attack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/top-russian-meat-producer-hit-with-windows-bitlocker-encryption-attack/">Top Russian meat producer hit with Windows BitLocker encryption attack</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/western-digital-fixes-critical-bug-giving-root-on-my-cloud-nas-devices/">Western Digital fixes critical bug giving root on My Cloud NAS devices</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/emergency-google-chrome-update-fixes-zero-day-used-in-attacks/">Emergency Google Chrome update fixes zero-day used in attacks</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/western-digital-my-cloud-os-update-fixes-critical-vulnerability/">Western Digital My Cloud OS update fixes critical vulnerability</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.sentinelone.com/labs/chinese-threat-actor-scarab-targeting-ukraine/">Chinese Threat Actor Scarab Targeting Ukraine</a></li>
+              <li><a class="lnk-pink" href="https://research.nccgroup.com/2022/03/24/remote-code-execution-on-western-digital-pr4100-nas-cve-2022-23121/">Remote Code Execution on Western Digital PR4100 NAS (CVE-2022-23121)</a></li>
+              <li><a class="lnk-green" href="https://research.nccgroup.com/2022/03/25/mining-data-from-cobalt-strike-beacons/">Mining data from Cobalt Strike beacons</a></li>
+              <li><a class="lnk-orange" href="https://bishopfox.com/blog/exposures-tools-utilized">Reports from the Field: Part 3</a></li>
+              <li><a class="lnk-purple" href="https://www.welivesecurity.com/2022/03/24/crypto-malware-patched-wallets-targeting-android-ios-devices/">Crypto malware in patched wallets targeting Android and iOS devices</a></li>
+              <li><a class="lnk-blue" href="https://googleprojectzero.blogspot.com/2022/03/racing-against-clock-hitting-tiny.html">Racing against the clock -- hitting a tiny kernel race window</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering more than 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 2,000 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
