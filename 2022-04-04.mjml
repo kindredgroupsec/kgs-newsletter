@@ -1,0 +1,172 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 04/04/2022" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center"> 4 Apr 2022</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Lapsus$ and SolarWinds hackers both use the same old trick to bypass MFA</mj-text>
+          <mj-image src="https://cdn.arstechnica.net/wp-content/uploads/2022/03/multi-factor-authentication-mfa-800x546.jpeg"></mj-image>
+          <mj-text color="#fff">Multifactor authentication (MFA) is a core defense that is among the most effective at preventing account takeovers. In addition to requiring that users provide a username and password, MFA ensures they must also use an additional factor—be it a fingerprint, physical security key, or one-time password—before they can access an account. Nothing in this article should be construed as saying MFA isn’t anything other than essential.</mj-text>
+          <mj-text color="#fff">That said, some forms of MFA are stronger than others, and recent events show that these weaker forms aren’t much of a hurdle for some hackers to clear. In the past few months, suspected script kiddies like the Lapsus$ data extortion gang and elite Russian-state threat actors (like Cozy Bear, the group behind the SolarWinds hack) have both successfully defeated the protection.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://arstechnica.com/information-technology/2022/03/lapsus-and-solar-winds-hackers-both-use-the-same-old-trick-to-bypass-mfa/">
+            Read More on ArsTechnica
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2022/03/hackers-gaining-power-of-subpoena-via-fake-emergency-data-requests/">Hackers Gaining Power of Subpoena Via Fake “Emergency Data Requests”</a></li>
+              <li><a class="lnk-pink" href="https://research.checkpoint.com/2022/state-sponsored-attack-groups-capitalise-on-russia-ukraine-war-for-cyber-espionage/">State-sponsored Attack Groups Capitalise on Russia-Ukraine War for Cyber Espionage</a></li>
+              <li><a class="lnk-green" href="https://research.nccgroup.com/2022/03/31/conti-nuation-methods-and-techniques-observed-in-operations-post-the-leaks/">Conti-nuation: methods and techniques observed in operations post the leaks</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/legal/eu-draft-law-adds-security-checks-to-all-crypto-transactions/">EU draft law adds security checks to all crypto transactions</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/microsoft/phishing-uses-azure-static-web-pages-to-impersonate-microsoft/">Phishing uses Azure Static Web Pages to impersonate Microsoft</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/us-national-emergency-extended-due-to-elevated-malicious-cyber-activity/">US national emergency extended due to elevated malicious cyber activity</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/europol-dismantles-massive-call-center-investment-scam-operation/">Europol dismantles massive call center investment scam operation</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/ukraine-dismantles-5-disinformation-bot-farms-seizes-10-000-sim-cards/">Ukraine dismantles 5 disinformation bot farms, seizes 10,000 SIM cards</a></li>
+              <li><a class="lnk-orange" href="https://www.vice.com/en/article/5dga75/this-father-son-team-helps-people-brute-force-their-lost-bitcoin-wallet-passwords">This Father-Son Team Helps People Brute-Force Their Lost Bitcoin Wallet Passwords</a></li>
+              <li><a class="lnk-purple" href="https://www.wired.com/story/satellite-hacking-anit-f1r-shadytel/">Researchers Used a Decommissioned Satellite to Broadcast Hacker TV</a></li>
+              <li><a class="lnk-blue" href="https://www.wired.com/story/multifactor-authentication-prompt-bombing-on-the-rise/">A Sinister Way to Beat Multifactor Authentication Is on the Rise</a></li>
+              <li><a class="lnk-pink" href="https://scotthelme.co.uk/pci-dss-4-0-its-time-to-get-serious-on-magecart/">PCI DSS 4.0; It's time to get serious on Magecart</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/viasat-confirms-satellite-modems-were-wiped-with-acidrain-malware/">Viasat confirms satellite modems were wiped with AcidRain malware</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/shutterfly-discloses-data-breach-after-conti-ransomware-attack/">Shutterfly discloses data breach after Conti ransomware attack</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/trend-micro-fixes-actively-exploited-remote-code-execution-bug/">Trend Micro fixes actively exploited remote code execution bug</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/critical-gitlab-vulnerability-lets-attackers-take-over-accounts/">Critical GitLab vulnerability lets attackers take over accounts</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/zyxel-patches-critical-bug-affecting-firewall-and-vpn-devices/">Zyxel patches critical bug affecting firewall and VPN devices</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/apple-emergency-update-fixes-zero-days-used-to-hack-iphones-macs/">Apple emergency update fixes zero-days used to hack iPhones, Macs</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/spring-patches-leaked-spring4shell-zero-day-rce-vulnerability/">Spring patches leaked Spring4Shell zero-day RCE vulnerability</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-spring-java-framework-zero-day-allows-remote-code-execution/">New Spring Java framework zero-day allows remote code execution</a></li>
+              <li><a class="lnk-pink" href="https://threatpost.com/google-chrome-bug-actively-exploited-zero-day/179161/">Google Chrome Bug Actively Exploited as Zero-Day</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.sentinelone.com/labs/acidrain-a-modem-wiper-rains-down-on-europe/">AcidRain | A Modem Wiper Rains Down on Europe</a></li>
+              <li><a class="lnk-green" href="https://www.sentinelone.com/labs/pwning-microsoft-azure-defender-for-iot-multiple-flaws-allow-remote-code-execution-for-all/">Pwning Microsoft Azure Defender for IoT</a></li>
+              <li><a class="lnk-orange" href="https://thehackernews.com/2022/04/15-year-old-bug-in-pear-php-repository.html">15-Year-Old Bug in PEAR PHP Repository Could've Enabled Supply Chain Attacks</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2022/03/new-python-based-ransomware-targeting.html">New Python-based Ransomware Targeting JupyterLab Web Notebooks</a></li>
+              <li><a class="lnk-blue" href="https://blog.cloudflare.com/end-cloudflare-captcha/">The end of the road for Cloudflare CAPTCHAs</a></li>
+              <li><a class="lnk-pink" href="https://googleprojectzero.blogspot.com/2022/03/forcedentry-sandbox-escape.html">FORCEDENTRY: Sandbox Escape</a></li>
+              <li><a class="lnk-orange" href="https://github.com/deepfence/PacketStreamer">PacketStreamer: distributed packet capture for cloud-native platforms</a></li>
+              <li><a class="lnk-purple" href="https://sysdig.com/blog/guide-kubernetes-forensics-dfir/">Digital Forensics Basics: A Practical Guide for Kubernetes DFIR</a></li>
+              <li><a class="lnk-blue" href="https://trufflesecurity.com/blog/introducing-trufflehog-v3">TruffleHog v3 - Find leaked credentials</a></li>
+              <li><a class="lnk-green" href="https://jfrog.com/blog/springshell-zero-day-vulnerability-all-you-need-to-know/">SpringShell (Spring4Shell) Zero-Day Vulnerability CVE-2022-22965 : All You Need To Know</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering more than 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 2,000 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
