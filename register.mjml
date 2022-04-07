@@ -65,8 +65,22 @@
       </mj-style>
   </mj-head>
   <mj-body>
-    <mj-container background-color="#222">
-      <mj-section background-color="#fff">
+  <mj-container background-color="#222">
+    <mj-raw><script>
+      (function (s, e, n, d, er) {
+        s['Sender'] = er;
+        s[er] = s[er] || function () {
+          (s[er].q = s[er].q || []).push(arguments)
+        }, s[er].l = 1 * new Date();
+        var a = e.createElement(n),
+            m = e.getElementsByTagName(n)[0];
+        a.async = 1;
+        a.src = d;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+      sender('13c69ec44a2699')
+    </script></mj-raw>
+    <mj-section background-color="#fff">
         <mj-column>
             <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
           <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
@@ -83,7 +97,7 @@
         <mj-column>
           <mj-spacer height="30px" />
 
-          <mj-text><script type="text/javascript" src="https://app.sender.net/webforms/754/492fcf51.js?v=4"></script></mj-text>
+          <mj-raw><div style="text-align: center" class="sender-form-field" data-sender-form-id="l1p5ilc7enndreoiv5p"></div></mj-raw>
 
         </mj-column>
       </mj-section>
