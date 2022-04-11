@@ -1,0 +1,169 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 11/04/2022" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">11 Apr 2022</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">The Tricky Aftermath of Source Code Leaks</mj-text>
+          <mj-image src="https://media.wired.com/photos/6250838eba6e3204c98a910f/master/w_960,c_limit/security-source-code.jpg"></mj-image>
+          <mj-text color="#fff">The LAPSUS$ digital extortion group is the latest to mount a high-profile data-stealing rampage against major tech companies. And among other things, the group is known for grabbing and leaking source code at every opportunity, including from Samsung, Qualcomm, and Nvidia. At the end of March, alongside revelations that they had breached an Okta subprocessor, the hackers also dropped a trove of data containing portions of the source code for Microsoft's Bing, Bing Maps, and its Cortana virtual assistant. Sounds bad, right?</mj-text>
+          <mj-text color="#fff">Businesses, governments, and other institutions have been plagued by ransomware attacks, business email compromise, and an array other breaches in recent years. Researchers say, though, that while source code leaks may seem catastrophic, and certainly aren't good, they typically aren't the worst-case scenario of a criminal data breach.</mj-text>
+          <mj-text color="#fff">Typically, security researchers and attackers alike must use “reverse engineering” to find exploitable vulnerabilities in software, working backward from the final product to understand its components and how it works. And researchers say that process can actually be more helpful than looking at source code for finding bugs, because it involves more creative and open-ended analysis than just looking at a recipe. Still, there's no doubt that source code leaks can be problematic, especially for organizations that haven't done enough auditing and vetting to be sure that they've caught most basic bugs.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.wired.com/story/source-code-leak-dangers/">
+            Read More on Wired
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-autopatch-steals-the-fun-from-patch-tuesdays/">Microsoft: Windows Autopatch steals the 'fun' from Patch Tuesdays</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/raspberry-pi-removes-default-user-to-hinder-brute-force-attacks/">Raspberry Pi removes default user to hinder brute-force attacks</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/google-boosts-android-security-with-new-set-of-dev-policy-changes/">Google boosts Android security with new set of dev policy changes</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/malicious-web-redirect-service-infects-16-500-sites-to-push-malware/">Malicious web redirect service infects 16,500 sites to push malware</a></li>
+              <li><a class="lnk-purple" href="https://krebsonsecurity.com/2022/04/the-original-apt-advanced-persistent-teenagers/">The Original APT: Advanced Persistent Teenagers</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/github-can-now-auto-block-commits-containing-api-keys-auth-tokens/">GitHub can now auto-block commits containing API keys, auth tokens</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/android-banking-malware-takes-over-calls-to-customer-support/">Android banking malware takes over calls to customer support</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2022/04/first-malware-targeting-aws-lambda.html">First Malware Targeting AWS Lambda Serverless Platform Discovered</a></li>
+              <li><a class="lnk-orange" href="https://threatpost.com/automaker-cybersecurity-lagging-tech-adoption/179204/">Automaker Cybersecurity Lagging Behind Tech Adoption, Experts Warn</a></li>
+              <li><a class="lnk-purple" href="https://www.zdnet.com/article/singapore-begins-licensing-cybersecurity-vendors/">Singapore begins licensing cybersecurity vendors</a></li>
+              <li><a class="lnk-blue" href="https://www.zdnet.com/article/openssh-now-defaults-to-protecting-against-quantum-computer-attacks/">OpenSSH now defaults to protecting against quantum computer attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.csoonline.com/article/3656913/fbi-active-defense-measure-removes-malware-from-privately-owned-firewalls.html">FBI removes malware from privately owned firewalls</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/snap-on-discloses-data-breach-claimed-by-conti-ransomware-gang/">Snap-on discloses data breach claimed by Conti ransomware gang</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/uk-retail-chain-the-works-shuts-down-stores-after-cyberattack/">UK retail chain The Works shuts down stores after cyberattack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cash-app-notifies-82-million-us-customers-about-data-breach/">Cash App notifies 8.2 million US customers about data breach</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/hackers-breach-mailchimps-internal-tools-to-target-crypto-customers/">Hackers breach MailChimp's internal tools to target crypto customers</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/palo-alto-networks-firewalls-vpns-vulnerable-to-openssl-bug/">Palo Alto Networks firewalls, VPNs vulnerable to OpenSSL bug</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2022/04/vmware-releases-critical-patches-for.html">VMware Releases Critical Patches for New Vulnerabilities Affecting Multiple Products</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://googleprojectzero.blogspot.com/2022/04/cve-2021-30737-xerubs-2021-ios-asn1.html">CVE-2021-30737, @xerub's 2021 iOS ASN.1 Vulnerability</a></li>
+              <li><a class="lnk-pink" href="https://research.nccgroup.com/2022/04/07/public-report-google-enterprise-api-security-assessment/">Public Report – Google Enterprise API Security Assessment</a></li>
+              <li><a class="lnk-green" href="https://posts.specterops.io/learning-machine-learning-part-1-introduction-and-revoke-obfuscation-c73033184f0">Learning Machine Learning Part 1: Introduction and Revoke-Obfuscation</a></li>
+              <li><a class="lnk-orange" href="https://bishopfox.com/blog/nuclei-vulnerability-scan">Nuclei: Packing a Punch with Vulnerability Scanning</a></li>
+              <li><a class="lnk-purple" href="https://krebsonsecurity.com/2022/04/double-your-crypto-scams-share-crypto-scam-host/">Double-Your-Crypto Scams Share Crypto Scam Host</a></li>
+              <li><a class="lnk-blue" href="https://github.com/cider-security-research/cicd-goat">CI/CD Goat - A deliberately vulnerable CI/CD environment</a></li>
+              <li><a class="lnk-pink" href="https://github.com/utkusen/socialhunter">socialhunter: find broken social media links that can be hijacked</a></li>
+              <li><a class="lnk-green" href="https://blog.pcisecuritystandards.org/pci-dss-v4-0-resource-hub">PCI DSS v4.0 Resource Hub</a></li>
+              <li><a class="lnk-orange" href="https://salt.security/blog/api-threat-research-server-side-request-forgery-on-fintech-platform-enabled-administrative-account-takeover">Server-side Request Forgery on FinTech Platform Enabled Administrative Account Takeover</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering more than 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 2,000 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
