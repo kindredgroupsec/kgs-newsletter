@@ -1,0 +1,160 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 02/05/2022" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/hl-images/2022/05/02/jet-fuel.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center"> 2 May 2022</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">U.S. DoD tricked into paying $23.5 million to phishing actor</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2022/05/02/jet-fuel.jpg"></mj-image>
+          <mj-text color="#fff">The U.S. Department of Justice (DoJ) has announced the conviction of Sercan Oyuntur, 40, resident of California, for multiple counts relating to a phishing operation that caused $23.5 million in damages to the U.S. Department of Defense (DoD).</mj-text>
+          <mj-text color="#fff">The fraudster managed to divert to his personal bank account DoD funds destined for a jet fuel supplier. After an eight-day trial in Camden, California, Oyuntur was found guilty of conspiracy to commit wire, mail, and bank fraud, unauthorized device access, aggravated identity theft, and making false statements to federal law enforcement officers.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/us-dod-tricked-into-paying-235-million-to-phishing-actor/">
+            Read More on Bleeping Computer
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-purple" href="https://krebsonsecurity.com/2022/04/you-can-now-ask-google-to-remove-your-phone-number-email-or-address-from-search-results/">You Can Now Ask Google to Remove Your Phone Number, Email or Address from Search Results</a></li>
+              <li><a class="lnk-blue" href="https://krebsonsecurity.com/2022/04/fighting-fake-edrs-with-credit-ratings-for-police/">Fighting Fake EDRs With ‘Credit Ratings’ for Police</a></li>
+              <li><a class="lnk-pink" href="https://research.checkpoint.com/2022/behind-the-curtains-of-the-ransomware-economy-the-victims-and-the-cybercriminals/">Behind the Curtains of the Ransomware Economy – The Victims and the Cybercriminals</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/npm-flaw-let-attackers-add-anyone-as-maintainer-to-malicious-packages/">NPM flaw let attackers add anyone as maintainer to malicious packages</a></li>
+              <li><a class="lnk-orange" href="https://threatpost.com/cve-cloud-bug-system/179394/">Firms Push for CVE-Like Cloud Bug System</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/us-dod-tricked-into-paying-235-million-to-phishing-actor/">U.S. DoD tricked into paying $23.5 million to phishing actor</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/revil-ransomware-returns-new-malware-sample-confirms-gang-is-back/">REvil ransomware returns: New malware sample confirms gang is back</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/medical-software-firm-fined-15m-for-leaking-data-of-490k-patients/">Medical software firm fined €1.5M for leaking data of 490k patients</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/austin-peay-state-university-resumes-after-ransomware-cyber-attack/">Austin Peay State University resumes after ransomware cyber attack</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/new-nimbuspwn-linux-vulnerability-gives-hackers-root-privileges/">New Nimbuspwn Linux vulnerability gives hackers root privileges</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-purple" href="https://posts.specterops.io/learning-machine-learning-part-2-attacking-white-box-models-1a10bbb4a2ae">Learning Machine Learning Part 2: Attacking White Box Models</a></li>
+              <li><a class="lnk-blue" href="https://blog.assetnote.io/2022/04/27/vmware-workspace-one-uem-ssrf/">Encrypting our way to SSRF in VMWare Workspace One UEM (CVE-2021-22054)</a></li>
+              <li><a class="lnk-pink" href="https://research.nccgroup.com/2022/04/29/adventures-in-the-land-of-bumblebee-a-new-malicious-loader/">Adventures in the land of BumbleBee – a new malicious loader</a></li>
+              <li><a class="lnk-green" href="https://research.nccgroup.com/2022/04/28/lapsus-recent-techniques-tactics-and-procedures/">LAPSUS$: Recent techniques, tactics and procedures</a></li>
+              <li><a class="lnk-orange" href="https://blog.cloudflare.com/15m-rps-ddos-attack/">Cloudflare blocks 15M rps HTTPS DDoS attack</a></li>
+              <li><a class="lnk-purple" href="https://madhuakula.com/kubernetes-goat/">Kubernetes Goat - Interactive Kubernetes Security Learning Playground</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering more than 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 2,000 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
