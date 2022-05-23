@@ -1,0 +1,182 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 23/05/2022" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://video-images.vice.com/articles/62866fd1e9aa71009d54fe82/lede/1652977619730-doj.jpeg?crop=1xw:0.8175052228412256xh;center,center&resize=500:*" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">23 May 2022</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">DOJ Announces It Won’t Prosecute White Hat Security Researchers</mj-text>
+          <mj-image src="https://video-images.vice.com/articles/62866fd1e9aa71009d54fe82/lede/1652977619730-doj.jpeg?crop=1xw:0.8175052228412256xh;center,center&resize=800:*"></mj-image>
+          <mj-text color="#fff">On Thursday the Department of Justice announced a policy shift in that it will no longer prosecute good-faith security research that would have violated the country’s federal hacking law the Computer Fraud and Abuse Act (CFAA).</mj-text>
+          <mj-text color="#fff">The move is significant in that the CFAA has often posed a threat to security researchers who may probe or hack systems in an effort to identify vulnerabilities so they can be fixed. The revision of the policy means that such research should not face charges.</mj-text>
+          <mj-text color="#fff">“Computer security research is a key driver of improved cybersecurity,” Deputy Attorney General Lisa O. Monaco said in a statement published with the announcement. “The department has never been interested in prosecuting good-faith computer security research as a crime, and today’s announcement promotes cybersecurity by providing clarity for good-faith security researchers who root out vulnerabilities for the common good.”</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.vice.com/en/article/v7d9nb/department-of-justice-security-researchers-new-cfaa-policy">
+            Read More on Vice
+          </mj-button>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.justice.gov/opa/pr/department-justice-announces-new-policy-charging-cases-under-computer-fraud-and-abuse-act">
+            DOJ's statement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/us-links-thanos-and-jigsaw-ransomware-to-55-year-old-doctor/">US links Thanos and Jigsaw ransomware to 55-year-old doctor</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/chinese-space-pirates-are-hacking-russian-aerospace-firms/">Chinese ‘Space Pirates’ are hacking Russian aerospace firms</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/us-recovers-15-million-from-global-kovter-ad-fraud-operation/">US recovers $15 million from global Kovter ad fraud operation</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/spanish-police-dismantle-phishing-gang-that-emptied-bank-accounts/">Spanish police dismantle phishing gang that emptied bank accounts</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/microsoft-teams-windows-11-hacked-on-first-day-of-pwn2own/">Microsoft Teams, Windows 11 hacked on first day of Pwn2Own</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/us-doj-will-no-longer-prosecute-ethical-hackers-under-cfaa/">U.S. DOJ will no longer prosecute ethical hackers under CFAA</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/google-predator-spyware-infected-android-devices-using-zero-days/">Google: Predator spyware infected Android devices using zero-days</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2022/05/when-your-smart-id-card-reader-comes-with-malware/">When Your Smart ID Card Reader Comes With Malware</a></li>
+              <li><a class="lnk-orange" href="https://therecord.media/conti-ransomware-gang-digital-infrastructure-shut-down/">Notorious cybercrime gang Conti ‘shuts down,’ but its influence and talent are still out there</a></li>
+              <li><a class="lnk-purple" href="https://therecord.media/edps-privacy-un-cybercrime-convention/">EU data protection authority raises alarm over UN cybercrime treaty negotiations</a></li>
+              <li><a class="lnk-blue" href="https://www.schneier.com/blog/archives/2022/05/websites-that-collect-your-data-as-you-type.html">Websites that Collect Your Data as You Type</a></li>
+              <li><a class="lnk-pink" href="https://stackoverflow.blog/2022/05/16/stack-under-attack-what-we-learned-about-handling-ddos-attacks/">Stack under attack: what we learned about handling DDoS attacks</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/media-giant-nikkei-s-asian-unit-hit-by-ransomware-attack/">Media giant Nikkei’s Asian unit hit by ransomware attack</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/ransomware-attack-exposes-data-of-500-000-chicago-students/">Ransomware attack exposes data of 500,000 Chicago students</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/apple-emergency-update-fixes-zero-day-used-to-hack-macs-watches/">Apple emergency update fixes zero-day used to hack Macs, Watches</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-vmware-zyxel-bugs/">CISA warns admins to patch actively exploited VMware, Zyxel bugs</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/nvidia-fixes-ten-vulnerabilities-in-windows-gpu-display-drivers/">NVIDIA fixes ten vulnerabilities in Windows GPU display drivers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/vmware-patches-critical-auth-bypass-flaw-in-multiple-products/">VMware patches critical auth bypass flaw in multiple products</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/cisco-urges-admins-to-patch-ios-xr-zero-day-exploited-in-attacks/">Cisco urges admins to patch IOS XR zero-day exploited in attacks</a></li>
+              <li><a class="lnk-blue" href="https://nakedsecurity.sophos.com/2022/05/21/mozilla-patches-wednesdays-pwn2own-double-exploit-on-friday/">Mozilla patches Wednesday’s Pwn2Own double-exploit… on Friday!</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://bishopfox.com/blog/ruby-vulnerabilities-exploits">Ruby Vulnerabilities: Exploiting Dangerous Open, Send and Deserialization Operations</a></li>
+              <li><a class="lnk-pink" href="https://research.nccgroup.com/2022/05/20/metastealer-filling-the-racoon-void/">Metastealer – filling the Racoon void</a></li>
+              <li><a class="lnk-green" href="https://www.sentinelone.com/labs/cratedepression-rust-supply-chain-attack-infects-cloud-ci-pipelines-with-go-malware/">CrateDepression | Rust Supply-Chain Attack Infects Cloud CI Pipelines with Go Malware</a></li>
+              <li><a class="lnk-orange" href="https://research.checkpoint.com/2022/twisted-panda-chinese-apt-espionage-operation-against-russians-state-owned-defense-institutes/">Twisted Panda: Chinese APT espionage operation against Russian’s state-owned defense institutes</a></li>
+              <li><a class="lnk-purple" href="https://posts.specterops.io/entropycapture-simple-extraction-of-dpapi-optional-entropy-6885196d54d0?source=rss----f05f8696e3cc---4">EntropyCapture: Simple Extraction of DPAPI Optional Entropy</a></li>
+              <li><a class="lnk-blue" href="https://www.secureauth.com/blog/we-love-relaying-credentials-a-technical-guide-to-relaying-credentials-everywhere/">We Love Relaying Credentials: A Technical Guide to Relaying Credentials Everywhere</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>Are you a developer with a strong security passion? Be part of our <a href="https://careers.kindredgroup.com/vacancy/software-engineer-cyber-security-stockholm/8484/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 30 million customers. You can find all our open vacancies on our <a href="https://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering more than 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 2,000 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
