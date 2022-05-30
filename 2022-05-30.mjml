@@ -1,0 +1,207 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 30/05/2022" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://therecord.media/wp-content/uploads/2020/09/2020_0922-DoJ-e1653675945135.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">30 May 2022</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Man who helped Infraud cybercrime cartel steal millions of credit cards sentenced</mj-text>
+          <mj-image src="https://therecord.media/wp-content/uploads/2020/09/2020_0922-DoJ-e1653675945135.jpg"></mj-image>
+          <mj-text color="#fff">A Brooklyn resident was sentenced to four years in federal prison this week after pleading guilty to being an integral member of the Infraud Organization, a cybercrime cartel that stole over four million credit and debit card numbers and cost victims more than $568 million dollars.</mj-text>
+          <mj-text color="#fff">John Telusma – a 37-year-old who went by “Peterelliot” online – is the 14th member of the Infraud gang to be charged in connection to the group’s activities, which the Justice Department said involved the “mass acquisition and sale of fraud-related goods and services, including stolen identities, compromised credit card data, computer malware, and other contraband.”</mj-text>
+          <mj-text color="#fff">The group had members across the globe and the DOJ has already sentenced several members to lengthy prison sentences. After several undercover operations, U.S. officials partnered with law enforcement agencies across Europe, Australia and Asia to arrest 13 members of the group and shut down the Infraud website in February 2018.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://therecord.media/man-who-helped-infraud-cybercrime-cartel-steal-millions-of-credit-cards-sentenced/">
+            Read More on The Record
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">DuckDuckGo has a tracker blocking carve-out linked to Microsoft contract</mj-text>
+          <mj-image src="https://techcrunch.com/wp-content/uploads/2021/01/GettyImages-108359514.jpg?w=1390&crop=1"></mj-image>
+          <mj-text>DuckDuckGo, the self-styled “internet privacy company” — which, for years, has built a brand around a claim of non-tracking web search and, more recently, launched its own ‘private’ browser with built-in tracker blocking — has found itself in hot water after a researcher found hidden limits on its tracking protection that create a carve-out for certain advertising data requests by its search syndication partner, Microsoft.</mj-text>
+          <mj-text>The researcher in question, Zach Edwards, tweeted the findings of his audit — saying he had found DDG’s mobile browsers do not block advertising requests made by Microsoft scripts on non-Microsoft web properties.</mj-text>
+          <mj-text>Edwards had some Twitter back and forth with DDG’s founder and CEO Gabe Weinberg, who initially appeared to be attempting to play down the finding by emphasizing all the stuff he said DDG’s browser does block (e.g., third-party tracking cookies, including those from Microsoft).</mj-text>
+          <mj-button mj-class="bg-pink" href="https://techcrunch.com/2022/05/24/ddg-microsoft-tracking-blocking-limit/">
+            Read More on TechCrunch
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-yorker-imprisoned-for-role-in-carding-group-behind-568m-damages/">New Yorker imprisoned for role in carding group behind $568M damages</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-selling-credentials-for-us-college-networks/">FBI warns of hackers selling credentials for U.S. college networks</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/microsoft-finds-severe-bugs-in-android-apps-from-large-mobile-providers/">Microsoft finds severe bugs in Android apps from large mobile providers</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-to-force-better-security-defaults-for-all-azure-ad-tenants/">Microsoft to force better security defaults for all Azure AD tenants</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/technology/ftc-fines-twitter-150m-for-using-2fa-info-for-targeted-advertising/">FTC fines Twitter $150M for using 2FA info for targeted advertising</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/hacker-says-hijacking-libraries-stealing-aws-keys-was-ethical-research/">Hacker says hijacking libraries, stealing AWS keys was ethical research</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/interpol-arrests-alleged-leader-of-the-silverterrier-bec-gang/">Interpol arrests alleged leader of the SilverTerrier BEC gang</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/duckduckgo-browser-allows-microsoft-trackers-due-to-search-agreement/">DuckDuckGo browser allows Microsoft trackers due to search agreement</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/microsoft-credit-card-stealers-are-getting-much-stealthier/">Microsoft: Credit card stealers are getting much stealthier</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/cisa-adds-41-vulnerabilities-to-list-of-bugs-used-in-cyberattacks/">CISA adds 41 vulnerabilities to list of bugs used in cyberattacks</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/photos-of-abused-victims-used-in-new-id-verification-scam/">Photos of abused victims used in new ID verification scam</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/hackers-can-hack-your-online-accounts-before-you-even-register-them/">Hackers can hack your online accounts before you even register them</a></li>
+              <li><a class="lnk-green" href="https://thehackernews.com/2022/05/attackers-can-use-electromagnetic.html">Attackers Can Use Electromagnetic Signals to Control Touchscreens Remotely</a></li>
+              <li><a class="lnk-orange" href="https://www.csoonline.com/article/3661434/remote-bricking-of-ukrainian-tractors-raises-agriculture-security-concerns.html">Remote bricking of Ukrainian tractors raises agriculture security concerns</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/clop-ransomware-gang-is-back-hits-21-victims-in-a-single-month/">Clop ransomware gang is back, hits 21 victims in a single month</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/github-attackers-stole-login-details-of-100k-npm-user-accounts/">GitHub: Attackers stole login details of 100K npm user accounts</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/blackcat-alphv-ransomware-asks-5-million-to-unlock-austrian-state/">BlackCat/ALPHV ransomware asks $5 million to unlock Austrian state</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/spicejet-airline-passengers-stranded-after-ransomware-attack/">SpiceJet airline passengers stranded after ransomware attack</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/general-motors-credential-stuffing-attack-exposes-car-owners-info/">General Motors credential stuffing attack exposes car owners info</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/oas-platform-vulnerable-to-critical-rce-and-api-access-flaws/">OAS platform vulnerable to critical RCE and API access flaws</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/exploit-released-for-critical-vmware-auth-bypass-bug-patch-now/">Exploit released for critical VMware auth bypass bug, patch now</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/microsoft-shares-mitigation-for-windows-krbrelayup-lpe-attacks/">Microsoft shares mitigation for Windows KrbRelayUp LPE attacks</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/mozilla-fixes-firefox-thunderbird-zero-days-exploited-at-pwn2own/">Mozilla fixes Firefox, Thunderbird zero-days exploited at Pwn2Own</a></li>
+              <li><a class="lnk-purple" href="https://www.reddit.com/r/netsec/comments/uwfv87/cisco_issues_patch_for_new_ios_xr_zeroday/">Cisco Issues Patch for New IOS XR Zero-Day Vulnerability Exploited in the Wild</a></li>
+              <li><a class="lnk-blue" href="https://threatpost.com/zoom-patches-zero-click-rce-bug/179727/">Zoom Patches ‘Zero-Click’ RCE Bug</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/automating-azure-abuse-research-part-1-30b0eca33418?source=rss----f05f8696e3cc---4">Automating Azure Abuse Research — Part 1</a></li>
+              <li><a class="lnk-pink" href="https://blog.assetnote.io/2022/05/27/understanding-cve-2022-22972-vmware-workspace-one-access/">Understanding CVE-2022-22972 (VMWare Workspace One Access Auth Bypass)</a></li>
+              <li><a class="lnk-green" href="https://www.sentinelone.com/labs/use-of-obfuscated-beacons-in-pymafka-supply-chain-attack-signals-a-new-trend-in-macos-attack-ttps/">Use of Obfuscated Beacons in ‘pymafka’ Supply Chain Attack Signals a New Trend in macOS Attack TTPs</a></li>
+              <li><a class="lnk-orange" href="https://bishopfox.com/blog/decentralized-finance-blockchain-battleground">Call of DeFi: The Battleground of Blockchain</a></li>
+              <li><a class="lnk-purple" href="https://github.blog/2022-05-26-npm-security-update-oauth-tokens/">npm security update: Attack campaign using stolen OAuth tokens</a></li>
+              <li><a class="lnk-blue" href="https://github.com/Orange-Cyberdefense/arsenal">Orange-Cyberdefense/arsenal: An inventory and launcher for hacking programs</a></li>
+              <li><a class="lnk-pink" href="https://github.com/catzsec/ForceAdmin">ForceAdmin: Create infinate #UAC prompts forcing a user to run as admin</a></li>
+              <li><a class="lnk-green" href="https://grsecurity.net/tetragone_a_lesson_in_security_fundamentals">grsecurity - Tetragone: A Lesson in Security Fundamentals</a></li>
+              <li><a class="lnk-orange" href="https://www.crowdstrike.com/blog/hunting-for-malicious-jscript-with-overwatch-elite/">How Defenders Can Hunt for Malicious JScript Executions</a></li>
+              <li><a class="lnk-purple" href="https://blog.cloudflare.com/bmc-vuln/">Cloudflare’s approach to handling BMC vulnerabilities</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>Are you a developer with a strong security passion? Be part of our <a href="https://careers.kindredgroup.com/vacancy/software-engineer-cyber-security-stockholm/8484/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 30 million customers. You can find all our open vacancies on our <a href="https://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering more than 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 2,000 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
