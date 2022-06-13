@@ -1,0 +1,206 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 13/06/2022" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://media.wired.com/photos/62a0dcee6a9716a842ad8617/191:100/w_1280,c_limit/Coded-Music-Notation-Security-MG-PIC-06.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">13 Jun 2022</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">How a Saxophonist Tricked the KGB by Encrypting Secrets in Music</mj-text>
+          <mj-image src="https://media.wired.com/photos/62a0dcee6a9716a842ad8617/191:100/w_1280,c_limit/Coded-Music-Notation-Security-MG-PIC-06.jpg"></mj-image>
+          <mj-text color="#fff">In 1985, saxophonist Merryl Goldberg found herself on a plane to Moscow with three fellow musicians from the Boston Klezmer Conservatory Band. She had carefully packed sheet music, reeds, and other woodwind supplies, along with a soprano saxophone, to bring into the USSR. But one of her spiral-bound notebooks, lined with staves for hand-notating music, contained hidden information.</mj-text>
+          <mj-text color="#fff">Using a code she had developed herself, Goldberg had obscured names, addresses, and other details the group would need for their trip in handwritten compositions that looked, to an untrained eye, like the real melodies she’d written on other pages of the book. Goldberg and her colleagues didn’t want to give Soviet officials details of who they planned to see and what they planned to do on their trip. They were going to meet the Phantom Orchestra.</mj-text>
+          <mj-text color="#fff">The trip was a rare and special opportunity for American and Soviet players to meet in the USSR and make music together. It was also an opportunity for the American musicians to smuggle information about aid efforts and plans to the Phantom Orchestra, and for the ensemble to send updates out, including details about individuals looking to escape the Soviet Union.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.wired.com/story/merryl-goldberg-music-encryption-ussr-phantom-orchestra/">
+            Read More on Wired
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Conti's Attack Against Costa Rica Sparks a New Ransomware Era</mj-text>
+          <mj-image src="https://media.wired.com/photos/62a3bbfee1a7c9ca5f0da113/191:100/w_1280,c_limit/Conti-Ransomware-Costa-Rica-GettyImages-512138283.jpg"></mj-image>
+          <mj-text>For the last two months, Costa Rica has been under siege. Two major ransomware attacks have crippled many of the country’s essential services, plunging the government into chaos as it scrambles to respond. Officials say that international trade ground to a halt as the ransomware took hold and more than 30,000 medical appointments have been rescheduled, while tax payments have also been disrupted. Millions have been lost due to the attacks, and staff at affected organizations have turned to pen and paper to get things done.</mj-text>
+          <mj-text>Costa Rica’s government, which changed midway through the attacks after elections earlier this year, has declared a “national emergency” in response to the ransomware—marking the first time a country has done so in response to a cyberattack. Twenty-seven government bodies were targeted in the first attacks, which ran from mid-April until the start of May, according to new president Rodrigo Chaves. The second attack, at the end of May, has sent Costa Rica’s health care system into a spiral. Chaves has declared “war” on those responsible.</mj-text>
+          <mj-text>At the heart of the hacking spree is Conti, the notorious Russia-linked ransomware gang. Conti claimed responsibility for the first attack against Costa Rica’s government and is believed to have some links to the ransomware-as-a-service operation HIVE, which was responsible for the second attack impacting the health care system. </mj-text>
+          <mj-button mj-class="bg-pink" href="https://www.wired.com/story/costa-rica-ransomware-conti/">
+            Read More on Wired
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/wifi-probing-exposes-smartphone-users-to-tracking-info-leaks/">WiFi probing exposes smartphone users to tracking, info leaks</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/dark-web-sites-selling-alleged-western-weapons-sent-to-ukraine/">Dark web sites selling alleged Western weapons sent to Ukraine</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/chinese-hacking-group-aoqin-dragon-quietly-spied-orgs-for-a-decade/">Chinese hacking group Aoqin Dragon quietly spied orgs for a decade</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/massive-facebook-messenger-phishing-operation-generates-millions/">Massive Facebook Messenger phishing operation generates millions</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/legal/surfshark-expressvpn-pull-out-of-india-over-data-retention-laws/">Surfshark, ExpressVPN pull out of India over data retention laws</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/us-seizes-ssndob-market-for-selling-personal-info-of-24-million-people/">US seizes SSNDOB market for selling personal info of 24 million people</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/us-chinese-govt-hackers-breached-telcos-to-snoop-on-network-traffic/">US: Chinese govt hackers breached telcos to snoop on network traffic</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/why-netflix-isnt-the-only-one-bummed-about-password-sharing/">Why Netflix isn't the Only One Bummed About Password Sharing</a></li>
+              <li><a class="lnk-orange" href="https://krebsonsecurity.com/2022/06/what-counts-as-good-faith-security-research/">What Counts as “Good Faith Security Research?”</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/americans-report-losing-over-1-billion-to-cryptocurrency-scams/">Americans report losing over $1 billion to cryptocurrency scams</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/clipminer-malware-gang-stole-17m-by-hijacking-crypto-payments/">Clipminer malware gang stole $1.7M by hijacking crypto payments</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/ransomware-attacks-need-less-than-four-days-to-encrypt-systems/">Ransomware attacks need less than four days to encrypt systems</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/hackers-steal-whatsapp-accounts-using-call-forwarding-trick/">Hackers steal WhatsApp accounts using call forwarding trick</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/aligning-your-password-policy-enforcement-with-nist-guidelines/">Aligning Your Password Policy enforcement with NIST Guidelines</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/vodafone-plans-carrier-level-user-tracking-for-targeted-ads/">Vodafone plans carrier-level user tracking for targeted ads</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/three-nigerians-arrested-for-malware-assisted-financial-crimes/">Three Nigerians arrested for malware-assisted financial crimes</a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2022/06/even-most-advanced-threats-rely-on.html">Even the Most Advanced Threats Rely on Unpatched Systems</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/confluence-servers-hacked-to-deploy-avoslocker-cerber2021-ransomware/">Confluence servers hacked to deploy AvosLocker, Cerber2021 ransomware</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/vice-society-ransomware-claims-attack-on-italian-city-of-palermo/">Vice Society ransomware claims attack on Italian city of Palermo</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/shields-health-care-group-data-breach-affects-2-million-patients/">Shields Health Care Group data breach affects 2 million patients</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/novartis-says-no-sensitive-data-was-compromised-in-cyberattack/">Novartis says no sensitive data was compromised in cyberattack</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/costa-rica-s-public-health-agency-hit-by-hive-ransomware/">Costa Rica’s public health agency hit by Hive ransomware</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/android-june-2022-updates-bring-fix-for-critical-rce-vulnerability/">Android June 2022 updates bring fix for critical RCE vulnerability</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/exploit-released-for-atlassian-confluence-rce-bug-patch-now/">Exploit released for Atlassian Confluence RCE bug, patch now</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/gitlab-security-update-fixes-critical-account-take-over-flaw/">GitLab security update fixes critical account take over flaw</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-pacman-hardware-attack-targets-macs-with-apple-m1-cpus/">New PACMAN hardware attack targets Macs with Apple M1 CPUs</a></li>
+              <li><a class="lnk-pink" href="https://bishopfox.com/blog/cloudtrail-pivot-to-aws-accounts">Using CloudTrail to Pivot to AWS Accounts</a></li>
+              <li><a class="lnk-green" href="https://research.nccgroup.com/2022/05/27/technical-advisory-fujitsu-centricstor-control-center-v8-1-unauthenticated-command-injection/">Technical Advisory – FUJITSU CentricStor Control Center</a></li>
+              <li><a class="lnk-orange" href="https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/">Aoqin Dragon | Newly-Discovered Chinese-linked APT Has Been Quietly Spying On Organizations For 10 Years</a></li>
+              <li><a class="lnk-purple" href="https://posts.specterops.io/managed-identity-attack-paths-part-3-function-apps-300065251cbe?source=rss----f05f8696e3cc---4">Managed Identity Attack Paths, Part 3: Function Apps</a></li>
+              <li><a class="lnk-blue" href="https://research.nccgroup.com/2022/06/06/shining-the-light-on-black-basta/">Shining the Light on Black Basta</a></li>
+              <li><a class="lnk-pink" href="https://research.checkpoint.com/2022/vulnerability-within-the-unisoc-baseband/">Vulnerability within the UNISOC baseband opens mobile phones communications to remote hacker attacks</a></li>
+              <li><a class="lnk-green" href="https://bishopfox.com/blog/ripgen-tool">ripgen: Taking the Guesswork Out of Subdomain Discovery</a></li>
+              <li><a class="lnk-orange" href="https://posts.specterops.io/deeppass-finding-passwords-with-deep-learning-4d31c534cd00?source=rss----f05f8696e3cc---4">DeepPass — Finding Passwords With Deep Learning</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      
+      <mj-section background-color="#df247a">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/we-need-you.png" width="300px"></mj-image>
+          <mj-text color="#fff">Kingred Group is growing, so does the Group Security team! We're looking for new talented professionals to come join us:
+            <ul>
+                <li>Are you a developer with a strong security passion? Be part of our <a href="https://careers.kindredgroup.com/vacancy/software-engineer-cyber-security-stockholm/8484/description/" class="lnk-yellow" target="_blank">Cyber Security team</a></li>
+            </ul>
+            Kindred is one of the largest online gambling companies in the world with over 30 million customers. You can find all our open vacancies on our <a href="https://www.kindredgroup.com/careers/" class="lnk-yellow">career page</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering more than 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 2,000 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
