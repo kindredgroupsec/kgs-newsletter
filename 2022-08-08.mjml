@@ -1,0 +1,182 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 08/08/2022" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center"> 8 Aug 2022</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">The Microsoft Team Racing to Catch Bugs Before They Happen</mj-text>
+          <mj-image src="https://media.wired.com/photos/62eaa3f0a8cfdad40f878cc0/191:100/w_1280,c_limit/Microsoft-Bugs-Security-Alamy-FCE79X.jpg"></mj-image>
+          <mj-text color="#fff">As a rush of cybercriminals, state-backed hackers, and scammers continue to flood the zone with digital attacks and aggressive campaigns worldwide, it’s no surprise that the maker of the ubiquitous Windows operating system is focused on security defense. Microsoft’s Patch Tuesday update releases frequently contain fixes for critical vulnerabilities, including those that are actively being exploited by attackers out in the world.</mj-text>
+          <mj-text color="#fff">The company already has the requisite groups to hunt for weaknesses in its code (the “red team") and develop mitigations (the “blue team”). But recently, that format evolved again to promote more collaboration and interdisciplinary work in the hopes of catching even more mistakes and flaws before things start to spiral.</mj-text>
+          <mj-text color="#fff">Known as Microsoft Offensive Research & Security Engineering, or Morse, the department combines the red team, blue team, and so-called green team, which focuses on finding flaws or taking weaknesses the red team has found and fixing them more systemically through changes to how things are done within an organization.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.wired.com/story/microsoft-morse-team/">
+            Read More on Wired
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Pink Articles -->
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="pink h2">Who Is Collecting Data from Your Car?</mj-text>
+          <mj-image src="https://mrkp-static-production.themarkup.org/uploads/2022/07/Rraphael_markup0722_ver3_reduced.jpg"></mj-image>
+          <mj-text>Today’s cars are akin to smartphones, with apps connected to the internet that collect huge amounts of data, some of which is highly personal.</mj-text>
+          <mj-text>Most drivers have no idea what data is being transmitted from their vehicles, let alone who exactly is collecting, analyzing, and sharing that data, and with whom. A recent survey of drivers by the Automotive Industries Association of Canada found that only 28 percent of respondents had a clear understanding of the types of data their vehicle produced, and the same percentage said they had a clear understanding of who had access to that data.</mj-text>
+          <mj-text>The Markup has identified 37 companies that are part of the rapidly growing connected vehicle data industry that seeks to monetize such data in an environment with few regulations governing its sale or use. While many of these companies stress they are using aggregated or anonymized data, the unique nature of location and movement data increases the potential for violations of user privacy.</mj-text>
+          <mj-button mj-class="bg-pink" href="https://themarkup.org/the-breakdown/2022/07/27/who-is-collecting-data-from-your-car">
+            Read More on The Markup
+          </mj-button>
+
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/dhs-warns-of-critical-flaws-in-emergency-alert-system-devices/">DHS warns of critical flaws in Emergency Alert System devices</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-hackers-who-sabotaged-radiation-alert-system/">Spain arrests suspected hackers who sabotaged radiation alert system</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/hackers-scan-for-vulnerabilities-within-15-minutes-of-disclosure/">Hackers scan for vulnerabilities within 15 minutes of disclosure</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/chrome-use-subject-to-restrictions-in-dutch-schools-over-data-security-concerns/">Chrome use subject to restrictions in Dutch schools over data security concerns</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/hacker-selling-twitter-account-data-of-54-million-users-for-30k/">Hacker selling Twitter account data of 5.4 million users for $30k</a></li>
+              <li><a class="lnk-blue" href="https://thehackernews.com/2022/08/resolving-availability-vs-security.html">Resolving Availability vs. Security, a Constant Conflict in IT</a></li>
+              <li><a class="lnk-pink" href="https://www.vice.com/en/article/y3pv9v/european-cops-helped-15-million-people-decrypt-their-ransomwared-computers">European Cops Helped 1.5 Million People Decrypt Their Ransomwared Computers</a></li>
+              <li><a class="lnk-green" href="https://therecord.media/massive-cyberattack-hits-german-chambers-of-industry-and-commerce/">‘Massive’ cyberattack hits German Chambers of Industry and Commerce</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/uk-nhs-suffers-outage-after-cyberattack-on-managed-service-provider/">UK NHS suffers outage after cyberattack on managed service provider</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/twitter-confirms-zero-day-used-to-expose-data-of-54-million-accounts/">Twitter confirms zero-day used to expose data of 5.4 million accounts</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/semiconductor-manufacturer-semikron-hit-by-lv-ransomware-attack/">Semiconductor manufacturer Semikron hit by LV ransomware attack</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/eu-missile-maker-mbda-confirms-data-theft-extortion-denies-breach/">EU missile maker MBDA confirms data theft extortion, denies breach</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/digital-security-giant-entrust-breached-by-ransomware-gang/">Digital security giant Entrust breached by ransomware gang</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cisco-fixes-critical-remote-code-execution-bug-in-vpn-routers/">Cisco fixes critical remote code execution bug in VPN routers</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/vmware-urges-admins-to-patch-critical-auth-bypass-bug-immediately/">VMware urges admins to patch critical auth bypass bug immediately</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-confluence-bug-exploited-in-attacks/">CISA warns of critical Confluence bug exploited in attacks</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://posts.specterops.io/introducing-bloodhound-4-2-the-azure-refactor-1cff734938bd?source=rss----f05f8696e3cc---4">Introducing BloodHound 4.2 — The Azure Refactor</a></li>
+              <li><a class="lnk-pink" href="https://portswigger.net/research/framing-without-iframes">Framing without iframes</a></li>
+              <li><a class="lnk-green" href="https://www.sentinelone.com/labs/lockbit-3-0-update-unpicking-the-ransomwares-latest-anti-analysis-and-evasion-techniques/">LockBit 3.0 - Unpicking the Ransomware’s Latest Anti-Analysis and Evasion Techniques</a></li>
+              <li><a class="lnk-purple" href="https://github.blog/2022-07-26-introducing-even-more-security-enhancements-to-npm/">Introducing even more security enhancements to npm</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-new-external-attack-surface-audit-tool/">Microsoft announces new external attack surface audit tool</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering more than 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 2,000 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
