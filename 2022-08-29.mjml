@@ -1,0 +1,159 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 29/08/2022" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://media.wired.com/photos/630921ccf64c675d6d1a5056/191:100/w_1280,c_limit/Twilio-Hack-Security-GettyImages-1281229452.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">29 Aug 2022</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Why the Twilio Breach Cuts So Deep</mj-text>
+          <mj-image src="https://media.wired.com/photos/630921ccf64c675d6d1a5056/191:100/w_1280,c_limit/Twilio-Hack-Security-GettyImages-1281229452.jpg"></mj-image>
+          <mj-text color="#fff">The communication company Twilio suffered a breach at the beginning of August that it says impacted 163 of its customer organizations. Out of Twilio's 270,000 clients, 0.06 percent might seem trivial, but the company's particular role in the digital ecosystem means that that fractional slice of victims had an outsized value and influence. The secure messaging app Signal, two-factor authentication app Authy, and authentication firm Okta are all Twilio customers that were secondary victims of the breach.</mj-text>
+          <mj-text color="#fff">Twilio provides application programming interfaces through which companies can automate call and texting services. This could mean a system a barber uses to remind customers about haircuts and have them text back “Confirm” or “Cancel.” But it can also be the platform through which organizations manage their two-factor authentication text messaging systems for sending one-time authentication codes. Though it's long been known that SMS is an insecure way to receive these codes, it's definitely better than nothing, and organizations haven't been able to move away from the practice completely. Even a company like Authy, whose core product is an authentication code-generating app, uses some of Twilio's services.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.wired.com/story/twilio-breach-phishing-supply-chain-attacks/">
+            Read More on Wired
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/cisa-prepare-now-for-quantum-computers-not-when-hackers-use-them/">CISA: Prepare now for quantum computers, not when hackers use them</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/fbi-warns-of-residential-proxies-used-in-credential-stuffing-attacks/">FBI warns of residential proxies used in credential stuffing attacks</a></li>
+              <li><a class="lnk-green" href="https://therecord.media/california-ag-looks-ahead-to-other-data-privacy-violations-after-1-2-million-sephora-fine/">California AG looks ahead to other data privacy violations after $1.2 million Sephora fine</a></li>
+              <li><a class="lnk-orange" href="https://therecord.media/fcc-launches-investigation-into-mobile-carriers-geolocation-data-practices/">FCC launches investigation into mobile carriers’ geolocation data practices</a></li>
+              <li><a class="lnk-purple" href="https://www.csoonline.com/article/3671333/facebook-agrees-to-settle-class-action-lawsuit-related-to-cambridge-analytica-data-breach.html">Facebook agrees to settle class action lawsuit related to Cambridge Analytica data breach</a></li>
+              <li><a class="lnk-blue" href="https://www.schneier.com/blog/archives/2022/08/security-and-cheap-complexity.html">Security and Cheap Complexity</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/doordash-discloses-new-data-breach-tied-to-twilio-hackers/">DoorDash discloses new data breach tied to Twilio hackers</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/twilio-breach-let-hackers-see-oktas-one-time-mfa-passwords/">Twilio breach let hackers see Okta's one-time MFA passwords</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/twilio-breach-let-hackers-gain-access-to-authy-2fa-accounts/">Twilio breach let hackers gain access to Authy 2FA accounts</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/ransomexx-claims-ransomware-attack-on-sea-doo-ski-doo-maker/">RansomEXX claims ransomware attack on Sea-Doo, Ski-Doo maker</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/plex-warns-users-to-reset-passwords-after-a-data-breach/">Plex warns users to reset passwords after a data breach</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/french-hospital-hit-by-10m-ransomware-attack-sends-patients-elsewhere/">French hospital hit by $10M ransomware attack, sends patients elsewhere</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/greek-natural-gas-operator-suffers-ransomware-related-data-breach/">Greek natural gas operator suffers ransomware-related data breach</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/atlassian-bitbucket-server-vulnerable-to-critical-rce-vulnerability/">Atlassian Bitbucket Server vulnerable to critical RCE vulnerability</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/gitlab-strongly-recommends-patching-critical-rce-vulnerability/">GitLab ‘strongly recommends’ patching critical RCE vulnerability</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://research.checkpoint.com/2022/check-point-research-detects-crypto-miner-malware-disguised-as-google-translate-desktop-and-other-legitimate-applications/">Crypto Miner malware disguised as Google translate desktop and other legitimate applications</a></li>
+              <li><a class="lnk-pink" href="https://research.nccgroup.com/2022/08/25/tool-release-jwt-reauth/">Tool Release – JWT-Reauth</a></li>
+              <li><a class="lnk-green" href="https://bishopfox.com/blog/iot-rng-csprng">You're (Still) Doing IoT RNG</a></li>
+              <li><a class="lnk-orange" href="https://cybergeeks.tech/a-technical-analysis-of-pegasus-for-android-part-1/">A technical analysis of Pegasus for Android – Part 1</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering more than 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 2,000 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
