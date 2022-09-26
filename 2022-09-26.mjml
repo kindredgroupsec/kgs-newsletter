@@ -1,0 +1,170 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 26/09/2022" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://news.infosecgur.us/assets/kindred-logo.png" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">26 Sep 2022</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="white h2">Slack’s and Teams’ Lax App Security Raises Alarms</mj-text>
+          <mj-image src="https://media.wired.com/photos/632d0df220bc56769c4131d5/191:100/w_1280,c_limit/security-slack-teams.jpg"></mj-image>
+          <mj-text color="#fff">Collaboration apps like Slack and Microsoft Teams have become the connective tissue of the modern workplace, tying together users with everything from messaging to scheduling to video conference tools. But as Slack and Teams become full-blown, app-enabled operating systems of corporate productivity, one group of researchers has pointed to serious risks in what they expose to third-party programs—at the same time as they're trusted with more organizations' sensitive data than ever before.</mj-text>
+          <mj-text color="#fff">A new study by researchers at the University of Wisconsin-Madison points to troubling gaps in the third-party app security model of both Slack and Teams, which range from a lack of review of the apps’ code to default settings that allow any user to install an app for an entire workspace. And while Slack and Teams apps are at least limited by the permissions they seek approval for upon installation, the study's survey of those safeguards found that hundreds of apps' permissions would nonetheless allow them to potentially post messages as a user, hijack the functionality of other legitimate apps, or even, in a handful of cases, access content in private channels when no such permission was granted.</mj-text>
+          <mj-button mj-class="blue" background-color="#fff" href="https://www.wired.com/story/slack-microsoft-teams-app-security/">
+            Read More on Wired
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/uk-police-arrests-teen-believed-to-be-behind-uber-rockstar-hacks/">UK Police arrests teen believed to be behind Uber, Rockstar hacks</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/multi-million-dollar-credit-card-fraud-operation-uncovered/">Multi-million dollar credit card fraud operation uncovered</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/nsa-shares-guidance-to-help-secure-ot-ics-critical-infrastructure/">NSA shares guidance to help secure OT/ICS critical infrastructure</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/fbi-iranian-hackers-lurked-in-albania-s-govt-network-for-14-months/">FBI: Iranian hackers lurked in Albania’s govt network for 14 months</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/okta-credential-stuffing-accounts-for-34-percent-of-all-login-attempts/">Okta: Credential stuffing accounts for 34% of all login attempts</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/mfa-fatigue-hackers-new-favorite-tactic-in-high-profile-breaches/">MFA Fatigue: Hackers’ new favorite tactic in high-profile breaches</a></li>
+              <li><a class="lnk-pink" href="https://krebsonsecurity.com/2022/09/say-hello-to-crazy-thin-deep-insert-atm-skimmers/">Say Hello to Crazy Thin ‘Deep Insert’ ATM Skimmers</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/american-airlines-learned-it-was-breached-from-phishing-targets/">American Airlines learned it was breached from phishing targets</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/revolut-hack-exposes-data-of-50-000-users-fuels-new-phishing-wave/">Revolut hack exposes data of 50,000 users, fuels new phishing wave</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/gta-6-source-code-and-videos-leaked-after-rockstar-games-hack/">GTA 6 source code and videos leaked after Rockstar Games hack</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/new-york-ambulance-service-discloses-data-breach-after-ransomware-attack/">New York ambulance service discloses data breach after ransomware attack</a></li>
+              <li><a class="lnk-purple" href="https://www.bleepingcomputer.com/news/security/lastpass-says-hackers-had-internal-access-for-four-days/">LastPass says hackers had internal access for four days</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/uber-hacked-internal-systems-breached-and-vulnerability-reports-stolen/">Uber hacked, internal systems breached and vulnerability reports stolen</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/u-haul-discloses-data-breach-exposing-customer-driver-licenses/">U-Haul discloses data breach exposing customer driver licenses</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/critical-magento-vulnerability-targeted-in-new-surge-of-attacks/">Critical Magento vulnerability targeted in new surge of attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/new-lenovo-bios-updates-fix-security-bugs-in-hundreds-of-models/">New Lenovo BIOS updates fix security bugs in hundreds of models</a></li>
+              <li><a class="lnk-green" href="https://krebsonsecurity.com/2022/09/wormable-flaw-0days-lead-sept-2022-patch-tuesday/">Wormable Flaw, 0days Lead Sept. 2022 Patch Tuesday</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/apple-fixes-eighth-zero-day-used-to-hack-iphones-and-macs-this-year/">Apple fixes eighth zero-day used to hack iPhones and Macs this year</a></li>
+              <li><a class="lnk-purple" href="https://thehackernews.com/2022/09/hackers-actively-exploiting-new-sophos.html">Hackers Exploited Zero-Day RCE Vulnerability in Sophos Firewall — Patch Released</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.sentinelone.com/labs/the-mystery-of-metador-an-unattributed-threat-hiding-in-telcos-isps-and-universities/">The Mystery of Metador | An Unattributed Threat Hiding in Telcos, ISPs, and Universities</a></li>
+              <li><a class="lnk-pink" href="https://portswigger.net/research/making-http-header-injection-critical-via-response-queue-poisoning">Making HTTP header injection critical via response queue poisoning</a></li>
+              <li><a class="lnk-green" href="https://bishopfox.com/blog/in-secure-by-design">(In)Secure by Design</a></li>
+              <li><a class="lnk-orange" href="https://blog.assetnote.io/2022/09/14/rce-in-bitbucket-server/">Breaking Bitbucket: Pre Auth Remote Command Execution (CVE-2022-36804)</a></li>
+              <li><a class="lnk-purple" href="https://research.nccgroup.com/2022/09/19/a-guide-to-improving-security-through-infrastructure-as-code/">A Guide to Improving Security Through Infrastructure-as-Code</a></li>
+              <li><a class="lnk-blue" href="https://bishopfox.com/blog/introducing-cloudfox">Introducing: CloudFox</a></li>
+              <li><a class="lnk-pink" href="https://cybergeeks.tech/a-technical-analysis-of-the-leaked-lockbit-3-0-builder/">A technical analysis of the leaked LockBit 3.0 builder</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering more than 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 2,000 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
