@@ -88,8 +88,7 @@
 
       <mj-section background-color="#00a5de">
         <mj-column>
-          <mj-spacer height="30px" />
-          <mj-text mj-class="white h2">Slack’s and Teams’ Lax App Security Raises Alarms</mj-text>
+          <mj-text mj-class="white h2" align="center">Slack’s and Teams’ Lax App Security Raises Alarms</mj-text>
           <mj-image src="https://media.wired.com/photos/632d0df220bc56769c4131d5/191:100/w_1280,c_limit/security-slack-teams.jpg"></mj-image>
           <mj-text color="#fff">Collaboration apps like Slack and Microsoft Teams have become the connective tissue of the modern workplace, tying together users with everything from messaging to scheduling to video conference tools. But as Slack and Teams become full-blown, app-enabled operating systems of corporate productivity, one group of researchers has pointed to serious risks in what they expose to third-party programs—at the same time as they're trusted with more organizations' sensitive data than ever before.</mj-text>
           <mj-text color="#fff">A new study by researchers at the University of Wisconsin-Madison points to troubling gaps in the third-party app security model of both Slack and Teams, which range from a lack of review of the apps’ code to default settings that allow any user to install an app for an entire workspace. And while Slack and Teams apps are at least limited by the permissions they seek approval for upon installation, the study's survey of those safeguards found that hundreds of apps' permissions would nonetheless allow them to potentially post messages as a user, hijack the functionality of other legitimate apps, or even, in a handful of cases, access content in private channels when no such permission was granted.</mj-text>
