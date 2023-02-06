@@ -1,0 +1,153 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 06/02/2023" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://media.wired.com/photos/63dd59b5453ec92ac39562f7/master/w_640,c_limit/Sec-google-1245970662.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center"> 6 Feb 2023</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">Googling for Software Downloads Is Extra Risky Right Now</mj-text>
+          <mj-image src="https://media.wired.com/photos/63dd59b5453ec92ac39562f7/master/w_640,c_limit/Sec-google-1245970662.jpg"></mj-image>
+          <mj-text color="#fff">Searching Google for downloads of popular software has always come with risks, but over the past few months, it has been downright dangerous, according to researchers and a pseudorandom collection of queries.</mj-text>
+          <mj-text color="#fff">“Threat researchers are used to seeing a moderate flow of malvertising via Google Ads,” volunteers at Spamhaus wrote on Thursday. “However, over the past few days, researchers have witnessed a massive spike affecting numerous famous brands, with multiple malware being utilized. This is not ‘the norm.’”</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://arstechnica.com/information-technology/2023/02/until-further-notice-think-twice-before-using-google-to-download-software/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.csoonline.com/article/3687089/foreign-states-already-using-chatgpt-maliciously-uk-it-leaders-believe.html">Foreign states already using ChatGPT maliciously, UK IT leaders believe</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/hackers-weaponize-microsoft-visual-studio-add-ins-to-push-malware/">Hackers weaponize Microsoft Visual Studio add-ins to push malware</a></li>
+              <li><a class="lnk-green" href="https://www.wired.com/story/netflix-password-sharing-crackdown-us-mistake/">Netflix’s US Password-Sharing Crackdown Isn’t Happening—Yet</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/north-korean-hackers-stole-research-data-in-two-month-long-breach/">North Korean hackers stole research data in two-month-long breach</a></li>
+              <li><a class="lnk-pink" href="https://gizmodo.com/ftc-fines-goodrx-prescription-data-facebook-google-1850059096">Sharing People’s Medication Data for Advertising Now Comes With Consequences</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/truthfinder-instant-checkmate-confirm-data-breach-affecting-20m-customers/">TruthFinder, Instant Checkmate confirm data breach affecting 20M customers</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://portswigger.net/daily-swig/researcher-drops-lexmark-rce-zero-day-rather-than-sell-vuln-for-peanuts">Researcher drops Lexmark RCE zero-day rather than sell ‘for peanuts’  </a></li>
+              <li><a class="lnk-pink" href="https://thehackernews.com/2023/02/new-wave-of-ransomware-attacks.html">New Wave of Ransomware Attacks Exploiting VMware Bug to Target ESXi Servers</a></li>
+              <li><a class="lnk-green" href="https://www.csoonline.com/article/3687232/critical-vulnerability-patched-in-jira-service-management-server-and-data-center.html">Critical vulnerability patched in Jira Service Management Server and Data Center</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/technology/openai-releases-tool-to-detect-ai-written-text/">OpenAI releases tool to detect AI-written text</a></li>
+              <li><a class="lnk-pink" href="https://portswigger.net/daily-swig/truffle-security-relaunches-xss-hunter-tool-with-new-features">XSS Hunter tool is resurrected with new features</a></li>
+              <li><a class="lnk-green" href="https://portswigger.net/daily-swig/serious-security-hole-plugged-in-infosec-tool-binwalk">Serious security hole plugged in infosec tool binwalk </a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering more than 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 2,000 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
