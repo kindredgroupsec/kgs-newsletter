@@ -1,0 +1,158 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 27/02/2023" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://media.wired.com/photos/63f6c1587885d81b59d4702c/master/w_680,c_limit/security_app_safety.jpg" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">27 Feb 2023</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">You Can’t Trust App Developers’ Privacy Claims on Google Play</mj-text>
+          <mj-image src="https://media.wired.com/photos/63f6c1587885d81b59d4702c/master/w_680,c_limit/security_app_safety.jpg"></mj-image>
+          <mj-text color="#fff">IT'S BASICALLY IMPOSSIBLE to keep track of what all your mobile apps are doing and what data they share with whom and when. So over the past couple of years, Apple and Google have both added mechanisms to their app stores meant to act as a sort of privacy nutrition label, giving users some insight into how apps behave and what information they may share. These transparency tools, though, are populated with self-reported information from app developers themselves. And a new study focused on the Data Safety information in Google Play indicates that the details developers are providing are often inaccurate.</mj-text>
+          <mj-text color="#fff">Researchers from the nonprofit software group Mozilla looked at the Data Safety information of Google Play's top 40 most-downloaded apps and rated these privacy disclosures as “poor,” “needs improvement,” or “OK.” The assessments were based on the degree to which the Data Safety information did or did not align with the information in each app's privacy policy. Sixteen of the 40 apps, including Facebook and Minecraft, received the lowest grade for their Data Safety disclosures. Fifteen apps received the middle grade. These included the Meta-owned apps Instagram and WhatsApp, but also the Google-owned YouTube, Google Maps, and Gmail. Six of the apps were awarded the highest grade, including Google Play Games and Candy Crush Saga.</mj-text>
+          <mj-text color="#fff">“When you land on Twitter’s app page or TikTok’s app page and click on Data Safety, the first thing you see is these companies declaring that they don’t share data with third parties. That’s ridiculous—you immediately know something is off,” says Jen Caltrider, Mozilla’s project lead. “As a privacy researcher, I could tell this information was not going to help people make informed decisions. What’s more, a regular person reading it would most certainly walk away with a false sense of security.”
+          </mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.wired.com/story/google-play-data-safety-forms-mozilla-research/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/twitter-gets-rid-of-sms-2fa-for-non-blue-members-what-you-need-to-do/">Twitter gets rid of SMS 2FA for non-Blue members — What you need to do</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/chromeloader-campaign-lures-with-malicious-vhds-for-popular-games/">ChromeLoader campaign lures with malicious VHDs for popular games</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/news-corp-says-state-hackers-were-on-its-network-for-two-years/">News Corp says state hackers were on its network for two years</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/godaddy-hackers-stole-source-code-installed-malware-in-multi-year-breach/">GoDaddy: Hackers stole source code, installed malware in multi-year breach</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/atlassian-data-leak-caused-by-stolen-employee-credentials/">Atlassian data leak caused by stolen employee credentials</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/stanford-university-discloses-data-breach-affecting-phd-applicants/">Stanford University discloses data breach affecting PhD applicants</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-offering-windows-11-upgrades-to-unsupported-pcs/">Microsoft fixes bug offering Windows 11 upgrades to unsupported PCs</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/microsoft-urges-exchange-admins-to-remove-some-antivirus-exclusions/">Microsoft urges Exchange admins to remove some antivirus exclusions</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/dish-network-goes-offline-after-likely-cyberattack-employees-cut-off/">Dish Network goes offline after likely cyberattack, employees cut off</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/brave-browser-to-block-open-in-app-prompts-pool-party-attacks/">Brave browser to block “open in app” prompts, pool-party attacks</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering more than 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 2,000 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
