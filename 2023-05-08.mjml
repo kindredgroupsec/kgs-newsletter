@@ -1,0 +1,155 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 08/05/2023" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/hl-images/2021/11/10/WordPress.jpg" width="650" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center"> 8 May 2023</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">WordPress custom field plugin bug exposes over 1M sites to XSS attacks</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2021/11/10/WordPress.jpg" width="650"></mj-image>
+          <mj-text color="#fff">Security researchers warn that the 'Advanced Custom Fields' and 'Advanced Custom Fields Pro' WordPress plugins, with millions of installs, are vulnerable to cross-site scripting attacks (XSS). The two plugins are among WordPress's most popular custom field builders, with 2,000,000 active installs on sites worldwide.</mj-text>
+          <mj-text color="#fff">Patchstack's researcher Rafie Muhammad discovered the high-severity reflected XSS vulnerability on May 2, 2023, which was assigned the identifier CVE-2023-30777. XSS bugs generally allow attackers to inject malicious scripts on websites viewed by others, resulting in the execution of code on the visitor's web browser.</mj-text>
+          <mj-text color="#fff">Patchstack says the XSS flaw could allow an unauthenticated attacker to steal sensitive information and escalate their privileges on an impacted WordPress site. "Note that this vulnerability could be triggered on a default installation or configuration of Advanced Custom Fields plugin," explains Patchstack in the bulletin. "The XSS also could only be triggered from logged-in users that have access to the Advanced Custom Fields plugin."</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="URL">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/kucoins-twitter-account-hacked-to-promote-crypto-scam/">KuCoin's Twitter account hacked to promote crypto scam</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/kimsuky-hackers-use-new-recon-tool-to-find-security-gaps/">Kimsuky hackers use new recon tool to find security gaps</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-android-fluhorse-malware-steals-your-passwords-2fa-codes/">New Android FluHorse malware steals your passwords, 2FA codes</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/meet-akira-a-new-ransomware-operation-targeting-the-enterprise/">Meet Akira — A new ransomware operation targeting the enterprise</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/city-of-dallas-hit-by-royal-ransomware-attack-impacting-it-services/">City of Dallas hit by Royal ransomware attack impacting IT services</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/ransomware-gang-hijacks-university-alert-system-to-issue-threats/">Ransomware gang hijacks university alert system to issue threats</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/alphv-gang-claims-ransomware-attack-on-constellation-software/">ALPHV gang claims ransomware attack on Constellation Software</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-android-updates-fix-kernel-bug-exploited-in-spyware-attacks/">New Android updates fix kernel bug exploited in spyware attacks</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5025239-cumulative-update-released-with-25-changes/">Windows 11 KB5025239 cumulative update released with 25 changes</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5025221-and-kb5025229-updates-released/">Windows 10 KB5025221 and KB5025229 updates released</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/twitter-says-security-incident-exposed-private-circle-tweets/">Twitter says 'security incident' exposed private Circle tweets</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/western-digital-says-hackers-stole-customer-data-in-march-cyberattack/">Western Digital says hackers stole customer data in March cyberattack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-fleckpe-android-malware-installed-600k-times-on-google-play/">New Fleckpe Android malware installed 600K times on Google Play</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering more than 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 2,000 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
