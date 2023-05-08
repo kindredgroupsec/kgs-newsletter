@@ -93,7 +93,7 @@
           <mj-text color="#fff">Security researchers warn that the 'Advanced Custom Fields' and 'Advanced Custom Fields Pro' WordPress plugins, with millions of installs, are vulnerable to cross-site scripting attacks (XSS). The two plugins are among WordPress's most popular custom field builders, with 2,000,000 active installs on sites worldwide.</mj-text>
           <mj-text color="#fff">Patchstack's researcher Rafie Muhammad discovered the high-severity reflected XSS vulnerability on May 2, 2023, which was assigned the identifier CVE-2023-30777. XSS bugs generally allow attackers to inject malicious scripts on websites viewed by others, resulting in the execution of code on the visitor's web browser.</mj-text>
           <mj-text color="#fff">Patchstack says the XSS flaw could allow an unauthenticated attacker to steal sensitive information and escalate their privileges on an impacted WordPress site. "Note that this vulnerability could be triggered on a default installation or configuration of Advanced Custom Fields plugin," explains Patchstack in the bulletin. "The XSS also could only be triggered from logged-in users that have access to the Advanced Custom Fields plugin."</mj-text>
-          <mj-button background-color="#fff" mj-class="blue" href="URL">
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/wordpress-custom-field-plugin-bug-exposes-over-1m-sites-to-xss-attacks/">
             Read More
           </mj-button>
         </mj-column>
