@@ -72,6 +72,7 @@
           <mj-spacer height="30px" />
           <mj-text mj-class="orange h2">2023</mj-text>
           <mj-list>
+          <li><a href="./2023-10-30.html" class="lnk-blue">30 Oct 2023</a> (<a href="./2023-10-30.pdf" class="lnk-green">PDF</a>)</li>
           <li><a href="./2023-10-16.html" class="lnk-blue">16 Oct 2023</a> (<a href="./2023-10-16.pdf" class="lnk-green">PDF</a>)</li>
           <li><a href="./2023-10-02.html" class="lnk-blue"> 2 Oct 2023</a> (<a href="./2023-10-02.pdf" class="lnk-green">PDF</a>)</li>
           <li><a href="./2023-09-25.html" class="lnk-blue">25 Sep 2023</a> (<a href="./2023-09-25.pdf" class="lnk-green">PDF</a>)</li>
