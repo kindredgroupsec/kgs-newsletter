@@ -1,7 +1,7 @@
 What happened last week in #InfoSec? Find it out with the Kindred security newsletter!
-https://news.infosecgur.us/2023-12-18
+https://news.infosecgur.us/2024-02-12
 
-Kindred Group Security Newsletter - 18 Dec 2023
+Kindred Group Security Newsletter - 12 Feb 2024
 Kindred Group Security
 newsletter@infosecgur.us
  
