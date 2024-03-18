@@ -1,0 +1,157 @@
+<mjml>
+  <mj-head>
+    <mj-title>Kindred Security Newsletter</mj-title>
+    <mj-font name="Factoria" href="http://www.kindredgroup.com/wp-content/themes/kindred/css/font-factoria.css"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-class name="white" color="#fff"></mj-class>
+      <mj-class name="blue" color="#00a5de"></mj-class>
+      <mj-class name="bg-blue" color="#fff" background-color="#00a5de"></mj-class>
+      <mj-class name="pink" color="#E72B78"></mj-class>
+      <mj-class name="bg-pink" color="#fff" background-color="#E72B78"></mj-class>
+      <mj-class name="green" color="#2ea836"></mj-class>
+      <mj-class name="bg-green" color="#fff" background-color="#2ea836"></mj-class>
+      <mj-class name="orange" color="#F39000"></mj-class>
+      <mj-class name="bg-orange" color="#fff" background-color="#F39000"></mj-class>
+      <mj-class name="purple" color="#992785"></mj-class>
+      <mj-class name="bg-purple" color="#fff" background-color="#992785"></mj-class>
+      <mj-class name="grey" color="#777"></mj-class>
+      <mj-class name="bg-grey" color="#fff" background-color="#777"></mj-class>
+      <mj-class name="black" color="#222"></mj-class>
+      <mj-class name="headline" font-family="factoria"></mj-class>
+      <mj-class name="h1" font-size="35px" font-family="factoria"></mj-class>
+      <mj-class name="h2" font-size="25px" font-family="factoria"></mj-class>
+      <mj-class name="h3" font-size="18px" font-family="factoria"></mj-class>
+      <mj-all font-family="Roboto"></mj-all>
+      </mj-attributes>
+    <mj-style inline="inline">
+        .lnk-pink {
+          color: #df247a;
+          text-decoration: none;
+        }
+        .lnk-purple {
+          color: #992785;
+          text-decoration: none;
+        }
+        .lnk-green {
+          color: #2ea836;
+          text-decoration: none;
+        }
+        .lnk-orange {
+          color: #F39000;
+          text-decoration: none;
+        }
+        .lnk-blue {
+          color: #00a5de;
+          text-decoration: none;
+        }
+        .lnk-white {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .lnk-yellow {
+          color: #ffff00;
+          text-decoration: none;
+        }
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kindredgroup" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 18/03/2024" />
+        <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/hl-images/2021/08/23/ATT.jpg" width="650" />
+        <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
+      </mj-style>
+
+        
+
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#222">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/kindred-logo.png" href="https://news.infosecgur.us"></mj-image>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+
+          <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
+          <mj-text mj-class="grey h2" align="center">18 Mar 2024</mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button mj-class="bg-pink" href="https://news.infosecgur.us/register">
+            Subscribe to this newsletter
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Featured (blue) Article -->
+      <mj-section background-color="#00a5de">
+        <mj-column>
+          <mj-text mj-class="white h2" align="center">AT&T says leaked data of 70 million people is not from its systems</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2021/08/23/ATT.jpg" width="650"></mj-image>
+          <mj-text color="#fff">AT&T says a massive trove of data impacting 71 million people did not originate from its systems after a hacker leaked it on a cybercrime forum and claimed it was stolen in a 2021 breach of the company.</mj-text>
+          <mj-text color="#fff">While BleepingComputer has not been able to confirm the legitimacy of all the data in the database, we have confirmed some of the entries are accurate, including those whose data is not publicly accessible for scraping.</mj-text>
+          <mj-text color="#fff">The data is from an alleged 2021 AT&T data breach that a threat actor known as ShinyHunters attempted to sell on the RaidForums data theft forum for a starting price of $200,000 and incremental offers of $30,000. The hacker stated they would sell it immediately for $1 million.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/att-says-leaked-data-of-70-million-people-is-not-from-its-systems/">
+            Read More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">More #News</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/over-15-000-hacked-roku-accounts-sold-for-50-each-to-buy-hardware/">Over 15,000 hacked Roku accounts sold for 50¢ each to buy hardware</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/international-monetary-fund-email-accounts-hacked-in-cyberattack/">International Monetary Fund email accounts hacked in cyberattack</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/french-unemployment-agency-data-breach-impacts-43-million-people/">French unemployment agency data breach impacts 43 million people</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Breach Log</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/fujitsu-found-malware-on-it-systems-confirms-data-breach/">Fujitsu found malware on IT systems, confirms data breach</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/hackers-exploit-aiohttp-bug-to-find-vulnerable-networks/">Hackers exploit Aiohttp bug to find vulnerable networks</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/new-acoustic-attack-determines-keystrokes-from-typing-patterns/">New acoustic attack determines keystrokes from typing patterns</a></li>
+              <li><a class="lnk-orange" href="https://www.bleepingcomputer.com/news/security/stopcrypt-most-widely-distributed-ransomware-evolves-to-evade-detection/">StopCrypt: Most widely distributed ransomware evolves to evade detection</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Patch Time!</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/google/google-chrome-gets-real-time-phishing-protection-later-this-month/">Google Chrome gets real-time phishing protection later this month</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2024-patch-tuesday-fixes-60-flaws-18-rce-bugs/">Microsoft March 2024 Patch Tuesday fixes 60 flaws, 18 RCE bugs</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5035845-update-released-with-9-new-changes-fixes/">Windows 10 KB5035845 update released with 9 new changes, fixes</a></li>
+           </ul>
+          </mj-text>
+          <mj-spacer height="30px" />
+          <mj-text mj-class="h2">#Tech and #Tools</mj-text>
+          <mj-text>
+            <ul>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/fake-leather-wallet-app-on-apple-app-store-is-a-crypto-drainer/">Fake Leather wallet app on Apple App Store is a crypto drainer</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/technology/mcdonalds-global-outage-was-caused-by-configuration-change/">McDonald's: Global outage was caused by "configuration change"</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/sim-swappers-hijacking-phone-numbers-in-esim-attacks/">SIM swappers hijacking phone numbers in eSIM attacks</a></li>
+           </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
+          <mj-text>This content was created by <a href="https://www.kindredgroup.com/">Kindred Group Security</a>. Please share if you enjoyed!</mj-text>
+          <mj-text mj-class="black h3">Kindred Group in brief</mj-text>
+          <mj-text mj-class="grey">Kindred Group is one of the world’s leading online gambling operators with business across Europe, US and Australia, offering more than 30 million customers across 9 brands a great form of entertainment in a safe, fair and sustainable environment. The company, which employs about 2,000 people, is listed on Nasdaq Stockholm Large Cap and is a member of the European Gaming and Betting Association (EGBA) and founding member of IBIA (Sports Betting Integrity Association). Kindred Group is audited and certified by eCOGRA for compliance with the 2014 EU Recommendation on Consumer Protection and Responsible Gambling (2014/478/EU). Read more on <a href="https://www.kindredgroup.com/">www.kindredgroup.com</a>.</mj-text>
+          <mj-text><center>You can access the previous newsletters at <a href="https://news.infosecgur.us">https://news.infosecgur.us</a></center></mj-text>
+          <mj-text mj-class="grey"><center>If you no longer wish to receive this newsletter, you can <a href="{$unsubscribe_link}">unsubscribe from this list</a>.</center></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
