@@ -56,9 +56,9 @@
         }
                 <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@kindredgroup" />
-        <meta name="twitter:title" content="Kindred Security Newsletter - 08/04/2024" />
+        <meta name="twitter:title" content="Kindred Security Newsletter - 15/04/2024" />
         <meta name="twitter:description" content="Weekly newsletter of the best articles on cybersecurity, privacy, security awareness… Curated by Kindred Group Security team." />
-        <meta name="twitter:image" content="https://www.bleepstatic.com/content/hl-images/2023/01/11/ai-robot-hacker-disiintegratin.jpg" width="650" />
+        <meta name="twitter:image" content="https://www.bleepstatic.com/content/hl-images/2021/12/08/Telegram_headpic.jpg" width="650" />
         <link rel="icon" type="image/png" href="https://news.infosecgur.us/assets/favicon.png">
       </mj-style>
 
@@ -73,7 +73,7 @@
           <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
 
           <mj-text mj-class="black h1" align="center">Security Newsletter</mj-text>
-          <mj-text mj-class="grey h2" align="center"> 8 Apr 2024</mj-text>
+          <mj-text mj-class="grey h2" align="center">15 Apr 2024</mj-text>
 
         </mj-column>
       </mj-section>
@@ -88,57 +88,59 @@
       <!-- Featured (blue) Article -->
       <mj-section background-color="#00a5de">
         <mj-column>
-          <mj-text mj-class="white h2" align="center">Fake Facebook MidJourney AI page promoted malware to 1.2 million people</mj-text>
-          <mj-image src="https://www.bleepstatic.com/content/hl-images/2023/01/11/ai-robot-hacker-disiintegratin.jpg" width="650"></mj-image>
-          <mj-text color="#fff">Hackers are using Facebook advertisements and hijacked pages to promote fake Artificial Intelligence services, such as MidJourney, OpenAI's SORA and ChatGPT-5, and DALL-E, to infect unsuspecting users with password-stealing malware.</mj-text>
-          <mj-text color="#fff">The malvertising campaigns are created by hijacked Facebook profiles that impersonate popular AI services, pretending to offer a sneak preview of new features.</mj-text>
-          <mj-text color="#fff">Users tricked by the ads become members of fraudulent Facebook communities, where the threat actors post news, AI-generated images, and other related info to make the pages look legitimate.</mj-text>
-          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/fake-facebook-midjourney-ai-page-promoted-malware-to-12-million-people/">
+          <mj-text mj-class="white h2" align="center">Telegram fixes Windows app zero-day used to launch Python scripts</mj-text>
+          <mj-image src="https://www.bleepstatic.com/content/hl-images/2021/12/08/Telegram_headpic.jpg" width="650"></mj-image>
+          <mj-text color="#fff">Telegram fixed a zero-day vulnerability in its Windows desktop application that could be used to bypass security warnings and automatically launch Python scripts.</mj-text>
+          <mj-text color="#fff">Over the past few days, rumors have been circulating on X and hacking forums about an alleged remote code execution vulnerability in Telegram for Windows.</mj-text>
+          <mj-text color="#fff">While some of these posts claimed it was a zero-click flaw, the videos demonstrating the alleged security warning bypass and RCE vulnerability clearly show someone clicking on shared media to launch the Windows calculator.</mj-text>
+          <mj-button background-color="#fff" mj-class="blue" href="https://www.bleepingcomputer.com/news/security/telegram-fixes-windows-app-zero-day-used-to-launch-python-scripts/">
             Read More
           </mj-button>
         </mj-column>
       </mj-section>
+
+
+
       <mj-section background-color="#fff">
         <mj-column>
           <mj-spacer height="30px" />
           <mj-text mj-class="h2">More #News</mj-text>
           <mj-text>
             <ul>
-              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/misconfigured-firebase-instances-leaked-19-million-plaintext-passwords/">Misconfigured Firebase instances leaked 19 million plaintext passwords</a></li>
-              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/darknet-marketplace-nemesis-market-seized-by-german-police/">Darknet marketplace Nemesis Market seized by German police</a></li>
-              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/notepad-plus-plus-wants-your-help-in-parasite-website-shutdown/">Notepad++ wants your help in "parasite website" shutdown</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/uk-flooded-with-forged-stamps-despite-using-barcodes-to-prevent-just-that/">UK flooded with forged stamps despite using barcodes — to prevent just that</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/fbi-warns-of-massive-wave-of-road-toll-sms-phishing-attacks/">FBI warns of massive wave of road toll SMS phishing attacks</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/lastpass-hackers-targeted-employee-in-failed-deepfake-ceo-call/">LastPass: Hackers targeted employee in failed deepfake CEO call</a></li>
            </ul>
           </mj-text>
           <mj-spacer height="30px" />
           <mj-text mj-class="h2">#Breach Log</mj-text>
           <mj-text>
             <ul>
-              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/russian-hackers-target-german-political-parties-with-wineloader-malware/">Russian hackers target German political parties with WineLoader malware</a></li>
-              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/home-depot-confirms-third-party-data-breach-exposed-employee-info/">Home Depot confirms third-party data breach exposed employee info</a></li>
-              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/over-92-000-exposed-d-link-nas-devices-have-a-backdoor-account/">Over 92,000 exposed D-Link NAS devices have a backdoor account</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/hacker-claims-giant-tiger-data-breach-leaks-28m-records-online/">Hacker claims Giant Tiger data breach, leaks 2.8M records online</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/ex-amazon-engineer-gets-3-years-for-hacking-crypto-exchanges/">Ex-Amazon engineer gets 3 years for hacking crypto exchanges</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/roku-warns-576-000-accounts-hacked-in-new-credential-stuffing-attacks/">Roku warns 576,000 accounts hacked in new credential stuffing attacks</a></li>
            </ul>
           </mj-text>
           <mj-spacer height="30px" />
           <mj-text mj-class="h2">#Patch Time!</mj-text>
           <mj-text>
             <ul>
-              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-fix-for-windows-server-crashes/">Microsoft releases emergency fix for Windows Server crashes</a></li>
-              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/security/mozilla-fixes-two-firefox-zero-day-bugs-exploited-at-pwn2own/">Mozilla fixes two Firefox zero-day bugs exploited at Pwn2Own</a></li>
-              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/exploit-released-for-fortinet-rce-bug-used-in-attacks-patch-now/">Exploit released for Fortinet RCE bug used in attacks, patch now</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5036892-update-released-with-23-new-fixes-changes/">Windows 10 KB5036892 update released with 23 new fixes, changes</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5036893-update-released-with-29-changes-moment-5-features/">Windows 11 KB5036893 update released with 29 changes, Moment 5 features</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2024-patch-tuesday-fixes-150-security-flaws-67-rces/">Microsoft April 2024 Patch Tuesday fixes 150 security flaws, 67 RCEs</a></li>
            </ul>
           </mj-text>
           <mj-spacer height="30px" />
           <mj-text mj-class="h2">#Tech and #Tools</mj-text>
           <mj-text>
             <ul>
-              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/new-gofetch-attack-on-apple-silicon-cpus-can-steal-crypto-keys/">New GoFetch attack on Apple Silicon CPUs can steal crypto keys</a></li>
-              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/microsoft/the-new-features-coming-in-windows-11-24h2-expected-this-fall/">The new features coming in Windows 11 24H2, expected this fall</a></li>
-              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/microsoft/new-windows-driver-blocks-software-from-changing-default-web-browser/">New Windows driver blocks software from changing default web browser</a></li>
+              <li><a class="lnk-blue" href="https://www.bleepingcomputer.com/news/security/apple-mercenary-spyware-attacks-target-iphone-users-in-92-countries/">Apple: Mercenary spyware attacks target iPhone users in 92 countries</a></li>
+              <li><a class="lnk-pink" href="https://www.bleepingcomputer.com/news/technology/opentable-is-adding-your-first-name-to-previously-anonymous-reviews/">OpenTable is adding your first name to previously anonymous reviews</a></li>
+              <li><a class="lnk-green" href="https://www.bleepingcomputer.com/news/security/chrome-enterprise-gets-premium-security-but-you-have-to-pay-for-it/">Chrome Enterprise gets Premium security but you have to pay for it</a></li>
            </ul>
           </mj-text>
         </mj-column>
       </mj-section>
-
       <mj-section background-color="#fff">
         <mj-column>
           <mj-image src="https://news.infosecgur.us/assets/header-border.jpg"></mj-image>
