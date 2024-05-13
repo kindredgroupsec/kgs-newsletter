@@ -6,4 +6,4 @@ http://news.infosecgur.us/*   https:/news.infosecgur.us/:splat 301
 /2020-*                       /archives/2020-:splat 301
 /2021-*                       /archives/2021-:splat 301
 /2022-*                       /archives/2022-:splat 301
-/latest                       /2024-05-06   301!
+/latest                       /2024-05-13   301!
